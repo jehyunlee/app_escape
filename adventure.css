@@ -1,0 +1,571 @@
+:root {
+  --adventure-night: #171626;
+  --adventure-panel: #232133;
+  --adventure-line: #4b4262;
+  --adventure-gold: #e4c58d;
+  --adventure-purple: #d0bcff;
+  --adventure-ink: #f5f0e8;
+  --adventure-muted: #c2b8d2;
+}
+
+/* Shared avatar contracts ------------------------------------------------ */
+.avatar-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  filter: drop-shadow(0 8px 10px rgb(8 5 20 / 28%));
+}
+
+.avatar-art .avatar-accessory {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.avatar-preview {
+  display: grid;
+  place-items: center;
+  min-height: 170px;
+  padding: 14px;
+  border: 1px solid var(--adventure-line);
+  border-radius: 16px;
+  background: radial-gradient(circle at 50% 18%, #443562, #211c31 72%);
+}
+
+.avatar-preview > .avatar-art {
+  max-width: 170px;
+}
+
+.avatar-shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.avatar-shop-card {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid var(--adventure-line);
+  border-radius: 12px;
+  color: var(--adventure-ink);
+  background: var(--adventure-panel);
+  text-align: left;
+}
+
+.avatar-shop-card:hover,
+.avatar-shop-card:focus-visible {
+  border-color: var(--adventure-gold);
+}
+
+.avatar-shop-card.is-equipped,
+.avatar-shop-card[aria-pressed="true"] {
+  border-color: var(--adventure-gold);
+  box-shadow: 0 0 0 2px rgb(228 197 141 / 20%);
+}
+
+.avatar-shop-card:disabled,
+.avatar-shop-card[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/* 3-D travel scene -------------------------------------------------------- */
+.travel-overlay {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--adventure-ink);
+  background: #100e1d;
+  overscroll-behavior: contain;
+}
+
+.travel-overlay::after {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background: radial-gradient(
+    ellipse at center,
+    transparent 35%,
+    rgb(8 6 18 / 72%) 100%
+  );
+}
+
+.travel-scene {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  perspective: 1100px;
+  perspective-origin: 50% 47%;
+  background: radial-gradient(
+    ellipse at 50% 42%,
+    #3b2a55 0%,
+    #1d1930 46%,
+    #100e1d 100%
+  );
+}
+
+.travel-scene::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  opacity: 0.58;
+  background-image:
+    radial-gradient(circle at 15% 22%, #f6dca8 0 1px, transparent 1.6px),
+    radial-gradient(circle at 76% 18%, #d9c8ff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 44% 11%, #f6dca8 0 1px, transparent 1.6px),
+    radial-gradient(circle at 88% 42%, #d9c8ff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 24% 52%, #f6dca8 0 1px, transparent 1.6px);
+}
+
+.travel-camera,
+.travel-world,
+.travel-corridor {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.travel-camera {
+  transform: translateZ(0);
+}
+
+.travel-world,
+.travel-corridor {
+  will-change: transform;
+}
+
+.travel-floor,
+.travel-ceiling,
+.travel-wall,
+.travel-rear-glow,
+.travel-arch,
+.travel-window,
+.travel-lamp,
+.travel-doorway {
+  position: absolute;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.travel-floor {
+  top: calc(47% + 280px);
+  left: 50%;
+  width: 840px;
+  height: 1600px;
+  transform: translateX(-50%) translateZ(-1600px) rotateX(90deg);
+  transform-origin: 50% 0;
+  border-top: 2px solid #8b6e88;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 49.5%,
+      rgb(227 190 130 / 32%) 50%,
+      transparent 50.5%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgb(113 82 123 / 30%) 0 2px,
+      transparent 2px 116px
+    ),
+    repeating-linear-gradient(0deg, #2b2341 0 42px, #36294c 42px 45px);
+  box-shadow: 0 -18px 35px rgb(13 8 27 / 65%);
+}
+
+.travel-ceiling {
+  top: calc(47% - 280px);
+  left: 50%;
+  width: 840px;
+  height: 1600px;
+  transform: translateX(-50%) translateZ(-1600px) rotateX(90deg);
+  transform-origin: 50% 0;
+  backface-visibility: visible;
+  border-bottom: 2px solid #766078;
+  background: repeating-linear-gradient(
+    90deg,
+    #211a34 0 110px,
+    #302241 110px 114px
+  );
+  box-shadow: 0 18px 34px rgb(9 6 21 / 70%);
+}
+
+.travel-wall {
+  top: calc(47% - 280px);
+  width: 1600px;
+  height: 560px;
+  backface-visibility: visible;
+  border: 2px solid #6d5578;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(16 12 31 / 72%),
+      rgb(67 44 75 / 72%) 52%,
+      rgb(35 24 54 / 85%)
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 88px,
+      rgb(231 192 132 / 15%) 89px 91px
+    ),
+    linear-gradient(#402c50, #1e1830);
+  box-shadow: inset 0 0 45px rgb(17 10 32 / 70%);
+}
+
+.travel-wall-left {
+  left: calc(50% - 420px);
+  transform-origin: left top;
+  transform: rotateY(90deg);
+}
+
+.travel-wall-right {
+  left: calc(50% + 420px);
+  transform-origin: left top;
+  transform: rotateY(90deg);
+}
+
+.travel-rear-glow {
+  top: 30%;
+  left: 50%;
+  width: min(52vw, 560px);
+  height: min(48vh, 370px);
+  transform: translate(-50%, -50%) translateZ(-1100px);
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgb(231 188 117 / 42%), transparent 70%);
+  filter: blur(18px);
+}
+
+.travel-arch {
+  top: 47%;
+  left: 50%;
+  width: 840px;
+  height: 560px;
+  transform: translate(-50%, -50%) translateZ(var(--travel-depth, -400px));
+  border: 18px solid #685175;
+  border-bottom-width: 24px;
+  border-radius: 20% 20% 3% 3%;
+  box-shadow:
+    0 0 0 4px rgb(221 181 120 / 30%),
+    inset 0 0 0 3px rgb(232 196 135 / 25%),
+    0 0 32px rgb(13 7 26 / 64%);
+}
+
+.travel-arch::before {
+  position: absolute;
+  top: -21px;
+  right: 19%;
+  left: 19%;
+  height: 9px;
+  content: "";
+  border-radius: 8px;
+  background: linear-gradient(90deg, #bb8a62, #f0cc87, #bb8a62);
+  box-shadow: 0 0 15px rgb(236 193 115 / 50%);
+}
+
+.travel-arch::after {
+  position: absolute;
+  right: 16%;
+  bottom: -28px;
+  left: 16%;
+  height: 16px;
+  content: "";
+  border-radius: 0 0 10px 10px;
+  background: #3a2a4c;
+}
+
+.travel-window {
+  top: 30%;
+  width: 72px;
+  height: 108px;
+  border: 5px solid #9e7390;
+  border-radius: 45% 45% 10% 10%;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 46%,
+      rgb(232 196 137 / 68%) 48% 52%,
+      transparent 54%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 46%,
+      rgb(232 196 137 / 68%) 48% 52%,
+      transparent 54%
+    ),
+    radial-gradient(circle at 48% 45%, #f3d591, #6e5b9b 33%, #2d2853 70%);
+  box-shadow: 0 0 24px rgb(215 174 114 / 42%);
+  transform: translate(-50%, -50%)
+    translateZ(var(--travel-window-depth, -350px));
+}
+
+.travel-window-left {
+  left: 19%;
+  transform: translate(-50%, -50%) rotateY(28deg)
+    translateZ(var(--travel-window-depth, -350px));
+}
+
+.travel-window-right {
+  right: 19%;
+  transform: translate(50%, -50%) rotateY(-28deg)
+    translateZ(var(--travel-window-depth, -350px));
+}
+
+.travel-lamp {
+  top: 17%;
+  left: 50%;
+  width: 13px;
+  height: 13px;
+  transform: translate(-50%, -50%) translateZ(var(--travel-lamp-depth, -350px));
+  border-radius: 50%;
+  background: #f9dda0;
+  box-shadow:
+    0 0 12px 6px rgb(246 199 121 / 48%),
+    0 0 42px 8px rgb(199 143 97 / 22%);
+}
+
+.travel-doorway {
+  top: 50%;
+  left: 50%;
+  width: min(59vw, 600px);
+  height: min(86vh, 660px);
+  transform: translate(-50%, -50%) translateZ(var(--travel-depth, -1260px));
+  border: 25px solid #795782;
+  border-bottom-width: 30px;
+  border-radius: 19% 19% 3% 3%;
+  background: radial-gradient(
+    ellipse at 50% 42%,
+    #e8c783 0,
+    #8b6685 15%,
+    #2a2044 47%,
+    #130e23 72%
+  );
+  box-shadow:
+    0 0 0 5px rgb(232 194 127 / 44%),
+    inset 0 0 44px rgb(8 5 18 / 76%),
+    0 0 42px rgb(228 186 116 / 45%);
+}
+
+.travel-doorway::before {
+  position: absolute;
+  top: -30px;
+  right: 17%;
+  left: 17%;
+  height: 12px;
+  content: "";
+  border-radius: 10px;
+  background: linear-gradient(90deg, #bf8b62, #f3d28f, #bf8b62);
+  box-shadow: 0 0 21px rgb(243 205 136 / 72%);
+}
+
+.travel-doorway::after {
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  width: 2px;
+  height: 100%;
+  content: "";
+  background: rgb(235 196 128 / 28%);
+}
+
+.travel-avatar {
+  position: absolute;
+  z-index: 1;
+  bottom: 34%;
+  left: 50%;
+  width: min(190px, 29vw);
+  min-width: 102px;
+  transform: translate3d(-50%, 0, -660px);
+  transform-style: preserve-3d;
+  transform-origin: center bottom;
+  pointer-events: none;
+  filter: drop-shadow(0 18px 15px rgb(8 5 20 / 56%));
+  will-change: transform;
+}
+
+.travel-avatar .avatar-art {
+  width: 100%;
+}
+
+.travel-hud {
+  position: absolute;
+  z-index: 3;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  left: 50%;
+  display: grid;
+  width: min(680px, calc(100% - 32px));
+  gap: 9px;
+  padding: 22px 24px 20px;
+  transform: translateX(-50%);
+  border: 1px solid rgb(224 188 127 / 48%);
+  border-radius: 18px;
+  background: rgb(23 18 39 / 86%);
+  box-shadow:
+    0 14px 42px rgb(7 4 18 / 58%),
+    inset 0 1px rgb(255 240 195 / 10%);
+  backdrop-filter: blur(10px);
+}
+
+.travel-eyebrow {
+  margin: 0;
+  color: var(--adventure-gold);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.travel-heading {
+  margin: 0;
+  color: var(--adventure-ink);
+  font-size: clamp(18px, 3vw, 25px);
+  line-height: 1.25;
+}
+
+.travel-route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  margin: 0;
+  color: var(--adventure-muted);
+  font-size: 13px;
+}
+
+.travel-route-point {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.travel-route-arrow {
+  flex: 0 0 auto;
+  color: var(--adventure-gold);
+  font-size: 18px;
+}
+
+.travel-progress-track {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #3a2f4f;
+  box-shadow: inset 0 1px 3px rgb(7 5 15 / 50%);
+}
+
+.travel-progress-bar {
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #9e74bd, var(--adventure-gold));
+  box-shadow: 0 0 12px rgb(226 182 110 / 65%);
+  transition: width 80ms linear;
+}
+
+.travel-status {
+  min-height: 1.3em;
+  margin: 0;
+  color: var(--adventure-muted);
+  font-size: 11px;
+}
+
+.travel-skip {
+  justify-self: end;
+  min-width: 104px;
+  padding: 9px 14px;
+  border: 1px solid rgb(228 197 141 / 70%);
+  border-radius: 9px;
+  color: var(--adventure-ink);
+  background: rgb(65 48 79 / 90%);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.travel-skip:hover {
+  background: #56416b;
+}
+
+.travel-skip:focus-visible {
+  outline: 3px solid var(--adventure-gold);
+  outline-offset: 3px;
+}
+
+.travel-overlay--reduced .travel-progress-bar {
+  transition-duration: 120ms;
+}
+
+.travel-overlay--reduced .travel-world,
+.travel-overlay--reduced .travel-avatar {
+  will-change: auto;
+}
+
+@media (max-width: 640px) {
+  .travel-scene {
+    perspective: 780px;
+    perspective-origin: 50% 42%;
+  }
+
+  .travel-window {
+    width: 48px;
+    height: 82px;
+  }
+
+  .travel-window-left {
+    left: 12%;
+  }
+
+  .travel-window-right {
+    right: 12%;
+  }
+
+  .travel-arch {
+    border-width: 13px;
+  }
+
+  .travel-doorway {
+    width: 83vw;
+    height: 76vh;
+    border-width: 17px;
+  }
+
+  .travel-avatar {
+    bottom: 38%;
+    width: 142px;
+  }
+
+  .travel-hud {
+    bottom: max(12px, env(safe-area-inset-bottom));
+    width: calc(100% - 20px);
+    padding: 17px 16px 15px;
+    border-radius: 14px;
+  }
+
+  .travel-route {
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .travel-progress-bar {
+    transition-duration: 0ms;
+  }
+
+  .travel-world,
+  .travel-avatar {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@supports (height: 100dvh) {
+  .travel-overlay,
+  .travel-scene {
+    min-height: 100dvh;
+  }
+}

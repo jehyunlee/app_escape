@@ -1,0 +1,62 @@
+.avatar-art {
+  overflow: visible;
+}
+
+.avatar-art .avatar-pose {
+  isolation: isolate;
+  transform-box: view-box;
+  transform-origin: 50% 72%;
+}
+
+.avatar-art .avatar-generated-base,
+.avatar-art .avatar-mask-tint,
+.avatar-art .avatar-accessory {
+  pointer-events: none;
+}
+
+.avatar-art[data-mood="happy"] .avatar-pose {
+  animation: avatar-celebrate 1.25s ease-in-out infinite;
+}
+
+.avatar-art[data-mood="sad"] .avatar-pose {
+  animation: avatar-downcast 1.4s ease-in-out infinite;
+}
+
+.avatar-art[data-mood="happy"] .avatar-generated-base {
+  filter: drop-shadow(0 0 7px rgb(255 222 130 / 42%));
+}
+
+.avatar-art[data-mood="sad"] .avatar-generated-base {
+  opacity: 0.9;
+}
+
+.avatar-art .avatar-accessory {
+  overflow: visible;
+}
+
+@keyframes avatar-celebrate {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-1.8deg);
+  }
+}
+
+@keyframes avatar-downcast {
+  0%,
+  100% {
+    transform: translateY(1px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(5px) rotate(1deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .avatar-art[data-mood="happy"] .avatar-pose,
+  .avatar-art[data-mood="sad"] .avatar-pose {
+    animation: none;
+  }
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171626" />
+    <title>머리아픈 방탈출 · 호그와트의 비밀</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="adventure.css" />
+    <link rel="stylesheet" href="room-renderer.css" />
+    <link rel="stylesheet" href="wizard-characters.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js",
+          "three/addons/": "./node_modules/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./"
+        ><span class="brand-mark" aria-hidden="true">H</span
+        ><span
+          >머리아픈 방탈출<small>HOGWARTS · THE SECRET TRAIL</small></span
+        ></a
+      >
+      <div class="header-inventory">
+        <span class="point-wallet" aria-label="보유 포인트"
+          ><strong id="point-count">0</strong> P</span
+        ><button id="bag-button" class="bag-button" aria-haspopup="dialog">
+          내 가방 <span id="bag-count">0</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">작은 마법사를 위한 두뇌 모험</p>
+          <h1>성의 비밀을 풀 열쇠는,<br /><em>네가 알고 있는 것들.</em></h1>
+          <p class="hero-copy">
+            물건을 살펴보고, 숨은 문제를 풀고, 다음 방을 찾아요.<br />열 개의 방
+            너머로 나만의 마법 같은 모험이 시작돼요.
+          </p>
+          <div class="hero-tags">
+            <span>10레벨 · 각 20문제</span><span>15개 정답이면 통과</span
+            ><span>가족 캐릭터 · 영어 중3</span>
+          </div>
+        </div>
+        <img
+          class="castle-reference"
+          src="assets/hogwarts-reference.webp"
+          alt="푸른 달빛과 따뜻한 창문 불빛이 비치는 호그와트 성"
+          width="1800"
+          height="1012"
+          fetchpriority="high"
+        />
+      </section>
+      <section class="journey" aria-label="모험 진행 상황">
+        <div class="section-heading">
+          <h2>나의 탐험 기록</h2>
+          <span id="progress-label"></span>
+        </div>
+        <ol id="level-map"></ol>
+      </section>
+      <div class="game-layout">
+        <section
+          id="game"
+          class="game-card"
+          aria-label="현재 방의 문제"
+        ></section>
+        <aside>
+          <section class="player-card" aria-label="나의 마법사">
+            <div id="player-avatar"></div>
+            <div>
+              <p class="eyebrow">MY WIZARD</p>
+              <div class="player-identity">
+                <span id="player-portrait"></span>
+                <h2 id="player-name">캐릭터를 골라요</h2>
+              </div>
+              <strong id="player-points">0 P</strong>
+              <p>정답 보상: 쉬움 10 · 보통 20 · 도전 30 P</p>
+            </div>
+          </section>
+          <section class="guide-card">
+            <p class="eyebrow">HOW TO PLAY</p>
+            <h2>탈출의 세 가지 법칙</h2>
+            <ol>
+              <li>
+                <strong>물건 속 문제를 찾아요</strong
+                ><span
+                  >방 안의 물건 20개를 원하는 순서로 눌러요. 20문제 중 15개 이상
+                  맞히면 통과해요.</span
+                >
+              </li>
+              <li>
+                <strong>가방에 단서를 모아요</strong
+                ><span
+                  >정답 5·10·15개에 단서를 얻어요. 재도전해도 단서와 포인트는
+                  유지돼요.</span
+                >
+              </li>
+              <li>
+                <strong>다음 방을 찾아요</strong
+                ><span>장소를 고르고 의상을 확인하면 3D 통로로 이동해요.</span>
+              </li>
+            </ol>
+          </section>
+          <section class="clue-card">
+            <span class="eyebrow">이번 방에서 찾은 단서</span>
+            <div id="current-clues"></div>
+            <p>
+              가방은 언제나 함께해요.<br />지나온 방의 단서도 잃어버리지 않아요.
+            </p>
+          </section>
+          <p id="save-status" class="save-status"></p>
+          <button id="reset-button" class="text-button">
+            처음부터 다시 시작
+          </button>
+        </aside>
+      </div>
+      <footer>
+        호그와트를 배경으로 한 비공식 학습 팬 게임 · 외부 계정 없이 이 기기에만
+        저장돼요.<br />과학 문제는 식물·동물 관찰과 기초 개념 중심이며, 학교
+        교과서의 단원 순서와 다를 수 있어요. <br />배경·캐릭터: OpenAI GPT Image
+        생성 · 3D 연출: Three.js · 전경:
+        <a
+          href="https://cdn.sortiraparis.com/images/80/66131/855789-harry-potter-hogwarts-legacy-se-devoile-dans-sa-bande-annonce-de-lancement.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+          >사용자 제공 참고 이미지</a
+        >
+      </footer>
+    </main>
+    <dialog id="bag-dialog" aria-labelledby="bag-title">
+      <div class="dialog-heading">
+        <h2 id="bag-title">내가 메고 다니는 가방</h2>
+        <button id="close-bag" aria-label="가방 닫기">닫기</button>
+      </div>
+      <p>단서가 쌓이면 길이 보여요. 모든 방의 단서를 여기서 확인해요.</p>
+      <div id="bag-content"></div>
+    </dialog>
+    <dialog id="reset-dialog" aria-labelledby="reset-title">
+      <h2 id="reset-title">새 모험을 시작할까요?</h2>
+      <p>
+        캐릭터를 다시 선택하고 새로운 문제로 시작해요. 저장된 점수, 포인트,
+        구매한 물건과 단서는 모두 지워져요.
+      </p>
+      <div class="dialog-actions">
+        <button id="cancel-reset">계속 모험하기</button
+        ><button id="confirm-reset" class="primary">지우고 다시 시작</button>
+      </div>
+    </dialog>
+    <dialog
+      id="purchase-dialog"
+      aria-labelledby="purchase-title"
+      aria-describedby="purchase-description purchase-status"
+    >
+      <h2 id="purchase-title">진짜 살건가요?</h2>
+      <p id="purchase-description"></p>
+      <p id="purchase-status" role="status"></p>
+      <div class="purchase-actions">
+        <button id="confirm-purchase" class="primary">네</button>
+        <button id="cancel-purchase" autofocus>아니오</button>
+      </div>
+    </dialog>
+    <dialog id="question-dialog" aria-labelledby="question-modal-title">
+      <div class="dialog-heading">
+        <h2 id="question-modal-title" tabindex="-1">물건 속에 숨겨진 문제</h2>
+        <button id="close-question">방으로 돌아가기</button>
+      </div>
+      <div class="question-with-avatar">
+        <div id="question-character"></div>
+        <div id="question-content"></div>
+      </div>
+    </dialog>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

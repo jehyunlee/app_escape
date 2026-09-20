@@ -1,0 +1,62 @@
+{
+  "dad-neutral": {
+    "robe": 85903,
+    "skin": 33092,
+    "eyes": 1032
+  },
+  "dad-happy": {
+    "robe": 88827,
+    "skin": 35352,
+    "eyes": 0
+  },
+  "dad-sad": {
+    "robe": 80160,
+    "skin": 32959,
+    "eyes": 1027
+  },
+  "mom-neutral": {
+    "robe": 58749,
+    "skin": 19021,
+    "eyes": 494
+  },
+  "mom-happy": {
+    "robe": 57522,
+    "skin": 20328,
+    "eyes": 0
+  },
+  "mom-sad": {
+    "robe": 60590,
+    "skin": 19308,
+    "eyes": 514
+  },
+  "jeongan-neutral": {
+    "robe": 86792,
+    "skin": 20030,
+    "eyes": 1013
+  },
+  "jeongan-happy": {
+    "robe": 77107,
+    "skin": 20719,
+    "eyes": 0
+  },
+  "jeongan-sad": {
+    "robe": 72737,
+    "skin": 16658,
+    "eyes": 885
+  },
+  "suan-neutral": {
+    "robe": 124517,
+    "skin": 25722,
+    "eyes": 780
+  },
+  "suan-happy": {
+    "robe": 119239,
+    "skin": 23580,
+    "eyes": 0
+  },
+  "suan-sad": {
+    "robe": 103794,
+    "skin": 25308,
+    "eyes": 680
+  }
+}
