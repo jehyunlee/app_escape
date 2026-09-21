@@ -49,8 +49,11 @@ const categoryNames = {
   clothes: "옷",
   accessory: "액세서리",
 };
+const SLOT_KEY = "headache-escape-slots-v1";
+const SLOT_COUNT = 5;
 let state = freshState();
 let canSave = true;
+let slotMode = "save";
 let traveling = false;
 let pendingItem = null;
 let shopCategory = "eyes";
@@ -72,6 +75,122 @@ function save() {
     canSave = false;
   }
   renderStatus();
+}
+function readSlots() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(SLOT_KEY) || "[]");
+    if (!Array.isArray(parsed)) return Array(SLOT_COUNT).fill(null);
+    return Array.from({ length: SLOT_COUNT }, (_, index) => {
+      const entry = parsed[index];
+      if (
+        !entry ||
+        entry.version !== 1 ||
+        typeof entry.savedAt !== "string" ||
+        !entry.state ||
+        entry.state.version !== 4
+      )
+        return null;
+      const restored = restoreState(JSON.stringify(entry.state));
+      return restored.seed === entry.state.seed ? { ...entry, state: restored } : null;
+    });
+  } catch {
+    return Array(SLOT_COUNT).fill(null);
+  }
+}
+function writeSlots(slots) {
+  try {
+    localStorage.setItem(SLOT_KEY, JSON.stringify(slots.slice(0, SLOT_COUNT)));
+    canSave = true;
+    return true;
+  } catch {
+    canSave = false;
+    renderStatus();
+    return false;
+  }
+}
+function slotSummary(entry) {
+  if (!entry) return "비어 있음";
+  const character = characters.find(
+    (candidate) => candidate.id === entry.state.characterId,
+  );
+  const progress =
+    entry.state.phase === "complete"
+      ? "모든 방 탈출 완료"
+      : `LEVEL ${entry.state.level + 1} · ${levels[entry.state.level].place}`;
+  const date = new Date(entry.savedAt);
+  const savedAt = Number.isNaN(date.getTime())
+    ? "저장 시간 알 수 없음"
+    : date.toLocaleString();
+  return `${character ? character.name : "캐릭터 미선택"} · ${progress} · ${savedAt}`;
+}
+function renderSlots(message = "") {
+  const slots = readSlots();
+  $("#save-dialog-title").textContent =
+    slotMode === "save" ? "게임 저장" : "게임 불러오기";
+  $("#save-dialog-description").textContent =
+    slotMode === "save"
+      ? "현재 진행을 이 브라우저에 최대 5개까지 저장할 수 있어요."
+      : "이 브라우저에 저장한 진행을 불러와요.";
+  $("#slot-status").textContent = message;
+  $("#save-slots").innerHTML = slots
+    .map(
+      (entry, index) =>
+        `<section class="save-slot" data-slot="${index}"><div><h3>저장 ${index + 1}</h3><p>${escape(slotSummary(entry))}</p></div><div class="slot-actions">${
+          slotMode === "save"
+            ? `<button class="primary save-slot-button" data-save-slot="${index}">${entry ? "덮어쓰기" : "저장하기"}</button>`
+            : `<button class="primary load-slot-button" data-load-slot="${index}" ${entry ? "" : "disabled"}>불러오기</button>`
+        }${entry ? `<button class="delete-slot" data-delete-slot="${index}">삭제</button>` : ""}</div></section>`,
+    )
+    .join("");
+  document.querySelectorAll("[data-save-slot]").forEach((button) => {
+    button.onclick = () => {
+      const index = Number(button.dataset.saveSlot);
+      const current = readSlots();
+      if (
+        current[index] &&
+        !window.confirm(`저장 ${index + 1}의 기존 기록을 덮어쓸까요?`)
+      )
+        return;
+      current[index] = {
+        version: 1,
+        savedAt: new Date().toISOString(),
+        state: JSON.parse(JSON.stringify(state)),
+      };
+      if (writeSlots(current))
+        renderSlots(`저장 ${index + 1}에 현재 진행을 저장했어요.`);
+    };
+  });
+  document.querySelectorAll("[data-load-slot]").forEach((button) => {
+    button.onclick = () => {
+      const index = Number(button.dataset.loadSlot);
+      const entry = readSlots()[index];
+      if (
+        !entry ||
+        !window.confirm(
+          `현재 진행을 바꾸고 저장 ${index + 1}의 기록을 불러올까요?`,
+        )
+      )
+        return;
+      $("#save-dialog").close();
+      pendingCharacter = null;
+      update(restoreState(JSON.stringify(entry.state)));
+    };
+  });
+  document.querySelectorAll("[data-delete-slot]").forEach((button) => {
+    button.onclick = () => {
+      const index = Number(button.dataset.deleteSlot);
+      if (!window.confirm(`저장 ${index + 1}의 기록을 삭제할까요?`)) return;
+      const current = readSlots();
+      current[index] = null;
+      if (writeSlots(current))
+        renderSlots(`저장 ${index + 1}의 기록을 삭제했어요.`);
+    };
+  });
+}
+function openSlots(mode) {
+  slotMode = mode;
+  renderSlots();
+  $("#save-dialog").showModal();
 }
 function update(next, moveFocus = true) {
   state = next;
@@ -436,6 +555,9 @@ $("#confirm-purchase").onclick = () => {
 };
 $("#bag-button").onclick = () => $("#bag-dialog").showModal();
 $("#close-bag").onclick = () => $("#bag-dialog").close();
+$("#save-button").onclick = () => openSlots("save");
+$("#load-button").onclick = () => openSlots("load");
+$("#close-save-dialog").onclick = () => $("#save-dialog").close();
 $("#reset-button").onclick = () => $("#reset-dialog").showModal();
 $("#cancel-reset").onclick = () => $("#reset-dialog").close();
 $("#confirm-reset").onclick = () => {
