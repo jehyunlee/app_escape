@@ -13,6 +13,7 @@ import {
   roomById,
   destinationRoom,
   destinationChoices,
+  stageNarrative,
 } from "./rooms.js";
 import {
   SAVE_KEY,
@@ -352,7 +353,7 @@ function renderRoom() {
   const level = levels[state.level];
   const room = currentRoom(state);
   $("#challenge").innerHTML =
-    `<p class="intro">${escape(room.description)}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>20개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / 20</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 15개</span></div>`;
+    `<p class="intro">${escape(room.description)}</p><p class="stage-narrative" data-stage-index="${state.level}">${escape(stageNarrative(state))}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>20개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / 20</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 15개</span></div>`;
   const host = $("#room-host");
   const frame = document.createElement("div");
   frame.className = "room-and-companion";

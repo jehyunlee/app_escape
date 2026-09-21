@@ -10,6 +10,7 @@ import {
   destinationChoices,
   currentRoom,
   EXIT_ROOM,
+  stageNarrative,
 } from "../rooms.js";
 import {
   freshState,
@@ -121,6 +122,47 @@ test("every new game draws a distinct ten-room route from the 200-space pool", (
     currentRoom(chooseCharacter(freshState(7), "dad")).id,
     makeRoute(7)[0],
   );
+});
+test("room texts never assert a position in the journey; the stage line does", () => {
+  // Any room can be first or last, so its own copy must not claim otherwise.
+  const positional =
+    /마지막 (관문|방|장소|시험)|첫 (번째 )?(방|장소|관문)|모험이 시작|모험의 끝|드디어 탈출|탈출에 성공/;
+  for (const room of rooms)
+    assert.doesNotMatch(
+      room.name + " " + room.description,
+      positional,
+      room.id,
+    );
+  const state = chooseCharacter(freshState(99), "dad");
+  const lines = [];
+  for (let level = 0; level < 10; level++) {
+    const line = stageNarrative({ ...state, level });
+    lines.push(line);
+    assert.doesNotMatch(line, /undefined|\$\{/);
+    if (level === 0) assert.match(line, /모험이 시작/);
+    else assert.doesNotMatch(line, /모험이 시작/);
+    if (level === 9)
+      assert.match(line, new RegExp(`마지막 관문.*${EXIT_ROOM.name}`));
+    else assert.doesNotMatch(line, /마지막 관문이에요/);
+    if (level > 0 && level < 9)
+      assert.match(line, new RegExp(`${level + 1}번째|아홉 번째`));
+  }
+  assert.equal(new Set(lines).size, 10);
+  // Particles follow the final consonant of the setting word.
+  const gate = rooms.find((room) => room.themeId === 10);
+  const hall = rooms.find((room) => room.themeId === 3);
+  const corridor = rooms.find((room) => room.themeId === 9);
+  const at = (room, level) =>
+    stageNarrative({
+      ...state,
+      level,
+      route: state.route.map((id, index) => (index === level ? room.id : id)),
+    });
+  assert.match(at(gate, 9), /이 관문이 마지막/);
+  assert.match(at(hall, 9), /이 홀이 마지막/);
+  assert.match(at(corridor, 9), /이 통로가 마지막/);
+  assert.match(at(corridor, 4), /이 통로는 5번째/);
+  assert.match(at(gate, 4), /이 관문은 5번째/);
 });
 test("layout seeds vary by run stage and retry but stay stable on resume", () => {
   const state = start();

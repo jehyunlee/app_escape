@@ -66,6 +66,39 @@ export function destinationRoom(state, stage = state.level) {
     ? roomById(state.route[stage + 1])
     : EXIT_ROOM;
 }
+const THEME_SETTING = Object.freeze({
+  1: "이 교실",
+  2: "이 온실",
+  3: "이 홀",
+  4: "이 숲길",
+  5: "이 탑",
+  6: "이 둥지",
+  7: "이 서고",
+  8: "이 관측소",
+  9: "이 통로",
+  10: "이 관문",
+});
+/**
+ * Rooms are drawn in random order, so their own text never says where they
+ * fall in the journey. This line adds that context from the actual stage.
+ */
+// Pick the particle by whether the last Hangul syllable ends in a consonant.
+const particle = (word, withFinal, withoutFinal) =>
+  (word.charCodeAt(word.length - 1) - 0xac00) % 28 ? withFinal : withoutFinal;
+export function stageNarrative(state) {
+  const room = currentRoom(state);
+  const setting = THEME_SETTING[room.themeId];
+  const subject = setting + particle(setting, "이", "가");
+  const topic = setting + particle(setting, "은", "는");
+  const remaining = ROUTE_LENGTH - state.level - 1;
+  if (state.level === 0)
+    return `${setting}에서 모험이 시작돼요. 첫 번째 자물쇠를 열면 다음 장소의 단서가 나타나요.`;
+  if (state.level === ROUTE_LENGTH - 1)
+    return `${subject} 마지막 관문이에요. 여기를 지나면 ${EXIT_ROOM.name}으로 나갈 수 있어요.`;
+  if (remaining === 1)
+    return `${topic} 아홉 번째 방이에요. 이제 마지막 관문까지 한 곳 남았어요.`;
+  return `${topic} ${state.level + 1}번째 방이에요. 남은 방은 ${remaining}곳이에요.`;
+}
 export function destinationChoices(state) {
   const destination = destinationRoom(state);
   // Exclude the entire actual route from distractors: the word box cannot
