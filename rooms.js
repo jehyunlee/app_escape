@@ -1,4 +1,5 @@
-import catalog from "./rooms-catalog.json" with { type: "json" };
+// Lives under assets/ so every static publisher ships it alongside the images.
+import catalog from "./assets/rooms-catalog.json" with { type: "json" };
 
 export const ROUTE_LENGTH = 10;
 export const rooms = Object.freeze(

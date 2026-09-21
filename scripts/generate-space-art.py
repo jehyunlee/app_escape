@@ -1,4 +1,4 @@
-"""Generate one OpenAI image per room in rooms-catalog.json into assets/spaces/."""
+"""Generate one OpenAI image per room in assets/rooms-catalog.json into assets/spaces/."""
 import argparse
 import base64
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -23,7 +23,7 @@ STYLE = ('Create a high-end cinematic environment artwork for an educational fan
 
 
 def load_rooms():
-    return json.loads((ROOT / 'rooms-catalog.json').read_text(encoding='utf-8'))
+    return json.loads((ROOT / 'assets' / 'rooms-catalog.json').read_text(encoding='utf-8'))
 
 
 def generate(room, quality):

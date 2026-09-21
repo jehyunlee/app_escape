@@ -20,7 +20,17 @@ const { chromium } = require("playwright");
       process.env.ESCAPE_URL || "http://127.0.0.1:4173/",
     );
     assert.equal(response.status(), 200);
-    await page.locator("[data-character-id]").first().waitFor();
+    // A silently filtered data file leaves an empty game; fail loudly instead.
+    await page
+      .locator("[data-character-id]")
+      .first()
+      .waitFor({ timeout: 15000 })
+      .catch(() => {
+        throw new Error(
+          "character selection never rendered; errors: " +
+            JSON.stringify(errors),
+        );
+      });
     assert.equal(await page.locator("[data-character-id]").count(), 4);
     await page.locator("[data-character-id]").first().click();
     await page.locator("#start-adventure").click();
