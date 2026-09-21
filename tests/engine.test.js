@@ -4,6 +4,14 @@ import { levels, questionPool, questionById } from "../levels.js";
 import { catalog } from "../avatar.js";
 import { characters } from "../characters.js";
 import {
+  rooms,
+  makeRoute,
+  destinationRoom,
+  destinationChoices,
+  currentRoom,
+  EXIT_ROOM,
+} from "../rooms.js";
+import {
   freshState,
   chooseCharacter,
   restoreState,
@@ -67,6 +75,53 @@ test("avatar reactions reflect the actual answer and survive feedback reload", (
   assert.equal(avatarMood(completeRound(start(), 14)), "sad");
   assert.equal(avatarMood(completeRound(start(), 15)), "happy");
 });
+test("every new game draws a distinct ten-room route from the 200-space pool", () => {
+  assert.equal(rooms.length, 200);
+  assert.equal(new Set(rooms.map((room) => room.id)).size, 200);
+  assert.equal(new Set(rooms.map((room) => room.name)).size, 200);
+  const routes = new Set();
+  for (let seed = 1; seed <= 300; seed++) {
+    const state = chooseCharacter(freshState(seed), "mom");
+    assert.deepEqual(state.route, makeRoute(seed));
+    assert.equal(new Set(state.route).size, 10);
+    routes.add(state.route.join(","));
+    assert.deepEqual(restoreState(JSON.stringify(state)).route, state.route);
+    for (let level = 0; level < 10; level++) {
+      const staged = { ...state, level };
+      const destination = destinationRoom(staged);
+      assert.equal(
+        destination,
+        level === 9
+          ? EXIT_ROOM
+          : rooms.find((room) => room.id === state.route[level + 1]),
+      );
+      const choices = destinationChoices(staged);
+      assert.equal(choices.length, 3);
+      assert.equal(new Set(choices.map((room) => room.id)).size, 3);
+      assert.ok(choices.includes(destination));
+      for (const other of choices.filter((room) => room !== destination)) {
+        assert.ok(
+          !state.route.includes(other.id),
+          "distractors never reveal a later room",
+        );
+        assert.ok(
+          !other.clues.some((clue) => destination.clues.includes(clue)),
+          "clue words identify one option",
+        );
+      }
+      assert.deepEqual(
+        destinationChoices(staged),
+        choices,
+        "options are stable on reload",
+      );
+    }
+  }
+  assert.ok(routes.size > 290, "routes differ between games");
+  assert.equal(
+    currentRoom(chooseCharacter(freshState(7), "dad")).id,
+    makeRoute(7)[0],
+  );
+});
 test("layout seeds vary by run stage and retry but stay stable on resume", () => {
   const state = start();
   assert.equal(
@@ -96,7 +151,7 @@ function completeRound(state = start(), correct = 20) {
 }
 function outfitState() {
   const state = openDestination(completeRound());
-  return chooseDestination(state, levels[state.level].destination).state;
+  return chooseDestination(state, destinationRoom(state).id).state;
 }
 function roundtrip(state) {
   assert.deepEqual(restoreState(JSON.stringify(state)), state);
@@ -123,7 +178,6 @@ test("all stages have substantial static pools and valid unique questions", () =
       pool.length,
       `level ${level.id} distinct prompts`,
     );
-    assert.ok(level.choices.includes(level.destination));
     for (const answer of [0, 1, 2, 3]) {
       assert.ok(
         pool.filter((question) => question.answer === answer).length <=
@@ -131,7 +185,6 @@ test("all stages have substantial static pools and valid unique questions", () =
         `level ${level.id}: a fixed answer must not dominate`,
       );
     }
-    if (index < 9) assert.equal(level.destination, levels[index + 1].place);
     for (const question of pool) {
       assert.ok(
         question.id && !ids.has(question.id),
@@ -381,7 +434,7 @@ test("all 200 questions can be completed in arbitrary order across 10 stages", (
     assert.equal(inventory(state).length, (index + 1) * 3);
     state = chooseDestination(
       openDestination(state),
-      levels[index].destination,
+      destinationRoom(state).id,
     ).state;
     state = finishTravel(beginTravel(state));
     roundtrip(state);
@@ -404,6 +457,7 @@ test("corrupt saves cannot invent deck objects, scores, characters or purchases"
   for (const patch of [
     { version: 2 },
     { version: 3 },
+    { version: 4 },
     { seed: -1 },
     { level: 10 },
     { attempt: -1 },

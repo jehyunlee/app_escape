@@ -8,7 +8,15 @@ import {
 import { playTravel } from "./travel.js";
 import { createRoomView } from "./room-renderer.js";
 import {
+  rooms,
+  currentRoom,
+  roomById,
+  destinationRoom,
+  destinationChoices,
+} from "./rooms.js";
+import {
   SAVE_KEY,
+  SAVE_VERSION,
   POINTS,
   freshState,
   restoreState,
@@ -49,7 +57,7 @@ const categoryNames = {
   clothes: "옷",
   accessory: "액세서리",
 };
-const SLOT_KEY = "headache-escape-slots-v1";
+const SLOT_KEY = "headache-escape-slots-v2";
 const SLOT_COUNT = 5;
 let state = freshState();
 let canSave = true;
@@ -61,6 +69,7 @@ let pendingCharacter = null;
 let roomView = null;
 let roomViewLevel = null;
 let roomViewLayoutSeed = null;
+let roomViewId = null;
 try {
   state = restoreState(localStorage.getItem(SAVE_KEY));
 } catch {
@@ -87,11 +96,13 @@ function readSlots() {
         entry.version !== 1 ||
         typeof entry.savedAt !== "string" ||
         !entry.state ||
-        entry.state.version !== 4
+        entry.state.version !== SAVE_VERSION
       )
         return null;
       const restored = restoreState(JSON.stringify(entry.state));
-      return restored.seed === entry.state.seed ? { ...entry, state: restored } : null;
+      return restored.seed === entry.state.seed
+        ? { ...entry, state: restored }
+        : null;
     });
   } catch {
     return Array(SLOT_COUNT).fill(null);
@@ -116,7 +127,9 @@ function slotSummary(entry) {
   const progress =
     entry.state.phase === "complete"
       ? "모든 방 탈출 완료"
-      : `LEVEL ${entry.state.level + 1} · ${levels[entry.state.level].place}`;
+      : entry.state.phase === "character"
+        ? "캐릭터 선택 대기"
+        : `LEVEL ${entry.state.level + 1} · ${currentRoom(entry.state).name}`;
   const date = new Date(entry.savedAt);
   const savedAt = Number.isNaN(date.getTime())
     ? "저장 시간 알 수 없음"
@@ -199,7 +212,7 @@ function update(next, moveFocus = true) {
 }
 function renderStatus() {
   $("#save-status").textContent = canSave
-    ? "점수·포인트·의상이 이 브라우저에 자동 저장돼요."
+    ? "탐험 경로·점수·포인트·의상이 이 브라우저에 자동 저장돼요."
     : "저장 공간을 사용할 수 없어요. 창을 닫으면 진행이 사라질 수 있어요.";
 }
 function chips(items) {
@@ -227,7 +240,7 @@ function renderSidebars() {
   $("#level-map").innerHTML = levels
     .map(
       (level, index) =>
-        `<li class="${state.phase === "complete" || index < state.level ? "map-done" : index === state.level ? "map-current" : ""}" ${state.phase !== "complete" && index === state.level ? 'aria-current="step"' : ""}><span class="map-number">${state.phase === "complete" || index < state.level ? "✓" : index <= state.level ? level.id : "?"}</span>${index <= state.level ? escape(level.place) : "미지의 방"}<span class="sr-only">${state.phase === "complete" || index < state.level ? " 완료" : index === state.level ? " 현재" : " 잠김"}</span></li>`,
+        `<li class="${state.phase === "complete" || index < state.level ? "map-done" : index === state.level && state.phase !== "character" ? "map-current" : ""}" ${state.phase !== "complete" && state.phase !== "character" && index === state.level ? 'aria-current="step"' : ""}><span class="map-number">${state.phase === "complete" || index < state.level ? "✓" : index <= state.level && state.phase !== "character" ? level.id : "?"}</span>${index <= state.level && state.phase !== "character" ? escape(roomById(state.route[index]).name) : "미지의 방"}<span class="sr-only">${state.phase === "complete" || index < state.level ? " 완료" : index === state.level && state.phase !== "character" ? " 현재" : " 잠김"}</span></li>`,
     )
     .join("");
   const current = items.filter((item) => item.level === levels[state.level].id);
@@ -239,7 +252,7 @@ function renderSidebars() {
         .filter((level) => items.some((item) => item.level === level.id))
         .map(
           (level) =>
-            `<section class="bag-group"><h3>LEVEL ${level.id} · ${escape(level.place)}</h3>${chips(items.filter((item) => item.level === level.id))}</section>`,
+            `<section class="bag-group"><h3>LEVEL ${level.id} · ${escape(roomById(state.route[level.id - 1]).name)}</h3>${chips(items.filter((item) => item.level === level.id))}</section>`,
         )
         .join("")
     : "<p>가방이 비어 있어요. 정답 5개를 모으면 첫 단서를 얻어요.</p>";
@@ -249,6 +262,7 @@ function renderGame(moveFocus = false) {
   if (
     roomView &&
     (roomViewLevel !== state.level ||
+      roomViewId !== currentRoom(state).id ||
       roomViewLayoutSeed !== layoutSeed(state) ||
       ["complete", "character"].includes(state.phase))
   ) {
@@ -256,6 +270,7 @@ function renderGame(moveFocus = false) {
     roomView = null;
     roomViewLevel = null;
     roomViewLayoutSeed = null;
+    roomViewId = null;
   }
   roomView?.pause(true);
   if ($("#question-dialog").open) $("#question-dialog").close();
@@ -266,12 +281,13 @@ function renderGame(moveFocus = false) {
     renderCharacterSelection();
   } else if (state.phase === "complete") {
     $("#game").innerHTML =
-      `<div class="victory"><div class="victory-seal" aria-hidden="true">10</div><p class="eyebrow">MISSION COMPLETE</p><h2 tabindex="-1">호그와트 탈출 성공!</h2><p>모든 스테이지에서 20문제 중 15개 이상 맞혔어요.<br>200문제의 도전을 넘어 성 밖 정원에 도착했어요.<br>모은 단서 ${inventory(state).length}개 · 누적 획득 ${state.earned} P</p><div class="victory-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><ol class="score-records">${state.records.map((record, index) => `<li>${escape(levels[index].place)} <strong>${record.score}/20</strong> · ${record.attempt + 1}번째 도전</li>`).join("")}</ol><button class="primary" id="victory-bag">모은 단서 돌아보기</button></div>`;
+      `<div class="victory"><div class="victory-seal" aria-hidden="true">10</div><p class="eyebrow">MISSION COMPLETE</p><h2 tabindex="-1">호그와트 탈출 성공!</h2><p>모든 스테이지에서 20문제 중 15개 이상 맞혔어요.<br>200문제의 도전을 넘어 성 밖 정원에 도착했어요.<br>모은 단서 ${inventory(state).length}개 · 누적 획득 ${state.earned} P</p><div class="victory-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><ol class="score-records">${state.records.map((record, index) => `<li>${escape(roomById(state.route[index]).name)} <strong>${record.score}/20</strong> · ${record.attempt + 1}번째 도전</li>`).join("")}</ol><button class="primary" id="victory-bag">모은 단서 돌아보기</button></div>`;
     $("#victory-bag").onclick = () => $("#bag-dialog").showModal();
   } else {
     const level = levels[state.level];
+    const room = currentRoom(state);
     $("#game").innerHTML =
-      `<div class="room-heading"><div><span class="level-badge">LEVEL ${String(level.id).padStart(2, "0")} / 10 · ${state.attempt + 1}번째 도전</span><h2 tabindex="-1">${escape(level.place)}</h2></div><span class="subject-badge">${escape(level.subject)}</span></div><div class="question-body"><div id="challenge"></div></div>`;
+      `<div class="room-heading" style="--room-accent:${room.accent}"><div><span class="level-badge">LEVEL ${String(level.id).padStart(2, "0")} / 10 · ${state.attempt + 1}번째 도전</span><h2 tabindex="-1">${escape(room.name)}</h2></div><span class="subject-badge">${escape(level.subject)}</span></div><div class="question-body"><div id="challenge"></div></div>`;
     if (state.phase === "quiz") {
       renderRoom();
       if (state.selected !== null) {
@@ -287,7 +303,7 @@ function renderGame(moveFocus = false) {
     else if (state.phase === "shop") renderShop();
     else if (state.phase === "travel") {
       $("#challenge").innerHTML =
-        `<h3>다음 목적지: ${escape(level.destination)}</h3><p class="intro">가방을 메고 3D 통로를 지나 다음 장소로 향해요.</p>`;
+        `<h3>다음 목적지: ${escape(destinationRoom(state).name)}</h3><p class="intro">가방을 메고 3D 통로를 지나 다음 장소로 향해요.</p>`;
       runTravel();
     }
     if (["result", "destination"].includes(state.phase)) {
@@ -317,6 +333,8 @@ function companionMarkup(extraClass = "") {
 function renderCharacterSelection() {
   $("#game").innerHTML =
     `<section class="character-selection"><p class="eyebrow">CHOOSE YOUR WIZARD</p><h2 tabindex="-1">누구와 모험을 떠날까요?</h2><p class="intro">캐릭터를 고르면 매번 새로운 문제 20개가 방 속 물건에 숨어요.<br>영어 스테이지는 중학교 3학년 수준이에요.</p><div class="character-grid" role="group" aria-label="모험 캐릭터 선택">${characters.map((character) => `<button class="character-option" data-character-id="${character.id}" aria-pressed="${pendingCharacter === character.id}">${wizardPortraitMarkup(character.id, state.equipped)}<strong>${escape(character.name)}</strong><small class="character-specialty">${escape(character.title)}</small></button>`).join("")}</div><p id="character-choice" role="status">${pendingCharacter ? `${escape(characters.find((character) => character.id === pendingCharacter).name)} 선택됨` : "함께할 캐릭터를 눌러 주세요."}</p><button id="start-adventure" class="primary" ${pendingCharacter ? "" : "disabled"}>선택한 캐릭터로 모험 시작</button></section>`;
+  $(".character-selection .intro").textContent =
+    `${rooms.length}개의 공간 중 매번 다른 10곳으로 모험을 떠나요. 방마다 새로운 20문제를 풀고 단서로 다음 목적지를 찾아요. 영어는 중학교 3학년 수준이에요.`;
   document.querySelectorAll("[data-character-id]").forEach((button) => {
     button.onclick = () => {
       pendingCharacter = button.dataset.characterId;
@@ -332,8 +350,9 @@ function renderCharacterSelection() {
 }
 function renderRoom() {
   const level = levels[state.level];
+  const room = currentRoom(state);
   $("#challenge").innerHTML =
-    `<p class="intro">${escape(level.intro)}</p><div class="scene-instructions"><span>20개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / 20</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 15개</span></div>`;
+    `<p class="intro">${escape(room.description)}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>20개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / 20</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 15개</span></div>`;
   const host = $("#room-host");
   const frame = document.createElement("div");
   frame.className = "room-and-companion";
@@ -342,12 +361,13 @@ function renderRoom() {
   frame.insertAdjacentHTML("beforeend", companionMarkup());
   if (!roomView) {
     roomView = createRoomView(
-      level.id,
+      room,
       (objectIndex) => update(openQuestion(state, objectIndex), false),
       layoutSeed(state),
     );
     roomViewLevel = state.level;
     roomViewLayoutSeed = layoutSeed(state);
+    roomViewId = room.id;
   }
   $("#room-host").append(roomView.element);
   roomView.update({
@@ -426,8 +446,9 @@ function renderResult() {
 }
 function renderDestination() {
   const level = levels[state.level];
+  const choices = destinationChoices(state);
   $("#challenge").innerHTML =
-    `<div class="question-meta"><span>${score(state)} / 20 정답 · 마지막 자물쇠 열림</span></div><h3 class="question-prompt">가방 속 단서가 가리키는 곳은?</h3><p>${chips(inventory(state).filter((item) => item.level === level.id))}</p><p class="destination-line">우리가 갈 곳은 <button class="blank-button" aria-expanded="false" aria-controls="word-box" id="blank-button">[ 빈칸 누르기 ]</button></p><div id="word-box" class="word-box" hidden><h3>장소 워드박스 · 목적지를 골라요</h3><div class="word-options">${level.choices.map((place, index) => `<button data-place="${index}">${escape(place)}</button>`).join("")}</div></div><div id="feedback" aria-live="polite"></div>`;
+    `<div class="question-meta"><span>${score(state)} / 20 정답 · 마지막 자물쇠 열림</span></div><h3 class="question-prompt">가방 속 단서가 가리키는 곳은?</h3><p>${chips(inventory(state).filter((item) => item.level === level.id))}</p><p class="destination-line">우리가 갈 곳은 <button class="blank-button" aria-expanded="false" aria-controls="word-box" id="blank-button">[ 빈칸 누르기 ]</button></p><div id="word-box" class="word-box" hidden><h3>장소 워드박스 · 목적지를 골라요</h3><div class="word-options">${choices.map((room, index) => `<button data-place="${index}" data-room-choice="${room.id}">${escape(room.name)}</button>`).join("")}</div></div><div id="feedback" aria-live="polite"></div>`;
   $("#blank-button").onclick = () => {
     const box = $("#word-box");
     box.hidden = !box.hidden;
@@ -438,7 +459,7 @@ function renderDestination() {
     button.onclick = () => {
       const result = chooseDestination(
         state,
-        level.choices[Number(button.dataset.place)],
+        choices[Number(button.dataset.place)].id,
       );
       if (!result.correct) {
         $("#feedback").className = "feedback bad";
@@ -452,7 +473,7 @@ function renderDestination() {
 }
 function renderOutfit() {
   $("#challenge").innerHTML =
-    `<div class="outfit-check"><p class="eyebrow">BEFORE YOU GO</p><div class="outfit-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><h3>의상을 그대로 입고 갈건가요? 적절하지 않을 수도 있어요.</h3><p class="intro">목적지: ${escape(levels[state.level].destination)}<br>어떤 의상이든 이동할 수 있어요. 바꾸고 싶으면 ‘아니오’를 눌러요.</p><div class="outfit-actions"><button id="keep-outfit" class="primary">네</button><button id="change-outfit">아니오</button></div></div>`;
+    `<div class="outfit-check"><p class="eyebrow">BEFORE YOU GO</p><div class="outfit-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><h3>의상을 그대로 입고 갈건가요? 적절하지 않을 수도 있어요.</h3><p class="intro">목적지: ${escape(destinationRoom(state).name)}<br>어떤 의상이든 이동할 수 있어요. 바꾸고 싶으면 ‘아니오’를 눌러요.</p><div class="outfit-actions"><button id="keep-outfit" class="primary">네</button><button id="change-outfit">아니오</button></div></div>`;
   $("#keep-outfit").onclick = () => update(beginTravel(state));
   $("#change-outfit").onclick = () => update(openWardrobe(state));
 }
@@ -512,14 +533,11 @@ async function runTravel() {
   traveling = true;
   try {
     await playTravel({
-      from: levels[state.level].place,
-      to: levels[state.level].destination,
+      from: currentRoom(state).name,
+      to: destinationRoom(state).name,
       equipped: state.equipped,
       characterId: state.characterId,
-      image:
-        state.level < 9
-          ? `assets/rooms/room-${state.level + 2}.webp`
-          : "assets/hogwarts-reference.webp",
+      image: destinationRoom(state).image,
     });
     traveling = false;
     update(finishTravel(state));

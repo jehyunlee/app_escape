@@ -213,22 +213,22 @@ function addCone(parent, mat, r, h, transform = {}, segments = 12) {
   return addMesh(parent, coneGeometry(r, h, segments), mat, transform);
 }
 
-function addRearArtwork(root, level) {
-  const assetUrl = new URL(`./assets/rooms/room-${level}.webp`, import.meta.url)
-    .href;
+function addRearArtwork(root, room) {
+  const assetUrl = new URL(`./${room.image}`, import.meta.url).href;
   const artworkMaterial = new THREE.MeshBasicMaterial({
     color: 0xffffff,
     fog: false,
     side: THREE.FrontSide,
   });
-  artworkMaterial.name = `room-artwork-material-${level}`;
+  artworkMaterial.name = `room-artwork-material-${room.id}`;
   const artwork = new THREE.Mesh(
     geometry("rear-artwork-plane", () => new THREE.PlaneGeometry(23.4, 15.6)),
     artworkMaterial,
   );
-  artwork.name = `room-artwork-${level}`;
-  const eye = new THREE.Vector3(...CAMERA_CONFIG[level].position);
-  const look = new THREE.Vector3(...CAMERA_CONFIG[level].target);
+  artwork.name = `room-artwork-${room.id}`;
+  const camera = CAMERA_CONFIG[room.themeId];
+  const eye = new THREE.Vector3(...camera.position);
+  const look = new THREE.Vector3(...camera.target);
   artwork.position.copy(look.sub(eye).normalize().multiplyScalar(18).add(eye));
   artwork.lookAt(eye);
   artwork.castShadow = false;
@@ -237,12 +237,26 @@ function addRearArtwork(root, level) {
   root.add(artwork);
   if (typeof document !== "undefined" && typeof Image !== "undefined") {
     const loader = new THREE.TextureLoader();
-    loader.load(assetUrl, (texture) => {
-      texture.colorSpace = THREE.SRGBColorSpace;
-      texture.anisotropy = 4;
-      artworkMaterial.map = texture;
-      artworkMaterial.needsUpdate = true;
-    });
+    loader.load(
+      assetUrl,
+      (texture) => {
+        if (root.userData.disposed) {
+          texture.dispose();
+          return;
+        }
+        texture.colorSpace = THREE.SRGBColorSpace;
+        texture.anisotropy = 4;
+        artworkMaterial.map = texture;
+        artworkMaterial.needsUpdate = true;
+      },
+      undefined,
+      (error) => {
+        root.userData.assetError =
+          error || new Error(`Unable to load ${room.image}`);
+        artworkMaterial.color.set(0x7a1e2c);
+        artworkMaterial.needsUpdate = true;
+      },
+    );
   }
   return artwork;
 }
@@ -421,8 +435,8 @@ function addLantern(parent, mats, x, y, z, scale = 1, colorMat = "candle") {
   });
 }
 
-function hashLayoutSeed(level, layoutSeed) {
-  const source = `${level}:${layoutSeed == null ? "default" : String(layoutSeed)}`;
+function hashLayoutSeed(roomId, layoutSeed) {
+  const source = `${roomId}:${layoutSeed == null ? "default" : String(layoutSeed)}`;
   let hash = 2166136261;
   for (let index = 0; index < source.length; index += 1) {
     hash ^= source.charCodeAt(index);
@@ -1133,8 +1147,8 @@ function makeTargetModel(kind, mats) {
   return group;
 }
 
-function createScatteredPositions(level, layoutSeed) {
-  const random = seededRandom(hashLayoutSeed(level, layoutSeed));
+function createScatteredPositions(roomId, layoutSeed) {
+  const random = seededRandom(hashLayoutSeed(roomId, layoutSeed));
   const positions = [];
   const supports = ["lowtable", "crate", "stool", "rock"];
   // Best-candidate sampling spreads objects without rows or columns. The
@@ -1172,10 +1186,10 @@ function createScatteredPositions(level, layoutSeed) {
   return positions;
 }
 
-function addTargets(root, mats, definitions, level, layoutSeed) {
+function addTargets(root, mats, definitions, roomId, layoutSeed) {
   const targets = [];
   const baseDefinitions = definitions.slice(0, 4);
-  const positions = createScatteredPositions(level, layoutSeed);
+  const positions = createScatteredPositions(roomId, layoutSeed);
   for (let index = 0; index < 20; index += 1) {
     const definition = baseDefinitions[index % baseDefinitions.length];
     const label = `${definition.label}${Math.floor(index / baseDefinitions.length) + 1}`;
@@ -1215,7 +1229,7 @@ function addTargets(root, mats, definitions, level, layoutSeed) {
   return targets;
 }
 
-function createLights(root, level, mats) {
+function createLights(root, themeId, mats, accent) {
   const hemisphere = new THREE.HemisphereLight(0x9ccbd4, 0x1b1420, 1.45);
   hemisphere.position.set(0, 7, 1);
   root.add(hemisphere);
@@ -1231,7 +1245,7 @@ function createLights(root, level, mats) {
   moon.shadow.camera.top = 11;
   moon.shadow.camera.bottom = -6;
   root.add(moon, moon.target);
-  const warm = new THREE.PointLight(0xffb16a, 20, 18, 2);
+  const warm = new THREE.PointLight(accent, 20, 18, 2);
   warm.position.set(0, 4.1, 1.2);
   warm.castShadow = false;
   root.add(warm);
@@ -1240,8 +1254,8 @@ function createLights(root, level, mats) {
   teal.castShadow = false;
   root.add(teal);
   const glowLights = [];
-  if (level === 3 || level === 5 || level === 10) {
-    const candleLight = new THREE.PointLight(0xffc77f, 12, 11, 2);
+  if (themeId === 3 || themeId === 5 || themeId === 10) {
+    const candleLight = new THREE.PointLight(accent, 12, 11, 2);
     candleLight.position.set(0, 4.8, -2.3);
     root.add(candleLight);
     glowLights.push(candleLight);
@@ -1330,23 +1344,43 @@ const ROOM_OBJECTS = [
   ],
 ];
 
-export function buildRoomWorld(scene, levelId, layoutSeed) {
+export function buildRoomWorld(scene, room, layoutSeed) {
   if (!scene || typeof scene.add !== "function")
     throw new TypeError("buildRoomWorld requires a THREE.Scene");
-  if (!Number.isInteger(levelId) || levelId < 1 || levelId > 10)
-    throw new RangeError("Room level must be between 1 and 10");
-  const level = levelId;
+  if (
+    !room ||
+    typeof room !== "object" ||
+    !/^space-\d{3}$/.test(room.id) ||
+    typeof room.name !== "string" ||
+    !Number.isInteger(room.themeId) ||
+    room.themeId < 1 ||
+    room.themeId > 10 ||
+    typeof room.description !== "string" ||
+    !Array.isArray(room.clues) ||
+    room.clues.length !== 3 ||
+    typeof room.accent !== "string" ||
+    !/^#[0-9a-f]{6}$/i.test(room.accent) ||
+    typeof room.image !== "string" ||
+    !room.image
+  ) {
+    throw new TypeError("buildRoomWorld requires a valid room descriptor");
+  }
+  const themeId = room.themeId;
   const previous = scene.getObjectByName?.("__room-world-root");
-  if (previous) scene.remove(previous);
+  if (previous) {
+    previous.userData.disposed = true;
+    scene.remove(previous);
+  }
   const root = new THREE.Group();
   root.name = "__room-world-root";
-  root.userData.levelId = level;
+  root.userData.roomId = room.id;
+  root.userData.themeId = themeId;
   scene.add(root);
-  addRearArtwork(root, level);
+  addRearArtwork(root, room);
   const mats = createMaterials();
-  scene.background = new THREE.Color(BACKGROUNDS[level - 1]);
-  scene.fog = new THREE.FogExp2(0x163039, level === 4 ? 0.035 : 0.027);
-  const lightState = createLights(root, level, mats);
+  scene.background = new THREE.Color(BACKGROUNDS[themeId - 1]);
+  scene.fog = new THREE.FogExp2(0x163039, themeId === 4 ? 0.035 : 0.027);
+  const lightState = createLights(root, themeId, mats, room.accent);
   const state = {
     clockHands: [],
     gears: [],
@@ -1367,8 +1401,8 @@ export function buildRoomWorld(scene, levelId, layoutSeed) {
   const targets = addTargets(
     root,
     mats,
-    ROOM_OBJECTS[level - 1].map(([label, kind]) => ({ label, kind })),
-    level,
+    ROOM_OBJECTS[themeId - 1].map(([label, kind]) => ({ label, kind })),
+    room.id,
     layoutSeed,
   );
   targets.forEach(({ object }) => {
@@ -1379,7 +1413,7 @@ export function buildRoomWorld(scene, levelId, layoutSeed) {
       if (gear) state.gears.push({ gear, speed: 0.045 });
     }
   });
-  const cameraConfig = CAMERA_CONFIG[level];
+  const cameraConfig = CAMERA_CONFIG[themeId];
   const glowMeshes = [];
   root.traverse((object) => {
     if (object.isMesh && object.material?.emissiveIntensity > 0)
@@ -1396,6 +1430,7 @@ export function buildRoomWorld(scene, levelId, layoutSeed) {
       });
   });
   return {
+    root,
     targets,
     tick(seconds) {
       const time = Number.isFinite(Number(seconds)) ? Number(seconds) : 0;

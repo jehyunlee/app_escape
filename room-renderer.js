@@ -75,34 +75,50 @@ function supportsBloom() {
 }
 
 /**
- * Build the interactive WebGL view for a room level.
+ * Build the interactive WebGL view for a room descriptor.
  *
  * The returned element is deliberately reusable: callers can move it between
  * mounts without rebuilding the renderer. `update` receives the answered
  * state and selected target; `pause` controls the render loop while a
  * question is visible. `layoutSeed` selects a deterministic scattered
- * arrangement for this level.
+ * arrangement for this room.
  */
-export function createRoomView(levelId, onSelect, layoutSeed) {
+export function createRoomView(room, onSelect, layoutSeed) {
+  if (
+    !room ||
+    typeof room !== "object" ||
+    !/^space-\d{3}$/.test(room.id) ||
+    typeof room.name !== "string" ||
+    !Number.isInteger(room.themeId) ||
+    room.themeId < 1 ||
+    room.themeId > 10 ||
+    typeof room.description !== "string" ||
+    !Array.isArray(room.clues) ||
+    room.clues.length !== 3 ||
+    typeof room.accent !== "string" ||
+    !/^#[0-9a-f]{6}$/i.test(room.accent) ||
+    typeof room.image !== "string" ||
+    !room.image
+  ) {
+    throw new TypeError("createRoomView requires a valid room descriptor");
+  }
   const element = document.createElement("section");
   element.className = "world-room-view";
-  element.dataset.level = String(levelId ?? "");
-  element.setAttribute("aria-label", "3D 방 탐색 화면");
+  element.dataset.roomId = room.id;
+  element.dataset.themeId = String(room.themeId);
+  element.setAttribute("aria-label", room.name);
 
   const canvas = document.createElement("canvas");
   canvas.className = "world-canvas";
   canvas.dataset.renderer = "webgl";
   canvas.setAttribute("role", "img");
   canvas.setAttribute("aria-label", "마우스나 손가락으로 살펴볼 수 있는 3D 방");
-  canvas.setAttribute(
-    "aria-describedby",
-    `world-room-description-${String(levelId ?? "room")}`,
-  );
+  canvas.setAttribute("aria-describedby", `world-room-description-${room.id}`);
   canvas.tabIndex = -1;
 
   const description = document.createElement("p");
   description.className = "world-room-description";
-  description.id = `world-room-description-${String(levelId ?? "room")}`;
+  description.id = `world-room-description-${room.id}`;
   description.textContent =
     "방 안의 물체를 선택해 문제를 여세요. 해결한 물체는 잠깁니다.";
 
@@ -156,6 +172,8 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
     window.matchMedia?.(REDUCED_MOTION_QUERY)?.matches ?? false;
   let reducedMotionMedia = null;
   let renderFailure = null;
+  let assetErrorReported = false;
+  let assetErrorPanel = null;
 
   const pointer = new THREE.Vector2();
   const pointerGoal = new THREE.Vector2();
@@ -224,7 +242,7 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
       element.dispatchEvent(
         new CustomEvent("world-webgl-retry", {
           bubbles: true,
-          detail: { levelId },
+          detail: { room },
         }),
       );
       panel.remove();
@@ -249,6 +267,7 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
       activeMarkerMaterial.dispose();
       activeMarkerMaterial = null;
     }
+    if (world?.root) world.root.userData.disposed = true;
     if (scene) {
       scene.traverse((object) => {
         object.shadow?.dispose();
@@ -586,7 +605,7 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
     if (bokehPass?.uniforms?.focus) bokehPass.uniforms.focus.value = distance;
     camera.updateProjectionMatrix();
     camera.lookAt(cameraTarget);
-    const artwork = scene.getObjectByName(`room-artwork-${levelId}`);
+    const artwork = scene.getObjectByName(`room-artwork-${room.id}`);
     if (artwork) {
       const backdropDistance = distance + fitSize.z * 0.5 + 8;
       artwork.position
@@ -669,6 +688,7 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
       elapsedTime += delta;
       world?.tick?.(elapsedTime);
     }
+    reportAssetError();
     scene?.updateMatrixWorld(true);
     updateMarkerAndControls();
     try {
@@ -679,6 +699,37 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
       return;
     }
     scheduleFrame();
+  }
+
+  function reportAssetError() {
+    const error = world?.root?.userData?.assetError;
+    if (!error || assetErrorReported) return;
+    assetErrorReported = true;
+    element.dataset.assetError = "true";
+    description.textContent =
+      "방 이미지를 불러올 수 없습니다. 다시 시도해 주세요.";
+    element.dispatchEvent(
+      new CustomEvent("world-asset-error", {
+        bubbles: true,
+        detail: { room, error },
+      }),
+    );
+    assetErrorPanel = document.createElement("div");
+    assetErrorPanel.className = "world-error-panel";
+    assetErrorPanel.setAttribute("role", "alert");
+    const message = document.createElement("span");
+    message.textContent = "방 이미지를 불러올 수 없습니다.";
+    const retry = document.createElement("button");
+    retry.type = "button";
+    retry.className = "world-error-retry";
+    retry.textContent = "이미지 다시 시도";
+    retry.addEventListener("click", () => {
+      assetErrorPanel?.remove();
+      assetErrorPanel = null;
+      initialize();
+    });
+    assetErrorPanel.append(message, retry);
+    element.append(assetErrorPanel);
   }
 
   function scheduleFrame() {
@@ -716,6 +767,8 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
 
   function initialize() {
     if (disposed) return;
+    assetErrorPanel?.remove();
+    assetErrorPanel = null;
     removeRendererChildren();
     clearRetryListener();
     element.dataset.webglError = "false";
@@ -739,7 +792,7 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
       scene.background = WORLD_FOG.clone();
       scene.fog = new THREE.Fog(WORLD_FOG.clone(), 7, 24);
       camera = new THREE.PerspectiveCamera(42, 1, 0.08, 60);
-      world = buildRoomWorld(scene, levelId, layoutSeed);
+      world = buildRoomWorld(scene, room, layoutSeed);
       if (
         !world ||
         !Array.isArray(world.targets) ||
@@ -798,6 +851,8 @@ export function createRoomView(levelId, onSelect, layoutSeed) {
       composer.addPass(new OutputPass());
       resize();
       renderFailure = null;
+      assetErrorReported = false;
+      delete element.dataset.assetError;
       elapsedTime = 0;
       lastFrameTime = 0;
       scheduleFrame();

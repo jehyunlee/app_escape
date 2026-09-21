@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "space-001",
+    "name": "수정 약제 실험실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "천장 그물에 매달린 수정 약병들이 보랏빛을 내며 돌 선반을 가득 채운다. 낡은 놋쇠 비커와 나무 걸상이 촛불 아래 가지런히 늘어서 있다.",
+    "clues": [
+      "약병",
+      "수정",
+      "비커"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly enchanted classroom, camera framed low toward a wooden bench where rows of glowing crystal potion vials hang from a netted ceiling rack; scattered brass beakers and worn stools fill a stone-floored aisle, teal moonbeams cross with warm amber candlelight through arched windows, open central foreground, richly textured stone and timber, atmospheric dust motes, polished fantasy concept art."
+  },
+  {
+    "id": "space-002",
+    "name": "별가루 조제 교실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "커다란 돌절구에 담긴 은빛 별가루가 스스로 반짝이며 소용돌이친다. 뒤편의 작은 가마에서는 잔불이 따뜻하게 타오르고 있다.",
+    "clues": [
+      "별가루",
+      "절구",
+      "가마"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly stardust classroom, high overhead angle looking down at a stone mortar swirling with shimmering silver stardust on a long workbench; a small glowing kiln smolders behind it beside shelves of jars, cool teal window light meets warm amber kiln fire, open central floor, detailed stone and brass fixtures, magical sparkle particles, polished fantasy concept art."
+  },
+  {
+    "id": "space-003",
+    "name": "구름 잉크 서재",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "선반마다 놓인 잉크병 속에서 작은 구름이 뭉게뭉게 피어오른다. 깃펜들이 저절로 떠올라 허공에서 글씨를 시험해 본다.",
+    "clues": [
+      "잉크병",
+      "깃펜",
+      "뭉게구름"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly cloud-ink study, tight close-up composition on a writing desk where ink bottles bubble with tiny captured clouds and quills hover mid-air; tall bookshelves recede into soft shadow, open floor space in front, moonlight through a round window blends with warm desk-lamp amber, richly detailed timber grain, gentle volumetric mist, polished fantasy concept art."
+  },
+  {
+    "id": "space-004",
+    "name": "룬 문자 강의실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "돌벽에 걸린 룬석판마다 빛나는 문자가 천천히 회전한다. 강의대 위 분필 조각이 저절로 그 문자를 옮겨 적는다.",
+    "clues": [
+      "룬석판",
+      "분필",
+      "돌서판"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly rune classroom, symmetrical frontal composition facing a wall of glowing stone rune tablets above a lecture podium with hovering chalk; rows of empty wooden desks lead to an open central aisle, moonlight silvers the runes while amber sconces warm the stone floor, carved architectural detail, layered depth, polished fantasy concept art, with carved stone borders framing the scene."
+  },
+  {
+    "id": "space-005",
+    "name": "빛의 굴절 공방",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "천장의 대형 프리즘이 창빛을 갈라 무지갯빛 줄기를 바닥에 흩뿌린다. 작업대에는 크기별 황동 렌즈가 순서대로 정렬되어 있다.",
+    "clues": [
+      "프리즘",
+      "황동렌즈",
+      "무지개빛줄기"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly optics workshop, low dramatic angle looking up at a suspended crystal prism scattering rainbow light beams across a stone floor; a workbench of graduated brass lenses sits in the open foreground, cool moonlight fractures into color against warm lantern glow, intricate timber shelving, atmospheric light shafts, polished fantasy concept art, the whole scene rendered in painterly cinematic detail."
+  },
+  {
+    "id": "space-006",
+    "name": "마법 지도 제작실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "커다란 지도판이 책상 위에서 스스로 두둥실 떠올라 있다. 놋쇠 나침반과 깃털 핀이 그 가장자리를 조용히 맴돈다.",
+    "clues": [
+      "떠다니는 지도판",
+      "놋쇠 나침반",
+      "깃털 핀"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly cartography classroom, three-quarter view of a large parchment map floating above a drafting table, encircled by a slowly turning brass compass and feather-topped pins; open stone floor in the foreground, tall arched windows pour teal moonlight against warm desk lanterns, richly detailed timber cabinetry, layered depth, polished fantasy concept art, every surface catching a faint magical shimmer."
+  },
+  {
+    "id": "space-007",
+    "name": "향초 연금 교실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "구리 증류기에서 뻗어나온 나선관을 타고 향긋한 김이 피어오른다. 말린 향초 다발이 천장 들보에 가지런히 걸려 있다.",
+    "clues": [
+      "구리 증류기",
+      "향초 다발",
+      "나선 구리관"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly alchemy classroom, eye-level composition centered on a coiled copper still releasing fragrant steam, bundles of dried herbs hanging from timber rafters above; open stone floor leads toward the apparatus, warm amber flame glow contrasts cool moonlit windows, richly detailed brass piping, soft atmospheric haze, polished fantasy concept art, the whole chamber wrapped in gentle cinematic haze."
+  },
+  {
+    "id": "space-008",
+    "name": "달빛 염료 작업실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "동그란 달빛창 아래 놓인 염료통마다 은은한 색이 스스로 소용돌이친다. 벽에 걸린 커다란 붓들이 다음 손길을 기다린다.",
+    "clues": [
+      "염료통",
+      "커다란 붓",
+      "달빛창"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly dye workshop, low-angle shot beneath a round moonlit window pouring silver light onto swirling dye vats on a stone floor; oversized brushes hang along a timber wall in the open foreground, warm lantern amber balances the cool window glow, richly textured cloth and clay containers, atmospheric depth, polished fantasy concept art, the composition balanced with painterly cinematic softness."
+  },
+  {
+    "id": "space-009",
+    "name": "깃털 부유 연구실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "허공에 떠 있는 깃털 하나가 황동 저울 위에서 천천히 회전한다. 벽에 걸린 자석 고리들이 은은한 자기장을 뿜어낸다.",
+    "clues": [
+      "떠 있는 깃털",
+      "황동 저울",
+      "자석 고리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly levitation laboratory, centered symmetrical view of a single feather hovering above a brass balance scale on a stone pedestal, ringed magnet hoops glowing faintly on the wall behind; open floor foreground, cool moonlight streams through tall windows against warm amber lamp light, richly detailed brass and timber fixtures, subtle magic particles, polished fantasy concept art."
+  },
+  {
+    "id": "space-010",
+    "name": "원소 혼합 실험실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "선반 위 원소 구슬 네 개가 각기 다른 빛으로 고요히 맥동한다. 삼각플라스크 안에서는 작은 불꽃이 물 위를 떠돌아다닌다.",
+    "clues": [
+      "원소 구슬",
+      "삼각플라스크",
+      "떠도는 불꽃"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly elemental laboratory, wide eye-level shot of four pulsing elemental orbs on a stone shelf beside a conical flask where a tiny flame floats above water; open central workbench foreground, teal moonlight crosses warm firelight reflections, intricately detailed glassware and stone counters, layered architecture, polished fantasy concept art, the whole scene glowing with quiet cinematic wonder."
+  },
+  {
+    "id": "space-011",
+    "name": "마법 봉인 교실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "책상 위 붉은 왁스 덩이 옆에 육중한 봉인 인장이 놓여 있다. 그 주위로 말린 두루마리 여러 개가 차곡차곡 쌓여 있다.",
+    "clues": [
+      "봉인 인장",
+      "붉은 왁스",
+      "말린 두루마리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly sealing-magic classroom, close three-quarter framing on a heavy engraved seal stamp beside melted red wax and stacked rolled scrolls on a timber desk; open stone floor leads into the frame, warm candle amber glows against cool window moonlight, richly detailed leather and parchment textures, deep architectural shadow, polished fantasy concept art, the whole desk bathed in cinematic candlelit warmth."
+  },
+  {
+    "id": "space-012",
+    "name": "비밀 서리 연구실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "유리돔 안에 놓인 동물 표본함마다 하얀 서리 결정이 살짝 덮여 있다. 창밖의 차가운 달빛이 표본함 유리를 은은히 비춘다.",
+    "clues": [
+      "서리 결정",
+      "동물 표본함",
+      "유리돔"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly frost research chamber, low-angle view of glass-domed specimen cases dusted with white frost crystals on a stone shelf; open central aisle foreground, cold teal moonlight pours through a frosted window while amber lanterns warm the stone walls, richly detailed frozen glass texture, atmospheric chill haze, polished fantasy concept art, the whole chamber wrapped in painterly frosty stillness."
+  },
+  {
+    "id": "space-013",
+    "name": "나무 지팡이 공방",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "긴 지팡이 선반에 다듬어지지 않은 나뭇가지들이 나란히 걸려 있다. 작업대 위 대패 옆으로 고운 나뭇결 무늬가 고스란히 드러난다.",
+    "clues": [
+      "지팡이 선반",
+      "대패",
+      "나뭇결 무늬"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly wandmaker workshop, three-quarter angle on a long shelf of unfinished wooden wand branches beside a carving bench with a wood plane exposing fine grain patterns; open stone floor in the foreground, warm amber workshop light meets cool moonlight from a side window, richly textured timber shavings, deep layered shelving, polished fantasy concept art."
+  },
+  {
+    "id": "space-014",
+    "name": "색유리 주문실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "커다란 색유리 창판이 납선 테두리를 따라 여러 빛깔로 나뉘어 있다. 오래된 나무 창틀이 그 무게를 조용히 받치고 있다.",
+    "clues": [
+      "색유리 창판",
+      "납선 테두리",
+      "나무 창틀"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly stained-glass spellroom, symmetrical frontal view of a large lead-lined stained glass panel divided into vivid color segments within a weathered wooden frame; open stone floor foreground, colored moonlight spills across the tiles while amber sconces warm the corners, richly detailed leadwork and timber joinery, layered depth, polished fantasy concept art, the entire scene rendered with painterly cinematic clarity."
+  },
+  {
+    "id": "space-015",
+    "name": "떠오르는 책상 교실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "책상 여러 개가 바닥에서 살짝 떠오른 채 천천히 맴돈다. 그 아래 작은 의자마다 옅은 마법 고리가 은은히 감돌고 있다.",
+    "clues": [
+      "공중에 뜬 책상",
+      "작은 의자",
+      "마법 고리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly floating-desk classroom, elevated gentle-angle view of several wooden desks hovering just above a stone floor, each ringed by a faint glowing magic hoop above small stools; open central foreground, moonlight through tall arches blends with warm amber lamp glow, richly detailed timber grain, soft levitation particles, polished fantasy concept art, the whole room drifting in quiet cinematic wonder."
+  },
+  {
+    "id": "space-016",
+    "name": "물결 마법 실습실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "둥근 수조 속에서 잔잔한 파문이 저절로 퍼져 나간다. 수조 바닥에는 자개 빛깔 조개들이 가지런히 놓여 있다.",
+    "clues": [
+      "둥근 수조",
+      "자개 조개",
+      "잔잔한 파문"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly water-magic classroom, low-angle shot of a round stone basin rippling with self-generated waves, mother-of-pearl shells resting along its base; open floor space surrounds the basin in the foreground, cool teal water-light mixes with warm amber wall lanterns, richly detailed wet stone texture, layered reflections, polished fantasy concept art, the composition finished with painterly cinematic softness."
+  },
+  {
+    "id": "space-017",
+    "name": "금속 변환 공방",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "은빛으로 빛나는 모루 위에 조각난 금속 파편들이 스스로 형태를 바꾸고 있다. 긴 집게 한 쌍이 그 옆 걸이에 걸려 있다.",
+    "clues": [
+      "은빛 모루",
+      "집게",
+      "금속 조각"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly transmutation forge, three-quarter view of a gleaming silver anvil where scattered metal fragments shift shape on their own, long tongs hanging on a nearby rack; open stone floor foreground, warm forge-amber glow contrasts cool moonlight from a high window, richly detailed metal and timber textures, atmospheric sparks, polished fantasy concept art, the whole forge glowing with cinematic dramatic warmth."
+  },
+  {
+    "id": "space-018",
+    "name": "반짝이는 가루 교실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "커다란 모래시계 안에서 반짝이는 가루가 천천히 떨어져 내린다. 뒤쪽 선반에는 같은 가루가 담긴 유리병들이 줄지어 있다.",
+    "clues": [
+      "모래시계",
+      "반짝이는 가루",
+      "유리병 선반"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly glitter-magic classroom, centered symmetrical framing on a tall hourglass slowly pouring shimmering dust, a shelf of matching glass jars lined up behind it; open stone floor foreground, sparkling motes catch teal moonlight and warm amber lamplight together, richly detailed glass and timber shelving, layered depth, polished fantasy concept art, the entire scene shimmering with cinematic magical dust."
+  },
+  {
+    "id": "space-019",
+    "name": "그림자 인형 연구실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "얇은 그림자 막 위로 실로 조종되는 인형들의 그림자가 천천히 움직인다. 걸린 등불 하나가 그 막을 은은히 밝힌다.",
+    "clues": [
+      "그림자 막",
+      "걸린 등불",
+      "실 인형"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly shadow-puppet workshop, gentle elevated view of a translucent stretched screen with string-puppet silhouettes drifting across it, lit by a single hanging lantern; open stone floor in the foreground, warm lantern amber glows against cool moonlit window panes, richly detailed fabric and timber framework, atmospheric soft shadow play, polished fantasy concept art, the whole screen wrapped in painterly cinematic mystery."
+  },
+  {
+    "id": "space-020",
+    "name": "봉황 불꽃 관찰실",
+    "themeId": 1,
+    "accent": "#7C5CE0",
+    "description": "돌 받침 위 작은 둥지에서 따뜻한 불꽃이 조용히 일렁인다. 둥지 가장자리에는 고운 깃털 재가 살짝 쌓여 있다.",
+    "clues": [
+      "작은 불꽃 둥지",
+      "깃털 재",
+      "관찰용 유리벽"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly phoenix observation chamber, low dramatic angle on a small nest cradling a gentle flame atop a stone pedestal, fine feather ash dusting its rim behind an observation glass wall; open floor foreground, warm firelight glows against cool moonlight through the glass, richly detailed stone and ember textures, atmospheric heat shimmer, polished fantasy concept art."
+  },
+  {
+    "id": "space-021",
+    "name": "유리돔 수정 온실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "둥근 유리돔 아래 수정 덩굴이 기둥을 따라 반짝이며 뻗어 있다. 잎마다 맺힌 이슬이 달빛을 받아 작은 별처럼 빛난다.",
+    "clues": [
+      "유리돔 천장",
+      "수정 덩굴",
+      "이슬 맺힌 잎"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly crystal greenhouse, upward-tilted view beneath a domed glass ceiling where luminous crystal vines climb stone pillars, dew drops sparkling like stars on every leaf; open central garden path foreground, cool moonlight filters through glass against warm lantern amber, richly detailed foliage and glasswork, layered depth, polished fantasy concept art, the whole dome glowing with painterly cinematic serenity."
+  },
+  {
+    "id": "space-022",
+    "name": "달버섯 동굴 정원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "동굴 벽을 따라 달버섯 화단이 은은한 청록빛을 내뿜는다. 축축한 바위 표면에는 부드러운 이끼가 두껍게 깔려 있다.",
+    "clues": [
+      "달버섯 화단",
+      "축축한 동굴벽",
+      "푸른 이끼"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly moon-mushroom cave garden, low-angle composition along a damp cave wall lined with glowing teal mushroom beds and thick moss; open stone path foreground, bioluminescent mushroom light mixes with warm lantern glow from a side alcove, richly detailed wet rock and moss texture, atmospheric mist, polished fantasy concept art, the entire cavern wrapped in painterly cinematic stillness."
+  },
+  {
+    "id": "space-023",
+    "name": "하늘연꽃 연못",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "작은 연못 위로 하늘연꽃이 스스로 떠올라 천천히 회전한다. 물가에는 키 큰 부들이 무리 지어 흔들리고 있다.",
+    "clues": [
+      "하늘연꽃",
+      "작은 연못",
+      "부들 무리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly floating-lotus pond garden, gentle elevated view over a small stone-lined pond where a glowing lotus hovers and slowly turns above the water, tall reeds swaying at the bank; open foreground path, moonlight silvers the water surface against warm amber pond-lanterns, richly detailed water ripples and reeds, layered depth, polished fantasy concept art."
+  },
+  {
+    "id": "space-024",
+    "name": "향기 나는 허브 온실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "여러 단으로 놓인 허브 선반에서 향긋한 냄새가 은은히 퍼진다. 화분들 사이 작업대 위에는 은빛 가위 한 자루가 놓여 있다.",
+    "clues": [
+      "허브 선반",
+      "작은 화분들",
+      "은빛 가위"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly herb greenhouse, three-quarter interior view of tiered wooden herb shelves crowded with small clay pots, a silver pruning shear resting on a nearby workbench; open floor space in the foreground, warm amber greenhouse light blends with cool moonlight through glass panes, richly detailed leaf textures, atmospheric fragrant haze, polished fantasy concept art."
+  },
+  {
+    "id": "space-025",
+    "name": "거대 호박 정원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "화단 한가운데 사람 키만 한 거대 호박이 두꺼운 덩굴에 매달려 있다. 그 옆을 짚으로 엮은 허수아비가 조용히 지키고 서 있다.",
+    "clues": [
+      "거대한 호박",
+      "두꺼운 덩굴",
+      "짚 허수아비"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly giant-pumpkin garden, low dramatic angle on an oversized glowing pumpkin resting on thick coiling vines beside a straw scarecrow figure; open central flower bed foreground, warm harvest-amber light contrasts cool moonlit sky above, richly detailed vine and straw textures, layered garden depth, polished fantasy concept art, the whole bed glowing with painterly autumn cinematic warmth."
+  },
+  {
+    "id": "space-026",
+    "name": "은방울꽃 회랑",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "은방울꽃으로 뒤덮인 아치가 돌길 위로 길게 늘어서 있다. 종 모양 꽃송이마다 옅은 은빛이 스며 나온다.",
+    "clues": [
+      "은방울꽃 아치",
+      "이어진 돌길",
+      "작은 종모양 꽃송이"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly lily-of-the-valley colonnade garden, symmetrical wide view down a stone path beneath a long arch woven with glowing bell-shaped silver flowers; open unobstructed foreground path, cool moonlight threads through the arch against warm garden lanterns, richly detailed petal and stone textures, deep layered perspective, polished fantasy concept art, the whole colonnade rendered in painterly cinematic elegance."
+  },
+  {
+    "id": "space-027",
+    "name": "빛나는 이끼 온실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "온실 안쪽 벽 전체가 은은히 빛나는 이끼로 덮여 있다. 둥근 유리창에 맺힌 물방울마다 그 빛이 작게 반사된다.",
+    "clues": [
+      "빛이끼 벽",
+      "둥근 유리창",
+      "맺힌 물방울"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly glowing-moss greenhouse, low-angle cinematic shot along a wall entirely covered in luminous teal moss, round glass panes beaded with reflective water droplets; open central aisle foreground, moss-light glimmers against warm amber lantern posts, richly detailed damp stone and glass texture, atmospheric soft glow, polished fantasy concept art, the whole wall glowing with painterly cinematic softness."
+  },
+  {
+    "id": "space-028",
+    "name": "바람꽃 테라스",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "목재 테라스 난간에 놓인 바람꽃 화분이 산들바람에 살랑인다. 한쪽 구석에서는 작은 풍차가 천천히 돌아간다.",
+    "clues": [
+      "바람꽃 화분",
+      "목재 테라스",
+      "작은 풍차"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly wind-flower terrace garden, three-quarter view of potted anemones swaying along a timber terrace railing beside a slowly turning miniature windmill; open floor foreground, warm dusk-amber terrace lighting meets cool moonlit breeze haze, richly detailed wood-grain railing, layered outdoor depth, polished fantasy concept art, the whole terrace bathed in painterly cinematic evening calm."
+  },
+  {
+    "id": "space-029",
+    "name": "수련 분수 정원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "돌로 만든 분수 주위로 수련이 동동 떠 있다. 잔잔한 연못물이 분수의 물소리에 맞춰 작게 일렁인다.",
+    "clues": [
+      "돌 분수",
+      "떠 있는 수련",
+      "잔잔한 연못물"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly water-lily fountain garden, symmetrical wide composition centered on a carved stone fountain surrounded by floating lily pads on rippling pond water; open unobstructed foreground, moonlight dances on the water against warm fountain-side lanterns, richly detailed carved stone and lily texture, deep layered garden view, polished fantasy concept art, the whole garden rendered in painterly cinematic tranquility."
+  },
+  {
+    "id": "space-030",
+    "name": "별열매 과수원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "가지마다 별 모양 열매가 은은히 반짝이며 매달려 있다. 나무 사다리 옆에는 엮어 만든 바구니가 가득 놓여 있다.",
+    "clues": [
+      "별 모양 열매",
+      "나무 사다리",
+      "엮은 바구니"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly starfruit orchard garden, gentle elevated view through a broad opening onto branches heavy with glowing star-shaped fruit beside a wooden ladder and woven baskets; open foreground orchard floor, teal starlight filters through leaves against warm harvest-lantern amber, richly detailed bark and fruit texture, layered depth, polished fantasy concept art, the whole orchard glowing with painterly cinematic wonder."
+  },
+  {
+    "id": "space-031",
+    "name": "무지개 양치식물실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "화분마다 자란 양치식물 잎이 저마다 다른 무지갯빛으로 물들어 있다. 젖은 돌바닥이 은은한 색을 그대로 비춘다.",
+    "clues": [
+      "무지개빛 양치잎",
+      "줄지은 화분",
+      "젖은 돌바닥"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly rainbow-fern conservatory, wide eye-level composition among rows of potted ferns each glowing a different rainbow hue, wet stone floor reflecting the colors below; open central path foreground, prismatic fern light blends with warm greenhouse lanterns, richly detailed frond texture, atmospheric humid haze, polished fantasy concept art, the whole conservatory glowing with painterly cinematic color."
+  },
+  {
+    "id": "space-032",
+    "name": "겨울장미 온실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "차가운 화단 위로 서리가 엷게 내려앉은 장미가 피어 있다. 뒤쪽 유리벽에는 서리꽃 무늬가 곱게 번져 있다.",
+    "clues": [
+      "서리 장미",
+      "얼어붙은 유리벽",
+      "차가운 화단"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly frost-rose greenhouse, low-angle cinematic shot of frost-dusted roses in a cold flower bed before a glass wall etched with delicate frost patterns; open central aisle foreground, icy teal moonlight meets warm amber heater glow, richly detailed frosted petal and glass texture, atmospheric cold mist, polished fantasy concept art, the whole greenhouse wrapped in painterly cinematic frost."
+  },
+  {
+    "id": "space-033",
+    "name": "꿀벌 허브 뜰",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "라벤더 화단 위로 둥근 벌집 하나가 나뭇가지에 매달려 있다. 그 곁에는 놋쇠 물뿌리개가 가지런히 놓여 있다.",
+    "clues": [
+      "둥근 벌집",
+      "라벤더 화단",
+      "놋쇠 물뿌리개"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly bee-garden herb yard, three-quarter interior view of a round hanging beehive above a lavender bed beside a brass watering can; open floor foreground, warm golden hive-light glows against cool moonlit lavender rows, richly detailed hive texture and flower clusters, layered garden depth, polished fantasy concept art, the whole yard glowing with painterly cinematic golden calm."
+  },
+  {
+    "id": "space-034",
+    "name": "덩굴 미로 정원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "다듬어진 덩굴벽이 좁은 통로를 이루며 미로처럼 뻗어 있다. 미로 중심에는 작은 분수가 조용히 물을 뿜고 있다.",
+    "clues": [
+      "다듬어진 덩굴벽",
+      "좁은 미로 통로",
+      "작은 분수"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly hedge-maze garden, symmetrical wide composition down a narrow trimmed vine corridor leading toward a small central fountain; open unobstructed foreground path, moonlight rakes across the hedge walls against warm fountain-side amber glow, richly detailed leaf and stone texture, deep layered maze perspective, polished fantasy concept art, the whole maze rendered in painterly cinematic mystery."
+  },
+  {
+    "id": "space-035",
+    "name": "수정 선인장 온실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "고운 모래바닥 위로 수정처럼 맑은 선인장이 줄지어 서 있다. 작은 유리 화분마다 은은한 빛이 새어 나온다.",
+    "clues": [
+      "수정 선인장",
+      "고운 모래바닥",
+      "작은 유리 화분"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly crystal-cactus greenhouse, gentle elevated view over fine sand beds lined with translucent crystalline cacti in small glowing glass pots; open central foreground, warm desert-amber light contrasts cool moonlit glass ceiling above, richly detailed sand and crystal texture, atmospheric shimmer, polished fantasy concept art, the whole greenhouse glowing with painterly cinematic warmth and gentle desert stillness."
+  },
+  {
+    "id": "space-036",
+    "name": "반딧불 양치 정원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "넓은 양치잎 사이로 작은 반딧불이 은은히 떠다닌다. 매달린 항아리 안에도 몇 마리가 모여 부드럽게 빛난다.",
+    "clues": [
+      "떠도는 반딧불",
+      "넓은 양치잎",
+      "매달린 항아리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly firefly-fern garden, low-angle cinematic shot among broad fern leaves with drifting glowing fireflies, a hanging jar cradling a soft cluster of light; open central aisle foreground, warm firefly-amber glow mixes with cool moonlight through fern canopy, richly detailed frond and jar texture, atmospheric floating sparkle, polished fantasy concept art, the whole garden shimmering with painterly cinematic wonder."
+  },
+  {
+    "id": "space-037",
+    "name": "구름이끼 옥상뜰",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "옥상 화단을 덮은 구름이끼가 몽실몽실 부풀어 있다. 돌 난간 너머로 트인 하늘이 고스란히 펼쳐진다.",
+    "clues": [
+      "몽실한 구름이끼",
+      "돌 난간",
+      "트인 하늘"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly rooftop cloud-moss garden, three-quarter view across a puffy cloud-like moss bed along a stone parapet railing opening onto a wide night sky; open foreground rooftop floor, cool moonlit sky contrasts warm lantern posts along the railing, richly detailed moss and stone texture, layered open-air depth, polished fantasy concept art, the whole rooftop bathed in painterly cinematic open air."
+  },
+  {
+    "id": "space-038",
+    "name": "황금 사과 뜰",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "휘어진 가지마다 황금빛으로 물든 사과가 주렁주렁 달려 있다. 나무 밑동 옆에는 짜인 바구니가 소복이 놓여 있다.",
+    "clues": [
+      "황금빛 사과",
+      "휘어진 가지",
+      "짜인 바구니"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly golden-apple orchard garden, low dramatic angle beneath curved branches heavy with glowing golden apples above a woven basket at the trunk base; open foreground orchard floor, warm golden fruit-light contrasts cool moonlit sky through leaves, richly detailed bark and fruit texture, layered orchard depth, polished fantasy concept art, the whole orchard glowing with painterly cinematic golden light."
+  },
+  {
+    "id": "space-039",
+    "name": "푸른 난초 온실",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "유리돔 지붕 아래 푸른 난초가 화분대를 따라 가지런히 피어 있다. 잎사귀 끝마다 옅은 청록빛이 감돈다.",
+    "clues": [
+      "푸른 난초",
+      "유리돔 지붕",
+      "줄지은 화분대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly blue-orchid conservatory, symmetrical wide composition beneath a domed glass roof over rows of glowing blue orchids on tiered planting stands; open unobstructed foreground, teal petal-light blends with warm greenhouse lantern glow, richly detailed petal and glass texture, deep layered conservatory perspective, polished fantasy concept art, the whole conservatory rendered in painterly cinematic elegance."
+  },
+  {
+    "id": "space-040",
+    "name": "폭포 고사리 정원",
+    "themeId": 2,
+    "accent": "#3B9C8E",
+    "description": "바위틈에서 흘러내리는 작은 폭포가 잔잔히 물소리를 낸다. 물보라를 맞은 고사리 잎과 이끼가 촉촉하게 반짝인다.",
+    "clues": [
+      "작은 폭포",
+      "넓은 고사리 잎",
+      "물보라 이끼"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly waterfall-fern garden, gentle elevated view through a broad opening toward a small waterfall trickling over rocks into a fern-lined pool, mist-damp moss glistening nearby; open foreground garden path, cool waterfall mist catches moonlight against warm amber path lanterns, richly detailed wet rock and frond texture, atmospheric spray, polished fantasy concept art, the whole garden wrapped in painterly cinematic mist."
+  },
+  {
+    "id": "space-041",
+    "name": "호박빛 연회장",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "긴 연회 식탁 위로 황동 샹들리에가 따뜻한 빛을 드리운다. 가지런히 놓인 은식기가 촛불 아래 은은히 반짝인다.",
+    "clues": [
+      "긴 연회 식탁",
+      "황동 샹들리에",
+      "은식기"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle banquet hall, wide eye-level composition centered on a long banquet table beneath a glowing brass chandelier, polished silverware catching candlelight along its length; open stone floor foreground, warm amber chandelier glow contrasts cool moonlight from tall side windows, richly detailed linen and metalwork texture, deep layered hall architecture, polished fantasy concept art."
+  },
+  {
+    "id": "space-042",
+    "name": "수프 가마 부엌",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "구리 수프 가마에서 뭉게뭉게 김이 피어오른다. 돌 조리대 위에는 긴 국자와 향신료 단지가 나란히 놓여 있다.",
+    "clues": [
+      "구리 수프 가마",
+      "긴 국자",
+      "돌 조리대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle kitchen, low-angle cinematic shot centered on a large copper soup cauldron releasing warm steam, a long ladle and spice jars lined along a stone counter; open central aisle foreground, warm hearth-amber glow meets cool moonlight through a kitchen window, richly detailed copper and stone texture, atmospheric steam haze, polished fantasy concept art."
+  },
+  {
+    "id": "space-043",
+    "name": "현악기 음악 살롱",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "작은 무대 위 걸린 바이올린들이 저절로 은은한 선율을 낸다. 그 앞으로 펼쳐진 악보대가 나란히 줄지어 있다.",
+    "clues": [
+      "작은 무대",
+      "걸린 바이올린",
+      "펼쳐진 악보대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly music salon, three-quarter interior view of violins hanging above a small raised stage, rows of open sheet-music stands facing it across the floor; open central floor space foreground, warm stage-amber lighting contrasts cool moonlight from arched windows, richly detailed wood-grain instrument texture, layered salon depth, polished fantasy concept art, the whole salon rendered in painterly cinematic elegance."
+  },
+  {
+    "id": "space-044",
+    "name": "벽난로 이야기방",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "둥근 벽난로에서 타닥이는 불빛이 방 안을 따뜻하게 물들인다. 낡은 안락의자 앞에 줄무늬 카펫이 펼쳐져 있다.",
+    "clues": [
+      "둥근 벽난로",
+      "낡은 안락의자",
+      "줄무늬 카펫"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly storytelling hearth room, symmetrical wide composition facing a round crackling stone fireplace before a worn armchair on a striped rug; open unobstructed foreground floor, warm firelight dominates against cool moonlight from a nearby window, richly detailed woven fabric and stone texture, deep layered cozy interior, polished fantasy concept art, the whole room wrapped in painterly cinematic coziness."
+  },
+  {
+    "id": "space-045",
+    "name": "마법 찻잔 카페",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "찻잔 여러 개가 접시 없이 둥둥 떠다니며 스스로 김을 낸다. 그 옆 층층 케이크가 은쟁반 위에 곱게 놓여 있다.",
+    "clues": [
+      "둥둥 떠도는 찻잔",
+      "김 나는 찻주전자",
+      "층층 케이크"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly enchanted tea salon, gentle elevated view through a broad opening onto floating steaming teacups above a tiered cake on a silver tray; open central foreground, warm teacup steam catches amber café lighting against cool moonlit window panes, richly detailed porcelain and frosting texture, atmospheric soft steam, polished fantasy concept art, the whole salon glowing with painterly cinematic charm."
+  },
+  {
+    "id": "space-046",
+    "name": "유리 지붕 식당",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "투명한 유리 천장 사이로 달빛이 긴 식탁 위로 곧게 쏟아진다. 식탁 중앙에는 꽃이 담긴 화병이 놓여 있다.",
+    "clues": [
+      "유리 천장",
+      "긴 식탁",
+      "놓인 화병"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly glass-roof dining hall, wide eye-level composition beneath a transparent glass ceiling with moonlight pouring straight onto a long dining table centered with a flower vase; open stone floor foreground, cool direct moonbeams balance warm table-lantern amber, richly detailed glass framework and floral texture, deep layered dining hall, polished fantasy concept art, the whole hall bathed in painterly cinematic brightness."
+  },
+  {
+    "id": "space-047",
+    "name": "종소리 무도회장",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "천장을 따라 줄지은 작은 종들이 은은히 흔들리며 울린다. 벽면 커다란 거울이 윤나는 바닥까지 그대로 비춘다.",
+    "clues": [
+      "줄지은 작은 종",
+      "커다란 거울",
+      "윤나는 바닥"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly bell-chime ballroom, low-angle cinematic shot along a ceiling row of gently swaying small bells above a polished reflective floor before a tall wall mirror; open central dance floor foreground, warm chandelier amber glows against cool moonlight caught in the mirror, richly detailed metal and marble texture, deep layered ballroom perspective, polished fantasy concept art."
+  },
+  {
+    "id": "space-048",
+    "name": "빵 굽는 돌부엌",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "돌 화덕 안에서 갓 구운 빵 냄새가 은은히 퍼져 나온다. 곁에 놓인 반죽 통에는 부풀어 오른 반죽이 가득 차 있다.",
+    "clues": [
+      "돌 화덕",
+      "부풀어 오른 반죽",
+      "나무 빵삽"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly bread-baking stone kitchen, three-quarter interior view of a glowing stone oven beside a bowl of rising dough and a long wooden bread paddle; open floor foreground, warm oven-amber firelight contrasts cool moonlight through a small window, richly detailed stone and flour-dusted wood texture, atmospheric warm haze, polished fantasy concept art, the whole kitchen wrapped in painterly cinematic warmth."
+  },
+  {
+    "id": "space-049",
+    "name": "하프 연습실",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "방 한가운데 황금 하프가 스스로 현을 가볍게 울린다. 그 아래 놋쇠 페달과 펼쳐진 악보가 나란히 놓여 있다.",
+    "clues": [
+      "황금 하프",
+      "펼쳐진 악보",
+      "놋쇠 페달"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly harp practice room, symmetrical wide composition centered on a tall golden harp with gently vibrating strings, brass foot pedals and open sheet music beneath it; open unobstructed foreground floor, warm amber practice-lamp light contrasts cool moonlight from a tall window, richly detailed gilded and timber texture, deep layered chamber perspective, polished fantasy concept art."
+  },
+  {
+    "id": "space-050",
+    "name": "체스 난로방",
+    "themeId": 3,
+    "accent": "#D18A3A",
+    "description": "나무 체스판 위 말들이 저절로 조금씩 자리를 옮겨 간다. 그 곁 작은 난로가 방 안을 은은히 데운다.",
+    "clues": [
+      "움직이는 체스말",
+      "작은 난로",
+      "나무 체스판"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly chess fireside room, gentle elevated view through a broad opening onto a wooden chessboard with pieces slowly shifting position beside a small glowing stove; open central foreground, warm stove-amber light contrasts cool moonlight from a nearby window, richly detailed carved-piece and timber texture, atmospheric cozy warmth, polished fantasy concept art, the whole room glowing with painterly cinematic calm."
+  },
+  {
+    "id": "space-051",
+    "name": "풍선 장식 파티홀",
+    "themeId": 3,
+    "description": "알록달록한 풍선 다발이 천장 아래로 두둥실 떠 있고 기다란 현수막이 벽을 가로지른다. 한쪽 탁자 위에는 층층이 쌓인 케이크가 놓여 축하 분위기를 더한다.",
+    "clues": [
+      "풍선",
+      "현수막",
+      "케이크"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle party hall with clusters of colorful floating balloons drifting beneath a vaulted stone ceiling, a long fabric banner draped across the far wall, and a tiered celebration cake resting on a side table; low three-quarter angle, open lower-central foreground, warm amber lantern glow blending with cool teal moonlight through arched windows, polished stone floor, timber beams, brass fixtures, soft festive atmosphere, richly layered depth, fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-052",
+    "name": "수정 접시 식당",
+    "themeId": 3,
+    "description": "투명한 수정 접시들이 긴 식탁 위에 가지런히 놓여 은은한 빛을 반사한다. 은촛대에서 흔들리는 불빛이 그릇마다 무지갯빛 그림자를 드리운다.",
+    "clues": [
+      "접시",
+      "식탁",
+      "촛대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle dining hall featuring translucent crystal plates arranged along a long banquet table, tall silver candlesticks flickering between the settings, and prismatic light reflecting across polished stoneware; symmetrical frontal composition, open lower-central foreground, warm amber candlelight mixing with teal moonbeams through tall windows, richly textured stone walls, timber ceiling beams, brass sconces, deep layered architecture, atmospheric fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-053",
+    "name": "노래하는 분수 홀",
+    "themeId": 3,
+    "description": "대리석 바닥 한가운데서 노래하는 분수가 은빛 물줄기를 뿜어 올린다. 물방울마다 반짝이는 음표 모양이 맴돌며 잔잔한 선율을 만들어 낸다.",
+    "clues": [
+      "분수",
+      "음표",
+      "대리석"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle hall centered on a singing fountain rising from a polished marble floor, glimmering musical-note shapes swirling within its silver spray, arches framing the open space; low-angle upward composition, open lower-central foreground, warm amber torchlight blending with cool teal moonlight, veined marble, brass rims, timber-trussed ceiling, atmospheric mist, deep architectural layering, polished fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-054",
+    "name": "팬케이크 주방",
+    "themeId": 3,
+    "description": "커다란 무쇠 철판 위에서 폭신한 팬케이크가 노릇하게 익어 간다. 옆에 놓인 항아리에서 황금빛 시럽이 천천히 흘러내려 달콤한 향을 퍼뜨린다.",
+    "clues": [
+      "팬케이크",
+      "철판",
+      "시럽"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle kitchen scene with fluffy pancakes browning atop a large iron griddle, a jar of golden syrup slowly pouring beside stacked plates, copper pots hanging from timber beams; eye-level three-quarter composition, open lower-central foreground, warm amber hearth light mixed with cool teal window moonlight, weathered stone counters, brass utensils, steam rising, richly detailed depth, fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-055",
+    "name": "가면 무도 살롱",
+    "themeId": 3,
+    "description": "화려한 깃털 가면들이 진열장 안에서 줄지어 반짝인다. 맞은편 큰 거울과 천장의 샹들리에가 은은한 불빛을 살롱 곳곳에 흩뿌린다.",
+    "clues": [
+      "가면",
+      "거울",
+      "샹들리에"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle masquerade salon featuring rows of ornate feathered masks displayed in a glass cabinet, a tall gilded mirror reflecting the room, and a crystal chandelier scattering light overhead; wide symmetrical composition, open lower-central foreground, warm amber chandelier glow paired with cool teal moonlight through curtained windows, polished parquet floor, brass frames, velvet drapery, layered depth, elegant fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-056",
+    "name": "차임벨 휴게실",
+    "themeId": 3,
+    "description": "창가에 매달린 바람종이 산들바람에 맑은 소리를 낸다. 그 아래 포근한 소파가 놓여 있어 누구나 쉬어 가고 싶은 공간이다.",
+    "clues": [
+      "바람종",
+      "소파",
+      "창가"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle lounge featuring delicate wind chimes hanging beside a tall window, a plush cushioned sofa positioned beneath the glow, and soft curtains stirring gently; low-angle window-facing composition, open lower-central foreground, warm amber lamp light blending with cool teal moonlight streaming inward, timber floorboards, stone archway, brass chime frame, cozy layered depth, tranquil fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-057",
+    "name": "과일 펀치 홀",
+    "themeId": 3,
+    "description": "커다란 수정 펀치볼에 색색의 과일이 둥둥 떠 있다. 은빛 국자가 옆에 걸려 있어 손님을 맞이할 준비가 되어 있다.",
+    "clues": [
+      "펀치볼",
+      "과일",
+      "국자"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle refreshment hall centered on a large crystal punch bowl filled with floating colorful fruit slices, a silver ladle resting on its rim, surrounded by garland-draped tables; low three-quarter composition, open lower-central foreground, warm amber lantern light mixed with cool teal moonbeams through arched glass, polished stone floor, brass fittings, timber shelving, richly layered depth, festive fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-058",
+    "name": "종이등 축제방",
+    "themeId": 3,
+    "description": "수십 개의 종이등이 천장을 따라 줄지어 매달려 은은히 빛난다. 바닥에는 알록달록한 방석이 둥글게 놓여 있어 아늑한 축제 분위기를 만든다.",
+    "clues": [
+      "종이등",
+      "방석",
+      "등불"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle festival room with dozens of paper lanterns strung along the vaulted ceiling glowing softly, colorful floor cushions arranged in a circle below, small lamps flickering near stone pillars; low-angle upward composition, open lower-central foreground, warm amber lantern light meeting cool teal moonlight through lattice windows, timber rafters, textured stone walls, brass lamp hooks, layered depth, cozy fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-059",
+    "name": "마법 아이스크림 부엌",
+    "themeId": 3,
+    "description": "커다란 얼음 통 안에 무지개색 아이스크림이 소용돌이치듯 담겨 있다. 통 주변에는 은빛 서리가 피어올라 시원한 냉기를 느끼게 한다.",
+    "clues": [
+      "아이스크림",
+      "스푼",
+      "냉기"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle kitchen centered on a large frosted tub of swirling rainbow ice cream, a silver scoop resting on its rim, cool mist curling upward from the icy surface; eye-level frontal composition, open lower-central foreground, cool teal frost light contrasting warm amber lantern glow from stone walls, timber shelving, brass fixtures, richly detailed depth, whimsical fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-060",
+    "name": "수정 피아노 살롱",
+    "themeId": 3,
+    "description": "투명한 수정으로 만들어진 그랜드 피아노가 살롱 중앙에서 은은히 빛난다. 펼쳐진 악보와 건반 위로 달빛이 스며들어 신비로운 선율을 상상하게 한다.",
+    "clues": [
+      "피아노",
+      "건반",
+      "악보"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly castle music salon featuring a translucent crystal grand piano at its center, open sheet music resting on the stand, glowing keys catching soft light; low-angle three-quarter composition, open lower-central foreground, cool teal moonlight blending with warm amber candle glow from wall sconces, polished stone floor, timber wainscoting, brass candelabra, deep layered architecture, elegant fantasy concept art.",
+    "accent": "#D18A3A"
+  },
+  {
+    "id": "space-061",
+    "name": "은빛 자작나무 숲",
+    "themeId": 4,
+    "description": "은빛 자작나무들이 오솔길 양옆으로 곧게 늘어서 있다. 나뭇가지에 매달린 작은 등불이 길을 따라 부드럽게 반짝인다.",
+    "clues": [
+      "자작나무",
+      "숲길",
+      "등불"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly moonlit birch forest path with tall silver-barked trees lining a winding trail, small lanterns hanging from low branches glowing softly; wide eye-level composition, open lower-central foreground, cool teal moonlight filtering through leaves mixed with warm amber lantern light, mossy stones, fallen leaves, layered misty depth, tranquil fantasy concept art, richly detailed foliage.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-062",
+    "name": "별빛 호숫가",
+    "themeId": 4,
+    "description": "잔잔한 호숫가에 작은 나룻배 한 척이 묶여 있다. 물 위로 별빛이 그대로 비쳐 마치 하늘이 호수 안에 담긴 듯하다.",
+    "clues": [
+      "호수",
+      "나룻배",
+      "별"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly moonlit lakeshore featuring a small wooden rowboat tied to a weathered dock, countless stars mirrored perfectly on the still water surface, reeds swaying at the edge; low-angle composition facing the water, open lower-central foreground, cool teal starlight reflecting off ripples mixed with warm amber lantern glow from the shore, wet stone, wooden posts, layered atmospheric depth, serene fantasy concept art.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-063",
+    "name": "푸른 수정 동굴",
+    "themeId": 4,
+    "description": "동굴 천장에서 푸른 수정 종유석이 뾰족하게 자라나 있다. 바닥의 웅덩이에 그 빛이 비쳐 동굴 전체가 은은한 청록빛으로 물든다.",
+    "clues": [
+      "동굴",
+      "수정",
+      "종유석"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly crystal cave interior with glowing blue crystal stalactites hanging from a rocky ceiling, a shallow reflective pool on the cavern floor mirroring their light; low-angle upward composition, open lower-central foreground, cool teal crystalline glow contrasted with warm amber torchlight along the walls, wet stone textures, mineral veins, layered depth into darkness, mystical fantasy concept art.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-064",
+    "name": "폭포 뒤 비밀길",
+    "themeId": 4,
+    "description": "쏟아지는 폭포 뒤로 좁은 돌계단이 숨겨져 있다. 축축한 계단 옆으로 무성한 양치식물이 자라 비밀스러운 분위기를 더한다.",
+    "clues": [
+      "폭포",
+      "돌계단",
+      "양치"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly hidden path behind a cascading waterfall, narrow wet stone steps curving upward beside lush fern fronds, mist drifting through the falling water; three-quarter view through the waterfall curtain, open lower-central foreground, cool teal mist-light diffusing through the falls mixed with warm amber glow from within the passage, mossy rock, layered depth, secretive fantasy concept art, richly detailed water spray.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-065",
+    "name": "달토끼 초원",
+    "themeId": 4,
+    "description": "돌로 조각된 달토끼 상이 드넓은 초원 한가운데 자리하고 있다. 주위에는 은은히 빛나는 달꽃들이 무리 지어 피어 있다.",
+    "clues": [
+      "초원",
+      "토끼",
+      "달꽃"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly open moonlit meadow featuring a carved stone moon-rabbit statue standing among clusters of glowing pale moonflowers, tall grass swaying gently; wide symmetrical composition, open lower-central foreground, cool teal moonlight bathing the flowers mixed with warm amber light from distant lanterns, soft rolling terrain, scattered pebbles, layered atmospheric depth, gentle fantasy concept art.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-066",
+    "name": "이끼 낀 돌다리",
+    "themeId": 4,
+    "description": "이끼로 뒤덮인 낡은 돌다리가 졸졸 흐르는 시냇물 위를 가로지른다. 다리 틈새마다 자란 이끼가 초록빛 융단처럼 부드럽게 펼쳐진다.",
+    "clues": [
+      "돌다리",
+      "시내",
+      "이끼"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly moss-covered stone bridge arching over a gently flowing stream, thick green moss carpeting the weathered stonework, smooth pebbles visible beneath clear water; low-angle composition facing the bridge, open lower-central foreground, cool teal water reflections blending with warm amber light from hidden lanterns along the bank, layered forest depth, tranquil fantasy concept art, richly textured stone.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-067",
+    "name": "반딧불 숲 공터",
+    "themeId": 4,
+    "description": "숲속 작은 공터에 반딧불이 무리 지어 잔잔히 떠다닌다. 쓰러진 통나무 하나가 둥글게 놓여 앉아 쉴 수 있는 자리를 만든다.",
+    "clues": [
+      "반딧불",
+      "통나무",
+      "숲"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly forest clearing filled with drifting fireflies glowing softly above a fallen log seat, tall trees encircling the open space; wide eye-level composition, open lower-central foreground, cool teal twilight glow mixed with warm amber firefly light, dewy grass, scattered leaves, layered woodland depth, magical fantasy concept art, richly atmospheric lighting, gentle drifting pollen catching the glow.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-068",
+    "name": "바람 부는 절벽길",
+    "themeId": 4,
+    "description": "가파른 절벽 끝자락에 형형색색의 바람개비가 줄지어 돌아간다. 발아래로 뭉게구름이 낮게 흘러가는 풍경이 펼쳐진다.",
+    "clues": [
+      "절벽",
+      "바람개비",
+      "구름"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly windswept cliffside path lined with colorful spinning pinwheels, soft clouds drifting far below the rocky edge, distant mountain silhouettes; low-angle wide composition, open lower-central foreground, cool teal atmospheric haze mixed with warm amber sunset-tinged light on the stone ledge, weathered rock texture, wooden railing, layered depth into open sky, dramatic fantasy concept art, faint birds gliding along the ridge line.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-069",
+    "name": "버섯 요정 숲",
+    "themeId": 4,
+    "description": "거대한 버섯들이 두꺼운 나무뿌리 사이에서 자라나 있다. 촉촉한 이끼가 뿌리와 버섯 밑동을 부드럽게 감싸고 있다.",
+    "clues": [
+      "버섯",
+      "이끼",
+      "나무뿌리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly enchanted forest floor with oversized glowing mushrooms growing between thick gnarled tree roots, soft moss carpeting the ground beneath; three-quarter low composition, open lower-central foreground, cool teal bioluminescent mushroom glow mixed with warm amber light filtering through the canopy, damp bark texture, scattered leaves, layered woodland depth, whimsical fantasy concept art, faint spores drifting in the still air.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-070",
+    "name": "수정 폭포 협곡",
+    "themeId": 4,
+    "description": "좁은 협곡 사이로 수정처럼 맑은 폭포가 쏟아져 내린다. 물보라 속에서 작은 무지개가 은은하게 나타난다.",
+    "clues": [
+      "폭포",
+      "수정",
+      "협곡"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly narrow canyon featuring a crystal-clear waterfall cascading between towering rock walls, a faint rainbow shimmering within the mist; low-angle upward composition, open lower-central foreground, cool teal water-light mixed with warm amber glow reflecting off canyon stone, layered rocky depth, scattered boulders, atmospheric spray, dramatic fantasy concept art, sunlight glinting faintly through the falling water.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-071",
+    "name": "노을빛 갈대습지",
+    "themeId": 4,
+    "description": "황금빛 갈대숲 사이로 좁은 나무길이 곧게 뻗어 있다. 물새 한 쌍이 머물던 자리에 깃털 몇 개가 남아 습지의 흔적을 알려 준다.",
+    "clues": [
+      "갈대",
+      "물새",
+      "나무길"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly wetland marsh at dusk with golden reeds swaying beside a narrow wooden boardwalk, a few soft feathers resting where waterbirds once perched; wide eye-level composition, open lower-central foreground, warm amber sunset glow blending with cool teal shadowed water, textured reeds, weathered planks, layered marshland depth, peaceful fantasy concept art, distant hills fading into soft haze.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-072",
+    "name": "달빛 조약돌 해변",
+    "themeId": 4,
+    "description": "매끄러운 조약돌이 해변을 따라 촘촘히 깔려 있다. 파도가 남기고 간 조개껍데기들이 달빛 아래 은은히 반짝인다.",
+    "clues": [
+      "조약돌",
+      "해변",
+      "조개"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly moonlit pebble beach with smooth rounded stones covering the shoreline, scattered seashells glinting softly where gentle waves recede; low-angle ground-level composition, open lower-central foreground, cool teal moonlight rippling on wet stones mixed with warm amber light from a distant lighthouse, layered coastal depth, misty horizon, serene fantasy concept art, gentle foam tracing the waterline.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-073",
+    "name": "나무뿌리 동굴",
+    "themeId": 4,
+    "description": "거대한 나무뿌리가 동굴 천장을 그물처럼 뒤덮고 있다. 뿌리 틈새마다 작은 버섯들이 빼곡히 돋아나 있다.",
+    "clues": [
+      "나무뿌리",
+      "동굴",
+      "버섯"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly cave interior with massive tangled tree roots forming a natural ceiling lattice, small glowing mushrooms sprouting from every crevice; symmetrical wide composition, open lower-central foreground, warm amber mushroom glow contrasted with cool teal light seeping through root gaps, earthy soil texture, layered subterranean depth, mysterious fantasy concept art, faint dust motes suspended in the glow.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-074",
+    "name": "무지개 안개 계곡",
+    "themeId": 4,
+    "description": "안개가 자욱한 계곡 사이로 옅은 무지개가 은은하게 걸려 있다. 발아래 흐르는 물줄기가 안개 속에서 희미하게 반짝인다.",
+    "clues": [
+      "안개",
+      "계곡",
+      "무지개"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly misty valley with a faint rainbow arching through drifting fog, a shallow stream glinting softly beneath the haze; gentle elevated composition, open lower-central foreground, cool teal mist diffusing warm amber light from behind distant hills, layered atmospheric depth, soft rock outcrops, dreamlike fantasy concept art, faint silhouettes of pines beyond the haze.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-075",
+    "name": "빙글빙글 바위정원",
+    "themeId": 4,
+    "description": "둥글게 소용돌이 무늬가 새겨진 바위들이 정원 중앙에 모여 있다. 이끼 낀 돌길이 바위 사이를 구불구불 이어 준다.",
+    "clues": [
+      "바위",
+      "돌길",
+      "이끼"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly rock garden featuring swirl-patterned boulders clustered at its center, a moss-lined stone path winding between them; wide symmetrical composition, open lower-central foreground, cool teal moonlight highlighting the carved spirals mixed with warm amber lantern glow along the path, textured stone, scattered pebbles, layered garden depth, meditative fantasy concept art, faint ripples crossing a nearby still pond.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-076",
+    "name": "은어 흐르는 시냇가",
+    "themeId": 4,
+    "description": "맑은 시냇물 속으로 은빛 물고기들이 무리 지어 헤엄친다. 매끈한 돌들이 물살 속에 드문드문 놓여 발 디딜 자리를 만든다.",
+    "clues": [
+      "시냇물",
+      "물고기",
+      "돌"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly clear mountain stream with silver fish swimming in schools beneath the rippling surface, smooth stepping stones scattered across the current; low-angle water-level composition, open lower-central foreground, cool teal water clarity mixed with warm amber light filtering through overhanging branches, layered streambed depth, glistening pebbles, tranquil fantasy concept art, dappled sunlight scattering across the current.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-077",
+    "name": "고대 참나무 광장",
+    "themeId": 4,
+    "description": "수백 년 된 거대한 참나무가 광장 한가운데 우뚝 서 있다. 굵은 가지에 매달린 그네와 등불이 나무 아래를 포근하게 밝힌다.",
+    "clues": [
+      "참나무",
+      "그네",
+      "등불"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly plaza centered on an ancient towering oak tree, a wooden swing hanging from a thick branch beside small lanterns strung along the bark; wide eye-level composition, open lower-central foreground, warm amber lantern light glowing beneath the canopy mixed with cool teal moonlight above, layered root and bark texture, scattered fallen leaves, welcoming fantasy concept art, soft shadows swaying beneath the branches.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-078",
+    "name": "구름 위 산책로",
+    "themeId": 4,
+    "description": "구름 위로 놓인 좁은 산책로가 하늘 산책을 즐기게 한다. 나무 난간 너머로 멀리 뾰족한 산봉우리들이 늘어서 있다.",
+    "clues": [
+      "구름",
+      "난간",
+      "산봉우리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly cloud-top walkway with a narrow wooden path suspended above drifting clouds, a simple railing bordering the edge, distant jagged mountain peaks beyond; gentle elevated composition, open lower-central foreground, cool teal cloud-light mixed with warm amber glow from the horizon, layered sky depth, soft mist swirling underfoot, dreamlike fantasy concept art, faint golden light tracing the cloud edges.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-079",
+    "name": "바위 아치 해안",
+    "themeId": 4,
+    "description": "커다란 바위 아치 아래로 파도가 끊임없이 부딪혀 하얀 물보라를 일으킨다. 멀리 절벽 위에 자리한 등대가 은은한 불빛을 비춘다.",
+    "clues": [
+      "바위아치",
+      "파도",
+      "등대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly coastal scene featuring a massive natural rock arch with waves crashing beneath it, a distant lighthouse beaming softly from a cliff top; low-angle dramatic composition, open lower-central foreground, cool teal ocean spray mixed with warm amber lighthouse glow, weathered rock texture, foam-tipped waves, layered coastal depth, atmospheric fantasy concept art, salty mist drifting toward the cliffs.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-080",
+    "name": "별꽃 들판",
+    "themeId": 4,
+    "description": "은은하게 빛나는 별꽃이 드넓은 들판을 가득 수놓고 있다. 저 멀리 낡은 풍차 한 채가 천천히 돌아가며 풍경을 완성한다.",
+    "clues": [
+      "별꽃",
+      "들판",
+      "풍차"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly wide open field covered in glowing starflowers swaying gently, an old wooden windmill turning slowly on the horizon; wide symmetrical composition, open lower-central foreground, cool teal starflower glow mixed with warm amber light from the windmill's lantern, layered meadow depth, soft grass texture, peaceful fantasy concept art, faint pollen glimmering as it drifts through the air.",
+    "accent": "#477E55"
+  },
+  {
+    "id": "space-081",
+    "name": "태엽 시계 공방",
+    "themeId": 5,
+    "description": "거대한 태엽이 작업대 위에서 천천히 감기며 힘을 모은다. 주변에 흩어진 톱니바퀴들이 태엽의 움직임에 맞춰 반짝인다.",
+    "clues": [
+      "태엽",
+      "시계",
+      "기어"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly clockwork workshop centered on a giant coiled mainspring resting on a sturdy workbench, scattered brass gears glinting around it, tools hanging on the stone wall; low-angle three-quarter composition, open lower-central foreground, warm amber lamp light mixed with cool teal moonlight through a round window, richly detailed brass and timber textures, layered mechanical depth, intricate fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-082",
+    "name": "모래시계 탑방",
+    "themeId": 5,
+    "description": "천장까지 닿을 듯한 거대한 모래시계가 탑 한가운데 세워져 있다. 가느다란 목을 타고 흘러내리는 모래가 은은한 빛을 받아 반짝인다.",
+    "clues": [
+      "모래시계",
+      "탑",
+      "모래"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly tower chamber dominated by a colossal hourglass reaching toward the ceiling, fine glowing sand streaming through its narrow neck; symmetrical vertical composition, open lower-central foreground, warm amber light glinting off falling sand mixed with cool teal moonlight through tall windows, brass frame details, stone tower walls, layered vertical depth, mesmerizing fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-083",
+    "name": "황동 기어 복도",
+    "themeId": 5,
+    "description": "황동으로 만들어진 커다란 기어들이 벽을 가득 채우며 맞물려 돌아간다. 굵은 구리 파이프가 기어 사이를 지나 천장까지 이어진다.",
+    "clues": [
+      "기어",
+      "황동",
+      "파이프"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly clockwork corridor lined with interlocking brass gears covering the walls, thick copper pipes weaving between them toward the ceiling; low-angle corridor composition, open lower-central foreground, warm amber gear-light reflections mixed with cool teal moonlight from a distant window, polished metal textures, stone floor, layered mechanical depth, industrious fantasy concept art, faint clicking shadows cast along the walls.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-084",
+    "name": "달시계 전망실",
+    "themeId": 5,
+    "description": "둥근 달 모양의 시계판이 전망실 벽면을 가득 채운다. 그 옆에 놓인 망원경이 커다란 창을 통해 밤하늘을 향하고 있다.",
+    "clues": [
+      "달시계",
+      "망원경",
+      "창"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly observatory chamber featuring a round moon-phase clock face mounted on the wall, a brass telescope angled toward a tall arched window; three-quarter interior composition, open lower-central foreground, cool teal night sky visible through the glass mixed with warm amber lamp light inside, stone walls, timber shelving, layered depth toward the window, contemplative fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-085",
+    "name": "증기 기관실",
+    "themeId": 5,
+    "description": "구리로 된 커다란 증기 기관이 방 한가운데서 하얀 김을 뿜어낸다. 여러 개의 밸브와 파이프가 기관을 감싸며 복잡하게 얽혀 있다.",
+    "clues": [
+      "증기",
+      "밸브",
+      "파이프"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly steam engine room centered on a large copper machine venting soft white steam, numerous brass valves and pipes wrapping intricately around it; low-angle dramatic composition, open lower-central foreground, warm amber engine-light glow mixed with cool teal moonlight from a high window, weathered stone floor, riveted metal texture, layered industrial depth, atmospheric fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-086",
+    "name": "진자시계 홀",
+    "themeId": 5,
+    "description": "천장에서 내려온 기다란 진자가 조용히 좌우로 흔들린다. 넓은 돌 아치가 진자시계를 감싸며 홀 전체에 위엄을 더한다.",
+    "clues": [
+      "진자",
+      "시계추",
+      "아치"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly clock tower hall featuring a long pendulum swinging gently from the ceiling, a grand stone archway framing the mechanism; symmetrical wide composition, open lower-central foreground, warm amber pendulum-light mixed with cool teal moonlight streaming through the arch, polished stone floor, brass clockwork details, layered vertical depth, stately fantasy concept art, faint chimes echoing through the hall.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-087",
+    "name": "기계 새 조립실",
+    "themeId": 5,
+    "description": "정교하게 만들어진 기계 새 한 마리가 작업대 위에 놓여 날개를 반쯤 펼치고 있다. 주변에 흩어진 작은 나사들이 조립이 한창임을 보여 준다.",
+    "clues": [
+      "기계새",
+      "나사",
+      "작업대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly workshop featuring an intricately crafted mechanical bird resting on a wooden workbench with wings half-spread, tiny brass screws scattered nearby; low three-quarter composition, open lower-central foreground, warm amber lamp light highlighting metallic feathers mixed with cool teal moonlight through a small window, timber tools, stone walls, layered tabletop depth, delicate fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-088",
+    "name": "회전 다리 제어실",
+    "themeId": 5,
+    "description": "축소된 회전 다리 모형이 제어실 중앙 탁자 위에 놓여 있다. 커다란 레버와 맞물린 기어들이 모형 옆에서 조작을 기다린다.",
+    "clues": [
+      "다리",
+      "레버",
+      "기어"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly control room featuring a miniature model of a rotating bridge on a central table, a large brass lever beside interlocking gears; symmetrical composition, open lower-central foreground, warm amber control-panel glow mixed with cool teal moonlight from a narrow window, stone walls, timber cabinetry, layered mechanical depth, precise fantasy concept art, faint reflections gliding across the polished brass.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-089",
+    "name": "나선 계단 시계탑",
+    "themeId": 5,
+    "description": "좁은 나선 계단이 시계탑 꼭대기를 향해 끝없이 이어진다. 계단을 따라 난 작은 창문들이 은은한 달빛을 흘려보낸다.",
+    "clues": [
+      "계단",
+      "시계탑",
+      "창문"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly clock tower interior with a narrow spiral staircase winding upward toward the mechanism, small round windows lining the curved wall letting in soft light; low-angle upward-spiraling composition, open lower-central foreground, cool teal moonlight streaming through the windows mixed with warm amber wall-lamp glow, stone steps, timber handrail, layered vertical depth, dizzying fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-090",
+    "name": "자석 나침반실",
+    "themeId": 5,
+    "description": "커다란 놋쇠 나침반이 탁자 중앙에서 조용히 흔들린다. 그 주위로 흩뿌려진 철가루가 자석의 힘을 따라 신비로운 무늬를 그린다.",
+    "clues": [
+      "나침반",
+      "자석",
+      "철가루"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly navigation chamber centered on a large brass compass resting on a table, scattered iron filings forming swirling magnetic patterns around it; low three-quarter composition, open lower-central foreground, warm amber compass-glow mixed with cool teal moonlight through a round window, polished wood surface, stone walls, layered tabletop depth, curious fantasy concept art, faint magnetic shimmer rippling outward.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-091",
+    "name": "종탑 톱니방",
+    "themeId": 5,
+    "description": "커다란 청동 종이 천장에 매달려 은은히 울릴 준비를 하고 있다. 옆에 놓인 나무 사다리가 톱니바퀴 사이로 이어져 있다.",
+    "clues": [
+      "종",
+      "톱니",
+      "사다리"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly bell tower chamber featuring a large bronze bell hanging from the ceiling beside interlocking cogs, a wooden ladder leading up through the gears; low-angle upward composition, open lower-central foreground, warm amber bell-light glow mixed with cool teal moonlight through open tower vents, weathered timber, stone walls, layered vertical depth, resonant fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-092",
+    "name": "은빛 자동인형 공방",
+    "themeId": 5,
+    "description": "은빛으로 반짝이는 자동인형이 작업대 위에 다소곳이 놓여 있다. 열린 가슴 부분으로 여러 겹의 스프링이 정교하게 드러나 있다.",
+    "clues": [
+      "자동인형",
+      "스프링",
+      "작업대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly automaton workshop featuring a silver clockwork figure seated on a wooden workbench, its open chest panel revealing coiled brass springs; low three-quarter composition, open lower-central foreground, warm amber workbench lamp light mixed with cool teal moonlight through a tall window, timber tool racks, stone floor, layered intricate depth, delicate fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-093",
+    "name": "물레방아 기계실",
+    "themeId": 5,
+    "description": "커다란 나무 물레방아가 좁은 실내 수로 위에서 천천히 돌아간다. 물레방아와 연결된 기어들이 그 회전을 벽 너머로 전달한다.",
+    "clues": [
+      "물레방아",
+      "수로",
+      "기어"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly machine room featuring a large wooden water wheel turning slowly above an indoor channel, connected gears transferring motion along the stone wall; low-angle composition, open lower-central foreground, cool teal water-light reflections mixed with warm amber lantern glow, wet timber texture, mossy stonework, layered mechanical depth, rhythmic fantasy concept art, faint droplets tracing the turning blades.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-094",
+    "name": "시간 유리관실",
+    "themeId": 5,
+    "description": "기다란 유리관 속에서 작은 시계 장치가 은은한 빛을 내며 천천히 돌아간다. 관을 감싼 빛줄기가 방 전체에 신비로운 색을 드리운다.",
+    "clues": [
+      "유리관",
+      "시계",
+      "빛"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly chamber featuring a tall glass tube enclosing a glowing miniature clockwork mechanism slowly rotating, soft light beams radiating outward; symmetrical vertical composition, open lower-central foreground, cool teal glow from the tube mixed with warm amber ambient lantern light, stone walls, brass mounting frame, layered luminous depth, mystical fantasy concept art, faint pulsing glow syncing with the mechanism.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-095",
+    "name": "비행선 엔진실",
+    "themeId": 5,
+    "description": "황동으로 뒤덮인 커다란 비행선 엔진이 방 중앙에 자리하고 있다. 넓은 프로펠러 날개가 엔진 옆에 가지런히 세워져 있다.",
+    "clues": [
+      "엔진",
+      "프로펠러",
+      "황동"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly airship engine room centered on a large brass-plated engine, a wide wooden-and-metal propeller blade standing beside it, riveted panels covering the walls; low-angle dramatic composition, open lower-central foreground, warm amber engine glow mixed with cool teal moonlight from a porthole window, weathered stone floor, layered industrial depth, adventurous fantasy concept art, faint reflections of brass along the curved hull.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-096",
+    "name": "톱니 온실 제어실",
+    "themeId": 5,
+    "description": "천장의 톱니바퀴가 유리 지붕의 환기창을 조절하는 온실 제어실이다. 벽에 달린 커다란 레버가 톱니의 움직임을 시작하게 한다.",
+    "clues": [
+      "톱니",
+      "온실",
+      "레버"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly greenhouse control room where ceiling cogs operate a glass roof vent, a large brass lever mounted on the stone wall ready to shift them; three-quarter composition, open lower-central foreground, warm amber control-light mixed with cool teal moonlight filtering through the glass panels, potted plants nearby, timber framework, layered mechanical-botanical depth, inventive fantasy concept art, faint droplets tracing the glass panes.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-097",
+    "name": "시계추 다리방",
+    "themeId": 5,
+    "description": "거대한 시계추 모양의 다리가 방 한가운데를 가로지르며 흔들린다. 굵은 사슬이 다리 양끝을 단단히 고정하고 있다.",
+    "clues": [
+      "시계추",
+      "다리",
+      "사슬"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly mechanical chamber featuring a bridge shaped like a giant swinging clock pendulum crossing the room, thick chains anchoring both ends; low-angle dynamic composition, open lower-central foreground, warm amber chain-light glow mixed with cool teal moonlight from a high window, stone walls, brass joints, layered suspended depth, dramatic fantasy concept art, faint echoes rattling the surrounding chains.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-098",
+    "name": "음악 상자 공방",
+    "themeId": 5,
+    "description": "커다란 음악 상자가 작업대 한가운데 놓여 은빛 실린더를 드러내고 있다. 상자 옆에 놓인 황금 열쇠가 태엽을 감을 준비를 하고 있다.",
+    "clues": [
+      "음악상자",
+      "실린더",
+      "열쇠"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly workshop featuring a large ornate music box open on a workbench revealing its silver cylinder, a golden key resting beside it ready to wind the mechanism; low three-quarter composition, open lower-central foreground, warm amber workbench light mixed with cool teal moonlight through a round window, timber tools, stone walls, layered intricate depth, melodic fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-099",
+    "name": "태양추적 렌즈실",
+    "themeId": 5,
+    "description": "커다란 황동 렌즈가 천장의 개폐 장치를 통해 태양 빛을 따라 서서히 움직인다. 렌즈 아래 맞물린 기어들이 그 회전을 조용히 조절한다.",
+    "clues": [
+      "렌즈",
+      "태양",
+      "기어"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly tower chamber featuring a large brass sun-tracking lens mounted beneath a retractable ceiling aperture, interlocking gears quietly adjusting its slow rotation; low-angle upward composition, open lower-central foreground, warm amber sunlight-lens glow mixed with cool teal shadowed stone, timber support beams, layered mechanical depth, radiant fantasy concept art, faint golden rays tracking across the polished glass.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-100",
+    "name": "잠금장치 연구실",
+    "themeId": 5,
+    "description": "복잡하게 얽힌 커다란 자물쇠가 연구용 탁자 위에 분해되어 놓여 있다. 다양한 모양의 열쇠와 작은 기어들이 그 주위에 가지런히 정리되어 있다.",
+    "clues": [
+      "자물쇠",
+      "열쇠",
+      "기어"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic child-friendly research chamber featuring a large intricate lock disassembled on a study table, an array of differently shaped keys and small gears neatly arranged around it; low three-quarter composition, open lower-central foreground, warm amber desk-lamp light mixed with cool teal moonlight through a narrow window, timber shelving, stone walls, layered puzzle-like depth, inquisitive fantasy concept art.",
+    "accent": "#B07A3B"
+  },
+  {
+    "id": "space-101",
+    "name": "부엉이 우편탑",
+    "themeId": 6,
+    "description": "둥근 창가에 나무 횃대들이 줄지어 서 있고 부엉이 몇 마리가 얌전히 앉아 있다. 바닥에는 배달을 기다리는 편지 꾸러미가 노끈에 묶여 쌓여 있다.",
+    "clues": [
+      "부엉이",
+      "편지",
+      "횃대"
+    ],
+    "artPrompt": "No people, no text, no UI, cinematic view of a round stone owl-post tower, tall arched window at the back, rows of wooden perches holding sleepy owls, bundles of tied letters stacked on the open central floor, brass mail hooks along the curved wall, warm amber lantern glow blending with cool teal moonlight through the window, soft feather textures, low camera angle looking upward past the perches, open lower-central foreground, gentle atmospheric haze, polished storybook concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-102",
+    "name": "은여우 굴",
+    "themeId": 6,
+    "description": "흙벽을 파고 만든 아늑한 굴 안에 부드러운 담요 더미가 쌓여 있다. 은빛 여우 몇 마리가 몸을 말고 잠든 흔적이 남아 있다.",
+    "clues": [
+      "여우",
+      "굴",
+      "담요"
+    ],
+    "artPrompt": "No people, no text, no UI, cozy underground den carved from packed earth and pale roots, soft folded blankets nested in a shallow hollow at center, silvery fox fur tufts caught on a wooden peg, small glowing lantern hanging from a root overhead, warm amber light pooling on the den floor against cool teal shadows in the tunnel beyond, wide low eye-level composition, open central foreground, tactile earthy textures, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-103",
+    "name": "용아기 보육실",
+    "themeId": 6,
+    "description": "돌로 쌓은 화로 곁에 자그마한 용알 둥지가 정성스레 놓여 있다. 알껍질 조각과 부드러운 이끼가 둥지 주변에 흩어져 있다.",
+    "clues": [
+      "용알",
+      "둥지",
+      "화로"
+    ],
+    "artPrompt": "No people, no text, no UI, stone nursery chamber with a low glowing brazier warming a nest of speckled dragon eggs at the center, cracked eggshell fragments and soft moss scattered nearby, curved brick walls lined with small alcoves, warm amber firelight pushing against cool teal moonlight from a narrow slit window, three-quarter interior view with generous open floor in front, gentle rising heat haze, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-104",
+    "name": "페가수스 마구간",
+    "themeId": 6,
+    "description": "널따란 마구간에 깃털 달린 마구와 건초더미가 가지런히 정리되어 있다. 천장 높이의 문 사이로 밤바람이 드나든다.",
+    "clues": [
+      "페가수스",
+      "마구",
+      "건초"
+    ],
+    "artPrompt": "No people, no text, no UI, spacious timber-beamed stable with a feathered winged harness hanging on a carved post, tall hay bales stacked along one wall, oversized double doors open to a night sky beyond, straw scattered across the stone floor, warm amber lantern light mixing with cool teal moonlight streaming through the doorway, symmetrical wide composition with an unobstructed foreground, soft dust motes drifting, polished storybook concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-105",
+    "name": "달고양이 휴게실",
+    "themeId": 6,
+    "description": "둥근 창턱에 별빛 무늬 쿠션이 소복이 쌓여 있다. 그릇과 실뭉치가 바닥 여기저기 놓여 고양이의 흔적을 보여 준다.",
+    "clues": [
+      "고양이",
+      "쿠션",
+      "달"
+    ],
+    "artPrompt": "No people, no text, no UI, small circular lounge chamber with a curved window seat piled high with star-patterned cushions, a shallow milk bowl and loose yarn balls resting on the stone floor, crescent-shaped carvings decorating the ceiling, warm amber candlelight blending with cool teal moonlight pouring through the round window, gentle elevated camera angle through a broad opening, open lower-central foreground, soft plush textures, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-106",
+    "name": "수달 연못집",
+    "themeId": 6,
+    "description": "실내로 끌어들인 맑은 연못 옆에 나무 미끄럼틀이 비스듬히 놓여 있다. 물가에는 조개껍질과 조약돌이 반짝이며 쌓여 있다.",
+    "clues": [
+      "수달",
+      "연못",
+      "조개"
+    ],
+    "artPrompt": "No people, no text, no UI, indoor pond chamber with a smooth wooden slide curving down into clear rippling water, polished shells and river stones piled along the mossy bank, stone archways reflected on the water surface, warm amber lantern light glinting off ripples beneath cool teal moonbeams from an overhead skylight, wide eye-level composition with an open foreground, delicate water reflections, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-107",
+    "name": "나비 부화 온실",
+    "themeId": 6,
+    "description": "유리 지붕 아래 화분들 사이로 나비 번데기가 실가지에 매달려 있다. 활짝 핀 꽃들이 은은한 향기를 풍기며 빛을 반사한다.",
+    "clues": [
+      "나비",
+      "번데기",
+      "꽃"
+    ],
+    "artPrompt": "No people, no text, no UI, glass-roofed greenhouse with delicate chrysalises hanging from twine strung between potted vines, blooming flowers in terracotta pots lining a curved central path, dew droplets on wide petals, warm amber grow-lanterns mixing with cool teal moonlight through the glass panels, low-angle cinematic composition with a clear central aisle, faint pollen sparkle in the air, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-108",
+    "name": "말하는 까마귀 탑",
+    "themeId": 6,
+    "description": "나선 계단 끝 작은 탑방에 까마귀 횃대가 걸려 있다. 벽에 걸린 오래된 거울이 방 안 풍경을 되비춘다.",
+    "clues": [
+      "까마귀",
+      "횃대",
+      "거울"
+    ],
+    "artPrompt": "No people, no text, no UI, narrow circular tower room at the top of a spiral stair, a single carved perch holding a glossy black crow beside an antique oval mirror on the wall, weathered stone ledges around a slit window, warm amber candle glow against cool teal moonlight reflected in the mirror glass, three-quarter interior view leaving generous open floor space, subtle mirrored depth, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-109",
+    "name": "유니콘 샘터",
+    "themeId": 6,
+    "description": "돌 분수 한가운데 유니콘 조각이 물줄기를 뿜어낸다. 무지개 빛깔 물방울이 주변 바닥에 은은하게 튀어 오른다.",
+    "clues": [
+      "유니콘",
+      "샘",
+      "무지개"
+    ],
+    "artPrompt": "No people, no text, no UI, circular stone courtyard with a carved unicorn fountain at the center spraying arcing water, faint rainbow droplets catching the light above the shallow pool, ivy-draped columns ringing the space, warm amber torchlight blending with cool teal moonlight on the wet stone floor, symmetrical wide composition with an unobstructed foreground, soft misty spray, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-110",
+    "name": "작은 거인 다락",
+    "themeId": 6,
+    "description": "커다란 나무 의자와 낡은 장화 한 짝이 다락 구석에 놓여 있다. 서까래 사이로 밤하늘이 살짝 내려다보인다.",
+    "clues": [
+      "거인",
+      "의자",
+      "장화"
+    ],
+    "artPrompt": "No people, no text, no UI, sloped timber attic with an oversized wooden chair and a single worn leather boot tucked beneath exposed rafters, dried herb bundles hanging from a beam, a round skylight showing the night sky, warm amber lantern light mixing with cool teal moonlight spilling through the roof opening, gentle elevated view through a broad architectural opening, open central foreground, dusty wood-grain detail, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-111",
+    "name": "달팽이 우체국",
+    "themeId": 6,
+    "description": "거대한 달팽이 껍질이 접수대처럼 방 중앙에 자리한다. 조개껍질 소포와 접힌 편지 봉투가 선반에 쌓여 있다.",
+    "clues": [
+      "달팽이",
+      "우편",
+      "조개껍질"
+    ],
+    "artPrompt": "No people, no text, no UI, cozy postal chamber built around an enormous spiral snail shell serving as a counter, shelves lined with shell-shaped parcels and folded envelopes, slime-trail patterns etched into the stone floor, warm amber desk-lantern glow against cool teal moonlight from a small round window, wide eye-level composition with an open foreground, glossy shell highlights, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-112",
+    "name": "불도마뱀 온실",
+    "themeId": 6,
+    "description": "달궈진 바위 위에 불도마뱀 한 마리가 웅크리고 있다. 주변 화분에는 열기를 좋아하는 붉은 식물이 자라 있다.",
+    "clues": [
+      "도마뱀",
+      "불꽃",
+      "바위"
+    ],
+    "artPrompt": "No people, no text, no UI, sun-baked terrarium chamber with a warm glowing volcanic rock at the center where a small fire-lizard rests, red heat-loving plants growing from clay pots nearby, faint smoke wisps curling toward a vented ceiling, warm amber ember-light contrasting cool teal moonlight through a narrow window, low-angle cinematic composition with a clear central aisle, shimmering heat distortion, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-113",
+    "name": "해마 수조실",
+    "themeId": 6,
+    "description": "커다란 유리 수조 안에서 해마들이 산호 사이를 헤엄친다. 바닥에는 물 얼룩과 조개 장식이 규칙적으로 이어져 있다.",
+    "clues": [
+      "해마",
+      "수조",
+      "산호"
+    ],
+    "artPrompt": "No people, no text, no UI, tall glass aquarium chamber with seahorses drifting among branching coral inside a bubbling tank, decorative shell mosaics tracing the wet stone floor, brass pipe fittings framing the glass, warm amber lantern reflections dancing on the water against cool teal moonlight from above, three-quarter interior view leaving generous open floor space, soft caustic light patterns, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-114",
+    "name": "박쥐 종루",
+    "themeId": 6,
+    "description": "높은 천장에 매달린 청동 종 주위로 박쥐들이 조용히 잠들어 있다. 종에서 뻗은 밧줄이 벽면까지 늘어져 있다.",
+    "clues": [
+      "박쥐",
+      "종",
+      "천장"
+    ],
+    "artPrompt": "No people, no text, no UI, tall bell-tower chamber with a large bronze bell hanging from the vaulted ceiling, sleeping bats clustered along the rafters above, a thick rope trailing down to a wall bracket, warm amber torchlight glowing against cool teal moonlight through pointed arch windows, symmetrical wide composition with an unobstructed foreground, subtle metallic sheen on the bell, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-115",
+    "name": "봉황 깃털 둥지",
+    "themeId": 6,
+    "description": "커다란 둥지에 은은히 빛나는 봉황 깃털이 가지런히 놓여 있다. 둥지 테두리를 감싼 마른 가지가 따뜻한 색으로 타오르듯 보인다.",
+    "clues": [
+      "봉황",
+      "깃털",
+      "둥지"
+    ],
+    "artPrompt": "No people, no text, no UI, elevated woven nest chamber holding a spread of softly glowing phoenix feathers, dry ember-colored branches framing the nest rim, faint sparks drifting upward toward an open oculus ceiling, warm amber inner glow blending with cool teal moonlight from above, gentle elevated view through a broad architectural opening, open lower-central foreground, luminous feather detail, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-116",
+    "name": "숲사슴 쉼터",
+    "themeId": 6,
+    "description": "나무 먹이통 곁에 마른 나뭇잎이 두툼하게 깔려 있다. 벽 틈으로 자란 어린 나무가 방 안까지 가지를 뻗는다.",
+    "clues": [
+      "사슴",
+      "먹이통",
+      "나뭇잎"
+    ],
+    "artPrompt": "No people, no text, no UI, rustic woodland shelter chamber with a carved wooden feeding trough surrounded by thick fallen leaves, a young sapling growing through a cracked stone wall with branches reaching indoors, moss-covered roots underfoot, warm amber lantern light mixing with cool teal moonlight filtering through leaves, wide eye-level composition with an open stone foreground, soft earthy palette, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-117",
+    "name": "구름양 목장",
+    "themeId": 6,
+    "description": "나무 울타리 안에 솜털처럼 부드러운 구름양들이 모여 있다. 울타리 너머로 흩어진 양털 뭉치가 바닥을 덮는다.",
+    "clues": [
+      "양",
+      "구름",
+      "울타리"
+    ],
+    "artPrompt": "No people, no text, no UI, open pastoral chamber with a low wooden fence enclosing fluffy cloud-textured sheep resting on straw, tufts of soft wool scattered across the stone floor, a wide skylight showing drifting night clouds, warm amber lantern glow against cool teal moonlight through the opening, low-angle cinematic composition with a clear central aisle, gentle cottony textures, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-118",
+    "name": "두꺼비 찻집",
+    "themeId": 6,
+    "description": "버섯 모양 의자들 사이에 낮은 찻상이 놓여 있다. 김이 오르는 찻주전자가 상 위에서 은은한 향을 풍긴다.",
+    "clues": [
+      "두꺼비",
+      "찻주전자",
+      "버섯"
+    ],
+    "artPrompt": "No people, no text, no UI, whimsical tea room with mushroom-shaped stools around a low round table holding a steaming ceramic teapot, cushioned toadstool seating arranged in a loose circle, dried herb bundles hanging above, warm amber lantern light against cool teal moonlight through a round leaded window, three-quarter interior view leaving generous open floor space, gentle rising steam, richly detailed fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-119",
+    "name": "수정 거북 연못",
+    "themeId": 6,
+    "description": "잔잔한 연못 위에 수정처럼 맑은 거북 조각이 떠 있는 듯 보인다. 연못가에 매끄러운 조약돌이 원을 그리며 놓여 있다.",
+    "clues": [
+      "거북",
+      "연못",
+      "수정"
+    ],
+    "artPrompt": "No people, no text, no UI, tranquil pond chamber with a crystalline turtle sculpture resting at the water's edge, smooth pebbles arranged in a ring around the shallow pool, faint prismatic light scattering through the crystal shell, warm amber lanterns reflected on the still water against cool teal moonlight above, symmetrical wide composition with an unobstructed foreground, soft rippling reflections, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-120",
+    "name": "별개구리 수련장",
+    "themeId": 6,
+    "description": "둥근 수련잎 위에 별무늬 개구리들이 나란히 앉아 있다. 연못 표면에 흩어진 별빛이 잎사귀 사이로 반짝인다.",
+    "clues": [
+      "개구리",
+      "수련",
+      "별"
+    ],
+    "artPrompt": "No people, no text, no UI, shallow indoor pond chamber with round lily pads holding star-patterned frogs, scattered starlight reflections glimmering across the dark water, mossy stone edging the pool, warm amber lantern glow blending with cool teal moonlight through an open skylight, gentle elevated view through a broad architectural opening, open lower-central foreground, delicate glowing spots, polished fantasy concept art.",
+    "accent": "#6B85C5"
+  },
+  {
+    "id": "space-121",
+    "name": "나선형 도서관",
+    "themeId": 7,
+    "description": "천장까지 이어진 책장이 나선형으로 감아 올라간다. 곳곳에 걸린 이동식 사다리가 높은 선반까지 닿아 있다.",
+    "clues": [
+      "책장",
+      "나선",
+      "사다리"
+    ],
+    "artPrompt": "No people, no text, no UI, towering spiral library chamber with shelves curving upward toward a distant vaulted ceiling, a rolling wooden ladder leaning against the curved stacks, scattered open books on a central reading table, warm amber brass lamps glowing against cool teal moonlight from a high window, wide eye-level composition with an open stone foreground, deep layered perspective, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-122",
+    "name": "별지도 기록보관소",
+    "themeId": 7,
+    "description": "넓은 서랍장에 별자리를 그린 지도가 겹겹이 보관되어 있다. 펼쳐진 지도 위로 잉크 별자리가 은은하게 빛난다.",
+    "clues": [
+      "별지도",
+      "서랍",
+      "두루마리"
+    ],
+    "artPrompt": "No people, no text, no UI, archive chamber lined with wide flat drawers holding rolled star charts, one unrolled map glowing faintly with inked constellations spread across a central table, brass drawer handles catching the light, warm amber lamplight against cool teal moonlight through a tall arched window, low-angle cinematic composition with a clear central aisle, subtle luminous ink detail, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-123",
+    "name": "깃펜 필사실",
+    "themeId": 7,
+    "description": "긴 책상 위에 깃펜과 잉크병이 줄지어 놓여 있다. 반쯤 쓰인 양피지가 촛불 곁에서 마르는 중이다.",
+    "clues": [
+      "깃펜",
+      "양피지",
+      "잉크"
+    ],
+    "artPrompt": "No people, no text, no UI, quiet scriptorium chamber with a long wooden desk holding rows of feather quills and glass ink bottles, a half-written parchment drying beside a squat candle, stacked blank scrolls at the desk edge, warm amber candlelight mixing with cool teal moonlight through a slatted window, three-quarter interior view leaving generous open floor space, soft ink-stained textures, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-124",
+    "name": "수정 두루마리실",
+    "themeId": 7,
+    "description": "유리 상자 안에 수정처럼 투명한 두루마리가 세워져 있다. 상자를 둘러싼 선반에 낡은 상자들이 가지런히 쌓여 있다.",
+    "clues": [
+      "두루마리",
+      "수정",
+      "상자"
+    ],
+    "artPrompt": "No people, no text, no UI, small vault-like reading room with a glass display case holding a glowing crystalline scroll standing upright, weathered wooden storage boxes stacked on surrounding shelves, faint refracted light scattering from the crystal surface, warm amber display lighting against cool teal moonlight through a narrow slit window, symmetrical wide composition with an unobstructed foreground, delicate prismatic glow, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-125",
+    "name": "떠다니는 책 아카이브",
+    "themeId": 7,
+    "description": "여러 권의 책이 허공에 둥실 떠서 천천히 회전한다. 아래 놓인 사다리는 아무 곳에도 기대지 않고 홀로 서 있다.",
+    "clues": [
+      "책",
+      "사다리",
+      "등불"
+    ],
+    "artPrompt": "No people, no text, no UI, cavernous archive chamber where several old books drift and slowly rotate in mid-air, a freestanding wooden ladder standing alone beneath them, hanging brass lantern swaying gently overhead, warm amber lantern glow contrasting cool teal moonlight from tall arched windows, gentle elevated view through a broad architectural opening, open lower-central foreground, subtle magical shimmer around the floating books, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-126",
+    "name": "지도 복원실",
+    "themeId": 7,
+    "description": "찢어진 지도 조각이 넓은 작업대 위에 펼쳐져 있다. 붓과 핀셋이 지도 곁에 가지런히 놓여 손질을 기다린다.",
+    "clues": [
+      "지도",
+      "붓",
+      "핀셋"
+    ],
+    "artPrompt": "No people, no text, no UI, restoration workshop chamber with a torn antique map spread across a wide worktable, fine brushes and metal tweezers laid neatly beside it, small jars of pigment lining a shelf, warm amber workbench lamp glowing against cool teal moonlight through a tall window, wide eye-level composition with an open stone foreground, delicate paper-grain texture, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-127",
+    "name": "고서 제본 공방",
+    "themeId": 7,
+    "description": "가죽 표지와 실이 제본대 위에 어지럽게 널려 있다. 완성된 책 몇 권이 옆 선반에 단정히 쌓여 있다.",
+    "clues": [
+      "제본",
+      "실",
+      "가죽"
+    ],
+    "artPrompt": "No people, no text, no UI, bookbinding workshop chamber with a sturdy wooden binding press holding leather covers and waxed thread, a few finished leather-bound books stacked neatly on a side shelf, tools hanging from pegs on the wall, warm amber workshop lantern light against cool teal moonlight through a small window, low-angle cinematic composition with a clear central aisle, rich leather texture, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-128",
+    "name": "달빛 독서 발코니",
+    "themeId": 7,
+    "description": "돌 난간이 둘린 발코니에 낮은 독서석이 마련되어 있다. 펼쳐진 책 위로 달빛이 곧게 내려앉는다.",
+    "clues": [
+      "발코니",
+      "책",
+      "달"
+    ],
+    "artPrompt": "No people, no text, no UI, open stone balcony reading nook with a low cushioned seat holding an open book catching a direct beam of moonlight, a carved stone balustrade framing the night sky beyond, small side table with a folded blanket, warm amber lantern glow blending with cool teal moonlight streaming across the floor, three-quarter interior view leaving generous open floor space, soft nocturnal atmosphere, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-129",
+    "name": "마법 잉크 저장고",
+    "themeId": 7,
+    "description": "선반마다 색색의 잉크 항아리가 줄지어 놓여 있다. 몇몇 항아리는 은은한 빛을 내며 스스로 반짝인다.",
+    "clues": [
+      "잉크",
+      "항아리",
+      "선반"
+    ],
+    "artPrompt": "No people, no text, no UI, narrow storage chamber lined with wooden shelves holding rows of colorful ink jars, a few jars glowing faintly with their own inner magical light, dripped ink stains marking the worn shelf edges, warm amber lantern light against cool teal moonlight through a high vent window, symmetrical wide composition with an unobstructed foreground, luminous jar highlights, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-130",
+    "name": "비밀 서가 미로",
+    "themeId": 7,
+    "description": "책장으로 이루어진 좁은 통로가 여러 갈래로 얽혀 있다. 한쪽 벽면에는 위층으로 이어지는 낡은 사다리가 기대어 있다.",
+    "clues": [
+      "서가",
+      "미로",
+      "사다리"
+    ],
+    "artPrompt": "No people, no text, no UI, maze-like library chamber formed by tall narrow bookshelf corridors branching in several directions, a weathered wooden ladder leaning against one shelf reaching toward an upper landing, dust drifting between the stacks, warm amber shelf-lanterns glowing against cool teal moonlight filtering from above, gentle elevated view through a broad architectural opening, open lower-central foreground, deep receding perspective, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-131",
+    "name": "왕실 편지 보관실",
+    "themeId": 7,
+    "description": "금박 장식된 편지함이 벽면 서랍장 안에 가지런히 정리되어 있다. 붉은 봉랍이 찍힌 봉투 몇 장이 책상 위에 놓여 있다.",
+    "clues": [
+      "편지",
+      "봉랍",
+      "서랍"
+    ],
+    "artPrompt": "No people, no text, no UI, ornate archive chamber with a gilded wall cabinet of drawers holding sealed royal letters, a few envelopes stamped with red wax seals resting on a polished desk, velvet-lined drawer interiors visible where slightly open, warm amber candlelight against cool teal moonlight through a stained window, wide eye-level composition with an open stone foreground, rich gilded detail, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-132",
+    "name": "말하는 책 열람실",
+    "themeId": 7,
+    "description": "독서대 위에 커다란 고서가 스스로 페이지를 넘기는 듯 펼쳐져 있다. 곁에 놓인 촛불이 가늘게 흔들리며 빛난다.",
+    "clues": [
+      "책",
+      "독서대",
+      "촛불"
+    ],
+    "artPrompt": "No people, no text, no UI, hushed reading chamber with a large old book resting open on a carved wooden lectern, pages appearing to turn on their own, a slender candle flickering beside it, warm amber candlelight blending with cool teal moonlight through a narrow window, low-angle cinematic composition with a clear central aisle, soft floating dust motes, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-133",
+    "name": "종이학 문서실",
+    "themeId": 7,
+    "description": "천장 가득 접힌 종이학이 매달려 조용히 흔들린다. 책상 위에는 정리 중인 문서 더미가 반듯이 쌓여 있다.",
+    "clues": [
+      "종이학",
+      "문서",
+      "책상"
+    ],
+    "artPrompt": "No people, no text, no UI, quiet document chamber with dozens of folded paper cranes hanging from the ceiling and swaying gently, a tidy stack of documents arranged on a simple wooden desk below, ink stamps resting nearby, warm amber desk-lamp glow against cool teal moonlight from a round window, three-quarter interior view leaving generous open floor space, delicate paper-fold silhouettes, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-134",
+    "name": "고대 언어 번역실",
+    "themeId": 7,
+    "description": "돌 석판에 새겨진 낯선 문자가 책상 위에 놓여 있다. 두꺼운 사전과 돋보기가 석판 곁에 나란히 자리한다.",
+    "clues": [
+      "석판",
+      "사전",
+      "돋보기"
+    ],
+    "artPrompt": "No people, no text, no UI, scholarly translation chamber with a carved stone tablet covered in ancient glyphs resting on a study desk, a thick leather dictionary and brass magnifying glass placed beside it, notes pinned to a nearby corkboard, warm amber desk lamp light against cool teal moonlight through a tall window, symmetrical wide composition with an unobstructed foreground, textured stone engravings, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-135",
+    "name": "유리책 진열관",
+    "themeId": 7,
+    "description": "투명한 유리로 만든 책들이 진열대 위에서 은은히 빛난다. 조명 아래 유리 표지가 무지개빛으로 반짝인다.",
+    "clues": [
+      "유리책",
+      "진열장",
+      "빛"
+    ],
+    "artPrompt": "No people, no text, no UI, elegant display gallery chamber with translucent glass-bound books glowing softly on a raised pedestal case, prismatic light scattering across the glass covers under a hanging light fixture, polished floor reflecting the display, warm amber gallery lighting blending with cool teal moonlight through skylights, gentle elevated view through a broad architectural opening, open lower-central foreground, luminous glass texture, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-136",
+    "name": "구름 종이 공방",
+    "themeId": 7,
+    "description": "물통 위로 뽀얀 구름 종이가 얇게 떠오른다. 나무 틀 여러 개가 벽에 기대어 말라가는 종이를 받치고 있다.",
+    "clues": [
+      "종이",
+      "물통",
+      "틀"
+    ],
+    "artPrompt": "No people, no text, no UI, papermaking workshop chamber with a wide wooden vat where pale cloud-textured paper pulp floats near the surface, several drying frames leaning against a stone wall holding sheets of finished paper, water droplets glinting on the workbench, warm amber lantern glow against cool teal moonlight through a vent window, wide eye-level composition with an open stone foreground, soft misty texture, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-137",
+    "name": "연금술 기록실",
+    "themeId": 7,
+    "description": "두꺼운 장부 곁에 색색의 약병이 줄지어 놓여 있다. 깃펜 끝에 남은 잉크가 마르지 않은 채 반짝인다.",
+    "clues": [
+      "장부",
+      "약병",
+      "깃펜"
+    ],
+    "artPrompt": "No people, no text, no UI, alchemical record chamber with a thick leather ledger open beside rows of colorful glass vials on a wooden shelf, a feather quill resting with still-wet ink glinting on its tip, faint vapor rising from one uncorked vial, warm amber lantern light against cool teal moonlight through a small round window, low-angle cinematic composition with a clear central aisle, subtle glowing vial hues, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-138",
+    "name": "봉인된 지도실",
+    "themeId": 7,
+    "description": "붉은 인장이 찍힌 지도가 유리 진열장 안에 놓여 있다. 진열장을 감싼 금속 테두리가 은은히 빛난다.",
+    "clues": [
+      "봉인",
+      "지도",
+      "인장"
+    ],
+    "artPrompt": "No people, no text, no UI, guarded archive chamber with a sealed antique map bearing a red wax stamp displayed inside a glass case, a decorative metal frame glowing faintly around the case edge, stone pedestal beneath it, warm amber spotlight glow against cool teal moonlight through a barred window, three-quarter interior view leaving generous open floor space, subtle reflective glass surface, polished fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-139",
+    "name": "천장화 열람실",
+    "themeId": 7,
+    "description": "높은 천장에 별자리를 그린 벽화가 펼쳐져 있다. 아래 책상에는 램프 불빛 아래 책 한 권이 놓여 있다.",
+    "clues": [
+      "천장화",
+      "책",
+      "램프"
+    ],
+    "artPrompt": "No people, no text, no UI, grand reading chamber with a painted ceiling mural of constellations arching overhead, a single open book resting under a brass desk lamp on a lower reading table, tall bookshelves lining the walls beneath, warm amber lamplight against cool teal moonlight glowing through the painted ceiling, symmetrical wide composition with an unobstructed foreground, rich painted color detail, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-140",
+    "name": "시간 연대기실",
+    "themeId": 7,
+    "description": "거대한 연대기 두루마리가 벽을 따라 길게 펼쳐져 있다. 곁에 놓인 작은 시계가 조용히 초침을 움직인다.",
+    "clues": [
+      "연대기",
+      "시계",
+      "책장"
+    ],
+    "artPrompt": "No people, no text, no UI, historical chronicle chamber with an enormous scroll of chronicle text unrolled along a curved wall, a small brass clock ticking quietly on a side shelf beside tall bookshelves, faint dust settling on the ancient parchment, warm amber lantern light against cool teal moonlight through a narrow window, gentle elevated view through a broad architectural opening, open lower-central foreground, weathered parchment texture, richly detailed fantasy concept art.",
+    "accent": "#8059A6"
+  },
+  {
+    "id": "space-141",
+    "name": "은하 돔 관측소",
+    "themeId": 8,
+    "description": "넓은 돔 천장에 은하수 모양이 그대로 투영되어 있다. 중앙에 놓인 커다란 망원경이 하늘을 향해 곧게 서 있다.",
+    "clues": [
+      "돔",
+      "은하",
+      "망원경"
+    ],
+    "artPrompt": "No people, no text, no UI, grand domed observatory chamber with a swirling galaxy projection glowing across the curved ceiling, a large brass telescope standing at the center pointed toward an open dome slit, stone floor tiles radiating outward, warm amber console lighting against cool teal starlit moonlight from above, wide eye-level composition with an open stone foreground, deep atmospheric depth, richly detailed fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-142",
+    "name": "태양 렌즈 천문실",
+    "themeId": 8,
+    "description": "커다란 렌즈가 창가에 비스듬히 고정되어 햇빛을 모은다. 렌즈 곁에 세워진 망원경이 관측 준비를 마친 듯 놓여 있다.",
+    "clues": [
+      "태양",
+      "렌즈",
+      "망원경"
+    ],
+    "artPrompt": "No people, no text, no UI, sunlit observatory alcove chamber with a large angled lens mounted near a wide window focusing beams of light, a slender telescope positioned beside it ready for observation, brass gears visible along its mount, warm amber lens-flare glow blending with cool teal moonlight beyond the glass, low-angle cinematic composition with a clear central aisle, bright refracted light streaks, polished fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-143",
+    "name": "달의 위상 회랑",
+    "themeId": 8,
+    "description": "긴 회랑을 따라 달의 여러 위상을 담은 창이 이어진다. 바닥에는 창을 통과한 달빛이 은은한 무늬로 번져 있다.",
+    "clues": [
+      "달",
+      "위상",
+      "창문"
+    ],
+    "artPrompt": "No people, no text, no UI, long arched corridor chamber lined with a sequence of circular windows each depicting a different phase of the moon, soft moon-shaped light patterns spreading across the stone floor, slender columns framing each window, warm amber wall sconces against cool teal moonlight streaming through the glass, three-quarter interior view leaving generous open floor space, layered receding archways, richly detailed fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-144",
+    "name": "별자리 투영실",
+    "themeId": 8,
+    "description": "천장 가득 별자리 투영기가 은은한 빛의 선을 그려낸다. 방 안 가득 반짝이는 점들이 서서히 자리를 옮긴다.",
+    "clues": [
+      "별자리",
+      "투영기",
+      "천장"
+    ],
+    "artPrompt": "No people, no text, no UI, dark projection chamber with a brass constellation projector at the center casting glowing lines of light across the domed ceiling, scattered points of light slowly drifting overhead, a circular stone floor reflecting faint sparkle, warm amber projector glow against cool teal ambient moonlight, symmetrical wide composition with an unobstructed foreground, soft luminous star trails, polished fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-145",
+    "name": "혜성 관측 발코니",
+    "themeId": 8,
+    "description": "난간 너머로 긴 꼬리를 끄는 혜성이 내다보인다. 발코니에 설치된 망원경이 그 방향을 정확히 겨눈다.",
+    "clues": [
+      "혜성",
+      "발코니",
+      "망원경"
+    ],
+    "artPrompt": "No people, no text, no UI, open stone balcony observatory chamber with a mounted telescope aimed toward a distant comet streaking across the night sky beyond a carved balustrade, a small brass logbook stand nearby, cool night air visible in soft haze, warm amber lantern glow against cool teal moonlight and comet light, gentle elevated view through a broad architectural opening, open lower-central foreground, distant glowing comet trail, richly detailed fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-146",
+    "name": "구름 위 천문대",
+    "themeId": 8,
+    "description": "높은 첨탑 꼭대기에 자리한 천문대가 구름 사이로 솟아 있다. 둥근 돔 창밖으로 별이 가득한 하늘이 펼쳐진다.",
+    "clues": [
+      "구름",
+      "돔",
+      "별"
+    ],
+    "artPrompt": "No people, no text, no UI, lofty spire-top observatory chamber rising above a sea of soft drifting clouds visible through a curved domed window, a star-filled sky stretching beyond the glass, brass railing framing the circular floor, warm amber interior lantern light against cool teal starlit moonlight outside, wide eye-level composition with an open stone foreground, dreamy cloud-layered depth, polished fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-147",
+    "name": "행성 모형 홀",
+    "themeId": 8,
+    "description": "천장에 매달린 행성 모형들이 고리를 두른 채 천천히 돈다. 아래쪽 바닥에는 궤도를 표시하는 문양이 새겨져 있다.",
+    "clues": [
+      "행성",
+      "고리",
+      "천장"
+    ],
+    "artPrompt": "No people, no text, no UI, grand orrery hall chamber with ringed planet models suspended from the ceiling slowly rotating on brass arms, orbital patterns etched into the stone floor below, tall arched windows along the walls, warm amber mechanism lighting against cool teal moonlight filtering through the glass, low-angle cinematic composition with a clear central aisle, intricate brass gearwork detail, richly detailed fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-148",
+    "name": "오로라 유리탑",
+    "themeId": 8,
+    "description": "유리로 둘러싸인 탑 안에서 오로라 빛이 벽을 타고 넘실댄다. 나선 계단이 그 빛을 따라 위층으로 이어진다.",
+    "clues": [
+      "오로라",
+      "유리탑",
+      "계단"
+    ],
+    "artPrompt": "No people, no text, no UI, tall glass-walled tower chamber with shimmering aurora light rippling across the curved panes, a spiral stone staircase winding upward following the glowing color bands, faint reflections scattered on the floor, warm amber step-lighting against cool teal aurora and moonlight blending together, three-quarter interior view leaving generous open floor space, luminous color-shifting glow, polished fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-149",
+    "name": "별빛 망원경실",
+    "themeId": 8,
+    "description": "삼각대 위에 놓인 황동 망원경이 창밖 별빛을 정면으로 향한다. 옆 탁자에는 관측 기록이 담긴 공책이 펼쳐져 있다.",
+    "clues": [
+      "망원경",
+      "별빛",
+      "삼각대"
+    ],
+    "artPrompt": "No people, no text, no UI, focused observation chamber with a polished brass telescope mounted on a wooden tripod aimed directly at a starlit window, an open notebook of observation sketches resting on a nearby side table, faint starlight reflected on the telescope barrel, warm amber desk-lamp glow against cool teal moonlight through the glass, symmetrical wide composition with an unobstructed foreground, crisp brass detailing, richly detailed fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-150",
+    "name": "달돌 수집실",
+    "themeId": 8,
+    "description": "진열대 위에 은은히 빛나는 달돌 조각들이 크기별로 정렬되어 있다. 유리 뚜껑 아래로 돌 표면의 결이 선명히 드러난다.",
+    "clues": [
+      "달돌",
+      "진열장",
+      "달"
+    ],
+    "artPrompt": "No people, no text, no UI, quiet collection chamber with a wooden display case holding rows of softly glowing moonstone fragments arranged by size, glass lids revealing the textured mineral surfaces beneath, small brass labels tags left blank, warm amber cabinet lighting against cool teal moonlight through a nearby window, gentle elevated view through a broad architectural opening, open lower-central foreground, subtle mineral luster, polished fantasy concept art.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-151",
+    "name": "일식 관람실",
+    "themeId": 8,
+    "description": "둥근 일식판이 천장 창 아래 놓여 태양 모양 그림자를 벽에 드리운다. 검은 가림막 사이로 새어드는 빛이 관람실 바닥을 가로지른다.",
+    "clues": [
+      "일식판",
+      "관측창",
+      "가림막"
+    ],
+    "artPrompt": "Wide symmetrical composition centered on a round eclipse disc mounted beneath a domed skylight, its shadow tracing an arc across a polished stone floor. Layered black gauze shading panels hang from carved beams, filtering silver light into thin bright slivers. Teal moonlight spills through the glass dome while warm amber lamps line the curved walls, illuminating brass viewing rails. Open lower-central foreground, deep atmospheric haze, richly detailed stone and timber textures, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-152",
+    "name": "천구의실",
+    "themeId": 8,
+    "description": "커다란 천구의가 방 중앙에서 천천히 돌며 별자리판 위 그림자를 옮긴다. 놋쇠 기어들이 벽을 따라 맞물려 조용히 돌아간다.",
+    "clues": [
+      "천구의",
+      "별자리판",
+      "놋쇠기어"
+    ],
+    "artPrompt": "Low-angle shot looking up at an enormous rotating celestial globe suspended by brass rings in the center of a circular chamber. Constellation charts etched on a wide floor disc catch drifting moonlight, while rows of interlocking bronze gears line the curved walls, faintly glowing amber. Dust motes hang in cool teal light beams from a glass oculus above. Open lower-central foreground, richly detailed metalwork, cinematic depth, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-153",
+    "name": "별모래 테라스",
+    "themeId": 8,
+    "description": "반짝이는 별모래 둔덕이 테라스 가장자리를 따라 쌓여 은은히 빛난다. 돌 난간에 기댄 놋쇠 망원경이 밤하늘을 겨눈다.",
+    "clues": [
+      "별모래둔덕",
+      "돌난간",
+      "망원경"
+    ],
+    "artPrompt": "Wide outdoor terrace composition with mounds of shimmering star-sand glowing faintly along a low stone balustrade under an open night sky. A tall brass telescope rests angled toward the horizon, its lens catching cool teal moonlight. Warm amber lantern posts flank a stone bench at the terrace edge, casting long soft shadows. Open lower-central foreground, layered distant mountains, atmospheric haze, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-154",
+    "name": "유성우 지붕정원",
+    "themeId": 8,
+    "description": "지붕 정원 화분들 사이로 유성 궤적이 하늘을 가로지르며 흐른다. 낮은 지붕 난간 너머로 별똥별 빛이 잎사귀에 스친다.",
+    "clues": [
+      "유성궤적",
+      "화분열",
+      "지붕난간"
+    ],
+    "artPrompt": "Rooftop garden scene with rows of glowing potted plants lining a low parapet, streaks of falling meteors arcing across a deep indigo sky above. Cool teal starlight brushes the leaves while warm amber garden lanterns glow between the pots, casting flickering reflections on wet stone tiles. A wrought iron railing curves along the rooftop edge. Open lower-central foreground, cinematic wide framing, soft atmospheric mist, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-155",
+    "name": "성운 수조실",
+    "themeId": 8,
+    "description": "거대한 성운 수조가 방 한가운데서 소용돌이치는 빛을 뿜어낸다. 유리 표면을 타고 오르는 기포가 은은한 빛기둥을 만든다.",
+    "clues": [
+      "성운수조",
+      "유리기포",
+      "빛기둥"
+    ],
+    "artPrompt": "Centered symmetrical shot of a colossal glass nebula tank swirling with luminous teal and violet clouds, rising bubbles catching warm amber light from surrounding brass fixtures. The tank sits on a raised stone platform, its glow reflecting off a polished wet floor. Thin columns of drifting light rise toward a vaulted ceiling. Open lower-central foreground, deep volumetric atmosphere, richly detailed glasswork, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-156",
+    "name": "달무지개 전망대",
+    "themeId": 8,
+    "description": "옅은 달무지개가 전망대 위로 커다란 호를 그리며 걸려 있다. 구름다리 목 너머 관측대에서 그 빛깔이 선명히 비친다.",
+    "clues": [
+      "달무지개",
+      "구름다리목",
+      "관측대"
+    ],
+    "artPrompt": "Sweeping wide-angle composition of a pale lunar rainbow arching over a stone observation platform perched above a cloud bridge. Cool teal moonlight scatters through drifting mist while warm amber railing lamps outline the deck's edge. Distant mountain silhouettes fade into layered fog below the platform. Open lower-central foreground with a brass viewing telescope, cinematic depth, painterly fantasy lighting, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-157",
+    "name": "북극성 나침반실",
+    "themeId": 8,
+    "description": "바닥에 새겨진 커다란 나침반판이 북극성 표식을 향해 놋쇠 바늘을 고정한다. 벽의 별자리 창이 그 축 위로 빛을 흘린다.",
+    "clues": [
+      "나침반판",
+      "북극성표식",
+      "놋쇠축"
+    ],
+    "artPrompt": "Top-down leaning composition of a vast brass compass rose inlaid into a stone floor, its needle locked toward an engraved north star emblem. Tall arched windows along the walls admit cool teal moonbeams that cross the compass lines, while warm amber wall sconces warm the room's edges. A slender brass axis pole rises from the compass center. Open lower-central foreground, richly detailed inlay work, atmospheric dust, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-158",
+    "name": "별시계 천장방",
+    "themeId": 8,
+    "description": "천장 가득한 별시계가 렌즈를 통해 움직이는 별빛을 아래로 투영한다. 가느다란 톱니 바늘이 째깍이며 벽 그림자를 옮긴다.",
+    "clues": [
+      "별시계",
+      "천장렌즈",
+      "톱니바늘"
+    ],
+    "artPrompt": "Upward-tilted shot beneath a vast star-clock ceiling, its curved glass lens projecting drifting constellations of light onto the chamber below. Thin brass gear-hands sweep slowly across an engraved dial ring set into the stone wall, ticking shadows across warm amber-lit floor tiles. Cool teal light pools directly under the lens. Open lower-central foreground, intricate clockwork detail, atmospheric haze, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-159",
+    "name": "밤하늘 온실",
+    "themeId": 8,
+    "description": "유리 온실 지붕 너머로 밤하늘이 그대로 들어와 화분마다 별빛이 스민다. 구석에 세워진 놋쇠 망원경이 하늘을 향해 있다.",
+    "clues": [
+      "유리온실지붕",
+      "별빛화분",
+      "놋쇠망원경"
+    ],
+    "artPrompt": "Wide greenhouse interior shot with a glass geodesic roof revealing a star-filled night sky directly above rows of glowing potted plants. Cool teal starlight filters through dew-speckled panes while warm amber grow-lamps hang between wooden shelves. A tall brass telescope stands angled near a stone path leading through the room. Open lower-central foreground, lush botanical detail, soft atmospheric mist, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-160",
+    "name": "구름항해 관제실",
+    "themeId": 8,
+    "description": "커다란 항해판 지도 위로 구름 모형들이 천천히 떠다닌다. 벽을 따라 늘어선 레버들이 관제실의 항로를 조정한다.",
+    "clues": [
+      "항해판지도",
+      "구름모형",
+      "레버열"
+    ],
+    "artPrompt": "Wide control-room composition centered on a large sky-navigation chart table with miniature drifting cloud models suspended above it by thin brass wires. Rows of polished levers line the curved walls, each glowing faintly under warm amber light, while cool teal moonlight pours through a tall arched window behind the table. Open lower-central foreground, layered instrument detail, cinematic depth, no people, no text, no UI.",
+    "accent": "#315C9D"
+  },
+  {
+    "id": "space-161",
+    "name": "움직이는 초상화 회랑",
+    "themeId": 9,
+    "description": "금테를 두른 초상화들이 회랑 벽을 따라 줄지어 걸려 있다. 촛대 불빛이 기둥 사이로 흔들리며 그림자를 늘인다.",
+    "clues": [
+      "금테초상화",
+      "촛대열",
+      "회랑기둥"
+    ],
+    "artPrompt": "Long symmetrical corridor lined with ornate gold-framed portraits hanging between tall stone columns, their painted eyes catching flickers of candlelight. Wrought iron candelabras cast warm amber glow across a red carpet runner, while cool teal moonlight seeps through narrow clerestory windows above. Open lower-central foreground stretching into deep vanishing-point perspective, richly detailed frame carvings, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-162",
+    "name": "나선 대리석 계단",
+    "themeId": 9,
+    "description": "새하얀 대리석 계단이 나선을 그리며 위층까지 이어진다. 놋쇠 난간을 따라 벽등이 은은한 빛을 던진다.",
+    "clues": [
+      "대리석계단",
+      "나선난간",
+      "벽등"
+    ],
+    "artPrompt": "Dramatic upward spiral of polished white marble stairs winding around a central brass balustrade, viewed from a low corner angle. Warm amber wall sconces mark each landing while cool teal moonlight falls from a skylight far above, streaking down the curved steps. Open lower-central foreground at the base of the staircase, richly veined marble texture, deep architectural depth, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-163",
+    "name": "거울 미로 복도",
+    "themeId": 9,
+    "description": "양쪽 거울 벽이 등불 행렬을 끝없이 되비추는 복도가 이어진다. 교차하는 통로마다 흐릿한 반사상이 겹쳐 보인다.",
+    "clues": [
+      "거울벽",
+      "등불행렬",
+      "복도교차"
+    ],
+    "artPrompt": "Symmetrical corridor composition where mirrored walls on both sides multiply a row of hanging lanterns into infinite reflections. Warm amber lantern light bounces endlessly through the glass while a cool teal haze drifts along the polished floor, blurring distant intersecting passages beyond count. Open lower-central foreground with faint reflected archways receding into depth, atmospheric mystery and quiet stillness, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-164",
+    "name": "비밀 벽난로 통로",
+    "themeId": 9,
+    "description": "커다란 벽난로 안쪽 문이 살짝 열려 좁은 통로를 드러낸다. 벽돌 틈 사이로 그을린 연기 냄새가 배어 있는 길이 이어진다.",
+    "clues": [
+      "벽난로문",
+      "벽돌틈",
+      "그을린통로"
+    ],
+    "artPrompt": "Close cinematic angle on a massive stone fireplace with its inner back panel swung open to reveal a narrow hidden passage beyond glowing embers. Warm amber firelight flickers across soot-darkened brick while cool teal light glows faintly from the tunnel's far end. Open lower-central foreground showing the hearth's stone ledge, richly textured brickwork, atmospheric smoke haze, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-165",
+    "name": "빗자루 보관 계단참",
+    "themeId": 9,
+    "description": "낡은 나무 선반과 빗자루 걸이가 계단참 벽을 가득 채운다. 가지런히 세워진 빗자루들이 층계 옆에서 은은히 빛난다.",
+    "clues": [
+      "빗자루걸이",
+      "계단참",
+      "나무선반"
+    ],
+    "artPrompt": "Cozy landing composition with rows of wooden broom hooks mounted on a timber-paneled wall beside a short flight of stone stairs. Polished broomsticks lean neatly in wall racks, catching warm amber lamplight, while cool teal moonlight spills from a small window above the landing. Open lower-central foreground, richly grained wood texture, intimate architectural framing, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-166",
+    "name": "푸른 카펫 회랑",
+    "themeId": 9,
+    "description": "짙푸른 카펫이 아치 기둥 사이로 길게 깔려 있다. 천장에 매달린 등불 줄이 카펫 위로 흔들리는 빛무늬를 남긴다.",
+    "clues": [
+      "푸른카펫",
+      "아치기둥",
+      "등불줄"
+    ],
+    "artPrompt": "Long deep-blue carpeted gallery stretching between rows of stone arches, viewed from a slightly elevated angle. A string of hanging lanterns sways overhead, casting warm amber ripples of light across the plush carpet, while cool teal moonlight streams through side windows. Open lower-central foreground along the carpet's central line, richly detailed archway carvings, deep cinematic vanishing perspective, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-167",
+    "name": "접히는 다리 통로",
+    "themeId": 9,
+    "description": "커다란 경첩판이 좁은 협곡 위 다리를 반쯤 접은 채 멈춰 있다. 쇠 난간을 따라 톱니 장치가 서서히 움직인다.",
+    "clues": [
+      "접이식다리",
+      "경첩판",
+      "쇠난간"
+    ],
+    "artPrompt": "Dynamic diagonal composition of a folding stone bridge frozen mid-motion over a narrow chasm, its massive iron hinge plates gleaming under warm amber torchlight. Cool teal moonlight outlines the far ledge while gears along an iron railing creak with visible mechanical detail. Open lower-central foreground at the bridge's near edge, dramatic depth into the gap below, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-168",
+    "name": "조각상 수호 복도",
+    "themeId": 9,
+    "description": "갑옷을 두른 돌 조각상들이 복도 아치마다 방패를 들고 서 있다. 방패에 새겨진 문양이 어둠 속에서 은은히 드러난다.",
+    "clues": [
+      "돌조각상",
+      "방패문양",
+      "복도아치"
+    ],
+    "artPrompt": "Grand corridor lined with armored stone statues standing guard beneath each archway, their carved shields bearing faint glowing emblems. Warm amber torch brackets flicker beside each figure while cool teal moonlight filters through high windows, sculpting sharp shadows across the stone floor. Open lower-central foreground stretching toward a distant arch, richly detailed statuary and weathered stone texture, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-169",
+    "name": "창문 많은 계단실",
+    "themeId": 9,
+    "description": "연속된 창문들이 계단실 벽을 가득 채워 구름 풍경을 그대로 들인다. 나무 난간을 따라 오르는 계단이 창빛을 받는다.",
+    "clues": [
+      "연속창문",
+      "계단난간",
+      "구름풍경"
+    ],
+    "artPrompt": "Bright stairwell composition where a row of tall arched windows floods the space with drifting cloud views outside. Cool teal daylight-moonlight mix washes over a curving wooden staircase, its banister catching warm amber accents from small wall lamps. Open lower-central foreground at the base landing, layered window reflections, airy architectural depth and soft drifting cloud motion, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-170",
+    "name": "숨은 문 패널방",
+    "themeId": 9,
+    "description": "정교하게 짜인 나무 패널 벽 사이에 손잡이 없는 숨은 문이 숨어 있다. 벽 조명이 문틀 윤곽을 은은히 드러낸다.",
+    "clues": [
+      "나무패널",
+      "숨은문고리",
+      "벽조명"
+    ],
+    "artPrompt": "Intimate room composition centered on an intricately carved wooden wall panel where a seamless hidden door outline is barely visible. A small brass latch mechanism glints under warm amber sconce light, while cool teal moonlight edges the panel seams from a nearby window. Open lower-central foreground, richly detailed woodgrain texture, subtle mystery lighting and quiet hidden tension, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-171",
+    "name": "깃발 아치길",
+    "themeId": 9,
+    "description": "네 기숙사 깃발이 석조 아치 아래로 나란히 늘어져 있다. 복도 바닥의 문양 타일이 깃발 색을 그대로 되비춘다.",
+    "clues": [
+      "교기깃발",
+      "석조아치",
+      "복도바닥"
+    ],
+    "artPrompt": "Wide processional corridor with four heraldic banners hanging beneath a row of stone arches, their colors reflected faintly in polished patterned floor tiles below. Warm amber torchlight glows along the arch bases while cool teal moonlight slants through a distant window at the corridor's end. Open lower-central foreground, richly detailed banner fabric, deep architectural perspective and a long vanishing point, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-172",
+    "name": "물고기 유리 복도",
+    "themeId": 9,
+    "description": "복도 한쪽 벽 전체가 거대한 유리 어항으로 이루어져 발광 물고기들이 헤엄친다. 천장에 물결 그림자가 일렁인다.",
+    "clues": [
+      "유리벽어항",
+      "발광물고기",
+      "물결그림자"
+    ],
+    "artPrompt": "Long corridor with one entire wall formed by a massive glass aquarium, glowing fish drifting past in cool teal light that ripples across the ceiling above. Warm amber floor lamps line the opposite wall, their light mixing with shifting aquatic reflections on the stone tiles. Open lower-central foreground, richly detailed underwater plants pressed against the glass, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-173",
+    "name": "등불 계단우물",
+    "themeId": 9,
+    "description": "여러 개의 등불이 계단 우물 중앙에 층층이 매달려 흔들린다. 나선형 난간이 그 빛을 따라 아래까지 휘감아 내려간다.",
+    "clues": [
+      "매달린등불",
+      "계단우물",
+      "나선난간"
+    ],
+    "artPrompt": "Vertical shot looking down a deep stairwell well where a chain of hanging lanterns descends through the center, each glowing warm amber against cool teal shadows on the spiral railing. Stone steps wind tightly around the light column, receding into darkness below. Open lower-central foreground at the uppermost landing, dramatic vertical depth, richly detailed iron scrollwork, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-174",
+    "name": "포도덩굴 통로",
+    "themeId": 9,
+    "description": "무성한 포도 덩굴이 격자 아치를 뒤덮으며 통로 천장을 이룬다. 돌길 타일 위로 잎사귀 그림자가 촘촘히 흩어진다.",
+    "clues": [
+      "포도덩굴",
+      "돌길타일",
+      "격자아치"
+    ],
+    "artPrompt": "Covered garden passage where thick grapevines twist through a wooden lattice arch overhead, dappled cool teal moonlight scattering leaf shadows across worn stone path tiles. Warm amber lanterns hang between the vines at intervals, casting a golden glow on hanging grape clusters. Open lower-central foreground along the stone path, lush botanical texture, gentle garden atmosphere, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-175",
+    "name": "달빛 난간 회랑",
+    "themeId": 9,
+    "description": "긴 돌 난간이 달빛 창을 따라 이어지며 은빛으로 물든다. 기둥 그림자가 바닥에 길게 늘어져 회랑을 가로지른다.",
+    "clues": [
+      "돌난간",
+      "달빛창",
+      "회랑기둥그림자"
+    ],
+    "artPrompt": "Elegant open-air gallery where a long stone balustrade catches silver moonlight streaming through a row of tall arched windows. Cool teal light pools between elongated column shadows stretching across the floor, while warm amber lanterns glow softly at each pillar base. Open lower-central foreground along the railing, serene atmospheric depth, richly carved stone balusters, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-176",
+    "name": "회전 벽장 통로",
+    "themeId": 9,
+    "description": "빽빽한 책이 꽂힌 책장이 중심 축을 따라 반쯤 회전해 있다. 갈라진 틈 사이로 어두운 통로가 살짝 드러난다.",
+    "clues": [
+      "회전책장",
+      "숨은축",
+      "책더미"
+    ],
+    "artPrompt": "Close-up composition on a tall bookshelf caught mid-rotation around a hidden central axle, revealing a narrow dark passage through the gap. Stacks of leather-bound books tilt slightly under warm amber lamplight, while cool teal light spills faintly from the hidden corridor beyond. Open lower-central foreground, richly detailed book spines, mechanical brass axle visible at the base, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-177",
+    "name": "무지개 창 계단",
+    "themeId": 9,
+    "description": "커다란 색유리 창이 계단을 물들이며 알록달록한 빛무늬를 바닥에 흩뿌린다. 계단 단마다 그 빛깔이 다르게 스민다.",
+    "clues": [
+      "색유리창",
+      "계단단",
+      "빛무늬바닥"
+    ],
+    "artPrompt": "Wide-angle staircase shot beneath a towering stained-glass window, its colorful panels scattering rainbow light across each stone step below. Cool teal shadows deepen near the wall while warm amber accents glow where the colored light meets the banister. Open lower-central foreground at the stair base, richly detailed glasswork patterns, luminous cinematic atmosphere and soft drifting dust motes, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-178",
+    "name": "숨은 폭포 회랑",
+    "themeId": 9,
+    "description": "돌벽 틈에서 흘러내리는 작은 폭포가 통로 한쪽에 물 커튼을 이룬다. 이끼 낀 바위 사이로 서늘한 물방울이 튄다.",
+    "clues": [
+      "돌벽폭포",
+      "물커튼",
+      "이끼바위"
+    ],
+    "artPrompt": "Atmospheric corridor where a slender waterfall spills through a crack in the stone wall, forming a shimmering curtain of water beside the walkway. Cool teal light glints off wet moss-covered rocks while warm amber torches on the opposite wall keep the passage warmly lit. Open lower-central foreground on the dry stone path, fine mist and droplet detail, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-179",
+    "name": "화살표 타일 복도",
+    "themeId": 9,
+    "description": "바닥 타일에 새겨진 화살표들이 발광 선을 그리며 여러 방향을 가리킨다. 교차하는 복도마다 서로 다른 빛깔이 흐른다.",
+    "clues": [
+      "화살표타일",
+      "발광선",
+      "교차복도"
+    ],
+    "artPrompt": "Overhead-leaning corridor shot where glowing arrow patterns are inlaid into stone floor tiles, pointing toward branching intersecting passages. Each direction glows a distinct hue, cool teal on one path and warm amber on another, blending softly where they cross. Open lower-central foreground at the tile intersection, richly detailed inlay linework, soft atmospheric haze drifting overhead, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-180",
+    "name": "문고리 박물관 길",
+    "themeId": 9,
+    "description": "온갖 모양의 문고리가 진열장 안에 가지런히 전시되어 있다. 낡은 나무 문 옆으로 복도 조명이 은은히 이어진다.",
+    "clues": [
+      "문고리진열장",
+      "낡은문",
+      "복도조명"
+    ],
+    "artPrompt": "Museum-like corridor lined with glass display cases showcasing dozens of ornate antique door handles under warm amber spotlight glow. A weathered wooden door stands at the passage's end, cool teal moonlight tracing its worn iron hinges. Open lower-central foreground along the display cases, richly detailed metalwork variety, quiet architectural symmetry, hushed stillness, and soft echoing depth, no people, no text, no UI.",
+    "accent": "#9A6570"
+  },
+  {
+    "id": "space-181",
+    "name": "달문 성문",
+    "themeId": 10,
+    "description": "커다란 성문 위에 초승달 문양이 새겨져 은은히 빛난다. 도개교 사슬이 팽팽히 당겨지며 문 아래로 늘어진다.",
+    "clues": [
+      "초승달문양",
+      "도개교사슬",
+      "성문아치"
+    ],
+    "artPrompt": "Grand fortress gate composition with a crescent moon emblem carved deep into the massive stone archway above, glowing faintly under cool teal light. Thick iron drawbridge chains stretch taut from the gate's upper beams down toward the moat below, catching warm amber torchlight along the walls. Open lower-central foreground at the gate threshold, richly detailed stonework, imposing scale, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-182",
+    "name": "수정 금고",
+    "themeId": 10,
+    "description": "반투명한 수정 문이 금고 벽 한가운데 자리해 은은히 빛난다. 황동 자물쇠 여러 개가 문 둘레를 촘촘히 두르고 있다.",
+    "clues": [
+      "수정문",
+      "황동자물쇠",
+      "금고벽"
+    ],
+    "artPrompt": "Symmetrical vault interior centered on a translucent crystal door embedded in a circular stone wall, glowing with soft cool teal inner light. Rows of brass locks and dials ring the door's frame, each catching warm amber lamplight from wall-mounted fixtures. Open lower-central foreground on the polished vault floor, richly detailed metal engravings, dramatic radial symmetry, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-183",
+    "name": "구름다리 성채",
+    "themeId": 10,
+    "description": "구름 위로 뻗은 다리가 성채 탑 사이를 가로지른다. 돌 아치 받침이 안개 속에서 희미한 윤곽만 드러낸다.",
+    "clues": [
+      "구름다리",
+      "성채탑",
+      "돌아치받침"
+    ],
+    "artPrompt": "Sweeping wide shot of a stone bridge stretching between two fortress towers, floating above a sea of drifting clouds. Cool teal moonlight outlines the distant towers while warm amber torches line the bridge railing, their glow softened by rolling mist below. Open lower-central foreground on the bridge deck, dramatic cloud-layered depth, epic fantasy scale, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-184",
+    "name": "별빛 성벽길",
+    "themeId": 10,
+    "description": "긴 성벽길을 따라 횃불 받침대가 일정한 간격으로 늘어서 있다. 별빛 가득한 하늘이 성벽 너머로 드넓게 펼쳐진다.",
+    "clues": [
+      "횃불받침대",
+      "성벽길",
+      "별빛하늘"
+    ],
+    "artPrompt": "Long fortress rampart walkway lined with evenly spaced iron torch brackets, each flickering warm amber against a vast star-filled sky above. Cool teal moonlight washes over the weathered stone parapet, casting sharp shadows between merlons. Open lower-central foreground along the walkway, distant mountain silhouettes beyond the wall, epic atmospheric depth, faint drifting fog, and endless star field above, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-185",
+    "name": "황금 열쇠 문",
+    "themeId": 10,
+    "description": "정교하게 조각된 금빛 문에 커다란 황금 열쇠 구멍이 자리한다. 문 둘레의 장식 조각이 은은한 빛을 반사한다.",
+    "clues": [
+      "황금열쇠구멍",
+      "장식문",
+      "금빛조각"
+    ],
+    "artPrompt": "Close symmetrical composition on an ornately carved golden door, its oversized keyhole gleaming under focused warm amber light. Intricate relief carvings ring the door frame, catching cool teal moonlight from a high side window. Open lower-central foreground on the stone threshold before the door, richly detailed gilded ornamentation, dramatic focal lighting and warm reflective glow, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-186",
+    "name": "해자 위 도개교",
+    "themeId": 10,
+    "description": "넓은 해자 위로 도개교 판이 비스듬히 걸쳐 있다. 쇠사슬이 감긴 기둥이 다리 양옆에서 팽팽히 버티고 서 있다.",
+    "clues": [
+      "도개교판",
+      "해자수면",
+      "쇠사슬기둥"
+    ],
+    "artPrompt": "Dramatic diagonal shot of a heavy wooden drawbridge angled across a wide moat, thick chains wound around stone anchor pillars on either side. Cool teal moonlight reflects off the still moat water below while warm amber torchlight glows from the fortress gate beyond. Open lower-central foreground at the bridge's near edge, richly detailed wood grain and rusted chain links, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-187",
+    "name": "바람 관문 탑",
+    "themeId": 10,
+    "description": "높은 관문 아치 위로 깃발이 세찬 바람에 펄럭인다. 좁은 탑 계단이 아치 옆에서 위층까지 휘돌아 오른다.",
+    "clues": [
+      "관문아치",
+      "펄럭이는깃발",
+      "탑계단"
+    ],
+    "artPrompt": "Tall gatehouse tower shot from below, a wide stone archway topped with a banner whipping in the wind under a cool teal night sky. A narrow spiral staircase hugs the tower's inner wall, lit by warm amber lanterns at each landing. Open lower-central foreground beneath the archway, dramatic upward perspective, richly detailed stonework, sweeping open sky above, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-188",
+    "name": "비밀 보석 금고",
+    "themeId": 10,
+    "description": "여러 개의 보석함이 낮은 진열대 위에 가지런히 놓여 있다. 두꺼운 철문의 잠금 장치가 그 앞을 굳게 지킨다.",
+    "clues": [
+      "보석함",
+      "철문잠금장치",
+      "진열대"
+    ],
+    "artPrompt": "Intimate vault composition with several ornate jeweled chests arranged on a low stone display pedestal, gems glinting under warm amber spotlighting. A massive iron door with visible locking mechanisms looms behind, cool teal light seeping through its narrow barred window. Open lower-central foreground before the pedestal, richly detailed gem textures, quiet guarded stillness, and faint reflective sparkle, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-189",
+    "name": "무지개 다리",
+    "themeId": 10,
+    "description": "알록달록한 무지개 다리가 구름 바닥 위로 둥글게 걸쳐 있다. 양옆의 돌기둥이 다리를 단단히 떠받치고 서 있다.",
+    "clues": [
+      "무지개다리",
+      "구름바닥",
+      "돌기둥"
+    ],
+    "artPrompt": "Wide fantasy shot of a translucent rainbow-colored bridge arching gracefully over a floor of drifting clouds. Stone support pillars anchor each end, glowing warm amber where torches rest in carved niches, while cool teal moonlight defines the bridge's curved edge. Open lower-central foreground on the bridge surface, vivid painterly color gradient, ethereal floating depth, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-190",
+    "name": "용문 요새",
+    "themeId": 10,
+    "description": "커다란 용 문양이 요새 성벽 정문 위에 깊이 새겨져 있다. 양옆의 횃불 걸이가 그 조각을 은은히 비춘다.",
+    "clues": [
+      "용문양조각",
+      "요새성벽",
+      "횃불걸이"
+    ],
+    "artPrompt": "Imposing fortress gate composition with a massive dragon relief carved above the main entrance, its scales catching warm amber torchlight from iron wall brackets. Cool teal moonlight traces the thick stone battlements surrounding the gate, deep shadows pooling in the carved grooves. Open lower-central foreground at the gate base, richly detailed stone relief, epic architectural scale, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-191",
+    "name": "은빛 격자문",
+    "themeId": 10,
+    "description": "정교한 은빛 격자문이 복도 끝을 가로막고 서 있다. 달빛이 격자 틈으로 스며들어 바닥에 무늬를 드리운다.",
+    "clues": [
+      "은빛격자",
+      "복도끝문",
+      "달빛무늬"
+    ],
+    "artPrompt": "Symmetrical corridor-end composition featuring an elaborate silver latticework gate blocking the passage, its fine metal patterns catching cool teal moonlight from behind. The intricate shadows cast onto the stone floor form delicate geometric shapes, warmed by amber wall sconces on either side. Open lower-central foreground before the gate, richly detailed filigree metalwork, quiet symmetrical stillness, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-192",
+    "name": "호수 성문",
+    "themeId": 10,
+    "description": "잔잔한 호수 위로 성문의 모습이 그대로 비친다. 물가에 정박된 보트가 성문 앞에서 조용히 흔들린다.",
+    "clues": [
+      "호수수면",
+      "성문반영",
+      "정박된보트"
+    ],
+    "artPrompt": "Serene wide shot of a fortress gate reflected perfectly on a still lake surface, cool teal moonlight shimmering across the water. A small wooden boat is moored near stone steps leading up to the gate, warm amber lantern light glowing from within its lantern post. Open lower-central foreground along the water's edge, tranquil layered reflection, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-193",
+    "name": "구름 성채 안뜰",
+    "themeId": 10,
+    "description": "성채 안뜰 중앙에 놓인 분수가 조용히 물을 뿜어낸다. 구름이 감싼 아치 통로가 안뜰 사방을 둘러싸고 있다.",
+    "clues": [
+      "안뜰분수",
+      "구름아치통로",
+      "석조바닥"
+    ],
+    "artPrompt": "Central courtyard composition with an ornate stone fountain gently spraying water at its heart, surrounded by cloud-wreathed archways on all sides. Cool teal mist drifts low across the paved courtyard floor while warm amber lanterns hang from each archway pillar. Open lower-central foreground around the fountain base, richly detailed stonework, peaceful symmetry and gentle falling water sound implied, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-194",
+    "name": "수호석 관문",
+    "themeId": 10,
+    "description": "거대한 수호 석상 두 개가 관문 양옆을 굳게 지키고 있다. 돌바닥에 새겨진 문양이 그 사이로 은은히 빛난다.",
+    "clues": [
+      "수호석상",
+      "관문아치기둥",
+      "돌바닥문양"
+    ],
+    "artPrompt": "Grand gate composition flanked by two towering guardian statues carved from weathered stone, each bathed in warm amber torchlight against a cool teal night sky. An intricate glowing pattern is inlaid into the stone floor between them, leading toward the archway beyond. Open lower-central foreground on the inlaid path, richly detailed statuary texture, epic scale, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-195",
+    "name": "별열쇠 보관소",
+    "themeId": 10,
+    "description": "별 모양의 열쇠들이 유리 덮개 아래 보관함마다 가지런히 놓여 있다. 은은한 빛이 각 열쇠의 윤곽을 선명히 드러낸다.",
+    "clues": [
+      "별모양열쇠",
+      "보관함열",
+      "유리덮개"
+    ],
+    "artPrompt": "Close symmetrical shot of star-shaped keys resting under individual glass domes atop a row of wooden storage cabinets. Cool teal light glows faintly from within each dome, outlining the keys' intricate edges, while warm amber cabinet lamps illuminate the polished wood below. Open lower-central foreground before the cabinet row, richly detailed craftsmanship, quiet reverent atmosphere, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-196",
+    "name": "고대 다리 요새",
+    "themeId": 10,
+    "description": "고풍스러운 돌다리 아치가 요새 성탑까지 길게 이어진다. 다리 난간의 깃발 기둥이 바람에 조용히 흔들린다.",
+    "clues": [
+      "돌다리아치",
+      "요새성탑",
+      "깃발기둥"
+    ],
+    "artPrompt": "Wide establishing shot of an ancient stone bridge with weathered arches leading toward a distant fortress tower silhouetted against cool teal moonlight. Banner poles along the bridge railing sway gently, each topped with a faded flag catching warm amber torch glow from the tower base. Open lower-central foreground on the bridge deck, richly textured aged stone, epic atmospheric perspective, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-197",
+    "name": "수정 아치 관문",
+    "themeId": 10,
+    "description": "투명한 수정으로 이루어진 아치가 관문 위로 둥글게 솟아 있다. 양옆 기둥에 반사된 빛기둥이 바닥까지 드리운다.",
+    "clues": [
+      "수정아치",
+      "관문기둥",
+      "빛기둥반사"
+    ],
+    "artPrompt": "Symmetrical gateway composition featuring a translucent crystal archway rising above the entrance, refracting cool teal moonlight into soft prismatic beams. Twin stone pillars flank the arch, each reflecting warm amber torchlight up toward the crystal structure. Open lower-central foreground beneath the arch, richly detailed crystalline texture, luminous refracted depth, and faint drifting sparkles of light, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-198",
+    "name": "바람개비 성벽",
+    "themeId": 10,
+    "description": "성벽 꼭대기에 늘어선 커다란 바람개비 장치들이 천천히 돌아간다. 쇠 난간을 따라 바람에 실린 소리가 은은히 울린다.",
+    "clues": [
+      "바람개비장치",
+      "성벽꼭대기",
+      "쇠난간"
+    ],
+    "artPrompt": "Wide rampart-top composition with a row of large wooden pinwheel mechanisms spinning slowly atop weathered fortress battlements. Cool teal moonlight catches each rotating blade while warm amber torch brackets glow along an iron safety railing below. Open lower-central foreground along the wall walkway, distant sky and drifting clouds beyond, mechanical fantasy detail, and creaking wooden gears, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-199",
+    "name": "달빛 보물실",
+    "themeId": 10,
+    "description": "쌓아 올린 보물 상자 더미에서 쏟아진 금화가 바닥에 흩어져 있다. 좁은 창 구멍으로 스며든 달빛이 그 위를 비춘다.",
+    "clues": [
+      "보물상자더미",
+      "쏟아진금화",
+      "달빛창구멍"
+    ],
+    "artPrompt": "Intimate treasure room shot with a pile of overflowing wooden chests, gold coins spilling across the stone floor in gleaming heaps. A narrow high window lets in a single shaft of cool teal moonlight that falls directly onto the scattered coins, while warm amber torchlight warms the surrounding stone walls. Open lower-central foreground amid the coins, richly detailed treasure texture, no people, no text, no UI.",
+    "accent": "#A77932"
+  },
+  {
+    "id": "space-200",
+    "name": "새벽 출구 성문",
+    "themeId": 10,
+    "description": "활짝 열린 도개교 너머로 새벽빛이 성문 아치를 은은히 물들인다. 마지막 관문을 지나면 밝아오는 하늘이 펼쳐진다.",
+    "clues": [
+      "도개교출구",
+      "새벽빛하늘",
+      "성문아치끝"
+    ],
+    "artPrompt": "Triumphant wide shot of a fully lowered drawbridge leading out through a grand stone gate archway, dawn light beginning to warm the sky beyond in soft amber and teal gradients. The fortress walls fade into silhouette as the open path stretches toward the brightening horizon. Open lower-central foreground on the bridge planks, hopeful atmospheric depth, richly detailed stonework, no people, no text, no UI.",
+    "accent": "#A77932"
+  }
+]

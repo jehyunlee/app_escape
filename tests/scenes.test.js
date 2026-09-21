@@ -5,7 +5,7 @@ import { createHash } from "node:crypto";
 import * as THREE from "three";
 import { buildRoomWorld } from "../room-world.js";
 import { avatarMarkup, catalog } from "../avatar.js";
-import { levels } from "../levels.js";
+import { rooms } from "../rooms.js";
 import { STARTER } from "../engine.js";
 import {
   characters,
@@ -15,13 +15,11 @@ import {
 
 test("each room has distinct GPT-generated WebP artwork and generation provenance", () => {
   const images = new Set();
-  for (const level of levels) {
-    const image = readFileSync(
-      new URL(`../assets/rooms/room-${level.id}.webp`, import.meta.url),
-    );
+  for (const room of rooms) {
+    const image = readFileSync(new URL(`../${room.image}`, import.meta.url));
     const metadata = JSON.parse(
       readFileSync(
-        new URL(`../assets/rooms/room-${level.id}.json`, import.meta.url),
+        new URL(`../assets/spaces/${room.id}.json`, import.meta.url),
         "utf8",
       ),
     );
@@ -29,11 +27,12 @@ test("each room has distinct GPT-generated WebP artwork and generation provenanc
     assert.equal(image.subarray(8, 12).toString(), "WEBP");
     assert.ok(image.length > 10000);
     assert.match(metadata.model, /^gpt-image-/);
-    assert.equal(metadata.file, `room-${level.id}.webp`);
+    assert.equal(metadata.file, `${room.id}.webp`);
+    assert.equal(metadata.roomId, room.id);
     assert.ok(metadata.prompt.length > 500);
     images.add(createHash("sha256").update(image).digest("hex"));
   }
-  assert.equal(images.size, 10);
+  assert.equal(images.size, 200);
 });
 
 test("wardrobe selections retain generated art and apply selective tint or accessory layers", () => {
@@ -65,15 +64,15 @@ test("wardrobe selections retain generated art and apply selective tint or acces
   assert.throws(() => avatarMarkup(STARTER, "unknown"), RangeError);
 });
 
-test("ten 3D worlds pair the correct artwork with twenty independently selectable meshes", () => {
-  for (const level of levels) {
+test("200 3D rooms pair their artwork with twenty independently selectable meshes", () => {
+  for (const room of rooms) {
     const scene = new THREE.Scene();
-    const world = buildRoomWorld(scene, level.id);
+    const world = buildRoomWorld(scene, room);
     assert.equal(world.targets.length, 20);
     assert.equal(new Set(world.targets.map((target) => target.name)).size, 20);
-    const artwork = scene.getObjectByName(`room-artwork-${level.id}`);
+    const artwork = scene.getObjectByName(`room-artwork-${room.id}`);
     assert.ok(artwork.isMesh);
-    assert.ok(artwork.userData.asset.endsWith(`/room-${level.id}.webp`));
+    assert.ok(artwork.userData.asset.endsWith(`/${room.id}.webp`));
     assert.equal(artwork.castShadow, false);
     assert.equal(artwork.receiveShadow, false);
     for (const target of world.targets) {
@@ -87,8 +86,20 @@ test("ten 3D worlds pair the correct artwork with twenty independently selectabl
     }
     assert.ok(world.focus > 0);
     world.tick(10);
+    world.dispose?.();
+    scene.traverse((object) => {
+      object.geometry?.dispose();
+      if (Array.isArray(object.material))
+        object.material.forEach((material) => material.dispose());
+      else object.material?.dispose();
+      object.shadow?.dispose();
+    });
   }
-  assert.throws(() => buildRoomWorld(new THREE.Scene(), 11), RangeError);
+  assert.throws(() => buildRoomWorld(new THREE.Scene(), 11), TypeError);
+  assert.throws(
+    () => buildRoomWorld(new THREE.Scene(), { ...rooms[0], themeId: 11 }),
+    TypeError,
+  );
 });
 
 test("family portraits use distinct generated head crops and named wizard designs", () => {
@@ -113,7 +124,10 @@ test("family portraits use distinct generated head crops and named wizard design
 });
 
 test("clock hands and gears animate on actual 3D foreground objects", () => {
-  const world = buildRoomWorld(new THREE.Scene(), 5);
+  const world = buildRoomWorld(
+    new THREE.Scene(),
+    rooms.find((room) => room.themeId === 5),
+  );
   const hands = world.targets[0].object.userData.clockHands;
   world.tick(0);
   const initial = hands.minuteHand.rotation.z;
@@ -125,9 +139,11 @@ test("clock hands and gears animate on actual 3D foreground objects", () => {
 test("scattered objects have no shared rows and are reproducible only for the same seed", () => {
   for (const level of [1, 5, 8]) {
     const positions = (seed) =>
-      buildRoomWorld(new THREE.Scene(), level, seed).targets.map((target) =>
-        target.object.position.toArray(),
-      );
+      buildRoomWorld(
+        new THREE.Scene(),
+        rooms.find((room) => room.themeId === level),
+        seed,
+      ).targets.map((target) => target.object.position.toArray());
     const first = positions(12345);
     assert.deepEqual(first, positions(12345));
     const other = positions(67890);

@@ -7,9 +7,10 @@ import {
 } from "./levels.js";
 import { catalog } from "./avatar.js";
 import { characters } from "./characters.js";
+import { makeRoute, validRoute, roomById, destinationRoom } from "./rooms.js";
 
-// Reading/dialogue questions replace the old content: never regrade old answers.
-export const SAVE_KEY = "headache-escape-v4";
+export const SAVE_VERSION = 5;
+export const SAVE_KEY = "headache-escape-v5";
 export const POINTS = { 1: 10, 2: 20, 3: 30 };
 export const STARTER = {
   eyes: "eyes-brown",
@@ -81,8 +82,9 @@ function enterStage(state, seenIds = []) {
 export function freshState(seed = randomSeed()) {
   if (!integer(seed, 0, 0xffffffff)) throw new RangeError("Invalid game seed");
   return {
-    version: 4,
+    version: SAVE_VERSION,
     seed,
+    route: makeRoute(seed),
     characterId: null,
     level: 0,
     attempt: 0,
@@ -144,8 +146,9 @@ export function restoreState(raw) {
     const value = JSON.parse(raw);
     if (
       !value ||
-      value.version !== 4 ||
+      value.version !== SAVE_VERSION ||
       !integer(value.seed, 0, 0xffffffff) ||
+      !validRoute(value.route) ||
       !integer(value.level, 0, 9) ||
       !integer(value.attempt, 0) ||
       !phases.includes(value.phase) ||
@@ -272,8 +275,9 @@ export function restoreState(raw) {
     }, 0);
     if (value.earned < roundEarned) return freshState();
     return {
-      version: 4,
+      version: SAVE_VERSION,
       seed: value.seed,
+      route: [...value.route],
       characterId: value.characterId,
       level: value.level,
       attempt: value.attempt,
@@ -370,7 +374,7 @@ export function openDestination(state) {
 export function chooseDestination(state, destination) {
   if (
     state.phase !== "destination" ||
-    destination !== levels[state.level].destination
+    destination !== destinationRoom(state).id
   )
     return { state, correct: false };
   return { state: { ...state, phase: "outfit" }, correct: true };
@@ -424,8 +428,13 @@ export function finishTravel(state) {
 }
 export function inventory(state) {
   return levels.flatMap((level, index) =>
-    level.clues
-      .slice(0, state.clueCounts[index])
-      .map((word) => ({ level: level.id, place: level.place, word })),
+    destinationRoom(state, index)
+      .clues.slice(0, state.clueCounts[index])
+      .map((word) => ({
+        level: level.id,
+        roomId: state.route[index],
+        place: roomById(state.route[index]).name,
+        word,
+      })),
   );
 }

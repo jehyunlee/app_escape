@@ -1,0 +1,9 @@
+{
+  "model": "gpt-image-2.5-flare",
+  "quality": "medium",
+  "generated_at": "2026-09-21T15:13:06.998579+00:00",
+  "file": "space-192.webp",
+  "roomId": "space-192",
+  "name": "호수 성문",
+  "prompt": "Create a high-end cinematic environment artwork for an educational fantasy escape-room game. Landscape 3:2, AAA realistic 3D game environment / film production rendering, physically plausible lighting, richly detailed materials, atmospheric perspective. Inspired by a moonlit Scottish gothic castle: cool dark teal-blue night light with warm golden lantern light. NOT an illustration, NOT vector, NOT cartoon, NOT low-poly. Beautiful and inviting for children without childish styling. No people, no creatures in the foreground, no text, no letters, no UI, no watermark. Keep the lower central foreground relatively open; interactive 3D props are placed in front later. Natural 40mm eye-level camera, horizon in the upper middle, subtle depth of field. SCENE: Serene wide shot of a fortress gate reflected perfectly on a still lake surface, cool teal moonlight shimmering across the water. A small wooden boat is moored near stone steps leading up to the gate, warm amber lantern light glowing from within its lantern post. Open lower-central foreground along the water's edge, tranquil layered reflection, no people, no text, no UI."
+}
