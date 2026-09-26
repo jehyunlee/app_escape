@@ -18,6 +18,7 @@ import {
   currentRoom,
   EXIT_ROOM,
   stageNarrative,
+  facilities,
 } from "../rooms.js";
 import {
   freshState,
@@ -31,7 +32,11 @@ import {
   closeQuestion,
   answerQuestion,
   continueQuiz,
-  retryStage,
+  acceptExtraQuestion,
+  declineExtraQuestion,
+  questionCapacity,
+  remainingQuestions,
+  canStillPass,
   chooseDestination,
   startStage,
   purchaseItem,
@@ -42,10 +47,32 @@ import {
   avatarMood,
   takePhoto,
   deletePhoto,
-  layoutSeed,
 } from "../engine.js";
 const start = (character = "dad", seed = 123) =>
   chooseCharacter(freshState(seed), character);
+
+test("all 200 areas belong to referenced Hogwarts castle or grounds facilities", () => {
+  assert.equal(facilities.length, 40);
+  assert.ok(facilities.filter((f) => f.scope === "grounds").length >= 7);
+  assert.equal(new Set(facilities.map((f) => f.name)).size, 40);
+  for (const room of rooms) {
+    const facility = facilities.find((f) => f.id === room.facilityId);
+    assert.ok(facility, room.id);
+    assert.equal(room.facilityName, facility.name);
+    assert.ok(room.name.startsWith(`${facility.name} · `));
+    assert.ok(facility.areas.some((area) => area.name === room.areaName));
+    assert.equal(room.scope, facility.scope);
+    assert.equal(room.gameArea, true);
+    assert.ok(room.source.startsWith("https://namu.wiki/w/"));
+    assert.equal(room.image, `assets/hogwarts/${facility.id}.webp`);
+    assert.equal(new Set(room.clues).size, 3);
+  }
+  for (const facility of facilities)
+    assert.equal(
+      rooms.filter((room) => room.facilityId === facility.id).length,
+      5,
+    );
+});
 function answer(state, index, correct = true) {
   const opened = openQuestion(state, index);
   const q = currentQuestion(opened);
@@ -54,11 +81,6 @@ function answer(state, index, correct = true) {
 }
 function pass(state = start()) {
   for (let i = 0; i < PASS_SCORE; i++) state = continueQuiz(answer(state, i));
-  return state;
-}
-function failed(state = start()) {
-  for (let i = 0; i < QUESTION_COUNT; i++)
-    state = continueQuiz(answer(state, i, i < PASS_SCORE - 1));
   return state;
 }
 function roundtrip(s) {
@@ -147,6 +169,14 @@ test("200-space route remains distinct and options do not spoil later rooms", ()
     all.add(state.route.join(","));
     assert.deepEqual(state.route, makeRoute(seed));
     assert.equal(new Set(state.route).size, 10);
+    assert.equal(
+      new Set(
+        state.route.map(
+          (id) => rooms.find((room) => room.id === id).facilityId,
+        ),
+      ).size,
+      10,
+    );
     for (let l = 0; l < 10; l++) {
       const s = { ...state, level: l };
       const choices = destinationChoices(s),
@@ -200,21 +230,169 @@ test("the tenth correct answer clears immediately with five untouched objects", 
   assert.equal(s.gold, 23);
   roundtrip(s);
 });
-test("fifteen attempts with nine correct fails and uses a fresh deck without losing gold or photos", () => {
-  let s = takePhoto(start(), "2026-09-25T00:00:00.000Z");
-  s = failed(s);
-  assert.equal(s.phase, "result");
-  assert.equal(score(s), 9);
-  assert.equal(avatarMood(s), "sad");
-  const old = s.deckIds;
-  const retry = retryStage(s);
-  assert.equal(retry.phase, "quiz");
-  assert.equal(retry.attempt, 1);
-  assert.ok(retry.deckIds.every((id) => !old.includes(id)));
-  assert.equal(retry.gold, s.gold);
-  assert.deepEqual(retry.photos, s.photos);
-  assert.notEqual(layoutSeed(retry), layoutSeed(s));
-  roundtrip(retry);
+test("mathematical impossibility asks for rescue only when five GOLD remains", () => {
+  let s = start();
+  for (let i = 0; i < 5; i++) s = continueQuiz(answer(s, i, false));
+  assert.equal(score(s), 0);
+  assert.equal(remainingQuestions(s), 10);
+  assert.equal(canStillPass(s), true);
+  s = answer(s, 5, false);
+  assert.equal(s.phase, "gameover");
+  assert.equal(s.gameOverReason, "gold");
+  assert.equal(s.gold, 0);
+  assert.equal(s.rescueSlot, null);
+});
+
+test("exactly five GOLD buys one replacement question and charges once", () => {
+  let s = start();
+  for (let i = 0; i < 4; i++) s = continueQuiz(answer(s, i));
+  for (let i = 4; i < 9; i++) s = continueQuiz(answer(s, i, false));
+  const wrong = answer(s, 9, false);
+  assert.equal(wrong.phase, "rescue");
+  assert.equal(wrong.gold, 5);
+  const oldId = wrong.deckIds[wrong.rescueSlot];
+  const oldAnswer = wrong.answers[wrong.rescueSlot];
+  const rescued = acceptExtraQuestion(wrong);
+  assert.equal(rescued.phase, "quiz");
+  assert.equal(rescued.gold, 0);
+  assert.equal(rescued.bonusSpent, 5);
+  assert.equal(rescued.retiredQuestions.length, 1);
+  assert.deepEqual(rescued.retiredQuestions[0], {
+    id: oldId,
+    answer: oldAnswer,
+  });
+  assert.notEqual(rescued.deckIds[wrong.rescueSlot], oldId);
+  assert.equal(rescued.answers[wrong.rescueSlot], null);
+  assert.equal(questionCapacity(rescued), 16);
+  assert.equal(answeredCount(rescued), 10);
+  roundtrip(rescued);
+});
+
+test("rescue can repeat and decline records the terminal reason", () => {
+  let s = start();
+  for (let i = 0; i < 9; i++) s = continueQuiz(answer(s, i));
+  for (let i = 9; i < 14; i++) s = continueQuiz(answer(s, i, false));
+  s = answer(s, 14, false);
+  s = acceptExtraQuestion(s);
+  s = answer(s, 14, false);
+  assert.equal(s.phase, "rescue");
+  assert.equal(s.bonusSpent, 5);
+  assert.equal(s.gold, 9);
+  assert.equal(declineExtraQuestion(s).gameOverReason, "declined");
+  assert.equal(declineExtraQuestion(s).phase, "gameover");
+  assert.equal(answerQuestion(declineExtraQuestion(s), 0).accepted, false);
+  const second = acceptExtraQuestion(s);
+  assert.equal(second.gold, 4);
+  assert.equal(second.bonusSpent, 10);
+  const depleted = answer(second, 14, false);
+  assert.equal(depleted.gold, 3);
+  assert.equal(depleted.phase, "gameover");
+  assert.equal(depleted.gameOverReason, "gold");
+  roundtrip(depleted);
+});
+
+test("affordable rescues keep working after all unused bank questions are exhausted", () => {
+  let state = start();
+  for (let i = 0; i < 9; i++) state = continueQuiz(answer(state, i));
+  for (let i = 9; i < 14; i++) state = continueQuiz(answer(state, i, false));
+  state = answer(state, 14, false);
+  // Model a player carrying savings from earlier adventures.
+  state = { ...state, gold: state.gold + 600, earned: state.earned + 600 };
+  roundtrip(state);
+  for (let i = 0; i < 80; i++) {
+    const previousId = state.deckIds[14];
+    state = acceptExtraQuestion(state);
+    assert.equal(state.phase, "quiz");
+    assert.equal(new Set(state.deckIds).size, 15);
+    assert.notEqual(state.deckIds[14], previousId);
+    roundtrip(state);
+    state = answer(state, 14, false);
+    assert.equal(state.phase, "rescue");
+    roundtrip(state);
+  }
+  state = acceptExtraQuestion(state);
+  state = answer(state, 14, true);
+  assert.equal(score(state), 10);
+  assert.equal(state.phase, "result");
+  roundtrip(state);
+});
+
+test("accepted bonus restores passability and preserves other answers", () => {
+  let s = start();
+  for (let i = 0; i < 4; i++) s = continueQuiz(answer(s, i));
+  for (let i = 4; i < 9; i++) s = continueQuiz(answer(s, i, false));
+  const rescue = answer(s, 9, false);
+  const slot = rescue.rescueSlot;
+  const before = [...rescue.answers];
+  s = acceptExtraQuestion(rescue);
+  assert.equal(canStillPass(s), true);
+  assert.equal(remainingQuestions(s), 6);
+  assert.equal(s.answers[slot], null);
+  before[slot] = null;
+  assert.deepEqual(s.answers, before);
+  roundtrip(s);
+});
+
+test("rescue, gameover, and every persisted rescue field survive save/load", () => {
+  const character = freshState(123);
+  roundtrip(character);
+  let quiz = start();
+  quiz = openQuestion(quiz, 0);
+  roundtrip(quiz);
+  const feedback = answerQuestion(quiz, currentQuestion(quiz).answer).state;
+  roundtrip(feedback);
+  const result = pass();
+  roundtrip(result);
+  const destination = continueQuiz(result);
+  roundtrip(destination);
+  const departure = chooseDestination(
+    destination,
+    destinationRoom(destination).id,
+  ).state;
+  roundtrip(departure);
+  roundtrip(beginTravel(departure));
+  const rescue = (() => {
+    let s = start();
+    for (let i = 0; i < 4; i++) s = continueQuiz(answer(s, i));
+    for (let i = 4; i < 9; i++) s = continueQuiz(answer(s, i, false));
+    return answer(s, 9, false);
+  })();
+  assert.equal(rescue.phase, "rescue");
+  roundtrip(rescue);
+  const gameover = (() => {
+    let s = start();
+    for (let i = 0; i < 5; i++) s = continueQuiz(answer(s, i, false));
+    return answer(s, 5, false);
+  })();
+  assert.equal(gameover.phase, "gameover");
+  roundtrip(gameover);
+});
+
+test("tampered bonus accounting fails closed and bonusSpent persists across stages", () => {
+  const valid = start();
+  assert.equal(
+    restoreState(JSON.stringify({ ...valid, bonusSpent: 5 })).phase,
+    "character",
+  );
+  let s = start();
+  for (let i = 0; i < 4; i++) s = continueQuiz(answer(s, i));
+  for (let i = 4; i < 9; i++) s = continueQuiz(answer(s, i, false));
+  s = acceptExtraQuestion(answer(s, 9, false));
+  assert.equal(s.bonusSpent, 5);
+  for (const i of [9, 10, 11, 12, 13, 14]) {
+    s = answer(s, i);
+    if (s.feedback) s = continueQuiz(s);
+  }
+  assert.equal(score(s), PASS_SCORE);
+  s = continueQuiz(s);
+  s = finishTravel(
+    beginTravel(chooseDestination(s, destinationRoom(s).id).state),
+  );
+  assert.equal(s.phase, "shop");
+  assert.equal(s.records[0].answered, 16);
+  assert.equal(s.bonusSpent, 5);
+  assert.equal(s.retiredQuestions.length, 0);
+  roundtrip(s);
 });
 test("all unresolved objects are selectable and previewing does not consume them", () => {
   const s = start();

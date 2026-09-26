@@ -1,0 +1,1482 @@
+[
+  {
+    "id": "facility-01",
+    "name": "그리핀도르 기숙사",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#a83a3a",
+    "description": "붉은 태피스트리와 둥근 창이 아늑한 원형 휴게실을 감싸고 있다. 석조 벽난로와 나무 계단이 층층의 침실로 이어진다.",
+    "clues": ["루비", "태피스트리", "사자문장"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Gryffindor common room interior, warm scarlet tapestries, circular leaded windows, carved oak staircases, four-poster beds beyond an arch, stone fireplace, brass sconces, worn rugs, rich timber beams, soft evening firelight, detailed medieval masonry, atmospheric depth, realistic materials, dramatic composition, high-end game environment art, rich ambient shadows, richly textured, no signs, no people, no lettering, recognizable Hogwarts architecture.",
+    "areas": [
+      {
+        "name": "원형휴게실",
+        "detail": "둥근 방의 붉은 소파가 낮은 원목 탁자를 둘러싼다.",
+        "clue": "소파"
+      },
+      {
+        "name": "벽난로앞",
+        "detail": "커다란 석조 벽난로 위에 낡은 방패가 걸려 있다.",
+        "clue": "장작"
+      },
+      {
+        "name": "초상화계단",
+        "detail": "나선형 계단 벽면에 금빛 액자들이 빽빽하다.",
+        "clue": "액자"
+      },
+      {
+        "name": "창가좌석",
+        "detail": "붉은 쿠션이 놓인 창가 벤치에서 성의 지붕이 보인다.",
+        "clue": "쿠션"
+      },
+      {
+        "name": "기숙생침상",
+        "detail": "진홍색 커튼이 달린 높은 침대들이 목재 난간 뒤에 놓였다.",
+        "clue": "침대"
+      }
+    ]
+  },
+  {
+    "id": "facility-02",
+    "name": "후플푸프 기숙사",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#d4a72c",
+    "description": "둥근 지하 방에 노란 천과 구리 장식이 따뜻한 빛을 반사한다. 낮은 천장과 촘촘한 화분 선반이 소박한 생활 공간을 만든다.",
+    "clues": ["금빛벽돌", "오소리문장", "구리등"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Hufflepuff common room interior, cozy barrel-like chamber, honey-colored stone, round windows, yellow hanging fabrics, polished copper lamps, low wooden tables, abundant potted plants, arched alcoves, woven rugs, warm lantern glow, detailed masonry, tactile timber, inviting medieval design, high-end game environment art, soft cinematic framing, no signs, no people, no lettering, recognizable Hogwarts atmosphere, balanced wide composition.",
+    "areas": [
+      {
+        "name": "부엌회랑",
+        "detail": "둥근 회랑 벽에 작은 구리 등잔과 나무 걸이가 이어진다.",
+        "clue": "등잔"
+      },
+      {
+        "name": "통나무휴게실",
+        "detail": "통나무 기둥 사이로 황금빛 의자와 낮은 탁자가 놓였다.",
+        "clue": "통나무"
+      },
+      {
+        "name": "둥근창가",
+        "detail": "반달 모양 창턱에 노란 방석과 작은 화분이 있다.",
+        "clue": "방석"
+      },
+      {
+        "name": "식물화분대",
+        "detail": "계단식 선반에 잎이 넓은 화분들이 층층이 정돈되었다.",
+        "clue": "화분"
+      },
+      {
+        "name": "낮은침상",
+        "detail": "짧은 목재 기둥의 침상마다 황금색 이불이 덮였다.",
+        "clue": "이불"
+      }
+    ]
+  },
+  {
+    "id": "facility-03",
+    "name": "래번클로 기숙사",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#3f6da8",
+    "description": "탑의 푸른 방은 별무늬 천장과 높은 아치 창으로 하늘을 가까이 둔다. 청동 장식 책상과 나선 계단이 조용한 학구 공간을 이룬다.",
+    "clues": ["청동독수리", "별천장", "청색비단"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Ravenclaw common room interior, lofty tower chamber, blue silk hangings, bronze eagle details, star-patterned domed ceiling, tall arched windows, spiral staircase, walnut study desks, carved book niches, moonlit stone, cool blue ambience, precise medieval masonry, cinematic volumetric light, premium game environment art, no signs, no people, no lettering, unmistakable Hogwarts tower, rich realistic textures and depth.",
+    "areas": [
+      {
+        "name": "청동문턱",
+        "detail": "청동 장식이 박힌 문턱 앞에 둥근 돌바닥이 펼쳐진다.",
+        "clue": "문턱"
+      },
+      {
+        "name": "별무늬휴게실",
+        "detail": "짙은 푸른 천장에 작은 금빛 별이 촘촘히 그려졌다.",
+        "clue": "별"
+      },
+      {
+        "name": "아치창",
+        "detail": "높은 아치 창의 납틀 사이로 산 능선이 보인다.",
+        "clue": "납틀"
+      },
+      {
+        "name": "책상틈새",
+        "detail": "벽감마다 가느다란 책상이 놓이고 청동 촛대가 빛난다.",
+        "clue": "벽감"
+      },
+      {
+        "name": "푸른침상",
+        "detail": "푸른 비단 커튼 침상이 탑의 곡선 벽을 따라 배치되었다.",
+        "clue": "비단"
+      }
+    ]
+  },
+  {
+    "id": "facility-04",
+    "name": "슬리데린 기숙사",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#3b8b68",
+    "description": "지하 호수 아래의 긴 방에 녹색 유리창과 검은 석주가 잠긴 듯 서 있다. 낮은 천장과 뱀 장식이 차갑고 깊은 분위기를 만든다.",
+    "clues": ["석제수로", "에메랄드", "뱀문양"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Slytherin common room interior, subterranean chamber beneath a lake, green rippling window light, black stone columns, serpentine carvings, dark leather sofas, low vaulted ceiling, polished slate floor, emerald glass lanterns, damp reflective surfaces, moody cinematic lighting, detailed Hogwarts masonry, premium game environment art, cinematic cool reflections, no signs, no people, no lettering, recognizable underwater atmosphere, dramatic wide-angle composition.",
+    "areas": [
+      {
+        "name": "지하휴게실",
+        "detail": "검은 석벽 사이에 짙은 녹색 소파와 낮은 탁자가 놓였다.",
+        "clue": "소파"
+      },
+      {
+        "name": "녹색창",
+        "detail": "물결 그림자가 번지는 녹색 창이 천장 가까이 열려 있다.",
+        "clue": "물결"
+      },
+      {
+        "name": "돌기둥",
+        "detail": "뱀 비늘을 새긴 돌기둥들이 아치 천장을 받친다.",
+        "clue": "비늘"
+      },
+      {
+        "name": "긴소파",
+        "detail": "길쭉한 가죽 소파 앞에 은빛 발받침이 놓였다.",
+        "clue": "가죽"
+      },
+      {
+        "name": "뱀장식",
+        "detail": "벽의 금속 뱀 장식이 녹색 보석을 물고 있다.",
+        "clue": "보석"
+      }
+    ]
+  },
+  {
+    "id": "facility-05",
+    "name": "주방",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#c77a37",
+    "description": "넓은 지하 주방에 구리 솥과 벽난로가 줄지어 놓여 있다. 타일 바닥과 나무 선반에는 식재료와 조리 도구가 촘촘히 정돈되어 있다.",
+    "clues": ["국자", "반죽", "구리솥"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts kitchen interior, vast underground stone room, rows of polished copper cauldrons, brick hearths, oak preparation tables, hanging ladles, tiled floor, shelves of herbs and crockery, warm firelight, arched service passages, rustic medieval textures, atmospheric steam, cinematic depth, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts castle service kitchen, richly detailed materials and lighting.",
+    "areas": [
+      {
+        "name": "구리솥줄",
+        "detail": "벽난로 앞에 크기가 다른 구리 솥들이 일정한 간격으로 걸렸다.",
+        "clue": "솥"
+      },
+      {
+        "name": "식재료선반",
+        "detail": "목재 선반에 밀가루 자루와 향신료 병이 빽빽하다.",
+        "clue": "향신료"
+      },
+      {
+        "name": "장작화덕",
+        "detail": "벽돌 화덕의 아치 안쪽에서 붉은 장작불이 번진다.",
+        "clue": "화덕"
+      },
+      {
+        "name": "설거지통",
+        "detail": "깊은 돌 수조 옆에 은식기 바구니가 놓여 있다.",
+        "clue": "수조"
+      },
+      {
+        "name": "하인통로",
+        "detail": "낮은 석문 뒤로 좁고 따뜻한 보급 통로가 이어진다.",
+        "clue": "석문"
+      }
+    ]
+  },
+  {
+    "id": "facility-06",
+    "name": "세탁실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#7aaec5",
+    "description": "지하 세탁실에는 큰 돌 세탁통과 증기를 내는 금속 배관이 설치되어 있다. 천장 줄과 나무 건조대가 밝은 창 아래 규칙적으로 이어진다.",
+    "clues": ["세탁통", "비눗방울", "증기"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts laundry room interior, vaulted basement chamber, large stone wash basins, copper pipes releasing gentle steam, wooden drying racks, linen bundles, soap shelves, damp flagstone floor, narrow arched windows, warm practical lanterns, realistic medieval utility architecture, cinematic atmosphere, premium game environment art, no signs, no people, no lettering, recognizable Hogwarts service corridor, detailed textiles, stone and metal textures.",
+    "areas": [
+      {
+        "name": "빨래통",
+        "detail": "둥근 돌 통 여러 개가 배수 홈을 따라 나란히 놓였다.",
+        "clue": "배수"
+      },
+      {
+        "name": "증기배관",
+        "detail": "천장 아래 구리 배관에서 흰 증기가 가늘게 샌다.",
+        "clue": "배관"
+      },
+      {
+        "name": "건조줄",
+        "detail": "석벽 사이 팽팽한 줄에 흰 천이 길게 걸렸다.",
+        "clue": "천"
+      },
+      {
+        "name": "비누선반",
+        "detail": "나무 선반에 둥근 비누와 솔이 가지런히 놓였다.",
+        "clue": "솔"
+      },
+      {
+        "name": "다림질대",
+        "detail": "두꺼운 천을 씌운 다림질대 옆에 철제 다리미가 있다.",
+        "clue": "다리미"
+      }
+    ]
+  },
+  {
+    "id": "facility-07",
+    "name": "마법약 교실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#8647a3",
+    "description": "지하 교실은 검은 석벽과 낮은 아치 천장 아래 솥과 증류기가 빽빽하다. 약초 선반과 유리병 벽이 푸른 불꽃을 받아 반짝인다.",
+    "clues": ["가마솥", "증류기", "약초병"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Potions classroom interior, dungeon-like black stone walls, low vaulted ceiling, rows of iron cauldrons, copper alembics, glass potion bottles, dried herbs, wooden workbenches, blue burner flames, damp floor, carved shelves, moody purple and teal illumination, cinematic volumetric haze, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts dungeon classroom, crisp realistic props and textures.",
+    "areas": [
+      {
+        "name": "지하교탁",
+        "detail": "검은 돌 교탁 위에 낡은 은제 저울과 절구가 놓였다.",
+        "clue": "절구"
+      },
+      {
+        "name": "가마솥열",
+        "detail": "철제 가마솥들이 낮은 벽난로를 따라 일정하게 배열되었다.",
+        "clue": "불꽃"
+      },
+      {
+        "name": "약초선반",
+        "detail": "말린 뿌리와 잎사귀가 묶음별로 나무 선반에 걸렸다.",
+        "clue": "뿌리"
+      },
+      {
+        "name": "유리병벽",
+        "detail": "호박색 액체가 든 유리병들이 벽 전체를 채운다.",
+        "clue": "액체"
+      },
+      {
+        "name": "배수홈",
+        "detail": "바닥의 좁은 홈이 솥 아래에서 돌수조로 이어진다.",
+        "clue": "홈"
+      }
+    ]
+  },
+  {
+    "id": "facility-08",
+    "name": "무도회장",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#c8a45b",
+    "description": "높은 무도회장은 대리석 바닥과 긴 발코니가 넓은 중앙 공간을 둘러싼다. 크리스털 촛대와 거울 벽이 천장의 목재 보를 화려하게 비춘다.",
+    "clues": ["크리스털", "발코니", "연주단상"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts ballroom interior, expansive polished marble floor, ornate crystal chandeliers, carved oak balcony, tall arched windows, gilded mirror panels, raised musicians' dais, stone columns, floating candlelight, rich medieval tapestries, warm amber reflections, dramatic grand composition, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts ceremonial hall, highly detailed materials, cinematic lens and volumetric lighting.",
+    "areas": [
+      {
+        "name": "대리석무대",
+        "detail": "흰 대리석 단상이 중앙 바닥 위로 낮게 솟아 있다.",
+        "clue": "단상"
+      },
+      {
+        "name": "촛대열",
+        "detail": "금속 촛대들이 벽을 따라 일정한 높이로 늘어섰다.",
+        "clue": "촛대"
+      },
+      {
+        "name": "발코니",
+        "detail": "난간이 조각된 발코니가 홀 양쪽 벽에 걸쳐 있다.",
+        "clue": "난간"
+      },
+      {
+        "name": "거울벽",
+        "detail": "키 큰 거울 패널이 천장 불빛을 여러 겹 반사한다.",
+        "clue": "거울"
+      },
+      {
+        "name": "연주단상",
+        "detail": "작은 목재 단상 위에 보면대와 악기 받침이 놓였다.",
+        "clue": "보면대"
+      }
+    ]
+  },
+  {
+    "id": "facility-09",
+    "name": "마법사의 돌 방들",
+    "scope": "castle",
+    "themeId": 10,
+    "accent": "#8f6650",
+    "description": "거대한 체스판이 돌 타일 바닥을 가득 채우고 검은색과 흰색 말이 성벽처럼 솟아 있다. 아치형 통로와 승강교가 판 가장자리의 두꺼운 석조 구조물에 연결된다.",
+    "clues": ["룩", "비숍", "승강교"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Philosopher's Stone chess chamber, enormous black-and-white tiled chessboard, towering carved stone chess pieces, castle-like rook battlements, arched stone passage, raised drawbridge, vaulted dungeon ceiling, torch brackets, dusty masonry, dramatic warm shadows, monumental scale, cinematic wide shot, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts challenge chamber, realistic stone wear and atmospheric depth.",
+    "areas": [
+      {
+        "name": "체스판바닥",
+        "detail": "검고 흰 돌 타일이 거대한 격자로 바닥 전체를 덮는다.",
+        "clue": "격자"
+      },
+      {
+        "name": "흑백말진열",
+        "detail": "조각된 체스 말들이 칸마다 성벽처럼 높이 솟았다.",
+        "clue": "말"
+      },
+      {
+        "name": "아치통로",
+        "detail": "낮은 아치 통로의 안쪽에 붉은 횃불이 박혔다.",
+        "clue": "횃불"
+      },
+      {
+        "name": "석제성벽",
+        "detail": "판 뒤편의 돌 성벽에 좁은 화살구멍이 반복된다.",
+        "clue": "화살구멍"
+      },
+      {
+        "name": "승강교",
+        "detail": "두꺼운 목재 승강교가 어두운 틈 위에 걸쳐 있다.",
+        "clue": "사슬"
+      }
+    ]
+  },
+  {
+    "id": "facility-10",
+    "name": "비밀의 방",
+    "scope": "castle",
+    "themeId": 9,
+    "accent": "#2b817a",
+    "description": "지하 깊은 곳에 펼쳐진 긴 석실은 거대한 뱀 기둥과 물길을 품고 있다. 녹슨 살라자르 문과 검은 연못이 습한 공기를 차갑게 만든다.",
+    "clues": ["바실리스크", "살라자르", "송곳니"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Chamber of Secrets interior, immense subterranean stone hall, colossal serpent columns, carved Salazar doorway, dark reflective pool, ribbed vaulted ceiling, ancient wet flagstones, weathered statues, teal underground light, creeping mist, monumental gothic architecture, cinematic scale, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts hidden chamber, realistic water reflections, detailed carved stone, ominous atmosphere.",
+    "areas": [
+      {
+        "name": "석상회랑",
+        "detail": "긴 회랑 양쪽에 닳은 뱀 모양 석상이 서 있다.",
+        "clue": "석상"
+      },
+      {
+        "name": "뱀기둥",
+        "detail": "거대한 뱀 조각 기둥이 천장 아치를 떠받친다.",
+        "clue": "비늘"
+      },
+      {
+        "name": "지하수로",
+        "detail": "얕은 물길이 검은 바닥 타일 사이로 흐른다.",
+        "clue": "물길"
+      },
+      {
+        "name": "살라자르문",
+        "detail": "두 마리 뱀을 새긴 석문이 벽 깊숙이 박혔다.",
+        "clue": "석문"
+      },
+      {
+        "name": "검은연못",
+        "detail": "넓은 연못 표면에 천장 기둥의 그림자가 흔들린다.",
+        "clue": "연못"
+      }
+    ]
+  },
+  {
+    "id": "facility-11",
+    "name": "항구 입구",
+    "scope": "castle",
+    "themeId": 10,
+    "accent": "#4c8fa1",
+    "description": "호수 가장자리의 석제 부두는 성으로 오르는 젖은 계단과 넓은 아치 입구를 품고 있다. 보트 계류 고리와 등불이 어두운 물결을 따라 이어진다.",
+    "clues": ["노", "부표", "물때"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts boathouse entrance, lakeside stone landing beneath towering castle walls, broad arched doorway, wet steps, iron mooring rings, wooden boats, floating buoys, hanging lanterns, misty dark lake, moss-covered masonry, dramatic dawn light, detailed water reflections, cinematic AAA game environment art, rich tactile surfaces, no signs, no people, no lettering, recognizable Hogwarts arrival architecture, realistic weathering, rich atmospheric perspective.",
+    "areas": [
+      {
+        "name": "호숫가부두",
+        "detail": "거친 석판 부두가 검은 호수 위로 길게 돌출된다.",
+        "clue": "부두"
+      },
+      {
+        "name": "보트계류",
+        "detail": "철제 고리에 작은 나무 보트의 밧줄이 묶였다.",
+        "clue": "밧줄"
+      },
+      {
+        "name": "석제아치",
+        "detail": "젖은 석제 아치가 부두에서 성 안쪽을 감싼다.",
+        "clue": "아치"
+      },
+      {
+        "name": "젖은계단",
+        "detail": "이끼 낀 계단에 호숫물이 얇게 고여 있다.",
+        "clue": "이끼"
+      },
+      {
+        "name": "등불고리",
+        "detail": "벽의 철제 고리에 유리 등불이 일정하게 매달렸다.",
+        "clue": "등불"
+      }
+    ]
+  },
+  {
+    "id": "facility-12",
+    "name": "입구 홀",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#b89b59",
+    "description": "넓은 입구 홀은 검은 대리석 바닥과 거대한 참나무 문이 맞닿은 성의 중심 통로다. 벽면의 기숙사 점수 모래시계와 움직이는 계단이 높이 솟아 있다.",
+    "clues": ["모래시계", "계단참", "문고리"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Entrance Hall interior, vast black-and-white marble floor, monumental oak doors, towering moving staircase, four jeweled hourglasses in glass cases, carved stone arches, torch sconces, medieval banners without lettering, polished surfaces, grand symmetrical composition, cinematic warm light, AAA game environment art, no signs, no people, no lettering, unmistakable Hogwarts architecture, intricate masonry, atmospheric depth and realistic scale.",
+    "areas": [
+      {
+        "name": "대계단",
+        "detail": "넓은 돌계단이 여러 층의 아치 아래로 높이 올라간다.",
+        "clue": "난간"
+      },
+      {
+        "name": "모래시계벽",
+        "detail": "보석이 든 네 개의 모래시계가 유리장 안에 서 있다.",
+        "clue": "보석"
+      },
+      {
+        "name": "대리석바닥",
+        "detail": "흑백 대리석 무늬가 입구에서 홀 중앙까지 이어진다.",
+        "clue": "대리석"
+      },
+      {
+        "name": "참나무문",
+        "detail": "두꺼운 참나무 문에 금속 장식 띠가 박혔다.",
+        "clue": "참나무"
+      },
+      {
+        "name": "횃불벽걸이",
+        "detail": "돌벽의 철제 걸쇠마다 긴 횃불이 타오른다.",
+        "clue": "걸쇠"
+      }
+    ]
+  },
+  {
+    "id": "facility-13",
+    "name": "연회장",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#d3a943",
+    "description": "거대한 연회장은 네 줄의 긴 식탁과 교수단상이 천장의 마법 같은 별빛 아래 놓인 공간이다. 부유 촛불과 높은 창이 석조 벽과 은식기를 황금빛으로 밝힌다.",
+    "clues": ["촛불", "은식기", "천장화"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Great Hall interior, four long wooden tables, raised staff dais, enchanted starry ceiling, hundreds of floating candles, tall lancet windows, stone pillars, polished silverware, carved medieval walls, golden candlelight, grand symmetrical perspective, rich material detail, cinematic volumetric lighting, AAA game environment art, no signs, no people, no lettering, instantly recognizable Hogwarts Great Hall, realistic reflective surfaces, majestic scale.",
+    "areas": [
+      {
+        "name": "긴식탁",
+        "detail": "긴 참나무 식탁들이 붉은 양탄자 양옆으로 평행하게 놓였다.",
+        "clue": "양탄자"
+      },
+      {
+        "name": "부유촛불",
+        "detail": "천장 아래 촛불이 줄을 맞춰 공중에 떠 있다.",
+        "clue": "촛불"
+      },
+      {
+        "name": "교수단상",
+        "detail": "홀 끝의 높은 단상에 등받이 의자들이 정렬되었다.",
+        "clue": "단상"
+      },
+      {
+        "name": "천장구름",
+        "detail": "마법으로 열린 천장에 별과 느린 구름이 흐른다.",
+        "clue": "구름"
+      },
+      {
+        "name": "벽난로벽",
+        "detail": "한쪽 석벽의 큰 벽난로가 은식기 진열장을 비춘다.",
+        "clue": "은식기"
+      }
+    ]
+  },
+  {
+    "id": "facility-14",
+    "name": "안뜰",
+    "scope": "castle",
+    "themeId": 4,
+    "accent": "#6da66b",
+    "description": "성벽으로 둘러싸인 안뜰에는 낡은 석조 포장과 낮은 중앙 분수가 자리한다. 뾰족한 아치 통로와 덩굴이 사방의 회랑을 연결한다.",
+    "clues": ["분수", "담쟁이", "포석"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts inner courtyard, weathered stone paving, low circular fountain, four-sided cloister with pointed arches, ivy climbing battlements, mossy statues, rain-darkened masonry, overcast daylight, puddle reflections, medieval castle geometry, rich botanical detail, cinematic wide composition, AAA game environment art, subtle weathered color, no signs, no people, no lettering, recognizable Hogwarts courtyard, realistic stone texture, atmospheric depth, quiet grandeur.",
+    "areas": [
+      {
+        "name": "분수자리",
+        "detail": "낮은 원형 분수의 가장자리에 물이 얕게 고여 있다.",
+        "clue": "분수"
+      },
+      {
+        "name": "회랑아치",
+        "detail": "뾰족한 아치 회랑이 안뜰 네 면을 감싼다.",
+        "clue": "회랑"
+      },
+      {
+        "name": "덩굴벽",
+        "detail": "오래된 담쟁이덩굴이 회색 석벽을 촘촘히 덮는다.",
+        "clue": "담쟁이"
+      },
+      {
+        "name": "포석길",
+        "detail": "불규칙한 포석이 중앙에서 각 출입구로 갈라진다.",
+        "clue": "포석"
+      },
+      {
+        "name": "석상모서리",
+        "detail": "마모된 석상이 회랑 모서리의 낮은 받침 위에 있다.",
+        "clue": "석상"
+      }
+    ]
+  },
+  {
+    "id": "facility-15",
+    "name": "마법의 역사 교실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#806b59",
+    "description": "오래된 교실에는 긴 나무 책상과 낮은 강의대가 돌벽 앞에 배치되어 있다. 낡은 지도, 갑옷 조각, 먼지 쌓인 연대기 책장이 벽을 채운다.",
+    "clues": ["연대기", "지도", "강의대"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts History of Magic classroom interior, long dark oak desks, worn lectern, ancient parchment maps, dusty chronicle shelves, small medieval artifacts, tall leaded windows, stone walls, chalkboard without writing, brass lamps, muted sepia light, richly textured timber, cinematic composition, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts classroom, realistic age and dust, atmospheric academic stillness.",
+    "areas": [
+      {
+        "name": "긴책상",
+        "detail": "긴 책상 줄마다 작은 잉크병과 나무 의자가 놓였다.",
+        "clue": "잉크병"
+      },
+      {
+        "name": "연대기벽",
+        "detail": "가죽 제본 연대기가 높은 책장에 빽빽하게 꽂혔다.",
+        "clue": "연대기"
+      },
+      {
+        "name": "지도틀",
+        "detail": "빛바랜 마법 지도들이 나무틀 안에서 겹쳐 보인다.",
+        "clue": "지도"
+      },
+      {
+        "name": "강의대",
+        "detail": "낮은 강의대의 금속 테두리에 오래된 흠집이 남았다.",
+        "clue": "강의대"
+      },
+      {
+        "name": "유물벽감",
+        "detail": "작은 벽감마다 녹슨 투구와 봉인된 두루마리가 놓였다.",
+        "clue": "투구"
+      }
+    ]
+  },
+  {
+    "id": "facility-16",
+    "name": "머글학 교실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#9b6d43",
+    "description": "교실 벽에는 머글 생활을 보여 주는 나무 가구와 기계 장치가 전시되어 있다. 창가의 책상, 칠판, 유리 진열장이 단정한 수업 공간을 만든다.",
+    "clues": ["전축", "찻잔", "진열장"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Muggle Studies classroom interior, medieval stone room filled with carefully arranged ordinary objects, wooden radio, teacups, sewing machine, bicycles parts, oak desks, glass display cases, chalkboard without writing, tall windows, warm neutral light, believable educational setting, cinematic detail, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts classroom architecture, realistic props, polished composition.",
+    "areas": [
+      {
+        "name": "생활전시대",
+        "detail": "낮은 전시대에 머글 생활 도구들이 종류별로 놓였다.",
+        "clue": "전시대"
+      },
+      {
+        "name": "기계선반",
+        "detail": "금속 톱니와 손잡이가 달린 기계들이 나무 선반에 정렬되었다.",
+        "clue": "톱니"
+      },
+      {
+        "name": "찻잔장",
+        "detail": "유리장 안에 무늬가 다른 찻잔과 주전자가 모였다.",
+        "clue": "주전자"
+      },
+      {
+        "name": "책상창가",
+        "detail": "창가 책상 위에 머글 잡지와 연필통이 놓였다.",
+        "clue": "연필통"
+      },
+      {
+        "name": "칠판벽",
+        "detail": "검은 칠판 아래 분필 상자와 지우개가 가지런하다.",
+        "clue": "분필"
+      }
+    ]
+  },
+  {
+    "id": "facility-17",
+    "name": "어둠의 마법 방어법 교실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#6a5aa8",
+    "description": "방어법 교실에는 보호막 문양이 새겨진 돌벽과 낡은 훈련 인형이 놓여 있다. 높은 창과 벽걸이 횃불이 연습용 책상과 방패를 비춘다.",
+    "clues": ["보호막", "훈련인형", "방패"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Defense Against the Dark Arts classroom interior, vaulted stone chamber, battered training dummy, circular shields, protective rune carvings, wooden desks, iron torch brackets, tall arched windows, dark academic atmosphere, dusty floor, rich medieval materials, dramatic blue and amber lighting, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts classroom, detailed props, cinematic depth and realistic wear.",
+    "areas": [
+      {
+        "name": "훈련마루",
+        "detail": "넓은 목재 마루에 원형 연습 자국이 여러 겹 남아 있다.",
+        "clue": "마루"
+      },
+      {
+        "name": "보호막벽",
+        "detail": "돌벽의 보호막 문양이 은은한 청색으로 빛난다.",
+        "clue": "문양"
+      },
+      {
+        "name": "인형받침",
+        "detail": "낡은 훈련 인형이 철제 받침 위에 세워졌다.",
+        "clue": "인형"
+      },
+      {
+        "name": "방패걸이",
+        "detail": "둥근 방패들이 나무 걸이에 겹겹이 걸려 있다.",
+        "clue": "방패"
+      },
+      {
+        "name": "횃불벽",
+        "detail": "검은 철제 횃불이 높은 벽면을 일정하게 밝힌다.",
+        "clue": "횃불"
+      }
+    ]
+  },
+  {
+    "id": "facility-18",
+    "name": "맥고나걸의 사무실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#8c5e9e",
+    "description": "사무실에는 변환술 책과 정교한 은제 기물이 놓인 어두운 목재 책상이 있다. 높은 창, 격자 책장, 작은 고양이 장식이 절제된 공간을 채운다.",
+    "clues": ["은제기물", "변환서", "격자책장"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts McGonagall office interior, refined dark oak desk, stacks of Transfiguration books, delicate silver instruments, tall leaded windows, orderly lattice bookcases, tartan textile accents, brass desk lamp, carved stone fireplace, restrained scholarly elegance, warm directional light, cinematic realism, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts professor office, detailed wood grain, stone and metal materials, atmospheric depth.",
+    "areas": [
+      {
+        "name": "교수책상",
+        "detail": "무거운 참나무 책상 위에 은제 문진과 깃펜이 놓였다.",
+        "clue": "문진"
+      },
+      {
+        "name": "변환서장",
+        "detail": "가죽 표지 변환술 책들이 천장 가까운 선반까지 쌓였다.",
+        "clue": "변환서"
+      },
+      {
+        "name": "격자창",
+        "detail": "격자 유리창이 긴 책상 위로 보랏빛을 드리운다.",
+        "clue": "격자"
+      },
+      {
+        "name": "은제기물대",
+        "detail": "작은 은제 기물들이 벨벳 깔개 위에 정렬되어 있다.",
+        "clue": "은제"
+      },
+      {
+        "name": "벽난로서가",
+        "detail": "낮은 벽난로 양옆에 좁은 책장이 맞물려 있다.",
+        "clue": "서가"
+      }
+    ]
+  },
+  {
+    "id": "facility-19",
+    "name": "울보 머틀의 여자 화장실",
+    "scope": "castle",
+    "themeId": 9,
+    "accent": "#76a6bd",
+    "description": "오래된 여자 화장실은 금이 간 흰 타일과 구리 수도관으로 둘러싸여 있다. 깨진 거울과 줄지은 세면대 아래로 물이 고여 비밀스러운 배수구를 감춘다.",
+    "clues": ["수도꼭지", "깨진거울", "배수구"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Moaning Myrtle bathroom interior, abandoned Victorian washroom, cracked white tiles, rows of porcelain sinks, tarnished copper pipes, broken mirrors, leaking taps, puddles on patterned floor, cold blue window light, hidden serpentine drain detail, damp atmospheric haze, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts bathroom, realistic grime, reflective water, richly detailed gothic utility architecture.",
+    "areas": [
+      {
+        "name": "세면대열",
+        "detail": "흰 도기 세면대가 금 간 타일 벽을 따라 줄지었다.",
+        "clue": "도기"
+      },
+      {
+        "name": "수도관",
+        "detail": "녹슨 구리 수도관이 천장 아래에서 여러 갈래로 꺾인다.",
+        "clue": "수도관"
+      },
+      {
+        "name": "깨진거울",
+        "detail": "금 간 거울 조각이 어긋난 액자 속에 박혔다.",
+        "clue": "거울"
+      },
+      {
+        "name": "배수구",
+        "detail": "바닥 중앙의 둥근 배수구 주변에 물이 고여 있다.",
+        "clue": "배수구"
+      },
+      {
+        "name": "비밀수도꼭지",
+        "detail": "뱀 무늬 수도꼭지가 낡은 세면대 끝에 달렸다.",
+        "clue": "뱀무늬"
+      }
+    ]
+  },
+  {
+    "id": "facility-20",
+    "name": "병동",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#d6d1a3",
+    "description": "넓은 병동에는 흰 커튼을 두른 침대와 약품 캐비닛이 규칙적으로 놓여 있다. 높은 창으로 들어온 빛이 돌바닥과 치료용 금속 트레이를 밝힌다.",
+    "clues": ["침대커튼", "약품장", "금속트레이"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts hospital wing interior, long vaulted infirmary, rows of iron beds with crisp white curtains, tall mullioned windows, wooden medicine cabinets, brass trays, glass potion bottles, pale stone floor, soft daylight, orderly medieval healing architecture, subtle warm lanterns, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts hospital wing, realistic fabric and metal textures, serene depth, polished composition.",
+    "areas": [
+      {
+        "name": "침대열",
+        "detail": "철제 침대들이 흰 커튼 간격을 맞춰 길게 배열되었다.",
+        "clue": "커튼"
+      },
+      {
+        "name": "약품장",
+        "detail": "유리문 약품장 안에 색색의 병이 층층이 놓였다.",
+        "clue": "약품"
+      },
+      {
+        "name": "치료창가",
+        "detail": "높은 창가에 작은 화분과 접이식 의자가 있다.",
+        "clue": "화분"
+      },
+      {
+        "name": "금속트레이",
+        "detail": "은빛 트레이 위에 붕대와 약숟가락이 정돈되었다.",
+        "clue": "붕대"
+      },
+      {
+        "name": "세면대벽",
+        "detail": "흰 타일 세면대와 수건걸이가 한쪽 벽에 붙었다.",
+        "clue": "수건"
+      }
+    ]
+  },
+  {
+    "id": "facility-21",
+    "name": "일반 마법 교실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#5c86ad",
+    "description": "일반 마법 교실은 긴 책상과 칠판이 놓인 밝은 석조 강의실이다. 천장 가까운 선반에 깃털, 종, 황동 도구가 수업용으로 정렬되어 있다.",
+    "clues": ["깃털", "황동도구", "칠판"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Charms classroom interior, bright stone lecture room, rows of polished desks, blank slate board, floating-feather apparatus, brass bells and instruments on shelves, tall leaded windows, carved arches, warm candlelight, clean timber floor, subtle magical atmosphere, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts classroom architecture, detailed props, realistic stone and wood, inviting composition.",
+    "areas": [
+      {
+        "name": "실습책상",
+        "detail": "작은 실습 책상마다 황동 잉크병과 나무 의자가 놓였다.",
+        "clue": "잉크병"
+      },
+      {
+        "name": "깃털선반",
+        "detail": "흰 깃털 묶음이 높이 다른 선반에 꽂혀 있다.",
+        "clue": "깃털"
+      },
+      {
+        "name": "종걸이",
+        "detail": "크기가 다른 황동 종이 벽의 걸이에 매달렸다.",
+        "clue": "종"
+      },
+      {
+        "name": "칠판앞",
+        "detail": "넓은 검은 칠판 아래에 분필 통이 놓였다.",
+        "clue": "칠판"
+      },
+      {
+        "name": "황동도구장",
+        "detail": "미세한 톱니와 손잡이가 달린 황동 도구가 진열되었다.",
+        "clue": "톱니"
+      }
+    ]
+  },
+  {
+    "id": "facility-22",
+    "name": "트로피룸",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#c49a3a",
+    "description": "긴 트로피룸은 유리 진열장과 높은 나무 선반에 은잔과 메달을 가득 보관한다. 반사되는 금속 표면과 붉은 카펫이 좁은 석조 복도를 화려하게 만든다.",
+    "clues": ["은잔", "메달", "금빛선반"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Trophy Room interior, narrow vaulted stone gallery, glass cabinets filled with silver cups, engraved medals, polished shields, dark oak shelving, crimson runner carpet, brass sconces, reflective metal highlights, dusty upper ledges, dramatic warm light, richly detailed medieval display architecture, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts trophy gallery, realistic glass reflections, elegant depth and composition.",
+    "areas": [
+      {
+        "name": "은잔진열",
+        "detail": "유리장 안에 손잡이가 긴 은잔들이 높이별로 놓였다.",
+        "clue": "은잔"
+      },
+      {
+        "name": "메달서랍",
+        "detail": "얕은 나무 서랍마다 끈이 달린 메달이 정리되었다.",
+        "clue": "메달"
+      },
+      {
+        "name": "방패벽",
+        "detail": "광택 낸 방패들이 석벽에 일정한 간격으로 걸렸다.",
+        "clue": "방패"
+      },
+      {
+        "name": "붉은카펫",
+        "detail": "붉은 카펫이 긴 복도 중앙을 따라 깔려 있다.",
+        "clue": "카펫"
+      },
+      {
+        "name": "명패선반",
+        "detail": "작은 금속 명패가 붙은 상자가 높은 선반에 쌓였다.",
+        "clue": "상자"
+      }
+    ]
+  },
+  {
+    "id": "facility-23",
+    "name": "갑옷 갤러리",
+    "scope": "castle",
+    "themeId": 3,
+    "accent": "#8e9ba1",
+    "description": "길게 뻗은 석조 갤러리에 갑옷과 투구가 일정한 간격으로 세워져 있다. 높은 아치 창과 깃발 걸이가 금속 표면에 차가운 빛을 드리운다.",
+    "clues": ["투구", "갑주", "깃발걸이"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts armor gallery interior, long stone corridor, rows of full medieval suits of armor, polished helmets, halberds on racks, tall pointed windows, hanging fabric banners without symbols or text, ribbed arches, cool daylight, reflective metal, worn flagstone floor, cinematic perspective, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts corridor, detailed craftsmanship, realistic patina and atmospheric depth.",
+    "areas": [
+      {
+        "name": "갑주열",
+        "detail": "완전한 갑주들이 돌 받침 위에 일정한 간격으로 서 있다.",
+        "clue": "갑주"
+      },
+      {
+        "name": "투구장",
+        "detail": "깃털 장식 투구들이 낮은 목재 장에 나란히 놓였다.",
+        "clue": "투구"
+      },
+      {
+        "name": "창걸이",
+        "detail": "긴 창과 미늘창이 벽걸이에 비스듬히 기대 있다.",
+        "clue": "미늘창"
+      },
+      {
+        "name": "아치창",
+        "detail": "좁은 아치 창이 금속 갑옷에 푸른 빛을 비춘다.",
+        "clue": "창살"
+      },
+      {
+        "name": "깃발걸이",
+        "detail": "높은 돌벽의 철제 걸이에 접힌 천이 매달렸다.",
+        "clue": "깃발"
+      }
+    ]
+  },
+  {
+    "id": "facility-24",
+    "name": "소망의 거울이 있던 방",
+    "scope": "castle",
+    "themeId": 10,
+    "accent": "#b987bd",
+    "description": "비어 있는 방 중앙에 장식용 받침과 넓은 벨벳 깔개가 남아 있다. 어두운 벽면의 금빛 몰딩과 높은 창이 고요한 반사 공간을 만든다.",
+    "clues": ["금빛몰딩", "벨벳", "받침"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts room where the Mirror of Erised once stood, secluded stone chamber, ornate empty pedestal, deep crimson velvet carpet, gilded wall molding, tall dark windows, carved columns, dust motes in moonlight, quiet reflective atmosphere, polished floor, gothic medieval details, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts hidden room, subtle violet highlights, realistic textures, dramatic composition.",
+    "areas": [
+      {
+        "name": "거울받침",
+        "detail": "금빛 장식이 둘러진 빈 돌받침이 방 중앙에 남았다.",
+        "clue": "받침"
+      },
+      {
+        "name": "벨벳깔개",
+        "detail": "짙은 벨벳 깔개가 바닥의 중앙선을 길게 덮는다.",
+        "clue": "벨벳"
+      },
+      {
+        "name": "금빛몰딩",
+        "detail": "벽 상단의 금빛 몰딩이 희미한 촛불을 반사한다.",
+        "clue": "몰딩"
+      },
+      {
+        "name": "높은창",
+        "detail": "높은 창의 어두운 유리가 달빛을 가늘게 통과시킨다.",
+        "clue": "달빛"
+      },
+      {
+        "name": "기둥틈새",
+        "detail": "조각 기둥 사이의 좁은 벽감에 먼지가 내려앉았다.",
+        "clue": "벽감"
+      }
+    ]
+  },
+  {
+    "id": "facility-25",
+    "name": "도서관",
+    "scope": "castle",
+    "themeId": 7,
+    "accent": "#7c6a4a",
+    "description": "거대한 도서관은 천장까지 닿는 책장과 긴 독서 책상이 빽빽한 미로를 이룬다. 스테인드글라스 창과 사다리 레일이 오래된 양피지 더미를 비춘다.",
+    "clues": ["양피지", "사다리", "스테인드글라스"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts library interior, immense vaulted hall, floor-to-ceiling dark oak bookshelves, rolling ladders on brass rails, long reading tables, stacks of parchment, stained-glass windows, carved stone arches, green shaded lamps, dust motes, rich mahogany and leather textures, cinematic depth, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts library, realistic book spines without readable text, warm scholarly atmosphere, grand composition.",
+    "areas": [
+      {
+        "name": "고서서가",
+        "detail": "가죽 제본 고서가 천장 가까운 서가에 빽빽하게 꽂혔다.",
+        "clue": "고서"
+      },
+      {
+        "name": "사다리레일",
+        "detail": "황동 레일에 바퀴 달린 높은 사다리가 걸려 있다.",
+        "clue": "레일"
+      },
+      {
+        "name": "독서책상",
+        "detail": "긴 책상마다 초록 갓 램프와 나무 의자가 놓였다.",
+        "clue": "램프"
+      },
+      {
+        "name": "양피지더미",
+        "detail": "묶인 양피지 더미가 창가의 작은 수레에 쌓였다.",
+        "clue": "양피지"
+      },
+      {
+        "name": "색유리창",
+        "detail": "색유리창의 푸른빛이 책장 사이 바닥에 번진다.",
+        "clue": "색유리"
+      }
+    ]
+  },
+  {
+    "id": "facility-26",
+    "name": "반장 욕실",
+    "scope": "castle",
+    "themeId": 9,
+    "accent": "#69b6c2",
+    "description": "넓은 욕실 중앙에는 대리석 욕조와 여러 개의 황동 수도꼭지가 놓여 있다. 푸른 타일과 수중 생물 무늬 창이 물결치는 빛을 실내에 흩뿌린다.",
+    "clues": ["황동수도꼭지", "대리석욕조", "수중무늬"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts prefect bathroom interior, vast marble chamber, enormous white bathtub with ornate brass taps, blue and cream tiled walls, underwater mosaic motifs, tall frosted windows, carved stone columns, folded towels, gentle steam, shimmering reflected light, luxurious medieval wizarding architecture, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts prefect bathroom, realistic marble and water details, serene wide composition.",
+    "areas": [
+      {
+        "name": "대리석욕조",
+        "detail": "깊은 흰 대리석 욕조가 낮은 원형 단상 위에 놓였다.",
+        "clue": "욕조"
+      },
+      {
+        "name": "황동수도꼭지",
+        "detail": "여러 모양의 황동 수도꼭지가 욕조 가장자리에 줄지었다.",
+        "clue": "황동"
+      },
+      {
+        "name": "푸른타일",
+        "detail": "푸른 타일 벽에 물결무늬 줄이 반복된다.",
+        "clue": "타일"
+      },
+      {
+        "name": "수건장",
+        "detail": "흰 수건이 조각된 나무장 안에 층층이 놓였다.",
+        "clue": "수건"
+      },
+      {
+        "name": "수중창",
+        "detail": "수중 생물 무늬 창이 바닥에 푸른 빛을 비춘다.",
+        "clue": "물고기"
+      }
+    ]
+  },
+  {
+    "id": "facility-27",
+    "name": "변환 마법 교실",
+    "scope": "castle",
+    "themeId": 1,
+    "accent": "#985c92",
+    "description": "넓은 변환술 교실에는 무거운 책상과 변형 실험용 받침대가 일정하게 놓여 있다. 조각된 돌기둥, 칠판, 금속 새장과 천장 창이 또렷한 수업 공간을 만든다.",
+    "clues": ["실험받침", "금속새장", "돌기둥"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Transfiguration classroom interior, spacious stone chamber, orderly oak desks, carved stone columns, transformation practice pedestals, empty metal cages, chalkboard without writing, tall clerestory windows, brass instruments, warm daylight, polished floor, refined medieval classroom details, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts architecture, realistic wood and stone, dramatic yet scholarly composition, high detail.",
+    "areas": [
+      {
+        "name": "변환책상",
+        "detail": "두꺼운 책상마다 작은 나무 상자와 황동 자가 놓였다.",
+        "clue": "황동자"
+      },
+      {
+        "name": "실험받침",
+        "detail": "돌 받침대 위에 변환용 빈 그릇이 놓여 있다.",
+        "clue": "그릇"
+      },
+      {
+        "name": "금속새장",
+        "detail": "철제 새장들이 창가의 긴 선반에 비어 있다.",
+        "clue": "새장"
+      },
+      {
+        "name": "조각기둥",
+        "detail": "동물 문양을 새긴 기둥이 천장 들보를 받친다.",
+        "clue": "조각"
+      },
+      {
+        "name": "천장창",
+        "detail": "높은 천장창에서 흰 빛이 실험대 위로 떨어진다.",
+        "clue": "채광"
+      }
+    ]
+  },
+  {
+    "id": "facility-28",
+    "name": "필요의 방",
+    "scope": "castle",
+    "themeId": 9,
+    "accent": "#7868a9",
+    "description": "숨은 방은 벽난로와 높은 책장, 낡은 가구가 뒤섞인 넓은 은신처처럼 보인다. 거친 석벽과 반복되는 아치문이 용도에 맞춰 변하는 빈 공간을 둘러싼다.",
+    "clues": ["은신처", "아치문", "벽난로"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Room of Requirement interior, mysterious adaptable chamber, broad stone walls, multiple arched doorways, mismatched wooden furniture, tall bookcases, large fireplace, concealed alcoves, worn rugs, candlelit violet ambience, subtle magical dust, medieval castle construction, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts hidden room, realistic textures, dramatic depth, evocative empty space, high-end game concept rendering.",
+    "areas": [
+      {
+        "name": "변화벽면",
+        "detail": "거친 석벽의 일부가 다른 색 돌로 이어져 있다.",
+        "clue": "석벽"
+      },
+      {
+        "name": "은신책장",
+        "detail": "높은 책장이 좁은 벽감과 숨은 통로를 가린다.",
+        "clue": "벽감"
+      },
+      {
+        "name": "낡은가구",
+        "detail": "서로 다른 의자와 탁자가 넓은 바닥에 흩어져 있다.",
+        "clue": "가구"
+      },
+      {
+        "name": "벽난로",
+        "detail": "큰 벽난로 안쪽의 재 위로 작은 불씨가 남았다.",
+        "clue": "불씨"
+      },
+      {
+        "name": "반복아치",
+        "detail": "동일한 아치문이 긴 벽을 따라 여러 개 이어진다.",
+        "clue": "아치"
+      }
+    ]
+  },
+  {
+    "id": "facility-29",
+    "name": "천문탑",
+    "scope": "castle",
+    "themeId": 8,
+    "accent": "#536eb2",
+    "description": "가장 높은 탑의 원형 관측실에는 별자리 기구와 낮은 난간이 설치되어 있다. 열린 석조 테라스와 청동 망원경이 밤하늘을 넓게 향한다.",
+    "clues": ["망원경", "별자리판", "난간"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Astronomy Tower interior and observatory terrace, circular stone chamber, large brass telescope, celestial charts, armillary sphere, open crenellated balcony, narrow stair spiral, deep starry sky, cool moonlight, weathered masonry, brass instruments, cinematic night atmosphere, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts tower, realistic metal patina, dramatic vertical composition, detailed astronomy props and stonework.",
+    "areas": [
+      {
+        "name": "관측실",
+        "detail": "원형 관측실 바닥에 청동 원형 고리가 겹쳐 놓였다.",
+        "clue": "고리"
+      },
+      {
+        "name": "망원경대",
+        "detail": "긴 망원경이 삼각 금속대 위에서 하늘을 향한다.",
+        "clue": "렌즈"
+      },
+      {
+        "name": "별자리판",
+        "detail": "별자리판의 작은 구슬들이 밤빛을 받아 반짝인다.",
+        "clue": "구슬"
+      },
+      {
+        "name": "나선계단",
+        "detail": "좁은 나선계단이 탑 외벽을 따라 위로 감긴다.",
+        "clue": "나선"
+      },
+      {
+        "name": "석제난간",
+        "detail": "톱니 모양 석제 난간이 열린 테라스를 둘러싼다.",
+        "clue": "톱니"
+      }
+    ]
+  },
+  {
+    "id": "facility-30",
+    "name": "서쪽 탑",
+    "scope": "castle",
+    "themeId": 6,
+    "accent": "#8a9b67",
+    "description": "서쪽 탑의 둥근 내부에는 새들이 드나드는 아치 창과 돌 횃대가 겹겹이 배치되어 있다. 깃털과 둥지 재료가 거친 나무 선반과 바닥에 흩어져 있다.",
+    "clues": ["횃대", "올빼미깃", "둥지"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts West Tower owlery interior, tall circular stone tower, rows of rough wooden perches, arched openings to the sky, scattered feathers, woven nests, spiral masonry stairs, weathered ledges, pale morning light, airborne dust, cool wind atmosphere, detailed gothic stonework, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts owl tower, realistic feathers and timber, dramatic vertical perspective, richly textured surfaces.",
+    "areas": [
+      {
+        "name": "돌횃대",
+        "detail": "둥근 돌 횃대가 탑 벽을 따라 층층이 튀어나왔다.",
+        "clue": "횃대"
+      },
+      {
+        "name": "아치창",
+        "detail": "큰 아치 창으로 산 위 하늘과 바람이 들어온다.",
+        "clue": "바람"
+      },
+      {
+        "name": "둥지선반",
+        "detail": "거친 나무 선반마다 짚과 깃털 둥지가 놓였다.",
+        "clue": "짚"
+      },
+      {
+        "name": "깃털바닥",
+        "detail": "돌바닥의 틈마다 회색과 흰 깃털이 쌓였다.",
+        "clue": "깃털"
+      },
+      {
+        "name": "나선통로",
+        "detail": "좁은 나선 통로가 어두운 탑 위층으로 이어진다.",
+        "clue": "나선"
+      }
+    ]
+  },
+  {
+    "id": "facility-31",
+    "name": "북쪽 탑",
+    "scope": "castle",
+    "themeId": 8,
+    "accent": "#4c6ea3",
+    "description": "북쪽 탑은 둥근 교실과 높은 아치 창이 있는 바람 센 석조 공간이다. 천장에 매달린 천구와 경사진 목재 계단이 탑의 층을 연결한다.",
+    "clues": ["천구", "경사계단", "북창"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts North Tower interior, circular stone divination chamber, suspended celestial globe, tall north-facing arched windows, steep wooden stairway, brass astrolabe, dark timber rafters, cool dawn light, textured medieval masonry, scattered star charts, cinematic vertical composition, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts tower, realistic brass and stone, atmospheric wind, rich shadows, detailed observatory classroom design.",
+    "areas": [
+      {
+        "name": "천구실",
+        "detail": "커다란 천구가 사슬에 매달려 천장 아래 천천히 흔들린다.",
+        "clue": "천구"
+      },
+      {
+        "name": "북창",
+        "detail": "좁은 북쪽 창에서 차가운 산빛이 들어온다.",
+        "clue": "산빛"
+      },
+      {
+        "name": "경사계단",
+        "detail": "경사진 목재 계단이 둥근 벽을 따라 층층이 올라간다.",
+        "clue": "계단"
+      },
+      {
+        "name": "천문도책상",
+        "detail": "작은 책상에 접힌 천문도와 황동 나침반이 놓였다.",
+        "clue": "나침반"
+      },
+      {
+        "name": "서까래틈",
+        "detail": "낡은 서까래 사이로 탑 바깥 하늘이 가늘게 보인다.",
+        "clue": "서까래"
+      }
+    ]
+  },
+  {
+    "id": "facility-32",
+    "name": "교장실 탑",
+    "scope": "castle",
+    "themeId": 8,
+    "accent": "#7b5c9d",
+    "description": "탑 꼭대기의 원형 교장실은 어두운 목재 책상과 초상화 벽으로 둘러싸여 있다. 높은 창, 은빛 기계 장치, 나선형 계단이 장중한 공기를 만든다.",
+    "clues": ["초상화", "은빛기계", "원형서재"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts headmaster office tower interior, circular stone chamber, ornate dark oak desk, tall portrait frames without readable faces, silver magical instruments, shelves of leather books, high arched windows, spiral staircase, brass telescope, warm firelight, purple dusk ambience, richly carved medieval details, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts headmaster office, realistic wood, metal and stone, cinematic depth.",
+    "areas": [
+      {
+        "name": "원형서재",
+        "detail": "곡선 책장이 방을 둘러싸고 가죽 책등이 촘촘히 보인다.",
+        "clue": "곡선서가"
+      },
+      {
+        "name": "교장책상",
+        "detail": "조각된 책상 위에 은제 잉크병과 봉인 상자가 놓였다.",
+        "clue": "봉인"
+      },
+      {
+        "name": "초상화벽",
+        "detail": "금빛 액자의 초상화들이 둥근 벽을 빈틈없이 채운다.",
+        "clue": "액자"
+      },
+      {
+        "name": "은빛기계",
+        "detail": "작은 은빛 기계가 유리 덮개 안에서 톱니를 돌린다.",
+        "clue": "톱니"
+      },
+      {
+        "name": "탑창",
+        "detail": "높은 창 너머로 성의 첨탑과 호수가 내려다보인다.",
+        "clue": "첨탑"
+      }
+    ]
+  },
+  {
+    "id": "facility-33",
+    "name": "금지된 숲",
+    "scope": "grounds",
+    "themeId": 4,
+    "accent": "#315b3a",
+    "description": "울창한 숲은 굵은 나무줄기와 얽힌 뿌리가 어두운 오솔길을 만든다. 안개 낀 빈터와 깊은 양치식물 사이로 오래된 돌과 이끼가 드러난다.",
+    "clues": ["양치식물", "안개", "거목"],
+    "artPrompt": "AAA cinematic, photorealistic Forbidden Forest grounds near Hogwarts, immense ancient trees, tangled roots, dense ferns, misty clearing, moonbeams through dark canopy, moss-covered stones, muddy trail, distant rocky ridges, subtle magical atmosphere, richly layered woodland depth, dramatic cinematic lighting, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts grounds, realistic bark and foliage, atmospheric perspective, high-detail fantasy nature scene, moody yet grounded.",
+    "areas": [
+      {
+        "name": "거목길",
+        "detail": "거대한 나무 사이로 뿌리가 솟은 좁은 길이 이어진다.",
+        "clue": "뿌리"
+      },
+      {
+        "name": "안개빈터",
+        "detail": "낮은 안개가 둥근 빈터의 이끼 바닥을 덮는다.",
+        "clue": "안개"
+      },
+      {
+        "name": "양치습지",
+        "detail": "키 큰 양치식물이 축축한 검은 흙 가장자리에 모였다.",
+        "clue": "양치"
+      },
+      {
+        "name": "돌무덤",
+        "detail": "이끼 낀 돌무더기가 낡은 숲길 옆에 쌓여 있다.",
+        "clue": "돌무더기"
+      },
+      {
+        "name": "가시덤불",
+        "detail": "가시덤불이 두 나무 사이를 촘촘한 벽처럼 막는다.",
+        "clue": "가시"
+      }
+    ]
+  },
+  {
+    "id": "facility-34",
+    "name": "후려치는 버드나무",
+    "scope": "grounds",
+    "themeId": 4,
+    "accent": "#52713c",
+    "description": "넓은 잔디 위에 뒤틀린 버드나무 한 그루가 낮은 가지를 사방으로 뻗는다. 드러난 뿌리와 움푹 팬 흙이 나무 둘레에 위험한 원형 공간을 만든다.",
+    "clues": ["뒤틀린가지", "뿌리혹", "흙웅덩이"],
+    "artPrompt": "AAA cinematic, photorealistic Whomping Willow on Hogwarts grounds, enormous twisted willow tree, long whipping branches frozen in dynamic arcs, exposed roots, scarred trunk, circular muddy clearing, windswept grass, distant castle towers, overcast sky, dramatic motion implied without figures, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts landmark, realistic bark and foliage, moody natural lighting, detailed ground textures, wide heroic composition.",
+    "areas": [
+      {
+        "name": "버드나무줄기",
+        "detail": "뒤틀린 줄기의 깊은 홈이 거친 나무껍질을 가른다.",
+        "clue": "나무껍질"
+      },
+      {
+        "name": "휘어진가지",
+        "detail": "긴 가지들이 땅 가까이 넓은 호를 그리며 뻗었다.",
+        "clue": "가지"
+      },
+      {
+        "name": "뿌리혹",
+        "detail": "불룩한 뿌리혹들이 줄기 둘레의 잔디를 들어 올린다.",
+        "clue": "뿌리혹"
+      },
+      {
+        "name": "흙웅덩이",
+        "detail": "나무 아래 움푹 팬 흙에 빗물이 고여 있다.",
+        "clue": "웅덩이"
+      },
+      {
+        "name": "잔디원",
+        "detail": "눌린 잔디가 나무 주변에 넓은 원을 만든다.",
+        "clue": "잔디"
+      }
+    ]
+  },
+  {
+    "id": "facility-35",
+    "name": "온실",
+    "scope": "grounds",
+    "themeId": 2,
+    "accent": "#5a9c63",
+    "description": "유리 온실 안에는 긴 재배대와 화분이 빽빽하고 천장에는 덩굴이 매달려 있다. 습한 바닥, 분무관, 식물 표본장이 초록빛 통로를 만든다.",
+    "clues": ["분무관", "재배대", "덩굴"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts greenhouse grounds, glass-and-iron conservatory, long wooden potting benches, lush magical plants, hanging vines, terracotta pots, misting pipes, damp tiled floor, fogged panes, sunbeams through green glass, botanical clutter, detailed Victorian horticulture architecture, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts greenhouse, realistic leaves and moisture, rich emerald palette, immersive depth, high-end fantasy environment rendering.",
+    "areas": [
+      {
+        "name": "재배대",
+        "detail": "긴 목재 재배대에 흙 화분과 작은 모종이 줄지었다.",
+        "clue": "모종"
+      },
+      {
+        "name": "분무관",
+        "detail": "천장 분무관에서 미세한 물안개가 잎 위로 떨어진다.",
+        "clue": "물안개"
+      },
+      {
+        "name": "덩굴천장",
+        "detail": "두꺼운 덩굴이 유리 천장을 가로질러 매달렸다.",
+        "clue": "덩굴"
+      },
+      {
+        "name": "화분선반",
+        "detail": "붉은 토분이 철제 선반마다 크기별로 놓였다.",
+        "clue": "토분"
+      },
+      {
+        "name": "표본장",
+        "detail": "유리 표본장 안에 말린 잎과 씨앗 주머니가 보인다.",
+        "clue": "씨앗"
+      }
+    ]
+  },
+  {
+    "id": "facility-36",
+    "name": "퀴디치 경기장",
+    "scope": "grounds",
+    "themeId": 4,
+    "accent": "#8aa94d",
+    "description": "넓은 잔디 경기장 양끝에 높은 골대가 세 개씩 세워져 있다. 나무 관람석과 깃발 기둥이 타원형 경기장을 둘러싸고 바람을 받는다.",
+    "clues": ["골대", "관람석", "경기장선"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts Quidditch pitch grounds, expansive oval grass field, three tall goal hoops at each end, wooden spectator stands, weathered flagpoles without symbols or lettering, rugged mountains and castle silhouette beyond, crisp cloudy daylight, dramatic wind across turf, cinematic sports environment composition, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts Quidditch stadium, realistic timber, grass and metal textures, high-detail atmospheric depth.",
+    "areas": [
+      {
+        "name": "골대원",
+        "detail": "세 개의 금속 골대가 잔디 끝에서 높이 솟았다.",
+        "clue": "골대"
+      },
+      {
+        "name": "관람석계단",
+        "detail": "목재 관람석 계단이 경기장 가장자리를 따라 겹친다.",
+        "clue": "계단"
+      },
+      {
+        "name": "경기장선",
+        "detail": "흰 선이 타원형 잔디의 중앙과 가장자리를 표시한다.",
+        "clue": "흰선"
+      },
+      {
+        "name": "깃발기둥",
+        "detail": "높은 기둥 끝의 천 깃발이 바람에 펄럭인다.",
+        "clue": "깃발"
+      },
+      {
+        "name": "장비창고",
+        "detail": "관람석 아래 목재 창고에 빈 상자와 그물이 쌓였다.",
+        "clue": "그물"
+      }
+    ]
+  },
+  {
+    "id": "facility-37",
+    "name": "검은 호수",
+    "scope": "grounds",
+    "themeId": 4,
+    "accent": "#315d78",
+    "description": "검은 호수는 성과 숲을 비추는 넓고 깊은 수면으로 둘러싸여 있다. 자갈 해안, 갈대 군락, 물속으로 사라지는 바위 능선이 차가운 풍경을 이룬다.",
+    "clues": ["갈대", "자갈해안", "수면"],
+    "artPrompt": "AAA cinematic, photorealistic Black Lake at Hogwarts grounds, vast dark reflective water, pebbled shore, reeds bending in wind, half-submerged rocks, distant Hogwarts castle and forest, cool mist, overcast sky breaking into silver light, subtle ripples, cinematic landscape composition, AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts lake, realistic water and shoreline textures, atmospheric mountain depth, moody natural color grading, high-detail fantasy environment.",
+    "areas": [
+      {
+        "name": "자갈해안",
+        "detail": "검은 자갈이 완만한 호숫가를 둥글게 감싼다.",
+        "clue": "자갈"
+      },
+      {
+        "name": "갈대군락",
+        "detail": "키 큰 갈대가 얕은 물 가장자리에서 바람에 흔들린다.",
+        "clue": "갈대"
+      },
+      {
+        "name": "부두돌",
+        "detail": "물속으로 이어지는 납작한 돌들이 발판처럼 놓였다.",
+        "clue": "발판"
+      },
+      {
+        "name": "물결끝",
+        "detail": "잔잔한 물결이 모래 섞인 해안에 얇은 선을 남긴다.",
+        "clue": "물결"
+      },
+      {
+        "name": "바위능선",
+        "detail": "검은 바위 능선이 수면 아래로 길게 잠긴다.",
+        "clue": "능선"
+      }
+    ]
+  },
+  {
+    "id": "facility-38",
+    "name": "해그리드의 오두막",
+    "scope": "grounds",
+    "themeId": 4,
+    "accent": "#9b6b3f",
+    "description": "숲 가장자리의 작은 오두막은 거친 나무 벽과 낮은 돌 굴뚝을 갖추고 있다. 넓은 화덕, 튼튼한 작업대, 장작 더미가 아늑한 생활 공간을 채운다.",
+    "clues": ["돌굴뚝", "화덕", "장작더미"],
+    "artPrompt": "AAA cinematic, photorealistic Hagrid's hut on Hogwarts grounds, rustic timber cottage beside forest edge, low stone chimney, broad glowing hearth, oversized wooden table, heavy stools, stacked firewood, muddy path, vegetable patch, rough stone foundation, warm dusk light, distant castle, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts grounds landmark, realistic timber grain, smoke haze, cozy yet rugged atmosphere, highly detailed natural surroundings.",
+    "areas": [
+      {
+        "name": "나무현관",
+        "detail": "두꺼운 통나무 현관이 낮은 돌계단 위에 놓였다.",
+        "clue": "통나무"
+      },
+      {
+        "name": "돌굴뚝",
+        "detail": "거친 돌 굴뚝에서 옅은 연기가 천천히 피어난다.",
+        "clue": "굴뚝"
+      },
+      {
+        "name": "넓은화덕",
+        "detail": "큰 화덕 앞에 철제 솥과 장작 집게가 놓였다.",
+        "clue": "집게"
+      },
+      {
+        "name": "작업대",
+        "detail": "넓은 작업대 위에 밧줄과 금속 도구가 흩어져 있다.",
+        "clue": "밧줄"
+      },
+      {
+        "name": "장작더미",
+        "detail": "잘린 장작이 오두막 벽 옆에 높이 쌓였다.",
+        "clue": "장작"
+      }
+    ]
+  },
+  {
+    "id": "facility-39",
+    "name": "빗자루 보관함",
+    "scope": "grounds",
+    "themeId": 10,
+    "accent": "#8d713e",
+    "description": "성 밖 보관함은 잠금쇠가 달린 긴 목재 창고와 빗자루 걸이로 구성되어 있다. 자갈 바닥, 수리 작업대, 벽을 따라 선 나무 상자가 장비를 보호한다.",
+    "clues": ["잠금쇠", "빗자루걸이", "수리대"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts broom storage shed on the grounds, long weathered timber structure, rows of broom hooks, locked plank doors, repair bench, spare bristles and handles, stacked wooden crates, gravel floor, iron latches, narrow windows, moody afternoon light, rugged medieval utility design, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts grounds facility, realistic wood grain, metal wear, detailed props and atmospheric depth.",
+    "areas": [
+      {
+        "name": "빗자루걸이",
+        "detail": "벽의 나무 걸이에 빗자루들이 손잡이 방향으로 정렬되었다.",
+        "clue": "손잡이"
+      },
+      {
+        "name": "잠금문",
+        "detail": "두꺼운 판자문에 큰 철제 잠금쇠가 달려 있다.",
+        "clue": "잠금쇠"
+      },
+      {
+        "name": "수리대",
+        "detail": "긴 수리대 위에 끈과 작은 못 상자가 놓였다.",
+        "clue": "못"
+      },
+      {
+        "name": "나무상자",
+        "detail": "빈 나무 상자들이 벽 아래에 포개져 있다.",
+        "clue": "상자"
+      },
+      {
+        "name": "자갈바닥",
+        "detail": "작은 자갈이 창고 안쪽 바닥 전체에 깔렸다.",
+        "clue": "자갈"
+      }
+    ]
+  },
+  {
+    "id": "facility-40",
+    "name": "평평한 잔디밭",
+    "scope": "grounds",
+    "themeId": 4,
+    "accent": "#75a85a",
+    "description": "성 앞의 평평한 잔디밭은 낮은 언덕과 돌 경계가 넓은 초원을 이룬다. 성벽 그림자와 야생화 띠, 완만한 산책로가 탁 트인 공간을 나눈다.",
+    "clues": ["야생화", "돌경계", "산책로"],
+    "artPrompt": "AAA cinematic, photorealistic Hogwarts flat lawn grounds, broad level meadow before the castle, vivid grass, low stone boundary, winding footpath, scattered wildflowers, distant battlements and towers, gentle rolling hills, soft golden daylight, wind-swept blades, realistic soil and masonry, cinematic AAA game environment art, no signs, no people, no lettering, recognizable Hogwarts grounds, expansive composition, atmospheric mountain backdrop, rich natural detail, polished fantasy landscape rendering.",
+    "areas": [
+      {
+        "name": "잔디중앙",
+        "detail": "짧게 눌린 잔디가 넓고 평평한 중앙 구역을 만든다.",
+        "clue": "초원"
+      },
+      {
+        "name": "야생화띠",
+        "detail": "보랏빛과 노란 야생화가 돌 경계선을 따라 피었다.",
+        "clue": "야생화"
+      },
+      {
+        "name": "돌경계",
+        "detail": "낮은 돌담이 잔디밭과 내리막을 부드럽게 나눈다.",
+        "clue": "돌담"
+      },
+      {
+        "name": "산책로",
+        "detail": "흙길이 완만한 곡선을 그리며 성문 쪽으로 이어진다.",
+        "clue": "흙길"
+      },
+      {
+        "name": "그늘언덕",
+        "detail": "성벽 그림자가 낮은 언덕의 풀을 짙게 물들인다.",
+        "clue": "그늘"
+      }
+    ]
+  }
+]

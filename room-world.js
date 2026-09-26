@@ -1,7 +1,29 @@
 import * as THREE from "three";
 import { QUESTION_COUNT as TARGET_COUNT } from "./levels.js";
+import { itemsForRoom } from "./magical-items.js";
+import { createMagicalItem } from "./magical-item-models.js";
 
 const PI2 = Math.PI * 2;
+
+// Foreground props are intentionally substantial enough to read at a glance.
+// Keep this as a named contract so renderer/layout regression checks can
+// compare the visible geometry size without reaching into a generated model.
+export const TARGET_MODEL_SCALE = 1.95;
+const SCATTER_LAYOUT = Object.freeze({
+  // Five jittered columns and three depth-staggered bands keep the props
+  // spread over the artwork instead of letting best-candidate sampling drift
+  // back toward the centre as the models get larger.
+  minX: -13,
+  width: 26,
+  baseY: 1.35,
+  height: 12.2,
+  minZ: -4.2,
+  depth: 5.9,
+});
+const SCATTER_COLUMNS = 5;
+const SCATTER_ROWS = 3;
+const SCATTER_GAP_X = 0.42;
+const SCATTER_GAP_Y = 0.38;
 
 // Geometry belongs to one room instance.  Keeping a process-wide cache here
 // causes a rebuilt room to receive geometries that the renderer already
@@ -558,632 +580,107 @@ function addScatteredSupport(
   return support;
 }
 
-function makeTargetModel(kind, mats) {
-  const group = new THREE.Group();
-  switch (kind) {
-    case "chalkboard":
-      addBox(group, mats.woodGold, 1.35, 1.05, 0.1, { y: 0.78, z: 0 });
-      addBox(group, mats.green, 1.13, 0.83, 0.08, { y: 0.78, z: 0.07 });
-      addBox(group, mats.chalk, 0.07, 0.045, 0.03, {
-        x: -0.3,
-        y: 0.99,
-        z: 0.13,
-        rz: -0.16,
-      });
-      addBox(group, mats.chalk, 0.38, 0.045, 0.03, {
-        x: 0.12,
-        y: 0.77,
-        z: 0.13,
-        rz: 0.04,
-      });
-      addBox(group, mats.chalk, 0.26, 0.045, 0.03, {
-        x: -0.16,
-        y: 0.58,
-        z: 0.13,
-        rz: -0.05,
-      });
-      break;
-    case "crystal":
-      addCylinder(group, mats.brass, 0.28, 0.38, 0.16, { y: 0.08 }, 12);
-      addCone(group, mats.violet, 0.38, 0.95, { y: 0.62, rz: Math.PI / 6 }, 6);
-      addSphere(group, mats.tealGlow, 0.13, {
-        x: 0.1,
-        y: 0.72,
-        z: 0.1,
-        castShadow: false,
-      });
-      break;
-    case "bottle":
-      for (let index = 0; index < 3; index += 1) {
-        const colors = [mats.violet, mats.tealGlow, mats.red];
-        addCylinder(
-          group,
-          colors[index],
-          0.16,
-          0.21,
-          0.42,
-          { x: (index - 1) * 0.3, y: 0.36, z: 0 },
-          12,
-        );
-        addCylinder(
-          group,
-          mats.glass,
-          0.08,
-          0.1,
-          0.16,
-          { x: (index - 1) * 0.3, y: 0.65, z: 0 },
-          10,
-        );
-        addBox(group, mats.woodGold, 0.12, 0.06, 0.12, {
-          x: (index - 1) * 0.3,
-          y: 0.76,
-          z: 0,
-        });
-      }
-      addBox(group, mats.wood, 0.94, 0.1, 0.56, { y: 0.08 });
-      break;
-    case "desk":
-      addWoodTable(group, mats, 0, 0, 0, 1.35, 0.7, 0.72, "wood");
-      addBox(group, mats.paper, 0.45, 0.025, 0.3, {
-        x: -0.2,
-        y: 0.85,
-        z: -0.04,
-        rz: 0.05,
-      });
-      addCylinder(
-        group,
-        mats.brass,
-        0.07,
-        0.07,
-        0.45,
-        { x: 0.28, y: 1.04, z: 0, rx: Math.PI / 2 },
-        10,
-      );
-      break;
-    case "plant":
-      addPotPlant(group, mats, 0, 0, 0, 1.25, true);
-      break;
-    case "watering":
-      addSphere(group, mats.brass, 0.38, {
-        x: -0.1,
-        y: 0.42,
-        z: 0,
-        sx: 1.16,
-        sy: 0.8,
-        sz: 0.84,
-      });
-      addTorus(
-        group,
-        mats.brassBright,
-        0.32,
-        0.07,
-        { x: -0.08, y: 0.74, z: 0, rx: Math.PI / 2, rz: Math.PI / 2 },
-        10,
-        18,
-        Math.PI,
-      );
-      addCone(
-        group,
-        mats.brass,
-        0.14,
-        0.64,
-        { x: 0.49, y: 0.48, z: 0, rz: -Math.PI / 2 },
-        12,
-      );
-      addCylinder(
-        group,
-        mats.brass,
-        0.17,
-        0.17,
-        0.08,
-        { x: 0.79, y: 0.48, z: 0, rz: Math.PI / 2 },
-        12,
-      );
-      break;
-    case "seedbox":
-      addBox(group, mats.wood, 1.08, 0.55, 0.72, { y: 0.3 });
-      addBox(group, mats.parchment, 0.84, 0.05, 0.5, { y: 0.61, z: -0.01 });
-      for (let index = 0; index < 5; index += 1)
-        addSphere(group, index % 2 ? mats.red : mats.green, 0.08, {
-          x: -0.3 + index * 0.15,
-          y: 0.7,
-          z: 0.03,
-        });
-      break;
-    case "terrarium":
-      addCylinder(group, mats.woodGold, 0.48, 0.56, 0.12, { y: 0.08 }, 16);
-      addSphere(group, mats.glass, 0.48, {
-        y: 0.52,
-        sz: 0.82,
-        castShadow: false,
-      });
-      addCylinder(group, mats.green, 0.05, 0.07, 0.56, { y: 0.48 }, 8);
-      addSphere(group, mats.leafLight, 0.18, {
-        x: -0.16,
-        y: 0.72,
-        z: 0.04,
-        sx: 1.45,
-        sy: 0.42,
-        sz: 0.72,
-      });
-      addSphere(group, mats.leaf, 0.18, {
-        x: 0.16,
-        y: 0.62,
-        z: 0.06,
-        sx: 1.4,
-        sy: 0.43,
-        sz: 0.7,
-      });
-      break;
-    case "goblet":
-      addCylinder(group, mats.brass, 0.23, 0.34, 0.25, { y: 0.96 }, 16);
-      addCylinder(group, mats.brass, 0.05, 0.05, 0.58, { y: 0.54 }, 12);
-      addCylinder(group, mats.brassBright, 0.23, 0.3, 0.08, { y: 0.2 }, 16);
-      addSphere(group, mats.red, 0.2, { y: 1.07, castShadow: false });
-      break;
-    case "floating-candle":
-      addCylinder(group, mats.brass, 0.22, 0.28, 0.1, { y: 0.15 }, 12);
-      addCylinder(group, mats.candle, 0.12, 0.14, 0.56, { y: 0.48 }, 12);
-      addGlow(group, mats, 0, 0.88, 0, 0.1);
-      addBox(group, mats.brass, 0.08, 0.22, 0.08, {
-        x: -0.26,
-        y: 0.74,
-        z: 0,
-        rz: -0.4,
-      });
-      break;
-    case "banner":
-      addCylinder(group, mats.brass, 0.045, 0.045, 1.75, { y: 0.85 }, 8);
-      addBox(group, mats.red, 0.96, 1.15, 0.07, { x: 0.34, y: 1.04, z: 0 });
-      addCone(
-        group,
-        mats.red,
-        0.32,
-        0.4,
-        { x: 0.34, y: 0.39, z: 0, rz: Math.PI / 4 },
-        4,
-      );
-      addBox(group, mats.gold, 0.11, 0.7, 0.04, { x: 0.34, y: 1.1, z: 0.06 });
-      break;
-    case "shield":
-      addCylinder(
-        group,
-        mats.brass,
-        0.58,
-        0.58,
-        0.1,
-        { y: 0.75, rx: Math.PI / 2 },
-        16,
-      );
-      addBox(group, mats.red, 0.16, 0.88, 0.04, { y: 0.75, z: 0.1 });
-      addBox(group, mats.brassBright, 0.82, 0.12, 0.04, { y: 0.75, z: 0.11 });
-      addCone(group, mats.brassBright, 0.24, 0.32, { y: 0.02, z: 0.01 }, 4);
-      break;
-    case "mushroom":
-      addCylinder(group, mats.parchment, 0.16, 0.23, 0.5, { y: 0.28 }, 10);
-      addSphere(group, mats.red, 0.48, {
-        y: 0.66,
-        sx: 1.12,
-        sy: 0.55,
-        sz: 1.0,
-      });
-      for (let index = 0; index < 3; index += 1)
-        addSphere(group, mats.white, 0.07, {
-          x: -0.18 + index * 0.18,
-          y: 0.77 + (index % 2) * 0.04,
-          z: -0.4,
-          castShadow: false,
-        });
-      break;
-    case "firefly-lantern":
-      addLantern(group, mats, 0, 0.72, 0, 0.9, "tealGlow");
-      addSphere(group, mats.tealGlow, 0.2, {
-        x: 0,
-        y: 0.72,
-        z: 0,
-        castShadow: false,
-      });
-      break;
-    case "fern":
-      addCylinder(group, mats.green, 0.08, 0.11, 0.85, { y: 0.44 }, 8);
-      for (let index = 0; index < 5; index += 1)
-        addSphere(group, mats.leafLight, 0.16, {
-          x: (index - 2) * 0.16,
-          y: 0.52 + Math.abs(index - 2) * 0.11,
-          z: 0.02,
-          sx: 1.5,
-          sy: 0.42,
-          sz: 0.72,
-        });
-      break;
-    case "nest":
-      addTorus(
-        group,
-        mats.woodLight,
-        0.55,
-        0.16,
-        { y: 0.28, rx: Math.PI / 2 },
-        10,
-        22,
-      );
-      addSphere(group, mats.paper, 0.2, {
-        x: -0.18,
-        y: 0.42,
-        z: 0.02,
-        sx: 1.1,
-        sy: 0.8,
-        sz: 0.85,
-      });
-      addSphere(group, mats.paper, 0.2, {
-        x: 0.2,
-        y: 0.42,
-        z: 0.02,
-        sx: 1.1,
-        sy: 0.8,
-        sz: 0.85,
-      });
-      break;
-    case "gear":
-      addGear(group, mats, 0, 0.77, 0, 0.72, 12, "brass");
-      break;
-    case "pendulum":
-      addBox(group, mats.woodGold, 0.1, 1.3, 0.1, { y: 0.82 });
-      addSphere(group, mats.brassBright, 0.3, { y: 0.17 });
-      break;
-    case "clock":
-      addCylinder(
-        group,
-        mats.brass,
-        0.62,
-        0.62,
-        0.14,
-        { y: 0.79, rx: Math.PI / 2 },
-        24,
-      );
-      addCylinder(
-        group,
-        mats.slate,
-        0.5,
-        0.5,
-        0.04,
-        { y: 0.79, z: 0.09, rx: Math.PI / 2 },
-        24,
-      );
-      {
-        const minuteHand = new THREE.Group();
-        const hourHand = new THREE.Group();
-        minuteHand.position.y = 0.79;
-        hourHand.position.y = 0.79;
-        minuteHand.name = "clock-minute-hand";
-        hourHand.name = "clock-hour-hand";
-        group.add(minuteHand, hourHand);
-        addBox(minuteHand, mats.brassBright, 0.06, 0.36, 0.06, {
-          y: 0.18,
-          z: 0.16,
-        });
-        addBox(hourHand, mats.brassBright, 0.05, 0.25, 0.05, {
-          x: 0.12,
-          y: 0.13,
-          z: 0.16,
-          rz: -0.8,
-        });
-        group.userData.clockHands = { minuteHand, hourHand };
-      }
-      break;
-    case "owl":
-      addSphere(group, mats.stoneLight, 0.44, {
-        y: 0.57,
-        sx: 0.9,
-        sy: 1.15,
-        sz: 0.82,
-      });
-      addSphere(group, mats.stoneLight, 0.34, {
-        y: 1.14,
-        sx: 1.05,
-        sy: 0.96,
-        sz: 0.9,
-      });
-      addSphere(group, mats.black, 0.09, {
-        x: -0.13,
-        y: 1.19,
-        z: 0.29,
-        castShadow: false,
-      });
-      addSphere(group, mats.black, 0.09, {
-        x: 0.13,
-        y: 1.19,
-        z: 0.29,
-        castShadow: false,
-      });
-      addCone(
-        group,
-        mats.brass,
-        0.1,
-        0.22,
-        { y: 1.03, z: 0.33, rx: Math.PI / 2 },
-        4,
-      );
-      addCone(
-        group,
-        mats.stoneDark,
-        0.23,
-        0.4,
-        { x: -0.18, y: 1.51, z: 0, rz: 0.2 },
-        3,
-      );
-      addCone(
-        group,
-        mats.stoneDark,
-        0.23,
-        0.4,
-        { x: 0.18, y: 1.51, z: 0, rz: -0.2 },
-        3,
-      );
-      break;
-    case "feather":
-      addCylinder(
-        group,
-        mats.parchment,
-        0.035,
-        0.055,
-        1.4,
-        { y: 0.72, rz: -0.24 },
-        8,
-      );
-      for (let index = 0; index < 6; index += 1)
-        addSphere(group, index % 2 ? mats.white : mats.paper, 0.11, {
-          x: -0.15 + index * 0.06,
-          y: 0.98 + index * 0.12,
-          z: 0,
-          sx: 1.8,
-          sy: 0.35,
-          sz: 0.42,
-        });
-      break;
-    case "tome":
-      addBox(group, mats.red, 1.0, 0.18, 0.7, { y: 0.12, rz: -0.06 });
-      addBox(group, mats.paper, 0.92, 0.08, 0.64, { y: 0.26, rz: 0.03 });
-      addBox(group, mats.brass, 0.09, 0.04, 0.64, { x: -0.26, y: 0.31, z: 0 });
-      addBox(group, mats.brass, 0.09, 0.04, 0.64, { x: 0.26, y: 0.31, z: 0 });
-      break;
-    case "quill":
-      addCylinder(
-        group,
-        mats.brass,
-        0.035,
-        0.055,
-        1.15,
-        { y: 0.61, rz: -0.32 },
-        8,
-      );
-      for (let index = 0; index < 5; index += 1)
-        addSphere(group, mats.leafLight, 0.09, {
-          x: -0.13 + index * 0.06,
-          y: 0.88 + index * 0.12,
-          z: 0,
-          sx: 1.7,
-          sy: 0.34,
-          sz: 0.4,
-        });
-      addCylinder(group, mats.ink, 0.16, 0.2, 0.2, { y: 0.1 }, 12);
-      break;
-    case "lamp":
-      addCylinder(group, mats.brass, 0.23, 0.27, 0.12, { y: 0.12 }, 12);
-      addCylinder(group, mats.brass, 0.07, 0.07, 0.6, { y: 0.45 }, 10);
-      addCone(group, mats.parchment, 0.4, 0.38, { y: 0.8 }, 16);
-      addGlow(group, mats, 0, 1.02, 0, 0.09);
-      break;
-    case "telescope":
-      addCylinder(
-        group,
-        mats.brass,
-        0.28,
-        0.32,
-        1.45,
-        { x: 0, y: 1.07, z: 0, rz: Math.PI / 2, ry: 0.2 },
-        16,
-      );
-      addCylinder(
-        group,
-        mats.tealGlow,
-        0.2,
-        0.22,
-        0.08,
-        { x: 0.73, y: 1.22, z: 0, rz: Math.PI / 2 },
-        16,
-      );
-      addCylinder(group, mats.brass, 0.08, 0.09, 0.88, { y: 0.48 }, 10);
-      addBox(group, mats.brass, 1.0, 0.08, 0.08, { y: 0.08 });
-      addCylinder(
-        group,
-        mats.brass,
-        0.08,
-        0.08,
-        0.7,
-        { x: -0.38, y: 0.28, z: 0, rz: -0.45 },
-        10,
-      );
-      addCylinder(
-        group,
-        mats.brass,
-        0.08,
-        0.08,
-        0.7,
-        { x: 0.38, y: 0.28, z: 0, rz: 0.45 },
-        10,
-      );
-      break;
-    case "armillary":
-      addCylinder(group, mats.brass, 0.07, 0.07, 0.76, { y: 0.42 }, 12);
-      addTorus(
-        group,
-        mats.brassBright,
-        0.54,
-        0.045,
-        { y: 0.84, rx: Math.PI / 2 },
-        12,
-        26,
-      );
-      addTorus(
-        group,
-        mats.brass,
-        0.4,
-        0.04,
-        { y: 0.84, rx: 0.42, rz: 0.3 },
-        12,
-        26,
-      );
-      addSphere(group, mats.star, 0.14, { y: 0.84, castShadow: false });
-      break;
-    case "starmap":
-      addBox(group, mats.slate, 1.22, 0.08, 0.88, { y: 0.12, rz: 0.04 });
-      for (let index = 0; index < 7; index += 1)
-        addSphere(group, mats.star, 0.05 + (index % 2) * 0.025, {
-          x: -0.4 + ((index * 0.13) % 0.8),
-          y: 0.2,
-          z: -0.25 + (index % 3) * 0.2,
-          castShadow: false,
-        });
-      addBox(group, mats.brass, 0.04, 0.02, 0.55, {
-        x: -0.15,
-        y: 0.21,
-        z: -0.04,
-        rz: 0.45,
-      });
-      break;
-    case "portrait":
-      addBox(group, mats.woodGold, 1.05, 1.35, 0.12, { y: 0.82 });
-      addBox(group, mats.portrait, 0.78, 1.08, 0.08, { y: 0.82, z: 0.08 });
-      addSphere(group, mats.parchment, 0.19, {
-        y: 1.08,
-        z: 0.15,
-        sx: 0.8,
-        sy: 1.1,
-        sz: 0.35,
-        castShadow: false,
-      });
-      addBox(group, mats.red, 0.38, 0.28, 0.04, { y: 0.68, z: 0.16, sx: 1.1 });
-      break;
-    case "lever":
-      addCylinder(group, mats.brass, 0.24, 0.3, 0.12, { y: 0.08 }, 12);
-      addCylinder(
-        group,
-        mats.iron,
-        0.08,
-        0.1,
-        0.92,
-        { y: 0.55, rz: -0.25 },
-        10,
-      );
-      addSphere(group, mats.brassBright, 0.16, { x: 0.13, y: 0.99, z: 0 });
-      break;
-    case "compass":
-      addCylinder(group, mats.brass, 0.52, 0.56, 0.12, { y: 0.34 }, 20);
-      addCylinder(group, mats.slate, 0.42, 0.44, 0.03, { y: 0.42 }, 20);
-      addCone(
-        group,
-        mats.red,
-        0.09,
-        0.62,
-        { y: 0.49, z: -0.08, rz: Math.PI / 2 },
-        4,
-      );
-      addBox(group, mats.brassBright, 0.07, 0.62, 0.04, {
-        x: 0,
-        y: 0.49,
-        z: -0.12,
-        rz: 0.75,
-      });
-      break;
-    case "gatekey":
-      addTorus(group, mats.brassBright, 0.28, 0.075, { y: 0.91 }, 12, 20);
-      addBox(group, mats.brass, 0.12, 0.78, 0.1, { y: 0.42 });
-      addBox(group, mats.brass, 0.36, 0.1, 0.1, { x: 0.13, y: 0.19 });
-      addBox(group, mats.brass, 0.28, 0.1, 0.1, { x: 0.1, y: 0.4 });
-      break;
-    case "sconce":
-      addBox(group, mats.iron, 0.12, 0.7, 0.12, { y: 0.48 });
-      addCylinder(group, mats.brass, 0.25, 0.3, 0.1, { y: 0.14 }, 12);
-      addGlow(group, mats, 0, 0.44, 0, 0.11);
-      break;
-    case "gargoyle":
-      addSphere(group, mats.stoneLight, 0.44, {
-        y: 0.52,
-        sx: 1.1,
-        sy: 0.8,
-        sz: 0.9,
-      });
-      addCone(
-        group,
-        mats.stoneLight,
-        0.35,
-        0.55,
-        { x: -0.26, y: 1.02, z: 0, rz: 0.4 },
-        4,
-      );
-      addCone(
-        group,
-        mats.stoneLight,
-        0.35,
-        0.55,
-        { x: 0.26, y: 1.02, z: 0, rz: -0.4 },
-        4,
-      );
-      addSphere(group, mats.red, 0.06, {
-        x: -0.15,
-        y: 0.6,
-        z: -0.39,
-        castShadow: false,
-      });
-      addSphere(group, mats.red, 0.06, {
-        x: 0.15,
-        y: 0.6,
-        z: -0.39,
-        castShadow: false,
-      });
-      break;
-    default:
-      throw new RangeError(`Unknown room object: ${kind}`);
-  }
-  return group;
-}
-
-function createScatteredPositions(roomId, layoutSeed) {
+function createScatteredPositions(roomId, layoutSeed, footprints = []) {
   const random = seededRandom(hashLayoutSeed(roomId, layoutSeed));
   const positions = [];
   const supports = ["lowtable", "crate", "stool", "rock"];
-  // Best-candidate sampling spreads objects without rows or columns. The
-  // fixed candidate budget makes layouts deterministic and bounded.
-  for (let index = 0; index < TARGET_COUNT; index++) {
-    let selected;
-    let bestDistance = -1;
-    for (let attempt = 0; attempt < 128; attempt++) {
-      // The foreground models are intentionally larger than the original
-      // four-prop layout.  Give them a little more room in world space rather
-      // than shrinking their meshes back down to avoid collisions.
-      const x = -5.5 + random() * 11;
-      const projectedY = 0.72 + random() * 13.4;
-      const z = -4.8 + random() * 6.8;
-      const candidate = { x, y: projectedY + z * 0.11, z };
-      const distance = positions.length
-        ? Math.min(
-            ...positions.map((previous) =>
-              Math.hypot(
-                x - previous.x,
-                projectedY - (previous.y - previous.z * 0.11),
-              ),
-            ),
-          )
-        : 1;
-      if (distance > bestDistance) {
-        selected = candidate;
-        bestDistance = distance;
-      }
-      if (!positions.length) break;
+  const cellWidth = SCATTER_LAYOUT.width / SCATTER_COLUMNS;
+  const cellHeight = SCATTER_LAYOUT.height / SCATTER_ROWS;
+  const strata = [];
+  for (let row = 0; row < SCATTER_ROWS; row += 1) {
+    for (let column = 0; column < SCATTER_COLUMNS; column += 1) {
+      strata.push({
+        x: SCATTER_LAYOUT.minX + (column + 0.5) * cellWidth,
+        y: SCATTER_LAYOUT.baseY + (row + 0.5) * cellHeight,
+      });
     }
+  }
+  // Keep every band represented but vary which item occupies it. This avoids
+  // a visible grid while preventing all of the widest meshes from landing in
+  // one part of the room.
+  for (let index = strata.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(random() * (index + 1));
+    [strata[index], strata[swap]] = [strata[swap], strata[index]];
+  }
+
+  // Footprints are measured from the actual scaled item meshes. The support
+  // pieces use a conservative extra margin below, so the separation is based
+  // on visible geometry rather than one size that happens to fit most items.
+  const footprintFor = (index) => {
+    const footprint = footprints[index] || {};
+    const width = Number.isFinite(Number(footprint.width))
+      ? Number(footprint.width)
+      : 1.1;
+    const height = Number.isFinite(Number(footprint.height))
+      ? Number(footprint.height)
+      : 1.8;
+    return {
+      halfWidth: Math.max(width * 0.5 + 0.28, 0.82),
+      halfHeight: Math.max(height * 0.5 + 0.32, 0.88),
+      offsetY: Number.isFinite(Number(footprint.offsetY))
+        ? Number(footprint.offsetY) - 0.26
+        : 1.25,
+    };
+  };
+
+  for (let index = 0; index < TARGET_COUNT; index++) {
+    const footprint = footprintFor(index);
+    const stratum = strata[index];
+    let selected = null;
+    let bestScore = -Infinity;
+    for (let attempt = 0; attempt < 144; attempt += 1) {
+      const x = stratum.x + (random() - 0.5) * cellWidth * 0.72;
+      const projectedY = stratum.y + (random() - 0.5) * cellHeight * 0.72;
+      const z = SCATTER_LAYOUT.minZ + random() * SCATTER_LAYOUT.depth;
+      let clearance = 2;
+      for (const previous of positions) {
+        const previousFootprint = previous.footprint;
+        const horizontalGap =
+          footprint.halfWidth + previousFootprint.halfWidth + SCATTER_GAP_X;
+        const verticalGap =
+          footprint.halfHeight + previousFootprint.halfHeight + SCATTER_GAP_Y;
+        // A screen-space rectangle is clear when either axis has enough
+        // separation. Normalize both axes so a broad item cannot be packed
+        // beside a narrow one merely because their centres are far apart.
+        clearance = Math.min(
+          clearance,
+          Math.max(
+            Math.abs(x - previous.x) / horizontalGap,
+            Math.abs(projectedY - previous.projectedY) / verticalGap,
+          ),
+        );
+      }
+      // Stay close to the assigned stratum so the candidate search adds
+      // irregularity without undoing the deliberate whole-canvas coverage.
+      const jitter =
+        Math.hypot(
+          (x - stratum.x) / cellWidth,
+          (projectedY - stratum.y) / cellHeight,
+        ) * 0.11;
+      const score = clearance - jitter + random() * 0.008;
+      if (score > bestScore) {
+        selected = { x, projectedY, z };
+        bestScore = score;
+      }
+    }
+
+    if (!selected) {
+      // The loop above always selects at least one candidate, but retaining a
+      // bounded fallback makes malformed footprint data fail soft.
+      selected = {
+        x: stratum.x,
+        projectedY: stratum.y,
+        z: SCATTER_LAYOUT.minZ + SCATTER_LAYOUT.depth * 0.5,
+      };
+    }
+    const support = supports[Math.floor(random() * supports.length)];
     positions.push({
-      ...selected,
-      support: supports[Math.floor(random() * supports.length)],
+      x: selected.x,
+      y: selected.projectedY - footprint.offsetY,
+      z: selected.z,
+      projectedY: selected.projectedY,
+      footprint,
+      support,
       rotation: (random() - 0.5) * 0.65,
     });
   }
@@ -1194,14 +691,45 @@ function addTargets(root, mats, definitions, roomId, layoutSeed) {
   const targets = [];
   if (definitions.length !== TARGET_COUNT)
     throw new RangeError("Each room must define fifteen foreground objects.");
-  const kinds = new Set(definitions.map((definition) => definition.kind));
-  const labels = new Set(definitions.map((definition) => definition.label));
-  if (kinds.size !== TARGET_COUNT || labels.size !== TARGET_COUNT)
-    throw new RangeError("Each room foreground object must be unique.");
-  const positions = createScatteredPositions(roomId, layoutSeed);
+  const itemIds = new Set(definitions.map((definition) => definition.id));
+  const names = new Set(definitions.map((definition) => definition.name));
+  if (
+    itemIds.size !== TARGET_COUNT ||
+    names.size !== TARGET_COUNT ||
+    definitions.some(
+      (definition) =>
+        typeof definition?.id !== "string" ||
+        typeof definition?.name !== "string" ||
+        typeof definition?.model !== "string",
+    )
+  )
+    throw new RangeError(
+      "Each room foreground item must have a unique id and name.",
+    );
+  const entries = definitions.map((definition) => {
+    const model = createMagicalItem(definition);
+    model.scale.multiplyScalar(TARGET_MODEL_SCALE);
+    model.updateMatrixWorld(true);
+    const bounds = new THREE.Box3().setFromObject(model);
+    const size = bounds.getSize(new THREE.Vector3());
+    return {
+      definition,
+      model,
+      footprint: {
+        width: size.x,
+        height: size.y,
+        offsetY: (bounds.min.y + bounds.max.y) * 0.5,
+      },
+    };
+  });
+  const positions = createScatteredPositions(
+    roomId,
+    layoutSeed,
+    entries.map((entry) => entry.footprint),
+  );
   for (let index = 0; index < TARGET_COUNT; index += 1) {
-    const definition = definitions[index];
-    const label = definition.label;
+    const { definition, model } = entries[index];
+    const label = definition.name;
     const position = positions[index];
     const target = new THREE.Group();
     target.name = label;
@@ -1210,26 +738,29 @@ function addTargets(root, mats, definitions, roomId, layoutSeed) {
       interactive: true,
       label,
       index,
-      kind: definition.kind,
+      itemId: definition.id,
+      kind: definition.model,
+      variant: definition.variant,
+      canon: definition.canon,
+      sourceName: definition.sourceName,
+      description: definition.description,
       support: position.support,
     };
     target.position.set(position.x, position.y, position.z);
     target.rotation.y = position.rotation;
+    // Keep the support under the same interactive root as its item. Besides
+    // making the raycast ownership unambiguous, this lets renderer auto-fit
+    // include the full visible prop instead of fitting only the floating mesh.
     addScatteredSupport(
-      root,
+      target,
       mats,
       position.support,
-      position.x,
-      position.y,
-      position.z,
+      0,
+      0,
+      0,
       1.03 + (index % 3) * 0.08,
-      position.rotation,
+      0,
     );
-    const model = makeTargetModel(definition.kind, mats);
-    // Foreground props should read as substantial, individually identifiable
-    // objects.  The wider deterministic layout above keeps these 1.45x models
-    // accessible on both desktop and narrow mobile viewports.
-    model.scale.setScalar(1.45);
     target.add(model);
     if (model.userData.clockHands)
       target.userData.clockHands = model.userData.clockHands;
@@ -1291,179 +822,6 @@ const BACKGROUNDS = [
   0x101f35, 0x1d1c35, 0x172632,
 ];
 
-const ROOM_OBJECTS = [
-  [
-    ["고대 주문서", "tome"],
-    ["별빛 수정구", "crystal"],
-    ["마법 약병", "bottle"],
-    ["검은 깃펜", "quill"],
-    ["황동 시계", "clock"],
-    ["태엽 톱니", "gear"],
-    ["도서관 부엉이", "owl"],
-    ["봉인 깃털", "feather"],
-    ["서재 새 둥지", "nest"],
-    ["마법사의 초상화", "portrait"],
-    ["천문 망원경", "telescope"],
-    ["황동 천구의", "armillary"],
-    ["고대 별자리판", "starmap"],
-    ["길찾기 나침반", "compass"],
-    ["수호 방패", "shield"],
-  ],
-  [
-    ["뿌리내린 고서", "tome"],
-    ["이끼 수정구", "crystal"],
-    ["치유 약병", "bottle"],
-    ["정원 깃펜", "quill"],
-    ["정원 물시계", "clock"],
-    ["덩굴 톱니", "gear"],
-    ["정원 부엉이", "owl"],
-    ["은빛 깃털", "feather"],
-    ["나뭇가지 둥지", "nest"],
-    ["온실 초상화", "portrait"],
-    ["해시계 망원경", "telescope"],
-    ["정원 천구의", "armillary"],
-    ["별빛 화단 지도", "starmap"],
-    ["정원 나침반", "compass"],
-    ["온실 방패", "shield"],
-  ],
-  [
-    ["연회 주문서", "tome"],
-    ["루비 수정구", "crystal"],
-    ["붉은 물약병", "bottle"],
-    ["연회 깃펜", "quill"],
-    ["연회 시계", "clock"],
-    ["황금 톱니", "gear"],
-    ["연회 부엉이", "owl"],
-    ["의식 깃털", "feather"],
-    ["잔치 둥지", "nest"],
-    ["연회 초상화", "portrait"],
-    ["탑 망원경", "telescope"],
-    ["궁정 천구의", "armillary"],
-    ["축제 별자리판", "starmap"],
-    ["황금 나침반", "compass"],
-    ["연회 방패", "shield"],
-  ],
-  [
-    ["버섯 고서", "tome"],
-    ["숲 수정구", "crystal"],
-    ["이끼 약병", "bottle"],
-    ["숲 깃펜", "quill"],
-    ["나무 시계", "clock"],
-    ["뿌리 톱니", "gear"],
-    ["숲 부엉이", "owl"],
-    ["낙엽 깃털", "feather"],
-    ["숲 둥지", "nest"],
-    ["숲 초상화", "portrait"],
-    ["숲 망원경", "telescope"],
-    ["이끼 천구의", "armillary"],
-    ["숲 별자리판", "starmap"],
-    ["길잡이 나침반", "compass"],
-    ["나뭇잎 방패", "shield"],
-  ],
-  [
-    ["대형 시계", "clock"],
-    ["시계탑 고서", "tome"],
-    ["시계탑 수정구", "crystal"],
-    ["시계탑 약병", "bottle"],
-    ["시계공 깃펜", "quill"],
-    ["시계 톱니바퀴", "gear"],
-    ["시계탑 부엉이", "owl"],
-    ["태엽 깃털", "feather"],
-    ["시계공 둥지", "nest"],
-    ["시계탑 초상화", "portrait"],
-    ["관측 망원경", "telescope"],
-    ["천체 시계구", "armillary"],
-    ["시계 별자리판", "starmap"],
-    ["시계 나침반", "compass"],
-    ["철제 방패", "shield"],
-  ],
-  [
-    ["부엉이 고서", "tome"],
-    ["달빛 수정구", "crystal"],
-    ["새벽 약병", "bottle"],
-    ["새 깃펜", "quill"],
-    ["새벽 시계", "clock"],
-    ["날개 톱니", "gear"],
-    ["큰 부엉이", "owl"],
-    ["순백 깃털", "feather"],
-    ["높은 둥지", "nest"],
-    ["새 초상화", "portrait"],
-    ["하늘 망원경", "telescope"],
-    ["하늘 천구의", "armillary"],
-    ["비행 별자리판", "starmap"],
-    ["철새 나침반", "compass"],
-    ["깃털 방패", "shield"],
-  ],
-  [
-    ["봉인 고서", "tome"],
-    ["독서 수정구", "crystal"],
-    ["잉크 약병", "bottle"],
-    ["푸른 깃펜", "quill"],
-    ["책상 시계", "clock"],
-    ["서고 톱니", "gear"],
-    ["서재 부엉이", "owl"],
-    ["서가 깃털", "feather"],
-    ["책장 둥지", "nest"],
-    ["학자 초상화", "portrait"],
-    ["독서 망원경", "telescope"],
-    ["연구 천구의", "armillary"],
-    ["학술 별자리판", "starmap"],
-    ["연구 나침반", "compass"],
-    ["서재 방패", "shield"],
-  ],
-  [
-    ["천문 고서", "tome"],
-    ["성운 수정구", "crystal"],
-    ["관측 약병", "bottle"],
-    ["기록 깃펜", "quill"],
-    ["항성 시계", "clock"],
-    ["궤도 톱니", "gear"],
-    ["천문 부엉이", "owl"],
-    ["혜성 깃털", "feather"],
-    ["관측 둥지", "nest"],
-    ["천문학자 초상화", "portrait"],
-    ["대형 망원경", "telescope"],
-    ["천문 천구의", "armillary"],
-    ["별자리 지도", "starmap"],
-    ["북쪽 나침반", "compass"],
-    ["우주 방패", "shield"],
-  ],
-  [
-    ["계단 고서", "tome"],
-    ["계단 수정구", "crystal"],
-    ["비상 약병", "bottle"],
-    ["안내 깃펜", "quill"],
-    ["층계 시계", "clock"],
-    ["난간 톱니", "gear"],
-    ["계단 부엉이", "owl"],
-    ["계단 깃털", "feather"],
-    ["난간 둥지", "nest"],
-    ["계단 초상화", "portrait"],
-    ["탑 망원경", "telescope"],
-    ["나선 천구의", "armillary"],
-    ["계단 별자리판", "starmap"],
-    ["방향 나침반", "compass"],
-    ["난간 방패", "shield"],
-  ],
-  [
-    ["성문 고서", "tome"],
-    ["성문 수정구", "crystal"],
-    ["경비 약병", "bottle"],
-    ["경비 깃펜", "quill"],
-    ["성문 시계", "clock"],
-    ["성문 톱니", "gear"],
-    ["성문 부엉이", "owl"],
-    ["수비 깃털", "feather"],
-    ["성벽 둥지", "nest"],
-    ["성문 초상화", "portrait"],
-    ["성벽 망원경", "telescope"],
-    ["성문 천구의", "armillary"],
-    ["성벽 별자리판", "starmap"],
-    ["수문 나침반", "compass"],
-    ["성문 방패", "shield"],
-  ],
-];
-
 export function buildRoomWorld(scene, room, layoutSeed) {
   if (!scene || typeof scene.add !== "function")
     throw new TypeError("buildRoomWorld requires a THREE.Scene");
@@ -1503,7 +861,6 @@ export function buildRoomWorld(scene, room, layoutSeed) {
   const lightState = createLights(root, themeId, mats, room.accent);
   const state = {
     clockHands: [],
-    gears: [],
     pendulum: null,
     glows: [],
     lightState,
@@ -1521,17 +878,13 @@ export function buildRoomWorld(scene, room, layoutSeed) {
   const targets = addTargets(
     root,
     mats,
-    ROOM_OBJECTS[themeId - 1].map(([label, kind]) => ({ label, kind })),
+    itemsForRoom(room),
     room.id,
     layoutSeed,
   );
   targets.forEach(({ object }) => {
     if (object.userData.clockHands)
       state.clockHands.push(object.userData.clockHands);
-    if (object.userData.kind === "gear") {
-      const gear = object.children[0]?.children[0];
-      if (gear) state.gears.push({ gear, speed: 0.045 });
-    }
   });
   const cameraConfig = CAMERA_CONFIG[themeId];
   const glowMeshes = [];
@@ -1557,9 +910,6 @@ export function buildRoomWorld(scene, room, layoutSeed) {
       state.clockHands.forEach(({ minuteHand, hourHand }) => {
         minuteHand.rotation.z = (-time / 3600) * PI2;
         hourHand.rotation.z = (-time / 43200) * PI2;
-      });
-      state.gears.forEach(({ gear, speed }) => {
-        gear.rotation.z = time * speed;
       });
       if (state.pendulum)
         state.pendulum.rotation.z = Math.sin(time * 1.55) * 0.17;

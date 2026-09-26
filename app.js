@@ -37,8 +37,10 @@ import {
   closeQuestion,
   answerQuestion,
   continueQuiz,
-  retryStage,
-  openDestination,
+  acceptExtraQuestion,
+  declineExtraQuestion,
+  questionCapacity,
+  remainingQuestions,
   chooseDestination,
   startStage,
   takePhoto,
@@ -71,6 +73,7 @@ const categoryNames = {
   pants: "바지",
   vest: "조끼",
 };
+
 const characterGrades = {
   dad: "기본 과정",
   mom: "기본 과정",
@@ -79,7 +82,7 @@ const characterGrades = {
   yewon: "중3 · 고1",
   hunho: "수능 대비",
 };
-const SLOT_KEY = "headache-escape-slots-v4";
+const SLOT_KEY = "headache-escape-slots-v5";
 const SLOT_COUNT = 10;
 let state = freshState();
 let canSave = true;
@@ -93,6 +96,7 @@ let roomView = null;
 let roomViewLevel = null;
 let roomViewLayoutSeed = null;
 let roomViewId = null;
+let gameOverPromptDismissed = false;
 try {
   state = restoreState(localStorage.getItem(SAVE_KEY));
 } catch {
@@ -211,6 +215,7 @@ function renderSlots(message = "") {
       pendingCharacter = null;
       trialItem = null;
       pendingItem = null;
+      gameOverPromptDismissed = false;
       update(restoreState(JSON.stringify(entry.state)));
     };
   });
@@ -232,6 +237,12 @@ function openSlots(mode) {
 }
 function update(next, moveFocus = true) {
   state = next;
+  if (state.phase === "character") {
+    pendingCharacter = null;
+    pendingItem = null;
+    trialItem = null;
+  }
+  if (state.phase !== "gameover") gameOverPromptDismissed = false;
   save();
   renderGame(moveFocus);
 }
@@ -313,6 +324,10 @@ function renderGame(moveFocus = false) {
     const room = currentRoom(state);
     $("#game").innerHTML =
       `<div class="room-heading" style="--room-accent:${room.accent}"><div><span class="level-badge">LEVEL ${String(level.id).padStart(2, "0")} / ${levels.length} · ${state.attempt + 1}번째 도전</span><h2 tabindex="-1">${escape(room.name)}</h2></div><span class="subject-badge">${escape(level.subject)}</span></div><div class="question-body"><div id="challenge"></div></div>`;
+    $(".room-heading > div").insertAdjacentHTML(
+      "beforeend",
+      `<p class="room-scope-note">호그와트 ${room.scope === "grounds" ? "성외" : "성내"} · 세부 탐색 구역은 게임 연출</p>`,
+    );
     if (state.phase === "quiz" || state.feedback) {
       renderRoom();
       if (state.selected !== null) {
@@ -322,7 +337,8 @@ function renderGame(moveFocus = false) {
           ? "발견한 문제 · 해설"
           : "물건 속에 숨겨진 문제";
       }
-    } else if (state.phase === "result") renderResult();
+    } else if (state.phase === "rescue") renderRescue();
+    else if (state.phase === "gameover") renderGameOver();
     else if (state.phase === "destination") renderDestination();
     else if (state.phase === "departure") renderDeparture();
     else if (state.phase === "shop") renderShop();
@@ -331,7 +347,7 @@ function renderGame(moveFocus = false) {
         `<h3>이동 중</h3><p class="intro">가방과 함께 새로운 공간으로 향해요.</p>`;
       runTravel();
     }
-    if (["result", "destination"].includes(state.phase)) {
+    if (state.phase === "destination") {
       $("#challenge").insertAdjacentHTML(
         "afterbegin",
         companionMarkup("stage-companion-summary"),
@@ -374,8 +390,13 @@ function renderCharacterSelection() {
 function renderRoom() {
   const level = curriculum(state.level + 1, state.characterId);
   const room = currentRoom(state);
+  const capacity = questionCapacity(state);
+  const remaining = remainingQuestions(state);
+  const repeatNote = state.retiredQuestions.length
+    ? "보너스 문제로 다시 열린 물건이 있어요"
+    : "푼 물건은 다시 선택할 수 없어요";
   $("#challenge").innerHTML =
-    `<p class="intro">${escape(room.description)}</p><p class="stage-narrative" data-stage-index="${state.level}">${escape(stageNarrative(state))}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>${QUESTION_COUNT}개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id, state.characterId).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / ${QUESTION_COUNT}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div>`;
+    `<p class="intro">${escape(room.description)}</p><p class="stage-narrative" data-stage-index="${state.level}">${escape(stageNarrative(state))}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>${QUESTION_COUNT}개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id, state.characterId).length}개에서 추첨 · ${repeatNote}</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / ${capacity}</strong></span><span>남은 문제 <strong>${remaining}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div>`;
   const host = $("#room-host");
   const frame = document.createElement("div");
   frame.className = "room-and-companion";
@@ -402,7 +423,8 @@ function renderRoom() {
 function renderQuestion() {
   const level = curriculum(state.level + 1, state.characterId),
     index = state.selected,
-    count = answeredCount(state);
+    count = answeredCount(state),
+    capacity = questionCapacity(state);
   const question = state.feedback
     ? questionForObject(state, index)
     : currentQuestion(state);
@@ -412,7 +434,7 @@ function renderQuestion() {
     ? '<form class="spell-form"><label for="spelling">영어 단어를 직접 써요. 답은 한 번만 제출할 수 있어요.</label><div class="spell-row"><input id="spelling" aria-labelledby="question-prompt" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="80" required><button class="primary" type="submit">정답 제출</button></div></form>'
     : `<p class="answer-rule">답을 신중하게 골라요. 한 문제당 한 번 채점해요.</p><div class="answers">${question.options.map((option, i) => `<button class="answer" data-answer="${i}"><span class="answer-key" aria-hidden="true">${i + 1}</span><span>${escape(option)}</span></button>`).join("")}</div>`;
   $("#question-content").innerHTML =
-    `<div class="quiz-score"><span>푼 문제 <strong>${count} / ${QUESTION_COUNT}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div><progress class="quiz-progress" value="${count}" max="${QUESTION_COUNT}" aria-label="푼 문제 수"></progress><div class="question-meta"><span>사물 ${index + 1} · ${escape(level.title)}</span><span class="reward-badge">${difficulty} · 정답 +2 GOLD / 오답 −1 GOLD</span></div><h3 id="question-prompt" class="question-prompt">${escape(question.prompt)}</h3>${answers}<div id="feedback" aria-live="polite" aria-atomic="true"></div>`;
+    `<div class="quiz-score"><span>푼 문제 <strong>${count} / ${capacity}</strong></span><span>남은 문제 <strong>${remainingQuestions(state)}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div><progress class="quiz-progress" value="${count}" max="${capacity}" aria-label="푼 문제 수"></progress><div class="question-meta"><span>사물 ${index + 1} · ${escape(level.title)}</span><span class="reward-badge">${difficulty} · 정답 +2 GOLD / 오답 −1 GOLD</span></div><h3 id="question-prompt" class="question-prompt">${escape(question.prompt)}</h3>${answers}<div id="feedback" aria-live="polite" aria-atomic="true"></div>`;
   if (state.feedback) {
     const answer = state.answers[index],
       correct = answer === question.answer;
@@ -431,7 +453,7 @@ function renderQuestion() {
     const cleared = score(state) >= PASS_SCORE;
     $("#feedback").className = `feedback ${correct ? "good" : "bad"}`;
     $("#feedback").innerHTML =
-      `<p><strong>${correct ? "정답이에요! +2 GOLD" : `아쉬워요. ${state.lastDelta} GOLD · 정답: ${escape(question.options[question.answer])}`}</strong><br>${escape(question.explanation)}</p>${cleared ? `<p class="instant-clear">${PASS_SCORE}개 정답! 남은 문제를 풀지 않아도 즉시 클리어예요.</p>` : ""}<button class="primary" id="continue-button">${cleared ? "단서로 다음 장소 찾기" : count === QUESTION_COUNT ? "스테이지 결과 보기" : "방으로 돌아가 다른 물건 고르기"}</button>`;
+      `<p><strong>${correct ? "정답이에요! +2 GOLD" : `아쉬워요. ${state.lastDelta} GOLD · 정답: ${escape(question.options[question.answer])}`}</strong><br>${escape(question.explanation)}</p>${cleared ? `<p class="instant-clear">${PASS_SCORE}개 정답! 남은 문제를 풀지 않아도 즉시 클리어예요.</p>` : ""}<button class="primary" id="continue-button">${cleared ? "단서로 다음 장소 찾기" : count === capacity ? "스테이지 결과 보기" : "방으로 돌아가 다른 물건 고르기"}</button>`;
     $("#continue-button").onclick = () => update(continueQuiz(state));
     return;
   }
@@ -439,7 +461,15 @@ function renderQuestion() {
     const result = answerQuestion(state, answer);
     if (result.accepted) {
       update(result.state, false);
-      $("#continue-button").focus({ preventScroll: true });
+      const nextPrompt =
+        result.state.phase === "rescue"
+          ? $("#rescue-heading")
+          : result.state.phase === "gameover"
+            ? $("#gameover-heading")
+            : $("#continue-button");
+      nextPrompt?.focus({
+        preventScroll: !["rescue", "gameover"].includes(result.state.phase),
+      });
     }
   };
   document
@@ -464,19 +494,43 @@ function renderQuestion() {
     $("#spelling").oninput = () => $("#spelling").setCustomValidity("");
   }
 }
-function renderResult() {
-  const correct = score(state),
-    passed = correct >= PASS_SCORE;
+function renderRescue() {
+  const question =
+    state.rescueSlot === null
+      ? null
+      : questionForObject(state, state.rescueSlot);
+  const explanation = question?.explanation
+    ? `<div class="rescue-explanation"><strong>직전 문제 해설</strong><p>${escape(question.explanation)}</p></div>`
+    : "";
   $("#challenge").innerHTML =
-    `<div class="stage-result ${passed ? "passed" : "retry"}"><p class="eyebrow">STAGE RESULT</p><h3>${passed ? "스테이지 통과!" : "새로운 문제로 다시 도전해요"}</h3><div class="result-score">${correct}<span> / ${QUESTION_COUNT}</span></div><p>${passed ? `${PASS_SCORE}개 정답! 단서로 다음 장소를 찾아요.` : `이번에는 ${correct}개를 맞혔어요. 직전 도전과 겹치지 않는 ${QUESTION_COUNT}문제로 다시 도전해요.`}</p><p class="intro">모은 GOLD와 물건, 단서는 유지돼요.</p><button id="result-button" class="primary">${passed ? "다음 장소 찾기" : "다른 문제로 재도전"}</button></div>`;
-  $("#result-button").onclick = () =>
-    update(passed ? openDestination(state) : retryStage(state));
+    `<section class="rescue-panel"><p class="eyebrow">LAST CHANCE</p><h3 id="rescue-heading" tabindex="-1">한 번 더 도전할까요?</h3>${companionMarkup("stage-companion-summary")} ${explanation}<p class="rescue-prompt">5 GOLD를 사용해서 한 문제를 더 풀 수 있습니다. 진행하겠습니까?</p><p class="rescue-balance">보유 GOLD <strong>${state.gold} GOLD</strong> · 남은 문제 <strong>${remainingQuestions(state)}</strong></p><div class="rescue-actions"><button id="rescue-accept" class="primary">YES</button><button id="rescue-decline">NO</button></div></section>`;
+  $("#rescue-accept").onclick = () => update(acceptExtraQuestion(state));
+  $("#rescue-decline").onclick = () => update(declineExtraQuestion(state));
 }
+function renderGameOver() {
+  const reason =
+    state.gameOverReason === "gold"
+      ? "GOLD가 부족해서 더 풀 수 없어요."
+      : "추가 문제를 풀지 않기로 했어요.";
+  const prompt = gameOverPromptDismissed
+    ? `<p class="gameover-followup">현재 진행은 그대로 보관했어요.</p><button id="restart-later" class="primary">나중에 다시 시작</button>`
+    : `<p class="gameover-prompt">다시 시작하겠습니까?</p><div class="gameover-actions"><button id="restart-yes" class="primary">YES</button><button id="restart-no">NO</button></div>`;
+  $("#challenge").innerHTML =
+    `<section class="gameover-panel"><p class="eyebrow">GAME OVER</p><h3 id="gameover-heading" tabindex="-1">GAME OVER</h3>${prompt}<p>${reason}</p><p class="gameover-progress">남은 문제 ${remainingQuestions(state)}</p>${companionMarkup("stage-companion-summary")}</section>`;
+  $("#restart-yes")?.addEventListener("click", () => update(freshState()));
+  $("#restart-no")?.addEventListener("click", () => {
+    gameOverPromptDismissed = true;
+    renderGame(false);
+  });
+  $("#restart-later")?.addEventListener("click", () => update(freshState()));
+}
+
 function renderDestination() {
   const level = curriculum(state.level + 1, state.characterId);
   const choices = destinationChoices(state);
+  const capacity = questionCapacity(state);
   $("#challenge").innerHTML =
-    `<div class="question-meta"><span>${score(state)} / ${QUESTION_COUNT} 정답 · 마지막 자물쇠 열림</span></div><h3 class="question-prompt">가방 속 단서가 가리키는 곳은?</h3><p>${chips(inventory(state).filter((item) => item.level === level.id))}</p><p class="destination-line">우리가 갈 곳은 <button class="blank-button" aria-expanded="false" aria-controls="word-box" id="blank-button">[ 빈칸 누르기 ]</button></p><div id="word-box" class="word-box" hidden><h3>장소 워드박스 · 목적지를 골라요</h3><div class="word-options">${choices.map((room, index) => `<button data-place="${index}" data-room-choice="${room.id}">${escape(room.name)}</button>`).join("")}</div></div><div id="feedback" aria-live="polite"></div>`;
+    `<div class="question-meta"><span>${score(state)} / ${capacity} 정답 · 마지막 자물쇠 열림</span></div><h3 class="question-prompt">가방 속 단서가 가리키는 곳은?</h3><p>${chips(inventory(state).filter((item) => item.level === level.id))}</p><p class="destination-line">우리가 갈 곳은 <button class="blank-button" aria-expanded="false" aria-controls="word-box" id="blank-button">[ 빈칸 누르기 ]</button></p><div id="word-box" class="word-box" hidden><h3>장소 워드박스 · 목적지를 골라요</h3><div class="word-options">${choices.map((room, index) => `<button data-place="${index}" data-room-choice="${room.id}">${escape(room.name)}</button>`).join("")}</div></div><div id="feedback" aria-live="polite"></div>`;
   $("#blank-button").onclick = () => {
     const box = $("#word-box");
     box.hidden = !box.hidden;
@@ -513,8 +567,14 @@ function renderShop(message = "") {
   const outfit = trial
     ? { ...state.equipped, [trial.category]: trial.id }
     : state.equipped;
+  const statusFor = (item) =>
+    state.equipped[item.category] === item.id
+      ? "착용 중"
+      : state.owned.includes(item.id)
+        ? "보유 중"
+        : "시험착용";
   $("#challenge").innerHTML =
-    `<section class="wizard-boutique"><div class="shop-heading"><div><p class="eyebrow">THE ENCHANTED WARDROBE</p><h3>${state.level + 1}단계 입장 전 · 마법 옷가게</h3></div><strong class="shop-balance">${state.gold} GOLD</strong></div><div class="fitting-room"><div class="fitting-mirror">${avatarMarkup(outfit, state.characterId, "neutral")}<span>${trial ? "시험착용 중 · " + escape(trial.name) : "현재 착용 모습"}</span></div><div class="fitting-actions"><p>시험착용은 무료예요. 구매를 확정할 때만 GOLD가 줄어들어요.</p>${trial ? `<strong>${escape(trial.name)} · ${trial.price} GOLD</strong><button id="buy-trial" class="primary">${state.owned.includes(trial.id) ? "이 모습으로 착용" : "구매 결정하기"}</button><button id="cancel-trial">시험착용 취소</button>` : ""}</div></div><div class="category-buttons" role="group" aria-label="옷가게 품목">${Object.entries(
+    `<section class="wizard-boutique"><div class="shop-heading"><div><p class="eyebrow">THE ENCHANTED WARDROBE</p><h3>${state.level + 1}단계 입장 전 · 마법 옷가게</h3></div><strong class="shop-balance">${state.gold} GOLD</strong></div><div class="shop-layout"><aside class="shop-fitting-column"><div class="fitting-room"><div class="fitting-mirror">${avatarMarkup(outfit, state.characterId, "neutral")}<span>${trial ? "시험착용 중 · " + escape(trial.name) : "현재 착용 모습"}</span></div></div></aside><div class="shop-catalog"><div class="category-buttons" role="group" aria-label="옷가게 품목">${Object.entries(
       categoryNames,
     )
       .map(
@@ -525,19 +585,19 @@ function renderShop(message = "") {
       .filter((item) => item.category === shopCategory && item.price > 0)
       .map(
         (item) =>
-          `<button class="shop-item" data-item="${item.id}" aria-label="${escape(item.name)} 시험착용"><span class="item-swatch" style="--item-color:${escape(item.color)}"></span><strong>${escape(item.name)}</strong><span>${state.equipped[item.category] === item.id ? "착용 중" : state.owned.includes(item.id) ? "보유 중" : item.price + " GOLD"}</span></button>`,
+          `<button class="shop-item${state.equipped[item.category] === item.id ? " equipped" : ""}" data-item="${item.id}" aria-label="${escape(item.name)} 시험착용"><img class="shop-item-image" src="assets/shop-items/${escape(item.id)}.webp" alt="${escape(item.name)}" loading="lazy" decoding="async"><span class="shop-item-copy"><strong>${escape(item.name)}</strong><span class="shop-item-price">${item.price} GOLD</span><span class="shop-item-state">${statusFor(item)}</span></span></button>`,
       )
       .join(
         "",
-      )}</div><p id="shop-message" class="shop-message" role="status">${escape(message || "사진으로 남기려면 구매·착용을 확정한 뒤 포토북을 열어 주세요.")}</p><button id="finish-customizing" class="primary">옷가게 나가기 · 스테이지 시작</button></section>`;
-  document.querySelectorAll("[data-category]").forEach(
+      )}</div><div class="fitting-actions"><p>시험착용은 무료예요. 구매를 확정할 때만 GOLD가 줄어들어요.</p>${trial ? `<strong>${escape(trial.name)} · ${trial.price} GOLD</strong><button id="buy-trial" class="primary">${state.owned.includes(trial.id) ? "이 모습으로 착용" : "구매 결정하기"}</button><button id="cancel-trial">시험착용 취소</button>` : ""}</div><p id="shop-message" class="shop-message" role="status">${escape(message || "사진으로 남기려면 구매·착용을 확정한 뒤 포토북을 열어 주세요.")}</p><button id="finish-customizing" class="primary">옷가게 나가기 · 스테이지 시작</button></div></div></section>`;
+  document.querySelectorAll(".category-buttons [data-category]").forEach(
     (button) =>
       (button.onclick = () => {
         shopCategory = button.dataset.category;
         renderShop();
       }),
   );
-  document.querySelectorAll("[data-item]").forEach(
+  document.querySelectorAll(".shop-items [data-item]").forEach(
     (button) =>
       (button.onclick = () => {
         trialItem = button.dataset.item;

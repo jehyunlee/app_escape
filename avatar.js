@@ -1,3 +1,5 @@
+import wardrobeCatalog from "./assets/wardrobe-catalog.json" with { type: "json" };
+
 const WARDROBE_CATEGORIES = Object.freeze([
   "hat",
   "necklace",
@@ -13,78 +15,60 @@ const WARDROBE_CATEGORIES = Object.freeze([
 export const categories = WARDROBE_CATEGORIES;
 export { WARDROBE_CATEGORIES };
 
-const item = (id, category, name, price, color) =>
-  Object.freeze({ id, category, name, price, color });
-
-const starterItems = WARDROBE_CATEGORIES.map((category) =>
-  item(`${category}-base`, category, "기본 장비", 0, "#6f6575"),
-);
-
-const paidItems = [
-  item("hat-sapphire", "hat", "사파이어 학자 모자 · 1 GOLD", 1, "#3155a6"),
-  item("hat-burgundy", "hat", "버건디 탐험 모자 · 10 GOLD", 10, "#8e304d"),
-  item("hat-emerald", "hat", "에메랄드 숲 모자 · 35 GOLD", 35, "#2e8267"),
-  item("hat-silver", "hat", "은빛 별모자 · 100 GOLD", 100, "#aabfe5"),
-
-  item("necklace-moon", "necklace", "초승달 목걸이 · 1 GOLD", 1, "#7ba4e8"),
-  item("necklace-star", "necklace", "별자리 목걸이 · 10 GOLD", 10, "#e6ba58"),
-  item(
-    "necklace-emerald",
-    "necklace",
-    "숲의 보석 목걸이 · 35 GOLD",
-    35,
-    "#45b982",
-  ),
-  item(
-    "necklace-pearl",
-    "necklace",
-    "달빛 진주 목걸이 · 100 GOLD",
-    100,
-    "#f1e6da",
-  ),
-
-  item("cloak-sapphire", "cloak", "사파이어 별망토 · 1 GOLD", 1, "#263d87"),
-  item("cloak-burgundy", "cloak", "버건디 여행망토 · 10 GOLD", 10, "#7d2944"),
-  item("cloak-emerald", "cloak", "에메랄드 숲망토 · 35 GOLD", 35, "#286c59"),
-  item("cloak-silver", "cloak", "은빛 서리망토 · 100 GOLD", 100, "#7692c8"),
-
-  item("wand-willow", "wand", "버드나무 지팡이 · 1 GOLD", 1, "#a96c3b"),
-  item("wand-crystal", "wand", "수정 지팡이 · 10 GOLD", 10, "#83b8ef"),
-  item("wand-ember", "wand", "불씨 지팡이 · 35 GOLD", 35, "#e47a43"),
-  item("wand-silver", "wand", "은빛 별지팡이 · 100 GOLD", 100, "#d9e6f7"),
-
-  item("broom-sky", "broom", "하늘바람 빗자루 · 1 GOLD", 1, "#77a9cf"),
-  item("broom-ember", "broom", "노을 빗자루 · 10 GOLD", 10, "#d26943"),
-  item("broom-jade", "broom", "비취 빗자루 · 35 GOLD", 35, "#3da47b"),
-  item("broom-lunar", "broom", "달빛 빗자루 · 100 GOLD", 100, "#b8c5e9"),
-
-  item("gloves-cream", "gloves", "크림색 마법 장갑 · 1 GOLD", 1, "#e8d2b4"),
-  item(
-    "gloves-burgundy",
-    "gloves",
-    "버건디 가죽 장갑 · 10 GOLD",
-    10,
-    "#8a3d4d",
-  ),
-  item("gloves-sapphire", "gloves", "사파이어 장갑 · 35 GOLD", 35, "#3b5fb1"),
-  item("gloves-emerald", "gloves", "에메랄드 장갑 · 100 GOLD", 100, "#33856a"),
-
-  item("pants-navy", "pants", "남빛 여행 바지 · 1 GOLD", 1, "#283d70"),
-  item("pants-burgundy", "pants", "버건디 승마 바지 · 10 GOLD", 10, "#713344"),
-  item("pants-forest", "pants", "숲빛 바지 · 35 GOLD", 35, "#315d4e"),
-  item("pants-silver", "pants", "은빛 별바지 · 100 GOLD", 100, "#7186aa"),
-
-  item("vest-gold", "vest", "황금 단추 조끼 · 1 GOLD", 1, "#b8873c"),
-  item("vest-silver", "vest", "은빛 학자 조끼 · 10 GOLD", 10, "#9aaac0"),
-  item("vest-teal", "vest", "청록 탐험 조끼 · 35 GOLD", 35, "#327e83"),
-  item(
-    "vest-burgundy",
-    "vest",
-    "버건디 사냥꾼 조끼 · 100 GOLD",
-    100,
-    "#813749",
-  ),
+if (!Array.isArray(wardrobeCatalog))
+  throw new TypeError("Wardrobe catalog must be an array of paid items");
+const catalogEntries = [
+  ...WARDROBE_CATEGORIES.map((category) => ({
+    id: `${category}-base`,
+    category,
+    name: "기본 장비",
+    price: 0,
+    color: "#6f6575",
+  })),
+  ...wardrobeCatalog,
 ];
+const normalizeCatalogEntry = (entry) => {
+  if (!entry || typeof entry !== "object")
+    throw new TypeError("Invalid wardrobe item");
+  const {
+    id,
+    category,
+    name,
+    price,
+    color,
+    quality,
+    description,
+    designPrompt,
+  } = entry;
+  if (
+    typeof id !== "string" ||
+    !WARDROBE_CATEGORIES.includes(category) ||
+    !Number.isSafeInteger(price) ||
+    typeof name !== "string" ||
+    typeof color !== "string"
+  )
+    throw new TypeError(`Invalid wardrobe item: ${String(id)}`);
+  return Object.freeze({
+    id,
+    category,
+    name,
+    price,
+    color,
+    ...(quality === undefined ? {} : { quality }),
+    ...(description === undefined ? {} : { description }),
+    ...(designPrompt === undefined ? {} : { designPrompt }),
+  });
+};
+const normalizedCatalog = catalogEntries.map(normalizeCatalogEntry);
+const starterItems = WARDROBE_CATEGORIES.map((category) => {
+  const starter = normalizedCatalog.find(
+    (entry) => entry.category === category && entry.price === 0,
+  );
+  if (!starter)
+    throw new TypeError(`Missing starter wardrobe item: ${category}`);
+  return starter;
+});
+const paidItems = normalizedCatalog.filter((entry) => entry.price > 0);
 
 /** Starter IDs are intentionally stable: engine saves persist these IDs. */
 export const STARTER_OUTFIT = Object.freeze(
@@ -225,12 +209,16 @@ export function avatarMarkup(
   const label = `${characterName} 마법사, ${moodLabel[safeMood]}`;
   const baseImage = assetHref(`${character}-${safeMood}.webp`);
   const instanceLabel = `${characterName} 생성 전신 일러스트`;
+  const customHat = customItems.get("hat");
+  const wornBaseImage = customHat
+    ? new URL(`${character}-${safeMood}-hatless.webp`, GARMENT_ASSET_ROOT).href
+    : baseImage;
   return `<svg class="avatar-art avatar-wizard avatar-mood-${escapeXml(safeMood)}" viewBox="0 0 512 1024" role="img" aria-label="${escapeXml(label)}" data-character="${escapeXml(character)}" data-mood="${escapeXml(safeMood)}" data-family-tool="${escapeXml(FAMILY_TOOLS[character])}" data-base-outfit="native-character-design" ${dataAttributes}>
   <title>${escapeXml(label)} · 기본 의상은 캐릭터 고유 디자인</title>
   <g class="avatar-pose" data-mood="${escapeXml(safeMood)}">
     ${GARMENT_RENDER_ORDER.map((layer) => {
       if (layer === "base") {
-        return `<image class="avatar-generated-base" data-layer="generated-art" href="${escapeXml(baseImage)}" x="0" y="0" width="512" height="1024" preserveAspectRatio="xMidYMid meet" aria-label="${escapeXml(instanceLabel)}" />`;
+        return `<image class="avatar-generated-base" data-layer="generated-art" data-original-art="${escapeXml(baseImage)}" href="${escapeXml(wornBaseImage)}" x="0" y="0" width="512" height="1024" preserveAspectRatio="xMidYMid meet" aria-label="${escapeXml(instanceLabel)}" />`;
       }
       const item = customItems.get(layer);
       return item ? garmentLayer(item, character, safeMood) : "";

@@ -1,13 +1,30 @@
 // Lives under assets/ so every static publisher ships it alongside the images.
 import catalog from "./assets/rooms-catalog.json" with { type: "json" };
+import facilityCatalog from "./assets/hogwarts-facilities.json" with { type: "json" };
 
 export const ROUTE_LENGTH = 10;
+export const facilities = Object.freeze(
+  facilityCatalog.map((facility) => Object.freeze(facility)),
+);
+const facilityById = new Map(
+  facilities.map((facility) => [facility.id, facility]),
+);
+for (const room of catalog) {
+  const facility = facilityById.get(room.facilityId);
+  if (
+    !facility ||
+    room.facilityName !== facility.name ||
+    room.scope !== facility.scope
+  ) {
+    throw new Error(`Room outside the Hogwarts facility catalog: ${room.id}`);
+  }
+}
 export const rooms = Object.freeze(
   catalog.map((room) =>
     Object.freeze({
       ...room,
       clues: Object.freeze([...room.clues]),
-      image: `assets/spaces/${room.id}.webp`,
+      image: `assets/hogwarts/${room.facilityId}.webp`,
     }),
   ),
 );
@@ -15,7 +32,8 @@ const byId = new Map(rooms.map((room) => [room.id, room]));
 export const EXIT_ROOM = Object.freeze({
   id: "castle-exit",
   name: "성 밖 정원",
-  description: "성 밖의 정원에 도착했어요. 모든 방을 탈출했어요!",
+  description: "호그와트 성외 부지의 정원에 도착했어요. 모든 방을 탈출했어요!",
+  scope: "grounds",
   themeId: 4,
   accent: "#b7d28b",
   clues: Object.freeze(["성벽 밖", "꽃밭", "탈출"]),
@@ -45,10 +63,15 @@ export function roomById(id) {
 export function makeRoute(seed) {
   if (!Number.isSafeInteger(seed) || seed < 0 || seed > 0xffffffff)
     throw new RangeError("Invalid route seed");
-  return shuffle(
-    rooms.map((room) => room.id),
-    randomFrom(seed ^ 0x23d4a761),
-  ).slice(0, ROUTE_LENGTH);
+  const facilities = new Set();
+  const route = [];
+  for (const room of shuffle(rooms, randomFrom(seed ^ 0x23d4a761))) {
+    if (facilities.has(room.facilityId)) continue;
+    facilities.add(room.facilityId);
+    route.push(room.id);
+    if (route.length === ROUTE_LENGTH) break;
+  }
+  return route;
 }
 export function validRoute(route) {
   return (
@@ -66,30 +89,14 @@ export function destinationRoom(state, stage = state.level) {
     ? roomById(state.route[stage + 1])
     : EXIT_ROOM;
 }
-const THEME_SETTING = Object.freeze({
-  1: "이 교실",
-  2: "이 온실",
-  3: "이 홀",
-  4: "이 숲길",
-  5: "이 탑",
-  6: "이 둥지",
-  7: "이 서고",
-  8: "이 관측소",
-  9: "이 통로",
-  10: "이 관문",
-});
 /**
  * Rooms are drawn in random order, so their own text never says where they
  * fall in the journey. This line adds that context from the actual stage.
  */
-// Pick the particle by whether the last Hangul syllable ends in a consonant.
-const particle = (word, withFinal, withoutFinal) =>
-  (word.charCodeAt(word.length - 1) - 0xac00) % 28 ? withFinal : withoutFinal;
 export function stageNarrative(state) {
-  const room = currentRoom(state);
-  const setting = THEME_SETTING[room.themeId];
-  const subject = setting + particle(setting, "이", "가");
-  const topic = setting + particle(setting, "은", "는");
+  const setting = "이곳";
+  const subject = "이곳이";
+  const topic = "이곳은";
   const remaining = ROUTE_LENGTH - state.level - 1;
   if (state.level === 0)
     return `${setting}에서 모험이 시작돼요. 첫 번째 자물쇠를 열면 다음 장소의 단서가 나타나요.`;
@@ -101,11 +108,15 @@ export function stageNarrative(state) {
 }
 export function destinationChoices(state) {
   const destination = destinationRoom(state);
+  const routeFacilities = new Set(
+    state.route.map((id) => roomById(id).facilityId),
+  );
   // Exclude the entire actual route from distractors: the word box cannot
   // accidentally disclose a later room. Different themes keep clues distinct.
   const candidates = rooms.filter(
     (room) =>
       !state.route.includes(room.id) &&
+      !routeFacilities.has(room.facilityId) &&
       room.id !== destination.id &&
       room.themeId !== destination.themeId &&
       !room.clues.some((clue) => destination.clues.includes(clue)),

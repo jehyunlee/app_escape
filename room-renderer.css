@@ -111,7 +111,14 @@
   background: #111b23cc;
   font-size: 10px;
   color: #f5e7cb;
-  white-space: nowrap;
+  width: max-content;
+  max-width: clamp(72px, 20vw, 110px);
+  white-space: normal;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
   pointer-events: none;
 }
 

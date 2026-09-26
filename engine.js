@@ -17,8 +17,8 @@ import {
   EXIT_ROOM,
 } from "./rooms.js";
 
-export const SAVE_VERSION = 7;
-export const SAVE_KEY = "headache-escape-v7";
+export const SAVE_VERSION = 8;
+export const SAVE_KEY = "headache-escape-v8";
 export const STARTER = STARTER_OUTFIT;
 export const INITIAL_GOLD = 3;
 const integer = (n, min = 0, max = Number.MAX_SAFE_INTEGER) =>
@@ -86,6 +86,9 @@ function enterStage(state, seenIds = [], shop = false) {
     lastDelta: 0,
     travel: null,
     clueTargets,
+    retiredQuestions: [],
+    rescueSlot: null,
+    gameOverReason: null,
   };
 }
 export function freshState(seed = randomSeed()) {
@@ -107,6 +110,7 @@ export function freshState(seed = randomSeed()) {
     gold: INITIAL_GOLD,
     earned: 0,
     lost: 0,
+    bonusSpent: 0,
     lastDelta: 0,
     owned: Object.values(STARTER),
     equipped: { ...STARTER },
@@ -115,6 +119,9 @@ export function freshState(seed = randomSeed()) {
     records: [],
     travel: null,
     photos: [],
+    retiredQuestions: [],
+    rescueSlot: null,
+    gameOverReason: null,
   };
 }
 export function chooseCharacter(state, id) {
@@ -123,7 +130,19 @@ export function chooseCharacter(state, id) {
     : state;
 }
 export function answeredCount(state) {
-  return state.answers.filter((answer) => answer !== null).length;
+  return (
+    state.answers.filter((answer) => answer !== null).length +
+    state.retiredQuestions.length
+  );
+}
+export function questionCapacity(state) {
+  return QUESTION_COUNT + state.retiredQuestions.length;
+}
+export function remainingQuestions(state) {
+  return state.answers.filter((answer) => answer === null).length;
+}
+export function canStillPass(state) {
+  return score(state) + remainingQuestions(state) >= PASS_SCORE;
 }
 export function questionForObject(state, index) {
   return integer(index, 0, QUESTION_COUNT - 1)
@@ -150,6 +169,7 @@ export function currentQuestion(state) {
 }
 export function avatarMood(state) {
   if (state.phase === "complete") return "happy";
+  if (state.phase === "rescue" || state.phase === "gameover") return "sad";
   if (state.feedback && state.selected !== null)
     return state.answers[state.selected] ===
       questionForObject(state, state.selected)?.answer
@@ -173,6 +193,7 @@ export function answerQuestion(state, answer) {
   const question = currentQuestion(state);
   if (!question || !integer(answer, -1, 3))
     return { state, accepted: false, correct: false, reward: 0 };
+  const selected = state.selected;
   const correct = answer === question.answer;
   const delta = correct ? 2 : state.gold > 0 ? -1 : 0;
   const next = {
@@ -185,13 +206,25 @@ export function answerQuestion(state, answer) {
     lastDelta: delta,
     clueCounts: [...state.clueCounts],
   };
-  next.answers[state.selected] = answer;
+  next.answers[selected] = answer;
   next.clueCounts[state.level] = Math.max(
     next.clueCounts[state.level],
     earnedClues(score(next)),
   );
-  if (score(next) >= PASS_SCORE || answeredCount(next) === QUESTION_COUNT)
+  if (score(next) >= PASS_SCORE) {
     next.phase = "result";
+  } else if (!canStillPass(next)) {
+    next.selected = null;
+    next.feedback = false;
+    if (next.gold >= 5) {
+      next.phase = "rescue";
+      next.rescueSlot = selected;
+    } else {
+      next.phase = "gameover";
+      next.rescueSlot = null;
+      next.gameOverReason = "gold";
+    }
+  }
   return { state: next, accepted: true, correct, reward: delta };
 }
 export function continueQuiz(state) {
@@ -200,36 +233,77 @@ export function continueQuiz(state) {
     ...state,
     selected: null,
     feedback: false,
-    phase:
-      score(state) >= PASS_SCORE
-        ? "destination"
-        : answeredCount(state) === QUESTION_COUNT
-          ? "result"
-          : "quiz",
+    phase: score(state) >= PASS_SCORE ? "destination" : "quiz",
   };
 }
 export function closeQuestion(state) {
   if (!state.feedback && state.phase !== "quiz") return state;
   return state.feedback ? continueQuiz(state) : { ...state, selected: null };
 }
-export function retryStage(state) {
-  if (state.phase !== "result" || state.feedback || score(state) >= PASS_SCORE)
-    return state;
-  let seen = [...state.seenIds, ...state.deckIds];
-  if (
-    questionPool(state.level + 1, state.characterId).length - seen.length <
-    QUESTION_COUNT
-  )
-    seen = [...state.deckIds];
-  return enterStage({ ...state, attempt: state.attempt + 1 }, seen);
+function extraQuestionId(state, bonusSpent) {
+  const current = new Set(state.deckIds);
+  const retired = new Set(state.retiredQuestions.map(({ id }) => id));
+  const seen = new Set(state.seenIds);
+  const pool = questionPool(state.level + 1, state.characterId);
+  let candidates = pool
+    .map((question) => question.id)
+    .filter((id) => !current.has(id) && !retired.has(id) && !seen.has(id));
+  if (!candidates.length)
+    candidates = pool
+      .map((question) => question.id)
+      .filter((id) => !current.has(id));
+  if (!candidates.length) return null;
+  const random = rng((state.seed + bonusSpent) >>> 0);
+  return candidates[Math.floor(random() * candidates.length)];
 }
-export function openDestination(state) {
-  return state.phase === "result" &&
-    !state.feedback &&
-    score(state) >= PASS_SCORE
-    ? { ...state, phase: "destination" }
+export function acceptExtraQuestion(state) {
+  const slot = state.rescueSlot;
+  if (
+    state.phase !== "rescue" ||
+    !integer(slot, 0, QUESTION_COUNT - 1) ||
+    state.answers[slot] === null ||
+    state.answers[slot] === questionForObject(state, slot)?.answer ||
+    canStillPass(state) ||
+    state.gold < 5
+  )
+    return state;
+  const id = extraQuestionId(state, state.bonusSpent + 5);
+  if (!id) return state;
+  const retiredQuestions = [
+    ...state.retiredQuestions,
+    { id: state.deckIds[slot], answer: state.answers[slot] },
+  ];
+  const deckIds = [...state.deckIds];
+  deckIds[slot] = id;
+  const answers = [...state.answers];
+  answers[slot] = null;
+  return {
+    ...state,
+    deckIds,
+    answers,
+    retiredQuestions,
+    bonusSpent: state.bonusSpent + 5,
+    gold: state.gold - 5,
+    selected: null,
+    feedback: false,
+    phase: "quiz",
+    rescueSlot: null,
+    gameOverReason: null,
+  };
+}
+export function declineExtraQuestion(state) {
+  return state.phase === "rescue"
+    ? {
+        ...state,
+        phase: "gameover",
+        selected: null,
+        feedback: false,
+        rescueSlot: null,
+        gameOverReason: "declined",
+      }
     : state;
 }
+
 export function chooseDestination(state, id) {
   if (
     state.phase !== "destination" ||
@@ -390,6 +464,7 @@ export function restoreState(raw) {
     const v = JSON.parse(raw);
     if (
       !v ||
+      typeof v !== "object" ||
       v.version !== SAVE_VERSION ||
       !integer(v.seed, 0, 0xffffffff) ||
       !validRoute(v.route) ||
@@ -404,12 +479,28 @@ export function restoreState(raw) {
         "travel",
         "shop",
         "complete",
+        "rescue",
+        "gameover",
       ].includes(v.phase) ||
+      !(v.characterId === null || typeof v.characterId === "string") ||
       typeof v.feedback !== "boolean" ||
       !(v.selected === null || integer(v.selected, 0, QUESTION_COUNT - 1)) ||
       !Array.isArray(v.answers) ||
       v.answers.length !== QUESTION_COUNT ||
-      !v.answers.every((a) => a === null || integer(a, -1, 3))
+      !v.answers.every((a) => a === null || integer(a, -1, 3)) ||
+      !Array.isArray(v.retiredQuestions) ||
+      !v.retiredQuestions.every(
+        (question) =>
+          question &&
+          typeof question === "object" &&
+          Object.keys(question).length === 2 &&
+          typeof question.id === "string" &&
+          integer(question.answer, -1, 3),
+      ) ||
+      !(
+        v.rescueSlot === null || integer(v.rescueSlot, 0, QUESTION_COUNT - 1)
+      ) ||
+      ![null, "declined", "gold"].includes(v.gameOverReason)
     )
       return freshState();
     for (const key of ["deckIds", "seenIds", "owned"])
@@ -426,7 +517,9 @@ export function restoreState(raw) {
     )
       return freshState();
     if (
-      ![v.gold, v.earned, v.lost].every((n) => integer(n)) ||
+      ![v.gold, v.earned, v.lost, v.bonusSpent].every((n) => integer(n)) ||
+      v.bonusSpent % 5 !== 0 ||
+      v.retiredQuestions.length * 5 > v.bonusSpent ||
       ![2, 0, -1].includes(v.lastDelta)
     )
       return freshState();
@@ -434,7 +527,7 @@ export function restoreState(raw) {
       (sum, id) => sum + catalog.find((item) => item.id === id).price,
       0,
     );
-    if (v.gold + spent + v.lost !== INITIAL_GOLD + v.earned)
+    if (v.gold + spent + v.lost + v.bonusSpent !== INITIAL_GOLD + v.earned)
       return freshState();
     if (
       !Array.isArray(v.clueCounts) ||
@@ -452,7 +545,7 @@ export function restoreState(raw) {
         (r, i) =>
           r &&
           integer(r.score, PASS_SCORE, PASS_SCORE) &&
-          integer(r.answered, PASS_SCORE, QUESTION_COUNT) &&
+          integer(r.answered, PASS_SCORE, QUESTION_COUNT + v.bonusSpent / 5) &&
           integer(r.attempt) &&
           r.roomId === v.route[i],
       )
@@ -472,22 +565,61 @@ export function restoreState(raw) {
         v.selected !== null ||
         v.earned ||
         v.lost ||
+        v.bonusSpent ||
         v.gold !== 3 ||
         v.records.length ||
-        v.clueCounts.some(Boolean)
+        v.clueCounts.some(Boolean) ||
+        v.retiredQuestions.length ||
+        v.rescueSlot !== null ||
+        v.gameOverReason !== null
       )
         return freshState();
     } else {
       if (
         !characterExists(v.characterId) ||
         v.deckIds.length !== QUESTION_COUNT ||
-        ![...v.deckIds, ...v.seenIds].every((id) =>
-          questionById(v.level + 1, id, v.characterId),
-        ) ||
+        ![
+          ...v.deckIds,
+          ...v.seenIds,
+          ...v.retiredQuestions.map((q) => q.id),
+        ].every((id) => questionById(v.level + 1, id, v.characterId)) ||
+        new Set(v.deckIds).size !== v.deckIds.length ||
         v.seenIds.some((id) => v.deckIds.includes(id)) ||
+        v.retiredQuestions.some(
+          (question) =>
+            question.answer ===
+            questionById(v.level + 1, question.id, v.characterId).answer,
+        ) ||
         correct > PASS_SCORE
       )
         return freshState();
+      if (v.phase === "rescue") {
+        if (
+          v.feedback ||
+          v.selected !== null ||
+          v.rescueSlot === null ||
+          v.gameOverReason !== null ||
+          v.answers[v.rescueSlot] === null ||
+          v.answers[v.rescueSlot] ===
+            questionForObject(v, v.rescueSlot)?.answer ||
+          v.gold < 5 ||
+          canStillPass(v)
+        )
+          return freshState();
+      } else if (v.phase === "gameover") {
+        if (
+          v.feedback ||
+          v.selected !== null ||
+          v.rescueSlot !== null ||
+          !["declined", "gold"].includes(v.gameOverReason) ||
+          (v.gameOverReason === "gold" && v.gold >= 5) ||
+          (v.gameOverReason === "declined" && v.gold < 5) ||
+          canStillPass(v)
+        )
+          return freshState();
+      } else if (v.rescueSlot !== null || v.gameOverReason !== null) {
+        return freshState();
+      }
       if (v.feedback) {
         if (
           !["quiz", "result"].includes(v.phase) ||
@@ -495,21 +627,19 @@ export function restoreState(raw) {
           v.answers[v.selected] === null
         )
           return freshState();
-      } else if (v.phase !== "quiz" && v.selected !== null) return freshState();
+      } else if (v.phase !== "quiz" && v.selected !== null) {
+        return freshState();
+      }
+      if (v.phase === "quiz" && correct >= PASS_SCORE) return freshState();
       if (
         v.phase === "quiz" &&
-        (correct >= PASS_SCORE ||
-          count === QUESTION_COUNT ||
-          (!v.feedback &&
-            v.selected !== null &&
-            v.answers[v.selected] !== null))
+        !v.feedback &&
+        v.selected !== null &&
+        v.answers[v.selected] !== null
       )
         return freshState();
-      if (
-        v.phase === "result" &&
-        correct < PASS_SCORE &&
-        count !== QUESTION_COUNT
-      )
+      if (v.phase === "quiz" && !canStillPass(v)) return freshState();
+      if (v.phase === "result" && (correct !== PASS_SCORE || !v.feedback))
         return freshState();
       if (
         ["destination", "departure", "travel", "complete"].includes(v.phase) &&
@@ -537,6 +667,7 @@ export function restoreState(raw) {
     if (["departure", "travel"].includes(v.phase)) {
       if (
         !v.travel ||
+        typeof v.travel !== "object" ||
         !["carriage", "whirlwind"].includes(v.travel.mode) ||
         v.travel.expectedId !== destinationRoom(v).id ||
         !destinationChoices(v).some(

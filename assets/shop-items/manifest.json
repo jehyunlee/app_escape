@@ -1,0 +1,1432 @@
+{
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "background": "transparent",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "panelSize": [
+    512,
+    1024
+  ],
+  "thumbnailSize": [
+    384,
+    384
+  ],
+  "padding": 0.12,
+  "apiCalls": 32,
+  "generatedAt": "2026-09-26T06:57:15.321404+00:00",
+  "groups": [
+    {
+      "id": "hat-01-03",
+      "category": "hat",
+      "items": [
+        "hat-01",
+        "hat-02",
+        "hat-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/hat-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied hat design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, hat-01, basic tier, #6f6258: A floppy, asymmetrical wizard cap made from coarse brown wool felt, with a collapsed crown, one patched brim and a single loose stitch at the tip; plain worn construction.\nMIDDLE panel, hat-02, basic tier, #755d48: A compact foldable travel hat with two visible creases in a low canvas crown, a rolled narrow brim and a worn leather tie; practical, plain, and visibly different from a pointed cap.\nRIGHT panel, hat-03, standard tier, #4b6870: A short round wizard hat with a squat domed crown, stiff circular brim and contrasting cotton binding under the edge; tailored wool construction with no tall point.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "hat-04-06",
+      "category": "hat",
+      "items": [
+        "hat-04",
+        "hat-05",
+        "hat-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/hat-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied hat design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, hat-04, standard tier, #566b4b: A wide flat-brim field hat with a very low crown, rough green linen, a braided hemp edge and a plain cloth band; broad silhouette unlike every narrow hat.\nMIDDLE panel, hat-05, fine tier, #513d6d: A very tall, narrow conical wizard hat with a straight sharp tip, violet felt panels and one weathered silver-thread band; elegant vertical silhouette, not floppy or broad.\nRIGHT panel, hat-06, fine tier, #8a633f: A side-folded leather hat with one sharply turned-up brim corner, a stitched ochre crown and one small crow feather tucked under the band; clear angular profile.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "hat-07-09",
+      "category": "hat",
+      "items": [
+        "hat-07",
+        "hat-08",
+        "hat-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/hat-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied hat design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, hat-07, fine tier, #315d73: A winged-brim wizard hat whose two brim sides lift like small wings, built from teal cloth with exposed brass rivets and a split crown seam; dramatic lateral silhouette.\nMIDDLE panel, hat-08, masterwork tier, #263b4e: A tall pleated top-hat silhouette with a cylindrical navy velvet crown, deep vertical folds, a narrow metal rim and a flat brim; structured and formal.\nRIGHT panel, hat-09, masterwork tier, #a27a3f: A wrapped turban-like wizard hat with a coiled golden textile crown, crescent hairpin and embroidered tie, creating a rounded layered silhouette rather than a cone.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "hat-10-12",
+      "category": "hat",
+      "items": [
+        "hat-10",
+        "hat-11",
+        "hat-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/hat-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied hat design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, hat-10, masterwork tier, #184e56: An elongated curling silk wizard cap with a dramatically hooked tip ending in an amber jewel, dense gold embroidery and a sculpted crescent brim; luxurious curved silhouette.\nMIDDLE panel, hat-11, masterwork tier, #382754: A regal pointed crown hat with a broad scalloped brim, purple brocade, constellations embroidered in silver thread and a ring of tiny pearls; elaborate but still a single hat.\nRIGHT panel, hat-12, masterwork tier, #234c83: A masterwork crown hat with layered fan-shaped blue silk panels, a large sapphire centerpiece and a sweeping fan of feathers behind one side; highly distinctive architectural silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "necklace-01-03",
+      "category": "necklace",
+      "items": [
+        "necklace-01",
+        "necklace-02",
+        "necklace-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/necklace-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied necklace design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, necklace-01, basic tier, #745d45: A simple short necklace made from rough hemp cord with one flat carved wooden knot pendant, visibly handmade and matte, with no other charms.\nMIDDLE panel, necklace-02, basic tier, #545c66: A chunky necklace of irregular matte iron oval links ending in one tiny antique key pendant; utilitarian chain construction with a completely different silhouette from a bead strand.\nRIGHT panel, necklace-03, standard tier, #815438: A medium-length brown leather cord necklace carrying a single flat shield-shaped brass plate with two punched holes; clean geometric pendant and visible leather weave.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "necklace-04-06",
+      "category": "necklace",
+      "items": [
+        "necklace-04",
+        "necklace-05",
+        "necklace-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/necklace-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied necklace design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, necklace-04, standard tier, #4d92a8: A delicate necklace with a single translucent blue teardrop glass pendant held in a spiral silver wire cage, on a fine chain; the pendant is long and vertical.\nMIDDLE panel, necklace-05, fine tier, #7d6aaf: A geometric necklace of three separate violet triangular crystal pendants linked along a thin pale-metal chain, forming a shallow angular arc instead of one central gem.\nRIGHT panel, necklace-06, fine tier, #b1a66f: A brass crescent pendant with a saw-tooth edge, suspended from alternating tiny black beads and brass links; crescent silhouette and industrial ornament are unmistakable.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "necklace-07-09",
+      "category": "necklace",
+      "items": [
+        "necklace-07",
+        "necklace-08",
+        "necklace-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/necklace-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied necklace design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, necklace-07, fine tier, #83684e: A statement necklace with three overlapping bronze feather-shaped pendants fanning outward from a wide collar chain; each feather has etched barbs and a separate outline.\nMIDDLE panel, necklace-08, masterwork tier, #374c79: A navy ribbon choker with five tiny silver star charms connected by fine arcs of chain, arranged like a constellation across the collar; textile ribbon is prominent.\nRIGHT panel, necklace-09, masterwork tier, #8b3244: A luxurious double-tier gold chain necklace carrying graduated ruby teardrops, with the longest gem centered low on the chest; layered cascade construction.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "necklace-10-12",
+      "category": "necklace",
+      "items": [
+        "necklace-10",
+        "necklace-11",
+        "necklace-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/necklace-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied necklace design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, necklace-10, masterwork tier, #267b78: A broad articulated collar necklace with a large pentagonal jade centerpiece, gold filigree scrollwork and five linked metal plates; a rigid collar silhouette, not a hanging chain.\nMIDDLE panel, necklace-11, masterwork tier, #e7d9c2: An elegant pearl-and-silver necklace with two crossing chain strands, a crescent moon centerpiece and small pearl drops distributed asymmetrically; refined layered construction.\nRIGHT panel, necklace-12, masterwork tier, #bd873d: A masterwork necklace centered on a large amber gem inside an open gold sun wheel, surrounded by radiating filigree rays and tiny jewel settings; bold circular silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "cloak-01-03",
+      "category": "cloak",
+      "items": [
+        "cloak-01",
+        "cloak-02",
+        "cloak-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/cloak-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied cloak design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, cloak-01, basic tier, #5e5455: A short one-shoulder cloak made from coarse grey wool, fastened by a single wooden toggle, with a raw uneven hem and visible patch; unmistakable asymmetrical poncho shape.\nMIDDLE panel, cloak-02, basic tier, #75604c: A plain square-cut poncho cloak in brown canvas with a centered neck opening, tiny front pocket and straight fringe hem; boxy silhouette with no sleeves.\nRIGHT panel, cloak-03, standard tier, #385a66: A short hooded travel cloak with a deep attached hood, straight shoulder seam, knee-high hem and simple cord closure; compact tailored wool silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "cloak-04-06",
+      "category": "cloak",
+      "items": [
+        "cloak-04",
+        "cloak-05",
+        "cloak-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/cloak-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied cloak design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, cloak-04, standard tier, #59644d: A mid-length olive linen cloak with a full center-front opening, two leather buckle closures and stitched vertical pleats; practical split-front construction.\nMIDDLE panel, cloak-05, fine tier, #423e63: A long violet hooded cloak with an oversized pointed hood, broad shoulder cape and a narrow faux-feather collar trim; dramatic hood-and-shoulder silhouette.\nRIGHT panel, cloak-06, fine tier, #7d4d45: An asymmetrical rust cloak with a diagonal front overlap from left hip to right shoulder, layered leather-and-cloth panels and three side buckles; strong slanted construction.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "cloak-07-09",
+      "category": "cloak",
+      "items": [
+        "cloak-07",
+        "cloak-08",
+        "cloak-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/cloak-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied cloak design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, cloak-07, fine tier, #405461: A full storm cloak in deep blue wool with an oversized plush fur collar, deep back box pleats and a sweeping circular hem; heavy rounded outer silhouette.\nMIDDLE panel, cloak-08, masterwork tier, #596875: A structured travel cloak with two layered leather shoulder plates, brass buckles, a high collar and a split back hem over blue-grey cloth; armor-like shoulder architecture.\nRIGHT panel, cloak-09, masterwork tier, #7c3047: A luxurious crimson velvet cloak with a sweeping semicircular train, silver star embroidery across the shoulders and a glimpse of gold lining; rich formal silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "cloak-10-12",
+      "category": "cloak",
+      "items": [
+        "cloak-10",
+        "cloak-11",
+        "cloak-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/cloak-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied cloak design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, cloak-10, masterwork tier, #697f9f: A masterwork asymmetric silk cloak with one cropped hip-length side and one ankle-length side, articulated silver clasp and fine silver piping; extreme length contrast.\nMIDDLE panel, cloak-11, masterwork tier, #286c61: An elaborate teal brocade cloak with wide embroidered shoulder epaulettes, emerald jewel clasps, a high split collar and swirling gold embroidery; regal fitted mantle silhouette.\nRIGHT panel, cloak-12, masterwork tier, #252c5d: A masterwork full-length midnight cloak with a sculpted crescent shoulder yoke, articulated silver shoulder plates, jeweled clasp and dense constellation embroidery flowing to a pointed train.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "wand-01-03",
+      "category": "wand",
+      "items": [
+        "wand-01",
+        "wand-02",
+        "wand-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/wand-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied wand design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, wand-01, basic tier, #6d523b: A very plain short wand made from a dry uneven twig, with two natural knots and a frayed hemp grip wrap; rough organic silhouette and no ornament.\nMIDDLE panel, wand-02, basic tier, #805b3a: A sturdy oak wand with three prominent knobby growths, a blunt tapered tip and a simple faceted grip; practical wood construction with a chunky profile.\nRIGHT panel, wand-03, standard tier, #9b7d5b: A gently curved birch wand with pale bark, one elegant bend along its shaft and crossed black thread bindings at the handle; clear curved silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "wand-04-06",
+      "category": "wand",
+      "items": [
+        "wand-04",
+        "wand-05",
+        "wand-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/wand-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied wand design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, wand-04, standard tier, #4f6c63: A medium straight teal-stained wooden wand with a separately wrapped brown leather handle, one small brass ring and a clean pointed tip; two-material construction.\nMIDDLE panel, wand-05, fine tier, #d0c7aa: A wand with a carved ivory bone-shaped handle joined to a dark wood shaft by fine copper wire, ending in a narrow needle tip; unmistakable bone grip.\nRIGHT panel, wand-06, fine tier, #6c4b65: A purple wood wand carved with a deep spiral groove running the full shaft, splitting into three small prongs at the handle; sculptural helix silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "wand-07-09",
+      "category": "wand",
+      "items": [
+        "wand-07",
+        "wand-08",
+        "wand-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/wand-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied wand design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, wand-07, fine tier, #536d88: A dramatic curved wand whose shaft sweeps into a crescent-ring handle, built from blue-grey wood with visible silver rivets and a sharply tapered tip.\nMIDDLE panel, wand-08, masterwork tier, #7b9bca: A faceted crystal wand with a large octagonal blue crystal handle set into a dark metal shaft, with a short angular pommel; hard geometric construction.\nRIGHT panel, wand-09, masterwork tier, #ae7d3f: A mechanical wand with two nested brass gear discs around a dark wooden shaft, a small ruby in the center and a squared grip; precise industrial silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "wand-10-12",
+      "category": "wand",
+      "items": [
+        "wand-10",
+        "wand-11",
+        "wand-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/wand-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied wand design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, wand-10, masterwork tier, #3d7c75: A masterwork wand with overlapping teal dragon-scale metal plates forming a broad grip, connected to a gently curved silver shaft and a faceted cap.\nMIDDLE panel, wand-11, masterwork tier, #4b3977: An ornate ebony wand with gold constellation inlay along the shaft, a floating-looking star orb in the handle and a jewel-faceted tip; rich celestial decoration.\nRIGHT panel, wand-12, masterwork tier, #bf8b3e: A masterwork wand with an open gold sun-wheel handle enclosing a glowing amber gem, a redwood shaft wrapped in delicate gold filigree and a multi-faceted crown tip.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "broom-01-03",
+      "category": "broom",
+      "items": [
+        "broom-01",
+        "broom-02",
+        "broom-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/broom-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied broom design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, broom-01, basic tier, #765e43: A very short broom with a stubby straight birch handle and a small coarse bundle of straw bristles tied by rough hemp; humble compact silhouette.\nMIDDLE panel, broom-02, basic tier, #895b39: A short broom with a noticeably bent wooden handle, a single offset bundle of stiff straw bristles and a plain leather binding; lopsided silhouette.\nRIGHT panel, broom-03, standard tier, #657c5c: A traditional long-handled farm broom with a straight green-painted shaft and a broad flat fan of straw bristles held by one rusty iron ring; wide bottom silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "broom-04-06",
+      "category": "broom",
+      "items": [
+        "broom-04",
+        "broom-05",
+        "broom-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/broom-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied broom design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, broom-04, standard tier, #4d6f88: A broom with a long blue handle that forks into two separate short bristle bundles, each tied with a different leather strap; unmistakable split-tail construction.\nMIDDLE panel, broom-05, fine tier, #704e43: A sleek riding broom with a slim reddish shaft, a long swept-back tapered bristle tail, leather hand loop and small metal foot rest; aerodynamic profile.\nRIGHT panel, broom-06, fine tier, #3c806c: A distinctive broom with a triangular green metal frame at the tail supporting three splayed bundles of bristles, attached to a straight wooden shaft; geometric fan shape.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "broom-07-09",
+      "category": "broom",
+      "items": [
+        "broom-07",
+        "broom-08",
+        "broom-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/broom-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied broom design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, broom-07, fine tier, #b17b47: A medium broom whose golden fiber bristles spread in a broad semicircular fan, with two stacked brass rings at the handle joint and a warm wood shaft.\nMIDDLE panel, broom-08, masterwork tier, #4e608e: A high-performance sports broom with a long navy composite handle, a streamlined broad swept bristle tail, silver guard bands and a small aerodynamic fin; athletic silhouette.\nRIGHT panel, broom-09, masterwork tier, #6c4f78: A luxury broom with a purple handle curling upward into a hook, a crescent-shaped metal bristle frame and layered violet fibers; curved moon silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "broom-10-12",
+      "category": "broom",
+      "items": [
+        "broom-10",
+        "broom-11",
+        "broom-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/broom-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied broom design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, broom-10, masterwork tier, #b57d32: An elaborate broom with a brass fork-shaped tail holding six radial bristle bundles, a wrapped leather grip and engraved brass collars; unmistakable radial construction.\nMIDDLE panel, broom-11, masterwork tier, #367f84: A masterwork broom with a teal metal shaft and two articulated wing-like side frames supporting layered silver bristles, plus engraved cuffs and a jewel pivot.\nRIGHT panel, broom-12, masterwork tier, #354276: A masterwork comet broom with a midnight-blue tapered handle, gold filigree rings and a long multi-layered silver bristle tail that fans like a comet, with sapphire pivot jewel.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "gloves-01-03",
+      "category": "gloves",
+      "items": [
+        "gloves-01",
+        "gloves-02",
+        "gloves-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/gloves-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied gloves design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, gloves-01, basic tier, #6f6258: A matching pair of rough brown leather fingerless gloves with frayed knuckle openings, uneven stitching and loose wrist ties; visibly worn and plain.\nMIDDLE panel, gloves-02, basic tier, #4e6170: A pair of short canvas gloves with open fingertips, blue-grey backs, narrow wrist bands and clearly separated finger seams; compact practical silhouette.\nRIGHT panel, gloves-03, standard tier, #80563e: A pair of mid-length brown leather half-gloves covering the palm and back while leaving fingertips exposed, each secured by one small brass buckle.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "gloves-04-06",
+      "category": "gloves",
+      "items": [
+        "gloves-04",
+        "gloves-05",
+        "gloves-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/gloves-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied gloves design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, gloves-04, standard tier, #788b68: A pair of full-finger knitted gloves extending to mid-forearm, olive ribbed cuffs and visible woven loops; soft textile silhouette unlike leather gloves.\nMIDDLE panel, gloves-05, fine tier, #5f5185: A pair of fitted purple leather gloves with full fingers, three layered wrist straps and silver seam piping; tailored magical workwear.\nRIGHT panel, gloves-06, fine tier, #3f6580: A pair of long blue leather gauntlet gloves reaching the elbows, with articulated elbow pleats, side adjustment buckles and narrow fingers; strong elongated silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "gloves-07-09",
+      "category": "gloves",
+      "items": [
+        "gloves-07",
+        "gloves-08",
+        "gloves-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/gloves-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied gloves design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, gloves-07, fine tier, #9a8050: A pair of leather gloves with overlapping small brass plates across the backs of hands and fingers, broad wrist cuffs and visible articulated joints; light armor construction.\nMIDDLE panel, gloves-08, masterwork tier, #3c7f79: A pair of elegant teal velvet gloves with gold embroidery tracing each finger and one jade cabochon set into each cuff; refined fitted shape.\nRIGHT panel, gloves-09, masterwork tier, #73423d: A pair of burgundy hunter gloves with long overlapping forearm lacing and small claw-shaped metal caps on the knuckles; rugged tapered gauntlet profile.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "gloves-10-12",
+      "category": "gloves",
+      "items": [
+        "gloves-10",
+        "gloves-11",
+        "gloves-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/gloves-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied gloves design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, gloves-10, masterwork tier, #8496ae: A masterwork pair of silver-grey silk gloves with fine silver filigree embroidered along every finger and articulated metal wrist rings; sleek formal silhouette.\nMIDDLE panel, gloves-11, masterwork tier, #b7893e: A luxurious pair of cream leather gloves ending in wide engraved gold cuffs, each cuff set with a ruby button and pierced scrollwork; bold cuff silhouette.\nRIGHT panel, gloves-12, masterwork tier, #304674: A masterwork pair of midnight gloves with very long articulated forearm sleeves, constellation embroidery, sapphire studs and gold-edged cuffs; theatrical layered gauntlet form.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "pants-01-03",
+      "category": "pants",
+      "items": [
+        "pants-01",
+        "pants-02",
+        "pants-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/pants-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied pants design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, pants-01, basic tier, #5d5a59: A plain pair of very wide-leg trousers in coarse grey cloth, with a patched knee, rough waistband and uneven hem; visibly worn and roomy silhouette.\nMIDDLE panel, pants-02, basic tier, #6c5a4d: A straight-leg pair of brown canvas travel trousers with a drawstring waist, two flat patch pockets and simple ankle hems; clean utilitarian cut.\nRIGHT panel, pants-03, standard tier, #3f6370: A pair of blue-grey wool trousers with tapered legs ending above the ankle in wide turned cuffs secured by brass buttons; distinctive cropped silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "pants-04-06",
+      "category": "pants",
+      "items": [
+        "pants-04",
+        "pants-05",
+        "pants-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/pants-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied pants design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, pants-04, standard tier, #56684f: A pair of olive riding trousers with full hips, dramatically tapered calves, side waist lacing and reinforced knee panels; equestrian silhouette.\nMIDDLE panel, pants-05, fine tier, #64548a: A pair of wide-leg violet trousers with four deep front pleats, a flat waistband and flowing tailored fabric; generous palazzo silhouette.\nRIGHT panel, pants-06, fine tier, #784c43: A pair of rust trousers with a straight base cut and one dramatic asymmetric wrap panel crossing the left thigh, held by leather ties; layered diagonal construction.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "pants-07-09",
+      "category": "pants",
+      "items": [
+        "pants-07",
+        "pants-08",
+        "pants-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/pants-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied pants design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, pants-07, fine tier, #315c61: A pair of fitted teal trousers combining cloth and leather panels, with articulated knee seams and adjustable strap bands; composite tailored construction.\nMIDDLE panel, pants-08, masterwork tier, #506783: A pair of navy formal trousers with two vertical rows of polished metal buttons down the outer legs, narrow ankle straps and a sharp crease.\nRIGHT panel, pants-09, masterwork tier, #7b3e50: A pair of burgundy trousers under two short layered overskirt panels, front and back split for movement, edged with gold thread; unmistakable layered silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "pants-10-12",
+      "category": "pants",
+      "items": [
+        "pants-10",
+        "pants-11",
+        "pants-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/pants-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied pants design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, pants-10, masterwork tier, #6d7f9d: A masterwork pair of slim silver-blue brocade trousers with silver constellation embroidery on one leg, jeweled belt loops and sharply tailored crease.\nMIDDLE panel, pants-11, masterwork tier, #9b553e: A luxurious pair of layered russet silk trousers with sculpted pleats widening below the knee, ruby buckle and delicate side filigree; sculptural drape.\nRIGHT panel, pants-12, masterwork tier, #263e64: A masterwork pair of midnight velvet trousers with fitted legs, long split tailcoat-like panels at the back, gold embroidery and jeweled buttons; formal tail silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "vest-01-03",
+      "category": "vest",
+      "items": [
+        "vest-01",
+        "vest-02",
+        "vest-03"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/vest-01-03.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied vest design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, vest-01, basic tier, #665a54: A plain rough grey vest with two square front panels, a shallow V neck, three mismatched wooden buttons and frayed armholes; visibly patched construction.\nMIDDLE panel, vest-02, basic tier, #765d48: A simple brown canvas vest with a low V neckline, side-lacing adjustment, one small patch pocket and a straight hem; rugged utilitarian cut.\nRIGHT panel, vest-03, standard tier, #4f6870: A short blue-grey wool vest with a rounded collar, two neat rows of brass buttons and visible cotton binding around armholes; compact rounded neckline.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "vest-04-06",
+      "category": "vest",
+      "items": [
+        "vest-04",
+        "vest-05",
+        "vest-06"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/vest-04-06.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied vest design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, vest-04, standard tier, #5b704f: A practical olive leather vest with overlapping diagonal front panels, one shoulder buckle and a large offset utility pocket; asymmetrical closure silhouette.\nMIDDLE panel, vest-05, fine tier, #5a4a7c: A fitted violet scholar vest with a high standing collar, four vertical rows of tiny buttons and narrow gold piping inside the armholes; formal upright silhouette.\nRIGHT panel, vest-06, fine tier, #7b4a40: A rust vest with a clean tailored front and a visibly pleated back panel, cinched by a broad leather waist strap; front-versus-back construction contrast.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "vest-07-09",
+      "category": "vest",
+      "items": [
+        "vest-07",
+        "vest-08",
+        "vest-09"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/vest-07-09.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied vest design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, vest-07, fine tier, #356867: A teal leather vest with overlapping shoulder flaps, silver rivets and contrasting cloth side panels, cut close to the torso with a squared hem.\nMIDDLE panel, vest-08, masterwork tier, #9a783c: A rich gold brocade waistcoat with a broad shawl collar, a single central row of buttons and two welt pockets; classic tailored silhouette.\nRIGHT panel, vest-09, masterwork tier, #7e3850: A burgundy velvet vest with one high peaked lapel and one low rounded lapel, an offset metal chain closure and narrow waist; unmistakably asymmetric collar.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    },
+    {
+      "id": "vest-10-12",
+      "category": "vest",
+      "items": [
+        "vest-10",
+        "vest-11",
+        "vest-12"
+      ],
+      "status": "skipped",
+      "sheet": "assets/shop-designs/sheets/vest-10-12.png",
+      "prompt": "Create a product sheet for a polished family fantasy game wardrobe. MANDATORY CANVAS: exactly 1536x1024 pixels, TRUE TRANSPARENT background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete, unoccupied vest design in each panel, with generous transparent space around each object. The three designs must be independent silhouettes and constructions, not recolors or copies. Keep each item entirely inside its own panel, full object visible, no overlap across panel boundaries, consistent high-quality stylized-realistic 3D game asset style, physically believable materials, soft studio lighting. No human, body, mannequin, hand, hanger, scene, floor, cast shadow, text, logo, frame, border, or painted background. Do not add any object not requested.\n\nLEFT panel, vest-10, masterwork tier, #476f83: A masterwork blue silk vest with a wide silver collar, sapphire buttons and filigree edging around the armholes; jewel-toned structured silhouette.\nMIDDLE panel, vest-11, masterwork tier, #3b7b63: A luxurious emerald brocade vest with embroidered gold shoulder epaulettes, two jeweled pocket flaps and dense botanical embroidery; ornate layered tailoring.\nRIGHT panel, vest-12, masterwork tier, #b4893e: A masterwork royal vest in deep plum velvet with a high split collar, double rows of gold filigree buttons, ruby clasps and elaborate embroidered back panel; regal elongated silhouette.",
+      "model": "gpt-image-2.5-flare",
+      "quality": "high"
+    }
+  ],
+  "items": [
+    {
+      "id": "hat-01",
+      "source": "assets/shop-designs/hat-01.webp",
+      "thumbnail": "assets/shop-items/hat-01.webp",
+      "sourceSize": [
+        478,
+        439
+      ],
+      "sha256": "0fc1c41c206f47f4706709599f629b71ab5e7b3563a2fac6381f3e63c158d000"
+    },
+    {
+      "id": "hat-02",
+      "source": "assets/shop-designs/hat-02.webp",
+      "thumbnail": "assets/shop-items/hat-02.webp",
+      "sourceSize": [
+        421,
+        309
+      ],
+      "sha256": "447a71caf92628bd769d813394d487a560200f899a205cf3ce8da233b87d85e2"
+    },
+    {
+      "id": "hat-03",
+      "source": "assets/shop-designs/hat-03.webp",
+      "thumbnail": "assets/shop-items/hat-03.webp",
+      "sourceSize": [
+        483,
+        305
+      ],
+      "sha256": "1622e4f3a9c8eb7e6e556328b4aec071878959e1264a10141be86f21ba112054"
+    },
+    {
+      "id": "hat-04",
+      "source": "assets/shop-designs/hat-04.webp",
+      "thumbnail": "assets/shop-items/hat-04.webp",
+      "sourceSize": [
+        493,
+        226
+      ],
+      "sha256": "0169f4bff65f63cb1633c438840d8717e76ee01d88fcacb01b6ffe3f5c488cd1"
+    },
+    {
+      "id": "hat-05",
+      "source": "assets/shop-designs/hat-05.webp",
+      "thumbnail": "assets/shop-items/hat-05.webp",
+      "sourceSize": [
+        459,
+        692
+      ],
+      "sha256": "8361603b39f2bb0cb952309f231d66deeeadf887542823cd11ee31e16dd7ee39"
+    },
+    {
+      "id": "hat-06",
+      "source": "assets/shop-designs/hat-06.webp",
+      "thumbnail": "assets/shop-items/hat-06.webp",
+      "sourceSize": [
+        489,
+        337
+      ],
+      "sha256": "c6616f4967d8e3569d67362f1f4218980d4541670f47f9a98cdd87c2db675872"
+    },
+    {
+      "id": "hat-07",
+      "source": "assets/shop-designs/hat-07.webp",
+      "thumbnail": "assets/shop-items/hat-07.webp",
+      "sourceSize": [
+        466,
+        494
+      ],
+      "sha256": "649ed45b8954f53a59622ed3edbfb460ba769f5695c809f404e22a44dd816ee3"
+    },
+    {
+      "id": "hat-08",
+      "source": "assets/shop-designs/hat-08.webp",
+      "thumbnail": "assets/shop-items/hat-08.webp",
+      "sourceSize": [
+        471,
+        507
+      ],
+      "sha256": "d05f880cdf9ac8941a8d1a10078480f84b850e4496febcc9c33a507b29d97474"
+    },
+    {
+      "id": "hat-09",
+      "source": "assets/shop-designs/hat-09.webp",
+      "thumbnail": "assets/shop-items/hat-09.webp",
+      "sourceSize": [
+        427,
+        686
+      ],
+      "sha256": "d197be1cd9e5a85d07e4328f03a5aa798edcded0f3cc26dde16d2d2ba9457a70"
+    },
+    {
+      "id": "hat-10",
+      "source": "assets/shop-designs/hat-10.webp",
+      "thumbnail": "assets/shop-items/hat-10.webp",
+      "sourceSize": [
+        421,
+        689
+      ],
+      "sha256": "9b3c030ef7a64c8f0a71e2bc28be75ff91dcab6e2d1f7df7f35cee4745c8d42a"
+    },
+    {
+      "id": "hat-11",
+      "source": "assets/shop-designs/hat-11.webp",
+      "thumbnail": "assets/shop-items/hat-11.webp",
+      "sourceSize": [
+        504,
+        673
+      ],
+      "sha256": "44cfcdfbe9d5a0f1d841bf1c34593ab55c5332a39fd75a1c3d1a06e6d45c0be6"
+    },
+    {
+      "id": "hat-12",
+      "source": "assets/shop-designs/hat-12.webp",
+      "thumbnail": "assets/shop-items/hat-12.webp",
+      "sourceSize": [
+        470,
+        641
+      ],
+      "sha256": "42611f94cafd7890b097950e3ee2b35aef2ea1162f4846bd2b061cede332305b"
+    },
+    {
+      "id": "necklace-01",
+      "source": "assets/shop-designs/necklace-01.webp",
+      "thumbnail": "assets/shop-items/necklace-01.webp",
+      "sourceSize": [
+        429,
+        791
+      ],
+      "sha256": "5e825daca80f1d863e2ac1ece1f1698e2f1631651948dc4920f4dfa058f30313"
+    },
+    {
+      "id": "necklace-02",
+      "source": "assets/shop-designs/necklace-02.webp",
+      "thumbnail": "assets/shop-items/necklace-02.webp",
+      "sourceSize": [
+        427,
+        825
+      ],
+      "sha256": "ed6d6bc42157fbfa1950eeb8cd66a3355c4d8e8d806fb74630d8b6dbadeee23c"
+    },
+    {
+      "id": "necklace-03",
+      "source": "assets/shop-designs/necklace-03.webp",
+      "thumbnail": "assets/shop-items/necklace-03.webp",
+      "sourceSize": [
+        428,
+        846
+      ],
+      "sha256": "deca0823e4e0687b11e983c46e653907766ff7507c6013e5b4bcac31a3addc45"
+    },
+    {
+      "id": "necklace-04",
+      "source": "assets/shop-designs/necklace-04.webp",
+      "thumbnail": "assets/shop-items/necklace-04.webp",
+      "sourceSize": [
+        396,
+        865
+      ],
+      "sha256": "27b6bcf3f09d084c66c2f5b50c6815614a78996d452e5bec0dee5ff0fe557175"
+    },
+    {
+      "id": "necklace-05",
+      "source": "assets/shop-designs/necklace-05.webp",
+      "thumbnail": "assets/shop-items/necklace-05.webp",
+      "sourceSize": [
+        422,
+        732
+      ],
+      "sha256": "de8cc0a67b656711f0b2ea9882b3076932d95aec70c586517440ed72c540b8c9"
+    },
+    {
+      "id": "necklace-06",
+      "source": "assets/shop-designs/necklace-06.webp",
+      "thumbnail": "assets/shop-items/necklace-06.webp",
+      "sourceSize": [
+        421,
+        778
+      ],
+      "sha256": "5ee202ac13b6cc25d8801ad892e8a06839143afbb8d4a1dd4e33b0d75ec648b5"
+    },
+    {
+      "id": "necklace-07",
+      "source": "assets/shop-designs/necklace-07.webp",
+      "thumbnail": "assets/shop-items/necklace-07.webp",
+      "sourceSize": [
+        418,
+        710
+      ],
+      "sha256": "71fad665e5aaa9c3514b6aebfef5646e3992efef60224f2b9430e5569efd881f"
+    },
+    {
+      "id": "necklace-08",
+      "source": "assets/shop-designs/necklace-08.webp",
+      "thumbnail": "assets/shop-items/necklace-08.webp",
+      "sourceSize": [
+        486,
+        554
+      ],
+      "sha256": "ae26e96ac6c7cbf24bc5f2509361077754e1b6efec43d5762de4e4c781011f5a"
+    },
+    {
+      "id": "necklace-09",
+      "source": "assets/shop-designs/necklace-09.webp",
+      "thumbnail": "assets/shop-items/necklace-09.webp",
+      "sourceSize": [
+        423,
+        741
+      ],
+      "sha256": "3b61b0a8ae4075d4832d1fff2221644250e47362952f294506df82ce950b58d7"
+    },
+    {
+      "id": "necklace-10",
+      "source": "assets/shop-designs/necklace-10.webp",
+      "thumbnail": "assets/shop-items/necklace-10.webp",
+      "sourceSize": [
+        467,
+        530
+      ],
+      "sha256": "a8775936bd8894697a872ed96c952e63e02b30315fb7165b56628dc9859b5515"
+    },
+    {
+      "id": "necklace-11",
+      "source": "assets/shop-designs/necklace-11.webp",
+      "thumbnail": "assets/shop-items/necklace-11.webp",
+      "sourceSize": [
+        457,
+        669
+      ],
+      "sha256": "ba8b3dc8bb9b96dce653031b4d73c0dff7841fbd6b983a2ebf4fb0700e1e8ec6"
+    },
+    {
+      "id": "necklace-12",
+      "source": "assets/shop-designs/necklace-12.webp",
+      "thumbnail": "assets/shop-items/necklace-12.webp",
+      "sourceSize": [
+        464,
+        719
+      ],
+      "sha256": "b089ab8520e9145464491ed7c8197639ccd588adfcff5396768137ff6737c002"
+    },
+    {
+      "id": "cloak-01",
+      "source": "assets/shop-designs/cloak-01.webp",
+      "thumbnail": "assets/shop-items/cloak-01.webp",
+      "sourceSize": [
+        433,
+        771
+      ],
+      "sha256": "ab5e92a933feec553186140a5a931cc1a5083d2b179a1582ac53696159ad28e5"
+    },
+    {
+      "id": "cloak-02",
+      "source": "assets/shop-designs/cloak-02.webp",
+      "thumbnail": "assets/shop-items/cloak-02.webp",
+      "sourceSize": [
+        510,
+        658
+      ],
+      "sha256": "7b448a154016ee6821bcd41d5c350361bb64172c99a6eefe602cd4b9cadb8aa9"
+    },
+    {
+      "id": "cloak-03",
+      "source": "assets/shop-designs/cloak-03.webp",
+      "thumbnail": "assets/shop-items/cloak-03.webp",
+      "sourceSize": [
+        495,
+        855
+      ],
+      "sha256": "19610cff91b17adc7f00708000e2837a449d2494b477bcad80181976e069cb57"
+    },
+    {
+      "id": "cloak-04",
+      "source": "assets/shop-designs/cloak-04.webp",
+      "thumbnail": "assets/shop-items/cloak-04.webp",
+      "sourceSize": [
+        451,
+        708
+      ],
+      "sha256": "1726744b5ab6ea8976dfaa24998e3e35857b667ddae63836b38770fc7da92e02"
+    },
+    {
+      "id": "cloak-05",
+      "source": "assets/shop-designs/cloak-05.webp",
+      "thumbnail": "assets/shop-items/cloak-05.webp",
+      "sourceSize": [
+        493,
+        996
+      ],
+      "sha256": "747f2ec9d003b4c844b1fb79e659db48d4ae2c600822945712ab9b13c0783f17"
+    },
+    {
+      "id": "cloak-06",
+      "source": "assets/shop-designs/cloak-06.webp",
+      "thumbnail": "assets/shop-items/cloak-06.webp",
+      "sourceSize": [
+        426,
+        894
+      ],
+      "sha256": "837d233a0738dbb0ca83a49cb36bfed07b54e13fec8c8f93da1b53885da96364"
+    },
+    {
+      "id": "cloak-07",
+      "source": "assets/shop-designs/cloak-07.webp",
+      "thumbnail": "assets/shop-items/cloak-07.webp",
+      "sourceSize": [
+        504,
+        859
+      ],
+      "sha256": "925356a1217c1934b7257119a5d8092a5575be7329633581c0dd75c255da2bb3"
+    },
+    {
+      "id": "cloak-08",
+      "source": "assets/shop-designs/cloak-08.webp",
+      "thumbnail": "assets/shop-items/cloak-08.webp",
+      "sourceSize": [
+        512,
+        857
+      ],
+      "sha256": "db300a7bfe0689df56a11f4cb1c2a7c0ee57d82616381e1f9a1d4f7f4dce6aac"
+    },
+    {
+      "id": "cloak-09",
+      "source": "assets/shop-designs/cloak-09.webp",
+      "thumbnail": "assets/shop-items/cloak-09.webp",
+      "sourceSize": [
+        508,
+        881
+      ],
+      "sha256": "f8592d7d49f5f8129ed2fbb23679aa0c7c6a79e310412cb0dae287fd120d6726"
+    },
+    {
+      "id": "cloak-10",
+      "source": "assets/shop-designs/cloak-10.webp",
+      "thumbnail": "assets/shop-items/cloak-10.webp",
+      "sourceSize": [
+        452,
+        935
+      ],
+      "sha256": "e398cbb2c2401bfffa48831257ee75dd8b61e3b9e769e5752fdcb04ae8706771"
+    },
+    {
+      "id": "cloak-11",
+      "source": "assets/shop-designs/cloak-11.webp",
+      "thumbnail": "assets/shop-items/cloak-11.webp",
+      "sourceSize": [
+        487,
+        924
+      ],
+      "sha256": "abe6e47449e8127e278ae5292c52d39fd2b8715f4caf5bf0eb2293e2fa274511"
+    },
+    {
+      "id": "cloak-12",
+      "source": "assets/shop-designs/cloak-12.webp",
+      "thumbnail": "assets/shop-items/cloak-12.webp",
+      "sourceSize": [
+        481,
+        964
+      ],
+      "sha256": "277d12c3e8ec7f153470b269e6f6e4c960f61302fd1c55a73a9df1e2d6d922ba"
+    },
+    {
+      "id": "wand-01",
+      "source": "assets/shop-designs/wand-01.webp",
+      "thumbnail": "assets/shop-items/wand-01.webp",
+      "sourceSize": [
+        59,
+        789
+      ],
+      "sha256": "bd7786af8e2c5dd21ec1bf0ab85a065707ecd15aab5107ed388695fcd6c7899c"
+    },
+    {
+      "id": "wand-02",
+      "source": "assets/shop-designs/wand-02.webp",
+      "thumbnail": "assets/shop-items/wand-02.webp",
+      "sourceSize": [
+        84,
+        926
+      ],
+      "sha256": "57f3250f62f53ed3e1770323e15cdf21f0bf810935577f340fe74a9a35e1efc1"
+    },
+    {
+      "id": "wand-03",
+      "source": "assets/shop-designs/wand-03.webp",
+      "thumbnail": "assets/shop-items/wand-03.webp",
+      "sourceSize": [
+        105,
+        936
+      ],
+      "sha256": "4cb826b488cdf68da312dd9396d76f7075e9de4b5b58d3cecdd6e8b0334f1405"
+    },
+    {
+      "id": "wand-04",
+      "source": "assets/shop-designs/wand-04.webp",
+      "thumbnail": "assets/shop-items/wand-04.webp",
+      "sourceSize": [
+        55,
+        944
+      ],
+      "sha256": "37c1367768bf1b2bcd0adbae7ff3e37ee9215ccee586c3d148ab9bbe0f78e03a"
+    },
+    {
+      "id": "wand-05",
+      "source": "assets/shop-designs/wand-05.webp",
+      "thumbnail": "assets/shop-items/wand-05.webp",
+      "sourceSize": [
+        103,
+        944
+      ],
+      "sha256": "d5ff07cb54bc4e41ebdf636cf19c4889d7358121fdaa07e300b2f2434742fa59"
+    },
+    {
+      "id": "wand-06",
+      "source": "assets/shop-designs/wand-06.webp",
+      "thumbnail": "assets/shop-items/wand-06.webp",
+      "sourceSize": [
+        109,
+        945
+      ],
+      "sha256": "cce28b78a03cc594dafbe8594c6db7ce102d37f2176e4fc8f9117b3acd147aea"
+    },
+    {
+      "id": "wand-07",
+      "source": "assets/shop-designs/wand-07.webp",
+      "thumbnail": "assets/shop-items/wand-07.webp",
+      "sourceSize": [
+        208,
+        947
+      ],
+      "sha256": "fb8943de2596055fb5beaf8c85540ae1ad54dd67639fe6a0a0a15868ed2ef038"
+    },
+    {
+      "id": "wand-08",
+      "source": "assets/shop-designs/wand-08.webp",
+      "thumbnail": "assets/shop-items/wand-08.webp",
+      "sourceSize": [
+        108,
+        963
+      ],
+      "sha256": "10505dfaa2162632ea05e389a9d1288c211c42c80eceaa44d55d032761f007a1"
+    },
+    {
+      "id": "wand-09",
+      "source": "assets/shop-designs/wand-09.webp",
+      "thumbnail": "assets/shop-items/wand-09.webp",
+      "sourceSize": [
+        176,
+        973
+      ],
+      "sha256": "cfacf441c5e52134f4769605cbc1bda7719f6dfaa9ec7a6fe3202ee108fdd309"
+    },
+    {
+      "id": "wand-10",
+      "source": "assets/shop-designs/wand-10.webp",
+      "thumbnail": "assets/shop-items/wand-10.webp",
+      "sourceSize": [
+        114,
+        960
+      ],
+      "sha256": "58490a0c3e780ae74aeedd57a37f5e25fa448ee31acb88d4a47e6c4e31d3401c"
+    },
+    {
+      "id": "wand-11",
+      "source": "assets/shop-designs/wand-11.webp",
+      "thumbnail": "assets/shop-items/wand-11.webp",
+      "sourceSize": [
+        146,
+        979
+      ],
+      "sha256": "2b3b12b18019099a00430b192a44c937fdc3c81c6d791336387ba1d74590255f"
+    },
+    {
+      "id": "wand-12",
+      "source": "assets/shop-designs/wand-12.webp",
+      "thumbnail": "assets/shop-items/wand-12.webp",
+      "sourceSize": [
+        230,
+        970
+      ],
+      "sha256": "101afa6ddfcf700e0bb6d757feed507fc5340c37b52fef6161f0990b3aff3fd5"
+    },
+    {
+      "id": "broom-01",
+      "source": "assets/shop-designs/broom-01.webp",
+      "thumbnail": "assets/shop-items/broom-01.webp",
+      "sourceSize": [
+        169,
+        593
+      ],
+      "sha256": "43cff95e5859e58b9daf38bf5f628347e47bea2d6786e991c027721016e6c2ce"
+    },
+    {
+      "id": "broom-02",
+      "source": "assets/shop-designs/broom-02.webp",
+      "thumbnail": "assets/shop-items/broom-02.webp",
+      "sourceSize": [
+        243,
+        838
+      ],
+      "sha256": "8656a1c48fe8e63ed9f156f433a61d2c90fdf93c731d9e324af9b28c1d47078f"
+    },
+    {
+      "id": "broom-03",
+      "source": "assets/shop-designs/broom-03.webp",
+      "thumbnail": "assets/shop-items/broom-03.webp",
+      "sourceSize": [
+        340,
+        961
+      ],
+      "sha256": "d05f4953d720d4b9089a60aebf57d8f2f6196b8b10237422f2f242521e5a6059"
+    },
+    {
+      "id": "broom-04",
+      "source": "assets/shop-designs/broom-04.webp",
+      "thumbnail": "assets/shop-items/broom-04.webp",
+      "sourceSize": [
+        325,
+        950
+      ],
+      "sha256": "5c2470ec4bab8a1e4243e8473016728dd4e4920d2021497aa74fd5cb25641752"
+    },
+    {
+      "id": "broom-05",
+      "source": "assets/shop-designs/broom-05.webp",
+      "thumbnail": "assets/shop-items/broom-05.webp",
+      "sourceSize": [
+        446,
+        968
+      ],
+      "sha256": "fd9f4be861c45ef607c17df82fe63f2c1b89e247c3fe81ce6f1142a567465c70"
+    },
+    {
+      "id": "broom-06",
+      "source": "assets/shop-designs/broom-06.webp",
+      "thumbnail": "assets/shop-items/broom-06.webp",
+      "sourceSize": [
+        404,
+        949
+      ],
+      "sha256": "13dd04555b2e1d6aeca65b4ac1df977a487ba714445ba33ab802bd552d33006b"
+    },
+    {
+      "id": "broom-07",
+      "source": "assets/shop-designs/broom-07.webp",
+      "thumbnail": "assets/shop-items/broom-07.webp",
+      "sourceSize": [
+        379,
+        917
+      ],
+      "sha256": "692874f579a475bb5e8ff4ea4d99c53c528489c3528a37a764d2196c7ef4c2f9"
+    },
+    {
+      "id": "broom-08",
+      "source": "assets/shop-designs/broom-08.webp",
+      "thumbnail": "assets/shop-items/broom-08.webp",
+      "sourceSize": [
+        243,
+        948
+      ],
+      "sha256": "681c8a0f73455a8d8c19cce6d658220304bcc1576f7c4459334f96a88538bbc0"
+    },
+    {
+      "id": "broom-09",
+      "source": "assets/shop-designs/broom-09.webp",
+      "thumbnail": "assets/shop-items/broom-09.webp",
+      "sourceSize": [
+        334,
+        938
+      ],
+      "sha256": "8014880b8480b1241152e9929e9bcf92eca5d2076fd59bdcd9758320ffd172e6"
+    },
+    {
+      "id": "broom-10",
+      "source": "assets/shop-designs/broom-10.webp",
+      "thumbnail": "assets/shop-items/broom-10.webp",
+      "sourceSize": [
+        320,
+        928
+      ],
+      "sha256": "c0066e93adcd108dc46de3a3bf0b5486143c1593abf42ba998c4c6eae44f455c"
+    },
+    {
+      "id": "broom-11",
+      "source": "assets/shop-designs/broom-11.webp",
+      "thumbnail": "assets/shop-items/broom-11.webp",
+      "sourceSize": [
+        387,
+        981
+      ],
+      "sha256": "9c2aa7a9f62fbba290cf6c8fce775ecd6365b1588d6762649bb5492085fb98fc"
+    },
+    {
+      "id": "broom-12",
+      "source": "assets/shop-designs/broom-12.webp",
+      "thumbnail": "assets/shop-items/broom-12.webp",
+      "sourceSize": [
+        349,
+        984
+      ],
+      "sha256": "be9e9e82a2cf75b9a4f0eea6f7698b1c1457a2ac1fa9a43093f8b7b6ee504d3e"
+    },
+    {
+      "id": "gloves-01",
+      "source": "assets/shop-designs/gloves-01.webp",
+      "thumbnail": "assets/shop-items/gloves-01.webp",
+      "sourceSize": [
+        466,
+        453
+      ],
+      "sha256": "d80a2c34730a68bb9b50e1d758b6a51957632bc875161f4c954434bd74cd3885"
+    },
+    {
+      "id": "gloves-02",
+      "source": "assets/shop-designs/gloves-02.webp",
+      "thumbnail": "assets/shop-items/gloves-02.webp",
+      "sourceSize": [
+        439,
+        330
+      ],
+      "sha256": "4ddadc12e78aa13eb575f046d3cb0f59998725daeee6150d90a4e6c25a234652"
+    },
+    {
+      "id": "gloves-03",
+      "source": "assets/shop-designs/gloves-03.webp",
+      "thumbnail": "assets/shop-items/gloves-03.webp",
+      "sourceSize": [
+        439,
+        438
+      ],
+      "sha256": "61431b2a4cd38e2e11463164af5affe6441b7eecb26bc6a5e040f3f204dfd92f"
+    },
+    {
+      "id": "gloves-04",
+      "source": "assets/shop-designs/gloves-04.webp",
+      "thumbnail": "assets/shop-items/gloves-04.webp",
+      "sourceSize": [
+        484,
+        1024
+      ],
+      "sha256": "686eb184ee4d7484bfb87a978aa4415f1eb99f1c405af661a5c561f852e8450f"
+    },
+    {
+      "id": "gloves-05",
+      "source": "assets/shop-designs/gloves-05.webp",
+      "thumbnail": "assets/shop-items/gloves-05.webp",
+      "sourceSize": [
+        423,
+        600
+      ],
+      "sha256": "a98a920750a82627eace625701227280a7aec9a1f1108dd2013965ba53abab6f"
+    },
+    {
+      "id": "gloves-06",
+      "source": "assets/shop-designs/gloves-06.webp",
+      "thumbnail": "assets/shop-items/gloves-06.webp",
+      "sourceSize": [
+        453,
+        1024
+      ],
+      "sha256": "ce3f8a20dd893083dc3818716b7f3d1b918aba087a1b1624db19145fddb262ce"
+    },
+    {
+      "id": "gloves-07",
+      "source": "assets/shop-designs/gloves-07.webp",
+      "thumbnail": "assets/shop-items/gloves-07.webp",
+      "sourceSize": [
+        472,
+        607
+      ],
+      "sha256": "f07cc4de70d536d859a8c5283893b8dbcb8574e988d949599f54bb146994aa77"
+    },
+    {
+      "id": "gloves-08",
+      "source": "assets/shop-designs/gloves-08.webp",
+      "thumbnail": "assets/shop-items/gloves-08.webp",
+      "sourceSize": [
+        457,
+        649
+      ],
+      "sha256": "64f6ce6dc88cbb3ab7f76ff745b370f48bf31c062f504ad19caa306b86fd70b3"
+    },
+    {
+      "id": "gloves-09",
+      "source": "assets/shop-designs/gloves-09.webp",
+      "thumbnail": "assets/shop-items/gloves-09.webp",
+      "sourceSize": [
+        458,
+        762
+      ],
+      "sha256": "77bf79e73a1ac53bf487b10183504da5551c84ccce3b3d0b61d003dbf369a758"
+    },
+    {
+      "id": "gloves-10",
+      "source": "assets/shop-designs/gloves-10.webp",
+      "thumbnail": "assets/shop-items/gloves-10.webp",
+      "sourceSize": [
+        432,
+        660
+      ],
+      "sha256": "a7d2d54c7d4b0aa2fcb9265eec8cb648a170f66eef020c31c0cdb0496b9c0a15"
+    },
+    {
+      "id": "gloves-11",
+      "source": "assets/shop-designs/gloves-11.webp",
+      "thumbnail": "assets/shop-items/gloves-11.webp",
+      "sourceSize": [
+        470,
+        653
+      ],
+      "sha256": "f8386cc5539deea101f6e83e4af2f02f002d9cdd2ebfca56a2a825df324a9325"
+    },
+    {
+      "id": "gloves-12",
+      "source": "assets/shop-designs/gloves-12.webp",
+      "thumbnail": "assets/shop-items/gloves-12.webp",
+      "sourceSize": [
+        455,
+        873
+      ],
+      "sha256": "e045cb44004d9ec4e1eb2b26366751df9c80614554291f8cbdccedaff112d5c5"
+    },
+    {
+      "id": "pants-01",
+      "source": "assets/shop-designs/pants-01.webp",
+      "thumbnail": "assets/shop-items/pants-01.webp",
+      "sourceSize": [
+        474,
+        847
+      ],
+      "sha256": "a7479c9f44b95a5ac862f567ab8dd1b2ded81fca60fef05b525936c58ebabebc"
+    },
+    {
+      "id": "pants-02",
+      "source": "assets/shop-designs/pants-02.webp",
+      "thumbnail": "assets/shop-items/pants-02.webp",
+      "sourceSize": [
+        384,
+        849
+      ],
+      "sha256": "12a7b487a3e9d8af5688ad0541ac1925f8c48e28fcaf0b39e3bc96f4974b998a"
+    },
+    {
+      "id": "pants-03",
+      "source": "assets/shop-designs/pants-03.webp",
+      "thumbnail": "assets/shop-items/pants-03.webp",
+      "sourceSize": [
+        377,
+        753
+      ],
+      "sha256": "b1426a400da96556af65592b3291296706afddd2900c3332025dbca48c78ed60"
+    },
+    {
+      "id": "pants-04",
+      "source": "assets/shop-designs/pants-04.webp",
+      "thumbnail": "assets/shop-items/pants-04.webp",
+      "sourceSize": [
+        416,
+        863
+      ],
+      "sha256": "fee60a8e1e2ac81e5c09ced35904e83bd858e1d296de42a212e9ecf5da04ed9c"
+    },
+    {
+      "id": "pants-05",
+      "source": "assets/shop-designs/pants-05.webp",
+      "thumbnail": "assets/shop-items/pants-05.webp",
+      "sourceSize": [
+        512,
+        890
+      ],
+      "sha256": "a9dd0bc744c625a33e2a6ffb377da86456fcf664c19b625c356d508f6da67cc9"
+    },
+    {
+      "id": "pants-06",
+      "source": "assets/shop-designs/pants-06.webp",
+      "thumbnail": "assets/shop-items/pants-06.webp",
+      "sourceSize": [
+        429,
+        879
+      ],
+      "sha256": "91c2f20558757d7b7d4b483db5c763e940b49cb5ccd85b1e6de9f00254c5d718"
+    },
+    {
+      "id": "pants-07",
+      "source": "assets/shop-designs/pants-07.webp",
+      "thumbnail": "assets/shop-items/pants-07.webp",
+      "sourceSize": [
+        335,
+        856
+      ],
+      "sha256": "afb40d985fda3b2b28d9f0dfd8c5fe2b7948f71b6a2a9adc9d7184eb8749e45e"
+    },
+    {
+      "id": "pants-08",
+      "source": "assets/shop-designs/pants-08.webp",
+      "thumbnail": "assets/shop-items/pants-08.webp",
+      "sourceSize": [
+        314,
+        859
+      ],
+      "sha256": "a91dd0c502f9747b1d6f449fbd1ca92524d9dac45beb01976100e2572881073d"
+    },
+    {
+      "id": "pants-09",
+      "source": "assets/shop-designs/pants-09.webp",
+      "thumbnail": "assets/shop-items/pants-09.webp",
+      "sourceSize": [
+        418,
+        861
+      ],
+      "sha256": "eaea5a6916c04acf8aeab98430849da29dd09ee9a7bcb7663f5e59b31c3ed423"
+    },
+    {
+      "id": "pants-10",
+      "source": "assets/shop-designs/pants-10.webp",
+      "thumbnail": "assets/shop-items/pants-10.webp",
+      "sourceSize": [
+        294,
+        927
+      ],
+      "sha256": "a5f622db1cd93865ef1355ac54f2dbedab3c70cd8803c111ee5836232b3dc5f5"
+    },
+    {
+      "id": "pants-11",
+      "source": "assets/shop-designs/pants-11.webp",
+      "thumbnail": "assets/shop-items/pants-11.webp",
+      "sourceSize": [
+        403,
+        924
+      ],
+      "sha256": "fb2cff75d5deff26ad9ce6034ade9c6aeb63633e4950e7ca5d31aa875c90cbe9"
+    },
+    {
+      "id": "pants-12",
+      "source": "assets/shop-designs/pants-12.webp",
+      "thumbnail": "assets/shop-items/pants-12.webp",
+      "sourceSize": [
+        398,
+        924
+      ],
+      "sha256": "1a3aa42b5fa48a2590ce30f52c3f44aef706f2ce8288c8ed058c4c963ad2f024"
+    },
+    {
+      "id": "vest-01",
+      "source": "assets/shop-designs/vest-01.webp",
+      "thumbnail": "assets/shop-items/vest-01.webp",
+      "sourceSize": [
+        442,
+        588
+      ],
+      "sha256": "136d39dbb086b94bc0a9db11276a10015aa65e5d019066b125e9701107ba9449"
+    },
+    {
+      "id": "vest-02",
+      "source": "assets/shop-designs/vest-02.webp",
+      "thumbnail": "assets/shop-items/vest-02.webp",
+      "sourceSize": [
+        429,
+        608
+      ],
+      "sha256": "3a5a05f17877fb6377ea2a2e2351666010626b37ecd41e08256756f3dfdd3db0"
+    },
+    {
+      "id": "vest-03",
+      "source": "assets/shop-designs/vest-03.webp",
+      "thumbnail": "assets/shop-items/vest-03.webp",
+      "sourceSize": [
+        426,
+        556
+      ],
+      "sha256": "b5122f4ce30aee02da7285c16eddc3d79585f58c60e3e7bad0d9b8db7ea9cb5d"
+    },
+    {
+      "id": "vest-04",
+      "source": "assets/shop-designs/vest-04.webp",
+      "thumbnail": "assets/shop-items/vest-04.webp",
+      "sourceSize": [
+        395,
+        691
+      ],
+      "sha256": "5ef83f1e3e11c056c2d4ed13a10cc775cd3834a4c301ab0f70eee43c837cfedb"
+    },
+    {
+      "id": "vest-05",
+      "source": "assets/shop-designs/vest-05.webp",
+      "thumbnail": "assets/shop-items/vest-05.webp",
+      "sourceSize": [
+        462,
+        697
+      ],
+      "sha256": "27dc6d1ece3e0089351ac1f6f0f0297373ae53bd17becd544fdfad80fa2e881c"
+    },
+    {
+      "id": "vest-06",
+      "source": "assets/shop-designs/vest-06.webp",
+      "thumbnail": "assets/shop-items/vest-06.webp",
+      "sourceSize": [
+        489,
+        507
+      ],
+      "sha256": "c76808a08210f1efacfc10bf714f999ec445ba9f08a8d0025ed9b0bfcb3860ba"
+    },
+    {
+      "id": "vest-07",
+      "source": "assets/shop-designs/vest-07.webp",
+      "thumbnail": "assets/shop-items/vest-07.webp",
+      "sourceSize": [
+        479,
+        638
+      ],
+      "sha256": "6e1ac681fdf37bff3d073a4034213a50bedf1672abdc9d7fb4ae9c2752a1297c"
+    },
+    {
+      "id": "vest-08",
+      "source": "assets/shop-designs/vest-08.webp",
+      "thumbnail": "assets/shop-items/vest-08.webp",
+      "sourceSize": [
+        382,
+        691
+      ],
+      "sha256": "3e583f6f3c90a1152c5d589f3fdd5f8b45405866ddcce7146402a43d61e3f6de"
+    },
+    {
+      "id": "vest-09",
+      "source": "assets/shop-designs/vest-09.webp",
+      "thumbnail": "assets/shop-items/vest-09.webp",
+      "sourceSize": [
+        384,
+        695
+      ],
+      "sha256": "128d4c914db63df5a0371042eef096bf0f602ef8a606f46e96f79733013187ba"
+    },
+    {
+      "id": "vest-10",
+      "source": "assets/shop-designs/vest-10.webp",
+      "thumbnail": "assets/shop-items/vest-10.webp",
+      "sourceSize": [
+        398,
+        770
+      ],
+      "sha256": "799ff23831daf602087fa5941b1e0e58b597b55caba8c94be17c4859a43da249"
+    },
+    {
+      "id": "vest-11",
+      "source": "assets/shop-designs/vest-11.webp",
+      "thumbnail": "assets/shop-items/vest-11.webp",
+      "sourceSize": [
+        473,
+        819
+      ],
+      "sha256": "ab20048ce5e2d4dc0a5a35c2804a8a04100cdd99a80832d44a208ff7f2c560dd"
+    },
+    {
+      "id": "vest-12",
+      "source": "assets/shop-designs/vest-12.webp",
+      "thumbnail": "assets/shop-items/vest-12.webp",
+      "sourceSize": [
+        423,
+        918
+      ],
+      "sha256": "ab5b9471fbc73ff663860fa9d730ace6ef0345abb2365923c459cba76314836a"
+    }
+  ]
+}

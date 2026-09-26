@@ -35,20 +35,29 @@
 .wizard-boutique .shop-heading {
   color: #f7deb0;
 }
+.shop-layout {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.34fr) minmax(0, 0.66fr);
+  gap: 18px;
+  align-items: start;
+}
+.shop-fitting-column {
+  position: sticky;
+  top: 16px;
+  align-self: start;
+}
 .fitting-room {
-  display: flex;
-  gap: 26px;
-  align-items: center;
-  min-height: 400px;
-  padding: 20px;
-  margin: 20px 0;
+  min-height: 0;
+  padding: 14px;
+  margin: 20px 0 0;
   border-radius: 14px;
   background:
     linear-gradient(90deg, #15101455, #151014b0),
     url("assets/wizard-shop.webp") center/cover;
 }
 .fitting-mirror {
-  width: 240px;
+  width: min(100%, 280px);
+  margin: 0 auto;
   flex-shrink: 0;
   text-align: center;
   border: 10px double #bc975d;
@@ -59,26 +68,68 @@
 }
 .fitting-mirror svg {
   display: block;
-  height: 330px;
   width: 100%;
+  height: auto;
+  max-height: 390px;
 }
 .fitting-mirror span {
   display: block;
   font-size: 11px;
   color: #ffe0a3;
 }
+.shop-catalog {
+  min-width: 0;
+}
 .fitting-actions {
   display: grid;
   gap: 12px;
+  margin-top: 18px;
   font-size: 13px;
   line-height: 1.8;
 }
 .wizard-boutique .shop-items {
-  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .wizard-boutique .shop-item {
+  display: grid;
+  grid-template-columns: minmax(84px, 110px) minmax(0, 1fr);
+  align-items: center;
+  min-height: 132px;
+  padding: 10px;
+  gap: 10px;
   background: #231b19ee;
   border-color: #886b49;
+}
+.wizard-boutique .shop-item-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  object-fit: contain;
+  object-position: center;
+}
+.wizard-boutique .shop-item > .shop-item-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+  min-width: 0;
+}
+.wizard-boutique .shop-item-copy strong {
+  font-size: 12px;
+  line-height: 1.45;
+}
+.wizard-boutique .shop-item-price {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 700;
+}
+.wizard-boutique .shop-item-state {
+  color: var(--muted);
+  font-size: 11px;
+}
+.wizard-boutique .shop-item > span:last-child {
+  width: auto;
+  padding-left: 0;
 }
 .wizard-boutique .category-buttons {
   flex-wrap: wrap;
@@ -86,6 +137,11 @@
 .wizard-boutique .category-buttons button {
   font-size: 12px;
   background: #241c1c;
+}
+.wizard-boutique .category-buttons button[aria-pressed="true"] {
+  background: #e6c38a;
+  color: #171626;
+  border-color: #e6c38a;
 }
 .departure-result {
   text-align: center;
@@ -100,6 +156,62 @@
 .departure-result .stage-companion {
   max-width: 280px;
   margin: 20px auto;
+}
+.rescue-panel,
+.gameover-panel {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 26px;
+  border: 1px solid #a67d4e;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #2c2020ee, #17141dee);
+  text-align: center;
+  box-shadow: inset 0 0 45px #06030499;
+}
+.rescue-panel h3,
+.gameover-panel h3 {
+  margin: 4px 0 14px;
+  color: #ffe0a3;
+  font-size: clamp(22px, 4vw, 32px);
+}
+.rescue-panel .stage-companion,
+.gameover-panel .stage-companion {
+  max-width: 300px;
+  margin: 16px auto;
+}
+.rescue-prompt,
+.gameover-prompt {
+  margin: 20px auto 8px;
+  color: #fff0c8;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+.rescue-balance {
+  color: var(--gold);
+  font-weight: 700;
+}
+.rescue-explanation {
+  margin: 16px auto;
+  padding: 12px 16px;
+  border-left: 3px solid var(--gold);
+  background: #171721cc;
+  text-align: left;
+  line-height: 1.7;
+}
+.rescue-explanation p {
+  margin: 5px 0 0;
+}
+.rescue-actions,
+.gameover-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+.gameover-followup {
+  margin: 20px 0 10px;
+  color: var(--muted);
 }
 .instant-clear {
   padding: 14px;
@@ -164,23 +276,62 @@
   .wizard-boutique {
     padding: 10px;
   }
+  .shop-layout {
+    grid-template-columns: minmax(0, 0.32fr) minmax(0, 0.68fr);
+    gap: 8px;
+  }
+  .shop-fitting-column {
+    top: 8px;
+  }
   .fitting-room {
-    flex-direction: column;
-    padding: 12px;
-    gap: 14px;
+    padding: 6px;
+    margin-top: 12px;
   }
   .fitting-mirror {
-    width: 190px;
+    width: 100%;
+    border-width: 5px;
+    border-radius: 24px 24px 6px 6px;
+    padding: 5px;
   }
   .fitting-mirror svg {
-    height: 270px;
+    max-height: none;
   }
   .fitting-actions {
     width: 100%;
-    font-size: 12px;
+    margin-top: 12px;
+    font-size: 11px;
+    gap: 8px;
   }
   .wizard-boutique .shop-items {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+  .wizard-boutique .category-buttons {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+  .wizard-boutique .category-buttons button {
+    padding: 8px 2px;
+    font-size: 10px;
+  }
+  .wizard-boutique .shop-item {
+    grid-template-columns: minmax(50px, 35%) minmax(0, 1fr);
+    min-height: 0;
+    padding: 7px;
+    gap: 7px;
+  }
+  .wizard-boutique .shop-item-image {
+    max-height: 92px;
+  }
+  .wizard-boutique .shop-item-copy strong {
+    font-size: 11px;
+  }
+  .wizard-boutique .shop-item-price {
+    font-size: 11px;
+  }
+  .wizard-boutique .shop-item-state {
+    font-size: 10px;
   }
   #photo-gallery {
     grid-template-columns: 1fr;
@@ -188,4 +339,10 @@
   .departure-result {
     padding: 5px;
   }
+}
+.room-scope-note {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
 }

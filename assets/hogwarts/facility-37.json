@@ -1,0 +1,11 @@
+{
+  "model": "gpt-image-2.5-flare",
+  "quality": "medium",
+  "generated_at": "2026-09-21T15:05:36.318289+00:00",
+  "file": "facility-37.webp",
+  "roomId": "facility-37",
+  "name": "검은 호수",
+  "prompt": "Create a high-end cinematic environment artwork for an educational fantasy escape-room game. Landscape 3:2, AAA realistic 3D game environment / film production rendering, physically plausible lighting, richly detailed materials, atmospheric perspective. Inspired by a moonlit Scottish gothic castle: cool dark teal-blue night light with warm golden lantern light. NOT an illustration, NOT vector, NOT cartoon, NOT low-poly. Beautiful and inviting for children without childish styling. No people, no creatures in the foreground, no text, no letters, no UI, no watermark. Keep the lower central foreground relatively open; interactive 3D props are placed in front later. Natural 40mm eye-level camera, horizon in the upper middle, subtle depth of field. SCENE: No people, no text, no UI, cinematic child-friendly moonlit lakeshore featuring a small wooden rowboat tied to a weathered dock, countless stars mirrored perfectly on the still water surface, reeds swaying at the edge; low-angle composition facing the water, open lower-central foreground, cool teal starlight reflecting off ripples mixed with warm amber lantern glow from the shore, wet stone, wooden posts, layered atmospheric depth, serene fantasy concept art.",
+  "adaptedFrom": "assets/spaces/space-062.webp",
+  "adaptationNote": "Existing generated castle-side lake artwork visually reviewed and reused for the Hogwarts Black Lake game interpretation."
+}

@@ -1,11 +1,12 @@
 {
   "model": "gpt-image-2.5-flare",
-  "quality": "medium",
-  "source": "assets/wizards/<character>-<mood>.webp",
-  "canvas": "512x1024 transparent overlay",
-  "reference_canvas": "1024x1536 output, central 768x1536 crop",
-  "generated_designs": 144,
-  "palette_variants_per_design": 4,
+  "method": "Source garment alpha fitted to authored pose landmarks; no recolouring or fallback layers",
+  "sourceDirectory": "assets/shop-designs",
+  "outputDirectory": "assets/garments",
+  "canvas": [
+    512,
+    1024
+  ],
   "characters": [
     "dad",
     "mom",
@@ -29,55 +30,9 @@
     "pants",
     "vest"
   ],
-  "generated_at": "2026-09-26T04:36:41.812991+00:00",
-  "palette_names": {
-    "hat": [
-      "sapphire",
-      "burgundy",
-      "emerald",
-      "silver"
-    ],
-    "necklace": [
-      "moon",
-      "star",
-      "emerald",
-      "pearl"
-    ],
-    "cloak": [
-      "sapphire",
-      "burgundy",
-      "emerald",
-      "silver"
-    ],
-    "wand": [
-      "willow",
-      "crystal",
-      "ember",
-      "silver"
-    ],
-    "broom": [
-      "sky",
-      "ember",
-      "jade",
-      "lunar"
-    ],
-    "gloves": [
-      "cream",
-      "burgundy",
-      "sapphire",
-      "emerald"
-    ],
-    "pants": [
-      "navy",
-      "burgundy",
-      "forest",
-      "silver"
-    ],
-    "vest": [
-      "gold",
-      "silver",
-      "teal",
-      "burgundy"
-    ]
-  }
+  "items": 96,
+  "files": 1728,
+  "unfit": 0,
+  "generatedDesigns": 96,
+  "generatedLayers": 1728
 }

@@ -15,6 +15,95 @@ const MOBILE_PIXEL_RATIO = 1;
 const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
 const WORLD_FOG = new THREE.Color(0x151729);
 
+// Pointer parallax is deliberately expressed as world-space amplitudes. The
+// previous values were 0.28/0.28/0.05 for camera position and 0.13/0.08 for
+// its look-at target; keep the threefold increase explicit for regression
+// checks and to prevent a future easing tweak from hiding a smaller movement.
+export const POINTER_CAMERA_AMPLITUDE = Object.freeze({
+  x: 0.84,
+  y: 0.84,
+  z: 0.15,
+  verticalCompensation: -0.24,
+});
+export const POINTER_TARGET_AMPLITUDE = Object.freeze({
+  x: 0.39,
+  y: 0.24,
+});
+export const ARTWORK_OVERSCAN = 1.28;
+const FIT_FRAME_FRACTION = 0.92;
+
+// Reflow the physical objects, not merely their button labels, to the viewport.
+// Original anchors are retained so resize/reload never accumulates distortion.
+export function spreadRoomTargets(targets, direction, aspect) {
+  if (!targets.length) return;
+  const forward = direction.clone().normalize();
+  const right = new THREE.Vector3(0, 1, 0).cross(forward).normalize();
+  const up = forward.clone().cross(right).normalize();
+  const anchors = targets.map(({ object }) => {
+    if (!object.userData.viewportAnchor) {
+      object.updateMatrixWorld(true);
+      const box = new THREE.Box3().setFromObject(object);
+      const center = box.getCenter(new THREE.Vector3());
+      const size = box.getSize(new THREE.Vector3());
+      object.userData.viewportAnchor = {
+        center,
+        offset: object.position.clone().sub(center),
+        halfX:
+          (Math.abs(right.x) * size.x) / 2 +
+          (Math.abs(right.y) * size.y) / 2 +
+          (Math.abs(right.z) * size.z) / 2,
+        halfY:
+          (Math.abs(up.x) * size.x) / 2 +
+          (Math.abs(up.y) * size.y) / 2 +
+          (Math.abs(up.z) * size.z) / 2,
+      };
+    }
+    return object.userData.viewportAnchor;
+  });
+  const xs = anchors.map((a) => a.center.dot(right));
+  const ys = anchors.map((a) => a.center.dot(up));
+  const minX = Math.min(...xs),
+    maxX = Math.max(...xs);
+  const minY = Math.min(...ys),
+    maxY = Math.max(...ys);
+  const origin = anchors
+    .reduce((sum, a) => sum.add(a.center), new THREE.Vector3())
+    .multiplyScalar(1 / anchors.length);
+  const spanX = 22,
+    spanY = spanX / Math.max(0.35, Math.min(2.5, aspect));
+  const points = anchors.map((anchor, i) => {
+    const x = (xs[i] - minX) / Math.max(0.01, maxX - minX) - 0.5;
+    const y = (ys[i] - minY) / Math.max(0.01, maxY - minY) - 0.5;
+    return { x: (aspect < 1 ? y : x) * spanX, y: (aspect < 1 ? x : y) * spanY };
+  });
+  let clearanceScale = 1;
+  for (let i = 0; i < points.length; i++)
+    for (let j = i + 1; j < points.length; j++) {
+      const dx = Math.abs(points[i].x - points[j].x),
+        dy = Math.abs(points[i].y - points[j].y);
+      clearanceScale = Math.max(
+        clearanceScale,
+        Math.min(
+          (anchors[i].halfX + anchors[j].halfX + 0.8) / Math.max(0.0001, dx),
+          (anchors[i].halfY + anchors[j].halfY + 0.8) / Math.max(0.0001, dy),
+        ),
+      );
+    }
+  targets.forEach(({ object }, i) => {
+    const depth = THREE.MathUtils.clamp(
+      anchors[i].center.clone().sub(origin).dot(forward),
+      -0.65,
+      0.65,
+    );
+    object.position
+      .copy(origin)
+      .addScaledVector(right, points[i].x * clearanceScale)
+      .addScaledVector(up, points[i].y * clearanceScale)
+      .addScaledVector(forward, depth)
+      .add(anchors[i].offset);
+  });
+}
+
 function finiteNumber(value, fallback) {
   return Number.isFinite(Number(value)) ? Number(value) : fallback;
 }
@@ -135,7 +224,7 @@ export function createRoomView(room, onSelect, layoutSeed) {
     button.type = "button";
     button.className = "world-object-button";
     button.dataset.roomObject = String(index);
-    button.textContent = `물체 ${index + 1}`;
+    button.textContent = "방 안의 물체";
     button.setAttribute("aria-label", "방 안의 물체");
     button.disabled = true;
     button.setAttribute("aria-disabled", "true");
@@ -353,6 +442,8 @@ export function createRoomView(room, onSelect, layoutSeed) {
       button.dataset.answered = String(answered);
       button.dataset.solved = String(answered);
       if (targets[index]) {
+        const itemData = targets[index].object.userData || {};
+        const displayName = targets[index].name;
         const number = document.createElement("span");
         number.className = "world-object-number";
         number.textContent = answered ? "✓" : String(index + 1);
@@ -365,11 +456,16 @@ export function createRoomView(room, onSelect, layoutSeed) {
         connector.className = "world-object-connector";
         connector.setAttribute("aria-hidden", "true");
         button.replaceChildren(connector, number, label);
+        const sourceTitle = itemData.sourceName
+          ? `${displayName} · 참고 물품: ${itemData.sourceName}`
+          : displayName;
+        if (sourceTitle) button.setAttribute("title", sourceTitle);
+        else button.removeAttribute("title");
         button.setAttribute(
           "aria-label",
           answered
-            ? `${targets[index].name} · 풀이 완료`
-            : `${targets[index].name}에서 문제 열기`,
+            ? `${displayName} · 풀이 완료`
+            : `${displayName}에서 문제 열기`,
         );
       }
       if (selected) button.setAttribute("aria-current", "true");
@@ -419,6 +515,12 @@ export function createRoomView(room, onSelect, layoutSeed) {
       const button = buttons[index];
       button.style.left = `${position.x}px`;
       button.style.top = `${position.y}px`;
+      const label = button.querySelector(".world-object-name");
+      if (label) {
+        const half = label.offsetWidth / 2 + 4;
+        const centered = Math.max(half, Math.min(cssWidth - half, position.x));
+        label.style.marginLeft = `${centered - position.x}px`;
+      }
       const dx = anchors[index].x - position.x;
       const dy = anchors[index].y - position.y;
       const distance = Math.hypot(dx, dy);
@@ -547,13 +649,14 @@ export function createRoomView(room, onSelect, layoutSeed) {
       : 1 - Math.exp(-Math.min(0.08, delta) * 5.4);
     if (reducedMotion) pointerGoal.set(0, 0);
     desiredCameraPosition.copy(baseCameraPosition);
-    desiredCameraPosition.x += pointerGoal.x * 0.28;
-    desiredCameraPosition.y += pointerGoal.y * 0.28;
-    desiredCameraPosition.y -= pointerGoal.y * 0.08;
-    desiredCameraPosition.z += pointerGoal.y * 0.05;
+    desiredCameraPosition.x += pointerGoal.x * POINTER_CAMERA_AMPLITUDE.x;
+    desiredCameraPosition.y += pointerGoal.y * POINTER_CAMERA_AMPLITUDE.y;
+    desiredCameraPosition.y +=
+      pointerGoal.y * POINTER_CAMERA_AMPLITUDE.verticalCompensation;
+    desiredCameraPosition.z += pointerGoal.y * POINTER_CAMERA_AMPLITUDE.z;
     desiredCameraTarget.copy(baseCameraTarget);
-    desiredCameraTarget.x += pointerGoal.x * 0.13;
-    desiredCameraTarget.y += pointerGoal.y * 0.08;
+    desiredCameraTarget.x += pointerGoal.x * POINTER_TARGET_AMPLITUDE.x;
+    desiredCameraTarget.y += pointerGoal.y * POINTER_TARGET_AMPLITUDE.y;
     camera.position.lerp(desiredCameraPosition, easing);
     cameraTarget.lerp(desiredCameraTarget, easing);
     camera.lookAt(cameraTarget);
@@ -561,16 +664,26 @@ export function createRoomView(room, onSelect, layoutSeed) {
 
   function autoFitCamera() {
     if (!camera || !scene || !targets.length) return;
+    const layoutDirection = vectorFromArray(
+      world?.camera?.position,
+      DEFAULT_CAMERA_POSITION,
+    )
+      .sub(vectorFromArray(world?.camera?.target, DEFAULT_CAMERA_TARGET))
+      .normalize();
+    spreadRoomTargets(targets, layoutDirection, camera.aspect);
     scene.updateMatrixWorld(true);
     targetBounds.makeEmpty();
     targets.forEach((target) => {
       if (target?.object) targetBounds.expandByObject(target.object);
     });
     if (targetBounds.isEmpty()) return;
-    // Include the enlarged support pieces and a little breathing room at the
-    // edge of the camera frame. This keeps the 1.45x foreground models fully
-    // visible instead of compensating by shrinking them again.
-    targetBounds.expandByScalar(0.55);
+    // Include the enlarged support pieces and a compact breathing room at the
+    // edge of the camera frame. Keep this margin independent from model scale:
+    // expanding it with every geometry change would zoom out enough to cancel
+    // the intended increase in the on-screen object bounds. FIT_FRAME_FRACTION
+    // keeps the models near the frame edge while the scatter layout reserves
+    // room for the threefold pointer sweep.
+    targetBounds.expandByScalar(0.35);
 
     targetBounds.getCenter(fitCenter);
     targetBounds.getSize(fitSize);
@@ -593,10 +706,11 @@ export function createRoomView(room, onSelect, layoutSeed) {
           distance = Math.max(
             distance,
             depth +
-              Math.abs(corner.dot(up)) / (Math.tan(verticalFov / 2) * 0.84),
+              Math.abs(corner.dot(up)) /
+                (Math.tan(verticalFov / 2) * FIT_FRAME_FRACTION),
             depth +
               Math.abs(corner.dot(right)) /
-                (Math.tan(horizontalFov / 2) * 0.84),
+                (Math.tan(horizontalFov / 2) * FIT_FRAME_FRACTION),
           );
         }
       }
@@ -623,7 +737,7 @@ export function createRoomView(room, onSelect, layoutSeed) {
         Math.max(
           spanX / artwork.geometry.parameters.width,
           spanY / artwork.geometry.parameters.height,
-        ) * 1.07,
+        ) * ARTWORK_OVERSCAN,
       );
     }
   }
@@ -823,10 +937,18 @@ export function createRoomView(room, onSelect, layoutSeed) {
       }
       if (
         new Set(targets.map((target) => target.name)).size !== TARGET_COUNT ||
-        new Set(targets.map((target) => target.object.userData?.kind)).size !==
-          TARGET_COUNT
+        new Set(targets.map((target) => target.object.userData?.itemId))
+          .size !== TARGET_COUNT ||
+        targets.some(
+          (target) =>
+            typeof target.object.userData?.itemId !== "string" ||
+            typeof target.name !== "string" ||
+            !target.name,
+        )
       ) {
-        throw new Error("Room world targets must have unique names and kinds.");
+        throw new Error(
+          "Room world targets must have unique names and item ids.",
+        );
       }
       if (targets.some((target) => /\d+$/.test(target.name))) {
         throw new Error("Room world target names must not end with ordinals.");
