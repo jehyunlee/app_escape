@@ -2,6 +2,9 @@ import { languagePools } from "./language-questions.js";
 import { stemPools } from "./stem-questions.js";
 import { advancedLanguagePools } from "./advanced-language.js";
 import { advancedStemPools } from "./advanced-stem.js";
+import { dadScienceQuestions } from "./dad-science.js";
+import { dadAIQuestions } from "./dad-ai.js";
+import { dadHistoryQuestions } from "./dad-history.js";
 
 export const QUESTION_COUNT = 15;
 export const PASS_SCORE = 10;
@@ -80,19 +83,48 @@ const indexes = new Map(
     new Map(pool.map((question) => [question.id, question])),
   ]),
 );
+const dadTopics = ["science", "ai", "history"];
+const dadPools = {
+  science: dadScienceQuestions,
+  ai: dadAIQuestions,
+  history: dadHistoryQuestions,
+};
+const dadTopicNames = {
+  science: "과학·과학사",
+  ai: "AI 원리·역사",
+  history: "역사",
+};
+export function dadTopic(levelId) {
+  if (!Number.isInteger(levelId) || !levels[levelId - 1])
+    throw new RangeError("Unknown stage");
+  return dadTopics[(levelId - 1) % dadTopics.length];
+}
 export function playerTier(characterId, levelId) {
-  return characterId === "hunho"
-    ? "exam"
-    : characterId === "yewon"
-      ? levelId <= 5
-        ? "middle"
-        : "high1"
-      : "original";
+  return characterId === "dad"
+    ? "wikipedia"
+    : characterId === "hunho"
+      ? "exam"
+      : characterId === "yewon"
+        ? levelId <= 5
+          ? "middle"
+          : "high1"
+        : "original";
 }
 export function curriculum(levelId, characterId) {
   const base = levels[levelId - 1];
   if (!base) throw new RangeError("Unknown stage");
   const tier = playerTier(characterId, levelId);
+  if (tier === "wikipedia") {
+    const topic = dadTopic(levelId);
+    return {
+      id: base.id,
+      subject: `아빠 영어 독해 · ${dadTopicNames[topic]}`,
+      title: `Wikipedia · ${dadTopicNames[topic]}`,
+      intro:
+        "영어 Wikipedia 원문을 읽고, 지문 속 근거로 답을 골라요. 매일 갱신하지 않는 고정 문제은행이에요.",
+      spelling: false,
+    };
+  }
   if (tier === "original") return { ...base, spelling: levelId === 8 };
   const category = [1, 6, 8].includes(levelId)
     ? "영어 독해·회화"
@@ -110,6 +142,7 @@ export function curriculum(levelId, characterId) {
 }
 export function questionPool(levelId, characterId = null) {
   const tier = playerTier(characterId, levelId);
+  if (tier === "wikipedia") return dadPools[dadTopic(levelId)];
   if (tier !== "original") {
     if ([1, 6, 8].includes(levelId)) return advancedLanguagePools[tier];
     return advancedStemPools[tier][

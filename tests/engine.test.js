@@ -149,7 +149,8 @@ test("all six characters have correct grade routing across ten stages", () => {
       if (c.id === "yewon")
         assert.equal(playerTier(c.id, l), l <= 5 ? "middle" : "high1");
     }
-  assert.equal(curriculum(8, "dad").spelling, true);
+  assert.equal(curriculum(8, "dad").spelling, false);
+  assert.equal(curriculum(8, "mom").spelling, true);
 });
 test("new characters receive different question pools rather than relabeled elementary questions", () => {
   const ids = (c) => new Set(questionPool(2, c).map((q) => q.id));

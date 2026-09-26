@@ -1,0 +1,210 @@
+{
+  "attribution": "Wikipedia contributors",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "reuse": "Verbatim excerpts selected from the stored article extracts. See each article's revision URL for authorship and source history.",
+  "articles": [
+    {
+      "id": "ai-artificial-intelligence",
+      "title": "Artificial intelligence",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "revisionId": 1376681180,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376681180",
+      "revisionTimestamp": "2026-09-25T16:57:30Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics, and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximise their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, play and analysis in strategy games (e.g., chess and Go), and content generation (e.g., text, images, audio, and videos).\nThe traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI researchers use techniques including state space search and mathematical optimisation, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics. AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields. Some companies, such as OpenAI, Google DeepMind, and Meta, aim to create artificial general intelligence (AGI)—AI that can complete nearly any cognitive task at least as well as a human.\nArtificial intelligence was founded as an academic discipline in 1956. The field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest increased substantially after 2012, when graphics processing units (GPUs) started being used to accelerate neural networks, and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an AI boom coincided with advances in generative AI, which became widespread and allowed for the creation and modification of media. In addition to AI safety and unintended consequences and harms from the use of AI, ethical concerns, AI's long-term effects, environmental effects, and potential existential risks have prompted discussions of AI regulation."
+    },
+    {
+      "id": "ai-machine-learning",
+      "title": "Machine learning",
+      "url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "revisionId": 1376251196,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376251196",
+      "revisionTimestamp": "2026-09-23T01:33:14Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from  data and generalize to unseen data, and thus perform tasks without being explicitly programmed.\nStatistics and mathematical optimisation methods compose the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) through unsupervised learning.\nFrom a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.\nAdvances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance. The resulting dominance of machine learning within the field of AI from the late 2000s and early 2010s onwards was such that the terms \"machine learning\" and \"artificial intelligence\" are now often used interchangeably, even though they are not synonymous.\n\n"
+    },
+    {
+      "id": "ai-deep-learning",
+      "title": "Deep learning",
+      "url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "revisionId": 1373512453,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1373512453",
+      "revisionTimestamp": "2026-09-06T11:22:29Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers (ranging from three to several hundred or thousands) in the network. Methods used can be supervised, semi-supervised or unsupervised.\nSome common deep learning network architectures include fully connected networks, deep belief networks, recurrent neural networks, recurrent Random neural networks, convolutional neural networks, generative adversarial networks, transformers, and neural radiance fields. These architectures have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics, drug design, medical image analysis, climate science, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance.\nEarly forms of neural networks were inspired by information processing and distributed communication nodes in biological systems, particularly the human brain. However, current neural networks do not intend to model the brain function of organisms, and are generally seen as low-quality models for that purpose.\n\n"
+    },
+    {
+      "id": "ai-alphago",
+      "title": "AlphaGo",
+      "url": "https://en.wikipedia.org/wiki/AlphaGo",
+      "revisionId": 1371513984,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1371513984",
+      "revisionTimestamp": "2026-08-26T22:35:31Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "AlphaGo is a computer program that plays the board game Go. It was developed by the London-based DeepMind Technologies, an acquired subsidiary of Google. Subsequent versions of AlphaGo became increasingly powerful, including a version that competed under the name Master. After retiring from competitive play, AlphaGo Master was succeeded by an even more powerful version known as AlphaGo Zero, which was completely self-taught without learning from human games. AlphaGo Zero was then generalized into a program known as AlphaZero, which played additional games, including chess and shogi.  AlphaZero has in turn been succeeded by a program known as MuZero which learns without being taught the rules.\nAlphaGo and its successors use a Monte Carlo tree search algorithm to find its moves based on knowledge previously acquired by machine learning, specifically by an artificial neural network (a deep learning method) by extensive training, both from human and computer play. A neural network is trained to identify the best moves and the winning percentages of these moves. This neural network improves the strength of the tree search, resulting in stronger move selection in the next iteration.\nIn October 2015, in a match against Fan Hui, the original AlphaGo became the first computer Go program to beat a human professional Go player without handicap on a full-sized 19×19 board. In March 2016, it beat Lee Sedol in a five-game match, the first time a computer Go program has beaten a 9-dan professional without handicap. Although it lost to Lee Sedol in the fourth game, Lee resigned in the final game, giving a final score of 4 games to 1 in favour of AlphaGo. In recognition of the victory, AlphaGo was awarded an honorary 9-dan by the Korea Baduk Association. The lead up and the challenge match with Lee Sedol were documented in a documentary film also titled AlphaGo, directed by Greg Kohs. The win by AlphaGo was chosen by Science as one of the Breakthrough of the Year runners-up on 22 December 2016.\nAt the 2017 Future of Go Summit, the Master version of AlphaGo beat Ke Jie, the number one ranked player in the world at the time, in a three-game match, after which AlphaGo was awarded professional 9-dan by the Chinese Weiqi Association.\nAfter the match between AlphaGo and Ke Jie, DeepMind retired AlphaGo, while continuing AI research in other areas. The self-taught AlphaGo Zero achieved a 100–0 victory against the early competitive version of AlphaGo, and its successor AlphaZero was perceived as the world's top player in Go by the end of the 2010s."
+    },
+    {
+      "id": "ai-eliza",
+      "title": "ELIZA",
+      "url": "https://en.wikipedia.org/wiki/ELIZA",
+      "revisionId": 1374884270,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374884270",
+      "revisionTimestamp": "2026-09-14T16:52:56Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "ELIZA is an early natural language processing computer program developed from 1964 to 1967 at MIT by Joseph Weizenbaum. Created to explore communication between humans and machines, ELIZA simulated conversation by using a pattern matching and substitution methodology that gave users an illusion of understanding on the part of the program, but gave no response that could be considered really understanding what was being said by either party. Whereas the ELIZA program itself was written (originally) in MAD-SLIP, the pattern matching directives that contained most of its language capability were provided in separate \"scripts\", represented in a Lisp-like expression. The most famous script, DOCTOR, simulated a psychotherapist of the Rogerian school (in which the therapist often reflects back the patient's words to the patient), and used rules, dictated in the script, to respond with non-directional questions to user inputs. As such, ELIZA was one of the first chatbots (originally \"chatterbots\") and one of the first programs capable of attempting the Turing test.\nWeizenbaum intended the program as a method to explore communication between humans and machines. He was surprised that some people, including his secretary, attributed human-like feelings to the computer program, a phenomenon that came to be called the ELIZA effect. Many academics believed that the program would be able to positively influence the lives of many people, particularly those with psychological issues, and that it could aid doctors working on such patients' treatment. While ELIZA was capable of engaging in discourse, it could not converse with true understanding. However, many early users were convinced of ELIZA's intelligence and understanding, despite Weizenbaum's insistence to the contrary. \nThe original ELIZA source code had been missing since its creation in the 1960s, as it was not common to publish articles that included source code at that time. However, in 2021 the MAD-SLIP source code was discovered in the MIT archives and published on various platforms, such as the Internet Archive. The source code is of high historical interest since it demonstrates not only the specificity of programming languages and techniques at that time, but also the beginning of software layering and abstraction as a means of achieving sophisticated software programming.\n\n"
+    },
+    {
+      "id": "ai-turing-test",
+      "title": "Turing test",
+      "url": "https://en.wikipedia.org/wiki/Turing_test",
+      "revisionId": 1374125371,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374125371",
+      "revisionTimestamp": "2026-09-10T00:38:29Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "The Turing test was designed by Alan Turing to assess a machine's ability to exhibit intelligent behaviour equivalent to that of a human by imitating interactive dialogue. In the modern version, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the original (verbal) version generalizes naturally to all of human performance capacity, including nonverbal (robotic).\nThe test was introduced as the imitation game by Turing in his 1950 paper \"Computing Machinery and Intelligence\" while working at the University of Manchester. It opens with the words: \"I propose to consider the question, 'Can machines think?'.\" Because \"thinking\" is difficult to define, Turing chooses to \"replace the question by another, which is closely related to it and is expressed in relatively unambiguous words\". Turing describes the new form of the problem in terms of a three-person party game called the \"imitation game\", in which an interrogator asks questions of a man and a woman in another room in order to determine the correct sex of the two players. Turing's new question is: \"Are there imaginable digital computers which would do well in the imitation game?\" This question, Turing believed, was one that could actually be answered. In the remainder of the paper, he argued against the major objections to the proposition that \"machines can think\".\nSince Turing introduced his test, it has been highly influential in the philosophy of artificial intelligence, resulting in substantial discussion and controversy, as well as criticism from philosophers like John Searle, who argue against the test's ability to detect consciousness."
+    },
+    {
+      "id": "ai-ai-winter",
+      "title": "AI winter",
+      "url": "https://en.wikipedia.org/wiki/AI_winter",
+      "revisionId": 1374895630,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374895630",
+      "revisionTimestamp": "2026-09-14T18:20:45Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "In the history of artificial intelligence (AI), an AI winter is a period of reduced funding and interest in AI research. The field has experienced several hype cycles, followed by disappointment and criticism, followed by funding cuts, followed by renewed interest years or even decades later.\nThe term first appeared in 1984 as the topic of a public debate at the annual meeting of AAAI (then called the \"American Association of Artificial Intelligence\"). Roger Schank and Marvin Minsky—two leading AI researchers who experienced the \"winter\" of the 1970s—warned the business community that enthusiasm for AI had spiraled out of control in the 1980s and that disappointment would certainly follow. They described a chain reaction, similar to a \"nuclear winter\", that would begin with pessimism in the AI community, followed by pessimism in the press, followed by a severe cutback in funding, followed by the end of serious research. Three years later the billion-dollar AI industry began to collapse.\nThere were two major \"winters\", which lasted approximately from 1974–1980 and 1987–2000, and several smaller episodes, including the following:\n\n1966: failure of machine translation\n1969: criticism of perceptrons (early, single-layer artificial neural networks)\n1971–75: DARPA's frustration with the Speech Understanding Research program at Carnegie Mellon University\n1973: large decrease in AI research in the United Kingdom in response to the Lighthill report\n1973–74: DARPA's cutbacks to academic AI research in general\n1987: collapse of the LISP machine market\n1988: cancellation of new spending on AI by the Strategic Computing Initiative\n1990s: many expert systems were abandoned\n1990s: end of the Fifth Generation computer project's original goals\nEnthusiasm and optimism about AI has generally increased since its low point in the early 1990s. Beginning about 2012, interest in artificial intelligence (and especially the sub-field of machine learning) from the research and corporate communities led to a dramatic increase in funding and investment, leading to the current (as of 2026) AI boom."
+    },
+    {
+      "id": "ai-expert-system",
+      "title": "Expert system",
+      "url": "https://en.wikipedia.org/wiki/Expert_system",
+      "revisionId": 1376006928,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376006928",
+      "revisionTimestamp": "2026-09-21T12:32:00Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "In artificial intelligence (AI), an expert system is a computer system emulating the decision-making ability of a human expert.\nExpert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code.  Expert systems were among the first truly successful forms of AI software. They were created in the 1970s and then proliferated in the 1980s, being then widely regarded as the future of AI before the advent of successful artificial neural networks.\nAn expert system is divided into two subsystems: 1) a knowledge base, which represents facts and rules; and 2) an inference engine, which applies the rules to the known facts to deduce new facts, and can include explaining and debugging abilities."
+    },
+    {
+      "id": "ai-large-language-model",
+      "title": "Large language model",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "revisionId": 1376616067,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1376616067",
+      "revisionTimestamp": "2026-09-25T05:43:16Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate, and analyze text in many contexts. They are the basis for many modern chatbots, such as ChatGPT, Claude, Gemini, Grok, and DeepSeek.\nLLMs are typically based on transformer architecture. Generative pre-trained transformers (GPTs) are a type of LLM that is pre-trained to predict the next word. GPTs are then often fine-tuned to follow instructions and to behave as assistants.\nBiased or inaccurate training data can make an LLM's output less reliable. Benchmark evaluations for LLMs attempt to measure model reasoning, factual accuracy, alignment, and safety.\n\n"
+    },
+    {
+      "id": "ai-computer-vision",
+      "title": "Computer vision",
+      "url": "https://en.wikipedia.org/wiki/Computer_vision",
+      "revisionId": 1372994537,
+      "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1372994537",
+      "revisionTimestamp": "2026-09-03T11:34:52Z",
+      "retrievedAt": "2026-09-26T11:51:12Z",
+      "extract": "Computer vision tasks include methods for acquiring, processing, analyzing, and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information, e.g. in the form of decisions. \"Understanding\" in this context signifies the transformation of visual images into descriptions of the world that make sense to thought processes and can elicit appropriate action. This image understanding can be seen as the disentangling of symbolic information from image data using models constructed with the aid of geometry, physics, statistics, and learning theory.\nThe scientific discipline of computer vision is concerned with the theory behind artificial systems that extract information from images. Image data can take many forms, such as video sequences, views from multiple cameras, multi-dimensional data from a 3D scanner, 3D point clouds from LiDaR sensors, or medical scanning devices. The technological discipline of computer vision seeks to apply its theories and models to the construction of computer vision systems.\nSubdisciplines of computer vision include scene reconstruction, object detection, event detection, activity recognition, video tracking, object recognition, 3D pose estimation, learning, indexing, motion estimation, visual servoing, 3D scene modeling, and image restoration."
+    }
+  ],
+  "passages": [
+    {
+      "id": "ai-definition",
+      "articleId": "ai-artificial-intelligence",
+      "text": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics, and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximise their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, play and analysis in strategy games (e.g., chess and Go), and content generation (e.g., text, images, audio, and videos).\nThe traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI researchers use techniques including state space search and mathematical optimisation, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics."
+    },
+    {
+      "id": "ai-history",
+      "articleId": "ai-artificial-intelligence",
+      "text": "Some companies, such as OpenAI, Google DeepMind, and Meta, aim to create artificial general intelligence (AGI)—AI that can complete nearly any cognitive task at least as well as a human.\nArtificial intelligence was founded as an academic discipline in 1956. The field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest increased substantially after 2012, when graphics processing units (GPUs) started being used to accelerate neural networks, and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an AI boom coincided with advances in generative AI, which became widespread and allowed for the creation and modification of media. In addition to AI safety and unintended consequences and harms from the use of AI, ethical concerns, AI's long-term effects, environmental effects, and potential existential risks have prompted discussions of AI regulation."
+    },
+    {
+      "id": "ml-foundations",
+      "articleId": "ai-machine-learning",
+      "text": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from  data and generalize to unseen data, and thus perform tasks without being explicitly programmed.\nStatistics and mathematical optimisation methods compose the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) through unsupervised learning.\nFrom a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning."
+    },
+    {
+      "id": "ml-deep",
+      "articleId": "ai-machine-learning",
+      "text": "Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.\nAdvances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance. The resulting dominance of machine learning within the field of AI from the late 2000s and early 2010s onwards was such that the terms \"machine learning\" and \"artificial intelligence\" are now often used interchangeably, even though they are not synonymous."
+    },
+    {
+      "id": "dl-basics",
+      "articleId": "ai-deep-learning",
+      "text": "In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers (ranging from three to several hundred or thousands) in the network. Methods used can be supervised, semi-supervised or unsupervised."
+    },
+    {
+      "id": "dl-uses",
+      "articleId": "ai-deep-learning",
+      "text": "Some common deep learning network architectures include fully connected networks, deep belief networks, recurrent neural networks, recurrent Random neural networks, convolutional neural networks, generative adversarial networks, transformers, and neural radiance fields. These architectures have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics, drug design, medical image analysis, climate science, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance.\nEarly forms of neural networks were inspired by information processing and distributed communication nodes in biological systems, particularly the human brain."
+    },
+    {
+      "id": "alphago-evolution",
+      "articleId": "ai-alphago",
+      "text": "AlphaGo is a computer program that plays the board game Go. It was developed by the London-based DeepMind Technologies, an acquired subsidiary of Google. Subsequent versions of AlphaGo became increasingly powerful, including a version that competed under the name Master. After retiring from competitive play, AlphaGo Master was succeeded by an even more powerful version known as AlphaGo Zero, which was completely self-taught without learning from human games. AlphaGo Zero was then generalized into a program known as AlphaZero, which played additional games, including chess and shogi.  AlphaZero has in turn been succeeded by a program known as MuZero which learns without being taught the rules.\nAlphaGo and its successors use a Monte Carlo tree search algorithm to find its moves based on knowledge previously acquired by machine learning, specifically by an artificial neural network (a deep learning method) by extensive training, both from human and computer play. A neural network is trained to identify the best moves and the winning percentages of these moves."
+    },
+    {
+      "id": "alphago-matches",
+      "articleId": "ai-alphago",
+      "text": "In October 2015, in a match against Fan Hui, the original AlphaGo became the first computer Go program to beat a human professional Go player without handicap on a full-sized 19×19 board. In March 2016, it beat Lee Sedol in a five-game match, the first time a computer Go program has beaten a 9-dan professional without handicap. Although it lost to Lee Sedol in the fourth game, Lee resigned in the final game, giving a final score of 4 games to 1 in favour of AlphaGo. In recognition of the victory, AlphaGo was awarded an honorary 9-dan by the Korea Baduk Association. The lead up and the challenge match with Lee Sedol were documented in a documentary film also titled AlphaGo, directed by Greg Kohs. The win by AlphaGo was chosen by Science as one of the Breakthrough of the Year runners-up on 22 December 2016."
+    },
+    {
+      "id": "eliza-design",
+      "articleId": "ai-eliza",
+      "text": "ELIZA is an early natural language processing computer program developed from 1964 to 1967 at MIT by Joseph Weizenbaum. Created to explore communication between humans and machines, ELIZA simulated conversation by using a pattern matching and substitution methodology that gave users an illusion of understanding on the part of the program, but gave no response that could be considered really understanding what was being said by either party. Whereas the ELIZA program itself was written (originally) in MAD-SLIP, the pattern matching directives that contained most of its language capability were provided in separate \"scripts\", represented in a Lisp-like expression. The most famous script, DOCTOR, simulated a psychotherapist of the Rogerian school (in which the therapist often reflects back the patient's words to the patient), and used rules, dictated in the script, to respond with non-directional questions to user inputs."
+    },
+    {
+      "id": "eliza-reception",
+      "articleId": "ai-eliza",
+      "text": "Weizenbaum intended the program as a method to explore communication between humans and machines. He was surprised that some people, including his secretary, attributed human-like feelings to the computer program, a phenomenon that came to be called the ELIZA effect. Many academics believed that the program would be able to positively influence the lives of many people, particularly those with psychological issues, and that it could aid doctors working on such patients' treatment. While ELIZA was capable of engaging in discourse, it could not converse with true understanding. However, many early users were convinced of ELIZA's intelligence and understanding, despite Weizenbaum's insistence to the contrary. \nThe original ELIZA source code had been missing since its creation in the 1960s, as it was not common to publish articles that included source code at that time."
+    },
+    {
+      "id": "turing-mechanics",
+      "articleId": "ai-turing-test",
+      "text": "The Turing test was designed by Alan Turing to assess a machine's ability to exhibit intelligent behaviour equivalent to that of a human by imitating interactive dialogue. In the modern version, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human."
+    },
+    {
+      "id": "turing-origins",
+      "articleId": "ai-turing-test",
+      "text": "The test was introduced as the imitation game by Turing in his 1950 paper \"Computing Machinery and Intelligence\" while working at the University of Manchester. It opens with the words: \"I propose to consider the question, 'Can machines think?'.\" Because \"thinking\" is difficult to define, Turing chooses to \"replace the question by another, which is closely related to it and is expressed in relatively unambiguous words\". Turing describes the new form of the problem in terms of a three-person party game called the \"imitation game\", in which an interrogator asks questions of a man and a woman in another room in order to determine the correct sex of the two players. Turing's new question is: \"Are there imaginable digital computers which would do well in the imitation game?\" This question, Turing believed, was one that could actually be answered. In the remainder of the paper, he argued against the major objections to the proposition that \"machines can think\"."
+    },
+    {
+      "id": "winter-definition",
+      "articleId": "ai-ai-winter",
+      "text": "In the history of artificial intelligence (AI), an AI winter is a period of reduced funding and interest in AI research. The field has experienced several hype cycles, followed by disappointment and criticism, followed by funding cuts, followed by renewed interest years or even decades later.\nThe term first appeared in 1984 as the topic of a public debate at the annual meeting of AAAI (then called the \"American Association of Artificial Intelligence\"). Roger Schank and Marvin Minsky—two leading AI researchers who experienced the \"winter\" of the 1970s—warned the business community that enthusiasm for AI had spiraled out of control in the 1980s and that disappointment would certainly follow. They described a chain reaction, similar to a \"nuclear winter\", that would begin with pessimism in the AI community, followed by pessimism in the press, followed by a severe cutback in funding, followed by the end of serious research."
+    },
+    {
+      "id": "winter-cycles",
+      "articleId": "ai-ai-winter",
+      "text": "There were two major \"winters\", which lasted approximately from 1974–1980 and 1987–2000, and several smaller episodes, including the following:\n\n1966: failure of machine translation\n1969: criticism of perceptrons (early, single-layer artificial neural networks)\n1971–75: DARPA's frustration with the Speech Understanding Research program at Carnegie Mellon University\n1973: large decrease in AI research in the United Kingdom in response to the Lighthill report\n1973–74: DARPA's cutbacks to academic AI research in general\n1987: collapse of the LISP machine market\n1988: cancellation of new spending on AI by the Strategic Computing Initiative\n1990s: many expert systems were abandoned\n1990s: end of the Fifth Generation computer project's original goals\nEnthusiasm and optimism about AI has generally increased since its low point in the early 1990s."
+    },
+    {
+      "id": "expert-overview",
+      "articleId": "ai-expert-system",
+      "text": "In artificial intelligence (AI), an expert system is a computer system emulating the decision-making ability of a human expert.\nExpert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code.  Expert systems were among the first truly successful forms of AI software. They were created in the 1970s and then proliferated in the 1980s, being then widely regarded as the future of AI before the advent of successful artificial neural networks."
+    },
+    {
+      "id": "expert-subsystems",
+      "articleId": "ai-expert-system",
+      "text": "Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code.  Expert systems were among the first truly successful forms of AI software. They were created in the 1970s and then proliferated in the 1980s, being then widely regarded as the future of AI before the advent of successful artificial neural networks.\nAn expert system is divided into two subsystems: 1) a knowledge base, which represents facts and rules; and 2) an inference engine, which applies the rules to the known facts to deduce new facts, and can include explaining and debugging abilities."
+    },
+    {
+      "id": "llm-overview",
+      "articleId": "ai-large-language-model",
+      "text": "A large language model (LLM) is an AI model (typically a neural network) trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate, and analyze text in many contexts. They are the basis for many modern chatbots, such as ChatGPT, Claude, Gemini, Grok, and DeepSeek.\nLLMs are typically based on transformer architecture. Generative pre-trained transformers (GPTs) are a type of LLM that is pre-trained to predict the next word."
+    },
+    {
+      "id": "llm-limitations",
+      "articleId": "ai-large-language-model",
+      "text": "They are the basis for many modern chatbots, such as ChatGPT, Claude, Gemini, Grok, and DeepSeek.\nLLMs are typically based on transformer architecture. Generative pre-trained transformers (GPTs) are a type of LLM that is pre-trained to predict the next word. GPTs are then often fine-tuned to follow instructions and to behave as assistants.\nBiased or inaccurate training data can make an LLM's output less reliable. Benchmark evaluations for LLMs attempt to measure model reasoning, factual accuracy, alignment, and safety."
+    },
+    {
+      "id": "vision-overview",
+      "articleId": "ai-computer-vision",
+      "text": "Computer vision tasks include methods for acquiring, processing, analyzing, and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information, e.g. in the form of decisions. \"Understanding\" in this context signifies the transformation of visual images into descriptions of the world that make sense to thought processes and can elicit appropriate action. This image understanding can be seen as the disentangling of symbolic information from image data using models constructed with the aid of geometry, physics, statistics, and learning theory."
+    },
+    {
+      "id": "vision-disciplines",
+      "articleId": "ai-computer-vision",
+      "text": "The scientific discipline of computer vision is concerned with the theory behind artificial systems that extract information from images. Image data can take many forms, such as video sequences, views from multiple cameras, multi-dimensional data from a 3D scanner, 3D point clouds from LiDaR sensors, or medical scanning devices. The technological discipline of computer vision seeks to apply its theories and models to the construction of computer vision systems.\nSubdisciplines of computer vision include scene reconstruction, object detection, event detection, activity recognition, video tracking, object recognition, 3D pose estimation, learning, indexing, motion estimation, visual servoing, 3D scene modeling, and image restoration."
+    }
+  ]
+}

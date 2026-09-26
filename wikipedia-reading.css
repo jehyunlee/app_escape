@@ -1,0 +1,77 @@
+.wikipedia-reading {
+  margin: 14px 0 22px;
+  padding: 20px;
+  border: 1px solid #77848b66;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #20333dcc, #18262de8);
+  min-width: 0;
+}
+.reading-kicker {
+  margin: 0 0 7px;
+  color: var(--gold);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+.wikipedia-reading h4 {
+  margin: 0 0 14px;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #f0e2c7;
+  overflow-wrap: anywhere;
+}
+.reading-passage {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.9;
+  color: #edf0ee;
+  overflow-wrap: anywhere;
+}
+.reading-passage p {
+  margin: 0 0 12px;
+}
+.reading-passage p:last-child {
+  margin-bottom: 0;
+}
+.reading-attribution {
+  display: grid;
+  gap: 7px;
+  margin: 16px 0 0;
+  padding: 13px 0 0;
+  border-top: 1px solid #7b8b9666;
+  text-align: left;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.reading-attribution a {
+  color: #d9c395;
+  text-underline-offset: 3px;
+}
+.reading-attribution a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+[data-character-id="dad"] .character-grade-badge {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+@media (max-width: 650px) {
+  .wikipedia-reading {
+    padding: 14px 12px;
+  }
+  .reading-passage {
+    font-size: 14px;
+    line-height: 1.85;
+  }
+  .wikipedia-reading h4 {
+    font-size: 18px;
+  }
+  .reading-attribution {
+    font-size: 10px;
+  }
+}

@@ -14,6 +14,7 @@ import {
 } from "./characters.js";
 import { playTravel } from "./travel.js";
 import { createRoomView } from "./room-renderer.js";
+import { wikipediaReadingMarkup } from "./wikipedia-reading.js";
 import {
   rooms,
   currentRoom,
@@ -75,7 +76,7 @@ const categoryNames = {
 };
 
 const characterGrades = {
-  dad: "기본 과정",
+  dad: "Wikipedia 영어 · 과학·AI·역사",
   mom: "기본 과정",
   jeongan: "기본 과정",
   suan: "기본 과정",
@@ -435,6 +436,13 @@ function renderQuestion() {
     : `<p class="answer-rule">답을 신중하게 골라요. 한 문제당 한 번 채점해요.</p><div class="answers">${question.options.map((option, i) => `<button class="answer" data-answer="${i}"><span class="answer-key" aria-hidden="true">${i + 1}</span><span>${escape(option)}</span></button>`).join("")}</div>`;
   $("#question-content").innerHTML =
     `<div class="quiz-score"><span>푼 문제 <strong>${count} / ${capacity}</strong></span><span>남은 문제 <strong>${remainingQuestions(state)}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div><progress class="quiz-progress" value="${count}" max="${capacity}" aria-label="푼 문제 수"></progress><div class="question-meta"><span>사물 ${index + 1} · ${escape(level.title)}</span><span class="reward-badge">${difficulty} · 정답 +2 GOLD / 오답 −1 GOLD</span></div><h3 id="question-prompt" class="question-prompt">${escape(question.prompt)}</h3>${answers}<div id="feedback" aria-live="polite" aria-atomic="true"></div>`;
+  if (question.passage) {
+    $("#question-prompt").insertAdjacentHTML(
+      "beforebegin",
+      wikipediaReadingMarkup(question),
+    );
+    $("#question-prompt").setAttribute("lang", "en");
+  }
   if (state.feedback) {
     const answer = state.answers[index],
       correct = answer === question.answer;
@@ -468,7 +476,9 @@ function renderQuestion() {
             ? $("#gameover-heading")
             : $("#continue-button");
       nextPrompt?.focus({
-        preventScroll: !["rescue", "gameover"].includes(result.state.phase),
+        preventScroll:
+          !question.passage &&
+          !["rescue", "gameover"].includes(result.state.phase),
       });
     }
   };

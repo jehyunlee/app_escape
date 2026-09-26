@@ -74,6 +74,17 @@ const { chromium } = require("playwright");
       "objects must use both axes rather than cluster in the centre",
     );
     assert.ok(spread.labels.every((label) => !label.includes("변형")));
+    await page.locator('[data-room-object="0"]').click();
+    await page.locator(".wikipedia-reading").waitFor();
+    assert.ok(
+      (await page.locator(".reading-passage").innerText()).length > 150,
+    );
+    assert.equal(await page.locator(".reading-attribution a").count(), 3);
+    assert.match(
+      await page.locator(".reading-attribution a").first().getAttribute("href"),
+      /en\.wikipedia\.org\/w\/index\.php\?oldid=/,
+    );
+    await page.keyboard.press("Escape");
     assert.equal(
       await page.evaluate(
         () => JSON.parse(localStorage.getItem("headache-escape-v8")).version,
