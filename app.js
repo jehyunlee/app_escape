@@ -1,4 +1,11 @@
-import { levels, questionPool, QUESTION_COUNT, PASS_SCORE } from "./levels.js";
+import {
+  levels,
+  curriculum,
+  questionPool,
+  QUESTION_COUNT,
+  PASS_SCORE,
+  CLUE_THRESHOLDS,
+} from "./levels.js";
 import { catalog, avatarMarkup, preloadCharacterArt } from "./avatar.js";
 import {
   characters,
@@ -14,11 +21,11 @@ import {
   destinationRoom,
   destinationChoices,
   stageNarrative,
+  EXIT_ROOM,
 } from "./rooms.js";
 import {
   SAVE_KEY,
   SAVE_VERSION,
-  POINTS,
   freshState,
   restoreState,
   score,
@@ -33,7 +40,9 @@ import {
   retryStage,
   openDestination,
   chooseDestination,
-  openWardrobe,
+  startStage,
+  takePhoto,
+  deletePhoto,
   purchaseItem,
   equipItem,
   beginTravel,
@@ -53,19 +62,32 @@ const escape = (value) =>
       ],
   );
 const categoryNames = {
-  eyes: "눈색",
-  skin: "피부색",
-  clothes: "옷",
-  accessory: "액세서리",
+  hat: "모자",
+  necklace: "목걸이",
+  cloak: "망토",
+  wand: "마법지팡이",
+  broom: "빗자루",
+  gloves: "장갑",
+  pants: "바지",
+  vest: "조끼",
 };
-const SLOT_KEY = "headache-escape-slots-v2";
-const SLOT_COUNT = 5;
+const characterGrades = {
+  dad: "기본 과정",
+  mom: "기본 과정",
+  jeongan: "기본 과정",
+  suan: "기본 과정",
+  yewon: "중3 · 고1",
+  hunho: "수능 대비",
+};
+const SLOT_KEY = "headache-escape-slots-v4";
+const SLOT_COUNT = 10;
 let state = freshState();
 let canSave = true;
 let slotMode = "save";
 let traveling = false;
 let pendingItem = null;
-let shopCategory = "eyes";
+let shopCategory = "hat";
+let trialItem = null;
 let pendingCharacter = null;
 let roomView = null;
 let roomViewLevel = null;
@@ -143,7 +165,7 @@ function renderSlots(message = "") {
     slotMode === "save" ? "게임 저장" : "게임 불러오기";
   $("#save-dialog-description").textContent =
     slotMode === "save"
-      ? "현재 진행을 이 브라우저에 최대 5개까지 저장할 수 있어요."
+      ? "플레이어·GOLD·의상·포토북·진행을 이 브라우저의 10개 슬롯에 저장해요."
       : "이 브라우저에 저장한 진행을 불러와요.";
   $("#slot-status").textContent = message;
   $("#save-slots").innerHTML = slots
@@ -187,6 +209,8 @@ function renderSlots(message = "") {
         return;
       $("#save-dialog").close();
       pendingCharacter = null;
+      trialItem = null;
+      pendingItem = null;
       update(restoreState(JSON.stringify(entry.state)));
     };
   });
@@ -213,7 +237,7 @@ function update(next, moveFocus = true) {
 }
 function renderStatus() {
   $("#save-status").textContent = canSave
-    ? "탐험 경로·점수·포인트·의상이 이 브라우저에 자동 저장돼요."
+    ? "플레이어·GOLD·의상·포토북이 이 브라우저에 저장돼요. 다른 기기로 자동 공유되지 않아요."
     : "저장 공간을 사용할 수 없어요. 창을 닫으면 진행이 사라질 수 있어요.";
 }
 function chips(items) {
@@ -224,7 +248,7 @@ function chips(items) {
 function renderSidebars() {
   const items = inventory(state);
   $("#bag-count").textContent = items.length;
-  $("#point-count").textContent = state.points;
+  $("#point-count").textContent = state.gold;
   $("#player-avatar").innerHTML = state.characterId
     ? avatarMarkup(state.equipped, state.characterId, avatarMood(state))
     : '<span class="character-unselected" aria-hidden="true">?</span>';
@@ -235,9 +259,9 @@ function renderSidebars() {
   $("#player-portrait").innerHTML = character
     ? portraitMarkup(state.characterId)
     : "";
-  $("#player-points").textContent = `${state.points} P`;
+  $("#player-points").textContent = `${state.gold} GOLD`;
   $("#progress-label").textContent =
-    `${state.phase === "complete" ? 10 : state.level} / 10개의 방 탈출 완료`;
+    `${state.phase === "complete" ? levels.length : state.level} / ${levels.length}개의 방 탈출 완료`;
   $("#level-map").innerHTML = levels
     .map(
       (level, index) =>
@@ -247,7 +271,7 @@ function renderSidebars() {
   const current = items.filter((item) => item.level === levels[state.level].id);
   $("#current-clues").innerHTML = current.length
     ? chips(current)
-    : '<span class="empty-clue">정답 5개마다 단서를 하나씩 찾아요.</span>';
+    : `<span class="empty-clue">정답 ${CLUE_THRESHOLDS.join("·")}개에 단서를 얻어요.</span>`;
   $("#bag-content").innerHTML = items.length
     ? levels
         .filter((level) => items.some((item) => item.level === level.id))
@@ -256,7 +280,7 @@ function renderSidebars() {
             `<section class="bag-group"><h3>LEVEL ${level.id} · ${escape(roomById(state.route[level.id - 1]).name)}</h3>${chips(items.filter((item) => item.level === level.id))}</section>`,
         )
         .join("")
-    : "<p>가방이 비어 있어요. 정답 5개를 모으면 첫 단서를 얻어요.</p>";
+    : `<p>정답 ${CLUE_THRESHOLDS.join("·")}개에 단서를 얻어요.</p>`;
   renderStatus();
 }
 function renderGame(moveFocus = false) {
@@ -282,14 +306,14 @@ function renderGame(moveFocus = false) {
     renderCharacterSelection();
   } else if (state.phase === "complete") {
     $("#game").innerHTML =
-      `<div class="victory"><div class="victory-seal" aria-hidden="true">10</div><p class="eyebrow">MISSION COMPLETE</p><h2 tabindex="-1">호그와트 탈출 성공!</h2><p>모든 스테이지에서 20문제 중 15개 이상 맞혔어요.<br>200문제의 도전을 넘어 성 밖 정원에 도착했어요.<br>모은 단서 ${inventory(state).length}개 · 누적 획득 ${state.earned} P</p><div class="victory-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><ol class="score-records">${state.records.map((record, index) => `<li>${escape(roomById(state.route[index]).name)} <strong>${record.score}/20</strong> · ${record.attempt + 1}번째 도전</li>`).join("")}</ol><button class="primary" id="victory-bag">모은 단서 돌아보기</button></div>`;
+      `<div class="victory"><div class="victory-seal" aria-hidden="true">${levels.length}</div><p class="eyebrow">MISSION COMPLETE</p><h2 tabindex="-1">호그와트 탈출 성공!</h2><p>모든 방에서 정답 ${PASS_SCORE}개를 맞혀 탈출했어요.<br>모은 단서 ${inventory(state).length}개 · 누적 획득 ${state.earned} GOLD</p><div class="victory-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><ol class="score-records">${state.records.map((record, index) => `<li>${escape(roomById(state.route[index]).name)} <strong>정답 ${record.score}개 / 풀이 ${record.answered}개</strong> · ${record.attempt + 1}번째 도전</li>`).join("")}</ol><button class="primary" id="victory-bag">모은 단서 돌아보기</button></div>`;
     $("#victory-bag").onclick = () => $("#bag-dialog").showModal();
   } else {
-    const level = levels[state.level];
+    const level = curriculum(state.level + 1, state.characterId);
     const room = currentRoom(state);
     $("#game").innerHTML =
-      `<div class="room-heading" style="--room-accent:${room.accent}"><div><span class="level-badge">LEVEL ${String(level.id).padStart(2, "0")} / 10 · ${state.attempt + 1}번째 도전</span><h2 tabindex="-1">${escape(room.name)}</h2></div><span class="subject-badge">${escape(level.subject)}</span></div><div class="question-body"><div id="challenge"></div></div>`;
-    if (state.phase === "quiz") {
+      `<div class="room-heading" style="--room-accent:${room.accent}"><div><span class="level-badge">LEVEL ${String(level.id).padStart(2, "0")} / ${levels.length} · ${state.attempt + 1}번째 도전</span><h2 tabindex="-1">${escape(room.name)}</h2></div><span class="subject-badge">${escape(level.subject)}</span></div><div class="question-body"><div id="challenge"></div></div>`;
+    if (state.phase === "quiz" || state.feedback) {
       renderRoom();
       if (state.selected !== null) {
         renderQuestion();
@@ -300,11 +324,11 @@ function renderGame(moveFocus = false) {
       }
     } else if (state.phase === "result") renderResult();
     else if (state.phase === "destination") renderDestination();
-    else if (state.phase === "outfit") renderOutfit();
+    else if (state.phase === "departure") renderDeparture();
     else if (state.phase === "shop") renderShop();
     else if (state.phase === "travel") {
       $("#challenge").innerHTML =
-        `<h3>다음 목적지: ${escape(destinationRoom(state).name)}</h3><p class="intro">가방을 메고 3D 통로를 지나 다음 장소로 향해요.</p>`;
+        `<h3>이동 중</h3><p class="intro">가방과 함께 새로운 공간으로 향해요.</p>`;
       runTravel();
     }
     if (["result", "destination"].includes(state.phase)) {
@@ -333,9 +357,7 @@ function companionMarkup(extraClass = "") {
 }
 function renderCharacterSelection() {
   $("#game").innerHTML =
-    `<section class="character-selection"><p class="eyebrow">CHOOSE YOUR WIZARD</p><h2 tabindex="-1">누구와 모험을 떠날까요?</h2><p class="intro">캐릭터를 고르면 매번 새로운 문제 20개가 방 속 물건에 숨어요.<br>영어 스테이지는 중학교 3학년 수준이에요.</p><div class="character-grid" role="group" aria-label="모험 캐릭터 선택">${characters.map((character) => `<button class="character-option" data-character-id="${character.id}" aria-pressed="${pendingCharacter === character.id}">${wizardPortraitMarkup(character.id, state.equipped)}<strong>${escape(character.name)}</strong><small class="character-specialty">${escape(character.title)}</small></button>`).join("")}</div><p id="character-choice" role="status">${pendingCharacter ? `${escape(characters.find((character) => character.id === pendingCharacter).name)} 선택됨` : "함께할 캐릭터를 눌러 주세요."}</p><button id="start-adventure" class="primary" ${pendingCharacter ? "" : "disabled"}>선택한 캐릭터로 모험 시작</button></section>`;
-  $(".character-selection .intro").textContent =
-    `${rooms.length}개의 공간 중 매번 다른 10곳으로 모험을 떠나요. 방마다 새로운 20문제를 풀고 단서로 다음 목적지를 찾아요. 영어는 중학교 3학년 수준이에요.`;
+    `<section class="character-selection"><p class="eyebrow">CHOOSE YOUR WIZARD</p><h2 tabindex="-1">플레이어 선택 · ${characters.length}명</h2><p class="intro">${rooms.length}개 공간을 탐험하며 ${PASS_SCORE}개 정답에 바로 통과해요. 캐릭터별 맞춤 난이도로 모험을 시작해요.</p><div class="character-grid" role="group" aria-label="모험 캐릭터 선택">${characters.map((character) => `<button class="character-option" data-character-id="${character.id}" aria-pressed="${pendingCharacter === character.id}">${wizardPortraitMarkup(character.id, state.equipped)}<strong>${escape(character.name)}</strong><small class="character-specialty">${escape(character.title)}</small><span class="character-grade-badge">${escape(characterGrades[character.id] || "기본 과정")}</span></button>`).join("")}</div><p id="character-choice" role="status">${pendingCharacter ? `${escape(characters.find((character) => character.id === pendingCharacter).name)} 선택됨` : "함께할 캐릭터를 눌러 주세요."}</p><button id="start-adventure" class="primary" ${pendingCharacter ? "" : "disabled"}>선택한 캐릭터로 모험 시작</button></section>`;
   document.querySelectorAll("[data-character-id]").forEach((button) => {
     button.onclick = () => {
       pendingCharacter = button.dataset.characterId;
@@ -350,10 +372,10 @@ function renderCharacterSelection() {
     update(chooseCharacter(state, pendingCharacter));
 }
 function renderRoom() {
-  const level = levels[state.level];
+  const level = curriculum(state.level + 1, state.characterId);
   const room = currentRoom(state);
   $("#challenge").innerHTML =
-    `<p class="intro">${escape(room.description)}</p><p class="stage-narrative" data-stage-index="${state.level}">${escape(stageNarrative(state))}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>20개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / 20</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 15개</span></div>`;
+    `<p class="intro">${escape(room.description)}</p><p class="stage-narrative" data-stage-index="${state.level}">${escape(stageNarrative(state))}</p><p class="room-learning">${escape(level.intro)}</p><div class="scene-instructions"><span>${QUESTION_COUNT}개 물건 중 아무거나 골라 문제를 찾아요</span><small>문제은행 ${questionPool(level.id, state.characterId).length}개에서 추첨 · 푼 물건은 다시 선택할 수 없어요</small></div><div id="room-host" data-room-id="${room.id}" data-stage="${level.id}"></div><div class="quiz-score room-score"><span>찾아 푼 문제 <strong>${answeredCount(state)} / ${QUESTION_COUNT}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div>`;
   const host = $("#room-host");
   const frame = document.createElement("div");
   frame.className = "room-and-companion";
@@ -378,26 +400,26 @@ function renderRoom() {
   roomView.pause(state.selected !== null);
 }
 function renderQuestion() {
-  const level = levels[state.level];
-  const questionIndex = state.selected;
-  const count = answeredCount(state);
+  const level = curriculum(state.level + 1, state.characterId),
+    index = state.selected,
+    count = answeredCount(state);
   const question = state.feedback
-    ? questionForObject(state, questionIndex)
+    ? questionForObject(state, index)
     : currentQuestion(state);
-  const spelling = level.id === 8;
-  const labels = { 1: "쉬움", 2: "보통", 3: "도전" };
+  const difficulty = { 1: "쉬움", 2: "보통", 3: "도전" }[question.difficulty];
   $("#question-character").innerHTML = companionMarkup("question-companion");
+  const answers = level.spelling
+    ? '<form class="spell-form"><label for="spelling">영어 단어를 직접 써요. 답은 한 번만 제출할 수 있어요.</label><div class="spell-row"><input id="spelling" aria-labelledby="question-prompt" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="80" required><button class="primary" type="submit">정답 제출</button></div></form>'
+    : `<p class="answer-rule">답을 신중하게 골라요. 한 문제당 한 번 채점해요.</p><div class="answers">${question.options.map((option, i) => `<button class="answer" data-answer="${i}"><span class="answer-key" aria-hidden="true">${i + 1}</span><span>${escape(option)}</span></button>`).join("")}</div>`;
   $("#question-content").innerHTML =
-    `<div class="quiz-score"><span>진행 <strong>${answeredCount(state)} / 20</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 15개</span></div><progress class="quiz-progress" value="${answeredCount(state)}" max="20" aria-label="푼 문제 수"></progress><div class="question-meta"><span>${`사물 ${questionIndex + 1} · ${state.feedback ? count : count + 1}번째 풀이`} / 20 · ${escape(level.title)}</span><span class="reward-badge">${labels[question.difficulty]} · 정답 +${POINTS[question.difficulty]} P</span></div><h3 class="question-prompt" id="question-prompt">${escape(question.prompt)}</h3>${spelling ? '<form class="spell-form"><label for="spelling">영어 단어를 직접 써요. 한 번 제출하면 답을 바꿀 수 없어요.</label><div class="spell-row"><input id="spelling" aria-labelledby="question-prompt" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="80" required><button class="primary" type="submit">정답 제출</button></div></form>' : `<p class="answer-rule">한 문제당 한 번만 채점해요. 답을 신중하게 골라요.</p><div class="answers">${question.options.map((option, index) => `<button class="answer" data-answer="${index}"><span class="answer-key" aria-hidden="true">${index + 1}</span><span>${escape(option)}</span></button>`).join("")}</div>`}<div id="feedback" aria-live="polite" aria-atomic="true"></div>`;
+    `<div class="quiz-score"><span>푼 문제 <strong>${count} / ${QUESTION_COUNT}</strong></span><span>정답 <strong>${score(state)}개</strong> / 통과 ${PASS_SCORE}개</span></div><progress class="quiz-progress" value="${count}" max="${QUESTION_COUNT}" aria-label="푼 문제 수"></progress><div class="question-meta"><span>사물 ${index + 1} · ${escape(level.title)}</span><span class="reward-badge">${difficulty} · 정답 +2 GOLD / 오답 −1 GOLD</span></div><h3 id="question-prompt" class="question-prompt">${escape(question.prompt)}</h3>${answers}<div id="feedback" aria-live="polite" aria-atomic="true"></div>`;
   if (state.feedback) {
-    const answer = state.answers[questionIndex];
-    const correct = answer === question.answer;
+    const answer = state.answers[index],
+      correct = answer === question.answer;
     document
-      .querySelectorAll(".answer, .spell-form input, .spell-form button")
-      .forEach((element) => {
-        element.disabled = true;
-      });
-    if (spelling)
+      .querySelectorAll(".answer,.spell-form input,.spell-form button")
+      .forEach((element) => (element.disabled = true));
+    if (level.spelling)
       $("#spelling").value = correct
         ? question.options[question.answer]
         : "오답으로 제출됨";
@@ -406,22 +428,27 @@ function renderQuestion() {
       if (!correct && answer >= 0)
         $(`[data-answer="${answer}"]`).classList.add("wrong");
     }
+    const cleared = score(state) >= PASS_SCORE;
     $("#feedback").className = `feedback ${correct ? "good" : "bad"}`;
     $("#feedback").innerHTML =
-      `<p><strong>${correct ? `정답이에요! +${POINTS[question.difficulty]} P` : `이번에는 틀렸어요. 정답: ${escape(question.options[question.answer])}`}</strong><br>${escape(question.explanation)}</p><button class="primary" id="continue-button">${count === QUESTION_COUNT ? "스테이지 결과 보기" : "방으로 돌아가 다른 물건 고르기"}</button>`;
+      `<p><strong>${correct ? "정답이에요! +2 GOLD" : `아쉬워요. ${state.lastDelta} GOLD · 정답: ${escape(question.options[question.answer])}`}</strong><br>${escape(question.explanation)}</p>${cleared ? `<p class="instant-clear">${PASS_SCORE}개 정답! 남은 문제를 풀지 않아도 즉시 클리어예요.</p>` : ""}<button class="primary" id="continue-button">${cleared ? "단서로 다음 장소 찾기" : count === QUESTION_COUNT ? "스테이지 결과 보기" : "방으로 돌아가 다른 물건 고르기"}</button>`;
     $("#continue-button").onclick = () => update(continueQuiz(state));
     return;
   }
-  function submit(answer) {
+  const submit = (answer) => {
     const result = answerQuestion(state, answer);
-    if (!result.accepted) return;
-    update(result.state, false);
-    $("#continue-button").focus({ preventScroll: true });
-  }
-  document.querySelectorAll("[data-answer]").forEach((button) => {
-    button.onclick = () => submit(Number(button.dataset.answer));
-  });
-  if (spelling)
+    if (result.accepted) {
+      update(result.state, false);
+      $("#continue-button").focus({ preventScroll: true });
+    }
+  };
+  document
+    .querySelectorAll("[data-answer]")
+    .forEach(
+      (button) =>
+        (button.onclick = () => submit(Number(button.dataset.answer))),
+    );
+  if (level.spelling) {
     $(".spell-form").onsubmit = (event) => {
       event.preventDefault();
       const word = $("#spelling").value.trim().toLowerCase();
@@ -434,22 +461,22 @@ function renderQuestion() {
         question.options.findIndex((option) => option.toLowerCase() === word),
       );
     };
-  if (spelling)
     $("#spelling").oninput = () => $("#spelling").setCustomValidity("");
+  }
 }
 function renderResult() {
-  const correct = score(state);
-  const passed = correct >= PASS_SCORE;
+  const correct = score(state),
+    passed = correct >= PASS_SCORE;
   $("#challenge").innerHTML =
-    `<div class="stage-result ${passed ? "passed" : "retry"}"><p class="eyebrow">STAGE RESULT</p><h3>${passed ? "스테이지 통과!" : "새로운 문제로 다시 도전해요"}</h3><div class="result-score">${correct}<span> / 20</span></div><p>${passed ? "15개 이상 맞혔어요. 단서를 보고 다음 장소를 찾아요." : `15개 이상 맞혀야 통과해요. 이번에는 ${correct}개를 맞혔어요.<br>직전 도전과 겹치지 않는 다른 20문제로 다시 시작해요.`}</p><p class="intro">모은 포인트와 물건, 찾은 단서는 유지돼요.</p><button class="primary" id="result-button">${passed ? "다음 장소 찾기" : "다른 문제로 재도전"}</button></div>`;
+    `<div class="stage-result ${passed ? "passed" : "retry"}"><p class="eyebrow">STAGE RESULT</p><h3>${passed ? "스테이지 통과!" : "새로운 문제로 다시 도전해요"}</h3><div class="result-score">${correct}<span> / ${QUESTION_COUNT}</span></div><p>${passed ? `${PASS_SCORE}개 정답! 단서로 다음 장소를 찾아요.` : `이번에는 ${correct}개를 맞혔어요. 직전 도전과 겹치지 않는 ${QUESTION_COUNT}문제로 다시 도전해요.`}</p><p class="intro">모은 GOLD와 물건, 단서는 유지돼요.</p><button id="result-button" class="primary">${passed ? "다음 장소 찾기" : "다른 문제로 재도전"}</button></div>`;
   $("#result-button").onclick = () =>
     update(passed ? openDestination(state) : retryStage(state));
 }
 function renderDestination() {
-  const level = levels[state.level];
+  const level = curriculum(state.level + 1, state.characterId);
   const choices = destinationChoices(state);
   $("#challenge").innerHTML =
-    `<div class="question-meta"><span>${score(state)} / 20 정답 · 마지막 자물쇠 열림</span></div><h3 class="question-prompt">가방 속 단서가 가리키는 곳은?</h3><p>${chips(inventory(state).filter((item) => item.level === level.id))}</p><p class="destination-line">우리가 갈 곳은 <button class="blank-button" aria-expanded="false" aria-controls="word-box" id="blank-button">[ 빈칸 누르기 ]</button></p><div id="word-box" class="word-box" hidden><h3>장소 워드박스 · 목적지를 골라요</h3><div class="word-options">${choices.map((room, index) => `<button data-place="${index}" data-room-choice="${room.id}">${escape(room.name)}</button>`).join("")}</div></div><div id="feedback" aria-live="polite"></div>`;
+    `<div class="question-meta"><span>${score(state)} / ${QUESTION_COUNT} 정답 · 마지막 자물쇠 열림</span></div><h3 class="question-prompt">가방 속 단서가 가리키는 곳은?</h3><p>${chips(inventory(state).filter((item) => item.level === level.id))}</p><p class="destination-line">우리가 갈 곳은 <button class="blank-button" aria-expanded="false" aria-controls="word-box" id="blank-button">[ 빈칸 누르기 ]</button></p><div id="word-box" class="word-box" hidden><h3>장소 워드박스 · 목적지를 골라요</h3><div class="word-options">${choices.map((room, index) => `<button data-place="${index}" data-room-choice="${room.id}">${escape(room.name)}</button>`).join("")}</div></div><div id="feedback" aria-live="polite"></div>`;
   $("#blank-button").onclick = () => {
     const box = $("#word-box");
     box.hidden = !box.hidden;
@@ -462,83 +489,107 @@ function renderDestination() {
         state,
         choices[Number(button.dataset.place)].id,
       );
-      if (!result.correct) {
-        $("#feedback").className = "feedback bad";
-        $("#feedback").textContent =
-          "그곳으로 가는 문은 열리지 않아요. 단서 세 개를 함께 살펴보세요.";
-        return;
-      }
+      if (!result.accepted) return;
       update(result.state);
     };
   });
 }
-function renderOutfit() {
+function renderDeparture() {
+  const target =
+    state.travel.destinationId === EXIT_ROOM.id
+      ? EXIT_ROOM
+      : roomById(state.travel.destinationId);
+  const expected =
+    state.travel.expectedId === EXIT_ROOM.id
+      ? EXIT_ROOM
+      : roomById(state.travel.expectedId);
+  const correct = state.travel.mode === "carriage";
   $("#challenge").innerHTML =
-    `<div class="outfit-check"><p class="eyebrow">BEFORE YOU GO</p><div class="outfit-avatar">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}</div><h3>의상을 그대로 입고 갈건가요? 적절하지 않을 수도 있어요.</h3><p class="intro">목적지: ${escape(destinationRoom(state).name)}<br>어떤 의상이든 이동할 수 있어요. 바꾸고 싶으면 ‘아니오’를 눌러요.</p><div class="outfit-actions"><button id="keep-outfit" class="primary">네</button><button id="change-outfit">아니오</button></div></div>`;
-  $("#keep-outfit").onclick = () => update(beginTravel(state));
-  $("#change-outfit").onclick = () => update(openWardrobe(state));
+    `<div class="departure-result ${correct ? "good" : "bad"}"><h3>${correct ? "목적지를 찾았어요!" : "정답: " + escape(expected.name)}</h3><p>${correct ? "마법 수레가 도착했어요. 우아하게 올라타요." : "장소를 틀려서 엉뚱한 곳으로 날아갑니다: " + escape(target.name)}</p>${!correct && state.level === 9 ? "<p>다른 방에서 마지막 단계를 다시 풀어 탈출구를 찾아요.</p>" : ""}${companionMarkup()}<button id="depart-button" class="primary">${correct ? "마법 수레에 타기" : "회오리바람 타고 이동"}</button></div>`;
+  $("#depart-button").onclick = () => update(beginTravel(state));
 }
 function renderShop(message = "") {
+  const trial = catalog.find((item) => item.id === trialItem);
+  const outfit = trial
+    ? { ...state.equipped, [trial.category]: trial.id }
+    : state.equipped;
   $("#challenge").innerHTML =
-    `<div class="shop-heading"><div><p class="eyebrow">WIZARD WARDROBE</p><h3>아바타 꾸미기</h3></div><strong class="shop-balance">${state.points} P</strong></div><div class="wardrobe-preview">${avatarMarkup(state.equipped, state.characterId, avatarMood(state))}<p>가방은 언제나 함께해요.<br>산 물건은 바로 착용되고 계속 보관돼요.</p></div><div class="category-buttons" role="group" aria-label="꾸미기 종류">${Object.entries(
+    `<section class="wizard-boutique"><div class="shop-heading"><div><p class="eyebrow">THE ENCHANTED WARDROBE</p><h3>${state.level + 1}단계 입장 전 · 마법 옷가게</h3></div><strong class="shop-balance">${state.gold} GOLD</strong></div><div class="fitting-room"><div class="fitting-mirror">${avatarMarkup(outfit, state.characterId, "neutral")}<span>${trial ? "시험착용 중 · " + escape(trial.name) : "현재 착용 모습"}</span></div><div class="fitting-actions"><p>시험착용은 무료예요. 구매를 확정할 때만 GOLD가 줄어들어요.</p>${trial ? `<strong>${escape(trial.name)} · ${trial.price} GOLD</strong><button id="buy-trial" class="primary">${state.owned.includes(trial.id) ? "이 모습으로 착용" : "구매 결정하기"}</button><button id="cancel-trial">시험착용 취소</button>` : ""}</div></div><div class="category-buttons" role="group" aria-label="옷가게 품목">${Object.entries(
       categoryNames,
     )
       .map(
-        ([category, name]) =>
-          `<button data-category="${category}" aria-pressed="${shopCategory === category}">${name}</button>`,
+        ([id, name]) =>
+          `<button data-category="${id}" aria-pressed="${shopCategory === id}">${name}</button>`,
       )
       .join("")}</div><div class="shop-items">${catalog
-      .filter((item) => item.category === shopCategory)
-      .map((item) => {
-        const owned = state.owned.includes(item.id);
-        const equipped = state.equipped[item.category] === item.id;
-        return `<button class="shop-item ${equipped ? "equipped" : ""}" data-item="${item.id}" aria-label="${escape(item.name)} · ${equipped ? "착용 중" : owned ? "보유 · 착용하기" : `${item.price} 포인트 · 구매하기`}"><span class="item-swatch" style="--item-color:${escape(item.color)}" aria-hidden="true"></span><strong>${escape(item.name)}</strong><span>${equipped ? "착용 중" : owned ? "보유 · 착용하기" : `${item.price} P`}</span></button>`;
-      })
+      .filter((item) => item.category === shopCategory && item.price > 0)
+      .map(
+        (item) =>
+          `<button class="shop-item" data-item="${item.id}" aria-label="${escape(item.name)} 시험착용"><span class="item-swatch" style="--item-color:${escape(item.color)}"></span><strong>${escape(item.name)}</strong><span>${state.equipped[item.category] === item.id ? "착용 중" : state.owned.includes(item.id) ? "보유 중" : item.price + " GOLD"}</span></button>`,
+      )
       .join(
         "",
-      )}</div><p class="shop-message" id="shop-message" role="status">${escape(message || "포인트가 부족해도 구매하지 않고 다음 장소로 갈 수 있어요.")}</p><button id="finish-customizing" class="primary">꾸미기 완료 · 다음 장소로 이동</button>`;
-  document.querySelectorAll("[data-category]").forEach((button) => {
-    button.onclick = () => {
-      shopCategory = button.dataset.category;
-      renderShop();
-      $(`[data-category="${shopCategory}"]`).focus({ preventScroll: true });
+      )}</div><p id="shop-message" class="shop-message" role="status">${escape(message || "사진으로 남기려면 구매·착용을 확정한 뒤 포토북을 열어 주세요.")}</p><button id="finish-customizing" class="primary">옷가게 나가기 · 스테이지 시작</button></section>`;
+  document.querySelectorAll("[data-category]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        shopCategory = button.dataset.category;
+        renderShop();
+      }),
+  );
+  document.querySelectorAll("[data-item]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        trialItem = button.dataset.item;
+        renderShop();
+      }),
+  );
+  if (trial) {
+    $("#cancel-trial").onclick = () => {
+      trialItem = null;
+      renderShop("구매 없이 원래 모습으로 돌아왔어요.");
     };
-  });
-  document.querySelectorAll("[data-item]").forEach((button) => {
-    button.onclick = () => {
-      const item = catalog.find((entry) => entry.id === button.dataset.item);
-      if (state.owned.includes(item.id)) {
-        state = equipItem(state, item.id);
+    $("#buy-trial").onclick = () => {
+      if (state.owned.includes(trial.id)) {
+        state = equipItem(state, trial.id);
+        trialItem = null;
         save();
         renderSidebars();
-        renderShop(`${item.name} 착용 완료!`);
-        $(`[data-item="${item.id}"]`).focus({ preventScroll: true });
+        renderShop("착용했어요.");
         return;
       }
-      pendingItem = item.id;
+      pendingItem = trial.id;
       $("#purchase-description").textContent =
-        `${item.name} · ${item.price} P (현재 ${state.points} P)`;
+        `${trial.name} · ${trial.price} GOLD (보유 ${state.gold} GOLD)`;
       $("#purchase-status").textContent =
-        state.points < item.price
-          ? "포인트가 부족해요. 다른 물건을 고르거나 그대로 이동할 수 있어요."
-          : "구매하면 포인트가 차감되고 바로 착용돼요.";
-      $("#confirm-purchase").disabled = state.points < item.price;
+        state.gold < trial.price
+          ? "GOLD가 부족해요. 시험착용은 무료예요."
+          : "구매하면 바로 착용하고 영구 보관해요.";
+      $("#confirm-purchase").disabled = state.gold < trial.price;
       $("#purchase-dialog").showModal();
       $("#cancel-purchase").focus();
     };
-  });
-  $("#finish-customizing").onclick = () => update(beginTravel(state));
+  }
+  $("#finish-customizing").onclick = () => {
+    trialItem = null;
+    update(startStage(state));
+  };
 }
 async function runTravel() {
   if (traveling) return;
   traveling = true;
   try {
+    const target =
+      state.travel.destinationId === EXIT_ROOM.id
+        ? EXIT_ROOM
+        : roomById(state.travel.destinationId);
     await playTravel({
       from: currentRoom(state).name,
-      to: destinationRoom(state).name,
+      to: target.name,
       equipped: state.equipped,
       characterId: state.characterId,
-      image: destinationRoom(state).image,
+      image: target.image,
+      mode: state.travel.mode,
     });
     traveling = false;
     update(finishTravel(state));
@@ -565,6 +616,7 @@ $("#confirm-purchase").onclick = () => {
   if (!pendingItem) return;
   const result = purchaseItem(state, pendingItem);
   state = result.state;
+  if (result.purchased) trialItem = null;
   save();
   $("#purchase-dialog").close();
   renderSidebars();
@@ -574,6 +626,42 @@ $("#confirm-purchase").onclick = () => {
 };
 $("#bag-button").onclick = () => $("#bag-dialog").showModal();
 $("#close-bag").onclick = () => $("#bag-dialog").close();
+function renderPhotobook(message = "") {
+  $("#photo-status").textContent = message;
+  $("#capture-photo").disabled = !state.characterId;
+  $("#photo-gallery").innerHTML = state.photos.length
+    ? state.photos
+        .slice()
+        .reverse()
+        .map(
+          (photo) =>
+            `<article class="photo-card"><div class="photo-scene" style="background-image:url('${roomById(photo.roomId).image}')">${avatarMarkup(photo.equipped, photo.characterId, photo.mood)}</div><h3>${escape(characters.find((c) => c.id === photo.characterId).name)} · ${escape(roomById(photo.roomId).name)}</h3><p>${escape(new Date(photo.takenAt).toLocaleString())} · ${photo.level}단계</p><button data-photo-delete="${escape(photo.id)}">사진 삭제</button></article>`,
+        )
+        .join("")
+    : "<p>아직 사진이 없어요. 현재 착용한 모습과 장소를 사진으로 남겨 보세요.</p>";
+  document.querySelectorAll("[data-photo-delete]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        state = deletePhoto(state, button.dataset.photoDelete);
+        save();
+        renderPhotobook("사진을 삭제했어요.");
+      }),
+  );
+}
+$("#photobook-button").onclick = () => {
+  renderPhotobook();
+  $("#photobook-dialog").showModal();
+};
+$("#close-photobook").onclick = () => $("#photobook-dialog").close();
+$("#capture-photo").onclick = () => {
+  state = takePhoto(state);
+  save();
+  renderPhotobook(
+    canSave
+      ? "사진을 저장했어요. 최근 100장을 보관해요."
+      : "저장 공간을 사용할 수 없어 이번 사진은 창을 닫으면 사라져요.",
+  );
+};
 $("#save-button").onclick = () => openSlots("save");
 $("#load-button").onclick = () => openSlots("load");
 $("#close-save-dialog").onclick = () => $("#save-dialog").close();
@@ -582,6 +670,7 @@ $("#cancel-reset").onclick = () => $("#reset-dialog").close();
 $("#confirm-reset").onclick = () => {
   $("#reset-dialog").close();
   pendingCharacter = null;
+  trialItem = null;
   update(freshState());
 };
 if (state.characterId) preloadCharacterArt(state.characterId);

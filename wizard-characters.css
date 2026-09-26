@@ -32,6 +32,16 @@
 
 .avatar-art .avatar-accessory {
   overflow: visible;
+  filter: drop-shadow(0 4px 3px rgb(20 15 35 / 28%));
+  image-rendering: auto;
+}
+
+.avatar-art[data-mood="happy"] .avatar-item {
+  filter: drop-shadow(0 4px 4px rgb(20 15 35 / 24%)) brightness(1.04);
+}
+
+.avatar-art[data-mood="sad"] .avatar-item {
+  filter: drop-shadow(0 3px 3px rgb(20 15 35 / 30%)) brightness(0.94);
 }
 
 @keyframes avatar-celebrate {

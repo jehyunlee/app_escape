@@ -48,6 +48,20 @@ export const characters = Object.freeze([
     description:
       "안경 없이 산호빛과 호박빛을 입고 빗자루를 타는 바람의 비행술사",
   }),
+  Object.freeze({
+    id: "yewon",
+    name: "예원언니",
+    title: "사파이어 학술마녀",
+    description:
+      "안경과 낮은 포니테일을 한 사파이어빛 학술마녀, 별책과 은빛 지팡이를 든 현자",
+  }),
+  Object.freeze({
+    id: "hunho",
+    name: "훈호오빠",
+    title: "버건디 사슴 탐험가",
+    description:
+      "안경 없이 작은 뿔장식을 한 버건디·은빛 사슴 탐험가, 여행 빗자루를 든 모험가",
+  }),
 ]);
 
 const characterById = new Map(

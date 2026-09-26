@@ -49,27 +49,32 @@ test("wardrobe selections retain generated art and apply selective tint or acces
       assert.ok(html.includes(`data-${category}="${item.id}"`));
       if (item.price > 0) {
         assert.ok(html.includes(item.color));
-        if (category !== "accessory")
-          assert.ok(html.includes(`data-mask-category="${category}"`));
+        assert.ok(html.includes(item.id));
       }
       renders.add(html);
     }
     assert.equal(renders.size, items.length);
   }
   assert.ok(
-    !avatarMarkup({ eyes: "<script>alert(1)</script>" }, "dad").includes(
+    !avatarMarkup({ hat: "<script>alert(1)</script>" }, "dad").includes(
       "<script>",
     ),
   );
   assert.throws(() => avatarMarkup(STARTER, "unknown"), RangeError);
 });
 
-test("200 3D rooms pair their artwork with twenty independently selectable meshes", () => {
+test("200 3D rooms pair their artwork with fifteen independently selectable meshes", () => {
   for (const room of rooms) {
     const scene = new THREE.Scene();
     const world = buildRoomWorld(scene, room);
-    assert.equal(world.targets.length, 20);
-    assert.equal(new Set(world.targets.map((target) => target.name)).size, 20);
+    assert.equal(world.targets.length, 15);
+    assert.equal(new Set(world.targets.map((target) => target.name)).size, 15);
+    assert.equal(
+      new Set(world.targets.map((target) => target.object.userData.kind)).size,
+      15,
+    );
+    for (const target of world.targets)
+      assert.doesNotMatch(target.name, /\d+$/);
     const artwork = scene.getObjectByName(`room-artwork-${room.id}`);
     assert.ok(artwork.isMesh);
     assert.ok(artwork.userData.asset.endsWith(`/${room.id}.webp`));
@@ -104,7 +109,7 @@ test("200 3D rooms pair their artwork with twenty independently selectable meshe
 
 test("family portraits use distinct generated head crops and named wizard designs", () => {
   const portraits = characters.map((character) => portraitMarkup(character.id));
-  assert.equal(new Set(portraits).size, 4);
+  assert.equal(new Set(portraits).size, 6);
   for (const [index, portrait] of portraits.entries()) {
     assert.ok(portrait.includes(`${characters[index].id}-portrait.webp`));
     assert.ok(portrait.includes(characters[index].title));
@@ -119,8 +124,8 @@ test("family portraits use distinct generated head crops and named wizard design
   const appearances = characters.map((character) =>
     avatarMarkup(STARTER, character.id),
   );
-  assert.equal(new Set(appearances).size, 4);
-  assert.equal(new Set(characters.map((character) => character.title)).size, 4);
+  assert.equal(new Set(appearances).size, 6);
+  assert.equal(new Set(characters.map((character) => character.title)).size, 6);
 });
 
 test("clock hands and gears animate on actual 3D foreground objects", () => {
@@ -157,7 +162,7 @@ test("scattered objects have no shared rows and are reproducible only for the sa
     );
     for (const axis of [0, 1, 2])
       assert.ok(
-        new Set(first.map((position) => position[axis].toFixed(2))).size >= 16,
+        new Set(first.map((position) => position[axis].toFixed(2))).size >= 12,
       );
     for (let index = 0; index < first.length; index++) {
       for (let next = index + 1; next < first.length; next++) {
@@ -171,7 +176,7 @@ test("scattered objects have no shared rows and are reproducible only for the sa
   }
 });
 
-test("all four wizards use separate generated full-body expressions", () => {
+test("all six wizards use separate generated full-body expressions", () => {
   const hashes = new Set();
   for (const character of characters) {
     const portrait = wizardPortraitMarkup(character.id, STARTER);
@@ -198,46 +203,52 @@ test("all four wizards use separate generated full-body expressions", () => {
       hashes.add(createHash("sha256").update(asset).digest("hex"));
     }
   }
-  assert.equal(hashes.size, 12);
+  assert.equal(hashes.size, 18);
 });
 
-test("every generated expression has correctly named wardrobe masks with nonempty coverage", () => {
-  const coverage = JSON.parse(
-    readFileSync(
-      new URL("../assets/wizards/masks.json", import.meta.url),
-      "utf8",
-    ),
+test("all eight categories can be equipped together without losing character or mood", () => {
+  const outfit = Object.fromEntries(
+    Object.keys(STARTER).map((category) => [
+      category,
+      catalog.find((item) => item.category === category && item.price === 1).id,
+    ]),
   );
   for (const character of characters)
     for (const mood of ["neutral", "happy", "sad"]) {
-      const stem = `${character.id}-${mood}`;
-      for (const category of ["robe", "skin", "eyes"]) {
-        const mask = readFileSync(
-          new URL(
-            `../assets/wizards/${stem}-${category}.webp`,
-            import.meta.url,
-          ),
-        );
-        assert.equal(mask.subarray(8, 12).toString(), "WEBP");
-      }
-      assert.ok(coverage[stem].robe > 3000);
-      assert.ok(coverage[stem].skin > 1000);
-      if (mood !== "happy") assert.ok(coverage[stem].eyes > 20);
-      const html = avatarMarkup(
-        {
-          ...STARTER,
-          eyes: "eyes-blue",
-          skin: "skin-umber",
-          clothes: "clothes-emerald",
-        },
-        character.id,
-        mood,
-      );
-      for (const category of ["robe", "skin", "eyes"])
-        assert.ok(html.includes(`${stem}-${category}.webp`));
-      assert.ok(
-        html.includes("feColorMatrix"),
-        "skin shade changes actual brightness while retaining image shading",
-      );
+      const html = avatarMarkup(outfit, character.id, mood);
+      assert.ok(html.includes(`${character.id}-${mood}.webp`));
+      for (const [category, id] of Object.entries(outfit))
+        assert.ok(html.includes(`data-${category}="${id}"`));
     }
+});
+
+test("576 pose-specific garment layers exist and preserve protected face areas", () => {
+  const report = JSON.parse(
+    readFileSync(
+      new URL("../assets/garments/fit-report.json", import.meta.url),
+      "utf8",
+    ),
+  ).coverage;
+  const manifest = JSON.parse(
+    readFileSync(
+      new URL("../assets/garments/manifest.json", import.meta.url),
+      "utf8",
+    ),
+  );
+  assert.match(manifest.model, /^gpt-image-/);
+  let count = 0;
+  for (const character of characters)
+    for (const mood of ["neutral", "happy", "sad"])
+      for (const item of catalog.filter((item) => item.price > 0)) {
+        const file = `${character.id}-${mood}-${item.id}.webp`;
+        const bytes = readFileSync(
+          new URL(`../assets/garments/${file}`, import.meta.url),
+        );
+        assert.equal(bytes.subarray(8, 12).toString(), "WEBP");
+        assert.ok(report[file].pixels >= 40, file);
+        assert.equal(report[file].faceOverlap, 0, file);
+        assert.deepEqual(report[file].size, [512, 1024]);
+        count++;
+      }
+  assert.equal(count, 576);
 });

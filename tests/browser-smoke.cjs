@@ -31,7 +31,11 @@ const { chromium } = require("playwright");
             JSON.stringify(errors),
         );
       });
-    assert.equal(await page.locator("[data-character-id]").count(), 4);
+    assert.equal(await page.locator("[data-character-id]").count(), 6);
+    assert.equal(
+      await page.locator(".character-selection h2").textContent(),
+      "플레이어 선택 · 6명",
+    );
     await page.locator("[data-character-id]").first().click();
     await page.locator("#start-adventure").click();
     await page.locator("#room-host canvas").waitFor();
@@ -39,8 +43,15 @@ const { chromium } = require("playwright");
       const canvas = document.querySelector("#room-host canvas");
       return canvas && canvas.width > 0 && canvas.height > 0;
     });
+    assert.equal(await page.locator(".world-object-button").count(), 15);
+    assert.equal(
+      await page.evaluate(
+        () => JSON.parse(localStorage.getItem("headache-escape-v7")).version,
+      ),
+      7,
+    );
     const savedRoute = await page.evaluate(
-      () => JSON.parse(localStorage.getItem("headache-escape-v5")).route,
+      () => JSON.parse(localStorage.getItem("headache-escape-v7")).route,
     );
     assert.equal(savedRoute.length, 10);
     assert.equal(new Set(savedRoute).size, 10);
@@ -52,7 +63,7 @@ const { chromium } = require("playwright");
     await page.locator("#close-bag").click();
     await page.locator("#save-button").click();
     await page.locator("#save-dialog[open]").waitFor();
-    assert.equal(await page.locator(".save-slot").count(), 5);
+    assert.equal(await page.locator(".save-slot").count(), 10);
     await page.locator('[data-save-slot="0"]').click();
     assert.match(
       await page.locator("#slot-status").textContent(),
@@ -61,16 +72,24 @@ const { chromium } = require("playwright");
     assert.equal(
       await page.evaluate(
         () =>
-          JSON.parse(localStorage.getItem("headache-escape-slots-v2")).length,
+          JSON.parse(localStorage.getItem("headache-escape-slots-v4")).length,
       ),
-      5,
+      10,
+    );
+    assert.equal(
+      await page.evaluate(
+        () =>
+          JSON.parse(localStorage.getItem("headache-escape-slots-v4"))[0].state
+            .version,
+      ),
+      7,
     );
     await page.locator("#close-save-dialog").click();
     await page.locator("#reset-button").click();
     await page.locator("#confirm-reset").click();
     await page.locator("[data-character-id]").first().waitFor();
     await page.locator("#load-button").click();
-    assert.equal(await page.locator(".save-slot").count(), 5);
+    assert.equal(await page.locator(".save-slot").count(), 10);
     page.once("dialog", (dialog) => dialog.accept());
     await page.locator('[data-load-slot="0"]').click();
     await page.locator("#room-host canvas").waitFor();
@@ -80,7 +99,7 @@ const { chromium } = require("playwright");
     );
     assert.deepEqual(
       await page.evaluate(
-        () => JSON.parse(localStorage.getItem("headache-escape-v5")).route,
+        () => JSON.parse(localStorage.getItem("headache-escape-v7")).route,
       ),
       savedRoute,
     );
@@ -90,7 +109,7 @@ const { chromium } = require("playwright");
       fullPage: true,
     });
     console.log(
-      "PASS: Escape published subpath loads all modules and art, renders the 3D room, and saves/loads one of five local slots.",
+      "PASS: Escape loads six characters, renders the 3D room, and saves/loads one of ten local player slots.",
     );
   } finally {
     await browser.close();

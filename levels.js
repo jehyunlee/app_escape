@@ -1,8 +1,11 @@
 import { languagePools } from "./language-questions.js";
 import { stemPools } from "./stem-questions.js";
+import { advancedLanguagePools } from "./advanced-language.js";
+import { advancedStemPools } from "./advanced-stem.js";
 
-export const QUESTION_COUNT = 20;
-export const PASS_SCORE = 15;
+export const QUESTION_COUNT = 15;
+export const PASS_SCORE = 10;
+export const CLUE_THRESHOLDS = Object.freeze([3, 6, PASS_SCORE]);
 // Educational progression is fixed; spatial progression is drawn from rooms.js.
 export const levels = [
   {
@@ -77,11 +80,54 @@ const indexes = new Map(
     new Map(pool.map((question) => [question.id, question])),
   ]),
 );
-export function questionPool(levelId) {
+export function playerTier(characterId, levelId) {
+  return characterId === "hunho"
+    ? "exam"
+    : characterId === "yewon"
+      ? levelId <= 5
+        ? "middle"
+        : "high1"
+      : "original";
+}
+export function curriculum(levelId, characterId) {
+  const base = levels[levelId - 1];
+  if (!base) throw new RangeError("Unknown stage");
+  const tier = playerTier(characterId, levelId);
+  if (tier === "original") return { ...base, spelling: levelId === 8 };
+  const category = [1, 6, 8].includes(levelId)
+    ? "영어 독해·회화"
+    : [2, 5, 7].includes(levelId)
+      ? "수학"
+      : levelId === 9
+        ? "국어 독해"
+        : "과학 탐구";
+  return {
+    ...base,
+    subject: `${{ middle: "중학교 3학년", high1: "고등학교 1학년", exam: "고3 수능 대비" }[tier]} · ${category}`,
+    intro: "글과 자료에 담긴 근거를 살펴보고, 알맞은 답을 선택해요.",
+    spelling: false,
+  };
+}
+export function questionPool(levelId, characterId = null) {
+  const tier = playerTier(characterId, levelId);
+  if (tier !== "original") {
+    if ([1, 6, 8].includes(levelId)) return advancedLanguagePools[tier];
+    return advancedStemPools[tier][
+      [2, 5, 7].includes(levelId)
+        ? "math"
+        : levelId === 9
+          ? "reading"
+          : "science"
+    ];
+  }
   const pool = pools[levelId];
   if (!pool) throw new RangeError(`Unknown level: ${levelId}`);
   return pool;
 }
-export function questionById(levelId, id) {
+export function questionById(levelId, id, characterId = null) {
+  if (playerTier(characterId, levelId) !== "original")
+    return questionPool(levelId, characterId).find(
+      (question) => question.id === id,
+    );
   return indexes.get(levelId)?.get(id);
 }

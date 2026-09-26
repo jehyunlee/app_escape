@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="adventure.css" />
     <link rel="stylesheet" href="room-renderer.css" />
     <link rel="stylesheet" href="wizard-characters.css" />
+    <link rel="stylesheet" href="expansion.css" />
     <script type="importmap">
       {
         "imports": {
@@ -27,8 +28,8 @@
         ></a
       >
       <div class="header-inventory">
-        <span class="point-wallet" aria-label="보유 포인트"
-          ><strong id="point-count">0</strong> P</span
+        <span class="point-wallet" aria-label="보유 GOLD"
+          ><strong id="point-count">3</strong> GOLD</span
         ><button id="bag-button" class="bag-button" aria-haspopup="dialog">
           내 가방 <span id="bag-count">0</span>
         </button>
@@ -45,8 +46,8 @@
           </p>
           <div class="hero-tags">
             <span>200개 공간 · 매번 다른 10곳</span
-            ><span>20문제 중 15개 정답이면 통과</span
-            ><span>가족 캐릭터 · 영어 중3</span>
+            ><span>10개 정답 즉시 클리어</span
+            ><span>6인 마법사 · 맞춤 난이도</span>
           </div>
         </div>
         <img
@@ -80,8 +81,11 @@
                 <span id="player-portrait"></span>
                 <h2 id="player-name">캐릭터를 골라요</h2>
               </div>
-              <strong id="player-points">0 P</strong>
-              <p>정답 보상: 쉬움 10 · 보통 20 · 도전 30 P</p>
+              <strong id="player-points">3 GOLD</strong>
+              <p>
+                시작 3 GOLD · 정답 +2 · 오답 −1<br />잔액은 0 미만으로 내려가지
+                않아요.
+              </p>
             </div>
           </section>
           <section class="guide-card">
@@ -91,20 +95,23 @@
               <li>
                 <strong>물건 속 문제를 찾아요</strong
                 ><span
-                  >방 안의 물건 20개를 원하는 순서로 눌러요. 20문제 중 15개 이상
-                  맞히면 통과해요.</span
+                  >서로 다른 물건 15개를 원하는 순서로 눌러요. 10개 정답을
+                  맞히는 순간 바로 통과해요.</span
                 >
               </li>
               <li>
                 <strong>가방에 단서를 모아요</strong
                 ><span
-                  >정답 5·10·15개에 단서를 얻어요. 재도전해도 단서와 포인트는
+                  >정답 3·6·10개에 단서를 얻어요. 재도전해도 단서와 GOLD는
                   유지돼요.</span
                 >
               </li>
               <li>
                 <strong>다음 방을 찾아요</strong
-                ><span>장소를 고르고 의상을 확인하면 3D 통로로 이동해요.</span>
+                ><span
+                  >장소를 맞히면 마법 수레, 틀리면 회오리바람! 2단계부터 입장 전
+                  옷가게에 들러요.</span
+                >
               </li>
             </ol>
           </section>
@@ -130,6 +137,13 @@
               aria-haspopup="dialog"
             >
               불러오기
+            </button>
+            <button
+              id="photobook-button"
+              class="save-control"
+              aria-haspopup="dialog"
+            >
+              포토북
             </button>
           </div>
           <button id="reset-button" class="text-button">
@@ -161,8 +175,8 @@
     <dialog id="reset-dialog" aria-labelledby="reset-title">
       <h2 id="reset-title">새 모험을 시작할까요?</h2>
       <p>
-        캐릭터를 다시 선택하고 새로운 문제로 시작해요. 저장된 점수, 포인트,
-        구매한 물건과 단서는 모두 지워져요.
+        현재 모험의 캐릭터·GOLD·물건·단서·포토북을 초기화해요. 별도로 저장한
+        슬롯 10개의 기록은 지우지 않아요.
       </p>
       <div class="dialog-actions">
         <button id="cancel-reset">계속 모험하기</button
@@ -178,7 +192,7 @@
         <button id="close-save-dialog" aria-label="저장 목록 닫기">닫기</button>
       </div>
       <p id="save-dialog-description">
-        이 브라우저에 최대 5개까지 저장할 수 있어요.
+        이 브라우저에 최대 10개까지 저장할 수 있어요.
       </p>
       <p
         id="slot-status"
@@ -187,6 +201,19 @@
         aria-live="polite"
       ></p>
       <div id="save-slots" class="save-slots"></div>
+    </dialog>
+    <dialog id="photobook-dialog" aria-labelledby="photobook-title">
+      <div class="dialog-heading">
+        <h2 id="photobook-title">나의 마법 포토북</h2>
+        <button id="close-photobook">닫기</button>
+      </div>
+      <p>
+        현재 착용 모습과 장소를 기록해요. 사진은 플레이어 데이터와 함께 로컬
+        저장되며 최근 100장을 보관해요.
+      </p>
+      <button id="capture-photo" class="primary">현재 모습 촬영</button>
+      <p id="photo-status" role="status"></p>
+      <div id="photo-gallery"></div>
     </dialog>
     <dialog
       id="purchase-dialog"

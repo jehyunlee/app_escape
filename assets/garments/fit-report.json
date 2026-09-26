@@ -1,0 +1,4703 @@
+{
+  "method": "Pose anatomy masks with generated fabric texture and fitted accessory sources",
+  "coverage": {
+    "dad-neutral-hat": 11282,
+    "dad-neutral-cloak": 47119,
+    "dad-neutral-vest": 10070,
+    "dad-neutral-pants": 20940,
+    "dad-neutral-gloves": 6985,
+    "dad-neutral-hat-sapphire.webp": {
+      "pixels": 11282,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-hat-burgundy.webp": {
+      "pixels": 11282,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-hat-emerald.webp": {
+      "pixels": 11282,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-hat-silver.webp": {
+      "pixels": 11282,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-necklace-moon.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-necklace-star.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-necklace-emerald.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-necklace-pearl.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-cloak-sapphire.webp": {
+      "pixels": 47119,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-cloak-burgundy.webp": {
+      "pixels": 47119,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-cloak-emerald.webp": {
+      "pixels": 47119,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-cloak-silver.webp": {
+      "pixels": 47119,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-gloves-cream.webp": {
+      "pixels": 6985,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-gloves-burgundy.webp": {
+      "pixels": 6985,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-gloves-sapphire.webp": {
+      "pixels": 6985,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-gloves-emerald.webp": {
+      "pixels": 6985,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-pants-navy.webp": {
+      "pixels": 20940,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-pants-burgundy.webp": {
+      "pixels": 20940,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-pants-forest.webp": {
+      "pixels": 20940,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-pants-silver.webp": {
+      "pixels": 20940,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-vest-gold.webp": {
+      "pixels": 10070,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-vest-silver.webp": {
+      "pixels": 10070,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-vest-teal.webp": {
+      "pixels": 10070,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-neutral-vest-burgundy.webp": {
+      "pixels": 10070,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-hat": 10170,
+    "dad-happy-cloak": 47938,
+    "dad-happy-vest": 7615,
+    "dad-happy-pants": 23322,
+    "dad-happy-gloves": 8028,
+    "dad-happy-hat-sapphire.webp": {
+      "pixels": 10170,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-hat-burgundy.webp": {
+      "pixels": 10170,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-hat-emerald.webp": {
+      "pixels": 10170,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-hat-silver.webp": {
+      "pixels": 10170,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-necklace-moon.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-necklace-star.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-necklace-emerald.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-necklace-pearl.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-cloak-sapphire.webp": {
+      "pixels": 47938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-cloak-burgundy.webp": {
+      "pixels": 47938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-cloak-emerald.webp": {
+      "pixels": 47938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-cloak-silver.webp": {
+      "pixels": 47938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-gloves-cream.webp": {
+      "pixels": 8027,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-gloves-burgundy.webp": {
+      "pixels": 8027,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-gloves-sapphire.webp": {
+      "pixels": 8027,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-gloves-emerald.webp": {
+      "pixels": 8027,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-pants-navy.webp": {
+      "pixels": 23322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-pants-burgundy.webp": {
+      "pixels": 23322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-pants-forest.webp": {
+      "pixels": 23322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-pants-silver.webp": {
+      "pixels": 23322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-vest-gold.webp": {
+      "pixels": 7615,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-vest-silver.webp": {
+      "pixels": 7615,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-vest-teal.webp": {
+      "pixels": 7615,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-happy-vest-burgundy.webp": {
+      "pixels": 7615,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-hat": 12083,
+    "dad-sad-cloak": 38834,
+    "dad-sad-vest": 7886,
+    "dad-sad-pants": 20520,
+    "dad-sad-gloves": 6938,
+    "dad-sad-hat-sapphire.webp": {
+      "pixels": 12083,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-hat-burgundy.webp": {
+      "pixels": 12083,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-hat-emerald.webp": {
+      "pixels": 12083,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-hat-silver.webp": {
+      "pixels": 12083,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-necklace-moon.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-necklace-star.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-necklace-emerald.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-necklace-pearl.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-cloak-sapphire.webp": {
+      "pixels": 38834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-cloak-burgundy.webp": {
+      "pixels": 38834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-cloak-emerald.webp": {
+      "pixels": 38834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-cloak-silver.webp": {
+      "pixels": 38834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-gloves-cream.webp": {
+      "pixels": 6938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-gloves-burgundy.webp": {
+      "pixels": 6938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-gloves-sapphire.webp": {
+      "pixels": 6938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-gloves-emerald.webp": {
+      "pixels": 6938,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-pants-navy.webp": {
+      "pixels": 20520,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-pants-burgundy.webp": {
+      "pixels": 20520,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-pants-forest.webp": {
+      "pixels": 20520,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-pants-silver.webp": {
+      "pixels": 20520,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-vest-gold.webp": {
+      "pixels": 7886,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-vest-silver.webp": {
+      "pixels": 7886,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-vest-teal.webp": {
+      "pixels": 7886,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "dad-sad-vest-burgundy.webp": {
+      "pixels": 7886,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-hat": 6193,
+    "mom-neutral-cloak": 48834,
+    "mom-neutral-vest": 2686,
+    "mom-neutral-pants": 14163,
+    "mom-neutral-gloves": 7197,
+    "mom-neutral-hat-sapphire.webp": {
+      "pixels": 6193,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-hat-burgundy.webp": {
+      "pixels": 6193,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-hat-emerald.webp": {
+      "pixels": 6193,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-hat-silver.webp": {
+      "pixels": 6193,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-necklace-moon.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-necklace-star.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-necklace-emerald.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-necklace-pearl.webp": {
+      "pixels": 488,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-cloak-sapphire.webp": {
+      "pixels": 48834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-cloak-burgundy.webp": {
+      "pixels": 48834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-cloak-emerald.webp": {
+      "pixels": 48834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-cloak-silver.webp": {
+      "pixels": 48834,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-gloves-cream.webp": {
+      "pixels": 7197,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-gloves-burgundy.webp": {
+      "pixels": 7197,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-gloves-sapphire.webp": {
+      "pixels": 7197,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-gloves-emerald.webp": {
+      "pixels": 7197,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-pants-navy.webp": {
+      "pixels": 14163,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-pants-burgundy.webp": {
+      "pixels": 14163,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-pants-forest.webp": {
+      "pixels": 14163,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-pants-silver.webp": {
+      "pixels": 14163,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-vest-gold.webp": {
+      "pixels": 2686,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-vest-silver.webp": {
+      "pixels": 2686,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-vest-teal.webp": {
+      "pixels": 2686,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-neutral-vest-burgundy.webp": {
+      "pixels": 2686,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-hat": 6463,
+    "mom-happy-cloak": 52262,
+    "mom-happy-vest": 3506,
+    "mom-happy-pants": 14360,
+    "mom-happy-gloves": 6479,
+    "mom-happy-hat-sapphire.webp": {
+      "pixels": 6463,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-hat-burgundy.webp": {
+      "pixels": 6463,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-hat-emerald.webp": {
+      "pixels": 6463,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-hat-silver.webp": {
+      "pixels": 6463,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-necklace-moon.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-necklace-star.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-necklace-emerald.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-necklace-pearl.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-cloak-sapphire.webp": {
+      "pixels": 52262,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-cloak-burgundy.webp": {
+      "pixels": 52262,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-cloak-emerald.webp": {
+      "pixels": 52262,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-cloak-silver.webp": {
+      "pixels": 52262,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-gloves-cream.webp": {
+      "pixels": 6479,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-gloves-burgundy.webp": {
+      "pixels": 6479,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-gloves-sapphire.webp": {
+      "pixels": 6479,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-gloves-emerald.webp": {
+      "pixels": 6479,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-pants-navy.webp": {
+      "pixels": 14360,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-pants-burgundy.webp": {
+      "pixels": 14360,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-pants-forest.webp": {
+      "pixels": 14360,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-pants-silver.webp": {
+      "pixels": 14360,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-vest-gold.webp": {
+      "pixels": 3506,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-vest-silver.webp": {
+      "pixels": 3506,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-vest-teal.webp": {
+      "pixels": 3506,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-happy-vest-burgundy.webp": {
+      "pixels": 3506,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-hat": 7523,
+    "mom-sad-cloak": 50765,
+    "mom-sad-vest": 2934,
+    "mom-sad-pants": 12878,
+    "mom-sad-gloves": 7375,
+    "mom-sad-hat-sapphire.webp": {
+      "pixels": 7523,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-hat-burgundy.webp": {
+      "pixels": 7523,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-hat-emerald.webp": {
+      "pixels": 7523,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-hat-silver.webp": {
+      "pixels": 7523,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-necklace-moon.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-necklace-star.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-necklace-emerald.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-necklace-pearl.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-cloak-sapphire.webp": {
+      "pixels": 50765,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-cloak-burgundy.webp": {
+      "pixels": 50765,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-cloak-emerald.webp": {
+      "pixels": 50765,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-cloak-silver.webp": {
+      "pixels": 50765,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-gloves-cream.webp": {
+      "pixels": 7375,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-gloves-burgundy.webp": {
+      "pixels": 7375,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-gloves-sapphire.webp": {
+      "pixels": 7375,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-gloves-emerald.webp": {
+      "pixels": 7375,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-pants-navy.webp": {
+      "pixels": 12878,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-pants-burgundy.webp": {
+      "pixels": 12878,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-pants-forest.webp": {
+      "pixels": 12878,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-pants-silver.webp": {
+      "pixels": 12878,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-vest-gold.webp": {
+      "pixels": 2934,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-vest-silver.webp": {
+      "pixels": 2934,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-vest-teal.webp": {
+      "pixels": 2934,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "mom-sad-vest-burgundy.webp": {
+      "pixels": 2934,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-hat": 7949,
+    "jeongan-neutral-cloak": 54132,
+    "jeongan-neutral-vest": 1392,
+    "jeongan-neutral-pants": 18115,
+    "jeongan-neutral-gloves": 3453,
+    "jeongan-neutral-hat-sapphire.webp": {
+      "pixels": 7949,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-hat-burgundy.webp": {
+      "pixels": 7949,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-hat-emerald.webp": {
+      "pixels": 7949,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-hat-silver.webp": {
+      "pixels": 7949,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-necklace-moon.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-necklace-star.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-necklace-emerald.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-necklace-pearl.webp": {
+      "pixels": 484,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-cloak-sapphire.webp": {
+      "pixels": 54132,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-cloak-burgundy.webp": {
+      "pixels": 54132,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-cloak-emerald.webp": {
+      "pixels": 54132,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-cloak-silver.webp": {
+      "pixels": 54132,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-gloves-cream.webp": {
+      "pixels": 3453,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-gloves-burgundy.webp": {
+      "pixels": 3453,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-gloves-sapphire.webp": {
+      "pixels": 3453,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-gloves-emerald.webp": {
+      "pixels": 3453,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-pants-navy.webp": {
+      "pixels": 18115,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-pants-burgundy.webp": {
+      "pixels": 18115,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-pants-forest.webp": {
+      "pixels": 18115,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-pants-silver.webp": {
+      "pixels": 18115,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-vest-gold.webp": {
+      "pixels": 1392,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-vest-silver.webp": {
+      "pixels": 1392,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-vest-teal.webp": {
+      "pixels": 1392,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-neutral-vest-burgundy.webp": {
+      "pixels": 1392,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-hat": 6018,
+    "jeongan-happy-cloak": 54217,
+    "jeongan-happy-vest": 1943,
+    "jeongan-happy-pants": 18093,
+    "jeongan-happy-gloves": 2322,
+    "jeongan-happy-hat-sapphire.webp": {
+      "pixels": 6018,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-hat-burgundy.webp": {
+      "pixels": 6018,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-hat-emerald.webp": {
+      "pixels": 6018,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-hat-silver.webp": {
+      "pixels": 6018,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-necklace-moon.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-necklace-star.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-necklace-emerald.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-necklace-pearl.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-cloak-sapphire.webp": {
+      "pixels": 54217,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-cloak-burgundy.webp": {
+      "pixels": 54217,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-cloak-emerald.webp": {
+      "pixels": 54217,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-cloak-silver.webp": {
+      "pixels": 54217,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-gloves-cream.webp": {
+      "pixels": 2322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-gloves-burgundy.webp": {
+      "pixels": 2322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-gloves-sapphire.webp": {
+      "pixels": 2322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-gloves-emerald.webp": {
+      "pixels": 2322,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-pants-navy.webp": {
+      "pixels": 18093,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-pants-burgundy.webp": {
+      "pixels": 18093,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-pants-forest.webp": {
+      "pixels": 18093,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-pants-silver.webp": {
+      "pixels": 18093,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-vest-gold.webp": {
+      "pixels": 1943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-vest-silver.webp": {
+      "pixels": 1943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-vest-teal.webp": {
+      "pixels": 1943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-happy-vest-burgundy.webp": {
+      "pixels": 1943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-hat": 8796,
+    "jeongan-sad-cloak": 40431,
+    "jeongan-sad-vest": 4269,
+    "jeongan-sad-pants": 17457,
+    "jeongan-sad-gloves": 2945,
+    "jeongan-sad-hat-sapphire.webp": {
+      "pixels": 8796,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-hat-burgundy.webp": {
+      "pixels": 8796,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-hat-emerald.webp": {
+      "pixels": 8796,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-hat-silver.webp": {
+      "pixels": 8796,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-necklace-moon.webp": {
+      "pixels": 492,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-necklace-star.webp": {
+      "pixels": 492,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-necklace-emerald.webp": {
+      "pixels": 492,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-necklace-pearl.webp": {
+      "pixels": 492,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-cloak-sapphire.webp": {
+      "pixels": 40431,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-cloak-burgundy.webp": {
+      "pixels": 40431,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-cloak-emerald.webp": {
+      "pixels": 40431,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-cloak-silver.webp": {
+      "pixels": 40431,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-broom-sky.webp": {
+      "pixels": 13926,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-broom-ember.webp": {
+      "pixels": 13926,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-broom-jade.webp": {
+      "pixels": 13926,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-broom-lunar.webp": {
+      "pixels": 13926,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-gloves-cream.webp": {
+      "pixels": 2945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-gloves-burgundy.webp": {
+      "pixels": 2945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-gloves-sapphire.webp": {
+      "pixels": 2945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-gloves-emerald.webp": {
+      "pixels": 2945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-pants-navy.webp": {
+      "pixels": 17457,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-pants-burgundy.webp": {
+      "pixels": 17457,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-pants-forest.webp": {
+      "pixels": 17457,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-pants-silver.webp": {
+      "pixels": 17457,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-vest-gold.webp": {
+      "pixels": 4269,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-vest-silver.webp": {
+      "pixels": 4269,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-vest-teal.webp": {
+      "pixels": 4269,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "jeongan-sad-vest-burgundy.webp": {
+      "pixels": 4269,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-hat": 5650,
+    "suan-neutral-cloak": 68029,
+    "suan-neutral-vest": 2156,
+    "suan-neutral-pants": 161,
+    "suan-neutral-gloves": 9642,
+    "suan-neutral-hat-sapphire.webp": {
+      "pixels": 5650,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-hat-burgundy.webp": {
+      "pixels": 5650,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-hat-emerald.webp": {
+      "pixels": 5650,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-hat-silver.webp": {
+      "pixels": 5650,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-necklace-moon.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-necklace-star.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-necklace-emerald.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-necklace-pearl.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-cloak-sapphire.webp": {
+      "pixels": 68029,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-cloak-burgundy.webp": {
+      "pixels": 68029,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-cloak-emerald.webp": {
+      "pixels": 68029,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-cloak-silver.webp": {
+      "pixels": 68029,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-gloves-cream.webp": {
+      "pixels": 9642,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-gloves-burgundy.webp": {
+      "pixels": 9642,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-gloves-sapphire.webp": {
+      "pixels": 9642,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-gloves-emerald.webp": {
+      "pixels": 9642,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-pants-navy.webp": {
+      "pixels": 161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-pants-burgundy.webp": {
+      "pixels": 161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-pants-forest.webp": {
+      "pixels": 161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-pants-silver.webp": {
+      "pixels": 161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-vest-gold.webp": {
+      "pixels": 2156,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-vest-silver.webp": {
+      "pixels": 2156,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-vest-teal.webp": {
+      "pixels": 2156,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-neutral-vest-burgundy.webp": {
+      "pixels": 2156,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-hat": 4329,
+    "suan-happy-cloak": 78945,
+    "suan-happy-vest": 2349,
+    "suan-happy-pants": 384,
+    "suan-happy-gloves": 5125,
+    "suan-happy-hat-sapphire.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-hat-burgundy.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-hat-emerald.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-hat-silver.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-necklace-moon.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-necklace-star.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-necklace-emerald.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-necklace-pearl.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-cloak-sapphire.webp": {
+      "pixels": 78945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-cloak-burgundy.webp": {
+      "pixels": 78945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-cloak-emerald.webp": {
+      "pixels": 78945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-cloak-silver.webp": {
+      "pixels": 78945,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-gloves-cream.webp": {
+      "pixels": 5125,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-gloves-burgundy.webp": {
+      "pixels": 5125,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-gloves-sapphire.webp": {
+      "pixels": 5125,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-gloves-emerald.webp": {
+      "pixels": 5125,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-pants-navy.webp": {
+      "pixels": 384,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-pants-burgundy.webp": {
+      "pixels": 384,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-pants-forest.webp": {
+      "pixels": 384,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-pants-silver.webp": {
+      "pixels": 384,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-vest-gold.webp": {
+      "pixels": 2349,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-vest-silver.webp": {
+      "pixels": 2349,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-vest-teal.webp": {
+      "pixels": 2349,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-happy-vest-burgundy.webp": {
+      "pixels": 2349,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-hat": 6034,
+    "suan-sad-cloak": 53161,
+    "suan-sad-vest": 1535,
+    "suan-sad-pants": 230,
+    "suan-sad-gloves": 7947,
+    "suan-sad-hat-sapphire.webp": {
+      "pixels": 6034,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-hat-burgundy.webp": {
+      "pixels": 6034,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-hat-emerald.webp": {
+      "pixels": 6034,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-hat-silver.webp": {
+      "pixels": 6034,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-necklace-moon.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-necklace-star.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-necklace-emerald.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-necklace-pearl.webp": {
+      "pixels": 480,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-cloak-sapphire.webp": {
+      "pixels": 53161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-cloak-burgundy.webp": {
+      "pixels": 53161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-cloak-emerald.webp": {
+      "pixels": 53161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-cloak-silver.webp": {
+      "pixels": 53161,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-gloves-cream.webp": {
+      "pixels": 7947,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-gloves-burgundy.webp": {
+      "pixels": 7947,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-gloves-sapphire.webp": {
+      "pixels": 7947,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-gloves-emerald.webp": {
+      "pixels": 7947,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-pants-navy.webp": {
+      "pixels": 230,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-pants-burgundy.webp": {
+      "pixels": 230,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-pants-forest.webp": {
+      "pixels": 230,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-pants-silver.webp": {
+      "pixels": 230,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-vest-gold.webp": {
+      "pixels": 1535,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-vest-silver.webp": {
+      "pixels": 1535,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-vest-teal.webp": {
+      "pixels": 1535,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "suan-sad-vest-burgundy.webp": {
+      "pixels": 1535,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-hat": 6814,
+    "yewon-neutral-cloak": 107784,
+    "yewon-neutral-vest": 2892,
+    "yewon-neutral-pants": 7404,
+    "yewon-neutral-gloves": 5149,
+    "yewon-neutral-hat-sapphire.webp": {
+      "pixels": 6814,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-hat-burgundy.webp": {
+      "pixels": 6814,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-hat-emerald.webp": {
+      "pixels": 6814,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-hat-silver.webp": {
+      "pixels": 6814,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-necklace-moon.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-necklace-star.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-necklace-emerald.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-necklace-pearl.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-cloak-sapphire.webp": {
+      "pixels": 107784,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-cloak-burgundy.webp": {
+      "pixels": 107784,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-cloak-emerald.webp": {
+      "pixels": 107784,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-cloak-silver.webp": {
+      "pixels": 107784,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-gloves-cream.webp": {
+      "pixels": 5149,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-gloves-burgundy.webp": {
+      "pixels": 5149,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-gloves-sapphire.webp": {
+      "pixels": 5149,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-gloves-emerald.webp": {
+      "pixels": 5149,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-pants-navy.webp": {
+      "pixels": 7404,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-pants-burgundy.webp": {
+      "pixels": 7404,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-pants-forest.webp": {
+      "pixels": 7404,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-pants-silver.webp": {
+      "pixels": 7404,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-vest-gold.webp": {
+      "pixels": 2892,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-vest-silver.webp": {
+      "pixels": 2892,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-vest-teal.webp": {
+      "pixels": 2892,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-neutral-vest-burgundy.webp": {
+      "pixels": 2892,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-hat": 5477,
+    "yewon-happy-cloak": 109854,
+    "yewon-happy-vest": 6374,
+    "yewon-happy-pants": 15481,
+    "yewon-happy-gloves": 4330,
+    "yewon-happy-hat-sapphire.webp": {
+      "pixels": 5477,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-hat-burgundy.webp": {
+      "pixels": 5477,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-hat-emerald.webp": {
+      "pixels": 5477,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-hat-silver.webp": {
+      "pixels": 5477,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-necklace-moon.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-necklace-star.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-necklace-emerald.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-necklace-pearl.webp": {
+      "pixels": 472,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-cloak-sapphire.webp": {
+      "pixels": 109854,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-cloak-burgundy.webp": {
+      "pixels": 109854,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-cloak-emerald.webp": {
+      "pixels": 109854,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-cloak-silver.webp": {
+      "pixels": 109854,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-gloves-cream.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-gloves-burgundy.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-gloves-sapphire.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-gloves-emerald.webp": {
+      "pixels": 4329,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-pants-navy.webp": {
+      "pixels": 15481,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-pants-burgundy.webp": {
+      "pixels": 15481,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-pants-forest.webp": {
+      "pixels": 15481,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-pants-silver.webp": {
+      "pixels": 15481,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-vest-gold.webp": {
+      "pixels": 6374,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-vest-silver.webp": {
+      "pixels": 6374,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-vest-teal.webp": {
+      "pixels": 6374,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-happy-vest-burgundy.webp": {
+      "pixels": 6374,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-hat": 10143,
+    "yewon-sad-cloak": 94760,
+    "yewon-sad-vest": 2678,
+    "yewon-sad-pants": 8553,
+    "yewon-sad-gloves": 3711,
+    "yewon-sad-hat-sapphire.webp": {
+      "pixels": 10143,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-hat-burgundy.webp": {
+      "pixels": 10143,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-hat-emerald.webp": {
+      "pixels": 10143,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-hat-silver.webp": {
+      "pixels": 10143,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-necklace-moon.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-necklace-star.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-necklace-emerald.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-necklace-pearl.webp": {
+      "pixels": 476,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-cloak-sapphire.webp": {
+      "pixels": 94760,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-cloak-burgundy.webp": {
+      "pixels": 94760,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-cloak-emerald.webp": {
+      "pixels": 94760,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-cloak-silver.webp": {
+      "pixels": 94760,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-gloves-cream.webp": {
+      "pixels": 3711,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-gloves-burgundy.webp": {
+      "pixels": 3711,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-gloves-sapphire.webp": {
+      "pixels": 3711,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-gloves-emerald.webp": {
+      "pixels": 3711,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-pants-navy.webp": {
+      "pixels": 8553,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-pants-burgundy.webp": {
+      "pixels": 8553,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-pants-forest.webp": {
+      "pixels": 8553,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-pants-silver.webp": {
+      "pixels": 8553,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-vest-gold.webp": {
+      "pixels": 2678,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-vest-silver.webp": {
+      "pixels": 2678,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-vest-teal.webp": {
+      "pixels": 2678,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "yewon-sad-vest-burgundy.webp": {
+      "pixels": 2678,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-hat": 4231,
+    "hunho-neutral-cloak": 135710,
+    "hunho-neutral-vest": 4248,
+    "hunho-neutral-pants": 933,
+    "hunho-neutral-gloves": 5750,
+    "hunho-neutral-hat-sapphire.webp": {
+      "pixels": 6428,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-hat-burgundy.webp": {
+      "pixels": 6428,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-hat-emerald.webp": {
+      "pixels": 6428,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-hat-silver.webp": {
+      "pixels": 6428,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-necklace-moon.webp": {
+      "pixels": 460,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-necklace-star.webp": {
+      "pixels": 460,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-necklace-emerald.webp": {
+      "pixels": 460,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-necklace-pearl.webp": {
+      "pixels": 460,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-cloak-sapphire.webp": {
+      "pixels": 135710,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-cloak-burgundy.webp": {
+      "pixels": 135710,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-cloak-emerald.webp": {
+      "pixels": 135710,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-cloak-silver.webp": {
+      "pixels": 135710,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-gloves-cream.webp": {
+      "pixels": 5750,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-gloves-burgundy.webp": {
+      "pixels": 5750,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-gloves-sapphire.webp": {
+      "pixels": 5750,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-gloves-emerald.webp": {
+      "pixels": 5750,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-pants-navy.webp": {
+      "pixels": 933,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-pants-burgundy.webp": {
+      "pixels": 933,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-pants-forest.webp": {
+      "pixels": 933,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-pants-silver.webp": {
+      "pixels": 933,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-vest-gold.webp": {
+      "pixels": 4248,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-vest-silver.webp": {
+      "pixels": 4248,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-vest-teal.webp": {
+      "pixels": 4248,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-neutral-vest-burgundy.webp": {
+      "pixels": 4248,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-hat": 2580,
+    "hunho-happy-cloak": 137386,
+    "hunho-happy-vest": 4522,
+    "hunho-happy-pants": 2219,
+    "hunho-happy-gloves": 3131,
+    "hunho-happy-hat-sapphire.webp": {
+      "pixels": 5978,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-hat-burgundy.webp": {
+      "pixels": 5978,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-hat-emerald.webp": {
+      "pixels": 5978,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-hat-silver.webp": {
+      "pixels": 5978,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-necklace-moon.webp": {
+      "pixels": 464,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-necklace-star.webp": {
+      "pixels": 464,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-necklace-emerald.webp": {
+      "pixels": 464,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-necklace-pearl.webp": {
+      "pixels": 464,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-cloak-sapphire.webp": {
+      "pixels": 137386,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-cloak-burgundy.webp": {
+      "pixels": 137386,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-cloak-emerald.webp": {
+      "pixels": 137386,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-cloak-silver.webp": {
+      "pixels": 137386,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-gloves-cream.webp": {
+      "pixels": 3131,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-gloves-burgundy.webp": {
+      "pixels": 3131,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-gloves-sapphire.webp": {
+      "pixels": 3131,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-gloves-emerald.webp": {
+      "pixels": 3131,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-pants-navy.webp": {
+      "pixels": 2219,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-pants-burgundy.webp": {
+      "pixels": 2219,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-pants-forest.webp": {
+      "pixels": 2219,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-pants-silver.webp": {
+      "pixels": 2219,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-vest-gold.webp": {
+      "pixels": 4522,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-vest-silver.webp": {
+      "pixels": 4522,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-vest-teal.webp": {
+      "pixels": 4522,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-happy-vest-burgundy.webp": {
+      "pixels": 4522,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-hat": 6390,
+    "hunho-sad-cloak": 125943,
+    "hunho-sad-vest": 3655,
+    "hunho-sad-pants": 2827,
+    "hunho-sad-gloves": 4661,
+    "hunho-sad-hat-sapphire.webp": {
+      "pixels": 7338,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-hat-burgundy.webp": {
+      "pixels": 7338,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-hat-emerald.webp": {
+      "pixels": 7338,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-hat-silver.webp": {
+      "pixels": 7338,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-necklace-moon.webp": {
+      "pixels": 468,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-necklace-star.webp": {
+      "pixels": 468,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-necklace-emerald.webp": {
+      "pixels": 468,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-necklace-pearl.webp": {
+      "pixels": 468,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-cloak-sapphire.webp": {
+      "pixels": 125943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-cloak-burgundy.webp": {
+      "pixels": 125943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-cloak-emerald.webp": {
+      "pixels": 125943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-cloak-silver.webp": {
+      "pixels": 125943,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-wand-willow.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-wand-crystal.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-wand-ember.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-wand-silver.webp": {
+      "pixels": 1742,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-broom-sky.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-broom-ember.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-broom-jade.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-broom-lunar.webp": {
+      "pixels": 14039,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-gloves-cream.webp": {
+      "pixels": 4661,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-gloves-burgundy.webp": {
+      "pixels": 4661,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-gloves-sapphire.webp": {
+      "pixels": 4661,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-gloves-emerald.webp": {
+      "pixels": 4661,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-pants-navy.webp": {
+      "pixels": 2827,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-pants-burgundy.webp": {
+      "pixels": 2827,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-pants-forest.webp": {
+      "pixels": 2827,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-pants-silver.webp": {
+      "pixels": 2827,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-vest-gold.webp": {
+      "pixels": 3655,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-vest-silver.webp": {
+      "pixels": 3655,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-vest-teal.webp": {
+      "pixels": 3655,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "hunho-sad-vest-burgundy.webp": {
+      "pixels": 3655,
+      "faceOverlap": 0,
+      "size": [
+        512,
+        1024
+      ]
+    }
+  }
+}

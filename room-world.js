@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { QUESTION_COUNT as TARGET_COUNT } from "./levels.js";
 
 const PI2 = Math.PI * 2;
 
@@ -592,7 +593,7 @@ function makeTargetModel(kind, mats) {
         castShadow: false,
       });
       break;
-    case "potion":
+    case "bottle":
       for (let index = 0; index < 3; index += 1) {
         const colors = [mats.violet, mats.tealGlow, mats.red];
         addCylinder(
@@ -829,7 +830,7 @@ function makeTargetModel(kind, mats) {
       addBox(group, mats.woodGold, 0.1, 1.3, 0.1, { y: 0.82 });
       addSphere(group, mats.brassBright, 0.3, { y: 0.17 });
       break;
-    case "small-clock":
+    case "clock":
       addCylinder(
         group,
         mats.brass,
@@ -1063,7 +1064,7 @@ function makeTargetModel(kind, mats) {
       });
       addBox(group, mats.red, 0.38, 0.28, 0.04, { y: 0.68, z: 0.16, sx: 1.1 });
       break;
-    case "stair-lever":
+    case "lever":
       addCylinder(group, mats.brass, 0.24, 0.3, 0.12, { y: 0.08 }, 12);
       addCylinder(
         group,
@@ -1094,7 +1095,7 @@ function makeTargetModel(kind, mats) {
         rz: 0.75,
       });
       break;
-    case "gate-key":
+    case "gatekey":
       addTorus(group, mats.brassBright, 0.28, 0.075, { y: 0.91 }, 12, 20);
       addBox(group, mats.brass, 0.12, 0.78, 0.1, { y: 0.42 });
       addBox(group, mats.brass, 0.36, 0.1, 0.1, { x: 0.13, y: 0.19 });
@@ -1153,13 +1154,16 @@ function createScatteredPositions(roomId, layoutSeed) {
   const supports = ["lowtable", "crate", "stool", "rock"];
   // Best-candidate sampling spreads objects without rows or columns. The
   // fixed candidate budget makes layouts deterministic and bounded.
-  for (let index = 0; index < 20; index++) {
+  for (let index = 0; index < TARGET_COUNT; index++) {
     let selected;
     let bestDistance = -1;
-    for (let attempt = 0; attempt < 96; attempt++) {
-      const x = -4.7 + random() * 9.4;
-      const projectedY = 0.9 + random() * 11.8;
-      const z = -4 + random() * 6;
+    for (let attempt = 0; attempt < 128; attempt++) {
+      // The foreground models are intentionally larger than the original
+      // four-prop layout.  Give them a little more room in world space rather
+      // than shrinking their meshes back down to avoid collisions.
+      const x = -5.5 + random() * 11;
+      const projectedY = 0.72 + random() * 13.4;
+      const z = -4.8 + random() * 6.8;
       const candidate = { x, y: projectedY + z * 0.11, z };
       const distance = positions.length
         ? Math.min(
@@ -1188,11 +1192,16 @@ function createScatteredPositions(roomId, layoutSeed) {
 
 function addTargets(root, mats, definitions, roomId, layoutSeed) {
   const targets = [];
-  const baseDefinitions = definitions.slice(0, 4);
+  if (definitions.length !== TARGET_COUNT)
+    throw new RangeError("Each room must define fifteen foreground objects.");
+  const kinds = new Set(definitions.map((definition) => definition.kind));
+  const labels = new Set(definitions.map((definition) => definition.label));
+  if (kinds.size !== TARGET_COUNT || labels.size !== TARGET_COUNT)
+    throw new RangeError("Each room foreground object must be unique.");
   const positions = createScatteredPositions(roomId, layoutSeed);
-  for (let index = 0; index < 20; index += 1) {
-    const definition = baseDefinitions[index % baseDefinitions.length];
-    const label = `${definition.label}${Math.floor(index / baseDefinitions.length) + 1}`;
+  for (let index = 0; index < TARGET_COUNT; index += 1) {
+    const definition = definitions[index];
+    const label = definition.label;
     const position = positions[index];
     const target = new THREE.Group();
     target.name = label;
@@ -1213,13 +1222,14 @@ function addTargets(root, mats, definitions, roomId, layoutSeed) {
       position.x,
       position.y,
       position.z,
-      0.9 + (index % 3) * 0.07,
+      1.03 + (index % 3) * 0.08,
       position.rotation,
     );
     const model = makeTargetModel(definition.kind, mats);
-    // The room contains many more foreground props than before.  Keep the
-    // visual models compact while the renderer supplies generous hit buttons.
-    model.scale.setScalar(0.78);
+    // Foreground props should read as substantial, individually identifiable
+    // objects.  The wider deterministic layout above keeps these 1.45x models
+    // accessible on both desktop and narrow mobile viewports.
+    model.scale.setScalar(1.45);
     target.add(model);
     if (model.userData.clockHands)
       target.userData.clockHands = model.userData.clockHands;
@@ -1283,64 +1293,174 @@ const BACKGROUNDS = [
 
 const ROOM_OBJECTS = [
   [
-    ["고서", "tome"],
-    ["수정구", "crystal"],
-    ["물약병", "potion"],
-    ["작은 책상", "desk"],
+    ["고대 주문서", "tome"],
+    ["별빛 수정구", "crystal"],
+    ["마법 약병", "bottle"],
+    ["검은 깃펜", "quill"],
+    ["황동 시계", "clock"],
+    ["태엽 톱니", "gear"],
+    ["도서관 부엉이", "owl"],
+    ["봉인 깃털", "feather"],
+    ["서재 새 둥지", "nest"],
+    ["마법사의 초상화", "portrait"],
+    ["천문 망원경", "telescope"],
+    ["황동 천구의", "armillary"],
+    ["고대 별자리판", "starmap"],
+    ["길찾기 나침반", "compass"],
+    ["수호 방패", "shield"],
   ],
   [
-    ["화분", "plant"],
-    ["물뿌리개", "watering"],
-    ["씨앗 상자", "seedbox"],
-    ["유리 화분", "terrarium"],
+    ["뿌리내린 고서", "tome"],
+    ["이끼 수정구", "crystal"],
+    ["치유 약병", "bottle"],
+    ["정원 깃펜", "quill"],
+    ["정원 물시계", "clock"],
+    ["덩굴 톱니", "gear"],
+    ["정원 부엉이", "owl"],
+    ["은빛 깃털", "feather"],
+    ["나뭇가지 둥지", "nest"],
+    ["온실 초상화", "portrait"],
+    ["해시계 망원경", "telescope"],
+    ["정원 천구의", "armillary"],
+    ["별빛 화단 지도", "starmap"],
+    ["정원 나침반", "compass"],
+    ["온실 방패", "shield"],
   ],
   [
-    ["황금 잔", "goblet"],
-    ["촛대", "floating-candle"],
-    ["기숙사 깃발", "banner"],
-    ["문장 방패", "shield"],
+    ["연회 주문서", "tome"],
+    ["루비 수정구", "crystal"],
+    ["붉은 물약병", "bottle"],
+    ["연회 깃펜", "quill"],
+    ["연회 시계", "clock"],
+    ["황금 톱니", "gear"],
+    ["연회 부엉이", "owl"],
+    ["의식 깃털", "feather"],
+    ["잔치 둥지", "nest"],
+    ["연회 초상화", "portrait"],
+    ["탑 망원경", "telescope"],
+    ["궁정 천구의", "armillary"],
+    ["축제 별자리판", "starmap"],
+    ["황금 나침반", "compass"],
+    ["연회 방패", "shield"],
   ],
   [
-    ["버섯", "mushroom"],
-    ["반딧불 등불", "firefly-lantern"],
-    ["양치식물", "fern"],
-    ["새 둥지", "nest"],
+    ["버섯 고서", "tome"],
+    ["숲 수정구", "crystal"],
+    ["이끼 약병", "bottle"],
+    ["숲 깃펜", "quill"],
+    ["나무 시계", "clock"],
+    ["뿌리 톱니", "gear"],
+    ["숲 부엉이", "owl"],
+    ["낙엽 깃털", "feather"],
+    ["숲 둥지", "nest"],
+    ["숲 초상화", "portrait"],
+    ["숲 망원경", "telescope"],
+    ["이끼 천구의", "armillary"],
+    ["숲 별자리판", "starmap"],
+    ["길잡이 나침반", "compass"],
+    ["나뭇잎 방패", "shield"],
   ],
   [
-    ["탁상시계", "small-clock"],
-    ["황동 톱니", "gear"],
-    ["시계추", "pendulum"],
-    ["황동 촛대", "sconce"],
+    ["대형 시계", "clock"],
+    ["시계탑 고서", "tome"],
+    ["시계탑 수정구", "crystal"],
+    ["시계탑 약병", "bottle"],
+    ["시계공 깃펜", "quill"],
+    ["시계 톱니바퀴", "gear"],
+    ["시계탑 부엉이", "owl"],
+    ["태엽 깃털", "feather"],
+    ["시계공 둥지", "nest"],
+    ["시계탑 초상화", "portrait"],
+    ["관측 망원경", "telescope"],
+    ["천체 시계구", "armillary"],
+    ["시계 별자리판", "starmap"],
+    ["시계 나침반", "compass"],
+    ["철제 방패", "shield"],
   ],
   [
-    ["부엉이 조각", "owl"],
-    ["깃털", "feather"],
-    ["새 둥지", "nest"],
-    ["작은 초상화", "portrait"],
+    ["부엉이 고서", "tome"],
+    ["달빛 수정구", "crystal"],
+    ["새벽 약병", "bottle"],
+    ["새 깃펜", "quill"],
+    ["새벽 시계", "clock"],
+    ["날개 톱니", "gear"],
+    ["큰 부엉이", "owl"],
+    ["순백 깃털", "feather"],
+    ["높은 둥지", "nest"],
+    ["새 초상화", "portrait"],
+    ["하늘 망원경", "telescope"],
+    ["하늘 천구의", "armillary"],
+    ["비행 별자리판", "starmap"],
+    ["철새 나침반", "compass"],
+    ["깃털 방패", "shield"],
   ],
   [
-    ["고서", "tome"],
-    ["깃펜과 잉크", "quill"],
-    ["독서 램프", "lamp"],
-    ["서랍 열쇠", "gate-key"],
+    ["봉인 고서", "tome"],
+    ["독서 수정구", "crystal"],
+    ["잉크 약병", "bottle"],
+    ["푸른 깃펜", "quill"],
+    ["책상 시계", "clock"],
+    ["서고 톱니", "gear"],
+    ["서재 부엉이", "owl"],
+    ["서가 깃털", "feather"],
+    ["책장 둥지", "nest"],
+    ["학자 초상화", "portrait"],
+    ["독서 망원경", "telescope"],
+    ["연구 천구의", "armillary"],
+    ["학술 별자리판", "starmap"],
+    ["연구 나침반", "compass"],
+    ["서재 방패", "shield"],
   ],
   [
-    ["천체 망원경", "telescope"],
-    ["천구의", "armillary"],
+    ["천문 고서", "tome"],
+    ["성운 수정구", "crystal"],
+    ["관측 약병", "bottle"],
+    ["기록 깃펜", "quill"],
+    ["항성 시계", "clock"],
+    ["궤도 톱니", "gear"],
+    ["천문 부엉이", "owl"],
+    ["혜성 깃털", "feather"],
+    ["관측 둥지", "nest"],
+    ["천문학자 초상화", "portrait"],
+    ["대형 망원경", "telescope"],
+    ["천문 천구의", "armillary"],
     ["별자리 지도", "starmap"],
-    ["관측 램프", "lamp"],
+    ["북쪽 나침반", "compass"],
+    ["우주 방패", "shield"],
   ],
   [
-    ["초상화", "portrait"],
-    ["계단 레버", "stair-lever"],
-    ["나침반", "compass"],
+    ["계단 고서", "tome"],
+    ["계단 수정구", "crystal"],
+    ["비상 약병", "bottle"],
+    ["안내 깃펜", "quill"],
+    ["층계 시계", "clock"],
+    ["난간 톱니", "gear"],
+    ["계단 부엉이", "owl"],
+    ["계단 깃털", "feather"],
+    ["난간 둥지", "nest"],
+    ["계단 초상화", "portrait"],
+    ["탑 망원경", "telescope"],
+    ["나선 천구의", "armillary"],
+    ["계단 별자리판", "starmap"],
+    ["방향 나침반", "compass"],
     ["난간 방패", "shield"],
   ],
   [
-    ["성문 열쇠", "gate-key"],
-    ["문장 방패", "shield"],
-    ["횃불", "sconce"],
-    ["수호상", "gargoyle"],
+    ["성문 고서", "tome"],
+    ["성문 수정구", "crystal"],
+    ["경비 약병", "bottle"],
+    ["경비 깃펜", "quill"],
+    ["성문 시계", "clock"],
+    ["성문 톱니", "gear"],
+    ["성문 부엉이", "owl"],
+    ["수비 깃털", "feather"],
+    ["성벽 둥지", "nest"],
+    ["성문 초상화", "portrait"],
+    ["성벽 망원경", "telescope"],
+    ["성문 천구의", "armillary"],
+    ["성벽 별자리판", "starmap"],
+    ["수문 나침반", "compass"],
+    ["성문 방패", "shield"],
   ],
 ];
 

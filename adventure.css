@@ -71,7 +71,7 @@
   opacity: 0.65;
 }
 
-/* 3-D travel scene -------------------------------------------------------- */
+/* Travel vignette -------------------------------------------------------- */
 .travel-overlay {
   position: fixed;
   z-index: 1000;
@@ -79,20 +79,35 @@
   overflow: hidden;
   isolation: isolate;
   color: var(--adventure-ink);
-  background: #100e1d;
+  background: #100d1b;
   overscroll-behavior: contain;
 }
 
+.travel-overlay::before,
 .travel-overlay::after {
   position: absolute;
-  z-index: 2;
+  z-index: 8;
   inset: 0;
   pointer-events: none;
   content: "";
+}
+
+.travel-overlay::before {
+  opacity: 0.55;
+  background-image:
+    radial-gradient(circle at 13% 18%, #f6dca8 0 1px, transparent 1.6px),
+    radial-gradient(circle at 76% 15%, #d9c8ff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 44% 11%, #f6dca8 0 1px, transparent 1.6px),
+    radial-gradient(circle at 88% 42%, #d9c8ff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 24% 52%, #f6dca8 0 1px, transparent 1.6px),
+    radial-gradient(circle at 63% 75%, #d9c8ff 0 1px, transparent 1.6px);
+}
+
+.travel-overlay::after {
   background: radial-gradient(
     ellipse at center,
-    transparent 35%,
-    rgb(8 6 18 / 72%) 100%
+    transparent 34%,
+    rgb(8 6 18 / 74%) 100%
   );
 }
 
@@ -104,288 +119,335 @@
   perspective: 1100px;
   perspective-origin: 50% 47%;
   background: radial-gradient(
-    ellipse at 50% 42%,
-    #3b2a55 0%,
-    #1d1930 46%,
-    #100e1d 100%
+    ellipse at 50% 41%,
+    #4d3560 0%,
+    #231a3a 45%,
+    #100d1b 100%
   );
 }
 
-.travel-scene::before {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  content: "";
-  opacity: 0.58;
-  background-image:
-    radial-gradient(circle at 15% 22%, #f6dca8 0 1px, transparent 1.6px),
-    radial-gradient(circle at 76% 18%, #d9c8ff 0 1px, transparent 1.6px),
-    radial-gradient(circle at 44% 11%, #f6dca8 0 1px, transparent 1.6px),
-    radial-gradient(circle at 88% 42%, #d9c8ff 0 1px, transparent 1.6px),
-    radial-gradient(circle at 24% 52%, #f6dca8 0 1px, transparent 1.6px);
-}
-
 .travel-camera,
-.travel-world,
-.travel-corridor {
+.travel-world {
   position: absolute;
   inset: 0;
   transform-style: preserve-3d;
 }
 
 .travel-camera {
-  transform: translateZ(0);
-}
-
-.travel-world,
-.travel-corridor {
+  transform: translate3d(0, 0, 0);
   will-change: transform;
 }
 
-.travel-floor,
-.travel-ceiling,
-.travel-wall,
-.travel-rear-glow,
-.travel-arch,
-.travel-window,
-.travel-lamp,
-.travel-doorway {
+.travel-world {
+  will-change: transform;
+}
+
+.travel-destination,
+.travel-carriage-track,
+.travel-carriage,
+.travel-whirlwind-target,
+.travel-vortex,
+.travel-spiral,
+.travel-particle {
   position: absolute;
   transform-style: preserve-3d;
   backface-visibility: hidden;
 }
 
-.travel-floor {
-  top: calc(47% + 280px);
-  left: 50%;
-  width: 840px;
-  height: 1600px;
-  transform: translateX(-50%) translateZ(-1600px) rotateX(90deg);
-  transform-origin: 50% 0;
-  border-top: 2px solid #8b6e88;
+/* Correct answers arrive in a warm, physical magic carriage. */
+.travel-carriage-world {
   background:
-    linear-gradient(
-      90deg,
-      transparent 49.5%,
-      rgb(227 190 130 / 32%) 50%,
-      transparent 50.5%
-    ),
-    repeating-linear-gradient(
-      90deg,
-      rgb(113 82 123 / 30%) 0 2px,
-      transparent 2px 116px
-    ),
-    repeating-linear-gradient(0deg, #2b2341 0 42px, #36294c 42px 45px);
-  box-shadow: 0 -18px 35px rgb(13 8 27 / 65%);
+    linear-gradient(180deg, transparent 0 45%, rgb(24 15 43 / 35%) 46% 100%),
+    radial-gradient(ellipse at 50% 66%, rgb(203 144 86 / 33%), transparent 42%);
 }
 
-.travel-ceiling {
-  top: calc(47% - 280px);
-  left: 50%;
-  width: 840px;
-  height: 1600px;
-  transform: translateX(-50%) translateZ(-1600px) rotateX(90deg);
-  transform-origin: 50% 0;
-  backface-visibility: visible;
-  border-bottom: 2px solid #766078;
-  background: repeating-linear-gradient(
-    90deg,
-    #211a34 0 110px,
-    #302241 110px 114px
-  );
-  box-shadow: 0 18px 34px rgb(9 6 21 / 70%);
-}
-
-.travel-wall {
-  top: calc(47% - 280px);
-  width: 1600px;
-  height: 560px;
-  backface-visibility: visible;
-  border: 2px solid #6d5578;
-  background:
-    linear-gradient(
-      90deg,
-      rgb(16 12 31 / 72%),
-      rgb(67 44 75 / 72%) 52%,
-      rgb(35 24 54 / 85%)
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 88px,
-      rgb(231 192 132 / 15%) 89px 91px
-    ),
-    linear-gradient(#402c50, #1e1830);
-  box-shadow: inset 0 0 45px rgb(17 10 32 / 70%);
-}
-
-.travel-wall-left {
-  left: calc(50% - 420px);
-  transform-origin: left top;
-  transform: rotateY(90deg);
-}
-
-.travel-wall-right {
-  left: calc(50% + 420px);
-  transform-origin: left top;
-  transform: rotateY(90deg);
-}
-
-.travel-rear-glow {
-  top: 30%;
-  left: 50%;
-  width: min(52vw, 560px);
-  height: min(48vh, 370px);
-  transform: translate(-50%, -50%) translateZ(-1100px);
-  border-radius: 50%;
-  background: radial-gradient(ellipse, rgb(231 188 117 / 42%), transparent 70%);
-  filter: blur(18px);
-}
-
-.travel-arch {
+.travel-destination {
   top: 47%;
   left: 50%;
-  width: 840px;
-  height: 560px;
-  transform: translate(-50%, -50%) translateZ(var(--travel-depth, -400px));
-  border: 18px solid #685175;
-  border-bottom-width: 24px;
-  border-radius: 20% 20% 3% 3%;
+  width: min(48vw, 500px);
+  height: min(59vh, 470px);
+  transform: translate(-50%, -50%) translateZ(-540px) scale(0.78);
+  border: 18px solid #77547d;
+  border-bottom-width: 26px;
+  border-radius: 22% 22% 5% 5%;
+  background: radial-gradient(
+    ellipse at 50% 42%,
+    #f5d48e 0,
+    #977196 21%,
+    #32254a 56%,
+    #120d23 80%
+  );
   box-shadow:
-    0 0 0 4px rgb(221 181 120 / 30%),
-    inset 0 0 0 3px rgb(232 196 135 / 25%),
-    0 0 32px rgb(13 7 26 / 64%);
+    0 0 0 5px rgb(240 201 132 / 42%),
+    inset 0 0 42px rgb(11 6 26 / 78%),
+    0 0 52px rgb(242 190 104 / 52%);
+  transition: opacity 120ms linear;
 }
 
-.travel-arch::before {
+.travel-destination::before {
   position: absolute;
-  top: -21px;
-  right: 19%;
-  left: 19%;
-  height: 9px;
+  top: -23px;
+  right: 14%;
+  left: 14%;
+  height: 10px;
   content: "";
   border-radius: 8px;
-  background: linear-gradient(90deg, #bb8a62, #f0cc87, #bb8a62);
-  box-shadow: 0 0 15px rgb(236 193 115 / 50%);
+  background: linear-gradient(90deg, #bc815e, #f5d28b, #bc815e);
+  box-shadow: 0 0 18px rgb(247 203 124 / 74%);
 }
 
-.travel-arch::after {
+.travel-destination::after {
   position: absolute;
-  right: 16%;
-  bottom: -28px;
-  left: 16%;
-  height: 16px;
+  inset: 10% 49.5% 0;
   content: "";
-  border-radius: 0 0 10px 10px;
-  background: #3a2a4c;
+  background: rgb(251 219 143 / 27%);
 }
 
-.travel-window {
-  top: 30%;
-  width: 72px;
-  height: 108px;
-  border: 5px solid #9e7390;
-  border-radius: 45% 45% 10% 10%;
+.travel-carriage-track {
+  top: 72%;
+  left: -35vw;
+  width: 170vw;
+  height: 12px;
+  transform: translateZ(-20px) rotateX(69deg);
+  border-radius: 50%;
+  background: linear-gradient(90deg, transparent, #e1ad74 12% 88%, transparent);
+  box-shadow: 0 0 20px rgb(234 178 103 / 64%);
+}
+
+.travel-carriage {
+  top: 48%;
+  left: 50%;
+  z-index: 2;
+  width: min(330px, 48vw);
+  height: 205px;
+  transform: translate3d(-58vw, 0, 120px) scale(0.64);
+  transform-origin: center center;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 24px 18px rgb(8 4 20 / 62%));
+}
+
+.travel-carriage-body {
+  position: absolute;
+  inset: 20px 16px 30px;
+  border: 8px solid #8b5d65;
+  border-radius: 28px 28px 13px 13px;
   background:
     linear-gradient(
       90deg,
-      transparent 46%,
-      rgb(232 196 137 / 68%) 48% 52%,
-      transparent 54%
+      rgb(69 38 53 / 80%),
+      transparent 19% 81%,
+      rgb(69 38 53 / 80%)
     ),
-    linear-gradient(
-      0deg,
-      transparent 46%,
-      rgb(232 196 137 / 68%) 48% 52%,
-      transparent 54%
-    ),
-    radial-gradient(circle at 48% 45%, #f3d591, #6e5b9b 33%, #2d2853 70%);
-  box-shadow: 0 0 24px rgb(215 174 114 / 42%);
-  transform: translate(-50%, -50%)
-    translateZ(var(--travel-window-depth, -350px));
-}
-
-.travel-window-left {
-  left: 19%;
-  transform: translate(-50%, -50%) rotateY(28deg)
-    translateZ(var(--travel-window-depth, -350px));
-}
-
-.travel-window-right {
-  right: 19%;
-  transform: translate(50%, -50%) rotateY(-28deg)
-    translateZ(var(--travel-window-depth, -350px));
-}
-
-.travel-lamp {
-  top: 17%;
-  left: 50%;
-  width: 13px;
-  height: 13px;
-  transform: translate(-50%, -50%) translateZ(var(--travel-lamp-depth, -350px));
-  border-radius: 50%;
-  background: #f9dda0;
+    linear-gradient(180deg, #c47a55, #703d54 60%, #392541);
   box-shadow:
-    0 0 12px 6px rgb(246 199 121 / 48%),
-    0 0 42px 8px rgb(199 143 97 / 22%);
+    inset 0 5px 0 rgb(255 223 153 / 43%),
+    inset 0 -10px 0 rgb(30 17 38 / 42%),
+    0 0 26px rgb(242 178 94 / 31%);
 }
 
-.travel-doorway {
-  top: 50%;
-  left: 50%;
-  width: min(59vw, 600px);
-  height: min(86vh, 660px);
-  transform: translate(-50%, -50%) translateZ(var(--travel-depth, -1260px));
-  border: 25px solid #795782;
-  border-bottom-width: 30px;
-  border-radius: 19% 19% 3% 3%;
+.travel-carriage-body::before {
+  position: absolute;
+  top: 12px;
+  right: 15%;
+  left: 15%;
+  height: 5px;
+  content: "";
+  border-radius: 5px;
+  background: #f2ca83;
+  box-shadow: 0 0 15px rgb(255 210 125 / 76%);
+}
+
+.travel-carriage-roof {
+  position: absolute;
+  top: 0;
+  left: 3%;
+  width: 94%;
+  height: 48px;
+  border: 8px solid #75495e;
+  border-bottom: 0;
+  border-radius: 50% 50% 12px 12px;
+  background: linear-gradient(180deg, #e0a16d, #704458 72%);
+  box-shadow:
+    0 5px 0 #eac27d,
+    0 0 20px rgb(235 178 105 / 44%);
+}
+
+.travel-carriage-window {
+  position: absolute;
+  top: 24px;
+  width: 48px;
+  height: 62px;
+  border: 5px solid #efc87f;
+  border-radius: 50% 50% 12px 12px;
   background: radial-gradient(
-    ellipse at 50% 42%,
-    #e8c783 0,
-    #8b6685 15%,
-    #2a2044 47%,
-    #130e23 72%
+    circle at 50% 34%,
+    #f4d995,
+    #6e5c9a 43%,
+    #282044 78%
+  );
+  box-shadow: 0 0 15px rgb(248 204 121 / 58%);
+}
+
+.travel-carriage-window-left {
+  left: 17%;
+}
+
+.travel-carriage-window-right {
+  right: 17%;
+}
+
+.travel-carriage-step {
+  position: absolute;
+  right: 38%;
+  bottom: -29px;
+  left: 38%;
+  height: 19px;
+  border: 3px solid #d89d67;
+  border-radius: 3px;
+  background: #51324b;
+}
+
+.travel-wheel {
+  position: absolute;
+  bottom: 2px;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #d59663;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #f4c87b 0 10%, transparent 11%),
+    repeating-conic-gradient(#8b4d57 0 10deg, #e0a36b 11deg 18deg);
+  box-shadow:
+    0 0 0 5px #563449,
+    0 0 15px rgb(239 176 98 / 52%);
+  animation: travel-wheel-roll 0.42s linear infinite;
+}
+
+.travel-wheel-left {
+  left: 12%;
+}
+
+.travel-wheel-right {
+  right: 12%;
+}
+
+.travel-lantern {
+  position: absolute;
+  top: 33px;
+  width: 17px;
+  height: 28px;
+  border: 3px solid #ecbc70;
+  border-radius: 45% 45% 35% 35%;
+  background: #ffe39a;
+  box-shadow:
+    0 0 11px 5px rgb(250 196 99 / 62%),
+    0 0 35px 8px rgb(248 170 86 / 28%);
+  animation: travel-lantern-flicker 1.15s ease-in-out infinite alternate;
+}
+
+.travel-lantern-left {
+  left: -4px;
+}
+
+.travel-lantern-right {
+  right: -4px;
+}
+
+/* Wrong answers use a large, silly vortex with independent depth layers. */
+.travel-whirlwind-world {
+  background:
+    radial-gradient(
+      ellipse at 50% 52%,
+      rgb(173 107 205 / 30%),
+      transparent 25%
+    ),
+    conic-gradient(
+      from 90deg at 50% 51%,
+      #211437,
+      #4b2f65,
+      #17142e,
+      #5a3262,
+      #211437
+    );
+}
+
+.travel-whirlwind-target {
+  top: 47%;
+  left: 50%;
+  z-index: 1;
+  width: min(54vw, 560px);
+  height: min(62vh, 500px);
+  transform: translate(-50%, -50%) translateZ(-620px) scale(0.7);
+  border: 11px solid rgb(204 141 238 / 72%);
+  border-radius: 50% 50% 43% 43%;
+  background: radial-gradient(
+    ellipse,
+    rgb(248 205 134 / 78%),
+    #593e79 15%,
+    #171127 60%
   );
   box-shadow:
-    0 0 0 5px rgb(232 194 127 / 44%),
-    inset 0 0 44px rgb(8 5 18 / 76%),
-    0 0 42px rgb(228 186 116 / 45%);
+    0 0 0 5px rgb(231 180 255 / 23%),
+    0 0 80px rgb(190 116 229 / 53%);
+  will-change: transform, opacity;
 }
 
-.travel-doorway::before {
+.travel-target-ring {
   position: absolute;
-  top: -30px;
-  right: 17%;
-  left: 17%;
-  height: 12px;
-  content: "";
-  border-radius: 10px;
-  background: linear-gradient(90deg, #bf8b62, #f3d28f, #bf8b62);
-  box-shadow: 0 0 21px rgb(243 205 136 / 72%);
+  inset: 13%;
+  border: 3px dashed rgb(248 214 150 / 75%);
+  border-radius: 50%;
+  animation: travel-target-pulse 1.2s ease-in-out infinite alternate;
 }
 
-.travel-doorway::after {
-  position: absolute;
-  right: 50%;
-  bottom: 0;
-  width: 2px;
-  height: 100%;
-  content: "";
-  background: rgb(235 196 128 / 28%);
+.travel-vortex {
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 1px;
+  height: 1px;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.travel-spiral {
+  top: 50%;
+  left: 50%;
+  width: calc(160px + var(--travel-spiral-index) * 22px);
+  height: calc(72px + var(--travel-spiral-index) * 11px);
+  margin: calc(-36px - var(--travel-spiral-index) * 5px) 0 0
+    calc(-80px - var(--travel-spiral-index) * 11px);
+  border: 9px solid rgb(213 159 243 / 70%);
+  border-right-color: transparent;
+  border-left-color: rgb(246 206 137 / 74%);
+  border-radius: 50%;
+  box-shadow: 0 0 18px rgb(190 119 229 / 53%);
+}
+
+.travel-particle {
+  top: 50%;
+  left: 50%;
+  width: var(--travel-particle-size, 5px);
+  height: var(--travel-particle-size, 5px);
+  margin: -3px;
+  border-radius: 50%;
+  background: #f7cf8d;
+  box-shadow: 0 0 8px 3px rgb(239 182 104 / 65%);
 }
 
 .travel-avatar {
   position: absolute;
-  z-index: 1;
-  bottom: 34%;
+  top: 24%;
   left: 50%;
-  width: min(190px, 29vw);
-  min-width: 102px;
-  transform: translate3d(-50%, 0, -660px);
-  transform-style: preserve-3d;
+  z-index: 5;
+  width: min(170px, 27vw);
+  min-width: 112px;
+  transform: translate3d(-50%, 0, 0);
+  transform-style: flat;
   transform-origin: center bottom;
   pointer-events: none;
-  filter: drop-shadow(0 18px 15px rgb(8 5 20 / 56%));
-  will-change: transform;
+  filter: drop-shadow(0 20px 16px rgb(8 5 20 / 58%));
+  will-change: transform, opacity;
 }
 
 .travel-avatar .avatar-art {
@@ -394,17 +456,17 @@
 
 .travel-hud {
   position: absolute;
-  z-index: 3;
+  z-index: 10;
   bottom: max(24px, env(safe-area-inset-bottom));
   left: 50%;
   display: grid;
-  width: min(680px, calc(100% - 32px));
+  width: min(700px, calc(100% - 32px));
   gap: 9px;
   padding: 22px 24px 20px;
   transform: translateX(-50%);
   border: 1px solid rgb(224 188 127 / 48%);
   border-radius: 18px;
-  background: rgb(23 18 39 / 86%);
+  background: rgb(23 18 39 / 89%);
   box-shadow:
     0 14px 42px rgb(7 4 18 / 58%),
     inset 0 1px rgb(255 240 195 / 10%);
@@ -447,6 +509,22 @@
   flex: 0 0 auto;
   color: var(--adventure-gold);
   font-size: 18px;
+}
+
+.travel-target-label {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 5px 9px;
+  overflow: hidden;
+  border: 1px solid rgb(228 197 141 / 42%);
+  border-radius: 7px;
+  color: #f8d99b;
+  background: rgb(81 56 92 / 52%);
+  font-size: 11px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .travel-progress-track {
@@ -496,12 +574,49 @@
   outline-offset: 3px;
 }
 
+@keyframes travel-wheel-roll {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes travel-lantern-flicker {
+  from {
+    filter: brightness(0.9);
+  }
+  to {
+    filter: brightness(1.25);
+  }
+}
+
+@keyframes travel-target-pulse {
+  from {
+    transform: scale(0.93) rotate(0deg);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1.07) rotate(12deg);
+    opacity: 1;
+  }
+}
+
 .travel-overlay--reduced .travel-progress-bar {
   transition-duration: 120ms;
 }
 
+.travel-overlay--reduced .travel-wheel,
+.travel-overlay--reduced .travel-lantern,
+.travel-overlay--reduced .travel-target-ring {
+  animation: none;
+}
+
+.travel-overlay--reduced .travel-camera,
 .travel-overlay--reduced .travel-world,
-.travel-overlay--reduced .travel-avatar {
+.travel-overlay--reduced .travel-avatar,
+.travel-overlay--reduced .travel-carriage,
+.travel-overlay--reduced .travel-spiral,
+.travel-overlay--reduced .travel-particle,
+.travel-overlay--reduced .travel-whirlwind-target {
   will-change: auto;
 }
 
@@ -511,32 +626,24 @@
     perspective-origin: 50% 42%;
   }
 
-  .travel-window {
-    width: 48px;
-    height: 82px;
+  .travel-carriage {
+    width: 285px;
+    height: 180px;
   }
 
-  .travel-window-left {
-    left: 12%;
+  .travel-wheel {
+    width: 52px;
+    height: 52px;
   }
 
-  .travel-window-right {
-    right: 12%;
-  }
-
-  .travel-arch {
+  .travel-destination {
+    width: 78vw;
+    height: 58vh;
     border-width: 13px;
   }
 
-  .travel-doorway {
-    width: 83vw;
-    height: 76vh;
-    border-width: 17px;
-  }
-
   .travel-avatar {
-    bottom: 38%;
-    width: 142px;
+    width: 154px;
   }
 
   .travel-hud {
@@ -552,13 +659,21 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .travel-progress-bar {
+  .travel-progress-bar,
+  .travel-wheel,
+  .travel-lantern,
+  .travel-target-ring {
     transition-duration: 0ms;
+    animation: none !important;
   }
 
+  .travel-camera,
   .travel-world,
-  .travel-avatar {
-    animation: none !important;
+  .travel-avatar,
+  .travel-carriage,
+  .travel-spiral,
+  .travel-particle,
+  .travel-whirlwind-target {
     transition: none !important;
   }
 }

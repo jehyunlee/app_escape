@@ -6,8 +6,8 @@ import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
 import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
 import { buildRoomWorld } from "./room-world.js";
 import { layoutHotspots } from "./hotspot-layout.js";
+import { QUESTION_COUNT as TARGET_COUNT } from "./levels.js";
 
-const TARGET_COUNT = 20;
 const DEFAULT_CAMERA_POSITION = [0, 2.6, 8.5];
 const DEFAULT_CAMERA_TARGET = [0, 1.35, 0];
 const DESKTOP_PIXEL_RATIO = 1.5;
@@ -136,7 +136,7 @@ export function createRoomView(room, onSelect, layoutSeed) {
     button.className = "world-object-button";
     button.dataset.roomObject = String(index);
     button.textContent = `물체 ${index + 1}`;
-    button.setAttribute("aria-label", `방 안의 물체 ${index + 1}`);
+    button.setAttribute("aria-label", "방 안의 물체");
     button.disabled = true;
     button.setAttribute("aria-disabled", "true");
     controls.append(button);
@@ -528,8 +528,10 @@ export function createRoomView(room, onSelect, layoutSeed) {
       const index = owner?.userData?.index;
       if (!Number.isInteger(index) || index < 0 || index >= TARGET_COUNT)
         continue;
-      // A solved foreground object still occludes objects behind it.
-      if (answeredState[index]) return;
+      // Solved meshes remain visible as part of the room, but they must not
+      // block an unsolved target behind them. Continue through the sorted
+      // intersections instead of treating the disabled object as a hit.
+      if (answeredState[index]) continue;
       selectedHit = index;
       break;
     }
@@ -565,7 +567,10 @@ export function createRoomView(room, onSelect, layoutSeed) {
       if (target?.object) targetBounds.expandByObject(target.object);
     });
     if (targetBounds.isEmpty()) return;
-    targetBounds.expandByScalar(0.22);
+    // Include the enlarged support pieces and a little breathing room at the
+    // edge of the camera frame. This keeps the 1.45x foreground models fully
+    // visible instead of compensating by shrinking them again.
+    targetBounds.expandByScalar(0.55);
 
     targetBounds.getCenter(fitCenter);
     targetBounds.getSize(fitSize);
@@ -798,7 +803,7 @@ export function createRoomView(room, onSelect, layoutSeed) {
         !Array.isArray(world.targets) ||
         world.targets.length !== TARGET_COUNT
       ) {
-        throw new Error("Room world must expose exactly twenty targets.");
+        throw new Error("Room world must expose exactly fifteen targets.");
       }
       targets = world.targets.map((target) => ({
         name: String(target?.name || ""),
@@ -815,6 +820,16 @@ export function createRoomView(room, onSelect, layoutSeed) {
         )
       ) {
         throw new Error("Room world targets must have stable indices.");
+      }
+      if (
+        new Set(targets.map((target) => target.name)).size !== TARGET_COUNT ||
+        new Set(targets.map((target) => target.object.userData?.kind)).size !==
+          TARGET_COUNT
+      ) {
+        throw new Error("Room world targets must have unique names and kinds.");
+      }
+      if (targets.some((target) => /\d+$/.test(target.name))) {
+        throw new Error("Room world target names must not end with ordinals.");
       }
       baseCameraPosition.copy(
         vectorFromArray(world.camera?.position, DEFAULT_CAMERA_POSITION),
