@@ -5,6 +5,8 @@ import { advancedStemPools } from "./advanced-stem.js";
 import { dadScienceQuestions } from "./dad-science.js";
 import { dadAIQuestions } from "./dad-ai.js";
 import { dadHistoryQuestions } from "./dad-history.js";
+import { dadPsychologyQuestions } from "./dad-psychology.js";
+import { dadMetascienceQuestions } from "./dad-metascience.js";
 
 export const QUESTION_COUNT = 15;
 export const PASS_SCORE = 10;
@@ -83,16 +85,20 @@ const indexes = new Map(
     new Map(pool.map((question) => [question.id, question])),
   ]),
 );
-const dadTopics = ["science", "ai", "history"];
+const dadTopics = ["science", "ai", "history", "psychology", "metascience"];
 const dadPools = {
   science: dadScienceQuestions,
   ai: dadAIQuestions,
   history: dadHistoryQuestions,
+  psychology: dadPsychologyQuestions,
+  metascience: dadMetascienceQuestions,
 };
 const dadTopicNames = {
   science: "과학·과학사",
   ai: "AI 원리·역사",
   history: "역사",
+  psychology: "심리학",
+  metascience: "과학의 과학·계량서지학",
 };
 export function dadTopic(levelId) {
   if (!Number.isInteger(levelId) || !levels[levelId - 1])

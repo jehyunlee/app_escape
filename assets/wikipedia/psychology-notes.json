@@ -1,0 +1,5322 @@
+[
+  {
+    "passageId": "psychology-cognitive-psychology-p1",
+    "importantWords": [
+      {
+        "term": "cognitive psychology",
+        "meaning": "인간의 정신 과정을 과학적으로 연구하는 심리학의 한 분야이다."
+      },
+      {
+        "term": "mental processes",
+        "meaning": "주의, 기억, 추론처럼 마음속에서 일어나는 작용을 가리킨다."
+      },
+      {
+        "term": "reasoning",
+        "meaning": "정보를 바탕으로 결론을 이끌어내는 사고 과정이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "scientific study",
+        "meaning": "체계적이고 검증 가능한 방법으로 연구하는 활동을 뜻한다."
+      },
+      {
+        "term": "problem solving",
+        "meaning": "목표에 도달하기 위해 장애를 해결하는 인지 활동이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인지심리학의 범위",
+        "explanation": "인지심리학은 주의, 언어, 기억, 지각, 문제 해결, 창의성, 추론 등 다양한 정신 과정을 다룹니다. 이는 단일한 주제가 아니라 여러 정신 기능을 포괄하는 넓은 분야임을 보여줍니다."
+      },
+      {
+        "title": "과학적 접근",
+        "explanation": "이 학문은 마음을 다루지만 과학적 방법을 사용합니다. 즉 직관이 아니라 실험과 관찰을 통해 정신 과정을 검증하려 합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p2",
+    "importantWords": [
+      {
+        "term": "cognitive psychology",
+        "meaning": "관찰할 수 없는 정신 과정도 연구 대상으로 삼는 심리학 분야이다."
+      },
+      {
+        "term": "behaviorism",
+        "meaning": "관찰 가능한 행동만을 과학적 연구 대상으로 삼았던 이전 심리학 학파이다."
+      },
+      {
+        "term": "empirical science",
+        "meaning": "경험적 관찰과 실험에 근거한 과학을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unobservable",
+        "meaning": "겉으로 드러나지 않아 직접 관찰할 수 없는 상태를 뜻한다."
+      },
+      {
+        "term": "originated",
+        "meaning": "어떤 학문이나 사조가 처음 생겨난 것을 의미한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행동주의와의 단절",
+        "explanation": "행동주의는 1920~1950년대에 마음속 과정을 과학의 대상이 아니라고 보았습니다. 인지심리학은 이런 입장에서 벗어나 정신 과정 자체를 연구하기 시작했습니다."
+      },
+      {
+        "title": "시대적 전환",
+        "explanation": "1960년대라는 시점은 심리학의 관심이 겉으로 보이는 행동에서 내부의 정신 과정으로 옮겨간 전환점을 나타냅니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p3",
+    "importantWords": [
+      {
+        "term": "linguistics",
+        "meaning": "언어의 구조와 사용을 연구하는 학문이다."
+      },
+      {
+        "term": "cybernetics",
+        "meaning": "정보와 제어 체계를 다루는 학제간 학문이다."
+      },
+      {
+        "term": "cognitive science",
+        "meaning": "마음과 정보 처리를 통합적으로 연구하는 학문 분야이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "integrated",
+        "meaning": "서로 다른 분야의 내용이 하나로 결합된 것을 뜻한다."
+      },
+      {
+        "term": "modern disciplines",
+        "meaning": "현대에 형성된 여러 전문 학문 분야를 가리킨다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "여러 분야의 융합",
+        "explanation": "언어학, 사이버네틱스, 응용심리학 연구자들이 함께 정신 처리 모델을 발전시키며 인지심리학이 형성되었습니다. 이는 한 학문이 아니라 여러 학문의 만남에서 나온 결과임을 보여줍니다."
+      },
+      {
+        "title": "확산된 영향",
+        "explanation": "인지심리학에서 나온 연구 성과는 인지과학, 언어학, 경제학 등 다른 현대 학문에도 통합되어 영향을 미쳤습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p4",
+    "importantWords": [
+      {
+        "term": "Plato",
+        "meaning": "고대 그리스의 철학자로 마음에 대한 초기 논의를 남겼다."
+      },
+      {
+        "term": "seat of mental processes",
+        "meaning": "정신 작용이 일어나는 신체 부위를 가리키는 표현이다."
+      },
+      {
+        "term": "ancient Greeks",
+        "meaning": "고대 그리스 시대의 철학자와 사상가들을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "philosophical discussions",
+        "meaning": "이성적 논증을 통해 근본적인 질문을 다루는 논의를 뜻한다."
+      },
+      {
+        "term": "date back to",
+        "meaning": "어떤 일의 기원이 특정 시점까지 거슬러 올라감을 나타낸다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "고대의 마음 논의",
+        "explanation": "인간의 마음과 행동에 대한 철학적 논의는 고대 그리스까지 거슬러 올라갑니다. 이는 인지심리학이 현대에 갑자기 생긴 것이 아니라 오랜 사상적 뿌리를 가지고 있음을 보여줍니다."
+      },
+      {
+        "title": "플라톤의 주장",
+        "explanation": "플라톤은 기원전 387년에 뇌가 정신 과정이 일어나는 곳이라고 주장했는데, 이는 뇌와 마음을 연결한 초기 사례입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p5",
+    "importantWords": [
+      {
+        "term": "René Descartes",
+        "meaning": "심신 이원론을 주장한 17세기 프랑스 철학자이다."
+      },
+      {
+        "term": "innate ideas",
+        "meaning": "경험 없이 태어날 때부터 가지고 있는 관념을 뜻한다."
+      },
+      {
+        "term": "mind-body dualism",
+        "meaning": "마음과 몸이 서로 다른 두 실체라는 이론이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "substance dualism",
+        "meaning": "정신과 물질을 각각 독립된 실체로 보는 철학적 입장이다."
+      },
+      {
+        "term": "promulgated",
+        "meaning": "어떤 사상이나 이론을 공표하고 널리 퍼뜨렸다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "데카르트의 이원론",
+        "explanation": "데카르트는 인간이 타고난 관념을 가진다고 보았고, 마음과 몸을 서로 다른 두 실체로 구분하는 이원론을 제시했습니다. 이는 이후 마음 연구에서 중요한 철학적 입장이 되었습니다."
+      },
+      {
+        "title": "타고난 관념",
+        "explanation": "innate ideas라는 개념은 지식이 오직 경험에서만 온다는 입장과 대립하며, 이후 경험주의와 생득주의 논쟁의 씨앗이 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p6",
+    "importantWords": [
+      {
+        "term": "empiricism",
+        "meaning": "지식이 오직 경험을 통해서만 얻어진다는 입장이다."
+      },
+      {
+        "term": "nativism",
+        "meaning": "일부 지식이 태어날 때부터 갖추어져 있다는 입장이다."
+      },
+      {
+        "term": "major debates",
+        "meaning": "학계에서 오래 이어진 중요한 논쟁을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ensued",
+        "meaning": "어떤 사건이나 논쟁이 뒤이어 일어났다는 뜻이다."
+      },
+      {
+        "term": "solely experiential",
+        "meaning": "오직 경험에서만 비롯된다는 의미이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "경험주의 대 생득주의",
+        "explanation": "지문은 인간 사고가 경험에서만 오는지, 아니면 타고난 지식도 포함하는지를 두고 19세기 내내 논쟁이 있었다고 설명합니다. 이는 데카르트의 타고난 관념 개념이 이후에도 계속 논쟁거리였음을 보여줍니다."
+      },
+      {
+        "title": "논쟁의 지속성",
+        "explanation": "이 논쟁은 특정 시기에 끝난 것이 아니라 19세기 전체에 걸쳐 계속되었다는 점에서 사상사적으로 중요한 흐름입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p7",
+    "importantWords": [
+      {
+        "term": "Paul Broca",
+        "meaning": "언어 산출을 담당하는 뇌 영역을 발견한 학자이다."
+      },
+      {
+        "term": "Carl Wernicke",
+        "meaning": "언어 이해를 담당하는 뇌 영역을 발견한 학자이다."
+      },
+      {
+        "term": "language production",
+        "meaning": "말을 만들어내는 언어 능력을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "comprehension",
+        "meaning": "듣거나 읽은 언어를 이해하는 능력을 뜻한다."
+      },
+      {
+        "term": "substantial roles",
+        "meaning": "어떤 것이 중요한 영향을 미치는 역할을 했다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 가지 발견의 구분",
+        "explanation": "브로카는 언어를 만들어내는 영역을, 베르니케는 언어를 이해하는 영역을 각각 발견했습니다. 이는 언어 기능이 하나의 뇌 영역이 아니라 서로 다른 영역으로 나뉘어 있음을 보여줍니다."
+      },
+      {
+        "title": "인지심리학에의 기여",
+        "explanation": "이 두 발견은 이후 인지심리학이 뇌와 언어의 관계를 이해하는 데 중요한 토대가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-psychology-p8",
+    "importantWords": [
+      {
+        "term": "Broca's aphasia",
+        "meaning": "언어를 산출하는 능력에 장애가 생기는 실어증이다."
+      },
+      {
+        "term": "Wernicke's aphasia",
+        "meaning": "언어를 이해하는 능력에 장애가 생기는 실어증이다."
+      },
+      {
+        "term": "trauma",
+        "meaning": "뇌에 손상을 주는 외상을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "malformation",
+        "meaning": "신체나 뇌 구조가 비정상적으로 형성된 상태를 뜻한다."
+      },
+      {
+        "term": "commonly be known as",
+        "meaning": "일반적으로 그렇게 불리게 되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실어증의 명명",
+        "explanation": "브로카 영역과 베르니케 영역이 손상되면 각각 그 발견자의 이름을 딴 브로카 실어증, 베르니케 실어증이 나타납니다. 이는 발견자의 이름이 증상 이름으로 굳어진 사례입니다."
+      },
+      {
+        "title": "원인의 다양성",
+        "explanation": "지문은 이런 장애가 외상뿐 아니라 뇌 구조의 기형에서도 비롯될 수 있다고 언급합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p1",
+    "importantWords": [
+      {
+        "term": "classical conditioning",
+        "meaning": "생물학적 자극과 중립 자극을 짝지어 학습이 일어나는 절차이다."
+      },
+      {
+        "term": "biologically potent stimulus",
+        "meaning": "먹이처럼 생물학적으로 강한 반응을 일으키는 자극이다."
+      },
+      {
+        "term": "neutral stimulus",
+        "meaning": "본래 특정 반응을 일으키지 않는 자극을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "respondent conditioning",
+        "meaning": "고전적 조건형성을 가리키는 다른 이름이다."
+      },
+      {
+        "term": "Pavlovian conditioning",
+        "meaning": "파블로프의 이름을 딴 고전적 조건형성의 별칭이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자극 짝짓기의 원리",
+        "explanation": "고전적 조건형성은 먹이나 공기 자극처럼 원래부터 반응을 일으키는 자극을, 소리처럼 중립적인 자극과 함께 제시하는 절차입니다. 이 짝짓기가 반복되면 중립 자극만으로도 반응이 일어나게 됩니다."
+      },
+      {
+        "title": "여러 명칭",
+        "explanation": "이 절차는 respondent conditioning, Pavlovian conditioning 등 여러 이름으로 불리는데, 모두 같은 현상을 가리킵니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p2",
+    "importantWords": [
+      {
+        "term": "conditioned response",
+        "meaning": "학습을 통해 자극에 대해 자동으로 나타나게 된 반응이다."
+      },
+      {
+        "term": "automatic",
+        "meaning": "의식적인 노력 없이 저절로 일어나는 것을 뜻한다."
+      },
+      {
+        "term": "signal",
+        "meaning": "다른 사건이 곧 일어날 것임을 알려주는 단서를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "essentially equivalent",
+        "meaning": "본질적으로 같다고 볼 수 있다는 뜻이다."
+      },
+      {
+        "term": "specific stimulus",
+        "meaning": "다른 자극과 구별되는 특정한 자극을 가리킨다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신호로서의 자극",
+        "explanation": "지문은 조건화된 자극이 신호와 본질적으로 같다고 말합니다. 즉 그 자극은 앞으로 일어날 사건을 예고하는 역할을 합니다."
+      },
+      {
+        "title": "자동성",
+        "explanation": "조건형성된 반응은 의식적으로 결정하는 것이 아니라 자동으로 일어난다는 점이 핵심입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p3",
+    "importantWords": [
+      {
+        "term": "Ivan Pavlov",
+        "meaning": "개 실험으로 고전적 조건형성을 연구한 러시아 생리학자이다."
+      },
+      {
+        "term": "Russian physiologist",
+        "meaning": "신체 기능을 연구하는 러시아 출신 생리학자를 뜻한다."
+      },
+      {
+        "term": "detailed experiments",
+        "meaning": "세밀하게 설계된 실험을 의미한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "published",
+        "meaning": "연구 결과를 학술적으로 발표했다는 뜻이다."
+      },
+      {
+        "term": "experimental results",
+        "meaning": "실험을 통해 얻은 구체적인 결과를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "파블로프의 업적",
+        "explanation": "파블로프는 개를 이용한 세밀한 실험으로 고전적 조건형성 현상을 체계적으로 연구했고, 1897년에 그 결과를 발표했습니다. 이는 학습 심리학의 출발점 중 하나로 평가됩니다."
+      },
+      {
+        "title": "생리학자로서의 배경",
+        "explanation": "파블로프는 원래 소화 생리학을 연구하던 생리학자였다는 점에서, 조건형성 연구가 심리학이 아닌 생리학에서 시작되었음을 알 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p4",
+    "importantWords": [
+      {
+        "term": "operant conditioning",
+        "meaning": "강화나 처벌로 자발적 행동을 바꾸는 학습 과정이다."
+      },
+      {
+        "term": "salivated",
+        "meaning": "개들이 먹이를 보고 침을 흘린 반응을 뜻한다."
+      },
+      {
+        "term": "voluntary behavior",
+        "meaning": "스스로 선택해서 하는 행동을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "reinforcement",
+        "meaning": "행동이 다시 일어날 가능성을 높이는 결과를 뜻한다."
+      },
+      {
+        "term": "distinct from",
+        "meaning": "서로 다르며 구별된다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 조건형성의 차이",
+        "explanation": "파블로프의 조건형성은 먹이에 대한 침 분비 같은 비자발적 반응을 다루지만, 조작적 조건형성은 강화나 처벌을 통해 자발적 행동을 바꾸는 과정입니다."
+      },
+      {
+        "title": "소화 연구에서 발견",
+        "explanation": "파블로프는 원래 소화를 연구하다가 개들이 고기를 먹을 때 침을 흘리는 것을 관찰하며 조건형성 현상을 발견했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p5",
+    "importantWords": [
+      {
+        "term": "associative learning",
+        "meaning": "두 사건을 연결지어 배우는 학습 방식을 뜻한다."
+      },
+      {
+        "term": "contingencies",
+        "meaning": "어떤 사건이 다른 사건에 따라 일어나는 수반 관계를 뜻한다."
+      },
+      {
+        "term": "instrumental learning",
+        "meaning": "행동의 결과에 따라 학습이 이루어지는 방식으로 조작적 학습과 관련된다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "sometimes hard to distinguish",
+        "meaning": "구별하기 어려운 경우가 있다는 뜻이다."
+      },
+      {
+        "term": "observations differentiate them",
+        "meaning": "관찰 결과가 두 현상을 구별해준다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구별의 어려움과 근거",
+        "explanation": "고전적 조건형성과 다른 연합 학습은 겉으로 비슷해 보일 수 있지만, 학습이 일어나는 수반 관계의 차이로 구별할 수 있다고 지문은 설명합니다."
+      },
+      {
+        "title": "인간 연합 기억과의 비교",
+        "explanation": "지문은 인간의 연합 기억도 고전적 조건형성과 혼동될 수 있는 예로 언급하며, 세심한 관찰이 필요함을 시사합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p6",
+    "importantWords": [
+      {
+        "term": "behaviorism",
+        "meaning": "20세기 중반 지배적이었던 심리학의 한 학파이다."
+      },
+      {
+        "term": "foundation",
+        "meaning": "어떤 이론이나 학파가 세워지는 기초를 뜻한다."
+      },
+      {
+        "term": "dominant",
+        "meaning": "특정 시기에 가장 영향력이 컸다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "mid-20th century",
+        "meaning": "20세기 중반 시기를 가리키는 표현이다."
+      },
+      {
+        "term": "important influence",
+        "meaning": "지금까지도 큰 영향을 미치고 있다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행동주의의 두 기둥",
+        "explanation": "고전적 조건형성과 조작적 조건형성은 함께 행동주의라는 심리학 학파의 토대가 되었습니다. 이는 두 학습 이론이 별개가 아니라 하나의 큰 흐름을 이루었음을 보여줍니다."
+      },
+      {
+        "title": "현재까지의 영향",
+        "explanation": "지문은 행동주의가 오늘날에도 심리 치료와 동물 행동 연구에 여전히 중요한 영향을 미친다고 말합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p7",
+    "importantWords": [
+      {
+        "term": "psychoactive drugs",
+        "meaning": "정신 상태에 영향을 미치는 약물을 뜻한다."
+      },
+      {
+        "term": "regulation of hunger",
+        "meaning": "배고픔을 조절하는 신체 과정을 뜻한다."
+      },
+      {
+        "term": "false consensus effect",
+        "meaning": "자신의 생각이 다수의 의견과 같다고 과대평가하는 사회적 현상이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "applied in other areas",
+        "meaning": "다른 여러 영역에 적용되었다는 뜻이다."
+      },
+      {
+        "term": "neural basis",
+        "meaning": "어떤 현상의 신경학적 기반을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "적용 범위의 확장",
+        "explanation": "고전적 조건형성은 단순한 실험실 현상을 넘어 약물 반응, 배고픔 조절, 학습과 기억의 신경 기반, 사회적 현상까지 폭넓게 적용됩니다."
+      },
+      {
+        "title": "사회적 현상과의 연결",
+        "explanation": "허위 합의 효과처럼 사회심리학적 현상까지 고전적 조건형성의 틀로 설명하려는 시도가 있음을 지문은 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-classical-conditioning-p8",
+    "importantWords": [
+      {
+        "term": "conditioned stimulus",
+        "meaning": "훈련을 통해 반응을 일으키게 된 자극을 뜻한다."
+      },
+      {
+        "term": "unconditioned stimulus",
+        "meaning": "훈련 없이도 원래부터 반응을 일으키는 자극을 뜻한다."
+      },
+      {
+        "term": "innate reflex response",
+        "meaning": "타고난, 학습되지 않은 반사 반응을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "biologically potent",
+        "meaning": "생물학적으로 강한 효과를 내는 성질을 뜻한다."
+      },
+      {
+        "term": "paired with",
+        "meaning": "두 자극이 함께 제시된다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "CS와 US의 구분",
+        "explanation": "조건 자극(CS)은 원래 중립적이던 것이 학습을 통해 반응을 일으키게 된 자극이고, 무조건 자극(US)은 학습 없이도 반응을 일으키는 자극입니다."
+      },
+      {
+        "title": "반사 반응의 예",
+        "explanation": "음식 맛에 대한 침 분비는 학습되지 않은 타고난 반사 반응의 대표적인 예로 제시됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p1",
+    "importantWords": [
+      {
+        "term": "operant conditioning",
+        "meaning": "보상이나 혐오 자극을 통해 자발적 행동을 바꾸는 학습 과정이다."
+      },
+      {
+        "term": "instrumental conditioning",
+        "meaning": "조작적 조건형성을 가리키는 다른 이름이다."
+      },
+      {
+        "term": "aversive stimuli",
+        "meaning": "피하고 싶은 불쾌한 자극을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "voluntary behaviors",
+        "meaning": "스스로 선택해서 하는 행동을 뜻한다."
+      },
+      {
+        "term": "association with",
+        "meaning": "어떤 결과와 연결되어 나타난다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자발적 행동의 변화",
+        "explanation": "조작적 조건형성은 자발적 행동이 보상이나 혐오 자극의 추가 혹은 제거와 연합하여 바뀌는 과정입니다. 이는 반사적 행동을 다루는 고전적 조건형성과 구별됩니다."
+      },
+      {
+        "title": "다른 이름",
+        "explanation": "이 학습 과정은 instrumental conditioning이라는 이름으로도 불립니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p2",
+    "importantWords": [
+      {
+        "term": "law of effect",
+        "meaning": "행동이 만족스러운 결과나 불쾌한 결과에 따라 달라진다는 이론이다."
+      },
+      {
+        "term": "Edward Thorndike",
+        "meaning": "효과의 법칙을 제시한 심리학자이다."
+      },
+      {
+        "term": "consequences",
+        "meaning": "행동 뒤에 따라오는 결과를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "theorised",
+        "meaning": "이론적으로 설명하고 주장했다는 뜻이다."
+      },
+      {
+        "term": "satisfying or discomforting",
+        "meaning": "만족스럽거나 불쾌한 상태를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "효과의 법칙",
+        "explanation": "손다이크는 행동이 그 결과가 만족스러운지 불쾌한지에 따라 달라진다는 효과의 법칙을 제시했습니다. 이는 조작적 조건형성 이론의 출발점이 되었습니다."
+      },
+      {
+        "title": "이론의 기원",
+        "explanation": "지문은 조작적 조건형성이라는 개념 전체가 손다이크의 이 이론에서 비롯되었다고 명시합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p3",
+    "importantWords": [
+      {
+        "term": "behavioral psychologists",
+        "meaning": "행동을 환경적 조건형성으로 설명하려는 심리학자들이다."
+      },
+      {
+        "term": "environmental conditioning",
+        "meaning": "환경 자극에 의해 행동이 형성되는 과정을 뜻한다."
+      },
+      {
+        "term": "explained",
+        "meaning": "어떤 현상의 원인을 밝혀 설명한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "much of mind and behaviour",
+        "meaning": "마음과 행동의 상당 부분을 가리키는 표현이다."
+      },
+      {
+        "term": "20th century",
+        "meaning": "1900년대를 가리키는 시기 표현이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행동주의 심리학자의 신념",
+        "explanation": "20세기 행동주의 심리학자들은 마음과 행동의 많은 부분이 환경에 의한 조건형성으로 설명될 수 있다고 믿었습니다. 이는 내적 정신 과정보다 외적 환경을 강조하는 입장입니다."
+      },
+      {
+        "title": "조작적 조건형성과의 연결",
+        "explanation": "이런 믿음 아래에서 조작적 조건형성이 20세기에 활발히 연구되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p4",
+    "importantWords": [
+      {
+        "term": "reinforcements",
+        "meaning": "행동이 늘어나게 만드는 환경 자극이다."
+      },
+      {
+        "term": "punishments",
+        "meaning": "행동이 줄어들게 만드는 자극이다."
+      },
+      {
+        "term": "positive and negative stimuli",
+        "meaning": "자극의 추가 또는 제거를 구분하는 개념이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "environmental stimuli",
+        "meaning": "환경에서 오는 자극을 뜻한다."
+      },
+      {
+        "term": "categorised",
+        "meaning": "여러 항목으로 분류되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "강화와 처벌의 구분",
+        "explanation": "강화는 행동의 빈도를 늘리는 자극이고, 처벌은 행동의 빈도를 줄이는 자극입니다. 두 개념 모두 자극의 추가 혹은 제거로 다시 나뉠 수 있습니다."
+      },
+      {
+        "title": "정적·부적 구분",
+        "explanation": "긍정적 자극은 무언가를 더하는 것이고 부정적 자극은 무언가를 제거하는 것으로, 강화와 처벌 각각에 이 구분이 적용됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p5",
+    "importantWords": [
+      {
+        "term": "mechanism",
+        "meaning": "어떤 현상이 일어나는 과정이나 방식을 뜻한다."
+      },
+      {
+        "term": "involuntary, reflexive behaviors",
+        "meaning": "의지와 상관없이 자동으로 일어나는 반사 행동이다."
+      },
+      {
+        "term": "shapes",
+        "meaning": "행동을 점진적으로 만들어간다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "differs from",
+        "meaning": "서로 다르다는 뜻이다."
+      },
+      {
+        "term": "outcome",
+        "meaning": "어떤 과정의 결과를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "메커니즘의 차이",
+        "explanation": "고전적 조건형성은 자극을 짝지어 침 분비 같은 비자발적 반사를 만들어내지만, 조작적 조건형성은 결과를 통해 자발적 행동을 형성합니다."
+      },
+      {
+        "title": "결과의 차이",
+        "explanation": "두 조건형성은 과정뿐 아니라 만들어내는 결과의 성격도 다르다는 점을 지문은 강조합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p6",
+    "importantWords": [
+      {
+        "term": "Edward L. Thorndike",
+        "meaning": "고양이 퍼즐 상자 실험을 수행한 심리학자이다."
+      },
+      {
+        "term": "puzzle boxes",
+        "meaning": "동물이 탈출 방법을 학습하도록 만든 실험 장치이다."
+      },
+      {
+        "term": "instrumental learning",
+        "meaning": "조작적 조건형성을 가리키는 다른 이름이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "first extensively studied",
+        "meaning": "처음으로 폭넓게 연구되었다는 뜻이다."
+      },
+      {
+        "term": "home-made",
+        "meaning": "직접 만든, 손수 제작한 것을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "퍼즐 상자 실험",
+        "explanation": "손다이크는 고양이를 손수 만든 퍼즐 상자에 넣고 탈출 행동을 관찰함으로써 조작적 조건형성을 처음 폭넓게 연구했습니다."
+      },
+      {
+        "title": "실험의 의의",
+        "explanation": "이 실험은 이후 조작적 조건형성 이론이 발전하는 데 기초가 된 초기 연구로 평가됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p7",
+    "importantWords": [
+      {
+        "term": "simple response",
+        "meaning": "단순한 하나의 행동을 뜻한다."
+      },
+      {
+        "term": "pulling a cord",
+        "meaning": "줄을 당기는 구체적인 탈출 행동이다."
+      },
+      {
+        "term": "first constrained",
+        "meaning": "처음 상자에 갇혔을 때를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "took a long time",
+        "meaning": "많은 시간이 걸렸다는 뜻이다."
+      },
+      {
+        "term": "simple response such as",
+        "meaning": "예시로 든 단순한 행동을 가리키는 표현이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 학습의 느림",
+        "explanation": "고양이는 줄을 당기거나 막대를 미는 단순한 행동으로 탈출할 수 있었지만, 처음 갇혔을 때는 이 행동을 찾아내기까지 오랜 시간이 걸렸습니다."
+      },
+      {
+        "title": "학습 이전 상태",
+        "explanation": "이는 학습이 이루어지기 전에는 효율적인 행동을 찾기 어렵다는 점을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-operant-conditioning-p8",
+    "importantWords": [
+      {
+        "term": "repeated trials",
+        "meaning": "여러 번 반복된 실험 시도를 뜻한다."
+      },
+      {
+        "term": "ineffective responses",
+        "meaning": "탈출에 도움이 되지 않는 행동을 뜻한다."
+      },
+      {
+        "term": "successful responses",
+        "meaning": "탈출에 성공한 행동을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "occurred less frequently",
+        "meaning": "덜 자주 일어났다는 뜻이다."
+      },
+      {
+        "term": "escaped more and more quickly",
+        "meaning": "점점 더 빠르게 탈출했다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학습 곡선",
+        "explanation": "반복된 시도를 거치며 비효율적인 행동은 줄고 효과적인 행동은 늘어나면서, 고양이는 점점 더 빨리 탈출할 수 있게 되었습니다. 이는 효과의 법칙이 실제로 나타난 예입니다."
+      },
+      {
+        "title": "점진적 개선",
+        "explanation": "이 과정은 한 번에 완성되는 것이 아니라 여러 시도를 거치며 점진적으로 개선된다는 점을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p1",
+    "importantWords": [
+      {
+        "term": "working memory",
+        "meaning": "정보를 일시적으로 담아두는 제한된 용량의 인지 체계이다."
+      },
+      {
+        "term": "limited capacity",
+        "meaning": "한 번에 담을 수 있는 정보의 양이 제한되어 있다는 뜻이다."
+      },
+      {
+        "term": "decision-making",
+        "meaning": "여러 선택지 중 하나를 고르는 인지 과정을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "temporarily",
+        "meaning": "영구적이지 않고 일시적으로 유지된다는 뜻이다."
+      },
+      {
+        "term": "guidance of decision-making and behavior",
+        "meaning": "의사결정과 행동을 이끌고 조절하는 역할을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "작업기억의 정의",
+        "explanation": "작업기억은 정보를 오래 저장하는 것이 아니라 일시적으로 담아두는 제한된 용량의 체계입니다. 이는 추론이나 의사결정처럼 즉각적인 사고 과정에 중요합니다."
+      },
+      {
+        "title": "기능적 중요성",
+        "explanation": "지문은 작업기억이 추론과 행동 안내에 중요하다고 강조하며, 단순한 저장소 이상의 기능적 역할을 한다고 설명합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p2",
+    "importantWords": [
+      {
+        "term": "short-term memory",
+        "meaning": "짧은 시간 동안 정보를 저장하는 기억 체계이다."
+      },
+      {
+        "term": "manipulation of stored information",
+        "meaning": "저장된 정보를 적극적으로 다루고 변형하는 것을 뜻한다."
+      },
+      {
+        "term": "synonymously",
+        "meaning": "같은 뜻으로 사용된다는 의미이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "distinct",
+        "meaning": "서로 구별되는 별개의 것이라는 뜻이다."
+      },
+      {
+        "term": "assuming",
+        "meaning": "어떤 전제를 바탕으로 한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 개념의 구분 기준",
+        "explanation": "일부 이론가들은 작업기억이 정보를 단순히 저장할 뿐 아니라 조작까지 할 수 있다는 점에서 단기기억과 다르다고 봅니다."
+      },
+      {
+        "title": "용어 사용의 혼용",
+        "explanation": "지문은 두 용어가 종종 같은 뜻으로 쓰이지만 이론적으로는 구별될 수 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p3",
+    "importantWords": [
+      {
+        "term": "Miller, Galanter, and Pribram",
+        "meaning": "작업기억이라는 용어를 처음 만든 연구자들이다."
+      },
+      {
+        "term": "coined",
+        "meaning": "새로운 용어를 처음 만들어냈다는 뜻이다."
+      },
+      {
+        "term": "likened the mind to a computer",
+        "meaning": "마음을 컴퓨터에 비유하는 관점을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "in the context of",
+        "meaning": "특정한 맥락 속에서라는 뜻이다."
+      },
+      {
+        "term": "theories",
+        "meaning": "현상을 설명하기 위한 체계적인 이론들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "용어의 기원",
+        "explanation": "작업기억이라는 용어는 1960년대에 마음을 컴퓨터에 비유하는 이론의 맥락에서 밀러, 갈랜터, 프리브램에 의해 처음 만들어졌습니다."
+      },
+      {
+        "title": "컴퓨터 은유",
+        "explanation": "마음을 컴퓨터처럼 정보를 처리하는 체계로 보는 관점이 이 용어 탄생의 배경이 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p4",
+    "importantWords": [
+      {
+        "term": "Atkinson and Shiffrin",
+        "meaning": "1968년 단기 저장소 모델을 제시한 연구자들이다."
+      },
+      {
+        "term": "short-term store",
+        "meaning": "정보를 짧은 시간 저장하는 이론적 저장소이다."
+      },
+      {
+        "term": "used the term",
+        "meaning": "그 용어를 사용해 설명했다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "previously used",
+        "meaning": "이전에 사용되었던 이름이라는 뜻이다."
+      },
+      {
+        "term": "describe",
+        "meaning": "어떤 개념을 설명하기 위해 사용한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이론적 계승",
+        "explanation": "애트킨슨과 쉬프린은 1968년에 자신들의 단기 저장소 모델을 설명하기 위해 작업기억이라는 용어를 사용했습니다. 이는 이 용어가 여러 이론에서 반복적으로 채택되었음을 보여줍니다."
+      },
+      {
+        "title": "이름의 변천",
+        "explanation": "지문은 단기 저장소라는 이름이 이전에 작업기억을 가리키던 이름이었다고 설명하며 용어의 역사를 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p5",
+    "importantWords": [
+      {
+        "term": "short-term memory",
+        "meaning": "짧은 시간, 대략 초 단위 동안 정보를 기억하는 능력이다."
+      },
+      {
+        "term": "primary memory",
+        "meaning": "단기기억을 가리키는 또 다른 이름이다."
+      },
+      {
+        "term": "brief period",
+        "meaning": "짧은 시간을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "in the order of seconds",
+        "meaning": "대략 몇 초 정도의 시간 단위를 뜻한다."
+      },
+      {
+        "term": "suggested names",
+        "meaning": "제안되었던 여러 다른 이름들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "단기기억의 정의",
+        "explanation": "단기기억은 정보를 초 단위의 짧은 시간 동안 기억하는 능력으로 정의됩니다. 이는 오랜 시간 정보를 저장하는 장기기억과 대비됩니다."
+      },
+      {
+        "title": "다양한 명칭",
+        "explanation": "지문은 단기기억이 primary memory, immediate memory 등 여러 이름으로 불려왔음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p6",
+    "importantWords": [
+      {
+        "term": "Baddeley and Hitch",
+        "meaning": "1974년 단일 모듈로는 부족함을 보인 연구자들이다."
+      },
+      {
+        "term": "single module",
+        "meaning": "하나의 단일한 인지 구성 요소를 뜻한다."
+      },
+      {
+        "term": "temporary memory",
+        "meaning": "일시적으로 유지되는 기억을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "became dominant",
+        "meaning": "그 이후 지배적인 용어가 되었다는 뜻이다."
+      },
+      {
+        "term": "account for",
+        "meaning": "어떤 현상을 설명해낸다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다중 요소 모델의 등장",
+        "explanation": "배들리와 히치는 1974년에 단일한 모듈로는 모든 종류의 일시적 기억을 설명할 수 없다는 것을 보여주었고, 이후 작업기억이라는 용어가 이 분야에서 지배적으로 쓰이게 되었습니다."
+      },
+      {
+        "title": "용어의 확산",
+        "explanation": "이 연구 이후로 작업기억이라는 개념이 단기기억보다 더 널리 쓰이는 용어로 자리잡았습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p7",
+    "importantWords": [
+      {
+        "term": "multi-component system",
+        "meaning": "정보를 담고 조작하는 여러 구성 요소로 이루어진 체계이다."
+      },
+      {
+        "term": "attention",
+        "meaning": "정보를 선택적으로 처리하도록 이끄는 인지 자원이다."
+      },
+      {
+        "term": "not completely distinct",
+        "meaning": "완전히 분리되지는 않는다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "slightly different ways",
+        "meaning": "조금씩 다른 몇 가지 방식을 뜻한다."
+      },
+      {
+        "term": "cognitive tasks",
+        "meaning": "생각을 요구하는 여러 과제를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세 가지 정의",
+        "explanation": "작업기억은 인지 과제에 적용된 단기기억, 정보를 담고 조작하는 다중 요소 체계, 주의를 이용해 단기기억을 관리하는 것이라는 세 가지 방식으로 정의되어 왔습니다."
+      },
+      {
+        "title": "개념의 유동성",
+        "explanation": "이는 작업기억이라는 개념이 하나로 고정되지 않고 여러 관점에서 정의될 수 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-working-memory-p8",
+    "importantWords": [
+      {
+        "term": "ablation experiments",
+        "meaning": "뇌의 특정 부위를 제거해 기능을 알아보는 실험이다."
+      },
+      {
+        "term": "prefrontal cortex",
+        "meaning": "인지 기능과 관련된 뇌의 앞쪽 피질 영역이다."
+      },
+      {
+        "term": "neural basis",
+        "meaning": "어떤 현상의 신경학적 기반을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "more than 100 years ago",
+        "meaning": "100년도 더 전을 가리키는 표현이다."
+      },
+      {
+        "term": "cognitive rather than sensory processes",
+        "meaning": "감각 과정이 아니라 인지 과정에 관련된다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 신경과학적 연구",
+        "explanation": "히치히와 페리어는 전전두피질을 절제하는 실험을 통해 이 부위가 감각보다는 인지 과정에 중요하다는 결론을 내렸습니다. 이는 작업기억 연구의 신경학적 뿌리를 보여줍니다."
+      },
+      {
+        "title": "역사적 의의",
+        "explanation": "이 실험은 100년도 더 전에 이루어졌지만 이후 작업기억의 신경 기반을 이해하는 데 초석이 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p1",
+    "importantWords": [
+      {
+        "term": "attachment theory",
+        "meaning": "인간 사이 관계, 특히 영아와 양육자 간 유대를 다루는 이론이다."
+      },
+      {
+        "term": "primary caregivers",
+        "meaning": "아이를 주로 돌보는 사람을 뜻한다."
+      },
+      {
+        "term": "evolutionary framework",
+        "meaning": "진화적 관점에서 현상을 설명하는 틀을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "psychological and evolutionary",
+        "meaning": "심리학적이면서 동시에 진화론적인 성격을 뜻한다."
+      },
+      {
+        "term": "importance of early bonds",
+        "meaning": "초기에 형성되는 유대 관계의 중요성을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "애착 이론의 성격",
+        "explanation": "애착 이론은 단순한 심리학 이론이 아니라 진화적 관점도 포함하는 틀로, 영아와 양육자 사이의 초기 유대가 왜 중요한지를 설명합니다."
+      },
+      {
+        "title": "관계의 초점",
+        "explanation": "이 이론은 인간관계 전반이 아니라 특히 초기 애착 관계에 초점을 맞춥니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p2",
+    "importantWords": [
+      {
+        "term": "John Bowlby",
+        "meaning": "애착 이론을 발전시킨 정신과 의사이자 정신분석가이다."
+      },
+      {
+        "term": "close relationship",
+        "meaning": "가깝고 밀접한 관계를 뜻한다."
+      },
+      {
+        "term": "social and emotional functioning",
+        "meaning": "사회적, 정서적으로 건강하게 기능하는 상태를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "psychoanalyst",
+        "meaning": "무의식을 다루는 정신분석 이론을 실천하는 사람을 뜻한다."
+      },
+      {
+        "term": "posits",
+        "meaning": "이론적으로 주장하거나 전제한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "볼비의 핵심 주장",
+        "explanation": "볼비는 영아가 생존하고 건강한 사회정서적 기능을 발달시키기 위해 적어도 한 명의 주 양육자와 가까운 관계를 형성해야 한다고 주장했습니다."
+      },
+      {
+        "title": "이론가의 배경",
+        "explanation": "볼비가 정신과 의사이자 정신분석가였다는 점은 애착 이론이 임상적 관찰에서 비롯되었음을 시사합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p3",
+    "importantWords": [
+      {
+        "term": "proximity",
+        "meaning": "가까운 거리에 있으려는 것을 뜻한다."
+      },
+      {
+        "term": "attachment figures",
+        "meaning": "아이가 애착을 형성하는 대상, 주로 양육자를 뜻한다."
+      },
+      {
+        "term": "stressful situations",
+        "meaning": "심리적으로 힘들고 긴장되는 상황을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "pivotal aspects",
+        "meaning": "이론에서 핵심적인 부분들을 뜻한다."
+      },
+      {
+        "term": "observation",
+        "meaning": "실제로 관찰된 사실을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "근접 추구 행동",
+        "explanation": "영아는 스트레스 상황에서 애착 대상에게 가까이 다가가려 합니다. 이는 애착 이론의 핵심 관찰 중 하나로 제시됩니다."
+      },
+      {
+        "title": "이론의 근거",
+        "explanation": "이런 근접 추구 행동에 대한 관찰이 애착 이론이 세워지는 경험적 근거가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p4",
+    "importantWords": [
+      {
+        "term": "secure attachments",
+        "meaning": "양육자와 안정적으로 형성된 신뢰 기반의 애착이다."
+      },
+      {
+        "term": "sensitive and responsive",
+        "meaning": "아이의 신호에 민감하게 반응하는 태도를 뜻한다."
+      },
+      {
+        "term": "consistently present",
+        "meaning": "꾸준하고 일관되게 곁에 있는 상태를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "particularly between",
+        "meaning": "특히 어떤 시기 사이에라는 뜻이다."
+      },
+      {
+        "term": "social interactions",
+        "meaning": "사람과 사람 사이의 상호작용을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "안정 애착의 조건",
+        "explanation": "안정 애착은 양육자가 민감하고 반응적이며 일관되게 곁에 있을 때, 특히 생후 6개월에서 2세 사이에 형성됩니다."
+      },
+      {
+        "title": "결정적 시기",
+        "explanation": "이 시기는 애착 형성에 특히 중요한 결정적 시기로 여겨집니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p5",
+    "importantWords": [
+      {
+        "term": "secure base",
+        "meaning": "아이가 탐색 후 돌아와 위안을 얻는 안전한 기반을 뜻한다."
+      },
+      {
+        "term": "internal working models",
+        "meaning": "관계에 대한 내면화된 기대와 표상을 뜻한다."
+      },
+      {
+        "term": "patterns of attachment",
+        "meaning": "양육자와의 상호작용에서 형성되는 애착의 유형을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "future relationships",
+        "meaning": "앞으로 맺게 될 인간관계를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "안전 기지 개념",
+        "explanation": "아이들은 애착 대상을 안전 기지로 삼아 세상을 탐색하다가 힘들 때 돌아와 위안을 얻습니다. 이 과정에서 애착 패턴이 형성됩니다."
+      },
+      {
+        "title": "내적 작동 모델",
+        "explanation": "양육자와의 상호작용은 내적 작동 모델을 만들어내며, 이는 이후 다른 관계에도 영향을 미칩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p6",
+    "importantWords": [
+      {
+        "term": "Mary Ainsworth",
+        "meaning": "1960~70년대에 애착 유형을 연구한 발달심리학자이다."
+      },
+      {
+        "term": "secure base",
+        "meaning": "안전하게 느끼며 탐색의 출발점이 되는 대상을 뜻한다."
+      },
+      {
+        "term": "attachment patterns",
+        "meaning": "아이들이 보이는 서로 다른 애착 유형을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "maternal responsiveness",
+        "meaning": "어머니가 아이의 신호에 반응하는 정도를 뜻한다."
+      },
+      {
+        "term": "disorganized attachment",
+        "meaning": "일관성이 없고 혼란스러운 애착 유형을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "에인스워스의 확장",
+        "explanation": "에인스워스는 볼비의 이론을 확장하여 안전 기지 개념을 도입하고, 안정·회피·불안·혼란이라는 네 가지 애착 패턴을 구체적으로 확인했습니다."
+      },
+      {
+        "title": "어머니 민감성의 역할",
+        "explanation": "그녀의 연구는 어머니의 반응성과 민감성이 아이의 애착 유형 형성에 미치는 영향을 강조했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p7",
+    "importantWords": [
+      {
+        "term": "extended",
+        "meaning": "이론의 적용 범위가 넓어졌다는 뜻이다."
+      },
+      {
+        "term": "adult relationships",
+        "meaning": "성인이 되어서 맺는 인간관계를 뜻한다."
+      },
+      {
+        "term": "applicable beyond early childhood",
+        "meaning": "초기 아동기를 넘어서도 적용 가능하다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "integrated concepts",
+        "meaning": "여러 개념을 통합했다는 뜻이다."
+      },
+      {
+        "term": "fully articulated",
+        "meaning": "완전하게 체계적으로 정리되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이론의 확장",
+        "explanation": "1980년대에 애착 이론은 성인 관계에도 적용되도록 확장되어, 초기 아동기에 국한되지 않는 이론이 되었습니다."
+      },
+      {
+        "title": "여러 학문의 통합",
+        "explanation": "볼비의 이론은 진화생물학, 대상관계이론, 통제체계이론, 동물행동학, 인지심리학의 개념을 통합해 저서 애착과 상실 3부작으로 완성되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-attachment-theory-p8",
+    "importantWords": [
+      {
+        "term": "dominant approach",
+        "meaning": "해당 분야에서 가장 널리 쓰이는 주된 접근법을 뜻한다."
+      },
+      {
+        "term": "early social development",
+        "meaning": "어린 시절의 사회적 발달을 뜻한다."
+      },
+      {
+        "term": "extensive research",
+        "meaning": "방대한 양의 연구를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "long criticized",
+        "meaning": "오랫동안 비판을 받아왔다는 뜻이다."
+      },
+      {
+        "term": "academic psychologists",
+        "meaning": "학계에서 활동하는 심리학자들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "비판에도 불구한 영향력",
+        "explanation": "애착 이론은 심리학자, 인류학자, 정신분석가들에게 오랫동안 비판받아 왔지만, 여전히 초기 사회 발달 이해의 지배적인 접근법으로 남아 있습니다."
+      },
+      {
+        "title": "연구의 확장",
+        "explanation": "이 이론은 비판 속에서도 방대한 연구를 촉발시켰다는 점에서 학문적 영향력이 크다고 평가됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p1",
+    "importantWords": [
+      {
+        "term": "cognitive dissonance",
+        "meaning": "서로 상충하는 인지를 무의식적으로 지니는 심리 현상이다."
+      },
+      {
+        "term": "conflicting cognitions",
+        "meaning": "서로 모순되는 생각이나 신념을 뜻한다."
+      },
+      {
+        "term": "subconsciously",
+        "meaning": "의식하지 못한 채로 일어나는 상태를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "mental phenomenon",
+        "meaning": "마음에서 일어나는 현상을 뜻한다."
+      },
+      {
+        "term": "unknowingly",
+        "meaning": "본인이 알아차리지 못한 채로라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인지 부조화의 정의",
+        "explanation": "인지 부조화는 사람들이 자신도 모르게 서로 상충하는 생각을 동시에 지니고 있는 심리 현상입니다. 이는 의식적으로 선택한 모순이 아니라는 점이 중요합니다."
+      },
+      {
+        "title": "무의식적 성격",
+        "explanation": "이 현상은 무의식적으로 발생하기 때문에 본인이 자각하지 못한 채 겪을 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p2",
+    "importantWords": [
+      {
+        "term": "motivates change",
+        "meaning": "변화를 하도록 동기를 부여한다는 뜻이다."
+      },
+      {
+        "term": "reduce this dissonance",
+        "meaning": "부조화를 줄이는 것을 뜻한다."
+      },
+      {
+        "term": "explaining something away",
+        "meaning": "어떤 것을 그럴듯하게 설명해 정당화하는 것을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "highlight these inconsistencies",
+        "meaning": "이런 모순들을 부각시킨다는 뜻이다."
+      },
+      {
+        "term": "confronted by",
+        "meaning": "어떤 상황에 맞닥뜨린다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "부조화 감소의 동기",
+        "explanation": "사람들은 부조화를 일으키는 상황에 직면하면 신념을 바꾸거나 상황을 설명해내거나 행동을 바꿔서 그 불편함을 줄이려 합니다."
+      },
+      {
+        "title": "변화의 다양한 방식",
+        "explanation": "부조화를 줄이는 방법은 한 가지가 아니라 신념 변경, 합리화, 행동 변화 등 여러 방식으로 나타날 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p3",
+    "importantWords": [
+      {
+        "term": "psychological stress",
+        "meaning": "마음에서 느끼는 긴장과 불편함을 뜻한다."
+      },
+      {
+        "term": "challenges existing beliefs",
+        "meaning": "기존에 갖고 있던 믿음에 도전한다는 뜻이다."
+      },
+      {
+        "term": "without outward sign",
+        "meaning": "겉으로 드러나는 신호 없이라는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "surfaces",
+        "meaning": "겉으로 드러나거나 나타난다는 뜻이다."
+      },
+      {
+        "term": "psychological discomfort",
+        "meaning": "심리적으로 느끼는 불편함을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "부조화가 드러나는 조건",
+        "explanation": "인지 부조화는 겉으로 표시가 없다가도, 행동이 신념과 충돌하거나 새로운 정보가 기존 신념에 도전할 때 심리적 스트레스로 나타납니다."
+      },
+      {
+        "title": "촉발 요인",
+        "explanation": "새로운 정보와 기존 신념 사이의 충돌이 부조화를 촉발하는 대표적인 조건으로 제시됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p4",
+    "importantWords": [
+      {
+        "term": "psychologically inconsistent",
+        "meaning": "심리적으로 서로 맞지 않는 상태를 뜻한다."
+      },
+      {
+        "term": "automatically try to resolve",
+        "meaning": "저절로 갈등을 해결하려 한다는 뜻이다."
+      },
+      {
+        "term": "reframing",
+        "meaning": "어떤 상황이나 생각을 다른 틀로 다시 바라보는 것을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "congruent",
+        "meaning": "서로 잘 들어맞고 일치하는 상태를 뜻한다."
+      },
+      {
+        "term": "the other",
+        "meaning": "비교 대상이 되는 다른 한쪽을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자동적 재구성",
+        "explanation": "행동과 생각이 서로 모순되면 사람들은 의식하지 않고도 한쪽을 재구성해 두 가지가 서로 맞도록 만들려고 합니다."
+      },
+      {
+        "title": "이론의 핵심 기제",
+        "explanation": "이 자동적인 재구성 과정이 인지 부조화 이론에서 설명하는 핵심적인 심리 기제입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p5",
+    "importantWords": [
+      {
+        "term": "triggered by",
+        "meaning": "무엇에 의해 촉발된다는 뜻이다."
+      },
+      {
+        "term": "clashing",
+        "meaning": "서로 충돌하고 부딪힌다는 뜻이다."
+      },
+      {
+        "term": "reconcile contradictions",
+        "meaning": "모순들을 서로 화해시켜 조화롭게 만든다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "conceptually resolve",
+        "meaning": "개념적으로 해결한다는 뜻이다."
+      },
+      {
+        "term": "reduce their discomfort",
+        "meaning": "자신의 불편함을 줄인다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "불편함의 촉발 조건",
+        "explanation": "신념이 새로운 정보와 충돌하거나, 모순된 측면을 개념적으로 해결해야 하는 상황이 불편함을 촉발합니다."
+      },
+      {
+        "title": "모순 해소의 목적",
+        "explanation": "개인은 이런 모순을 화해시켜 불편함을 줄이려는 방향으로 움직입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p6",
+    "importantWords": [
+      {
+        "term": "applied interventions",
+        "meaning": "실제로 적용되는 개입 방법을 뜻한다."
+      },
+      {
+        "term": "attitudinal change",
+        "meaning": "사람의 태도가 바뀌는 것을 뜻한다."
+      },
+      {
+        "term": "deradicalising extremists",
+        "meaning": "극단주의자의 신념을 완화시키는 과정을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "catalyst",
+        "meaning": "변화를 촉진하는 계기나 촉매를 뜻한다."
+      },
+      {
+        "term": "induced hypocrisy paradigm",
+        "meaning": "위선을 유도해 태도 변화를 이끄는 실험 패러다임이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실용적 활용",
+        "explanation": "불편함을 줄이려는 심리적 욕구는 친사회적 행동을 유도하거나 극단주의자를 탈급진화하는 등 실제 개입에 촉매로 쓰일 수 있습니다."
+      },
+      {
+        "title": "위선 유도 패러다임",
+        "explanation": "유도된 위선 패러다임은 인지 부조화를 의도적으로 활용해 태도 변화를 이끌어내는 대표적인 응용 사례입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p7",
+    "importantWords": [
+      {
+        "term": "Leon Festinger",
+        "meaning": "인지 부조화 이론을 제안한 심리학자이다."
+      },
+      {
+        "term": "internal psychological consistency",
+        "meaning": "마음속에서 서로 일치하고 모순 없는 상태를 뜻한다."
+      },
+      {
+        "term": "strive for",
+        "meaning": "무언가를 이루려고 애쓴다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "proposed",
+        "meaning": "이론적으로 제안했다는 뜻이다."
+      },
+      {
+        "term": "function mentally",
+        "meaning": "정신적으로 기능하고 작동한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "페스팅거의 저술",
+        "explanation": "페스팅거는 예언이 끝날 때와 인지 부조화 이론이라는 두 저술을 통해 인간이 내적 심리 일관성을 추구한다는 이론을 제안했습니다."
+      },
+      {
+        "title": "이론의 핵심 전제",
+        "explanation": "이 이론은 인간이 현실 세계에서 정신적으로 기능하기 위해 일관성을 필요로 한다는 전제에서 출발합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-cognitive-dissonance-p8",
+    "importantWords": [
+      {
+        "term": "confirmation bias",
+        "meaning": "부조화를 키우는 정보를 피하는 방식으로 나타나는 편향이다."
+      },
+      {
+        "term": "rationalization",
+        "meaning": "행동을 정당화하기 위해 새로운 근거를 덧붙이는 것을 뜻한다."
+      },
+      {
+        "term": "selective perception",
+        "meaning": "특정 정보만 받아들이고 다른 정보는 무시하는 것을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "just-world fallacy",
+        "meaning": "사람들이 마땅히 받을 것을 받는다고 믿는 오류이다."
+      },
+      {
+        "term": "magnitude",
+        "meaning": "어떤 것의 크기나 정도를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정당화 전략의 나열",
+        "explanation": "지문은 스트레스를 주는 행동을 정당화하는 여러 전략으로 합리화, 정당한 세상 오류, 선택적 지각, 확증 편향을 나열합니다."
+      },
+      {
+        "title": "확증 편향의 역할",
+        "explanation": "확증 편향은 부조화를 키울 수 있는 상황과 모순되는 정보를 피함으로써 심리적 불편함이 커지는 것을 막는 역할을 합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p1",
+    "importantWords": [
+      {
+        "term": "five-factor model",
+        "meaning": "다섯 가지 요인으로 성격을 설명하는 모델이다."
+      },
+      {
+        "term": "OCEAN",
+        "meaning": "다섯 요인의 앞글자를 딴 기억용 약어이다."
+      },
+      {
+        "term": "personality traits",
+        "meaning": "개인이 지닌 지속적인 성격 특성을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "psychometrics",
+        "meaning": "심리적 특성을 측정하는 학문 분야를 뜻한다."
+      },
+      {
+        "term": "mnemonic acronym",
+        "meaning": "기억을 돕기 위해 만든 머리글자 약어를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "모델의 정체",
+        "explanation": "Big Five 모델은 인간의 성격 특성을 측정하고 기술하기 위한 과학적 모델로, OCEAN 또는 CANOE라는 약어로도 불립니다."
+      },
+      {
+        "title": "심리측정학적 배경",
+        "explanation": "이 모델은 심리측정학이라는 학문적 틀 안에서 개발되고 검증되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p2",
+    "importantWords": [
+      {
+        "term": "empirical research",
+        "meaning": "실제 자료를 바탕으로 한 경험적 연구를 뜻한다."
+      },
+      {
+        "term": "patterns and relationships",
+        "meaning": "단어들 사이의 규칙성과 연관성을 뜻한다."
+      },
+      {
+        "term": "describe themselves",
+        "meaning": "자기 자신을 묘사하는 것을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "developed using",
+        "meaning": "어떤 방법을 사용해 만들어졌다는 뜻이다."
+      },
+      {
+        "term": "found patterns",
+        "meaning": "규칙적인 패턴을 발견했다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "언어 기반 접근",
+        "explanation": "오요인 모델은 사람들이 자신을 묘사할 때 쓰는 단어들 사이의 패턴과 관계를 분석하는 경험적 연구를 통해 개발되었습니다."
+      },
+      {
+        "title": "자료 기반의 신뢰성",
+        "explanation": "이런 경험적 접근 방식은 모델이 임의로 만들어진 것이 아니라 실제 언어 자료에 근거함을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p3",
+    "importantWords": [
+      {
+        "term": "conscientiousness",
+        "meaning": "성실하고 신중한 성향을 나타내는 성격 요인이다."
+      },
+      {
+        "term": "grouped under",
+        "meaning": "특정 범주 아래로 묶인다는 뜻이다."
+      },
+      {
+        "term": "hard-working",
+        "meaning": "부지런히 노력하는 성향을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "more likely",
+        "meaning": "더 가능성이 높다는 뜻이다."
+      },
+      {
+        "term": "less likely",
+        "meaning": "더 가능성이 낮다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "단어 간 상관관계",
+        "explanation": "성실하다고 묘사되는 사람은 준비성이 있다고 묘사될 가능성이 높고 지저분하다고 묘사될 가능성은 낮습니다. 이런 상관관계 때문에 세 단어가 성실성이라는 하나의 요인으로 묶입니다."
+      },
+      {
+        "title": "어휘 가설의 적용",
+        "explanation": "이 예시는 성격 특성이 사람들이 사용하는 언어의 패턴에서 통계적으로 도출된다는 것을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p4",
+    "importantWords": [
+      {
+        "term": "dimensionality reduction techniques",
+        "meaning": "많은 변수를 적은 수의 핵심 요인으로 줄이는 통계 기법이다."
+      },
+      {
+        "term": "variance",
+        "meaning": "자료가 흩어져 있는 정도, 즉 개인차를 뜻한다."
+      },
+      {
+        "term": "five factors",
+        "meaning": "성격을 설명하는 다섯 가지 핵심 요인을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "though not all",
+        "meaning": "전부는 아니지만이라는 뜻이다."
+      },
+      {
+        "term": "explained using",
+        "meaning": "무엇을 이용해 설명된다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "통계적 단순화",
+        "explanation": "차원 축소 기법을 통해 심리학자들은 인간 성격의 다양성 대부분을 다섯 가지 요인만으로 설명할 수 있음을 보였습니다."
+      },
+      {
+        "title": "한계의 인정",
+        "explanation": "지문은 '대부분이지만 전부는 아니다'라고 명시해 이 모델이 성격의 모든 측면을 완벽히 설명하지는 못함을 인정합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p5",
+    "importantWords": [
+      {
+        "term": "independently replicated",
+        "meaning": "다른 연구자들이 별도로 같은 결과를 재현했다는 뜻이다."
+      },
+      {
+        "term": "predictive validity",
+        "meaning": "미래의 결과를 예측할 수 있는 타당성을 뜻한다."
+      },
+      {
+        "term": "neuroticism",
+        "meaning": "정서적 불안정성을 나타내는 성격 요인이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "across cultures and time",
+        "meaning": "여러 문화와 시대에 걸쳐서라는 뜻이다."
+      },
+      {
+        "term": "self-harm and suicidal behavior",
+        "meaning": "자신을 해치거나 극단적 선택을 하는 행동을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "모델의 일반화 가능성",
+        "explanation": "오요인 구조는 여러 문화와 시대에 걸쳐 독립적으로 재현되었으며, 자기 보고 외의 외부 지표들에 대해서도 예측 타당성을 지닙니다."
+      },
+      {
+        "title": "구체적 예측 사례",
+        "explanation": "성실성은 직무 수행과 학업 성취를, 신경성은 자해와 자살 행동을 예측한다고 지문은 구체적으로 제시합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p6",
+    "importantWords": [
+      {
+        "term": "personality inventories",
+        "meaning": "성격을 측정하기 위해 사용하는 설문 도구이다."
+      },
+      {
+        "term": "broad dimensions",
+        "meaning": "폭넓게 성격을 아우르는 큰 차원들을 뜻한다."
+      },
+      {
+        "term": "temperament",
+        "meaning": "타고난 기질적 성향을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "more-detailed analyses",
+        "meaning": "더 세밀한 분석을 뜻한다."
+      },
+      {
+        "term": "subfactors",
+        "meaning": "큰 요인 아래 더 세부적으로 나뉘는 하위 요인을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다섯 차원의 설명력",
+        "explanation": "성격 검사 연구는 다섯 가지 넓은 차원이 인간 성격과 기질의 변이 대부분을 설명할 수 있음을 발견했습니다."
+      },
+      {
+        "title": "세부 분석의 가능성",
+        "explanation": "더 세밀한 분석에서는 이 다섯 차원이 더 구체적인 하위 요인들로 나뉘어 분석되기도 합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p7",
+    "importantWords": [
+      {
+        "term": "extraversion",
+        "meaning": "사교적이고 활동적인 성향을 나타내는 성격 요인이다."
+      },
+      {
+        "term": "gregariousness",
+        "meaning": "사람들과 어울리기를 좋아하는 성향을 뜻한다."
+      },
+      {
+        "term": "assertiveness",
+        "meaning": "자신의 의견을 적극적으로 주장하는 성향을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "excitement-seeking",
+        "meaning": "자극적이고 흥미로운 경험을 추구하는 성향을 뜻한다."
+      },
+      {
+        "term": "typically associated with",
+        "meaning": "일반적으로 관련이 있다고 여겨진다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "외향성의 구성 요소",
+        "explanation": "외향성은 사교성, 자기주장, 자극 추구, 따뜻함, 활동성, 긍정적 정서 등 여러 하위 특질로 구성됩니다."
+      },
+      {
+        "title": "다면적 성격 요인",
+        "explanation": "이는 외향성이 단일한 특질이 아니라 여러 관련된 특질들의 묶음임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-big-five-personality-traits-p8",
+    "importantWords": [
+      {
+        "term": "lexical hypothesis",
+        "meaning": "중요한 성격 특성이 언어에 담겨 있다는 가설이다."
+      },
+      {
+        "term": "Raymond Cattell",
+        "meaning": "어휘 연구를 바탕으로 성격 요인을 정리한 심리학자이다."
+      },
+      {
+        "term": "global traits",
+        "meaning": "여러 하위 요인을 포괄하는 큰 성격 특성을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "originated from",
+        "meaning": "어디에서 비롯되었다는 뜻이다."
+      },
+      {
+        "term": "reducing thousands of descriptors",
+        "meaning": "수천 개의 묘사어를 줄여나가는 과정을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어휘 가설의 의미",
+        "explanation": "Big Five 모델은 중요한 성격 특성이 사람들이 사용하는 언어 속에 담겨 있다는 어휘 가설에서 출발했습니다."
+      },
+      {
+        "title": "캐텔의 기여",
+        "explanation": "캐텔은 수천 개의 묘사어를 16개 성격 요인으로 줄이고, 이를 다시 다섯 가지 전역 특성으로 묶어 '오리지널 Big Five'라는 평가를 받았습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p1",
+    "importantWords": [
+      {
+        "term": "placebo",
+        "meaning": "진짜처럼 보이지만 약리학적 효과가 없는 치료를 뜻한다."
+      },
+      {
+        "term": "inert tablets",
+        "meaning": "약효 성분이 없는 알약, 예를 들어 설탕 알약을 뜻한다."
+      },
+      {
+        "term": "sham surgery",
+        "meaning": "실제 치료 효과가 없는 가짜 수술을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "pharmaceutical effect",
+        "meaning": "약물이 신체에 일으키는 실제 효과를 뜻한다."
+      },
+      {
+        "term": "intended to appear genuine",
+        "meaning": "진짜처럼 보이도록 의도되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "플라시보의 정의",
+        "explanation": "플라시보는 진짜 치료처럼 보이지만 실제로는 약리학적 효과가 없는 물질이나 시술입니다. 설탕 알약, 식염수 주사, 가짜 수술 등이 그 예입니다."
+      },
+      {
+        "title": "겉모습과 실제의 차이",
+        "explanation": "플라시보의 핵심은 겉으로는 진짜 치료와 구별되지 않아야 하지만 실제 약효는 없다는 점입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p2",
+    "importantWords": [
+      {
+        "term": "placebo-controlled trial",
+        "meaning": "플라시보를 대조군으로 사용하는 임상시험이다."
+      },
+      {
+        "term": "placebo response",
+        "meaning": "대조군에서 나타나는 변화를 뜻한다."
+      },
+      {
+        "term": "placebo effect",
+        "meaning": "플라시보 반응과 무치료 결과의 차이를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "efficacy",
+        "meaning": "치료가 실제로 효과를 내는 정도를 뜻한다."
+      },
+      {
+        "term": "randomized clinical trials",
+        "meaning": "참가자를 무작위로 배정하는 임상시험을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 개념의 구분",
+        "explanation": "플라시보 반응은 대조군에서 나타나는 변화 자체를 가리키고, 플라시보 효과는 그 반응과 아무 치료도 받지 않았을 때의 결과 사이의 차이를 가리킵니다."
+      },
+      {
+        "title": "임상시험에서의 역할",
+        "explanation": "이 구분은 신약이나 치료법의 진짜 효과를 판단하기 위해 플라시보를 대조군으로 사용하는 임상시험 설계에서 중요합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p3",
+    "importantWords": [
+      {
+        "term": "indistinguishable",
+        "meaning": "겉으로 구별할 수 없다는 뜻이다."
+      },
+      {
+        "term": "verum treatments",
+        "meaning": "실제로 검증하려는 진짜 치료를 뜻한다."
+      },
+      {
+        "term": "hypothesized medicinal effect",
+        "meaning": "가설로 세운 약물의 치료 효과를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ideally",
+        "meaning": "이상적으로는이라는 뜻이다."
+      },
+      {
+        "term": "under investigation",
+        "meaning": "현재 검증되고 있는 중이라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구별 불가능성의 원칙",
+        "explanation": "임상시험에서 플라시보는 검증하려는 진짜 치료의 가설적 약효를 제외하면 겉으로 구별할 수 없어야 합니다."
+      },
+      {
+        "title": "실험 설계의 이유",
+        "explanation": "이 원칙은 참가자와 연구자가 누가 진짜 치료를 받는지 알지 못하게 해 결과의 편향을 막기 위한 것입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p4",
+    "importantWords": [
+      {
+        "term": "shield",
+        "meaning": "무언가로부터 보호하거나 가린다는 뜻이다."
+      },
+      {
+        "term": "expectations of efficacy",
+        "meaning": "치료가 효과가 있을 것이라는 기대를 뜻한다."
+      },
+      {
+        "term": "with their consent",
+        "meaning": "본인의 동의를 얻은 상태로라는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "influence results",
+        "meaning": "결과에 영향을 미친다는 뜻이다."
+      },
+      {
+        "term": "test participants",
+        "meaning": "임상시험에 참여하는 사람들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "기대 효과의 통제",
+        "explanation": "환자와 임상의 모두 치료 효과에 대한 기대를 가지면 그 기대 자체가 결과에 영향을 줄 수 있어, 이를 막기 위해 누가 무엇을 받는지 가립니다."
+      },
+      {
+        "title": "동의의 전제",
+        "explanation": "이런 정보 차단은 참가자의 동의 아래 이루어진다는 점이 윤리적으로 중요합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p5",
+    "importantWords": [
+      {
+        "term": "modern studies",
+        "meaning": "현재 이루어지는 최신 연구들을 뜻한다."
+      },
+      {
+        "term": "clinical effects",
+        "meaning": "치료에서 실제로 의미 있는 효과를 뜻한다."
+      },
+      {
+        "term": "pain and nausea",
+        "meaning": "통증과 메스꺼움이라는 구체적인 증상을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "became more prominent",
+        "meaning": "더 두드러지고 중요해졌다는 뜻이다."
+      },
+      {
+        "term": "otherwise",
+        "meaning": "그 외의 경우에는이라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "현대 연구의 결론",
+        "explanation": "현대 연구들은 플라시보가 통증이나 메스꺼움 같은 일부 증상에는 영향을 줄 수 있지만, 그 밖의 경우에는 중요한 임상적 효과가 없다는 것을 발견했습니다."
+      },
+      {
+        "title": "개념의 역사",
+        "explanation": "플라시보 효과라는 개념은 18세기 심리학에서 논의되었지만 20세기에 들어 더 두드러지게 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p6",
+    "importantWords": [
+      {
+        "term": "regression to the mean",
+        "meaning": "극단적인 측정값 뒤에 평균에 가까운 값이 오는 통계적 경향이다."
+      },
+      {
+        "term": "unrelated factors",
+        "meaning": "치료와 관계없는 다른 요인들을 뜻한다."
+      },
+      {
+        "term": "statistical effect",
+        "meaning": "통계적으로 나타나는 현상을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unusually high or low",
+        "meaning": "유난히 높거나 낮은 값을 뜻한다."
+      },
+      {
+        "term": "less extreme",
+        "meaning": "덜 극단적인, 즉 평균에 더 가까운 값을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "통계적 착시",
+        "explanation": "평균으로의 회귀는 유난히 극단적인 측정치 뒤에는 덜 극단적인 값이 나타나는 통계적 현상으로, 실제 치료 효과가 아닌데도 호전된 것처럼 보이게 할 수 있습니다."
+      },
+      {
+        "title": "플라시보 효과와의 혼동",
+        "explanation": "환자가 플라시보 치료 후 좋아진 것처럼 느껴도 이는 실제 약효가 아니라 이런 통계적 현상 때문일 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p7",
+    "importantWords": [
+      {
+        "term": "ethical concerns",
+        "meaning": "도덕적으로 옳고 그름에 관한 우려를 뜻한다."
+      },
+      {
+        "term": "dishonesty",
+        "meaning": "정직하지 못한 태도나 행위를 뜻한다."
+      },
+      {
+        "term": "informed consent",
+        "meaning": "충분한 설명을 듣고 동의하는 절차를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "bypasses",
+        "meaning": "정해진 절차를 건너뛴다는 뜻이다."
+      },
+      {
+        "term": "disguised as",
+        "meaning": "다른 것으로 위장되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "윤리적 딜레마",
+        "explanation": "플라시보를 실제 치료처럼 위장해 사용하면 의사와 환자 사이의 신뢰 관계에 부정직함이 개입되고, 사전 동의 절차가 무시될 수 있습니다."
+      },
+      {
+        "title": "임상 윤리와의 충돌",
+        "explanation": "이는 임상 의학에서 플라시보 사용이 단순한 치료 효과의 문제가 아니라 윤리적 원칙과도 충돌할 수 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-placebo-p8",
+    "importantWords": [
+      {
+        "term": "psychological mechanisms",
+        "meaning": "마음의 작용을 통해 일어나는 과정을 뜻한다."
+      },
+      {
+        "term": "perceive their condition",
+        "meaning": "자신의 건강 상태를 어떻게 느끼고 받아들이는지를 뜻한다."
+      },
+      {
+        "term": "chemical processes for relieving pain",
+        "meaning": "통증을 줄이기 위한 신체 내 화학적 반응을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "popular",
+        "meaning": "널리 쓰이고 인기가 있다는 뜻이다."
+      },
+      {
+        "term": "no impact on the disease itself",
+        "meaning": "질병 자체에는 영향이 없다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "심리적 기제를 통한 효과",
+        "explanation": "플라시보는 질병 자체를 치료하지는 못하지만, 환자가 자신의 상태를 지각하는 방식과 통증 완화를 돕는 신체의 화학적 과정에 영향을 줄 수 있습니다."
+      },
+      {
+        "title": "효과와 치료의 구분",
+        "explanation": "이는 플라시보 효과가 실제 질병 치료와는 다른 차원의 현상임을 분명히 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p1",
+    "importantWords": [
+      {
+        "term": "confirmation bias",
+        "meaning": "기존 신념을 확인하는 방향으로 정보를 다루는 경향이다."
+      },
+      {
+        "term": "myside bias",
+        "meaning": "확증 편향을 가리키는 다른 이름이다."
+      },
+      {
+        "term": "prior beliefs",
+        "meaning": "이미 가지고 있던 신념을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "favor",
+        "meaning": "특정한 것을 더 선호한다는 뜻이다."
+      },
+      {
+        "term": "recall information",
+        "meaning": "정보를 기억해내는 것을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "확증 편향의 정의",
+        "explanation": "확증 편향은 사람들이 정보를 찾고 해석하고 선호하고 기억하는 과정에서 기존의 믿음이나 가치관, 결정을 뒷받침하는 방향으로 치우치는 경향입니다."
+      },
+      {
+        "title": "여러 명칭",
+        "explanation": "이 현상은 confirmatory bias, myside bias, congeniality bias 등 여러 이름으로도 불립니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p2",
+    "importantWords": [
+      {
+        "term": "select information",
+        "meaning": "특정 정보를 골라서 받아들인다는 뜻이다."
+      },
+      {
+        "term": "ignoring contrary information",
+        "meaning": "반대되는 정보를 무시한다는 뜻이다."
+      },
+      {
+        "term": "ambiguous evidence",
+        "meaning": "명확하지 않아 여러 해석이 가능한 증거를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "display",
+        "meaning": "특정 행동이나 성향을 드러낸다는 뜻이다."
+      },
+      {
+        "term": "existing attitudes",
+        "meaning": "이미 가지고 있는 태도를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "편향의 구체적 발현",
+        "explanation": "확증 편향은 자신의 견해를 뒷받침하는 정보만 선택하고 반대되는 정보는 무시하는 형태로 나타납니다."
+      },
+      {
+        "title": "모호한 증거의 해석",
+        "explanation": "또한 애매한 증거조차 기존 태도를 뒷받침하는 방향으로 해석하는 것도 확증 편향의 한 형태입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p3",
+    "importantWords": [
+      {
+        "term": "desired outcomes",
+        "meaning": "본인이 바라는 결과를 뜻한다."
+      },
+      {
+        "term": "emotionally charged issues",
+        "meaning": "감정을 강하게 자극하는 사안을 뜻한다."
+      },
+      {
+        "term": "deeply entrenched beliefs",
+        "meaning": "오랫동안 굳어져 쉽게 바뀌지 않는 신념을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "automatic mental habits",
+        "meaning": "의식하지 않고 반복되는 사고 습관을 뜻한다."
+      },
+      {
+        "term": "effect is strongest",
+        "meaning": "그 효과가 가장 강하게 나타난다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "효과가 강한 조건",
+        "explanation": "확증 편향은 사람이 원하는 결과, 감정적으로 격한 사안, 뿌리깊은 신념과 관련될 때 더 강하게 나타납니다."
+      },
+      {
+        "title": "자동적 습관과의 관련",
+        "explanation": "지문은 확증 편향이 종종 자동적인 사고 습관에서 비롯된다고 덧붙입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p4",
+    "importantWords": [
+      {
+        "term": "selective exposure",
+        "meaning": "자신의 신념에 맞는 정보만 골라서 접하는 경향을 뜻한다."
+      },
+      {
+        "term": "resistant to information",
+        "meaning": "정보에 대해 저항하는 정도를 뜻한다."
+      },
+      {
+        "term": "one sided way",
+        "meaning": "한쪽으로 치우친 방식을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "repeatedly find",
+        "meaning": "반복적으로 같은 결과를 발견한다는 뜻이다."
+      },
+      {
+        "term": "mainly searching for",
+        "meaning": "주로 무엇을 찾는다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "개인차의 존재",
+        "explanation": "선택적 노출에 관한 연구는 사람마다 자신의 태도와 반대되는 정보에 얼마나 저항하는지가 다르다는 것을 보여줍니다."
+      },
+      {
+        "title": "일방향적 검증",
+        "explanation": "여러 연구는 사람들이 아이디어를 검증할 때 이미 가정한 것을 뒷받침하는 증거를 주로 찾는 일방적인 방식을 취한다는 것을 반복적으로 발견했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p5",
+    "importantWords": [
+      {
+        "term": "reinterpreted",
+        "meaning": "이전 결과를 새로운 관점에서 다시 해석했다는 뜻이다."
+      },
+      {
+        "term": "one-sided way",
+        "meaning": "한쪽으로 치우친 방식을 뜻한다."
+      },
+      {
+        "term": "focusing on one possibility",
+        "meaning": "하나의 가능성에만 집중한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "a series of psychological experiments",
+        "meaning": "일련의 심리학 실험들을 뜻한다."
+      },
+      {
+        "term": "ignoring alternatives",
+        "meaning": "다른 대안들을 무시한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "해석의 변화",
+        "explanation": "1960년대 실험은 처음에는 사람들이 기존 신념을 확인하려는 편향이 있다는 것으로 해석되었지만, 이후 연구는 이를 한쪽으로 치우친 방식으로 아이디어를 검증하는 경향으로 재해석했습니다."
+      },
+      {
+        "title": "과학적 해석의 발전",
+        "explanation": "이런 재해석은 같은 실험 결과라도 후속 연구를 통해 더 정교하게 이해될 수 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p6",
+    "importantWords": [
+      {
+        "term": "wishful thinking",
+        "meaning": "바라는 대로 되기를 희망하며 생각하는 것을 뜻한다."
+      },
+      {
+        "term": "limited human capacity",
+        "meaning": "인간이 정보를 처리할 수 있는 능력이 제한적이라는 뜻이다."
+      },
+      {
+        "term": "pragmatically assessing",
+        "meaning": "실용적인 관점에서 판단한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "costs of being wrong",
+        "meaning": "틀렸을 때 치러야 할 대가를 뜻한다."
+      },
+      {
+        "term": "neutral, scientific way",
+        "meaning": "중립적이고 과학적인 방식을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "설명의 다양성",
+        "explanation": "확증 편향에 대한 설명으로 희망적 사고, 제한된 정보 처리 능력, 틀렸을 때의 비용을 실용적으로 따지는 태도 등이 제시됩니다."
+      },
+      {
+        "title": "실용적 관점",
+        "explanation": "이 중 실용적 비용 평가 설명은 사람들이 진리 추구보다 실질적인 손해를 피하는 데 더 신경 쓴다는 관점을 반영합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p7",
+    "importantWords": [
+      {
+        "term": "flawed decisions",
+        "meaning": "잘못되거나 결함이 있는 결정을 뜻한다."
+      },
+      {
+        "term": "organizational",
+        "meaning": "조직이나 기관과 관련된 것을 뜻한다."
+      },
+      {
+        "term": "overconfidence",
+        "meaning": "지나치게 자신의 판단을 확신하는 것을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "wide range of",
+        "meaning": "폭넓은 범위의라는 뜻이다."
+      },
+      {
+        "term": "contrary evidence",
+        "meaning": "반대되는 증거를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실생활에서의 영향",
+        "explanation": "확증 편향으로 인한 잘못된 결정은 정치, 조직, 금융, 과학 등 다양한 실제 맥락에서 발견되어 왔습니다."
+      },
+      {
+        "title": "과도한 확신의 강화",
+        "explanation": "이런 편향은 개인의 과도한 확신을 부추기고 반대 증거가 있어도 기존 신념을 유지하거나 강화하게 만듭니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-confirmation-bias-p8",
+    "importantWords": [
+      {
+        "term": "systematic errors",
+        "meaning": "우연이 아니라 일정한 패턴을 가진 오류를 뜻한다."
+      },
+      {
+        "term": "inductive reasoning",
+        "meaning": "개별 사례에서 일반적인 결론을 이끌어내는 추론 방식이다."
+      },
+      {
+        "term": "gradual accumulation",
+        "meaning": "점차적으로 쌓여가는 과정을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "supportive evidence",
+        "meaning": "어떤 주장을 뒷받침하는 증거를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과학 연구에서의 문제",
+        "explanation": "확증 편향은 귀납적 추론에 기반한 과학 연구에서 뒷받침하는 증거만 점진적으로 쌓이면서 체계적인 오류를 낳을 수 있습니다."
+      },
+      {
+        "title": "귀납적 추론의 취약점",
+        "explanation": "이는 귀납적 추론이 반증보다 확증 증거에 의존하기 쉬운 구조적 특성 때문에 생기는 문제임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p1",
+    "importantWords": [
+      {
+        "term": "Milgram experiment",
+        "meaning": "권위에 대한 복종을 측정한 일련의 사회심리학 실험이다."
+      },
+      {
+        "term": "obey an authority figure",
+        "meaning": "권위 있는 인물의 지시를 따른다는 뜻이다."
+      },
+      {
+        "term": "personal conscience",
+        "meaning": "개인이 가진 도덕적 양심을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "willingness",
+        "meaning": "무언가를 하려는 의향이나 태도를 뜻한다."
+      },
+      {
+        "term": "conflicting with",
+        "meaning": "서로 충돌하고 상반된다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실험의 목적",
+        "explanation": "밀그램의 실험은 권위자가 양심에 어긋나는 행동을 지시했을 때 사람들이 얼마나 기꺼이 복종하는지를 측정하려는 목적으로 설계되었습니다."
+      },
+      {
+        "title": "연구자 배경",
+        "explanation": "밀그램은 예일 대학교의 사회심리학자로서 이 실험을 1960년대 초에 실시했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p2",
+    "importantWords": [
+      {
+        "term": "fictitious experiment",
+        "meaning": "실제로는 꾸며진 가짜 실험을 뜻한다."
+      },
+      {
+        "term": "electric shocks",
+        "meaning": "전기 충격을 뜻한다."
+      },
+      {
+        "term": "fatal",
+        "meaning": "생명을 잃을 수 있을 정도로 치명적인 상태를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "led to believe",
+        "meaning": "그렇게 믿도록 유도되었다는 뜻이다."
+      },
+      {
+        "term": "gradually increased",
+        "meaning": "점차적으로 커졌다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실험의 속임수 설계",
+        "explanation": "참가자들은 자신이 가짜 실험을 돕고 있다고 믿게 되어, 학습자 역할을 맡은 사람에게 점점 강한 전기 충격을 가하고 있다고 생각했습니다."
+      },
+      {
+        "title": "충격의 위험성 인식",
+        "explanation": "이 충격은 실제였다면 치명적일 수 있는 수준까지 올라갔다는 점에서 참가자에게 심각한 도덕적 갈등을 유발했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p3",
+    "importantWords": [
+      {
+        "term": "first version of the study",
+        "meaning": "이 연구의 최초 버전을 뜻한다."
+      },
+      {
+        "term": "banging on the wall",
+        "meaning": "학습자가 벽을 두드리며 고통을 호소하는 행동을 뜻한다."
+      },
+      {
+        "term": "very high proportion",
+        "meaning": "매우 높은 비율을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unexpectedly found",
+        "meaning": "예상치 못하게 발견했다는 뜻이다."
+      },
+      {
+        "term": "falling silent",
+        "meaning": "소리를 내지 않고 조용해졌다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "충격적인 결과",
+        "explanation": "첫 연구에서는 모든 참가자가 300볼트까지 도달했고, 65%는 450볼트라는 최대치까지 지시를 따랐습니다. 이는 연구자들도 예상하지 못한 결과였습니다."
+      },
+      {
+        "title": "학습자의 반응",
+        "explanation": "300볼트와 315볼트에서 학습자가 벽을 두드리는 소리가 들리다가 이후 조용해졌다는 설정은 참가자들에게 심각한 위험 신호로 작용했을 것입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p4",
+    "importantWords": [
+      {
+        "term": "Journal of Abnormal and Social Psychology",
+        "meaning": "밀그램이 1963년 논문을 발표한 학술지이다."
+      },
+      {
+        "term": "Obedience to Authority",
+        "meaning": "밀그램이 1974년에 출간한 책의 제목이다."
+      },
+      {
+        "term": "discussed his findings",
+        "meaning": "자신의 발견을 논의했다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "in greater depth",
+        "meaning": "더 깊이 있게라는 뜻이다."
+      },
+      {
+        "term": "An Experimental View",
+        "meaning": "실험적 관점이라는 뜻으로 책의 부제이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "연구의 발표 경로",
+        "explanation": "밀그램은 1963년 학술 논문을 통해 처음 연구를 소개했고, 이후 1974년 저서에서 더 깊이 있게 그 결과를 논의했습니다."
+      },
+      {
+        "title": "학술 논문에서 대중서로",
+        "explanation": "이는 학술적 발표에서 시작해 대중서로 이어지며 연구의 영향력이 확대된 과정을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p5",
+    "importantWords": [
+      {
+        "term": "Yale University",
+        "meaning": "밀그램의 실험이 진행된 대학교이다."
+      },
+      {
+        "term": "Adolf Eichmann",
+        "meaning": "홀로코스트에 연루된 독일 나치 전범이다."
+      },
+      {
+        "term": "three months after",
+        "meaning": "어떤 사건이 있은 지 세 달 뒤라는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "trial",
+        "meaning": "법정에서 이루어지는 재판을 뜻한다."
+      },
+      {
+        "term": "Jerusalem",
+        "meaning": "아이히만 재판이 열린 도시이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "시기적 배경",
+        "explanation": "밀그램의 실험은 1961년 8월 예일 대학교에서, 예루살렘에서 열린 아이히만 재판이 시작된 지 세 달 후에 시작되었습니다."
+      },
+      {
+        "title": "역사적 맥락과의 연결",
+        "explanation": "이 시기적 근접성은 실험이 홀로코스트라는 역사적 사건에 대한 심리학적 물음에서 비롯되었음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p6",
+    "importantWords": [
+      {
+        "term": "psychology of genocide",
+        "meaning": "집단 학살이 일어나는 심리적 과정을 뜻한다."
+      },
+      {
+        "term": "just following orders",
+        "meaning": "그저 명령을 따랐을 뿐이라는 변명을 뜻한다."
+      },
+      {
+        "term": "validly claim",
+        "meaning": "타당하게 주장할 수 있는지를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "devised",
+        "meaning": "고안하고 설계했다는 뜻이다."
+      },
+      {
+        "term": "accomplices",
+        "meaning": "범죄에 함께 가담한 공범들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "연구의 근본 질문",
+        "explanation": "밀그램은 홀로코스트에 가담한 아이히만과 공범들이 그저 명령을 따랐을 뿐이라는 변명이 타당한지를 검증하기 위해 이 연구를 설계했습니다."
+      },
+      {
+        "title": "심리학과 역사의 접목",
+        "explanation": "이는 심리학 실험이 역사적 사건에 대한 도덕적, 철학적 질문에 답하려는 시도였음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p7",
+    "importantWords": [
+      {
+        "term": "interpretations",
+        "meaning": "결과를 해석하는 방식들을 뜻한다."
+      },
+      {
+        "term": "applicability",
+        "meaning": "다른 상황에 적용할 수 있는 정도를 뜻한다."
+      },
+      {
+        "term": "disputed",
+        "meaning": "논쟁의 대상이 되고 있다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "repeated many times",
+        "meaning": "여러 번 반복되었다는 뜻이다."
+      },
+      {
+        "term": "fairly consistent results",
+        "meaning": "비교적 일관된 결과를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "결과의 일관성과 해석의 논쟁",
+        "explanation": "이 실험은 전 세계에서 여러 번 반복되어 비교적 일관된 결과를 얻었지만, 그 결과를 어떻게 해석하고 홀로코스트에 어떻게 적용할지는 여전히 논쟁거리입니다."
+      },
+      {
+        "title": "일반화의 어려움",
+        "explanation": "결과가 일관되더라도 그것이 실제 역사적 사건을 얼마나 잘 설명하는지는 별개의 문제임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-milgram-experiment-p8",
+    "importantWords": [
+      {
+        "term": "scientific study of memory and learning",
+        "meaning": "실험자가 참가자에게 알려준 표면적인 실험 목적이다."
+      },
+      {
+        "term": "effect of punishment",
+        "meaning": "처벌이 미치는 영향을 뜻한다."
+      },
+      {
+        "term": "memorize content",
+        "meaning": "내용을 외우는 능력을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "subject's ability",
+        "meaning": "실험 대상자의 능력을 뜻한다."
+      },
+      {
+        "term": "what the effect",
+        "meaning": "어떤 효과가 있는지라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "표면적 목적의 위장",
+        "explanation": "실험자는 참가자들에게 이 연구가 처벌이 암기 능력에 미치는 영향을 보는 기억과 학습에 관한 연구라고 알려주었습니다. 이는 실제 목적인 복종 연구를 숨기기 위한 위장이었습니다."
+      },
+      {
+        "title": "속임수 실험의 윤리적 쟁점",
+        "explanation": "이런 속임수는 이후 실험 윤리에 대한 논쟁을 불러일으킨 중요한 이유 중 하나가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p1",
+    "importantWords": [
+      {
+        "term": "bystander effect",
+        "meaning": "다른 사람이 있을 때 도움 행동이 줄어드는 현상이다."
+      },
+      {
+        "term": "bystander apathy",
+        "meaning": "방관자 효과를 가리키는 다른 이름이다."
+      },
+      {
+        "term": "in the presence of other people",
+        "meaning": "다른 사람들이 있는 상황에서라는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "offer help",
+        "meaning": "도움을 제공한다는 뜻이다."
+      },
+      {
+        "term": "Genovese effect",
+        "meaning": "키티 제노비스 사건에서 이름을 딴 방관자 효과의 별칭이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "방관자 효과의 정의",
+        "explanation": "방관자 효과는 다른 사람들이 함께 있을 때 개인이 도움을 줄 가능성이 오히려 낮아진다는 사회심리학 이론입니다."
+      },
+      {
+        "title": "역설적 현상",
+        "explanation": "이는 사람이 많을수록 도움을 받을 가능성이 높아질 것이라는 직관과 반대되는 결과라는 점에서 주목받습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p2",
+    "importantWords": [
+      {
+        "term": "Kitty Genovese",
+        "meaning": "1964년 살해된 사건으로 방관자 효과 연구의 계기가 된 인물이다."
+      },
+      {
+        "term": "erroneously",
+        "meaning": "사실과 다르게 잘못되었다는 뜻이다."
+      },
+      {
+        "term": "bystanders",
+        "meaning": "사건을 목격했지만 개입하지 않은 사람들을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "first proposed",
+        "meaning": "처음으로 제안되었다는 뜻이다."
+      },
+      {
+        "term": "coming to her assistance",
+        "meaning": "그녀를 돕기 위해 나선다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "사건의 계기",
+        "explanation": "이 이론은 1964년 키티 제노비스 살해 사건에서 신문이 37명의 목격자가 있었지만 아무도 돕거나 경찰에 신고하지 않았다고 보도한 것을 계기로 처음 제안되었습니다."
+      },
+      {
+        "title": "보도의 오류",
+        "explanation": "지문은 이 보도가 '잘못되었다(erroneously)'고 명시해, 실제 사실 관계와 초기 보도 사이에 차이가 있었음을 알려줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p3",
+    "importantWords": [
+      {
+        "term": "diffusion of responsibility",
+        "meaning": "책임감이 여러 사람에게 나뉘어 옅어지는 현상이다."
+      },
+      {
+        "term": "ambiguity",
+        "meaning": "상황이 명확하지 않아 애매한 상태를 뜻한다."
+      },
+      {
+        "term": "group cohesiveness",
+        "meaning": "집단 구성원들이 서로 얼마나 결속되어 있는지를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "mutual denial",
+        "meaning": "서로가 서로의 반응을 보고 상황을 부정하는 것을 뜻한다."
+      },
+      {
+        "term": "increasingly varied factors",
+        "meaning": "점점 더 다양해진 요인들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "연구된 주요 변수",
+        "explanation": "방관자 효과 연구는 목격자 수, 상황의 모호함, 집단의 결속력, 책임이 여러 사람에게 나뉘는 책임 분산 같은 다양한 요인을 다뤄왔습니다."
+      },
+      {
+        "title": "책임 분산의 강화 효과",
+        "explanation": "책임 분산은 서로가 서로의 무반응을 보고 위험이 아니라고 판단하는 상호 부정 현상을 강화한다고 지문은 설명합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p4",
+    "importantWords": [
+      {
+        "term": "sense of responsibility",
+        "meaning": "스스로 책임을 느끼는 정도를 뜻한다."
+      },
+      {
+        "term": "shrink back",
+        "meaning": "어려움 앞에서 물러나고 회피한다는 뜻이다."
+      },
+      {
+        "term": "weak sense of responsibility",
+        "meaning": "약해진 책임감을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "positive response",
+        "meaning": "적극적이고 긍정적인 반응을 뜻한다."
+      },
+      {
+        "term": "required to complete",
+        "meaning": "완수하도록 요구받는다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "개인과 집단의 차이",
+        "explanation": "혼자 과제를 맡으면 책임감이 강해 적극적으로 반응하지만, 집단으로 과제를 맡으면 개인의 책임감이 약해져 어려움 앞에서 물러서는 경향이 있습니다."
+      },
+      {
+        "title": "책임감 약화의 결과",
+        "explanation": "이는 방관자 효과가 단순한 무관심이 아니라 책임감이 여러 사람에게 나뉘면서 약해지는 구조적 현상임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p5",
+    "importantWords": [
+      {
+        "term": "\"real-world\" events",
+        "meaning": "실험실이 아니라 실제 현실에서 일어난 사건을 뜻한다."
+      },
+      {
+        "term": "coherence",
+        "meaning": "이론이나 현상이 일관되게 성립하는 정도를 뜻한다."
+      },
+      {
+        "term": "robustness",
+        "meaning": "어떤 결과가 다양한 상황에서도 견고하게 유지되는 정도를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "come under question",
+        "meaning": "의문이 제기되고 있다는 뜻이다."
+      },
+      {
+        "term": "security cameras",
+        "meaning": "감시나 기록을 위한 보안 카메라를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "최근 연구의 도전",
+        "explanation": "최근에는 보안 카메라로 촬영된 실제 사건을 분석하는 연구들이 나타나면서 방관자 효과가 얼마나 일관되고 견고한 현상인지에 의문이 제기되고 있습니다."
+      },
+      {
+        "title": "실험실과 현실의 차이",
+        "explanation": "이는 실험실에서 관찰된 효과가 실제 현실에서도 똑같이 나타나는지 재검토할 필요가 있음을 시사합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p6",
+    "importantWords": [
+      {
+        "term": "workplace settings",
+        "meaning": "직장이라는 사회적 환경을 뜻한다."
+      },
+      {
+        "term": "subordinates",
+        "meaning": "조직에서 상급자 아래에 있는 직원들을 뜻한다."
+      },
+      {
+        "term": "generalize",
+        "meaning": "특정 상황을 넘어 다른 상황에도 적용된다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "refrain from informing",
+        "meaning": "알리는 것을 자제하고 삼간다는 뜻이다."
+      },
+      {
+        "term": "ideas, concerns, and opinions",
+        "meaning": "생각, 우려, 의견을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "직장으로의 확장",
+        "explanation": "방관자 효과는 응급 상황뿐 아니라 부하 직원이 관리자에게 의견이나 우려를 알리기를 꺼리는 직장 환경에도 일반화될 수 있다고 최근 연구는 보여줍니다."
+      },
+      {
+        "title": "현상의 폭넓은 적용",
+        "explanation": "이는 방관자 효과가 특정한 위급 상황에 국한되지 않고 다양한 사회적 맥락에 적용될 수 있는 폭넓은 현상임을 시사합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p7",
+    "importantWords": [
+      {
+        "term": "John M. Darley",
+        "meaning": "방관자 효과를 실험실에서 처음 입증한 사회심리학자이다."
+      },
+      {
+        "term": "Bibb Latané",
+        "meaning": "달리와 함께 방관자 효과를 연구한 사회심리학자이다."
+      },
+      {
+        "term": "demonstrated and popularized",
+        "meaning": "실증하고 널리 알렸다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "became interested in",
+        "meaning": "관심을 갖게 되었다는 뜻이다."
+      },
+      {
+        "term": "following the murder",
+        "meaning": "그 살인 사건 이후에라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실증 연구자들",
+        "explanation": "달리와 라테인은 1964년 키티 제노비스 사건에 관심을 갖게 된 후, 1968년 실험실 연구를 통해 방관자 효과를 처음으로 입증하고 널리 알렸습니다."
+      },
+      {
+        "title": "사건에서 연구로",
+        "explanation": "이는 하나의 비극적 사건이 이후 체계적인 심리학 실험 연구로 이어진 과정을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-bystander-effect-p8",
+    "importantWords": [
+      {
+        "term": "series of experiments",
+        "meaning": "연달아 이어진 여러 실험을 뜻한다."
+      },
+      {
+        "term": "replicable",
+        "meaning": "다른 연구자들이 똑같이 재현할 수 있다는 뜻이다."
+      },
+      {
+        "term": "confederates",
+        "meaning": "실험에서 진짜 참가자처럼 행동하는 협력 연구원을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "typical experiment",
+        "meaning": "전형적으로 이루어지는 실험 형태를 뜻한다."
+      },
+      {
+        "term": "alone or among a group",
+        "meaning": "혼자 있거나 집단 속에 있는 상황을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "연구 성과의 견고함",
+        "explanation": "달리와 라테인이 시작한 실험들은 사회심리학에서 가장 강력하고 재현 가능한 효과 중 하나를 낳았다고 평가됩니다."
+      },
+      {
+        "title": "전형적 실험 설계",
+        "explanation": "전형적인 실험에서는 참가자가 혼자 있거나 다른 참가자 또는 협력 연구원들과 함께 있는 조건으로 비교됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p1",
+    "importantWords": [
+      {
+        "term": "developmental psychology",
+        "meaning": "인간 마음이 평생에 걸쳐 변화하는 과정을 연구하는 학문이다."
+      },
+      {
+        "term": "grows, changes, and adapts",
+        "meaning": "성장하고 변화하고 적응한다는 뜻이다."
+      },
+      {
+        "term": "entire lifespan",
+        "meaning": "출생부터 죽음까지 전체 생애를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "originally concerned with",
+        "meaning": "원래는 어디에 초점을 맞췄다는 뜻이다."
+      },
+      {
+        "term": "expanded to include",
+        "meaning": "범위가 넓어져 포함하게 되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "발달심리학의 정의",
+        "explanation": "발달심리학은 인간의 마음이 일생 동안 어떻게, 왜 성장하고 변화하고 적응하는지를 과학적으로 연구하는 학문입니다."
+      },
+      {
+        "title": "범위의 확장",
+        "explanation": "원래는 영유아와 아동에 초점을 맞췄지만, 이후 청소년기, 성인 발달, 노화까지 포함하는 전 생애로 범위가 확장되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p2",
+    "importantWords": [
+      {
+        "term": "physical development",
+        "meaning": "신체가 자라고 변화하는 과정을 뜻한다."
+      },
+      {
+        "term": "cognitive development",
+        "meaning": "사고와 인지 능력이 발달하는 과정을 뜻한다."
+      },
+      {
+        "term": "social emotional development",
+        "meaning": "사회적, 정서적 능력이 발달하는 과정을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "thinking, feeling, and behaviors",
+        "meaning": "생각, 감정, 행동을 뜻한다."
+      },
+      {
+        "term": "aim to explain",
+        "meaning": "설명하는 것을 목표로 한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세 가지 발달 차원",
+        "explanation": "발달심리학자들은 생각과 감정, 행동이 어떻게 변화하는지를 신체 발달, 인지 발달, 사회정서 발달이라는 세 가지 차원에서 설명하려 합니다."
+      },
+      {
+        "title": "통합적 접근",
+        "explanation": "이 세 차원은 서로 분리된 것이 아니라 함께 인간 발달의 전체 모습을 이루는 요소로 다뤄집니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p3",
+    "importantWords": [
+      {
+        "term": "motor skills",
+        "meaning": "몸을 움직이는 신체적 기술을 뜻한다."
+      },
+      {
+        "term": "executive functions",
+        "meaning": "계획, 억제, 전환 같은 고차원적 인지 조절 기능을 뜻한다."
+      },
+      {
+        "term": "identity formation",
+        "meaning": "자신이 누구인지에 대한 정체성이 형성되는 과정을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "broad range of topics",
+        "meaning": "폭넓은 범위의 주제들을 뜻한다."
+      },
+      {
+        "term": "moral understanding",
+        "meaning": "옳고 그름에 대한 도덕적 이해를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세부 주제의 다양성",
+        "explanation": "세 가지 발달 차원 안에는 운동 기능, 실행 기능, 도덕적 이해, 언어 습득, 사회적 변화, 성격, 정서 발달, 자기 개념, 정체성 형성 등 매우 다양한 주제가 포함됩니다."
+      },
+      {
+        "title": "포괄적 학문 영역",
+        "explanation": "이는 발달심리학이 매우 넓은 범위의 인간 발달 현상을 다루는 포괄적인 학문임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p4",
+    "importantWords": [
+      {
+        "term": "nature and nurture",
+        "meaning": "타고난 요인과 환경적 요인을 함께 가리키는 표현이다."
+      },
+      {
+        "term": "processes of change",
+        "meaning": "변화가 일어나는 과정을 뜻한다."
+      },
+      {
+        "term": "different contexts",
+        "meaning": "서로 다른 맥락이나 환경을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "explores the influence",
+        "meaning": "영향을 탐구한다는 뜻이다."
+      },
+      {
+        "term": "over time",
+        "meaning": "시간이 지남에 따라라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "선천과 후천의 균형",
+        "explanation": "발달심리학은 인간 발달에 선천적 요인과 후천적 요인이 함께 미치는 영향을 탐구하며, 어느 한쪽만 강조하지 않습니다."
+      },
+      {
+        "title": "맥락에 따른 변화",
+        "explanation": "또한 이런 변화의 과정이 서로 다른 맥락과 시간에 따라 어떻게 달라지는지도 함께 살핍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p5",
+    "importantWords": [
+      {
+        "term": "personal characteristics",
+        "meaning": "개인이 지닌 고유한 특성을 뜻한다."
+      },
+      {
+        "term": "environmental factors",
+        "meaning": "개인을 둘러싼 환경적 요소들을 뜻한다."
+      },
+      {
+        "term": "built environment",
+        "meaning": "인간이 만든 물리적 환경, 예를 들어 건물이나 도시를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "interactions among",
+        "meaning": "여러 요소들 사이의 상호작용을 뜻한다."
+      },
+      {
+        "term": "social context",
+        "meaning": "사회적 맥락이나 상황을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "상호작용에 대한 관심",
+        "explanation": "많은 연구자들은 개인의 특성, 행동, 사회적 맥락과 물리적 환경을 포함한 환경적 요인들이 서로 어떻게 상호작용하는지에 관심을 가집니다."
+      },
+      {
+        "title": "환경의 폭넓은 정의",
+        "explanation": "여기서 환경은 사회적 맥락뿐 아니라 건물과 같은 물리적으로 지어진 환경까지 포함하는 폭넓은 개념으로 다뤄집니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p6",
+    "importantWords": [
+      {
+        "term": "biological essentialism",
+        "meaning": "생물학적 본성이 발달을 고정적으로 결정한다는 입장이다."
+      },
+      {
+        "term": "neuroplasticity",
+        "meaning": "뇌가 경험에 따라 유연하게 변화할 수 있다는 성질이다."
+      },
+      {
+        "term": "dynamic systems of development",
+        "meaning": "발달을 고정된 단계가 아니라 역동적으로 변화하는 체계로 보는 관점이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ongoing debates",
+        "meaning": "아직 결론이 나지 않은 진행 중인 논쟁을 뜻한다."
+      },
+      {
+        "term": "stages of development",
+        "meaning": "정해진 순서로 진행되는 발달 단계를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이론적 논쟁",
+        "explanation": "발달심리학 안에는 생물학적 본질주의와 신경가소성 사이의 논쟁, 그리고 고정된 발달 단계론과 역동적 발달 체계론 사이의 논쟁이 계속되고 있습니다."
+      },
+      {
+        "title": "학문의 역동성",
+        "explanation": "이런 논쟁들은 발달심리학이 하나의 고정된 이론으로 완결된 것이 아니라 계속 발전하는 학문임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p7",
+    "importantWords": [
+      {
+        "term": "life stage transitions",
+        "meaning": "삶의 한 단계에서 다른 단계로 넘어가는 전환을 뜻한다."
+      },
+      {
+        "term": "biological factors",
+        "meaning": "생물학적으로 타고난 요인들을 뜻한다."
+      },
+      {
+        "term": "certain limitations",
+        "meaning": "연구가 지닌 일정한 한계점을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ongoing studies",
+        "meaning": "현재도 계속되고 있는 연구들을 뜻한다."
+      },
+      {
+        "term": "aim to understand",
+        "meaning": "이해하는 것을 목표로 한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한계 속의 지속적 탐구",
+        "explanation": "발달심리학 연구는 일정한 한계를 가지고 있지만, 그럼에도 생애 단계의 전환과 생물학적 요인이 인간 행동과 발달에 미치는 영향을 계속해서 이해하려 노력합니다."
+      },
+      {
+        "title": "완결되지 않은 학문",
+        "explanation": "이는 발달심리학이 아직 모든 질문에 답하지 못한, 계속 발전 중인 학문임을 인정하는 표현입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-developmental-psychology-p8",
+    "importantWords": [
+      {
+        "term": "educational psychology",
+        "meaning": "교육 현장에서의 학습과 발달을 연구하는 분야이다."
+      },
+      {
+        "term": "child psychopathology",
+        "meaning": "아동기의 정신 병리를 연구하는 분야이다."
+      },
+      {
+        "term": "cultural psychology",
+        "meaning": "문화가 심리에 미치는 영향을 연구하는 분야이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "forensic developmental psychology",
+        "meaning": "법적 맥락에서 발달심리학을 적용하는 분야를 뜻한다."
+      },
+      {
+        "term": "related to a range of fields",
+        "meaning": "여러 분야와 관련이 있다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학제간 연결성",
+        "explanation": "발달심리학은 교육심리학, 아동정신병리학, 법정발달심리학, 아동발달, 인지심리학, 생태심리학, 문화심리학 등 여러 인접 학문과 밀접하게 연결되어 있습니다."
+      },
+      {
+        "title": "독립적이지 않은 학문",
+        "explanation": "이는 발달심리학이 고립된 학문이 아니라 다른 여러 심리학 및 관련 분야와 지식을 주고받는 학문임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p1",
+    "importantWords": [
+      {
+        "term": "social psychology",
+        "meaning": "타인의 존재가 생각과 행동에 미치는 영향을 연구하는 학문이다."
+      },
+      {
+        "term": "methodical study",
+        "meaning": "체계적이고 규칙적인 방법으로 이루어지는 연구를 뜻한다."
+      },
+      {
+        "term": "implied presence",
+        "meaning": "직접 보이지는 않지만 존재가 암시되는 상태를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "actual, imagined, or implied",
+        "meaning": "실제든 상상이든 암시된 것이든이라는 뜻이다."
+      },
+      {
+        "term": "influenced by",
+        "meaning": "어떤 것에 의해 영향을 받는다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "사회심리학의 정의",
+        "explanation": "사회심리학은 생각, 감정, 행동이 실제로 존재하든, 상상 속에 있든, 암시적으로만 존재하든 타인의 존재에 의해 어떻게 영향받는지를 체계적으로 연구합니다."
+      },
+      {
+        "title": "타인 존재의 폭넓은 개념",
+        "explanation": "여기서 '타인의 존재'는 실제로 눈앞에 있는 사람뿐 아니라 상상하거나 암시된 존재까지 포함하는 넓은 개념입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p2",
+    "importantWords": [
+      {
+        "term": "substantive topics",
+        "meaning": "실질적으로 다루는 주제들을 뜻한다."
+      },
+      {
+        "term": "emphasis on the individual",
+        "meaning": "개인에 더 무게를 둔다는 뜻이다."
+      },
+      {
+        "term": "social structure and culture",
+        "meaning": "사회 구조와 문화를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "counterpart",
+        "meaning": "서로 대응되는 상대 분야를 뜻한다."
+      },
+      {
+        "term": "social hierarchies",
+        "meaning": "사회 안에서의 위계나 서열을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 사회심리학의 차이",
+        "explanation": "사회학의 사회심리학과 심리학의 사회심리학은 비슷한 주제를 다루지만, 심리학적 사회심리학은 사회보다 개인에 더 초점을 맞춥니다."
+      },
+      {
+        "title": "개인 중심의 시각",
+        "explanation": "이 관점에서는 성격, 행동, 사회적 위계 안에서의 위치 등이 사회 구조 자체보다 개인의 관점에서 다뤄집니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p3",
+    "importantWords": [
+      {
+        "term": "emerge from",
+        "meaning": "더 큰 분야에서 갈라져 나온다는 뜻이다."
+      },
+      {
+        "term": "larger field of psychology",
+        "meaning": "사회심리학이 속해 있던 더 넓은 심리학 분야를 뜻한다."
+      },
+      {
+        "term": "concrete explanations",
+        "meaning": "구체적이고 명확한 설명을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "human nature",
+        "meaning": "인간 본성을 뜻한다."
+      },
+      {
+        "term": "aspects of",
+        "meaning": "어떤 것의 여러 측면을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학문 분화의 시기",
+        "explanation": "사회심리학은 19세기에 더 큰 심리학이라는 학문에서 독립적인 분야로 갈라져 나오기 시작했습니다."
+      },
+      {
+        "title": "당시 심리학자들의 관심",
+        "explanation": "당시 심리학자들은 인간 본성의 다양한 측면에 대한 구체적인 설명을 찾는 데 관심이 있었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p4",
+    "importantWords": [
+      {
+        "term": "scientific method",
+        "meaning": "가설을 세우고 검증하는 체계적인 연구 방법이다."
+      },
+      {
+        "term": "cause-and-effect relationships",
+        "meaning": "원인과 결과 사이의 관계를 뜻한다."
+      },
+      {
+        "term": "social interactions",
+        "meaning": "사람들 사이의 상호작용을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "attempted to discover",
+        "meaning": "발견하려고 시도했다는 뜻이다."
+      },
+      {
+        "term": "applied",
+        "meaning": "어떤 방법을 실제로 적용했다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과학적 방법의 도입",
+        "explanation": "초기 사회심리학자들은 사회적 상호작용을 설명할 구체적인 인과관계를 찾기 위해 과학적 방법을 인간 행동 연구에 적용했습니다."
+      },
+      {
+        "title": "경험적 접근의 시작",
+        "explanation": "이는 사회심리학이 처음부터 사변적 논의가 아니라 실험과 관찰에 기반한 경험적 학문으로 자리잡으려 했음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p5",
+    "importantWords": [
+      {
+        "term": "Norman Triplett",
+        "meaning": "사회적 촉진 현상을 실험한 초기 사회심리학자이다."
+      },
+      {
+        "term": "social facilitation",
+        "meaning": "다른 사람이 있을 때 수행이 향상되는 현상이다."
+      },
+      {
+        "term": "first published studies",
+        "meaning": "이 분야 최초로 발표된 연구들을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "phenomenon of",
+        "meaning": "어떤 현상을 가리키는 표현이다."
+      },
+      {
+        "term": "foundation of",
+        "meaning": "이후 연구의 토대가 되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "최초의 실험 연구",
+        "explanation": "노먼 트리플렛이 1898년에 수행한 사회적 촉진 현상 실험은 이 분야 최초로 발표된 연구 중 하나로 꼽힙니다."
+      },
+      {
+        "title": "이후 연구의 토대",
+        "explanation": "이 초기 실험들은 20세기 사회심리학 연구 전반의 토대를 형성하는 데 기여했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p6",
+    "importantWords": [
+      {
+        "term": "Floyd Allport",
+        "meaning": "1924년 사회심리학을 정의한 고전적 교과서를 쓴 학자이다."
+      },
+      {
+        "term": "classic textbook",
+        "meaning": "그 분야의 기초를 다진 고전적인 교과서를 뜻한다."
+      },
+      {
+        "term": "experimental study of social behavior",
+        "meaning": "사회적 행동을 실험적으로 연구하는 것을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Wolfgang Stroebe",
+        "meaning": "이 시기 구분을 제시한 학자의 이름이다."
+      },
+      {
+        "term": "defined the field",
+        "meaning": "그 학문 분야를 정의했다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "현대 사회심리학의 출발점",
+        "explanation": "볼프강 슈트로베에 따르면 현대 사회심리학은 1924년 플로이드 올포트가 사회적 행동의 실험 연구로 그 분야를 정의한 고전적 교과서를 출간하면서 시작되었습니다."
+      },
+      {
+        "title": "정의의 중요성",
+        "explanation": "올포트의 정의는 사회심리학을 사변적 논의가 아니라 실험적 과학으로 자리매김하는 데 중요한 역할을 했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p7",
+    "importantWords": [
+      {
+        "term": "Kurt Lewin",
+        "meaning": "영향력 있는 사회심리학 연구 프로그램을 세운 학자이다."
+      },
+      {
+        "term": "persuasion and propaganda",
+        "meaning": "사람의 태도를 바꾸려는 설득과 선전을 뜻한다."
+      },
+      {
+        "term": "psychological warfare",
+        "meaning": "심리적 수단을 이용한 전쟁 전략을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "mostly concerned with",
+        "meaning": "주로 관심을 가졌던 대상을 뜻한다."
+      },
+      {
+        "term": "influential research program",
+        "meaning": "영향력 있는 연구 프로그램을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전시 연구의 초점",
+        "explanation": "쿠르트 레빈이 이끈 영향력 있는 연구 프로그램을 포함해, 제2차 세계대전 동안 사회심리학자들은 주로 미군을 위한 설득과 선전 연구, 즉 심리전에 관심을 기울였습니다."
+      },
+      {
+        "title": "응용 연구로의 전환",
+        "explanation": "이는 사회심리학이 전쟁이라는 현실적 필요에 맞춰 응용 연구로 방향을 튼 시기였음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-social-psychology-p8",
+    "importantWords": [
+      {
+        "term": "social stigma",
+        "meaning": "인지된 차이를 근거로 한 불승인이나 차별을 뜻한다."
+      },
+      {
+        "term": "gender and racial prejudice",
+        "meaning": "성별과 인종에 대한 편견을 뜻한다."
+      },
+      {
+        "term": "redefine norms",
+        "meaning": "사회적 규범을 새롭게 정의한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "increasingly prevalent",
+        "meaning": "점점 더 흔하고 두드러지게 되었다는 뜻이다."
+      },
+      {
+        "term": "perceived differences",
+        "meaning": "사람들이 인지하는 차이점을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전후 사회 문제의 부상",
+        "explanation": "전쟁이 끝난 후 연구자들은 성별과 인종 편견 같은 사회 문제에 관심을 갖게 되었고, 인지된 차이에 근거한 불승인이나 차별인 사회적 낙인이 점점 더 두드러졌습니다."
+      },
+      {
+        "title": "규범 재정의의 배경",
+        "explanation": "이는 전후 사회가 집단 경계와 규범을 다시 정의하려는 과정에서 나타난 사회적 갈등의 한 형태로 이해할 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p1",
+    "importantWords": [
+      {
+        "term": "reflex",
+        "meaning": "특정 자극에 대해 자동으로 일어나는 반응이다."
+      },
+      {
+        "term": "antecedent stimuli",
+        "meaning": "행동보다 앞서 일어나는 자극을 뜻한다."
+      },
+      {
+        "term": "reinforcement and punishment contingencies",
+        "meaning": "강화와 처벌이 행동에 따라 주어지는 관계를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "controlling stimuli",
+        "meaning": "행동을 통제하는 자극을 뜻한다."
+      },
+      {
+        "term": "motivational state",
+        "meaning": "행동에 영향을 주는 동기적 상태를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행동주의의 전제",
+        "explanation": "행동주의는 행동이 선행 자극에 의한 반사이거나, 강화와 처벌을 포함한 개인의 역사에서 비롯된 결과라고 전제합니다."
+      },
+      {
+        "title": "동기와 자극의 결합",
+        "explanation": "이 전제에는 개인의 현재 동기 상태와 통제하는 자극도 함께 작용한다는 점이 포함됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p2",
+    "importantWords": [
+      {
+        "term": "heredity",
+        "meaning": "부모로부터 자손에게 전달되는 유전적 특성을 뜻한다."
+      },
+      {
+        "term": "environmental events",
+        "meaning": "개체를 둘러싼 환경에서 일어나는 사건들을 뜻한다."
+      },
+      {
+        "term": "phylogeny and ontogeny",
+        "meaning": "종의 진화 역사와 개체의 발달 역사를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "two levels of selection",
+        "meaning": "스키너가 구분한 두 가지 선택 수준을 뜻한다."
+      },
+      {
+        "term": "determining behavior",
+        "meaning": "행동을 결정하는 데 영향을 미친다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "유전과 환경의 균형",
+        "explanation": "행동주의자들은 유전이 행동을 결정하는 데 중요한 역할을 한다는 것을 인정하지만, 연구의 초점은 주로 환경적 사건에 둡니다."
+      },
+      {
+        "title": "스키너의 두 수준 선택",
+        "explanation": "이는 스키너가 제시한 계통발생과 개체발생이라는 두 수준의 선택 개념에서 비롯된 관점입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p3",
+    "importantWords": [
+      {
+        "term": "cognitive revolution",
+        "meaning": "심리학의 초점이 행동에서 인지로 옮겨간 학문적 전환이다."
+      },
+      {
+        "term": "internal mental states",
+        "meaning": "겉으로 드러나지 않는 마음속 상태를 뜻한다."
+      },
+      {
+        "term": "explanatory theory",
+        "meaning": "현상을 설명하는 이론적 틀을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "largely replaced",
+        "meaning": "상당 부분 대체되었다는 뜻이다."
+      },
+      {
+        "term": "observable behavior",
+        "meaning": "겉으로 관찰할 수 있는 행동을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이론적 교체",
+        "explanation": "20세기 후반의 인지 혁명은 행동주의를 설명 이론으로서 상당 부분 대체하고, 내적 정신 상태를 행동의 설명으로 보는 인지심리학을 등장시켰습니다."
+      },
+      {
+        "title": "두 이론의 차이",
+        "explanation": "행동주의와 달리 인지심리학은 관찰할 수 없는 마음속 과정도 행동을 설명하는 중요한 요소로 받아들입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p4",
+    "importantWords": [
+      {
+        "term": "depth psychology",
+        "meaning": "무의식을 강조하는 전통적 심리학의 한 흐름이다."
+      },
+      {
+        "term": "reaction to",
+        "meaning": "이전의 흐름에 반대해 나타난 대응을 뜻한다."
+      },
+      {
+        "term": "tested experimentally",
+        "meaning": "실험을 통해 검증될 수 있다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "difficulty making predictions",
+        "meaning": "예측을 하는 데 어려움을 겪었다는 뜻이다."
+      },
+      {
+        "term": "traditional forms of psychology",
+        "meaning": "이전부터 있어온 전통적인 심리학 흐름들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "등장 배경",
+        "explanation": "행동주의는 실험적으로 검증하기 어려웠던 심층심리학과 다른 전통 심리학에 대한 반작용으로 1900년대 초에 등장했습니다."
+      },
+      {
+        "title": "검증 가능성의 강조",
+        "explanation": "이는 행동주의가 처음부터 과학적 검증 가능성을 중요한 가치로 내세웠음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p5",
+    "importantWords": [
+      {
+        "term": "law of effect",
+        "meaning": "결과를 이용해 행동을 강화하거나 약화시키는 절차를 설명하는 원리이다."
+      },
+      {
+        "term": "pioneered",
+        "meaning": "새로운 분야나 개념을 처음으로 개척했다는 뜻이다."
+      },
+      {
+        "term": "consequences",
+        "meaning": "행동 뒤에 따르는 결과를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "derived from",
+        "meaning": "어디에서 파생되고 유래했다는 뜻이다."
+      },
+      {
+        "term": "strengthen or weaken behavior",
+        "meaning": "행동을 강화하거나 약화시킨다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이론적 뿌리",
+        "explanation": "행동주의는 손다이크가 19세기 후반에 개척한 효과의 법칙에서 파생되었습니다. 이는 결과를 이용해 행동을 강화하거나 약화시키는 절차를 설명하는 원리입니다."
+      },
+      {
+        "title": "손다이크의 위치",
+        "explanation": "손다이크는 행동주의가 공식적으로 등장하기 전 세대에 속하지만, 그의 연구는 행동주의 이론의 중요한 토대가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p6",
+    "importantWords": [
+      {
+        "term": "John B. Watson",
+        "meaning": "1924년 방법론적 행동주의를 제시한 심리학자이다."
+      },
+      {
+        "term": "methodological behaviorism",
+        "meaning": "관찰 가능한 행동만을 측정 대상으로 삼는 행동주의의 한 형태이다."
+      },
+      {
+        "term": "introspective methods",
+        "meaning": "자신의 내면을 스스로 관찰하고 보고하는 연구 방법이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "rejected",
+        "meaning": "거부하고 받아들이지 않았다는 뜻이다."
+      },
+      {
+        "term": "only measuring observable behaviors",
+        "meaning": "오직 관찰 가능한 행동만을 측정한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "왓슨의 기여",
+        "explanation": "왓슨은 1924년 저작을 통해 내성적 방법을 거부하고 오직 관찰 가능한 행동과 사건만을 측정해 행동을 이해하려는 방법론적 행동주의를 제시했습니다."
+      },
+      {
+        "title": "내성법에 대한 거부",
+        "explanation": "이는 이전 심리학이 주로 사용하던 자기 관찰 보고 방식과 결별하는 중요한 전환점이었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p7",
+    "importantWords": [
+      {
+        "term": "B. F. Skinner",
+        "meaning": "급진적 행동주의를 제시한 심리학자이다."
+      },
+      {
+        "term": "covert behavior",
+        "meaning": "겉으로 드러나지 않는 내적인 행동, 예를 들어 생각이나 감정을 뜻한다."
+      },
+      {
+        "term": "radical behaviorism",
+        "meaning": "내적 행동도 같은 원리로 통제된다고 보는 행동주의의 한 형태이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "controlling variables",
+        "meaning": "행동을 통제하는 변인들을 뜻한다."
+      },
+      {
+        "term": "subject to",
+        "meaning": "어떤 것의 영향을 받는다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "스키너의 확장",
+        "explanation": "스키너는 1945년에 인지와 감정 같은 은밀한 행동도 관찰 가능한 행동과 동일한 통제 변인의 지배를 받는다고 제안했고, 이것이 급진적 행동주의의 기초가 되었습니다."
+      },
+      {
+        "title": "방법론적 행동주의와의 차이",
+        "explanation": "왓슨의 방법론적 행동주의와 달리, 스키너의 급진적 행동주의는 내적 정신 상태도 연구 대상으로 인정한다는 점에서 다릅니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-behaviorism-p8",
+    "importantWords": [
+      {
+        "term": "discriminative (antecedent) stimuli",
+        "meaning": "특정 행동이 강화될지를 알려주는 단서가 되는 자극이다."
+      },
+      {
+        "term": "reinforcement histories",
+        "meaning": "과거에 어떤 행동이 강화되었던 경험의 역사를 뜻한다."
+      },
+      {
+        "term": "operant conditioning",
+        "meaning": "결과에 따라 자발적 행동이 형성되는 학습 과정이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "assessed",
+        "meaning": "평가하고 분석했다는 뜻이다."
+      },
+      {
+        "term": "emit behavior",
+        "meaning": "행동을 만들어내고 방출한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "왓슨/파블로프와 스키너의 차이",
+        "explanation": "왓슨과 파블로프는 조건화된 중립 자극이 반사를 일으키는 방식을 연구했지만, 스키너는 행동을 유발하는 변별 자극의 강화 이력을 평가했습니다."
+      },
+      {
+        "title": "조작적 조건형성의 명명",
+        "explanation": "이 스키너의 접근 방식에서 비롯된 과정이 이후 조작적 조건형성이라는 이름으로 알려지게 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p1",
+    "importantWords": [
+      {
+        "term": "psychoanalysis",
+        "meaning": "무의식적 과정을 발견하는 이론과 기법의 집합이다."
+      },
+      {
+        "term": "unconscious processes",
+        "meaning": "의식하지 못한 채 일어나는 마음의 과정을 뜻한다."
+      },
+      {
+        "term": "conscious thought",
+        "meaning": "스스로 의식하고 있는 사고를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "set of theories and techniques",
+        "meaning": "여러 이론과 기법들의 모음을 뜻한다."
+      },
+      {
+        "term": "influence on",
+        "meaning": "무엇에 미치는 영향을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정신분석의 정의",
+        "explanation": "정신분석은 무의식적 과정과 그것이 의식적 사고, 정서, 행동에 미치는 영향을 발견하기 위한 이론과 기법의 집합입니다."
+      },
+      {
+        "title": "이론과 기법의 결합",
+        "explanation": "이는 정신분석이 단순한 사변적 이론이 아니라 실제로 적용 가능한 기법도 함께 포함하고 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p2",
+    "importantWords": [
+      {
+        "term": "Sigmund Freud",
+        "meaning": "1890년대 초 정신분석을 확립한 인물이다."
+      },
+      {
+        "term": "talk therapy method",
+        "meaning": "대화를 통해 치료하는 방법을 뜻한다."
+      },
+      {
+        "term": "Josef Breuer",
+        "meaning": "프로이트의 스승으로 함께 연구한 인물이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "neurology findings",
+        "meaning": "신경학 연구에서 나온 발견들을 뜻한다."
+      },
+      {
+        "term": "ethnology reports",
+        "meaning": "여러 문화와 민족에 대한 보고서를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정신분석의 확립자",
+        "explanation": "프로이트는 1890년대 초에 정신분석을 정신 질환을 치료하는 대화 치료법으로 확립했으며, 다윈의 진화론, 신경학, 민족학, 임상 연구를 그 근거로 삼았습니다."
+      },
+      {
+        "title": "스승의 영향",
+        "explanation": "요제프 브로이어의 발견도 프로이트의 이론 형성에 중요한 영향을 미쳤다고 지문은 명시합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p3",
+    "importantWords": [
+      {
+        "term": "Jacques Lacan",
+        "meaning": "프로이트로의 회귀를 내세운 정신분석가이다."
+      },
+      {
+        "term": "retour à Freud",
+        "meaning": "프로이트로 돌아가자는 뜻의 프랑스어 표현이다."
+      },
+      {
+        "term": "language-like structure",
+        "meaning": "언어와 비슷한 구조를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "metapsychology",
+        "meaning": "정신 현상의 근본 원리를 다루는 이론적 틀을 뜻한다."
+      },
+      {
+        "term": "neo-Freudian thinkers",
+        "meaning": "프로이트 이후 그의 이론을 변형하고 발전시킨 사상가들을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "라캉의 접근",
+        "explanation": "라캉은 자신의 접근을 프로이트로의 회귀라 부르며, 정신을 이드, 자아, 초자아로 나누는 삼원 모델을 기술적으로 정교화하고 무의식의 언어 같은 구조를 탐구했습니다."
+      },
+      {
+        "title": "신프로이트주의자들과의 구분",
+        "explanation": "프롬, 호나이, 설리번 같은 신프로이트주의 사상가들이 새로운 하위 분야를 만든 것과 달리, 라캉은 프로이트로 돌아가려 했다는 점에서 구별됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p4",
+    "importantWords": [
+      {
+        "term": "third insult to mankind",
+        "meaning": "프로이트가 자신의 발견을 인류에 대한 세 번째 모욕이라 부른 표현이다."
+      },
+      {
+        "term": "central claims",
+        "meaning": "이론에서 핵심이 되는 주장들을 뜻한다."
+      },
+      {
+        "term": "determine cognition and behavior",
+        "meaning": "인지와 행동을 결정한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "largely determine",
+        "meaning": "상당 부분을 결정한다는 뜻이다."
+      },
+      {
+        "term": "one of Freud's central claims",
+        "meaning": "프로이트의 핵심 주장 중 하나라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "모욕이라는 표현의 의미",
+        "explanation": "프로이트는 무의식이 인지와 행동을 상당 부분 결정한다는 주장을, 인간이 스스로를 우주의 중심이자 이성적 존재로 여기던 자부심에 상처를 주는 세 번째 모욕이라고 표현했습니다."
+      },
+      {
+        "title": "자기 이해에 대한 도전",
+        "explanation": "이는 인간이 자기 마음을 완전히 통제한다고 믿던 기존의 자기 이해에 도전하는 주장이었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p5",
+    "importantWords": [
+      {
+        "term": "Copernicus",
+        "meaning": "지구가 태양 주위를 돈다는 것을 발견한 천문학자이다."
+      },
+      {
+        "term": "cosmic discovery",
+        "meaning": "우주에 관한 근본적인 발견을 뜻한다."
+      },
+      {
+        "term": "biological discovery",
+        "meaning": "생물학 분야에서 이루어진 발견을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "evolved from apes",
+        "meaning": "유인원으로부터 진화했다는 뜻이다."
+      },
+      {
+        "term": "psychological affront",
+        "meaning": "심리적으로 자존심을 건드리는 모욕을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세 모욕의 계보",
+        "explanation": "지문은 인류에 대한 세 가지 모욕을 순서대로 제시합니다. 첫째는 코페르니쿠스의 지동설, 둘째는 다윈의 진화론, 셋째는 프로이트의 무의식 이론입니다."
+      },
+      {
+        "title": "자아상에 대한 연속적 도전",
+        "explanation": "이 세 발견은 각각 인간이 우주의 중심, 특별한 창조물, 완전히 이성적인 존재라는 자아상에 차례로 도전했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p6",
+    "importantWords": [
+      {
+        "term": "repressed",
+        "meaning": "의식에서 밀어내어 억눌린 상태를 뜻한다."
+      },
+      {
+        "term": "the 'id'",
+        "meaning": "본능적 욕구를 담고 있는 정신 구조의 한 부분이다."
+      },
+      {
+        "term": "traumatic experiences",
+        "meaning": "심리적으로 상처가 되는 경험을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "structural model",
+        "meaning": "정신을 이드, 자아, 초자아로 나누는 프로이트의 모델이다."
+      },
+      {
+        "term": "drives",
+        "meaning": "인간을 움직이게 하는 본능적 욕구를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "억압과 이드의 관계",
+        "explanation": "프로이트는 많은 욕동이 어린 시절의 외상적 경험의 결과로 억압되며, 구조 모델에서는 이것이 이드에 위치한다고 보았습니다."
+      },
+      {
+        "title": "어린 시절 경험의 중요성",
+        "explanation": "이는 정신분석 이론에서 어린 시절의 경험이 성인기 무의식 구조 형성에 결정적임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p7",
+    "importantWords": [
+      {
+        "term": "resistance",
+        "meaning": "억압된 내용이 의식화되는 것을 막으려는 심리적 저항이다."
+      },
+      {
+        "term": "defense mechanisms",
+        "meaning": "불안을 줄이기 위해 사용하는 심리적 방어 전략이다."
+      },
+      {
+        "term": "integrate them into the conscious perception",
+        "meaning": "의식적 지각 속으로 통합한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "censorship",
+        "meaning": "억압된 내용이 의식에 드러나지 않도록 걸러내는 기능을 뜻한다."
+      },
+      {
+        "term": "internalized fear",
+        "meaning": "내면화된 두려움을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "저항의 발생",
+        "explanation": "억압된 욕동을 자아의 의식적 지각으로 통합하려는 시도는 저항을 촉발합니다. 개인은 검열이나 내면화된 처벌에 대한 두려움 같은 방어 기제를 통해 억압을 유지하려 합니다."
+      },
+      {
+        "title": "억압 유지의 이유",
+        "explanation": "이는 억압된 내용이 의식에 드러나는 것이 개인에게 위협적으로 느껴지기 때문에 나타나는 심리적 방어 과정입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-psychoanalysis-p8",
+    "importantWords": [
+      {
+        "term": "id, ego, and superego",
+        "meaning": "프로이트가 나눈 정신의 세 구조이다."
+      },
+      {
+        "term": "mental disorders",
+        "meaning": "정신적으로 나타나는 여러 장애를 뜻한다."
+      },
+      {
+        "term": "inner war",
+        "meaning": "정신 구조들 사이의 내적 갈등을 비유적으로 표현한 말이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "more or less conspicuous",
+        "meaning": "많든 적든 눈에 띄는 정도를 뜻한다."
+      },
+      {
+        "term": "did not equate the most common behavior with",
+        "meaning": "가장 흔한 행동을 건강과 같은 것으로 간주하지 않았다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "건강과 흔함의 구분",
+        "explanation": "이드, 자아, 초자아 사이의 내적 갈등은 크고 작은 정신 장애로 나타날 수 있습니다. 프로이트는 가장 흔한 행동을 곧 건강한 행동과 동일시하지 않았다는 점을 지문은 강조합니다."
+      },
+      {
+        "title": "정상성에 대한 재고",
+        "explanation": "이는 흔하다고 해서 반드시 심리적으로 건강한 것은 아니라는 프로이트의 관점을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p1",
+    "importantWords": [
+      {
+        "term": "neuropsychology",
+        "meaning": "인지와 행동이 뇌와 어떻게 관련되는지를 연구하는 심리학 분야이다."
+      },
+      {
+        "term": "cognition and behavior",
+        "meaning": "생각하는 과정과 겉으로 드러나는 행동을 뜻한다."
+      },
+      {
+        "term": "nervous system",
+        "meaning": "뇌와 척수, 신경을 포함하는 신체 체계이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "branch of psychology",
+        "meaning": "심리학의 한 하위 분야를 뜻한다."
+      },
+      {
+        "term": "related to",
+        "meaning": "서로 관련되어 있다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신경심리학의 정의",
+        "explanation": "신경심리학은 사람의 인지와 행동이 뇌 및 신경계와 어떻게 관련되는지를 연구하는 심리학의 한 분야입니다."
+      },
+      {
+        "title": "심리학과 생물학의 접점",
+        "explanation": "이는 마음의 작용을 신체, 특히 뇌라는 생물학적 기반과 연결지어 이해하려는 학문적 시도입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p2",
+    "importantWords": [
+      {
+        "term": "diagnosis and treatment",
+        "meaning": "질환을 판별하고 치료하는 과정을 뜻한다."
+      },
+      {
+        "term": "neurological disorders",
+        "meaning": "신경계에 생기는 여러 질환을 뜻한다."
+      },
+      {
+        "term": "behavioral and cognitive effects",
+        "meaning": "행동과 인지에 미치는 영향을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "aiming to understand",
+        "meaning": "이해하는 것을 목표로 한다는 뜻이다."
+      },
+      {
+        "term": "brain function",
+        "meaning": "뇌가 작동하는 방식을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이론과 임상의 결합",
+        "explanation": "신경심리학은 뇌 기능이 행동과 인지에 미치는 영향을 이해하는 것뿐 아니라, 신경학적 장애의 행동적·인지적 영향을 진단하고 치료하는 데도 관심이 있습니다."
+      },
+      {
+        "title": "실용적 목적",
+        "explanation": "이는 신경심리학이 순수 이론 연구를 넘어 실제 환자를 돕는 임상적 목적도 함께 지니고 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p3",
+    "importantWords": [
+      {
+        "term": "classical neurology",
+        "meaning": "신경계의 병리에 초점을 맞추는 전통적 신경학이다."
+      },
+      {
+        "term": "classical psychology",
+        "meaning": "신경학과 분리되어 있던 전통적 심리학이다."
+      },
+      {
+        "term": "neurological patients",
+        "meaning": "신경학적 질환을 가진 환자들을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "largely divorced from",
+        "meaning": "상당 부분 분리되어 있다는 뜻이다."
+      },
+      {
+        "term": "correlates with",
+        "meaning": "서로 상관관계를 가진다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 학문 사이의 다리",
+        "explanation": "고전 신경학은 신경계의 병리에 집중하고 고전 심리학은 이와 분리되어 있었지만, 신경심리학은 신경학적 환자를 연구함으로써 뇌와 마음이 어떻게 연결되는지 밝히려 합니다."
+      },
+      {
+        "title": "환자 연구의 중요성",
+        "explanation": "신경학적 환자에 대한 연구는 뇌와 마음의 관계를 밝히는 핵심적인 방법론으로 제시됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p4",
+    "importantWords": [
+      {
+        "term": "lesion studies",
+        "meaning": "뇌의 특정 부위 손상이 기능에 미치는 영향을 연구하는 방법이다."
+      },
+      {
+        "term": "neuropsychiatry",
+        "meaning": "신경학적 원인이 있는 정신 질환을 다루는 학문이다."
+      },
+      {
+        "term": "behavioral neurology",
+        "meaning": "행동과 관련된 신경학적 질환을 연구하는 분야이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "shares concepts and concerns with",
+        "meaning": "개념과 관심사를 공유한다는 뜻이다."
+      },
+      {
+        "term": "applied to",
+        "meaning": "어떤 대상에 적용되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "용어의 폭넓은 적용",
+        "explanation": "신경심리학이라는 용어는 인간과 동물의 병변 연구에 적용되어 왔으며, 신경정신의학과 행동신경학 전반과 개념 및 관심사를 공유합니다."
+      },
+      {
+        "title": "인접 학문과의 관계",
+        "explanation": "이는 신경심리학이 독립된 학문이면서도 여러 인접 학문과 긴밀하게 연결되어 있음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p5",
+    "importantWords": [
+      {
+        "term": "electrical activity",
+        "meaning": "신경 세포가 만들어내는 전기적 신호를 뜻한다."
+      },
+      {
+        "term": "individual cells",
+        "meaning": "하나하나의 개별적인 세포를 뜻한다."
+      },
+      {
+        "term": "higher primates",
+        "meaning": "인간을 포함한 고등 영장류를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "record",
+        "meaning": "측정하여 기록한다는 뜻이다."
+      },
+      {
+        "term": "efforts",
+        "meaning": "무언가를 이루기 위한 노력을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세포 수준의 연구",
+        "explanation": "신경심리학은 고등 영장류, 일부 인간 환자를 포함해 개별 세포 또는 세포 집단에서 전기 활동을 기록하려는 시도에도 적용되어 왔습니다."
+      },
+      {
+        "title": "미세한 수준의 접근",
+        "explanation": "이는 신경심리학이 행동 전체뿐 아니라 뇌의 세포 수준의 활동까지 탐구 범위로 삼는다는 것을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p6",
+    "importantWords": [
+      {
+        "term": "research settings",
+        "meaning": "대학, 실험실, 연구 기관을 뜻한다."
+      },
+      {
+        "term": "clinical settings",
+        "meaning": "환자를 진단하고 치료하는 병원이나 재활 시설을 뜻한다."
+      },
+      {
+        "term": "forensic settings",
+        "meaning": "법적 판단과 관련된 환경을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "clinical-trial consultants",
+        "meaning": "임상시험에서 자문 역할을 하는 사람들을 뜻한다."
+      },
+      {
+        "term": "CNS function",
+        "meaning": "중추신경계의 기능을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다양한 근무 환경",
+        "explanation": "신경심리학자들은 대학이나 연구 기관 같은 연구 환경, 병원이나 재활 시설 같은 임상 환경, 그리고 법정이나 산업체에서 일하는 경향이 있습니다."
+      },
+      {
+        "title": "산업체에서의 역할",
+        "explanation": "산업체에서는 중추신경계 기능이 문제되는 임상시험의 자문 역할을 맡기도 합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p7",
+    "importantWords": [
+      {
+        "term": "first book with the word neuropsychology",
+        "meaning": "제목에 신경심리학이라는 단어가 처음 들어간 책을 뜻한다."
+      },
+      {
+        "term": "Organization of Behavior",
+        "meaning": "1949년 출간된 책의 제목이다."
+      },
+      {
+        "term": "Alexander Luria",
+        "meaning": "다른 초기 영향력 있는 책을 쓴 학자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "magnum opus",
+        "meaning": "한 학자의 대표작이나 가장 중요한 저작을 뜻한다."
+      },
+      {
+        "term": "influential book",
+        "meaning": "학문적으로 큰 영향을 미친 책을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "최초의 저작",
+        "explanation": "제목에 신경심리학이라는 단어가 들어간 최초의 책은 1949년 출간된 행동의 조직화 - 신경심리학 이론이었습니다."
+      },
+      {
+        "title": "또 다른 초기 저작",
+        "explanation": "알렉산더 루리아의 대표작인 인간의 고등 피질 기능(1962)도 이 분야의 또 다른 초기 영향력 있는 저작으로 언급됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-neuropsychology-p8",
+    "importantWords": [
+      {
+        "term": "International Neuropsychological Society",
+        "meaning": "1967년에 설립된 신경심리학 분야의 국제 학회이다."
+      },
+      {
+        "term": "Kolb and Whishaw",
+        "meaning": "1980년 신경심리학 교과서를 처음 출간한 학자들이다."
+      },
+      {
+        "term": "first textbook defining the field",
+        "meaning": "그 학문 분야를 처음으로 정의한 교과서를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "established",
+        "meaning": "조직이나 기관이 설립되었다는 뜻이다."
+      },
+      {
+        "term": "initially published",
+        "meaning": "처음으로 출간되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "제도화의 흐름",
+        "explanation": "국제신경심리학회는 1967년에 설립되었고, 이후 1980년에 콜브와 위쇼가 이 분야를 정의하는 첫 교과서인 인간 신경심리학의 기초를 출간했습니다."
+      },
+      {
+        "title": "학문 성립의 단계",
+        "explanation": "학회 설립과 대표 교과서 출간은 신경심리학이 하나의 독립된 학문 분야로 자리잡아가는 중요한 이정표로 볼 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p1",
+    "importantWords": [
+      {
+        "term": "positive psychology",
+        "meaning": "긍정적 심리 상태와 웰빙에 기여하는 요인을 연구하는 학문이다."
+      },
+      {
+        "term": "well-being",
+        "meaning": "삶에 대한 전반적인 만족과 안녕 상태를 뜻한다."
+      },
+      {
+        "term": "positive institutions",
+        "meaning": "구성원의 긍정적 삶에 기여하는 조직이나 제도를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "contentment, joy",
+        "meaning": "만족감과 기쁨 같은 긍정적 감정을 뜻한다."
+      },
+      {
+        "term": "positive relationships",
+        "meaning": "건강하고 긍정적인 인간관계를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "긍정심리학의 정의",
+        "explanation": "긍정심리학은 만족감이나 기쁨 같은 긍정적 심리 상태, 웰빙, 긍정적 관계, 긍정적 제도에 기여하는 조건과 과정을 과학적으로 연구합니다."
+      },
+      {
+        "title": "연구 대상의 폭",
+        "explanation": "이 정의는 개인의 감정뿐 아니라 관계와 사회 제도까지 포함하는 폭넓은 연구 대상을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p2",
+    "importantWords": [
+      {
+        "term": "Martin Seligman",
+        "meaning": "1998년 긍정심리학을 새로운 영역으로 제시한 심리학자이다."
+      },
+      {
+        "term": "American Psychological Association",
+        "meaning": "미국의 대표적인 심리학회이다."
+      },
+      {
+        "term": "term as president",
+        "meaning": "회장으로 재임한 기간을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "new domain",
+        "meaning": "새롭게 생겨난 학문 영역을 뜻한다."
+      },
+      {
+        "term": "chose it as the theme",
+        "meaning": "그것을 주제로 선택했다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "탄생의 계기",
+        "explanation": "긍정심리학은 1998년 마틴 셀리그만이 미국심리학회 회장 임기의 주제로 선택하면서 새로운 심리학 영역으로 시작되었습니다."
+      },
+      {
+        "title": "제도적 출발점",
+        "explanation": "이는 학회장이라는 공식적 지위를 통해 새로운 학문 분야가 공식적으로 제안된 사례입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p3",
+    "importantWords": [
+      {
+        "term": "humanistic movement",
+        "meaning": "인간의 잠재력과 성장을 강조하는 심리학 운동이다."
+      },
+      {
+        "term": "Abraham Maslow",
+        "meaning": "인본주의 심리학을 대표하는 학자 중 한 명이다."
+      },
+      {
+        "term": "maladaptive behavior",
+        "meaning": "적응에 도움이 되지 않는 부적응적 행동을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "reaction against",
+        "meaning": "이전 흐름에 반대해 나타난 대응을 뜻한다."
+      },
+      {
+        "term": "maladaptive behavior and negative thinking",
+        "meaning": "적응에 도움이 되지 않는 행동과 부정적인 사고를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인본주의와의 연결",
+        "explanation": "긍정심리학은 정신 질환과 부적응 행동에 초점을 맞추던 과거 관행에 대한 반작용이며, 행복과 웰빙, 목적을 강조하는 매슬로와 로저스의 인본주의 운동을 토대로 합니다."
+      },
+      {
+        "title": "과거 관행에 대한 반작용",
+        "explanation": "이는 긍정심리학이 완전히 새로운 것이 아니라 이전 인본주의 전통을 계승하며 발전한 흐름임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p4",
+    "importantWords": [
+      {
+        "term": "eudaimonia",
+        "meaning": "번영이나 좋은 삶을 뜻하는 아리스토텔레스의 개념이다."
+      },
+      {
+        "term": "flourishing",
+        "meaning": "번영하고 잘 살아가는 상태를 뜻한다."
+      },
+      {
+        "term": "Western philosophical tradition",
+        "meaning": "서양 철학의 오랜 전통을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "typically rendered",
+        "meaning": "일반적으로 그렇게 번역된다는 뜻이다."
+      },
+      {
+        "term": "the good life",
+        "meaning": "좋은 삶이라는 개념을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "철학적 뿌리",
+        "explanation": "긍정심리학은 아리스토텔레스의 에우다이모니아 개념처럼 서양 철학 전통에 크게 의존하며, 이는 영어로 flourishing, the good life, happiness로 번역됩니다."
+      },
+      {
+        "title": "고대 개념의 현대적 활용",
+        "explanation": "이는 고대 철학의 개념이 현대 심리학 연구에 재해석되어 활용되는 사례를 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p5",
+    "importantWords": [
+      {
+        "term": "empirically",
+        "meaning": "경험적 자료와 관찰을 바탕으로라는 뜻이다."
+      },
+      {
+        "term": "subjective well-being",
+        "meaning": "개인이 스스로 느끼는 삶의 만족도를 뜻한다."
+      },
+      {
+        "term": "interchangeably",
+        "meaning": "서로 바꿔 써도 될 만큼 같은 뜻으로라는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "study empirically",
+        "meaning": "경험적으로 연구한다는 뜻이다."
+      },
+      {
+        "term": "flourishing",
+        "meaning": "충분히 번영하고 잘 살아가는 상태를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "경험적 연구의 대상",
+        "explanation": "긍정심리학자들은 번영, 주관적 웰빙, 행복에 기여하는 조건과 과정을 경험적으로 연구하며, 이 세 용어를 종종 같은 뜻으로 사용합니다."
+      },
+      {
+        "title": "용어의 유동성",
+        "explanation": "이는 학문 내에서 이 개념들이 엄격히 구분되기보다 서로 겹쳐서 사용되는 경우가 많음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p6",
+    "importantWords": [
+      {
+        "term": "strong social ties",
+        "meaning": "가족, 친구 등과 맺는 긴밀한 사회적 유대를 뜻한다."
+      },
+      {
+        "term": "regular physical exercise",
+        "meaning": "꾸준히 하는 신체 운동을 뜻한다."
+      },
+      {
+        "term": "meditation",
+        "meaning": "마음을 가라앉히고 집중하는 수행 방법이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "wider networks",
+        "meaning": "더 넓은 인간관계 네트워크를 뜻한다."
+      },
+      {
+        "term": "involvement in",
+        "meaning": "어떤 활동에 참여하고 관여한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행복의 여러 요인",
+        "explanation": "긍정심리학자들은 가족, 친구, 동료, 넓은 네트워크 같은 강한 사회적 유대, 동호회나 사회단체 참여, 규칙적인 신체 운동, 명상 같은 관행이 행복에 기여할 수 있다고 제안합니다."
+      },
+      {
+        "title": "다면적 접근",
+        "explanation": "이는 행복이 단일한 원인이 아니라 사회적, 신체적, 정신적 여러 요인이 함께 작용한 결과임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p7",
+    "importantWords": [
+      {
+        "term": "strengths-based approach",
+        "meaning": "개인의 강점을 중심에 두는 접근 방식이다."
+      },
+      {
+        "term": "optimism",
+        "meaning": "미래를 긍정적으로 바라보는 태도를 뜻한다."
+      },
+      {
+        "term": "resilience",
+        "meaning": "어려움에서 다시 회복하는 힘을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "spiritual practice",
+        "meaning": "영적인 수행이나 활동을 뜻한다."
+      },
+      {
+        "term": "religious commitment",
+        "meaning": "종교에 대한 헌신을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "강점 중심의 원칙",
+        "explanation": "긍정심리학의 핵심 원칙은 낙관성, 회복탄력성, 감사 같은 개인의 강점을 확인하는 강점 기반 접근에 초점을 둡니다."
+      },
+      {
+        "title": "영적 수행의 역할",
+        "explanation": "지문은 영적 수행과 종교적 헌신도 웰빙을 높이는 또 다른 가능한 원천으로 언급합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-positive-psychology-p8",
+    "importantWords": [
+      {
+        "term": "hedonic (pleasure-seeking)",
+        "meaning": "즐거움과 쿼락을 추구하는 행복을 뜻한다."
+      },
+      {
+        "term": "eudaemonic (purpose and fulfillment)",
+        "meaning": "목적과 성취를 지향하는 행복을 뜻한다."
+      },
+      {
+        "term": "engagement and relationships",
+        "meaning": "몰입과 관계 맺음을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "differentiates",
+        "meaning": "서로 구별한다는 뜻이다."
+      },
+      {
+        "term": "overall well-being",
+        "meaning": "전반적인 삶의 안녕 상태를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행복의 두 유형",
+        "explanation": "긍정심리학은 즐거움을 추구하는 쾌락적 행복과 목적과 성취를 지향하는 에우다이모닉 행복을 구분합니다."
+      },
+      {
+        "title": "전인적 웰빙 강조",
+        "explanation": "이 이론은 전반적인 웰빙을 강조하며 몰입과 관계 맺음을 함께 촉진하는 것을 목표로 합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p1",
+    "importantWords": [
+      {
+        "term": "intelligence quotient",
+        "meaning": "표준화된 검사로 얻은 지능 점수이다."
+      },
+      {
+        "term": "mental age",
+        "meaning": "지능 검사를 통해 추정한 정신적 발달 연령을 뜻한다."
+      },
+      {
+        "term": "chronological age",
+        "meaning": "실제로 태어난 뒤 지난 나이를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "standardized tests",
+        "meaning": "일관된 방식으로 시행되는 검사를 뜻한다."
+      },
+      {
+        "term": "obtained by dividing",
+        "meaning": "나눔으로써 얻어졌다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "IQ의 원래 정의",
+        "explanation": "IQ는 원래 지능 검사를 통해 얻은 추정 정신 연령을 실제 생활 연령으로 나누어 얻은 몫이었습니다."
+      },
+      {
+        "title": "현대적 방식으로의 변화",
+        "explanation": "이는 이후 원점수를 정규분포로 변환하는 현대적인 방식으로 바뀌었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p2",
+    "importantWords": [
+      {
+        "term": "raw score",
+        "meaning": "검사에서 얻은 원래의 점수를 뜻한다."
+      },
+      {
+        "term": "normal distribution",
+        "meaning": "평균을 중심으로 대칭적으로 분포하는 통계적 형태이다."
+      },
+      {
+        "term": "standard deviation",
+        "meaning": "점수들이 평균에서 얼마나 흩어져 있는지를 나타내는 통계값이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "transformed to",
+        "meaning": "변환되어 바뀐다는 뜻이다."
+      },
+      {
+        "term": "mean 100",
+        "meaning": "평균값이 100이라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "표준화된 점수 체계",
+        "explanation": "현대 IQ 검사는 원점수를 평균 100, 표준편차 15인 정규분포로 변환하여 표준화된 점수를 제공합니다."
+      },
+      {
+        "title": "비교 가능성 확보",
+        "explanation": "이런 표준화는 서로 다른 검사나 시기의 점수를 비교할 수 있게 해주는 통계적 장치입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p3",
+    "importantWords": [
+      {
+        "term": "nutrition",
+        "meaning": "음식 섭취를 통한 영양 상태를 뜻한다."
+      },
+      {
+        "term": "parental socioeconomic status",
+        "meaning": "부모의 경제적, 사회적 지위를 뜻한다."
+      },
+      {
+        "term": "perinatal environment",
+        "meaning": "출생 전후 시기의 환경을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "concrete measure",
+        "meaning": "구체적으로 수치화할 수 있는 측정을 뜻한다."
+      },
+      {
+        "term": "abstract nature",
+        "meaning": "추상적인 성질을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지능 측정의 한계",
+        "explanation": "거리나 질량 같은 물리량과 달리 지능은 추상적인 개념이어서 구체적으로 측정하기 어렵지만, IQ 점수는 영양, 부모의 사회경제적 지위, 이환율과 사망률, 출생 전후 환경 같은 요인들과 관련이 있는 것으로 나타났습니다."
+      },
+      {
+        "title": "환경적 요인의 영향",
+        "explanation": "이는 지능이 순전히 타고나는 것이 아니라 환경적 요인의 영향을 받을 수 있음을 시사합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p4",
+    "importantWords": [
+      {
+        "term": "heritability",
+        "meaning": "특성이 유전적으로 전달되는 정도를 뜻한다."
+      },
+      {
+        "term": "mechanisms of inheritance",
+        "meaning": "유전이 실제로 일어나는 구체적인 과정을 뜻한다."
+      },
+      {
+        "term": "significance",
+        "meaning": "결과가 지니는 의미나 중요성을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "nearly a century",
+        "meaning": "거의 백 년에 가까운 오랜 기간을 뜻한다."
+      },
+      {
+        "term": "debate over",
+        "meaning": "무엇에 대한 논쟁이 있다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지속되는 논쟁",
+        "explanation": "IQ의 유전성은 거의 한 세기 동안 연구되어 왔지만, 유전율 추정치가 무엇을 의미하는지와 실제 유전 메커니즘에 대한 논쟁은 여전히 계속되고 있습니다."
+      },
+      {
+        "title": "과학적 불확실성",
+        "explanation": "이는 오랜 연구에도 불구하고 지능의 유전 문제가 아직 완전히 해결되지 않은 복잡한 주제임을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p5",
+    "importantWords": [
+      {
+        "term": "educational placement",
+        "meaning": "학생을 적절한 교육 과정에 배치하는 것을 뜻한다."
+      },
+      {
+        "term": "intellectual ability",
+        "meaning": "지적인 능력을 뜻한다."
+      },
+      {
+        "term": "job applicants",
+        "meaning": "일자리에 지원하는 사람들을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "evaluating",
+        "meaning": "평가하고 판단한다는 뜻이다."
+      },
+      {
+        "term": "predictors of",
+        "meaning": "무언가를 예측하는 지표를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실용적 활용 사례",
+        "explanation": "IQ 점수는 교육 배치, 지적 능력 평가, 구직자 평가 등 다양한 실용적 목적으로 사용되어 왔습니다."
+      },
+      {
+        "title": "연구에서의 활용",
+        "explanation": "연구 맥락에서는 직무 수행과 소득을 예측하는 지표로도 연구되어 왔다고 지문은 덧붙입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p6",
+    "importantWords": [
+      {
+        "term": "Flynn effect",
+        "meaning": "여러 세대에 걸쳐 IQ 점수가 상승해온 현상이다."
+      },
+      {
+        "term": "distributions of psychometric intelligence",
+        "meaning": "인구 집단에서 지능 검사 점수가 분포하는 양상을 뜻한다."
+      },
+      {
+        "term": "rising at an average rate",
+        "meaning": "평균적으로 어떤 비율로 상승한다는 뜻이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "populations",
+        "meaning": "여러 인구 집단을 뜻한다."
+      },
+      {
+        "term": "per decade",
+        "meaning": "10년마다라는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "플린 효과의 정의",
+        "explanation": "플린 효과는 20세기 초부터 많은 인구 집단에서 IQ 검사의 원점수가 평균적으로 10년마다 3점씩 상승해온 현상을 가리킵니다."
+      },
+      {
+        "title": "연구의 활용",
+        "explanation": "IQ 점수는 이런 인구 집단 간 지능 분포와 다른 변수와의 상관관계를 연구하는 데도 사용됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p7",
+    "importantWords": [
+      {
+        "term": "eugenicists",
+        "meaning": "우수한 유전자를 늘리고 열등하다고 본 유전자를 줄이려 한 사람들이다."
+      },
+      {
+        "term": "pseudoscience",
+        "meaning": "과학처럼 보이지만 과학적 근거가 부족한 주장을 뜻한다."
+      },
+      {
+        "term": "racial hierarchy",
+        "meaning": "인종 사이에 우열이 있다는 그릇된 사상을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "proponents",
+        "meaning": "어떤 것을 지지하고 옹호하는 사람들을 뜻한다."
+      },
+      {
+        "term": "oppose immigration",
+        "meaning": "이민에 반대한다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "역사적 오용",
+        "explanation": "역사적으로 IQ 검사의 많은 지지자들은 인종 위계 사상을 정당화하고 인종 분리와 이민 반대를 뒷받침하기 위해 유사과학을 사용한 우생학자들이었습니다."
+      },
+      {
+        "title": "과학과 이념의 결탁",
+        "explanation": "이는 IQ 검사라는 도구가 과학적 외피를 두른 채 차별적인 사회 정책을 정당화하는 데 오용된 역사적 사례를 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-intelligence-quotient-p8",
+    "importantWords": [
+      {
+        "term": "strong consensus",
+        "meaning": "많은 전문가들이 공통적으로 동의하는 강한 합의를 뜻한다."
+      },
+      {
+        "term": "mainstream science",
+        "meaning": "학계에서 널리 받아들여지는 주류 과학을 뜻한다."
+      },
+      {
+        "term": "fringe figures",
+        "meaning": "주류에서 벗어난 소수의 사람들을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "rejected",
+        "meaning": "거부되고 받아들여지지 않는다는 뜻이다."
+      },
+      {
+        "term": "pseudo-scholarship",
+        "meaning": "학문처럼 보이지만 학문적 근거가 부족한 주장을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "주류 과학의 입장",
+        "explanation": "우생학적 사상은 주류 과학의 강한 합의에 의해 거부되었지만, 일부 소수 인사들은 여전히 유사 학문과 대중문화를 통해 이를 퍼뜨리고 있습니다."
+      },
+      {
+        "title": "잔존하는 위험성",
+        "explanation": "이는 과학적으로 반박된 사상이라도 완전히 사라지지 않고 비주류 경로를 통해 지속될 수 있음을 보여줍니다."
+      }
+    ]
+  }
+]

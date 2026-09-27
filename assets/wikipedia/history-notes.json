@@ -2958,5 +2958,2353 @@
         "explanation": "문단의 여러 문장은 Julian calendar이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
       }
     ]
+  },
+  {
+    "passageId": "renaissance-1",
+    "importantWords": [
+      {
+        "term": "Renaissance",
+        "meaning": "중세 말과 근대 초 사이 유럽의 문화 부흥 운동이자 시대"
+      },
+      {
+        "term": "Late Middle Ages",
+        "meaning": "중세 시대의 마지막 시기"
+      },
+      {
+        "term": "classical antiquity",
+        "meaning": "고대 그리스·로마 문명"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "cultural movement",
+        "meaning": "예술과 사상 전반에 걸친 집단적 흐름"
+      },
+      {
+        "term": "Republic of Florence",
+        "meaning": "이탈리아 중부의 도시국가 피렌체 공화국"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "르네상스의 시기 구분",
+        "explanation": "르네상스는 좁게는 15~16세기로, 넓게는 14세기부터 17세기까지로 정의된다. 학자마다 시작과 끝의 기준이 다르다."
+      },
+      {
+        "title": "피렌체 중심의 확산",
+        "explanation": "르네상스는 피렌체 공화국에서 먼저 시작되어 이탈리아 전역으로, 이후 유럽 전체로 퍼져 나갔다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-2",
+    "importantWords": [
+      {
+        "term": "humanism",
+        "meaning": "인간의 이성과 가치를 중시하는 사상"
+      },
+      {
+        "term": "movable type",
+        "meaning": "재사용 가능한 활자를 이용한 인쇄 기술"
+      },
+      {
+        "term": "Protagoras",
+        "meaning": "인간이 만물의 척도라고 말한 고대 그리스 철학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Roman humanitas",
+        "meaning": "로마의 인간다움·교양 개념"
+      },
+      {
+        "term": "dissemination",
+        "meaning": "생각이나 정보가 널리 퍼짐"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인문주의의 뿌리",
+        "explanation": "르네상스의 지적 토대는 로마의 후마니타스 개념과 고대 그리스 철학의 재발견에서 비롯된 인문주의였다."
+      },
+      {
+        "title": "이탈리아에서 먼저 나타난 변화",
+        "explanation": "인쇄술이 확산되기 전인 13세기 말에 이미 단테의 글과 조토의 그림에서 르네상스의 첫 흔적이 나타났다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-3",
+    "importantWords": [
+      {
+        "term": "vernacular literatures",
+        "meaning": "라틴어가 아닌 각 지역 언어로 쓰인 문학"
+      },
+      {
+        "term": "linear perspective",
+        "meaning": "그림에서 원근감을 표현하는 기법"
+      },
+      {
+        "term": "Petrarch",
+        "meaning": "고전 학문 부흥의 공로자로 여겨지는 14세기 시인"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "polymaths",
+        "meaning": "여러 분야에 뛰어난 만능 학자"
+      },
+      {
+        "term": "conventions of diplomacy",
+        "meaning": "외교에서 통용되는 관습과 규범"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "문예와 예술의 혁신",
+        "explanation": "르네상스는 라틴 문학의 부흥과 자국어 문학의 폭발적 성장, 선원근법 같은 회화 기법의 발전을 함께 가져왔다."
+      },
+      {
+        "title": "레오나르도와 미켈란젤로",
+        "explanation": "레오나르도 다 빈치와 미켈란젤로 같은 만능 학자들의 활동이 '르네상스적 인간'이라는 표현을 낳았다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-4",
+    "importantWords": [
+      {
+        "term": "crisis of the Late Middle Ages",
+        "meaning": "중세 말기의 사회적·경제적 위기"
+      },
+      {
+        "term": "Reformation",
+        "meaning": "1517년 시작된 종교개혁"
+      },
+      {
+        "term": "Counter-Reformation",
+        "meaning": "가톨릭교회의 종교개혁 대응 운동"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Sack of Rome",
+        "meaning": "1527년 로마가 약탈당한 사건"
+      },
+      {
+        "term": "long Renaissance",
+        "meaning": "르네상스가 17세기까지 이어졌다고 보는 관점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이탈리아 르네상스의 종료 시점",
+        "explanation": "이탈리아에서는 인문주의의 쇠퇴와 종교개혁, 로마 약탈 등의 사건과 함께 르네상스가 관습적으로 끝난다고 본다."
+      },
+      {
+        "title": "지역별 차이",
+        "explanation": "알프스 이북과 스페인에서는 이탈리아와 다른 시기와 특징을 가지고 르네상스가 전개되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-5",
+    "importantWords": [
+      {
+        "term": "traditional view",
+        "meaning": "르네상스를 과거와의 단절로 보는 전통적 관점"
+      },
+      {
+        "term": "early modern aspects",
+        "meaning": "근대 초기적 성격"
+      },
+      {
+        "term": "medieval aspects",
+        "meaning": "중세적 성격"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "extension of the Middle Ages",
+        "meaning": "중세의 연장선으로 보는 관점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 가지 해석",
+        "explanation": "전통적 견해는 르네상스를 과거와의 단절로 보지만, 오늘날 많은 역사가는 중세의 연장으로 해석한다."
+      },
+      {
+        "title": "근대성과 중세성의 대립",
+        "explanation": "르네상스를 근대 초기 현상으로 볼지, 중세적 성격의 연속으로 볼지는 역사가들 사이에서 여전히 논쟁거리다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-6",
+    "importantWords": [
+      {
+        "term": "early Renaissance",
+        "meaning": "15세기의 초기 르네상스 시기"
+      },
+      {
+        "term": "Proto-Renaissance",
+        "meaning": "본격적인 르네상스 이전의 초기 단계"
+      },
+      {
+        "term": "Late Middle Ages",
+        "meaning": "1350~1500년경으로 여겨지는 중세 말기"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "overlap considerably",
+        "meaning": "상당 부분 시기가 겹침"
+      },
+      {
+        "term": "sub-periods",
+        "meaning": "더 세분화된 하위 시기"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "중세와의 중첩",
+        "explanation": "15세기 초기 르네상스와 1250~1300년경의 원시 르네상스는 중세 말기와 상당히 겹치는 과도기적 시기다."
+      },
+      {
+        "title": "점진적 변화의 시대",
+        "explanation": "중세와 근대 모두 점진적인 변화로 가득한 긴 시기였기에, 그 사이의 전환기인 르네상스는 양쪽과 닮은 특징을 지닌다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-7",
+    "importantWords": [
+      {
+        "term": "Holy Roman Emperor Charles V",
+        "meaning": "신성로마제국 황제로 로마를 공격한 인물"
+      },
+      {
+        "term": "League of Cognac",
+        "meaning": "1526~1530년 유럽 여러 세력의 동맹과 그로 인한 전쟁"
+      },
+      {
+        "term": "Tintoretto",
+        "meaning": "르네상스 이후 활동한 이탈리아 화가"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "concluded",
+        "meaning": "종결되었다"
+      },
+      {
+        "term": "renowned Italian painters",
+        "meaning": "명성 있는 이탈리아 화가들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "르네상스의 공식적 종료",
+        "explanation": "이탈리아 르네상스는 1527년 카를 5세의 로마 공격으로 끝났다고 여겨지지만, 화가들의 활동을 통해 그 영향은 이어졌다."
+      },
+      {
+        "title": "여파의 지속",
+        "explanation": "틴토레토, 소포니스바 안귀솔라, 파올로 베로네세 같은 화가들이 16세기 중후반까지 활동하며 르네상스의 예술적 영향을 이어 갔다."
+      }
+    ]
+  },
+  {
+    "passageId": "renaissance-8",
+    "importantWords": [
+      {
+        "term": "Medici",
+        "meaning": "피렌체를 지배한 유력 가문"
+      },
+      {
+        "term": "fall of Constantinople",
+        "meaning": "1453년 오스만 제국에 의한 콘스탄티노플 함락"
+      },
+      {
+        "term": "Renaissance Papacy",
+        "meaning": "르네상스 시기의 교황령"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "civic peculiarities",
+        "meaning": "도시 특유의 정치·사회적 특성"
+      },
+      {
+        "term": "colonial powers",
+        "meaning": "식민지를 지배한 유럽 강대국들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "피렌체의 특수한 조건",
+        "explanation": "피렌체의 정치 구조와 메디치 가문의 후원, 콘스탄티노플 함락 이후 그리스 학자들의 이주가 르네상스 발생의 원인으로 거론된다."
+      },
+      {
+        "title": "유럽을 넘은 확산",
+        "explanation": "르네상스는 이탈리아에서 유럽 전역, 나아가 유럽 식민 세력이 지배한 아메리카·아프리카·아시아 지역까지 퍼졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-1",
+    "importantWords": [
+      {
+        "term": "Macaronesian islands",
+        "meaning": "카나리아 제도 등 대서양의 마카로네시아 제도"
+      },
+      {
+        "term": "Vasco da Gama",
+        "meaning": "인도 항로를 개척한 포르투갈 탐험가"
+      },
+      {
+        "term": "sea route to India",
+        "meaning": "인도로 가는 바닷길"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "maritime expeditions",
+        "meaning": "바다를 통한 탐사 원정"
+      },
+      {
+        "term": "commercial presence",
+        "meaning": "무역을 위한 상업적 거점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "포르투갈의 항해 개척",
+        "explanation": "포르투갈은 마카로네시아 제도 탐험을 시작으로 서아프리카 해안을 따라 항해하다가 1498년 바스쿠 다 가마의 인도 항로 개척으로 이어졌다."
+      },
+      {
+        "title": "상업적 거점의 확립",
+        "explanation": "인도 항로 개척은 포르투갈이 케랄라와 인도양 지역에서 무역 거점을 세우는 시작점이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-2",
+    "importantWords": [
+      {
+        "term": "Columbian exchange",
+        "meaning": "신대륙과 구대륙 사이의 생물·질병·문화 교류"
+      },
+      {
+        "term": "Old World",
+        "meaning": "유럽·아시아·아프리카를 가리키는 구대륙"
+      },
+      {
+        "term": "New World",
+        "meaning": "아메리카 대륙을 가리키는 신대륙"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "communicable diseases",
+        "meaning": "사람 사이에 전염되는 질병"
+      },
+      {
+        "term": "worldview",
+        "meaning": "세계를 이해하는 관점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "콜럼버스적 교환",
+        "explanation": "유럽의 탐험은 구대륙과 신대륙 사이에 동식물, 인구, 전염병, 문화가 오가는 콜럼버스적 교환을 시작시켰다."
+      },
+      {
+        "title": "지도의 변화",
+        "explanation": "탐험이 진행되며 유럽 지도 제작자들이 그린 대륙의 모습이 추상적인 형태에서 점차 익숙한 윤곽으로 바뀌었다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-3",
+    "importantWords": [
+      {
+        "term": "age of discovery",
+        "meaning": "유럽 항해 탐험의 시대를 가리키는 용어"
+      },
+      {
+        "term": "periodization",
+        "meaning": "역사를 시대로 구분하는 방식"
+      },
+      {
+        "term": "historical literature",
+        "meaning": "역사학 저술과 문헌"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "scrutinized",
+        "meaning": "면밀히 검토되고 비판받음"
+      },
+      {
+        "term": "core term",
+        "meaning": "핵심이 되는 용어"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "발견이라는 용어에 대한 논쟁",
+        "explanation": "'발견의 시대'라는 용어 자체가 역사학계에서 비판적으로 검토되어 왔지만 여전히 역사 문헌에서 흔히 쓰인다."
+      },
+      {
+        "title": "용어의 지속적 사용",
+        "explanation": "비판에도 불구하고 이 용어는 여전히 학계와 대중 서술에서 관습적으로 사용되고 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-4",
+    "importantWords": [
+      {
+        "term": "discovery doctrine",
+        "meaning": "유럽 열강이 탐험한 땅에 대한 권리를 주장한 법 이론"
+      },
+      {
+        "term": "United States Supreme Court",
+        "meaning": "1823년 이 개념을 명시한 미국 연방대법원"
+      },
+      {
+        "term": "Indigenous peoples",
+        "meaning": "원주민, 토착민"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "colonial claiming",
+        "meaning": "식민지 영유권 주장"
+      },
+      {
+        "term": "negating",
+        "meaning": "부정하는"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "발견 원칙에 대한 비판",
+        "explanation": "1823년 미국 대법원이 명시한 발견 원칙은 유럽 열강의 영유권 주장을 정당화했지만, 원주민과 연구자들에 의해 강하게 도전받아 왔다."
+      },
+      {
+        "title": "원주민의 저항",
+        "explanation": "원주민들은 이 개념이 자신들의 땅과 존재를 부정하는 강압적 논리라고 근본적으로 문제 삼아 왔다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-5",
+    "importantWords": [
+      {
+        "term": "Age of Exploration",
+        "meaning": "발견의 시대의 다른 명칭"
+      },
+      {
+        "term": "Frontier Thesis",
+        "meaning": "프런티어(변경) 개념을 다룬 역사 이론"
+      },
+      {
+        "term": "manifest destiny",
+        "meaning": "미국의 팽창을 정당화한 명백한 운명 사상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "first contact",
+        "meaning": "서로 다른 문명이 처음 접촉한 사건"
+      },
+      {
+        "term": "unfinished, diverse project",
+        "meaning": "아직 끝나지 않은 다양한 성격의 과정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "용어를 둘러싼 재해석",
+        "explanation": "탐험의 시대는 프런티어 사상이나 명백한 운명과 결부되어 식민주의적 차별과 착취의 틀로 비판받으며, '접촉'이라는 대안적 용어도 제시된다."
+      },
+      {
+        "title": "대안적 명칭의 등장",
+        "explanation": "'접촉의 시대' 또는 '접촉기'라는 이름은 식민주의를 더 비판적으로 조명하기 위한 대안적 서술 방식으로 제안된다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-6",
+    "importantWords": [
+      {
+        "term": "Prince Henry the Navigator",
+        "meaning": "포르투갈의 항해 탐사를 후원한 왕자"
+      },
+      {
+        "term": "Bartolomeu Dias",
+        "meaning": "인도양에 도달한 포르투갈 탐험가"
+      },
+      {
+        "term": "Atlantic coast of Africa",
+        "meaning": "아프리카의 대서양 연안"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "sponsorship",
+        "meaning": "후원, 지원"
+      },
+      {
+        "term": "systematically",
+        "meaning": "체계적으로"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "포르투갈의 체계적 탐험",
+        "explanation": "엔히크 왕자의 후원 아래 1418년부터 아프리카 대서양 연안 탐험이 시작되었고, 1488년 바르톨로메우 디아스가 인도양에 도달했다."
+      },
+      {
+        "title": "탐험의 단계적 진전",
+        "explanation": "1418년의 첫 탐험에서 시작해 70년 만에 인도양 도달이라는 목표를 이룬 것은 장기간에 걸친 체계적 노력의 결과였다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-7",
+    "importantWords": [
+      {
+        "term": "Catholic Monarchs of Spain",
+        "meaning": "콜럼버스의 항해를 후원한 스페인의 가톨릭 공동왕"
+      },
+      {
+        "term": "Christopher Columbus",
+        "meaning": "서쪽 항로로 인도를 찾으려 한 제노바 출신 항해사"
+      },
+      {
+        "term": "Amerigo Vespucci",
+        "meaning": "아메리카라는 이름의 유래가 된 포르투갈의 무역상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "uncharted",
+        "meaning": "지도에 표시되지 않은, 미지의"
+      },
+      {
+        "term": "temporarily colonized",
+        "meaning": "일시적으로 식민지화된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "콜럼버스의 항해",
+        "explanation": "1492년 스페인 공동왕의 후원으로 콜럼버스는 서쪽 항로로 인도를 찾으려 했으나 유럽인에게 알려지지 않았던 대륙에 도달했다."
+      },
+      {
+        "title": "아메리카라는 이름의 유래",
+        "explanation": "새로 발견된 대륙은 이후 포르투갈을 위해 일하던 무역상 아메리고 베스푸치의 이름을 따 아메리카로 불리게 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "age-of-discovery-8",
+    "importantWords": [
+      {
+        "term": "Pedro Álvares Cabral",
+        "meaning": "1500년 남아메리카에 닿은 포르투갈 항해사"
+      },
+      {
+        "term": "Spice Islands",
+        "meaning": "향신료로 유명한 동남아시아의 섬들"
+      },
+      {
+        "term": "direct trade with Asia",
+        "meaning": "아시아와의 직접 무역"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "exploratory fleets",
+        "meaning": "탐사를 위한 함대"
+      },
+      {
+        "term": "extended this Eastern oceanic route",
+        "meaning": "동쪽 해상 항로를 더 넓게 확장함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "포르투갈의 아시아 진출",
+        "explanation": "바스쿠 다 가마의 인도 항로 개척 이후 포르투갈은 향신료 제도, 중국, 일본까지 항로를 넓혀 아시아와 직접 무역을 열었다."
+      },
+      {
+        "title": "대서양과 태평양을 잇는 순환로",
+        "explanation": "카브랄의 남아메리카 도달과 이어진 항로 확장은 신대륙과 아시아를 잇는 무역 순환 구조를 만들었다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-1",
+    "importantWords": [
+      {
+        "term": "Roman Kingdom",
+        "meaning": "로마 공화정 이전의 왕정 시대"
+      },
+      {
+        "term": "Roman Empire",
+        "meaning": "기원전 27년부터 시작된 로마 제국"
+      },
+      {
+        "term": "Mediterranean world",
+        "meaning": "지중해 세계"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "hegemony",
+        "meaning": "다른 세력에 대한 패권적 지배력"
+      },
+      {
+        "term": "classical Roman civilisation",
+        "meaning": "고전기 로마 문명"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "로마 공화정의 시기",
+        "explanation": "로마 공화정은 기원전 509년 왕정이 무너진 뒤 시작되어 기원전 27년 로마 제국이 성립할 때까지 이어졌다."
+      },
+      {
+        "title": "지중해로의 확장",
+        "explanation": "이 시기 로마는 도시 주변에서 시작해 지중해 세계 전체에 대한 패권을 갖는 나라로 성장했다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-2",
+    "importantWords": [
+      {
+        "term": "elective oligarchy",
+        "meaning": "선거로 뽑히지만 소수 가문이 지배하는 정치체제"
+      },
+      {
+        "term": "senate",
+        "meaning": "로마의 원로원"
+      },
+      {
+        "term": "Etruscan societies",
+        "meaning": "에트루리아 문화권 사회"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "direct democracy",
+        "meaning": "시민이 직접 정치에 참여하는 민주주의"
+      },
+      {
+        "term": "monopolising",
+        "meaning": "독점하는"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과두정으로서의 공화정",
+        "explanation": "로마 공화정은 매년 선거를 치렀지만 소수의 유력 가문이 고위 관직을 독점한 선거 과두정이었다."
+      },
+      {
+        "title": "문화적 혼합",
+        "explanation": "로마 사회는 라틴, 에트루리아, 사비니, 오스크, 그리스 문화 요소가 뒤섞인 혼합 문화였으며 이는 로마 종교의 신들에서도 드러난다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-3",
+    "importantWords": [
+      {
+        "term": "Pax Romana",
+        "meaning": "로마 제국 시대의 평화기"
+      },
+      {
+        "term": "Carthage",
+        "meaning": "로마의 최대 라이벌이었던 도시국가"
+      },
+      {
+        "term": "Battle of Zama",
+        "meaning": "기원전 202년 로마가 카르타고를 이긴 전투"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "near-perpetual war",
+        "meaning": "거의 끊임없는 전쟁 상태"
+      },
+      {
+        "term": "strategic rival",
+        "meaning": "전략적 경쟁 상대"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "끊이지 않는 전쟁",
+        "explanation": "로마 제국의 평화와 달리 공화정 로마는 라틴·에트루리아 이웃 및 카르타고와 거의 끊임없이 전쟁을 벌였다."
+      },
+      {
+        "title": "카르타고와의 승부",
+        "explanation": "기원전 202년 자마 전투에서 카르타고를 물리친 뒤 로마는 지중해의 지배적 강국이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-4",
+    "importantWords": [
+      {
+        "term": "Conflict of the Orders",
+        "meaning": "귀족과 평민 사이의 신분 투쟁"
+      },
+      {
+        "term": "optimates and populares",
+        "meaning": "보수파와 개혁파를 가리키는 정치 분파"
+      },
+      {
+        "term": "Servile Wars",
+        "meaning": "노예 반란으로 일어난 전쟁들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "patricians",
+        "meaning": "폐쇄적인 귀족 계층"
+      },
+      {
+        "term": "anachronistically",
+        "meaning": "시대착오적으로"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신분 갈등의 평화적 해결",
+        "explanation": "귀족과 평민 사이의 신분 투쟁은 기원전 4세기까지 평민이 정치적 평등을 얻으며 평화적으로 해소되었다."
+      },
+      {
+        "title": "후기 공화정의 내부 갈등",
+        "explanation": "기원전 133년 이후에는 보수파와 개혁파의 대립, 동맹시 전쟁, 노예 반란 등으로 내분이 심화되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-5",
+    "importantWords": [
+      {
+        "term": "Tarquin the Proud",
+        "meaning": "로마의 마지막 왕"
+      },
+      {
+        "term": "Lucius Junius Brutus",
+        "meaning": "왕정을 무너뜨린 것으로 전해지는 인물"
+      },
+      {
+        "term": "consuls",
+        "meaning": "왕을 대신해 임기 1년으로 선출된 두 명의 집정관"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "veto",
+        "meaning": "동료 집정관의 결정을 막을 수 있는 거부권"
+      },
+      {
+        "term": "semi-mythical",
+        "meaning": "반쯤 전설적인"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "왕정에서 공화정으로",
+        "explanation": "마지막 왕 타르퀴니우스가 아들의 범죄를 계기로 추방되며 왕정이 무너지고, 왕의 권한은 임기 1년의 두 집정관에게 나뉘어 넘어갔다."
+      },
+      {
+        "title": "권력 견제 장치",
+        "explanation": "두 집정관이 서로에게 거부권을 행사할 수 있도록 한 것은 한 사람에게 권력이 집중되는 것을 막기 위한 장치였다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-6",
+    "importantWords": [
+      {
+        "term": "Tarquinian conspiracy",
+        "meaning": "타르퀴니우스 복위를 노린 음모"
+      },
+      {
+        "term": "Veii",
+        "meaning": "로마와 전쟁을 벌인 에트루리아 도시"
+      },
+      {
+        "term": "Clusium",
+        "meaning": "로마와 전쟁을 벌인 또 다른 도시"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "retake the throne",
+        "meaning": "왕좌를 되찾다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실패한 왕정 복고 시도",
+        "explanation": "타르퀴니우스는 음모와 여러 전쟁을 통해 왕위를 되찾으려 했지만 결국 성공하지 못했다."
+      },
+      {
+        "title": "브루투스 아들들의 배신",
+        "explanation": "왕정 복고 음모에는 왕정을 무너뜨린 브루투스 자신의 아들들까지 연루되어 있었다는 점이 특히 주목할 만하다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-7",
+    "importantWords": [
+      {
+        "term": "Sabines",
+        "meaning": "로마 초기의 이웃 부족"
+      },
+      {
+        "term": "Battle of Lake Regillus",
+        "meaning": "기원전 496년 로마가 라틴 도시들을 이긴 전투"
+      },
+      {
+        "term": "Battle of the Cremera",
+        "meaning": "로마가 베이이에 패배한 전투"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "wars of expansion",
+        "meaning": "영토 확장을 위한 전쟁"
+      },
+      {
+        "term": "avenged",
+        "meaning": "복수하다, 설욕하다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 공화정의 확장 전쟁",
+        "explanation": "로마는 사비니인과 라틴 도시들을 잇달아 격파하며 세력을 넓혔고, 기원전 477년 크레메라에서 패배한 것을 기원전 396년 베이이 전투에서 설욕했다."
+      },
+      {
+        "title": "패배와 설욕의 반복",
+        "explanation": "로마의 초기 확장은 순탄하지 않아 에트루리아의 베이이에 패배하기도 했지만, 결국 이를 정복하며 확장을 이어 갔다."
+      }
+    ]
+  },
+  {
+    "passageId": "roman-republic-8",
+    "importantWords": [
+      {
+        "term": "gentes",
+        "meaning": "귀족 가문 집단"
+      },
+      {
+        "term": "Cornelii",
+        "meaning": "가장 유력했던 귀족 가문 중 하나"
+      },
+      {
+        "term": "clients",
+        "meaning": "귀족 가문의 후원을 받는 피호민"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "closed group",
+        "meaning": "폐쇄적인 집단"
+      },
+      {
+        "term": "landholdings",
+        "meaning": "토지 소유"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "귀족 가문의 권력 기반",
+        "explanation": "초기 공화정은 약 50개 귀족 가문이 관직과 사제직, 군 요직을 독점했으며, 이들의 권력은 토지와 피호민 관계에서 나왔다."
+      },
+      {
+        "title": "유력 가문의 사례",
+        "explanation": "코르넬리우스, 아이밀리우스, 클라우디우스, 파비우스, 발레리우스 가문은 초기 공화정에서 가장 강력한 귀족 가문으로 꼽힌다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-1",
+    "importantWords": [
+      {
+        "term": "Scientific Revolution",
+        "meaning": "16~17세기 유럽에서 일어난 과학적 변혁"
+      },
+      {
+        "term": "natural philosophy",
+        "meaning": "근대 과학 이전의 자연에 대한 철학적 탐구"
+      },
+      {
+        "term": "mechanistic",
+        "meaning": "기계적 원리로 설명하는"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "irreversible break",
+        "meaning": "되돌릴 수 없는 단절"
+      },
+      {
+        "term": "acquisition and interpretation",
+        "meaning": "수집과 해석"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "새로운 과학의 특징",
+        "explanation": "과학혁명으로 등장한 새로운 과학은 이전의 그리스적 전통에서 벗어나 더 기계적이고 수학과 결합된, 새로운 증거 수집 중심의 학문이었다."
+      },
+      {
+        "title": "돌이킬 수 없는 단절",
+        "explanation": "이 변화는 이전의 자연철학과 되돌릴 수 없는 단절을 이루며 자연을 탐구하는 방식 자체를 근본적으로 바꾸었다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-2",
+    "importantWords": [
+      {
+        "term": "Andreas Vesalius",
+        "meaning": "인체 해부학 저서를 쓴 학자"
+      },
+      {
+        "term": "Nicolaus Copernicus",
+        "meaning": "지동설을 담은 저서를 쓴 천문학자"
+      },
+      {
+        "term": "Isaac Newton",
+        "meaning": "프린키피아를 출간한 물리학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "convenient boundary",
+        "meaning": "편리한 경계 구분"
+      },
+      {
+        "term": "SN 1572 supernova",
+        "meaning": "1572년 관측된 초신성"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과학혁명의 시작과 끝",
+        "explanation": "과학혁명은 흔히 1543년 베살리우스와 코페르니쿠스의 저작 출간으로 시작해 1687년 뉴턴의 프린키피아 출간으로 마무리되었다고 여겨진다."
+      },
+      {
+        "title": "대안적 출발점",
+        "explanation": "1572년 초신성 관측 역시 과학혁명의 또 다른 출발점으로 제안되어 시작 시점에 대한 논쟁이 존재한다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-3",
+    "importantWords": [
+      {
+        "term": "Alexis Clairaut",
+        "meaning": "혁명이라는 말을 뉴턴에 적용한 프랑스 수학자"
+      },
+      {
+        "term": "William Whewell",
+        "meaning": "19세기에 이 용어를 정의한 학자"
+      },
+      {
+        "term": "Alexandre Koyré",
+        "meaning": "'과학혁명'이라는 용어를 사용한 20세기 학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "implicit trust",
+        "meaning": "암묵적인 신뢰"
+      },
+      {
+        "term": "mutation",
+        "meaning": "변이, 근본적 변화"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "'혁명'이라는 표현의 역사",
+        "explanation": "'혁명'이라는 말은 18세기부터 과학의 격변을 표현하는 데 쓰였고, 클레로, 휴얼, 코이레 등이 각기 다른 맥락에서 이 용어를 사용했다."
+      },
+      {
+        "title": "휴얼이 본 변화의 성격",
+        "explanation": "휴얼은 인간 내면의 힘에 대한 신뢰에서 외부 관찰에 대한 의존으로, 과거에 대한 존중에서 변화에 대한 기대로의 전환이라고 설명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-4",
+    "importantWords": [
+      {
+        "term": "Tycho Brahe",
+        "meaning": "1572년 초신성을 관측한 천문학자"
+      },
+      {
+        "term": "grand synthesis",
+        "meaning": "뉴턴이 이룬 위대한 통합"
+      },
+      {
+        "term": "alternative starting date",
+        "meaning": "대안적인 시작 시점"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "proposed",
+        "meaning": "제안된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "시작 시점에 대한 다른 견해",
+        "explanation": "1543년 시작설이 일반적이지만, 일부 역사가는 1572년 튀코 브라헤의 초신성 관측을 과학혁명의 대안적 출발점으로 본다."
+      },
+      {
+        "title": "뉴턴의 위대한 통합",
+        "explanation": "1687년 뉴턴의 프린키피아는 그동안의 과학적 성과를 하나로 통합한 '위대한 종합'으로 평가받는다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-5",
+    "importantWords": [
+      {
+        "term": "fundamental transformation",
+        "meaning": "근본적인 전환"
+      },
+      {
+        "term": "modern sciences",
+        "meaning": "과학혁명을 통해 확립된 근대 과학 분야들"
+      },
+      {
+        "term": "Joseph Ben-David",
+        "meaning": "1984년 관련 서술을 남긴 학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "institutions supporting scientific investigation",
+        "meaning": "과학 연구를 뒷받침하는 제도"
+      },
+      {
+        "term": "widely held picture",
+        "meaning": "널리 받아들여지던 세계관"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "여러 학문의 동시 변화",
+        "explanation": "과학혁명은 수학, 물리학, 천문학, 생물학 전반과 과학을 뒷받침하는 제도, 우주에 대한 통념까지 근본적으로 바꾸어 놓았다."
+      },
+      {
+        "title": "근대 과학의 확립",
+        "explanation": "이 시기를 거치며 여러 근대적 과학 분야가 제도적으로 확립되기 시작했다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-6",
+    "importantWords": [
+      {
+        "term": "Rapid accumulation of knowledge",
+        "meaning": "지식의 급속한 축적"
+      },
+      {
+        "term": "Western Europe",
+        "meaning": "새로운 과학 활동이 시작된 서유럽 일부 지역"
+      },
+      {
+        "term": "assimilated",
+        "meaning": "흡수되고 동화됨"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "restricted to that small area",
+        "meaning": "좁은 지역에 국한된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지식 축적의 지역적 한계",
+        "explanation": "17세기 이후의 급속한 지식 축적은 처음에는 서유럽 일부 국가에 국한되었고, 19세기 이후에야 세계 나머지 지역으로 퍼졌다."
+      },
+      {
+        "title": "역사적으로 유례없는 현상",
+        "explanation": "이러한 지식의 급속한 축적은 그 이전에는 어디에서도 일어난 적이 없던 새로운 현상이었다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-7",
+    "importantWords": [
+      {
+        "term": "Galileo Galilei",
+        "meaning": "망원경 관측으로 지동설을 뒷받침한 학자"
+      },
+      {
+        "term": "heliocentrism",
+        "meaning": "태양을 중심으로 하는 우주관인 지동설"
+      },
+      {
+        "term": "Francis Bacon",
+        "meaning": "과학 발전에 대한 확신을 알린 학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "persuasive evidence",
+        "meaning": "설득력 있는 증거"
+      },
+      {
+        "term": "scientific societies",
+        "meaning": "왕립학회 같은 과학 단체"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "갈릴레오와 베이컨의 영향",
+        "explanation": "갈릴레이의 망원경 관측은 지동설에 대한 설득력 있는 증거를 제공했고, 베이컨의 주장은 왕립학회 같은 과학 단체 창설에 영감을 주었다."
+      },
+      {
+        "title": "운동 과학의 발전",
+        "explanation": "갈릴레이는 지동설 증거뿐 아니라 물체의 운동을 설명하는 과학도 함께 발전시켰다."
+      }
+    ]
+  },
+  {
+    "passageId": "scientific-revolution-8",
+    "importantWords": [
+      {
+        "term": "Thomas Kuhn",
+        "meaning": "과학혁명 개념으로 유명한 과학사학자"
+      },
+      {
+        "term": "Edward Grant",
+        "meaning": "번역 전통을 강조한 역사가"
+      },
+      {
+        "term": "medieval university",
+        "meaning": "중세 대학"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "intellectual expropriation",
+        "meaning": "지적 자산의 습득·전유"
+      },
+      {
+        "term": "accelerating",
+        "meaning": "가속화되는"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "번역을 통한 지식 전승",
+        "explanation": "쿤과 그랜트에 따르면 과학혁명은 10세기부터 시작해 12~13세기에 가속화된 그리스어·아랍어의 라틴어 번역과 중세 대학의 등장 위에서 이루어졌다."
+      },
+      {
+        "title": "지적 자산의 습득",
+        "explanation": "그랜트는 이러한 번역 작업을 인류 역사상 가장 큰 규모의 지적 자산 습득이라고 평가했다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-1",
+    "importantWords": [
+      {
+        "term": "Hanseatic League",
+        "meaning": "중북부 유럽 상인 길드와 도시들의 네트워크"
+      },
+      {
+        "term": "Lübeck",
+        "meaning": "한자 동맹이 시작된 북독일 도시"
+      },
+      {
+        "term": "merchant guilds",
+        "meaning": "상인 길드"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "defensive network",
+        "meaning": "방어를 위한 연합 조직"
+      },
+      {
+        "term": "inland extent",
+        "meaning": "내륙으로 뻗은 범위"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한자 동맹의 성장",
+        "explanation": "12세기 말 뤼베크 등 북독일 도시에서 시작된 한자 동맹은 13~15세기에 8개국에 걸친 약 200개 마을을 아우를 만큼 확장되었다."
+      },
+      {
+        "title": "지리적 범위",
+        "explanation": "한자 동맹은 북동쪽의 에스토니아·러시아부터 서쪽의 네덜란드, 남쪽의 쾰른에 이르는 넓은 지역을 아울렀다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-2",
+    "importantWords": [
+      {
+        "term": "toll privileges",
+        "meaning": "통행세 면제 등의 특권"
+      },
+      {
+        "term": "economic interdependence",
+        "meaning": "경제적 상호 의존"
+      },
+      {
+        "term": "trade barriers",
+        "meaning": "무역 장벽"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "loosely associated groups",
+        "meaning": "느슨하게 연합된 집단"
+      },
+      {
+        "term": "standardizing",
+        "meaning": "표준화하는"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "느슨한 연합에서 동맹으로",
+        "explanation": "독일 상인들과 도시들의 느슨한 연합체가 통행 특권과 보호를 제공하며 점차 긴밀한 정치적 통합체이자 무역 규정을 표준화한 동맹으로 발전했다."
+      },
+      {
+        "title": "상인 가문의 역할",
+        "explanation": "상인 가문들 사이의 경제적 상호 의존과 가족 관계가 도시 간 정치적 통합을 더욱 깊게 만들었다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-3",
+    "importantWords": [
+      {
+        "term": "Kontors",
+        "meaning": "한자 동맹의 해외 거점 무역소"
+      },
+      {
+        "term": "Steelyard",
+        "meaning": "런던에 있던 한자 동맹의 무역소 별칭"
+      },
+      {
+        "term": "extraterritorial entities",
+        "meaning": "치외법권을 가진 조직"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "legal autonomy",
+        "meaning": "법적 자치권"
+      },
+      {
+        "term": "impose blockades",
+        "meaning": "봉쇄를 가하다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한자 동맹의 무역 지배력",
+        "explanation": "한자 동맹은 런던, 브뤼헤, 베르겐, 노브고로드에 치외법권을 가진 무역소를 두고 북해와 발트해 무역을 지배했으며, 필요시 봉쇄나 전쟁도 벌였다."
+      },
+      {
+        "title": "무역소의 자치권",
+        "explanation": "이러한 무역소들은 현지 법률에서 벗어난 치외법권 지역으로 상당한 법적 자치를 누렸다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-4",
+    "importantWords": [
+      {
+        "term": "Teutonic Order",
+        "meaning": "한자 동맹의 유일한 자치 영지 회원인 기사단"
+      },
+      {
+        "term": "Grand Master",
+        "meaning": "튜튼 기사단의 수장으로 한자의 수장으로 여겨진 인물"
+      },
+      {
+        "term": "standing military force",
+        "meaning": "상비군"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "loosely aligned confederation",
+        "meaning": "느슨하게 결합된 연합체"
+      },
+      {
+        "term": "permanent administrative body",
+        "meaning": "상설 행정 기구"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "느슨한 구조의 한계",
+        "explanation": "한자 동맹은 전성기에도 상설 행정 기구나 재정, 상비군이 없는 느슨한 도시 연합에 불과했으며, 튜튼 기사단만이 유일하게 국가 신분으로 가입해 있었다."
+      },
+      {
+        "title": "명목상의 수장",
+        "explanation": "튜튼 기사단의 그랜드 마스터는 공식 지도자가 아니었음에도 국내외에서 한자의 수장으로 여겨지곤 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-5",
+    "importantWords": [
+      {
+        "term": "negotiating diet",
+        "meaning": "협의를 위한 비정기 회의체"
+      },
+      {
+        "term": "unraveled",
+        "meaning": "와해되었다"
+      },
+      {
+        "term": "1669",
+        "meaning": "한자 동맹이 최종적으로 해체된 해"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "deliberation and consensus",
+        "meaning": "심의와 합의"
+      },
+      {
+        "term": "vulnerable",
+        "meaning": "취약한"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한자 동맹의 쇠퇴",
+        "explanation": "14세기 비정기 회의체로 운영되던 느슨한 결속은 16세기 중반 동맹을 취약하게 만들었고, 결국 회원들이 흩어지며 1669년 완전히 해체되었다."
+      },
+      {
+        "title": "합의 기반 운영의 약점",
+        "explanation": "심의와 합의에 의존하는 느슨한 운영 방식은 장기적으로 동맹을 결속력 없이 와해시키는 원인이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-6",
+    "importantWords": [
+      {
+        "term": "cog",
+        "meaning": "한자 동맹의 상징적인 선박 유형"
+      },
+      {
+        "term": "hulk",
+        "meaning": "코그를 대체한 선박 유형"
+      },
+      {
+        "term": "carvel ships",
+        "meaning": "후기의 더 큰 선박 유형"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "emblematic",
+        "meaning": "상징적인"
+      },
+      {
+        "term": "vessel types",
+        "meaning": "선박 종류"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한자 동맹의 선박 변천",
+        "explanation": "한자 동맹의 상징적 선박인 코그는 중세 말에 이르러 헐크로, 이후 더 큰 카라벨선으로 대체되었다."
+      },
+      {
+        "title": "코그의 상징성",
+        "explanation": "코그는 한자 동맹의 인장과 문장에도 등장할 만큼 동맹을 대표하는 상징적인 선박이었다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-7",
+    "importantWords": [
+      {
+        "term": "Hansa",
+        "meaning": "무리·집단을 뜻하는 고대 고지 독일어 단어"
+      },
+      {
+        "term": "Middle Low German",
+        "meaning": "중세 저지 독일어"
+      },
+      {
+        "term": "trader guild",
+        "meaning": "상인 길드"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "incorrect",
+        "meaning": "잘못된, 틀린"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한자라는 이름의 어원",
+        "explanation": "'한자'는 원래 무리나 부대를 뜻하는 고대 독일어였다가 중세 저지 독일어에서 상인 조합을 의미하게 되었으며, '바다 위'라는 뜻이라는 주장은 틀렸다고 설명한다."
+      },
+      {
+        "title": "잘못된 통설 바로잡기",
+        "explanation": "이 지문은 한자라는 이름이 바다와 관련된 말에서 왔다는 흔한 오해를 명시적으로 반박한다."
+      }
+    ]
+  },
+  {
+    "passageId": "hanseatic-league-8",
+    "importantWords": [
+      {
+        "term": "Birka",
+        "meaning": "발트해 무역의 초기 거점 중 하나"
+      },
+      {
+        "term": "Gotland",
+        "meaning": "노브고로드까지 항해한 상인들의 근거지 섬"
+      },
+      {
+        "term": "Novgorod",
+        "meaning": "러시아 서북부의 주요 무역 도시"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "piracy",
+        "meaning": "해적 행위"
+      },
+      {
+        "term": "trading hubs",
+        "meaning": "무역 거점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "스칸디나비아 무역의 선행",
+        "explanation": "한자 동맹 이전에 스칸디나비아인들이 비르카, 하이타부 등에 무역 거점을 세우며 발트해 무역을 주도했고, 고틀란드 상인들이 노브고로드까지 진출했다."
+      },
+      {
+        "title": "발트해 무역망의 계승",
+        "explanation": "한자 동맹의 항구들은 스칸디나비아가 주도하던 기존 발트해 무역망의 일부를 그대로 물려받은 것이었다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-1",
+    "importantWords": [
+      {
+        "term": "Yangshao culture",
+        "meaning": "기원전 4천년기 신석기 중국 문화"
+      },
+      {
+        "term": "Silk Road",
+        "meaning": "기원전 114년에 열린 비단길"
+      },
+      {
+        "term": "Tang dynasty",
+        "meaning": "비단 색이 신분 표시로 쓰인 당나라"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "virtual monopoly",
+        "meaning": "사실상의 독점"
+      },
+      {
+        "term": "social class",
+        "meaning": "사회적 계급"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "중국의 비단 독점",
+        "explanation": "비단 생산은 신석기 중국 양사오 문화에서 시작되었고, 기원전 114년 비단길이 열린 뒤에도 중국은 천 년 가까이 사실상 독점적 지위를 유지했다."
+      },
+      {
+        "title": "비단의 다양한 쓰임",
+        "explanation": "중국에서 비단은 옷감뿐 아니라 글쓰기 재료로도 쓰였고, 당나라 때는 비단 색이 신분을 나타내는 지표가 되기도 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-2",
+    "importantWords": [
+      {
+        "term": "sericulture",
+        "meaning": "누에를 길러 비단을 생산하는 양잠업"
+      },
+      {
+        "term": "Byzantine Empire",
+        "meaning": "552년 누에 알을 얻은 비잔티움 제국"
+      },
+      {
+        "term": "Crusades",
+        "meaning": "비단 생산을 서유럽에 전파한 계기가 된 십자군 전쟁"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "luxury silk market",
+        "meaning": "고급 비단 시장"
+      },
+      {
+        "term": "economic boom",
+        "meaning": "경제 호황"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "양잠업의 서방 전파",
+        "explanation": "비잔티움과 아랍이 누에 사육을 시작하며 중국의 비단 수출 비중은 줄었지만, 십자군 전쟁을 계기로 비단 생산이 이탈리아 등 서유럽으로 전해져 경제 호황을 가져왔다."
+      },
+      {
+        "title": "여전한 고급 시장 지배력",
+        "explanation": "생산지가 넓어졌음에도 중국은 여전히 고급 비단 시장에서 우위를 유지했다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-3",
+    "importantWords": [
+      {
+        "term": "Jacquard loom",
+        "meaning": "정교한 문양의 비단을 짜는 자카드 직기"
+      },
+      {
+        "term": "silkworm diseases",
+        "meaning": "생산 감소를 일으킨 누에 질병"
+      },
+      {
+        "term": "France",
+        "meaning": "누에 질병 피해가 특히 컸던 나라"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "innovations in the spinning of cotton",
+        "meaning": "면 방적 기술의 혁신"
+      },
+      {
+        "term": "never fully recovered",
+        "meaning": "완전히 회복되지 못했다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "산업혁명이 비단 산업에 미친 영향",
+        "explanation": "면 방적 기술의 발전으로 면 생산이 중심이 되며 비단 생산이 위축되었고, 자카드 직기 같은 신기술에도 불구하고 누에 질병으로 특히 프랑스의 비단 산업이 회복하지 못했다."
+      },
+      {
+        "title": "기술 혁신과 질병의 이중고",
+        "explanation": "직조 기술은 발전했지만 동시에 발생한 누에 질병 전염병이 유럽 비단 산업의 회복을 가로막았다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-4",
+    "importantWords": [
+      {
+        "term": "20th century",
+        "meaning": "일본과 중국이 비단 생산 주도권을 되찾은 시기"
+      },
+      {
+        "term": "nylon and polyester",
+        "meaning": "비단을 대체한 인조 섬유"
+      },
+      {
+        "term": "luxury good",
+        "meaning": "사치품"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "prevalence",
+        "meaning": "널리 퍼진 정도, 보급률"
+      },
+      {
+        "term": "reduced importance",
+        "meaning": "줄어든 중요성"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "현대 비단 산업의 변화",
+        "explanation": "20세기에 일본과 중국이 다시 비단 생산을 주도했지만, 나일론과 폴리에스터 같은 인조 섬유의 등장으로 비단은 과거보다 덜 중요한 사치품으로 여겨지게 되었다."
+      },
+      {
+        "title": "사치품으로서의 재자리매김",
+        "explanation": "인조 섬유의 저렴함과 관리 편의성 때문에 비단은 일상 소재에서 다시 고급 사치품의 지위로 옮겨 갔다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-5",
+    "importantWords": [
+      {
+        "term": "Jiahu",
+        "meaning": "비단의 가장 오래된 증거가 발견된 신석기 유적"
+      },
+      {
+        "term": "silk fibroin",
+        "meaning": "비단의 주성분인 단백질"
+      },
+      {
+        "term": "biomolecular evidence",
+        "meaning": "생체분자 수준의 증거"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "prehistoric",
+        "meaning": "선사시대의"
+      },
+      {
+        "term": "excavated",
+        "meaning": "발굴된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가장 오래된 비단의 증거",
+        "explanation": "자후 유적의 신석기 무덤에서 발견된 생체분자 증거는 8,500년 전 선사시대 비단 섬유가 존재했음을 보여 주며, 방직 도구와 바늘도 함께 출토되었다."
+      },
+      {
+        "title": "여러 유적의 뒷받침 증거",
+        "explanation": "산시성 유적에서 발견된 잘린 비단 고치 역시 초기 비단 생산 활동을 뒷받침하는 또 다른 증거로 제시된다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-6",
+    "importantWords": [
+      {
+        "term": "Qingtaicun",
+        "meaning": "가장 오래된 비단 직물이 발견된 양사오 유적지"
+      },
+      {
+        "term": "Liangzhu culture",
+        "meaning": "비단 조각이 발견된 또 다른 신석기 문화"
+      },
+      {
+        "term": "Shang dynasty",
+        "meaning": "왕실 무덤에서 비단 조각이 발견된 상나라"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "extant example",
+        "meaning": "현존하는 예"
+      },
+      {
+        "term": "burial urn",
+        "meaning": "매장용 항아리"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "현존 최고(最古)의 비단 직물",
+        "explanation": "기원전 3630년 것으로 확인된 칭타이춘 유적의 비단 직물이 현존하는 가장 오래된 직조 비단 사례이며, 이후 여러 신석기·상나라 유적에서 비슷한 발견이 이어졌다."
+      },
+      {
+        "title": "여러 시대에 걸친 발견",
+        "explanation": "량주 문화 유적과 상나라 왕실 무덤에서도 비단 조각이 발견되어 비단 생산이 여러 시대에 걸쳐 이어졌음을 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-7",
+    "importantWords": [
+      {
+        "term": "Book of Han",
+        "meaning": "고대 한국의 양잠업을 언급한 중국 사서"
+      },
+      {
+        "term": "Old Testament",
+        "meaning": "비단이 언급된 서아시아 성경 문헌"
+      },
+      {
+        "term": "commercial network",
+        "meaning": "비단 수출을 위해 만들어진 상업 네트워크"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "allusions",
+        "meaning": "암시, 언급"
+      },
+      {
+        "term": "exact origin is uncertain",
+        "meaning": "정확한 기원이 불확실함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "비단 지식의 전파",
+        "explanation": "고대 중국 사서는 고조선과 삼한에서도 양잠이 이루어졌다고 기록하며, 기원전 2세기부터 중국이 서방 수출을 위한 상업 네트워크를 구축했다고 전해진다."
+      },
+      {
+        "title": "서아시아까지 퍼진 명성",
+        "explanation": "구약성경에 나오는 비단에 대한 언급은 성경 시대 서아시아에서도 비단이 알려져 있었음을 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-production-history-8",
+    "importantWords": [
+      {
+        "term": "Chanhudaro",
+        "meaning": "인더스 문명의 비단 실이 발견된 유적"
+      },
+      {
+        "term": "Indus Valley civilisation",
+        "meaning": "고대 인더스 문명"
+      },
+      {
+        "term": "Nevasa",
+        "meaning": "인도 반도의 또 다른 비단 발견 유적"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "reeling",
+        "meaning": "실을 뽑아내는 공정"
+      },
+      {
+        "term": "exclusively Chinese",
+        "meaning": "오직 중국에만 국한된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "중국 밖의 초기 비단",
+        "explanation": "일본을 제외하면 비단 생산은 3천 년간 중국에 국한되었지만, 인더스 문명의 찬후다로 유적에서 기원전 2450~2000년경의 비단 실이 발견되어 예외적 사례로 꼽힌다."
+      },
+      {
+        "title": "독자적 생산의 증거",
+        "explanation": "실 분석 결과 실을 뽑고 누에를 기르는 기술이 확인되어, 이는 중국과 별개로 이루어진 독자적 생산 가능성을 시사한다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-1",
+    "importantWords": [
+      {
+        "term": "Gutenberg Bible",
+        "meaning": "유럽 최초의 대량 인쇄 금속활자 성경"
+      },
+      {
+        "term": "42-line Bible",
+        "meaning": "한 쪽에 42줄로 인쇄된 성경의 별칭"
+      },
+      {
+        "term": "Gutenberg Revolution",
+        "meaning": "인쇄된 책 시대의 시작을 가리키는 표현"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "mass-produced metal movable type",
+        "meaning": "대량 생산된 금속 활자"
+      },
+      {
+        "term": "aesthetic and artistic qualities",
+        "meaning": "미적·예술적 가치"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구텐베르크 성경의 의의",
+        "explanation": "구텐베르크 성경은 유럽에서 금속 활자로 대량 인쇄된 최초의 주요 서적으로, 서구 인쇄본 시대의 출발점으로 여겨진다."
+      },
+      {
+        "title": "예술적·역사적 가치",
+        "explanation": "이 책은 인쇄 기술의 역사적 의의뿐 아니라 높은 미적, 예술적 완성도로도 높이 평가받는다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-2",
+    "importantWords": [
+      {
+        "term": "Latin Vulgate",
+        "meaning": "구텐베르크가 인쇄한 라틴어 성경 판본"
+      },
+      {
+        "term": "Mainz",
+        "meaning": "구텐베르크 성경이 인쇄된 도시"
+      },
+      {
+        "term": "Pope Pius II",
+        "meaning": "1455년 인쇄본을 보았다고 기록한 훗날의 교황"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "substantial portion",
+        "meaning": "상당 부분"
+      },
+      {
+        "term": "in entirety",
+        "meaning": "완전한 형태로"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "현존하는 구텐베르크 성경",
+        "explanation": "158부 또는 180부가 인쇄된 것으로 추정되며 그중 49부가 상당 부분 남아 있고, 21부는 완전한 상태로 전해진다."
+      },
+      {
+        "title": "세계에서 가장 값진 책",
+        "explanation": "구텐베르크 성경은 세계에서 가장 값진 책 중 하나로 여겨지며, 1978년 이후로는 완전한 사본이 거래된 적이 없다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-3",
+    "importantWords": [
+      {
+        "term": "Vulgate",
+        "meaning": "히브리 성경과 그리스 신약을 옮긴 라틴어 번역본"
+      },
+      {
+        "term": "St Jerome",
+        "meaning": "불가타 성경을 번역한 인물"
+      },
+      {
+        "term": "Parisian Bible tradition",
+        "meaning": "파리 성경 전통"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "emendations",
+        "meaning": "수정, 교정"
+      },
+      {
+        "term": "divergences",
+        "meaning": "차이점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "불가타 성경의 계보",
+        "explanation": "구텐베르크 성경은 히에로니무스가 번역한 불가타 판본을 바탕으로 하되, 파리 성경 전통에서 유래한 수정과 다른 차이점들을 포함하고 있다."
+      },
+      {
+        "title": "본문의 변형",
+        "explanation": "표준 불가타 본문과 달리 이 판본에는 파리 성경 전통을 반영한 여러 수정 사항이 담겨 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-4",
+    "importantWords": [
+      {
+        "term": "press equipment",
+        "meaning": "인쇄기 장비"
+      },
+      {
+        "term": "Ars Grammatica",
+        "meaning": "구텐베르크가 먼저 인쇄했을 것으로 추정되는 라틴어 문법서"
+      },
+      {
+        "term": "Aelius Donatus",
+        "meaning": "이 문법서를 쓴 저자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "lucrative texts",
+        "meaning": "수익성 있는 문서"
+      },
+      {
+        "term": "religious documents",
+        "meaning": "종교 문서"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "성경 이전의 인쇄물",
+        "explanation": "성경을 인쇄하기 전, 구텐베르크는 장비 마련 비용을 고려해 종교 문서나 문법 교재 같은 수익성 있는 인쇄물을 먼저 제작했을 것으로 추정된다."
+      },
+      {
+        "title": "초기 인쇄물의 익명성",
+        "explanation": "이 시기 구텐베르크의 인쇄물 어느 것도 그의 이름을 명시하지 않았을 가능성이 높다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-5",
+    "importantWords": [
+      {
+        "term": "1450",
+        "meaning": "성경 준비가 시작된 것으로 추정되는 해"
+      },
+      {
+        "term": "31-line Indulgence",
+        "meaning": "인쇄 시기를 정확히 알 수 있는 구텐베르크의 면죄부"
+      },
+      {
+        "term": "1454",
+        "meaning": "첫 완성본이 나온 것으로 추정되는 해"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "precisely datable",
+        "meaning": "정확한 시기를 알 수 있는"
+      },
+      {
+        "term": "preparation",
+        "meaning": "준비 작업"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "제작 기간의 불확실성",
+        "explanation": "성경 준비는 1450년 직후 시작되어 1454~1455년경 첫 완성본이 나온 것으로 보이지만, 정확한 인쇄 소요 기간은 알려져 있지 않다."
+      },
+      {
+        "title": "가장 확실한 인쇄 기록",
+        "explanation": "31행 면죄부는 정확한 인쇄 시기를 알 수 있는 가장 이른 구텐베르크 작품으로, 성경 인쇄 시기 추정의 기준이 된다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-6",
+    "importantWords": [
+      {
+        "term": "relief printing",
+        "meaning": "볼록판 인쇄 방식"
+      },
+      {
+        "term": "dampened",
+        "meaning": "물기를 먹인, 축축하게 한"
+      },
+      {
+        "term": "type cases",
+        "meaning": "활자를 보관하는 케이스"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ink absorption",
+        "meaning": "잉크 흡수"
+      },
+      {
+        "term": "redistributed",
+        "meaning": "재분배된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구텐베르크의 인쇄 공정",
+        "explanation": "종이를 미리 적셔 잉크 흡수를 돕고, 활자에 인쇄한 뒤 다시 잉크를 칠하는 과정을 반복하는 볼록판 인쇄 방식이 사용되었다."
+      },
+      {
+        "title": "활자의 재사용",
+        "explanation": "인쇄가 끝난 뒤에는 활자를 세척하여 다시 활자 케이스에 재분배해 다음 작업에 사용할 수 있게 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-7",
+    "importantWords": [
+      {
+        "term": "40 lines",
+        "meaning": "초기 인쇄분의 줄 수"
+      },
+      {
+        "term": "42 lines",
+        "meaning": "나중에 늘어난 한 쪽당 줄 수"
+      },
+      {
+        "term": "interline spacing",
+        "meaning": "줄 간격"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "resetting",
+        "meaning": "활자를 다시 배열하는 작업"
+      },
+      {
+        "term": "print run",
+        "meaning": "인쇄 부수"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "줄 수 변경의 이유",
+        "explanation": "종이를 절약하기 위해 한 쪽의 줄 수가 40줄에서 42줄로 늘었고, 이는 인쇄 면적이 아니라 줄 간격을 줄여서 이루어졌다."
+      },
+      {
+        "title": "재조판 작업",
+        "explanation": "줄 수를 늘리기 위해 이미 인쇄된 페이지들도 다시 조판해야 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "gutenberg-bible-8",
+    "importantWords": [
+      {
+        "term": "1455 letter",
+        "meaning": "인쇄 부수를 짐작하게 하는 1455년의 편지"
+      },
+      {
+        "term": "vellum",
+        "meaning": "인쇄에 쓰인 양피지"
+      },
+      {
+        "term": "surviving copies",
+        "meaning": "현재 남아 있는 사본들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "reliable information",
+        "meaning": "신뢰할 수 있는 정보"
+      },
+      {
+        "term": "examination",
+        "meaning": "조사, 검토"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인쇄 부수 추정",
+        "explanation": "1455년 편지는 158부와 180부라는 두 수치를 모두 언급하지만, 현대 학자들은 현존 사본 조사를 통해 160~185부가 인쇄되었다고 추정한다."
+      },
+      {
+        "title": "종이와 양피지의 비율",
+        "explanation": "인쇄된 사본 중 약 4분의 3은 종이에, 나머지는 양피지에 인쇄된 것으로 추정된다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-1",
+    "importantWords": [
+      {
+        "term": "Meiji Restoration",
+        "meaning": "1868년 일본에서 천황 친정을 회복한 정치적 사건"
+      },
+      {
+        "term": "Emperor Meiji",
+        "meaning": "메이지 유신 당시의 천황"
+      },
+      {
+        "term": "Westernisation",
+        "meaning": "서구화"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "imperial rule",
+        "meaning": "천황에 의한 통치"
+      },
+      {
+        "term": "consolidated",
+        "meaning": "공고화된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "메이지 유신의 성격",
+        "explanation": "메이지 유신은 1868년 천황에게 실질적 권력을 되돌려주고 정치 체제를 공고화한 사건으로, 일본의 서구화로 이어졌다."
+      },
+      {
+        "title": "이전 천황과의 차이",
+        "explanation": "메이지 유신 이전에도 천황이 존재했지만, 이 사건을 통해 비로소 실질적인 권력이 천황에게 회복되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-2",
+    "importantWords": [
+      {
+        "term": "Tokugawa shogunate",
+        "meaning": "메이지 유신 이전 일본을 지배한 막부"
+      },
+      {
+        "term": "sakoku",
+        "meaning": "일본의 쇄국 정책"
+      },
+      {
+        "term": "Perry Expedition",
+        "meaning": "쇄국 정책에 도전한 미국의 페리 원정대"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unequal treaties",
+        "meaning": "불평등 조약"
+      },
+      {
+        "term": "ideological divide",
+        "meaning": "이념적 분열"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "막부 위기의 배경",
+        "explanation": "도쿠가와 막부의 경제·정치적 어려움에 페리 원정대의 도래와 불평등 조약이 겹치며 쇼군의 통치 능력에 의문이 제기되고 사무라이 계급 내 이념 분열이 생겼다."
+      },
+      {
+        "title": "사무라이 계급의 분열",
+        "explanation": "쇼군과 천황 모두에 대한 봉건적 의무를 둘러싸고 사무라이 계층 내부에서 이념적 대립이 발생했다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-3",
+    "importantWords": [
+      {
+        "term": "Charter Oath",
+        "meaning": "메이지 천황이 새 정부의 목표를 밝힌 선서문"
+      },
+      {
+        "term": "Boshin War",
+        "meaning": "막부 잔존 세력의 저항으로 일어난 전쟁"
+      },
+      {
+        "term": "domain system",
+        "meaning": "폐지된 봉건 영지 제도"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "practically unquestioned",
+        "meaning": "사실상 의심의 여지가 없는"
+      },
+      {
+        "term": "reorganised whole strata",
+        "meaning": "사회 전 계층을 재편성함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "새 정부의 개혁",
+        "explanation": "1868년 정치 권력 반환 선언 후 새 정부는 오서약문으로 목표를 밝혔고, 보신 전쟁 등 저항을 거치며 화폐·영지 제도·사무라이 신분을 폐지했다."
+      },
+      {
+        "title": "저항의 진압",
+        "explanation": "보신 전쟁과 에조 공화국 같은 막부 잔존 세력의 저항이 있었지만 1870년대에 이르러 천황의 권위는 사실상 확고해졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-4",
+    "importantWords": [
+      {
+        "term": "Saga Rebellion",
+        "meaning": "막부 폐지에 대한 반발로 일어난 반란"
+      },
+      {
+        "term": "Satsuma Rebellion",
+        "meaning": "봉건제 종식에 대한 또 다른 반란"
+      },
+      {
+        "term": "Meiji Constitution",
+        "meaning": "1889년 제정된 메이지 헌법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "colonial interests",
+        "meaning": "식민지적 이해관계"
+      },
+      {
+        "term": "far-reaching consequences",
+        "meaning": "광범위한 영향"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "메이지 유신의 장기적 영향",
+        "explanation": "봉건제 폐지에 대한 반란이 있었지만 결국 봉건제가 종식되었고, 메이지 유신은 일본 제국의 제도 기반을 마련해 동아시아에 큰 영향을 끼쳤다."
+      },
+      {
+        "title": "메이지 헌법의 지속",
+        "explanation": "1889년 제정된 메이지 헌법은 제2차 세계대전 이후 연합군 점령기까지 계속 효력을 유지했다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-5",
+    "importantWords": [
+      {
+        "term": "Edo period",
+        "meaning": "엄격한 신분제가 유지된 에도 시대"
+      },
+      {
+        "term": "shōgun",
+        "meaning": "쇼군, 무사 정권의 수장"
+      },
+      {
+        "term": "feudal autonomy",
+        "meaning": "역사가 얀센이 표현한 봉건적 자치 체제"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "inherited position",
+        "meaning": "세습되는 신분"
+      },
+      {
+        "term": "descending order",
+        "meaning": "내림차순, 위계 순서"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "에도 시대의 신분 위계",
+        "explanation": "에도 시대 일본은 천황과 조정을 정점으로 쇼군, 사무라이, 농민, 장인, 상인이 차례로 이어지는 엄격한 세습 신분제 사회였다."
+      },
+      {
+        "title": "봉건적 자치라는 표현",
+        "explanation": "역사가 얀센은 이러한 정치 조직을 '봉건적 자치'라는 개념으로 설명한다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-6",
+    "importantWords": [
+      {
+        "term": "koku",
+        "meaning": "쌀 생산량을 기준으로 한 영지 측정 단위"
+      },
+      {
+        "term": "shinpan daimyō",
+        "meaning": "도쿠가와 가문 소속 다이묘"
+      },
+      {
+        "term": "fudai daimyō",
+        "meaning": "쇼군의 가신 다이묘"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "directly controlled",
+        "meaning": "직접 통제한"
+      },
+      {
+        "term": "combined total",
+        "meaning": "합산한 총량"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "막부의 경제적 기반",
+        "explanation": "1650년 무렵 쇼군은 약 420만 석의 토지를 직접 지배했고, 가신과 다이묘까지 합치면 전체 2,600만 석 중 약 1,290만 석을 도쿠가와 세력이 장악했다."
+      },
+      {
+        "title": "코쿠 단위의 측정 방식",
+        "explanation": "각 번의 경제력은 쌀 생산량을 나타내는 코쿠 단위로 측정되어 막부 체제의 경제적 근간이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-7",
+    "importantWords": [
+      {
+        "term": "bushidō",
+        "meaning": "무사도, 사무라이의 윤리 체계"
+      },
+      {
+        "term": "Neo-Confucian tenets",
+        "meaning": "막부 권위의 근거가 된 신유학 교리"
+      },
+      {
+        "term": "William G. Beasley",
+        "meaning": "체제 내 긴장을 지적한 역사가"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "descending subordinations",
+        "meaning": "위에서 아래로 이어지는 복종 관계"
+      },
+      {
+        "term": "meritocratic rule",
+        "meaning": "능력에 따른 통치"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이념과 신분제의 긴장",
+        "explanation": "무사도가 서양 과학과 공존할 수 있었지만, 역사가 비즐리는 능력 중심 통치를 표방한 국가 이념과 하급 사무라이의 신분 상승을 막는 경직된 계급 구조 사이의 긴장을 지적했다."
+      },
+      {
+        "title": "중국과의 차이",
+        "explanation": "무사도의 위계 윤리는 신유학에 뿌리를 두었지만, 도쿠가와 국가의 구조적 조직과는 구별되는 독자적인 성격을 지녔다."
+      }
+    ]
+  },
+  {
+    "passageId": "meiji-restoration-8",
+    "importantWords": [
+      {
+        "term": "Shintō revival",
+        "meaning": "18세기 후반부터 일어난 신도 부흥"
+      },
+      {
+        "term": "Dutch studies",
+        "meaning": "네덜란드를 통한 서양 학문 연구"
+      },
+      {
+        "term": "kokugaku",
+        "meaning": "국학, 일본 고유의 학문을 강조한 사상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Mito School",
+        "meaning": "국학 발전에 중요했던 미토 학파"
+      },
+      {
+        "term": "established political order",
+        "meaning": "기존 정치 질서"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "탈중국적 사상의 등장",
+        "explanation": "18세기 후반 신도 부흥과 난학 연구가 함께 일어나며 중국 중심 사고에서 벗어나려는 흐름이 나타났지만, 두 흐름 모두 기존 정치 질서를 흔들지 않으려 조심했다."
+      },
+      {
+        "title": "미토 학파의 역할",
+        "explanation": "고도칸을 중심으로 활동한 미토 학파는 국학과 연결된 독자적 사상 개념을 발전시키는 데 특히 중요한 역할을 했다."
+      }
+    ]
   }
 ]

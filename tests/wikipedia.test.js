@@ -25,11 +25,12 @@ import {
 import { destinationRoom } from "../rooms.js";
 import { wikipediaReadingMarkup } from "../wikipedia-reading.js";
 
-const topics = ["science", "ai", "history"];
+const topics = ["science", "ai", "history", "psychology", "metascience"];
+const PASSAGES_PER_TOPIC = 144;
 
 test("dad receives only English Wikipedia reading across every stage", () => {
   for (let stage = 1; stage <= 10; stage++) {
-    const topic = topics[(stage - 1) % 3];
+    const topic = topics[(stage - 1) % topics.length];
     assert.equal(dadTopic(stage), topic);
     assert.equal(playerTier("dad", stage), "wikipedia");
     assert.equal(curriculum(stage, "dad").spelling, false);
@@ -44,7 +45,7 @@ test("dad receives only English Wikipedia reading across every stage", () => {
   assert.throws(() => dadTopic(11), RangeError);
 });
 
-test("all 240 questions use exact stored Wikipedia excerpts with traceable revisions", () => {
+test("all 720 questions use exact stored Wikipedia excerpts with traceable revisions", () => {
   const allIds = new Set();
   const allTexts = new Set();
   for (const [index, topic] of topics.entries()) {
@@ -55,7 +56,7 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       ),
     );
     assert.ok(data.articles.length >= 8, topic);
-    assert.equal(data.passages.length, 80, topic);
+    assert.equal(data.passages.length, PASSAGES_PER_TOPIC, topic);
     const articles = new Map(
       data.articles.map((article) => [article.id, article]),
     );
@@ -63,8 +64,11 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       data.passages.map((passage) => [passage.id, passage]),
     );
     assert.equal(articles.size, data.articles.length);
-    assert.equal(passages.size, 80);
-    assert.equal(new Set(data.passages.map((p) => p.text)).size, 80);
+    assert.equal(passages.size, PASSAGES_PER_TOPIC);
+    assert.equal(
+      new Set(data.passages.map((p) => p.text)).size,
+      PASSAGES_PER_TOPIC,
+    );
     const spansByArticle = new Map();
     for (const passage of passages.values()) {
       const article = articles.get(passage.articleId);
@@ -104,7 +108,7 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       assert.ok(Number.isFinite(Date.parse(article.retrievedAt)));
     }
     const pool = questionPool(index + 1, "dad");
-    assert.equal(pool.length, 80);
+    assert.equal(pool.length, PASSAGES_PER_TOPIC);
     const usage = new Map();
     for (const q of pool) {
       assert.ok(!allIds.has(q.id), q.id);
@@ -142,13 +146,17 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       assert.strictEqual(questionById(index + 1, q.id, "dad"), q);
       usage.set(q.passageId, (usage.get(q.passageId) || 0) + 1);
     }
-    assert.equal(usage.size, 80);
+    assert.equal(usage.size, PASSAGES_PER_TOPIC);
     assert.ok([...usage.values()].every((count) => count === 1));
     for (let answer = 0; answer < 4; answer++)
-      assert.equal(pool.filter((q) => q.answer === answer).length, 20);
+      assert.equal(
+        pool.filter((q) => q.answer === answer).length,
+        PASSAGES_PER_TOPIC / 4,
+      );
   }
-  assert.equal(allIds.size, 240);
-  assert.equal(allTexts.size, 240);
+  const total = topics.length * PASSAGES_PER_TOPIC;
+  assert.equal(allIds.size, total);
+  assert.equal(allTexts.size, total);
 });
 
 test("every stage shows fifteen different passages, including after paid replacements", () => {

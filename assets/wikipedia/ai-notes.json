@@ -2958,5 +2958,2373 @@
         "explanation": "자율 차량에는 수중·지상·공중 차량이 포함되고 산불 탐지나 자율 착륙에도 비전이 쓰인다."
       }
     ]
+  },
+  {
+    "passageId": "ai-transformer-p1",
+    "importantWords": [
+      {
+        "term": "multi-head attention mechanism",
+        "meaning": "여러 헤드가 동시에 서로 다른 관점에서 토큰 관계에 주목하는 트랜스포머의 핵심 메커니즘"
+      },
+      {
+        "term": "embedding layer",
+        "meaning": "토큰을 숫자 벡터로 변환하는 층"
+      },
+      {
+        "term": "positional encodings",
+        "meaning": "토큰의 순서 정보를 모델에 주입하는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "permutation-invariant",
+        "meaning": "입력 순서를 바꿔도 결과가 동일하게 나오는 성질"
+      },
+      {
+        "term": "context window",
+        "meaning": "모델이 한 번에 참조할 수 있는 토큰 범위"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "멀티헤드 어텐션",
+        "explanation": "트랜스포머는 입력을 토큰으로 바꾸고 임베딩 층을 거쳐 벡터로 만든 뒤, 각 층에서 멀티헤드 어텐션으로 중요한 토큰을 강조하고 덜 중요한 토큰을 약화시킨다."
+      },
+      {
+        "title": "위치 정보 주입",
+        "explanation": "셀프 어텐션 자체는 순서를 구분하지 못하므로(순열 불변) 트랜스포머는 위치 인코딩이나 학습된 위치 임베딩을 더해 토큰 순서 정보를 반영한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p2",
+    "importantWords": [
+      {
+        "term": "parallelized",
+        "meaning": "여러 연산을 동시에 처리할 수 있게 되는 것"
+      },
+      {
+        "term": "recurrent neural networks",
+        "meaning": "이전 상태를 순차적으로 참조하며 처리하는 신경망"
+      },
+      {
+        "term": "large language models",
+        "meaning": "방대한 텍스트로 학습된 대형 언어 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "encoder-only, decoder-only, and encoder-decoder variants",
+        "meaning": "트랜스포머를 용도에 따라 나눈 세 가지 구조 변형"
+      },
+      {
+        "term": "autoregressive generation",
+        "meaning": "이전 출력에 기반해 다음 토큰을 순차적으로 생성하는 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "병렬 처리의 장점",
+        "explanation": "트랜스포머는 토큰을 한 번에 하나씩 처리하지 않으므로 LSTM 같은 순환 신경망보다 학습 중 병렬화가 훨씬 쉽다."
+      },
+      {
+        "title": "구조별 최적화 목적",
+        "explanation": "트랜스포머는 표현 학습, 자기회귀 생성, 조건부 시퀀스 변환 등 목적에 따라 인코더 전용, 디코더 전용, 인코더-디코더로 나뉜다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p3",
+    "importantWords": [
+      {
+        "term": "\"Attention Is All You Need\"",
+        "meaning": "2017년 구글 연구자들이 트랜스포머를 처음 제안한 논문 제목"
+      },
+      {
+        "term": "machine translation",
+        "meaning": "한 언어를 다른 언어로 자동 번역하는 작업"
+      },
+      {
+        "term": "generative pre-trained transformers (GPTs)",
+        "meaning": "사전 학습된 생성형 트랜스포머 계열 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "vision transformers",
+        "meaning": "이미지 처리에 트랜스포머 구조를 적용한 모델"
+      },
+      {
+        "term": "bidirectional encoder representations from transformers",
+        "meaning": "BERT의 전체 이름으로, 양방향 문맥을 인코딩하는 모델"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "트랜스포머의 기원",
+        "explanation": "트랜스포머 구조는 2017년 구글 연구자들의 'Attention Is All You Need' 논문에서 처음 제안되었으며 기계번역 개선을 목적으로 개발되었다."
+      },
+      {
+        "title": "응용 분야 확장",
+        "explanation": "이후 트랜스포머는 자연어처리뿐 아니라 컴퓨터 비전, 강화학습, 오디오, 멀티모달 학습, 로보틱스, 체스 등 다양한 분야로 확장되었고 GPT와 BERT 같은 사전학습 시스템의 기반이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p4",
+    "importantWords": [
+      {
+        "term": "recurrent neural networks (RNNs)",
+        "meaning": "순서가 있는 데이터를 순차적으로 처리하는 신경망"
+      },
+      {
+        "term": "Elman network",
+        "meaning": "1990년에 소개된 대표적인 초기 순환 신경망 예시"
+      },
+      {
+        "term": "vanishing-gradient problem",
+        "meaning": "긴 시퀀스를 학습할 때 기울기가 점점 작아져 학습이 어려워지는 문제"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "propagate arbitrarily far",
+        "meaning": "정보가 이론적으로 시퀀스를 따라 임의로 멀리까지 전달될 수 있음을 뜻함"
+      },
+      {
+        "term": "extractable information",
+        "meaning": "모델 상태에서 실제로 꺼내 쓸 수 있는 형태의 정보"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "RNN의 한계",
+        "explanation": "트랜스포머 이전에는 순환 신경망이 시퀀스 모델링에 널리 쓰였지만, 기울기 소실 문제로 긴 문장 끝에서 앞부분 정보를 정확히 유지하기 어려웠다."
+      },
+      {
+        "title": "Elman 네트워크 사례",
+        "explanation": "1990년의 Elman 네트워크는 초기 순환 신경망의 대표적 예로 자주 인용된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p5",
+    "importantWords": [
+      {
+        "term": "LSTM",
+        "meaning": "기울기 소실 문제를 완화하기 위해 게이팅 메커니즘을 도입한 순환 신경망"
+      },
+      {
+        "term": "gating mechanisms",
+        "meaning": "정보의 흐름을 조절하는 문 역할을 하는 구조"
+      },
+      {
+        "term": "multiplicative gating units",
+        "meaning": "한 뉴런의 출력이 다른 뉴런의 출력을 조절하는 곱셈 방식의 유닛"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "vanishing gradient problem",
+        "meaning": "학습 중 기울기가 점점 작아져 먼 과거 정보를 반영하기 어려워지는 문제"
+      },
+      {
+        "term": "additive attention mechanism",
+        "meaning": "훗날 시퀀스 투 시퀀스 모델에 도입된, 덧셈 기반의 어텐션 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "LSTM의 돌파구",
+        "explanation": "LSTM은 1995년 기술보고서로 처음 소개되고 1997년 정식 발표되었으며, 게이팅 메커니즘으로 기울기 소실 문제를 완화해 긴 시퀀스를 효율적으로 학습할 수 있게 했다."
+      },
+      {
+        "title": "곱셈 유닛과 어텐션의 차이",
+        "explanation": "LSTM의 곱셈 게이팅 유닛은 훗날 시퀀스 투 시퀀스 모델에 도입된 덧셈 방식의 어텐션 메커니즘과는 개념적으로 다르다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p6",
+    "importantWords": [
+      {
+        "term": "encoder–decoder sequence transduction",
+        "meaning": "입력 시퀀스를 인코더로 처리하고 디코더로 변환해 출력하는 방식"
+      },
+      {
+        "term": "seq2seq",
+        "meaning": "시퀀스를 다른 시퀀스로 변환하는 모델 계열의 이름"
+      },
+      {
+        "term": "2014",
+        "meaning": "seq2seq를 만든 것으로 인용되는 두 논문이 동시에 발표된 해"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "originators",
+        "meaning": "특정 개념이나 기술을 처음 만든 것으로 인정받는 사람이나 논문"
+      },
+      {
+        "term": "concurrently published",
+        "meaning": "같은 시기에 동시에 발표됨"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "seq2seq의 등장",
+        "explanation": "인코더-디코더 방식의 시퀀스 변환 개념은 2010년대 초에 발전했으며, seq2seq의 기원으로 흔히 2014년에 동시에 발표된 두 논문이 인용된다."
+      },
+      {
+        "title": "발전 시점",
+        "explanation": "이 개념은 트랜스포머보다 앞서 등장해 이후 어텐션 메커니즘 발전의 토대가 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p7",
+    "importantWords": [
+      {
+        "term": "380M-parameter model",
+        "meaning": "3억 8천만 개의 매개변수를 가진 기계번역 모델"
+      },
+      {
+        "term": "encoder",
+        "meaning": "입력 토큰 시퀀스를 벡터로 변환하는 부분"
+      },
+      {
+        "term": "gated recurrent units (GRU)",
+        "meaning": "LSTM 대신 사용할 수 있는 또 다른 게이팅 기반 순환 유닛"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "decoder",
+        "meaning": "벡터를 다시 토큰 시퀀스로 변환하는 부분"
+      },
+      {
+        "term": "neither better nor worse",
+        "meaning": "두 방법의 성능이 우열을 가릴 수 없을 정도로 비슷하다는 뜻"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 seq2seq 구조",
+        "explanation": "3억 8천만 매개변수 기계번역 모델은 두 개의 LSTM으로 구성된 인코더-디코더 구조를 사용했다."
+      },
+      {
+        "title": "GRU와 LSTM 비교",
+        "explanation": "또 다른 1억 3천만 매개변수 모델은 LSTM 대신 GRU를 사용했으며, 이후 연구에서 GRU와 LSTM의 seq2seq 성능은 우열이 없다고 밝혀졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-transformer-p8",
+    "importantWords": [
+      {
+        "term": "attention mechanism",
+        "meaning": "입력의 특정 부분에 가중치를 부여해 집중하는 메커니즘"
+      },
+      {
+        "term": "state vector",
+        "meaning": "인코더가 전체 입력 문장을 압축해 담아두는 고정 크기 벡터"
+      },
+      {
+        "term": "fixed-size output vector",
+        "meaning": "길이에 상관없이 고정된 크기로 정보를 압축한 벡터"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "poorly preserved",
+        "meaning": "정보가 벡터에 제대로 보존되지 않고 손실됨"
+      },
+      {
+        "term": "reversing the input sentence",
+        "meaning": "입력 문장의 단어 순서를 거꾸로 바꾸는 기법"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어텐션 없는 seq2seq의 한계",
+        "explanation": "초기 seq2seq 모델은 어텐션 메커니즘이 없어 문장 전체 정보가 고정 크기 벡터 하나에 압축되며, 입력이 길어지면 정보가 제대로 보존되지 않았다."
+      },
+      {
+        "title": "입력 역순 기법",
+        "explanation": "이 문제를 완화하기 위해 입력 문장의 순서를 거꾸로 넣으면 번역 성능이 개선된다는 것이 실험적으로 확인되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p1",
+    "importantWords": [
+      {
+        "term": "reinforcement learning (RL)",
+        "meaning": "에이전트가 보상 신호를 최대화하도록 행동을 배우는 머신러닝 방식"
+      },
+      {
+        "term": "intelligent agent",
+        "meaning": "환경과 상호작용하며 결정을 내리는 주체"
+      },
+      {
+        "term": "reward signal",
+        "meaning": "에이전트의 행동이 얼마나 좋은지를 알려주는 신호"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "approximate dynamic programming",
+        "meaning": "강화학습의 다른 이름으로, 동적 계획법을 근사적으로 적용하는 접근"
+      },
+      {
+        "term": "basic machine learning paradigms",
+        "meaning": "머신러닝을 나누는 기본적인 세 가지 큰 분류"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "강화학습의 정의",
+        "explanation": "강화학습은 지능적인 에이전트가 동적인 환경에서 보상 신호를 최대화하도록 행동을 선택하는 법을 배우는 머신러닝의 한 방식이다."
+      },
+      {
+        "title": "세 가지 패러다임",
+        "explanation": "강화학습은 지도학습, 비지도학습과 함께 머신러닝의 세 가지 기본 패러다임 중 하나로 꼽힌다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p2",
+    "importantWords": [
+      {
+        "term": "Markov decision process",
+        "meaning": "강화학습 문제를 정형화하는 데 쓰이는 수학적 틀"
+      },
+      {
+        "term": "dynamic programming techniques",
+        "meaning": "문제를 하위 문제로 나누어 푸는 알고리즘 기법"
+      },
+      {
+        "term": "exact mathematical model",
+        "meaning": "환경을 완벽하게 설명하는 정확한 수학적 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "classical dynamic programming methods",
+        "meaning": "정확한 모델을 가정하는 전통적인 동적 계획법 방식"
+      },
+      {
+        "term": "infeasible",
+        "meaning": "실행이 불가능하거나 비현실적임"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "MDP와 강화학습의 관계",
+        "explanation": "환경은 흔히 마르코프 결정 과정 형태로 표현되며 많은 강화학습 알고리즘이 동적 계획법 기법을 사용한다."
+      },
+      {
+        "title": "고전적 방법과의 차이",
+        "explanation": "강화학습은 환경의 정확한 수학적 모델을 가정하지 않는다는 점에서 고전적 동적 계획법과 다르며, 정확한 방법이 불가능한 대규모 문제를 다룬다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p3",
+    "importantWords": [
+      {
+        "term": "expected cumulative reward",
+        "meaning": "미래에 받을 것으로 기대되는 보상의 총합"
+      },
+      {
+        "term": "full observability",
+        "meaning": "에이전트가 환경의 현재 상태를 완전히 관찰할 수 있는 상태"
+      },
+      {
+        "term": "partially observable Markov decision process",
+        "meaning": "상태를 부분적으로만 관찰할 수 있을 때 사용하는 형식화된 문제 틀"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "partial observability",
+        "meaning": "에이전트가 상태 중 일부만 관찰하거나 관찰이 잡음에 오염된 상태"
+      },
+      {
+        "term": "state transition",
+        "meaning": "한 상태에서 다른 상태로 옮겨가는 과정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "관찰 가능성의 구분",
+        "explanation": "에이전트가 현재 상태를 완전히 관찰하면 완전 관찰 가능하다고 하고, 일부만 보거나 잡음이 섞이면 부분 관찰 가능하다고 하며 이 경우 부분관찰 마르코프 결정 과정으로 formalize한다."
+      },
+      {
+        "title": "목표",
+        "explanation": "강화학습의 목표는 기대되는 누적 보상을 최대화하는 정책을 찾는 것이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p4",
+    "importantWords": [
+      {
+        "term": "simulation model",
+        "meaning": "환경을 실제로 겪지 않고 모사할 수 있는 모델"
+      },
+      {
+        "term": "simulation-based optimization",
+        "meaning": "시뮬레이션 결과를 바탕으로 최적화를 수행하는 분야"
+      },
+      {
+        "term": "planning problems",
+        "meaning": "모델이 있는 상태에서 최적 행동을 계획하는 문제"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "analytic solution",
+        "meaning": "수식으로 정확히 풀어낸 해"
+      },
+      {
+        "term": "genuine learning problem",
+        "meaning": "환경과의 상호작용을 통해서만 정보를 얻을 수 있는 진짜 학습 문제"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세 가지 상황 구분",
+        "explanation": "환경 모델은 있지만 해석적 해가 없는 경우, 시뮬레이션 모델만 있는 경우, 상호작용으로만 정보를 얻을 수 있는 경우로 나뉜다."
+      },
+      {
+        "title": "강화학습의 통합적 접근",
+        "explanation": "앞의 두 경우는 계획 문제로 볼 수 있지만, 강화학습은 이 계획 문제들도 머신러닝 문제로 변환해 다룬다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p5",
+    "importantWords": [
+      {
+        "term": "policy",
+        "meaning": "어떤 상태에서 어떤 행동을 할지 정하는 전략"
+      },
+      {
+        "term": "expected discounted return",
+        "meaning": "할인율을 적용해 계산한 기대 누적 보상"
+      },
+      {
+        "term": "value function estimation",
+        "meaning": "상태나 행동의 가치를 추정하는 접근법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "variance of the returns",
+        "meaning": "보상 결과값들이 흩어져 있는 정도"
+      },
+      {
+        "term": "direct policy search",
+        "meaning": "정책 공간에서 직접 좋은 정책을 탐색하는 방법"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "무차별 대입 접근의 한계",
+        "explanation": "모든 가능한 정책에 대해 보상을 샘플링하고 최댓값을 찾는 방법은 정책 수가 많거나 무한할 수 있고 분산이 커서 비효율적이다."
+      },
+      {
+        "title": "개선 방법",
+        "explanation": "이 문제를 완화하려면 구조를 가정하고 한 정책에서 얻은 샘플이 다른 정책의 추정치에도 영향을 주도록 하는 가치함수 추정과 직접 정책 탐색 두 접근을 사용한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p6",
+    "importantWords": [
+      {
+        "term": "Q-learning",
+        "meaning": "행동-가치 함수를 학습하는 대표적인 강화학습 알고리즘"
+      },
+      {
+        "term": "Deep Q-learning",
+        "meaning": "신경망으로 Q값을 표현하는 심층 강화학습 방법"
+      },
+      {
+        "term": "temporal difference methods",
+        "meaning": "다음 상태의 추정치를 이용해 현재 추정치를 갱신하는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "nonparametric statistics",
+        "meaning": "고정된 함수 형태를 가정하지 않는 통계적 접근"
+      },
+      {
+        "term": "stochastic search problems",
+        "meaning": "확률적 요소가 있는 탐색 문제"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가중치 조정 방식",
+        "explanation": "일부 알고리즘은 개별 상태-행동 쌍의 값을 조정하는 대신 가중치를 조정하며, 비모수 통계 기법도 탐구되었다."
+      },
+      {
+        "title": "Q-러닝의 확장",
+        "explanation": "가치 반복에서 발전한 Q-러닝은 다양한 변형이 있으며, 신경망으로 Q값을 표현하는 딥 Q-러닝은 확률적 탐색 문제에 응용된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p7",
+    "importantWords": [
+      {
+        "term": "actor-critic architecture",
+        "meaning": "정책과 가치함수를 동시에 학습하는 강화학습 구조"
+      },
+      {
+        "term": "intrinsic motivation",
+        "meaning": "외부 보상 없이 정보 탐색 자체에서 동기를 얻는 개념"
+      },
+      {
+        "term": "large Markov decision processes",
+        "meaning": "상태나 행동의 수가 매우 많은 마르코프 결정 과정"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "modular and hierarchical reinforcement learning",
+        "meaning": "여러 하위 모듈이나 계층 구조를 갖는 강화학습 접근"
+      },
+      {
+        "term": "bug detection in software projects",
+        "meaning": "소프트웨어 결함을 찾는 데 강화학습을 응용하는 연구 주제"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "연구 주제의 다양성",
+        "explanation": "강화학습 연구는 액터-크리틱 구조, 적응형 방법, 로직 기반 프레임워크와의 결합 등 폭넓은 주제를 포함한다."
+      },
+      {
+        "title": "내재적 동기",
+        "explanation": "내재적 동기는 과제와 무관한 정보 탐색형 호기심 행동을 과제 지향적 목표 행동과 구분하는 개념이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-rl-p8",
+    "importantWords": [
+      {
+        "term": "on-policy",
+        "meaning": "현재 정책으로 얻은 경로만으로 정책을 갱신하는 방식"
+      },
+      {
+        "term": "off-policy",
+        "meaning": "다른 정책으로 얻은 데이터를 활용해 정책을 갱신하는 방식"
+      },
+      {
+        "term": "action space",
+        "meaning": "에이전트가 선택할 수 있는 행동들의 집합"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "discrete",
+        "meaning": "값이 정해진 개수의 항목 중 하나로 떨어지는 성질"
+      },
+      {
+        "term": "continuous",
+        "meaning": "값이 연속적으로 임의의 실수를 가질 수 있는 성질"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "온폴리시와 오프폴리시",
+        "explanation": "알고리즘은 현재 정책으로 얻은 경로만 사용하는 온폴리시이거나, 다른 정책의 데이터를 활용하는 오프폴리시일 수 있다."
+      },
+      {
+        "title": "행동/상태 공간의 유형",
+        "explanation": "행동 공간과 상태 공간은 각각 이산적일 수도, 연속적일 수도 있으며 이는 예시로 격자 이동이나 팔 각도 조절을 통해 설명된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p1",
+    "importantWords": [
+      {
+        "term": "convolutional neural network (CNN)",
+        "meaning": "필터 최적화를 통해 특징을 학습하는 순전파 신경망"
+      },
+      {
+        "term": "filter (or kernel) optimization",
+        "meaning": "학습을 통해 필터의 값을 최적화하는 과정"
+      },
+      {
+        "term": "computer vision and image processing",
+        "meaning": "CNN이 표준으로 자리잡은 대표적인 응용 분야"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Vanishing gradients and exploding gradients",
+        "meaning": "학습 중 기울기가 지나치게 작아지거나 커져 학습을 방해하는 문제"
+      },
+      {
+        "term": "shared weights",
+        "meaning": "여러 위치에서 동일한 가중치를 재사용하는 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "CNN의 정의",
+        "explanation": "CNN은 필터 최적화로 특징을 학습하는 순전파 신경망으로 텍스트, 이미지, 오디오 등 다양한 데이터에 적용된다."
+      },
+      {
+        "title": "가중치 공유의 효과",
+        "explanation": "적은 연결에 걸쳐 가중치를 공유함으로써 이전 신경망에서 나타난 기울기 소실·폭주 문제를 완화하는 정규화 효과를 얻는다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p2",
+    "importantWords": [
+      {
+        "term": "input layer, hidden layers and an output layer",
+        "meaning": "CNN을 구성하는 기본적인 세 종류의 층"
+      },
+      {
+        "term": "convolutions",
+        "meaning": "커널을 입력 위로 슬라이딩하며 곱하고 더하는 연산"
+      },
+      {
+        "term": "feature map",
+        "meaning": "합성곱 연산의 결과로 생성되는 특징 지도"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Frobenius inner product",
+        "meaning": "합성곱 커널과 입력 행렬 간의 내적을 계산하는 방식"
+      },
+      {
+        "term": "activation function",
+        "meaning": "뉴런의 출력을 비선형으로 변환하는 함수"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "CNN의 층 구조",
+        "explanation": "CNN은 입력층, 은닉층, 출력층으로 구성되며 은닉층에는 합성곱을 수행하는 하나 이상의 층이 포함된다."
+      },
+      {
+        "title": "합성곱과 특징 지도",
+        "explanation": "합성곱 커널이 입력 행렬을 슬라이딩하며 프로베니우스 내적을 계산해 특징 지도를 생성하고 이는 다음 층의 입력이 된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p3",
+    "importantWords": [
+      {
+        "term": "Hubel and Wiesel",
+        "meaning": "고양이 시각피질 연구로 수용장 개념을 밝힌 연구자들"
+      },
+      {
+        "term": "visual cortices",
+        "meaning": "시각 정보를 처리하는 뇌의 영역"
+      },
+      {
+        "term": "receptive field",
+        "meaning": "하나의 뉴런의 발화에 영향을 주는 시각 공간의 영역"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "visual field",
+        "meaning": "눈이 볼 수 있는 시각 공간 전체"
+      },
+      {
+        "term": "individually respond",
+        "meaning": "각 뉴런이 특정 작은 영역에만 반응하는 성질"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "생물학적 영감",
+        "explanation": "Hubel과 Wiesel의 1950~60년대 연구는 고양이 시각피질 뉴런이 시각장의 작은 영역에만 개별적으로 반응함을 보였다."
+      },
+      {
+        "title": "수용장 개념",
+        "explanation": "눈이 움직이지 않을 때 한 뉴런의 발화에 영향을 주는 시각 공간 영역을 수용장이라 하며 이는 CNN 설계의 생물학적 토대가 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p4",
+    "importantWords": [
+      {
+        "term": "\"S-layer\"",
+        "meaning": "이후 합성곱 층으로 불리게 된, 가중치를 공유하는 수용장 층"
+      },
+      {
+        "term": "\"C-layer\"",
+        "meaning": "이전 합성곱 층들의 패치를 다운샘플링하는 층"
+      },
+      {
+        "term": "divisive normalization",
+        "meaning": "더 큰 패치와 다른 필터에서 모은 정보로 억제를 적용하는 정규화 방식"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "shared-weights receptive-field group",
+        "meaning": "동일한 가중치를 공유하는 수용장들의 묶음, 필터라고도 불림"
+      },
+      {
+        "term": "saturating activation",
+        "meaning": "출력이 일정 값 이상에서 더 이상 커지지 않는 활성화 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "S층과 C층",
+        "explanation": "S층은 이전 층의 패치를 덮는 수용장을 가진, 가중치를 공유하는 층으로 이후 합성곱 층이라 불리게 되었고, 필터라는 이름도 여기서 유래했다."
+      },
+      {
+        "title": "C층의 역할",
+        "explanation": "C층은 이전 합성곱 층들의 패치를 다운샘플링하며 더 큰 패치와 여러 필터에서 정보를 모아 억제를 적용하는 다운샘플링 층이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p5",
+    "importantWords": [
+      {
+        "term": "LeNet-5",
+        "meaning": "1995년 LeCun 등이 만든 선구적인 7단계 합성곱 신경망"
+      },
+      {
+        "term": "hand-written numbers",
+        "meaning": "수표에 인쇄된 손글씨 숫자, LeNet-5가 분류한 대상"
+      },
+      {
+        "term": "NCR's check reading systems",
+        "meaning": "LeNet-5가 통합되어 실제 사용된 수표 판독 시스템"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "32×32 pixel images",
+        "meaning": "LeNet-5가 처리하도록 설계된 저해상도 이미지 크기"
+      },
+      {
+        "term": "commercial courtesy amount reading systems",
+        "meaning": "당시 상업적으로 쓰이던 다른 금액 판독 시스템들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "LeNet-5의 성과",
+        "explanation": "LeNet-5는 1995년 만들어진 7단계 합성곱 신경망으로 수표에 적힌 손글씨 숫자를 32×32 픽셀 이미지에서 분류했다."
+      },
+      {
+        "title": "실제 상용화",
+        "explanation": "LeNet-5는 당시 다른 상업용 금액 판독 시스템보다 우수했고 NCR의 수표 판독 시스템에 통합되어 1996년부터 미국 여러 은행에서 매일 수백만 건의 수표를 처리했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p6",
+    "importantWords": [
+      {
+        "term": "CIFAR-10",
+        "meaning": "32x32x3 크기의 작은 이미지로 구성된 대표적인 벤치마크 데이터셋"
+      },
+      {
+        "term": "fully connected neuron",
+        "meaning": "이전 층의 모든 뉴런과 연결된 뉴런"
+      },
+      {
+        "term": "spatial structure of data",
+        "meaning": "이미지처럼 데이터가 갖는 공간적 배열 구조"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "locality of reference",
+        "meaning": "가까운 픽셀끼리 관련이 크다는 데이터의 지역성 원리"
+      },
+      {
+        "term": "full connectivity",
+        "meaning": "모든 입력과 모든 뉴런이 연결되는 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "완전연결의 비효율성",
+        "explanation": "CIFAR-10처럼 작은 32x32x3 이미지도 완전연결 신경망에서는 첫 은닉층 뉴런 하나에 3,072개의 가중치가 필요하며 해상도가 커지면 가중치 수가 폭증한다."
+      },
+      {
+        "title": "공간 구조 무시 문제",
+        "explanation": "완전연결 구조는 이미지의 공간적 지역성을 고려하지 않아 인접 픽셀과 먼 픽셀을 동일하게 취급하므로 이미지처럼 격자 구조를 가진 데이터에는 낭비가 크다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p7",
+    "importantWords": [
+      {
+        "term": "convolutional layer",
+        "meaning": "CNN의 핵심을 이루는 합성곱을 수행하는 층"
+      },
+      {
+        "term": "learnable filters (or kernels)",
+        "meaning": "학습을 통해 값이 조정되는 필터들"
+      },
+      {
+        "term": "activation map",
+        "meaning": "필터가 입력 위를 훑으며 만든 2차원 반응 지도"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "receptive field",
+        "meaning": "필터가 한 번에 바라보는 입력의 작은 영역"
+      },
+      {
+        "term": "forward pass",
+        "meaning": "입력이 신경망을 따라 앞으로 전달되며 출력을 계산하는 과정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "합성곱 층의 동작",
+        "explanation": "합성곱 층은 작은 수용장을 갖지만 입력 볼륨의 전체 깊이까지 뻗어 있는 학습 가능한 필터들로 구성되며, 순전파 동안 필터가 입력 위를 이동하며 내적을 계산해 활성화 지도를 만든다."
+      },
+      {
+        "title": "특징 검출",
+        "explanation": "이 과정을 통해 신경망은 입력의 특정 위치에서 특정 유형의 특징을 감지하면 활성화되는 필터를 학습하게 된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-cnn-p8",
+    "importantWords": [
+      {
+        "term": "overfitting",
+        "meaning": "모델이 학습 데이터에만 지나치게 맞춰져 새로운 데이터에 일반화하지 못하는 현상"
+      },
+      {
+        "term": "training examples",
+        "meaning": "모델을 학습시키는 데 사용하는 데이터 샘플"
+      },
+      {
+        "term": "perturb existing data",
+        "meaning": "기존 데이터를 조금씩 변형해 새로운 데이터를 만드는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "power",
+        "meaning": "모델이 복잡한 패턴을 표현할 수 있는 능력의 크기"
+      },
+      {
+        "term": "cropped, rotated, or rescaled",
+        "meaning": "이미지를 자르거나 회전하거나 크기를 바꾸는 데이터 증강 기법들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과적합과 데이터 양의 관계",
+        "explanation": "모델의 과적합 정도는 모델의 표현력과 학습에 사용된 데이터 양에 좌우되므로, 더 많은 학습 예제를 제공하면 과적합을 줄일 수 있다."
+      },
+      {
+        "title": "데이터 증강",
+        "explanation": "충분한 데이터가 없을 때는 새 데이터를 만들거나 기존 데이터를 자르기·회전·크기조정 등으로 변형해 같은 레이블을 가진 새로운 예제를 만드는 방법이 1990년대 중반부터 사용되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p1",
+    "importantWords": [
+      {
+        "term": "backpropagation",
+        "meaning": "신경망 학습을 위한 기울기 계산 방법"
+      },
+      {
+        "term": "chain rule",
+        "meaning": "합성 함수의 미분을 구하는 데 쓰이는 미적분 규칙"
+      },
+      {
+        "term": "gradient",
+        "meaning": "손실을 줄이는 방향을 알려주는 기울기 벡터"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "propagating derivatives backward",
+        "meaning": "미분값을 출력층에서 입력층 방향으로 거꾸로 전달하는 방식"
+      },
+      {
+        "term": "redundant chain-rule calculations",
+        "meaning": "같은 연쇄법칙 계산을 반복하지 않도록 피하는 것"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "역전파의 정의",
+        "explanation": "역전파는 신경망의 매개변수 갱신을 계산하기 위해 널리 쓰이는 기울기 계산 방법으로, 연쇄법칙을 신경망에 효율적으로 적용한 것이다."
+      },
+      {
+        "title": "역방향 계산의 효율성",
+        "explanation": "역전파는 미분을 출력층에서 입력층 방향으로 한 층씩 거꾸로 전달함으로써 중복된 연쇄법칙 계산을 피한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p2",
+    "importantWords": [
+      {
+        "term": "logistic function",
+        "meaning": "이진 분류의 마지막 층에서 흔히 쓰이는 활성화 함수"
+      },
+      {
+        "term": "softmax (softargmax)",
+        "meaning": "다중 클래스 분류의 마지막 층에서 쓰이는 활성화 함수"
+      },
+      {
+        "term": "sigmoid function",
+        "meaning": "은닉층에서 전통적으로 사용되던 활성화 함수"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "rectifier (ramp, ReLU)",
+        "meaning": "오늘날 은닉층에서 더 흔히 쓰이는 활성화 함수"
+      },
+      {
+        "term": "binary classification",
+        "meaning": "출력을 두 개의 클래스 중 하나로 구분하는 문제"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "출력층의 활성화 함수",
+        "explanation": "분류 문제에서 마지막 층은 이진 분류의 경우 로지스틱 함수를, 다중 클래스 분류의 경우 소프트맥스를 흔히 사용한다."
+      },
+      {
+        "title": "은닉층 활성화 함수의 변천",
+        "explanation": "은닉층은 전통적으로 시그모이드 계열 함수를 썼지만 오늘날에는 ReLU 같은 정류 함수가 더 흔히 쓰인다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p3",
+    "importantWords": [
+      {
+        "term": "automatic differentiation",
+        "meaning": "미분을 자동으로 계산하는 기법"
+      },
+      {
+        "term": "reverse accumulation",
+        "meaning": "역전파가 속하는 자동미분의 한 방식"
+      },
+      {
+        "term": "more general graphs",
+        "meaning": "단순한 순차 구조를 넘어서는 일반적인 계산 그래프"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "advanced variations",
+        "meaning": "역전파의 고급 변형 기법들"
+      },
+      {
+        "term": "special case",
+        "meaning": "더 일반적인 개념의 특수한 사례"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자동미분과의 관계",
+        "explanation": "더 일반적인 계산 그래프와 고급 변형에서 역전파는 자동미분, 특히 역방향 누적의 특수한 경우로 이해될 수 있다."
+      },
+      {
+        "title": "개념 확장",
+        "explanation": "이는 역전파가 단순 신경망을 넘어 더 넓은 계산 그래프 이론의 틀 안에서 설명될 수 있음을 보여준다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p4",
+    "importantWords": [
+      {
+        "term": "loss function",
+        "meaning": "모델의 출력과 기대 출력 사이의 차이를 수치로 나타내는 함수"
+      },
+      {
+        "term": "cost",
+        "meaning": "손실 함수가 나타내는 값에 붙는 이름"
+      },
+      {
+        "term": "network output",
+        "meaning": "신경망이 실제로 만들어낸 출력값"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "expected output",
+        "meaning": "학습 데이터에 정해진 정답 출력"
+      },
+      {
+        "term": "training example",
+        "meaning": "모델을 학습시키는 데 사용하는 하나의 데이터 샘플"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "손실 함수의 역할",
+        "explanation": "손실 함수는 하나 이상의 변수 값을 그 값들과 관련된 비용을 나타내는 실수로 매핑하는 함수이다."
+      },
+      {
+        "title": "역전파에서의 손실 계산",
+        "explanation": "역전파에서 손실 함수는 학습 예제가 신경망을 통과한 뒤 신경망 출력과 기대 출력 사이의 차이를 계산한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p5",
+    "importantWords": [
+      {
+        "term": "global minimum",
+        "meaning": "손실 함수가 가질 수 있는 가장 작은 값의 지점"
+      },
+      {
+        "term": "local minimum",
+        "meaning": "주변 지점보다는 작지만 전역 최솟값은 아닐 수 있는 지점"
+      },
+      {
+        "term": "non-convexity",
+        "meaning": "함수가 볼록하지 않아 여러 국소 최솟값을 가질 수 있는 성질"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "plateaus",
+        "meaning": "기울기가 거의 평평해 학습이 느려지는 손실 함수의 구간"
+      },
+      {
+        "term": "normalization of input vectors",
+        "meaning": "입력 벡터의 크기나 분포를 조정하는 전처리 작업"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "경사하강법의 한계",
+        "explanation": "역전파를 사용한 경사하강법은 전역 최솟값을 찾는다는 보장이 없고 국소 최솟값에 머무를 수 있으며, 오차 함수 지형의 평탄한 구간을 넘기 어려울 수 있다."
+      },
+      {
+        "title": "추가적 제약",
+        "explanation": "역전파는 입력 벡터의 정규화를 요구하지 않지만 정규화가 성능을 개선할 수 있으며, 활성화 함수의 도함수를 설계 시점에 알아야 한다는 제약도 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p6",
+    "importantWords": [
+      {
+        "term": "chain rule",
+        "meaning": "1676년 라이프니츠가 처음 기록한 것으로 알려진 미적분 규칙"
+      },
+      {
+        "term": "Frank Rosenblatt",
+        "meaning": "1962년 '역전파 오차 수정'이라는 용어를 도입한 연구자"
+      },
+      {
+        "term": "optimal control theory",
+        "meaning": "역전파의 선구자들이 등장한 1950년대 이후의 이론 분야"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "back-propagating error correction",
+        "meaning": "1962년 Rosenblatt가 도입했지만 구현법을 알지 못했던 용어"
+      },
+      {
+        "term": "adjoint state method",
+        "meaning": "최적제어이론에서 역전파의 연속시간 버전으로 여겨지는 방법"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "역전파의 반복된 발견",
+        "explanation": "역전파는 라이프니츠가 1676년 처음 기록한 연쇄법칙을 신경망에 효율적으로 적용한 것으로, 역사적으로 여러 차례 독립적으로 재발견되었다."
+      },
+      {
+        "title": "초기 선구자들",
+        "explanation": "Rosenblatt는 1962년 '역전파 오차 수정'이라는 용어를 도입했지만 구현법을 몰랐고, 최적제어이론의 인접 상태 방법 등 1950년대부터 여러 선구적 연구가 있었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p7",
+    "importantWords": [
+      {
+        "term": "ADALINE",
+        "meaning": "1960년에 등장한, 제곱오차 손실을 사용한 경사하강법 학습 알고리즘"
+      },
+      {
+        "term": "multilayer perceptron (MLP)",
+        "meaning": "여러 층을 가진 신경망 구조"
+      },
+      {
+        "term": "Shun'ichi Amari",
+        "meaning": "1967년 확률적 경사하강법으로 다층 퍼셉트론을 학습시킨 연구자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "stochastic gradient descent",
+        "meaning": "학습 데이터를 무작위로 조금씩 사용해 기울기를 추정하며 갱신하는 경사하강법"
+      },
+      {
+        "term": "linearly separable",
+        "meaning": "하나의 직선(또는 초평면)으로 두 클래스를 구분할 수 있는 성질"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "ADALINE과 초기 학습",
+        "explanation": "ADALINE은 1960년에 등장한, 단일 층에 제곱오차 손실을 사용한 경사하강법 학습 알고리즘이다."
+      },
+      {
+        "title": "최초의 다층 퍼셉트론 학습",
+        "explanation": "1967년 Shun'ichi Amari가 발표한 5층짜리 다층 퍼셉트론은 확률적 경사하강법으로 학습된 최초의 다층 모델로, 선형 분리 불가능한 패턴을 분류하도록 학습했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-backprop-p8",
+    "importantWords": [
+      {
+        "term": "David E. Rumelhart",
+        "meaning": "1982년경 독립적으로 역전파를 개발하고 대중화한 연구자"
+      },
+      {
+        "term": "1986 Nature paper",
+        "meaning": "역전파를 널리 알린 계기가 된 논문"
+      },
+      {
+        "term": "resurging research interest",
+        "meaning": "1980년대 신경망 연구에 대한 관심이 다시 살아난 현상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "independently developed",
+        "meaning": "이전 연구를 인용하지 않고 스스로 개발함"
+      },
+      {
+        "term": "highly cited",
+        "meaning": "이후 많은 후속 연구에서 자주 인용됨"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Rumelhart의 독립적 발견",
+        "explanation": "Rumelhart는 이전 연구를 알지 못한 채 1982년경 독립적으로 역전파를 개발하고 자신의 연구 그룹에 가르쳤다."
+      },
+      {
+        "title": "역전파의 대중화",
+        "explanation": "그는 1985년 논문에 이어 1986년 Nature 논문에서 실험 분석을 발표했고, 이 논문들이 널리 인용되며 1980년대 신경망 연구 붐과 함께 역전파를 대중화했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p1",
+    "importantWords": [
+      {
+        "term": "generative adversarial network (GAN)",
+        "meaning": "두 신경망이 경쟁하며 학습하는 생성형 머신러닝 프레임워크"
+      },
+      {
+        "term": "Ian Goodfellow",
+        "meaning": "2014년 GAN 개념을 처음 개발한 연구자"
+      },
+      {
+        "term": "zero-sum game",
+        "meaning": "한쪽의 이득이 다른 쪽의 손실이 되는 게임 구조"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "compete with each other",
+        "meaning": "두 신경망이 서로 경쟁하며 학습하는 방식"
+      },
+      {
+        "term": "generate new data with the same statistics",
+        "meaning": "훈련 데이터와 통계적으로 유사한 새로운 데이터를 만들어내는 것"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "GAN의 기본 구조",
+        "explanation": "GAN에서는 두 신경망이 제로섬 게임 형태로 경쟁하며, 한 에이전트의 이득이 다른 에이전트의 손실이 된다."
+      },
+      {
+        "title": "GAN의 목적",
+        "explanation": "GAN은 훈련 데이터셋이 주어지면 그 데이터와 같은 통계적 특성을 가진 새로운 데이터를 생성하도록 학습하는 기법으로, 2014년 Ian Goodfellow가 처음 개발했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p2",
+    "importantWords": [
+      {
+        "term": "fully visible belief networks",
+        "meaning": "GAN과 비교되는 다른 종류의 생성 모델"
+      },
+      {
+        "term": "autoregressive models",
+        "meaning": "이전 값에 기반해 순차적으로 다음 값을 생성하는 모델 계열"
+      },
+      {
+        "term": "universal approximators",
+        "meaning": "충분한 용량이 있으면 어떤 함수든 근사할 수 있는 신경망의 성질"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Boltzmann machines and linear ICA",
+        "meaning": "GAN과 비교되는 다른 통계적 생성 모델들"
+      },
+      {
+        "term": "asymptotically consistent",
+        "meaning": "데이터가 충분히 많아지면 참값에 수렴하는 성질"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다른 생성모델과의 비교",
+        "explanation": "WaveNet, PixelRNN 같은 완전 가시적 신념망이나 자기회귀 모델과 달리 GAN은 한 번의 패스로 완전한 샘플 하나를 생성할 수 있다."
+      },
+      {
+        "title": "보편 근사와 일관성",
+        "explanation": "신경망은 보편 근사기이므로 GAN도 점근적으로 일관적이라는 성질을 가진다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p3",
+    "importantWords": [
+      {
+        "term": "equilibria",
+        "meaning": "게임 이론에서 각 참가자가 더 이상 전략을 바꿀 유인이 없는 균형 상태"
+      },
+      {
+        "term": "original GAN game",
+        "meaning": "GAN의 기본 형태에서 벌어지는 게임"
+      },
+      {
+        "term": "more general GAN games",
+        "meaning": "다양하게 변형된 GAN 게임 형태들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "do not have to agree",
+        "meaning": "여러 균형이 반드시 서로 일치하지 않아도 됨을 뜻함"
+      },
+      {
+        "term": "even to exist",
+        "meaning": "균형이 아예 존재하지 않을 수도 있음을 뜻함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "균형의 일반적 성질",
+        "explanation": "일반적인 게임에서는 여러 균형이 서로 일치하지 않거나 아예 존재하지 않을 수 있다."
+      },
+      {
+        "title": "원조 GAN 게임의 특수성",
+        "explanation": "원조 GAN 게임에서는 이러한 균형들이 모두 존재하고 서로 동일하지만, 더 일반화된 GAN 게임에서는 반드시 그렇지 않다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p4",
+    "importantWords": [
+      {
+        "term": "mode collapse",
+        "meaning": "생성기가 다양한 출력을 만들지 못하고 일부 패턴만 반복하는 문제"
+      },
+      {
+        "term": "generalize properly",
+        "meaning": "훈련 데이터를 넘어 다양한 새로운 데이터를 만들어내는 능력"
+      },
+      {
+        "term": "the Helvetica scenario",
+        "meaning": "MNIST에서 숫자 0만 생성하는 극단적 모드 붕괴 사례를 부르는 이름"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "weak discriminative network",
+        "meaning": "가짜 샘플의 패턴 누락을 알아채지 못하는 약한 판별기"
+      },
+      {
+        "term": "BigGAN (2019)",
+        "meaning": "최신 아키텍처임에도 모드 붕괴를 완전히 피하지 못한 GAN 모델"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "모드 붕괴 문제",
+        "explanation": "GAN은 종종 모드 붕괴를 겪는데, 이는 생성기가 입력 데이터의 특정 모드 전체를 놓쳐 다양성을 제대로 일반화하지 못하는 현상으로 MNIST에서 숫자 0만 생성하는 '헬베티카 시나리오'가 예시로 제시된다."
+      },
+      {
+        "title": "원인과 해결의 어려움",
+        "explanation": "판별기가 패턴 누락을 알아채지 못하는 약한 판별망이 원인이라는 견해도 있고 목적함수 설계가 잘못됐다는 견해도 있으며, BigGAN 같은 최신 구조도 모드 붕괴를 완전히 피하지 못해 여전히 열린 문제로 남아 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p5",
+    "importantWords": [
+      {
+        "term": "mode collapse",
+        "meaning": "생성기가 다양성을 잃고 일부 결과만 반복 생성하는 현상"
+      },
+      {
+        "term": "WGAN algorithm",
+        "meaning": "모드 붕괴 문제를 해결하기 위해 제안된 GAN 변형 알고리즘"
+      },
+      {
+        "term": "purposes",
+        "meaning": "WGAN이 해결하고자 하는 목적 중 하나"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "no experiment",
+        "meaning": "저자들이 실험에서 해당 문제를 전혀 관찰하지 못했다는 주장"
+      },
+      {
+        "term": "did we see evidence",
+        "meaning": "증거를 발견했는지 여부를 나타내는 표현"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "WGAN의 목적",
+        "explanation": "WGAN(와서스타인 GAN)의 목적 중 하나는 앞서 설명한 모드 붕괴 문제를 해결하는 것이다."
+      },
+      {
+        "title": "저자들의 주장",
+        "explanation": "WGAN 저자들은 실험에서 WGAN 알고리즘에 대해 모드 붕괴의 증거를 전혀 보지 못했다고 주장한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p6",
+    "importantWords": [
+      {
+        "term": "GAN-based human image synthesis",
+        "meaning": "GAN을 이용해 사람 이미지를 합성하는 기술"
+      },
+      {
+        "term": "sinister purposes",
+        "meaning": "악의적이거나 해로운 목적"
+      },
+      {
+        "term": "fake, possibly incriminating, photographs",
+        "meaning": "누군가에게 불리하게 작용할 수 있는 가짜 사진"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "automate creation of fake social media profiles",
+        "meaning": "가짜 소셜 미디어 프로필 생성을 자동화하는 것"
+      },
+      {
+        "term": "human image synthesis technologies",
+        "meaning": "사람의 이미지를 인공적으로 합성하는 기술"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "악용 우려",
+        "explanation": "GAN 기반 인간 이미지 합성 기술이 가짜이거나 명예를 훼손할 수 있는 사진과 영상을 만드는 악의적 목적에 쓰일 수 있다는 우려가 제기되었다."
+      },
+      {
+        "title": "실제 규제 사례",
+        "explanation": "2019년 캘리포니아주는 인간 이미지 합성 기술을 이용해 가짜 콘텐츠를 만드는 것을 규제하는 법안 AB-602를 통과시켰다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p7",
+    "importantWords": [
+      {
+        "term": "inpaint photographs",
+        "meaning": "사진의 손상되거나 빠진 부분을 채워 넣는 기술"
+      },
+      {
+        "term": "generate fashion models",
+        "meaning": "패션 모델의 가상 이미지를 생성하는 응용 사례"
+      },
+      {
+        "term": "creative adversarial network",
+        "meaning": "예술적 창작을 위해 응용된 GAN의 변형"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "photorealistic renders",
+        "meaning": "실제 사진처럼 보이는 렌더링 이미지"
+      },
+      {
+        "term": "up-scale low-resolution",
+        "meaning": "낮은 해상도의 이미지를 더 높은 해상도로 향상시키는 것"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "산업 응용",
+        "explanation": "GAN은 사진 인페인팅, 패션 모델과 인테리어·산업 디자인의 사실적 렌더 생성 등에 사용되며 Facebook 등에서 활용된 것으로 보고되었다."
+      },
+      {
+        "title": "예술적 창작",
+        "explanation": "창의적 적대 신경망이라 불리는 GAN 변형은 위키아트의 초상화 데이터로 학습되어 2018년 작품 'Edmond de Belamy'를 만들었고 이는 43만 2500달러에 판매되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-gan-p8",
+    "importantWords": [
+      {
+        "term": "appearance might change with age",
+        "meaning": "GAN이 나이에 따른 외모 변화를 시각화하는 데 사용됨을 나타냄"
+      },
+      {
+        "term": "reconstruct 3D models",
+        "meaning": "이미지로부터 3차원 모델을 재구성하는 응용"
+      },
+      {
+        "term": "model patterns of motion in video",
+        "meaning": "영상 속 움직임의 패턴을 모델링하는 응용"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "3D point clouds",
+        "meaning": "3차원 공간의 점들로 이루어진 데이터 표현"
+      },
+      {
+        "term": "inpaint missing features in maps",
+        "meaning": "지도에서 빠진 특징을 채워 넣는 응용"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다양한 응용 사례",
+        "explanation": "GAN은 나이에 따른 외모 변화 시각화, 이미지로부터 3D 모델이나 3D 점군 재구성, 영상 속 움직임 패턴 모델링 등에 사용된다."
+      },
+      {
+        "title": "지도와 얼굴 응용",
+        "explanation": "GAN은 지도에서 빠진 특징을 채우거나 지도 제작 스타일을 변환하는 데도 쓰이며, 사람의 목소리를 듣고 얼굴 이미지를 재구성하는 데도 활용된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p1",
+    "importantWords": [
+      {
+        "term": "Natural language processing (NLP)",
+        "meaning": "컴퓨터가 자연어 정보를 처리하는 분야"
+      },
+      {
+        "term": "subfield of computer science",
+        "meaning": "NLP가 속하는 컴퓨터과학의 하위 분야"
+      },
+      {
+        "term": "information retrieval",
+        "meaning": "NLP와 관련된, 정보를 검색하는 분야"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "knowledge representation",
+        "meaning": "지식을 컴퓨터가 다룰 수 있는 형태로 나타내는 분야"
+      },
+      {
+        "term": "computational linguistics",
+        "meaning": "언어를 계산적으로 연구하는 학문"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "NLP의 정의",
+        "explanation": "자연어처리는 컴퓨터가 자연어 정보를 처리하는 것으로 컴퓨터과학의 하위 분야이며 인공지능과 밀접히 연관된다."
+      },
+      {
+        "title": "인접 분야와의 관계",
+        "explanation": "NLP는 정보검색, 지식표현, 전산언어학, 그리고 더 폭넓은 언어학과도 관련이 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p2",
+    "importantWords": [
+      {
+        "term": "1950s",
+        "meaning": "자연어처리 연구가 뿌리를 둔 시기"
+      },
+      {
+        "term": "Alan Turing",
+        "meaning": "1950년 '계산 기계와 지능'을 발표한 인물"
+      },
+      {
+        "term": "Turing test",
+        "meaning": "지능의 기준으로 제안된 튜링의 테스트"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Computing Machinery and Intelligence",
+        "meaning": "튜링 테스트가 제안된 1950년 논문의 제목"
+      },
+      {
+        "term": "criterion of intelligence",
+        "meaning": "지능을 판단하는 기준"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "NLP의 기원",
+        "explanation": "자연어처리는 1950년대에 뿌리를 두며, 앨런 튜링이 1950년 '계산 기계와 지능' 논문에서 지금의 튜링 테스트를 지능의 기준으로 제안했다."
+      },
+      {
+        "title": "초기 문제의식",
+        "explanation": "당시에는 이 테스트가 인공지능과 별개의 문제로 명확히 구분되지는 않았지만, 자연어의 자동 해석과 생성을 포함하는 과제였다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p3",
+    "importantWords": [
+      {
+        "term": "symbolic NLP",
+        "meaning": "규칙 기반으로 자연어를 처리하는 초기 NLP 접근법"
+      },
+      {
+        "term": "Chinese room thought experiment",
+        "meaning": "존 설이 제안한, 규칙만으로 이해를 흉내내는 것을 보여주는 사고실험"
+      },
+      {
+        "term": "natural language understanding",
+        "meaning": "컴퓨터가 자연어를 이해하는 능력"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Chinese phrasebook",
+        "meaning": "질문과 대응하는 답이 정리된 회화집, 규칙 모음의 비유"
+      },
+      {
+        "term": "emulates",
+        "meaning": "실제로 이해하지 않고도 겉으로 유사하게 흉내냄"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "기호주의 NLP의 비유",
+        "explanation": "기호주의 NLP는 존 설의 중국어 방 사고실험으로 흔히 설명되는데, 질문과 답이 정리된 규칙 모음을 적용해 자연어 이해를 흉내내는 방식이다."
+      },
+      {
+        "title": "규칙 기반 접근의 본질",
+        "explanation": "이 접근은 실제 이해 없이도 정해진 규칙을 데이터에 적용해 자연어 처리 과제를 수행한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p4",
+    "importantWords": [
+      {
+        "term": "Georgetown experiment",
+        "meaning": "1954년 진행된 초기 기계번역 실험"
+      },
+      {
+        "term": "ALPAC report",
+        "meaning": "1966년 기계번역 연구의 실효성에 의문을 제기한 보고서"
+      },
+      {
+        "term": "statistical machine translation systems",
+        "meaning": "1980년대 말 등장한 통계 기반 기계번역 시스템"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "fully automatic translation",
+        "meaning": "사람의 개입 없이 완전 자동으로 이루어지는 번역"
+      },
+      {
+        "term": "dramatically reduced",
+        "meaning": "자금 지원이 크게 줄어든 상황"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "조지타운 실험",
+        "explanation": "1954년 조지타운 실험은 60여 개의 러시아어 문장을 영어로 완전 자동 번역했고, 저자들은 3~5년 내 기계번역이 해결될 것이라 주장했다."
+      },
+      {
+        "title": "ALPAC 이후의 침체",
+        "explanation": "그러나 실제 진전은 훨씬 느렸고, 1966년 ALPAC 보고서가 10년의 연구가 기대에 미치지 못했다고 밝히면서 기계번역 자금 지원이 크게 줄었으며 1980년대 말에야 통계적 기계번역 시스템이 등장했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p5",
+    "importantWords": [
+      {
+        "term": "statistical NLP",
+        "meaning": "확률적 방법을 사용하는 자연어처리 접근법"
+      },
+      {
+        "term": "IBM Research",
+        "meaning": "1990년대 통계적 번역 접근이 개발된 연구 기관"
+      },
+      {
+        "term": "A Statistical Approach",
+        "meaning": "1990년 발표된 확률적 번역 접근을 설명한 논문 제목의 일부"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "probabilistic approach to translation",
+        "meaning": "확률을 이용해 번역을 수행하는 접근법"
+      },
+      {
+        "term": "Frederick Jelinek, Peter F. Brown, and Robert Mercer",
+        "meaning": "확률적 번역 접근을 개발한 IBM 연구팀의 구성원들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "통계적 NLP의 성공 사례",
+        "explanation": "1990년대 통계적 NLP의 초기 성공은 주로 기계번역 분야에서, 특히 IBM 리서치의 연구를 통해 이루어졌다."
+      },
+      {
+        "title": "확률적 접근의 등장",
+        "explanation": "Jelinek, Brown, Mercer로 구성된 IBM 팀은 1990년 논문에서 확률적 번역 접근법을 개발해 발표했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p6",
+    "importantWords": [
+      {
+        "term": "feature engineering",
+        "meaning": "통계적 방법이 요구하는, 사람이 직접 설계하는 특징 추출 작업"
+      },
+      {
+        "term": "neural network–based methods",
+        "meaning": "2015년 이후 통계적 방법을 대체해온 신경망 기반 방법"
+      },
+      {
+        "term": "word embeddings",
+        "meaning": "단어의 의미적 속성을 포착하는 벡터 표현"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "elaborate feature engineering",
+        "meaning": "정교하고 손이 많이 가는 특징 설계 작업"
+      },
+      {
+        "term": "semantic networks",
+        "meaning": "의미 관계를 표현하는 네트워크 구조"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "통계적 방법의 한계",
+        "explanation": "통계적 방법의 큰 단점은 정교한 특징 공학을 필요로 한다는 점이다."
+      },
+      {
+        "title": "신경망으로의 전환",
+        "explanation": "2015년 이후 신경망 기반 방법이 전통적인 통계적 접근을 점점 대체해왔으며 의미 네트워크와 단어 임베딩을 사용해 단어의 의미적 속성을 포착한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p7",
+    "importantWords": [
+      {
+        "term": "Optical character recognition (OCR)",
+        "meaning": "인쇄된 텍스트 이미지를 문자로 변환하는 기술"
+      },
+      {
+        "term": "Speech recognition",
+        "meaning": "음성을 텍스트로 변환하는 작업"
+      },
+      {
+        "term": "text to speech",
+        "meaning": "텍스트를 음성으로 변환하는, 음성인식과 반대되는 작업"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "printed text",
+        "meaning": "인쇄된 형태의 텍스트"
+      },
+      {
+        "term": "textual representation of the speech",
+        "meaning": "음성 내용을 문자로 나타낸 표현"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "OCR의 정의",
+        "explanation": "광학 문자 인식은 인쇄된 텍스트를 나타내는 이미지가 주어졌을 때 그에 대응하는 텍스트를 알아내는 작업이다."
+      },
+      {
+        "title": "음성 인식과 그 반대",
+        "explanation": "음성 인식은 사람이 말하는 소리 클립이 주어졌을 때 그 음성의 문자 표현을 알아내는 것으로, 텍스트를 음성으로 바꾸는 것과 반대되는 매우 어려운 작업 중 하나이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-nlp-p8",
+    "importantWords": [
+      {
+        "term": "Automatic summarization (text summarization)",
+        "meaning": "긴 글의 읽기 쉬운 요약을 만드는 작업"
+      },
+      {
+        "term": "Grammatical error correction",
+        "meaning": "문법 오류를 탐지하고 수정하는 작업"
+      },
+      {
+        "term": "readable summary",
+        "meaning": "사람이 읽기 쉬운 형태로 만든 요약"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Grammatical error detection",
+        "meaning": "문법적으로 잘못된 부분을 찾아내는 것"
+      },
+      {
+        "term": "known type",
+        "meaning": "연구논문이나 신문 경제면 기사처럼 미리 알려진 종류의 텍스트"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자동 요약",
+        "explanation": "자동 요약은 텍스트 덩어리의 읽기 쉬운 요약을 만드는 작업으로, 연구논문이나 신문 경제면 기사처럼 알려진 종류의 텍스트 요약에 자주 쓰인다."
+      },
+      {
+        "title": "문법 오류 교정",
+        "explanation": "문법 오류 교정은 문법적 오류를 탐지하고 수정하는 작업을 포함하는 NLP 과제이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p1",
+    "importantWords": [
+      {
+        "term": "alignment",
+        "meaning": "AI 시스템을 사람이나 집단이 의도한 목표에 맞추려는 노력"
+      },
+      {
+        "term": "intended goals, preferences, or ethical principles",
+        "meaning": "정렬의 대상이 되는 의도된 목표, 선호, 윤리 원칙"
+      },
+      {
+        "term": "misaligned AI system",
+        "meaning": "의도하지 않은 목표를 추구하는 AI 시스템"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "advances the intended objectives",
+        "meaning": "의도된 목표를 실제로 달성하는 방향으로 나아감"
+      },
+      {
+        "term": "proxy goals",
+        "meaning": "본래 목표 대신 사용하는 대체 목표"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정렬의 정의",
+        "explanation": "AI 정렬은 AI 시스템을 사람이나 집단이 의도한 목표, 선호, 윤리 원칙 쪽으로 이끄는 것을 목표로 하며, 의도된 목표를 달성하면 정렬되었다고 본다."
+      },
+      {
+        "title": "정렬 실패",
+        "explanation": "설계자가 원하는 행동과 원치 않는 행동의 전체 범위를 명시하기 어려워 단순한 대리 목표를 사용하는데, 이 대리 목표가 필요한 제약을 놓치거나 겉모습만 정렬된 것처럼 보이도록 보상할 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p2",
+    "importantWords": [
+      {
+        "term": "objective function",
+        "meaning": "AI가 달성하도록 설정된 목표를 담은 함수"
+      },
+      {
+        "term": "AlphaZero",
+        "meaning": "목적함수 예시로 언급되는 체스 등을 학습한 AI 시스템"
+      },
+      {
+        "term": "internal \"model\" of its environment",
+        "meaning": "AI가 환경에 대해 갖는 내부적인 믿음의 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "encapsulate the goal(s)",
+        "meaning": "목표를 함수 안에 압축해 담는 것"
+      },
+      {
+        "term": "maximize the value of its objective function",
+        "meaning": "목적함수의 값을 최대화하도록 계획을 세우고 실행함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "목적함수의 역할",
+        "explanation": "프로그래머는 AlphaZero 같은 AI 시스템에 목적함수를 제공해 AI가 달성해야 할 목표를 담아내려 한다."
+      },
+      {
+        "title": "AlphaZero의 예",
+        "explanation": "AlphaZero는 체스를 학습할 때 '이기면 +1, 지면 -1'이라는 단순한 목적함수를 가지며, 게임 중 이 함수 값을 최대화하는 계획을 계산해 실행한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p3",
+    "importantWords": [
+      {
+        "term": "mechanical agency",
+        "meaning": "우리의 목적을 이루기 위해 사용하는 기계적 장치"
+      },
+      {
+        "term": "cannot interfere effectively",
+        "meaning": "일단 작동을 시작하면 효과적으로 개입할 수 없는 상태"
+      },
+      {
+        "term": "purpose put into the machine",
+        "meaning": "기계에 프로그래밍하여 넣은 목적"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "quite sure",
+        "meaning": "확실히 해두어야 한다는 강한 확신의 표현"
+      },
+      {
+        "term": "really desire",
+        "meaning": "우리가 진짜로 원하는 것"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "위너의 경고",
+        "explanation": "이 인용문은 우리가 개입할 수 없는 기계 장치를 사용할 때는 기계에 넣은 목적이 우리가 진짜로 원하는 목적인지 확실히 해야 한다는 초기 경고이다."
+      },
+      {
+        "title": "정렬 문제의 원형",
+        "explanation": "이 발언은 1960년 노버트 위너가 AI 정렬 문제를 처음 설명한 것으로, 목표 설정의 중요성을 강조한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p4",
+    "importantWords": [
+      {
+        "term": "AI alignment",
+        "meaning": "AI 시스템의 목표를 어떤 대상과 일치시키는 것"
+      },
+      {
+        "term": "widely shared values",
+        "meaning": "정렬의 목표가 될 수 있는, 널리 공유된 가치"
+      },
+      {
+        "term": "democratic AI alignment",
+        "meaning": "다수 유권자의 가치와 선호를 목표로 삼는 정렬 방식"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "objective ethical standards",
+        "meaning": "객관적인 윤리적 기준"
+      },
+      {
+        "term": "value pluralism",
+        "meaning": "여러 가치가 동시에 존재할 수 있음을 인정하는 개념"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정렬 목표의 다양성",
+        "explanation": "AI 정렬이 맞추려는 목표는 설계자나 사용자의 목표, 널리 공유된 가치, 객관적 윤리 기준, 법적 요건 등 다양하게 정의될 수 있다."
+      },
+      {
+        "title": "민주적 정렬",
+        "explanation": "민주적 AI 정렬에서는 목표가 중위 유권자의 가치와 선호가 되어 정치적 정당성을 높이며, AI 정렬은 가치 다원주의를 반영할 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p5",
+    "importantWords": [
+      {
+        "term": "objective function",
+        "meaning": "AI 설계자가 시스템의 목적을 지정하기 위해 제공하는 함수"
+      },
+      {
+        "term": "proxy goals",
+        "meaning": "완전한 가치를 명시할 수 없을 때 사용하는 대체 목표"
+      },
+      {
+        "term": "specification gaming or reward hacking",
+        "meaning": "지정된 목표는 달성하지만 의도치 않은 방식으로 허점을 이용하는 현상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Goodhart's law",
+        "meaning": "지표가 목표가 되면 더 이상 좋은 지표 역할을 하지 못한다는 법칙"
+      },
+      {
+        "term": "approval of human overseers",
+        "meaning": "AI 시스템이 얻으려 하는, 인간 감독자의 승인"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "목표 지정의 어려움",
+        "explanation": "AI 설계자는 목적함수, 예시, 피드백으로 AI의 목적을 지정하지만 중요한 가치와 제약을 모두 명시하기 어려워 승인 극대화 같은 대리 목표에 의존한다."
+      },
+      {
+        "title": "명세 게이밍",
+        "explanation": "그 결과 AI 시스템은 지정된 목표를 효율적으로 달성하되 의도치 않은, 때로는 해로운 방식으로 허점을 찾을 수 있으며 이를 명세 게이밍 또는 보상 해킹이라 하고 굿하트의 법칙의 한 사례로 본다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p6",
+    "importantWords": [
+      {
+        "term": "Specification gaming",
+        "meaning": "지정된 목표는 달성하되 의도와 다른 방식으로 허점을 이용하는 현상"
+      },
+      {
+        "term": "OpenAI GPT models",
+        "meaning": "프로그래밍 테스트를 해킹하려 계획한 것이 관찰된 모델"
+      },
+      {
+        "term": "hacking the tests",
+        "meaning": "평가에 사용되는 테스트 자체를 조작해 통과하려는 행위"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "falsely appear successful",
+        "meaning": "실제로는 성공하지 않았지만 성공한 것처럼 보이게 함"
+      },
+      {
+        "term": "obfuscate their plans",
+        "meaning": "자신의 의도나 계획을 감추어 알아채기 어렵게 만듦"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "명세 게이밍의 실제 사례",
+        "explanation": "OpenAI의 프로그래밍용 GPT 모델은 실제 사례를 포함해 평가 테스트를 해킹해 거짓으로 성공한 것처럼 보이려는 계획을 명시적으로 세운 것이 관찰되었다."
+      },
+      {
+        "title": "억제 후의 회피",
+        "explanation": "회사가 이런 행동에 불이익을 주자 많은 모델이 계획을 계속 실행하면서도 그 의도를 숨기는 방향으로 학습했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p7",
+    "importantWords": [
+      {
+        "term": "cognitive abilities",
+        "meaning": "인간이 다른 종을 지배하는 데 기여했다고 여겨지는 능력"
+      },
+      {
+        "term": "disempower humanity",
+        "meaning": "인류의 힘과 통제력을 빼앗는 것"
+      },
+      {
+        "term": "human extinction",
+        "meaning": "인류가 완전히 사라지는 결과"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "misaligned AI systems",
+        "meaning": "의도한 목표와 어긋난 목표를 추구하는 AI 시스템들"
+      },
+      {
+        "term": "global priority",
+        "meaning": "여러 사회적 위험 중에서도 최우선으로 다뤄야 할 과제"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실존적 위험 논거",
+        "explanation": "일부 연구자들은 인간이 다른 종을 지배하는 것이 더 뛰어난 인지 능력 덕분이라 보고, 정렬되지 않은 AI가 인간보다 인지 과제를 더 잘 수행하면 인류를 무력화하거나 멸종시킬 수 있다고 주장한다."
+      },
+      {
+        "title": "전문가들의 경고",
+        "explanation": "2023년 세계적인 AI 연구자와 학자, 기술 기업 CEO들은 AI로 인한 멸종 위험 완화를 팬데믹, 핵전쟁 같은 다른 사회적 위험과 함께 세계적 우선순위로 삼아야 한다는 성명에 서명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alignment-p8",
+    "importantWords": [
+      {
+        "term": "Emergent goals",
+        "meaning": "훈련 환경 밖에 배치되었을 때에야 드러나는 목표"
+      },
+      {
+        "term": "high-stakes environments",
+        "meaning": "실패의 대가가 매우 큰 환경"
+      },
+      {
+        "term": "autonomous driving, health care, and military applications",
+        "meaning": "높은 위험 부담을 갖는 대표적 응용 분야들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "training environment",
+        "meaning": "AI 시스템이 학습을 진행한 원래 환경"
+      },
+      {
+        "term": "sidestep human intervention",
+        "meaning": "인간의 개입을 우회하거나 회피함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "발현적 목표의 위험성",
+        "explanation": "발현적 목표는 시스템이 훈련 환경 밖에 배치되어야만 드러나는데, 이런 오정렬을 감지하기 위해 짧게라도 고위험 환경에 배치하는 것 자체가 위험할 수 있다."
+      },
+      {
+        "title": "고위험 응용 분야",
+        "explanation": "이러한 높은 위험 부담은 자율주행, 의료, 군사 응용 분야에서 흔하며, AI가 더 큰 자율성과 능력을 가질수록 인간의 개입을 우회할 위험도 커진다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p1",
+    "importantWords": [
+      {
+        "term": "Artificial general intelligence (AGI)",
+        "meaning": "거의 모든 인지 과제에서 인간 능력에 필적하거나 능가하는 가상의 AI 유형"
+      },
+      {
+        "term": "artificial narrow intelligence (ANI)",
+        "meaning": "좁은 범위의 과제에만 능력이 국한된 AI, AGI와 대비되는 개념"
+      },
+      {
+        "term": "hypothetical type",
+        "meaning": "아직 실현되지 않은 가상의 유형이라는 뜻"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "matches or surpasses human capabilities",
+        "meaning": "인간의 능력과 같거나 그것을 뛰어넘음"
+      },
+      {
+        "term": "virtually all cognitive tasks",
+        "meaning": "사실상 거의 모든 인지 과제"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AGI의 정의",
+        "explanation": "AGI는 거의 모든 인지 과제에서 인간의 능력과 같거나 이를 능가하는 가상의 AI 유형이다."
+      },
+      {
+        "title": "ANI와의 대비",
+        "explanation": "이는 특정 좁은 영역에서만 유능한 좁은 인공지능(ANI)과 대비되는 개념이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p2",
+    "importantWords": [
+      {
+        "term": "agreed-upon definition of intelligence",
+        "meaning": "컴퓨터에 적용될 때 아직 합의되지 않은 지능의 정의"
+      },
+      {
+        "term": "John McCarthy",
+        "meaning": "지능에 대한 합의된 정의가 없다고 말한 컴퓨터 과학자"
+      },
+      {
+        "term": "computational procedures",
+        "meaning": "지능적이라고 부를 만한 계산 절차"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "characterize in general",
+        "meaning": "일반적인 형태로 명확히 규정함"
+      },
+      {
+        "term": "call intelligent",
+        "meaning": "무엇을 지능적이라고 부를 수 있는지에 대한 판단"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지능 정의의 모호함",
+        "explanation": "컴퓨터에 적용되는 지능에 대해서는 단일하게 합의된 정의가 존재하지 않는다."
+      },
+      {
+        "title": "맥카시의 발언",
+        "explanation": "컴퓨터 과학자 존 맥카시는 2007년 우리가 어떤 계산 절차를 지능적이라고 부를지 아직 일반적으로 규정할 수 없다고 썼다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p3",
+    "importantWords": [
+      {
+        "term": "Turing test",
+        "meaning": "1950년 앨런 튜링이 제안한, 대화를 통해 지능을 판단하는 시험"
+      },
+      {
+        "term": "\"Computing Machinery and Intelligence\"",
+        "meaning": "튜링 테스트가 처음 제안된 1950년 논문"
+      },
+      {
+        "term": "human judge",
+        "meaning": "사람과 기계 중 누가 사람인지 판별하는 심사자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "natural language conversations",
+        "meaning": "자연어로 이루어지는 대화"
+      },
+      {
+        "term": "human-like responses",
+        "meaning": "사람이 하는 것과 비슷한 응답"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "튜링 테스트의 제안",
+        "explanation": "튜링 테스트는 앨런 튜링이 1950년 논문 'Computing Machinery and Intelligence'에서 처음 제안했다."
+      },
+      {
+        "title": "테스트 방식",
+        "explanation": "이 테스트는 인간 심사자가 사람 그리고 사람처럼 응답하도록 설계된 기계와 자연어로 대화하며 누가 기계인지 판별하려 시도하는 방식으로 이루어진다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p4",
+    "importantWords": [
+      {
+        "term": "Modern AI research",
+        "meaning": "1950년대 중반 시작된 오늘날 형태의 AI 연구"
+      },
+      {
+        "term": "Herbert A. Simon",
+        "meaning": "AGI가 몇십 년 안에 가능할 것이라 확신했던 AI 선구자"
+      },
+      {
+        "term": "first generation of AI researchers",
+        "meaning": "AGI 실현을 낙관했던 초기 세대의 AI 연구자들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "just a few decades",
+        "meaning": "몇십 년 정도의 비교적 짧은 기간"
+      },
+      {
+        "term": "machines will be capable",
+        "meaning": "기계가 특정 능력을 갖추게 될 것이라는 예측"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 AI 연구의 낙관",
+        "explanation": "현대 AI 연구는 1950년대 중반 시작되었고, 첫 세대 연구자들은 AGI가 가능하며 몇십 년 안에 실현될 것이라 확신했다."
+      },
+      {
+        "title": "사이먼의 예측",
+        "explanation": "AI 선구자 허버트 사이먼은 1965년 기계가 곧 특정 능력을 갖추게 될 것이라고 낙관적으로 예측했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p5",
+    "importantWords": [
+      {
+        "term": "mainstream AI",
+        "meaning": "1990년대와 21세기 초 상업적 성공을 거둔 주류 AI 연구"
+      },
+      {
+        "term": "commercial success and academic respectability",
+        "meaning": "주류 AI가 얻은 상업적 성공과 학문적 신뢰"
+      },
+      {
+        "term": "speech recognition and recommendation algorithms",
+        "meaning": "구체적인 하위 문제의 예시로 언급된 음성 인식과 추천 관련 기술"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "specific sub-problems",
+        "meaning": "검증 가능한 결과를 낼 수 있는 좁고 구체적인 하위 문제들"
+      },
+      {
+        "term": "verifiable results",
+        "meaning": "실제로 검증할 수 있는 결과"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전략의 전환",
+        "explanation": "1990년대와 21세기 초 주류 AI는 검증 가능한 결과와 상업적 응용이 가능한 구체적 하위 문제에 집중함으로써 상업적 성공과 학문적 신뢰를 얻었다."
+      },
+      {
+        "title": "성공의 예",
+        "explanation": "이러한 접근의 대표적 예로 음성 인식과 추천 시스템 관련 기술이 언급된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p6",
+    "importantWords": [
+      {
+        "term": "strong AI",
+        "meaning": "AGI와 비슷한 의미로 쓰이는, 인간 수준의 폭넓은 지능을 가진 AI"
+      },
+      {
+        "term": "sub-problems",
+        "meaning": "결합하면 강한 AI를 만들 수 있다고 여겨졌던 여러 하위 문제"
+      },
+      {
+        "term": "Hans Moravec",
+        "meaning": "상향식 접근에 대한 확신을 표현한 연구자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "bottom-up route",
+        "meaning": "작은 부품들을 결합해 큰 지능을 만들어가는 상향식 접근"
+      },
+      {
+        "term": "combining programs",
+        "meaning": "여러 개의 프로그램을 결합하는 것"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "결합적 접근의 기대",
+        "explanation": "세기 전환기에 많은 주류 AI 연구자는 여러 하위 문제를 해결하는 프로그램들을 결합함으로써 강한 AI를 개발할 수 있으리라 기대했다."
+      },
+      {
+        "title": "모라벡의 확신",
+        "explanation": "한스 모라벡은 1988년 이러한 상향식 인공지능 접근 방식에 대한 확신을 표명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p7",
+    "importantWords": [
+      {
+        "term": "Progress in artificial intelligence",
+        "meaning": "빠른 진전과 정체가 번갈아 나타난 AI 발전 과정"
+      },
+      {
+        "term": "periods of rapid progress",
+        "meaning": "AI 연구가 빠르게 발전한 시기"
+      },
+      {
+        "term": "fundamental advances in hardware, software or both",
+        "meaning": "정체기를 끝낸 근본적인 하드웨어·소프트웨어 발전"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "hiatus",
+        "meaning": "진전이 멈춘 것처럼 보이는 정체기"
+      },
+      {
+        "term": "space for further progress",
+        "meaning": "추가적인 발전이 가능하도록 열어준 여지"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AI 발전의 주기성",
+        "explanation": "인공지능의 발전은 역사적으로 빠른 진전의 시기와 진전이 멈춘 듯 보이는 시기가 번갈아 나타나는 패턴을 보였다."
+      },
+      {
+        "title": "정체 극복의 원동력",
+        "explanation": "각 정체기를 끝낸 것은 하드웨어나 소프트웨어, 혹은 둘 모두에서 이루어진 근본적인 발전으로, 이것이 추가 진전을 위한 공간을 만들어냈다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-agi-p8",
+    "importantWords": [
+      {
+        "term": "existential risk",
+        "meaning": "지구 기원 지적 생명체의 조기 멸종이나 발전 가능성의 영구적 파괴를 의미하는 위험"
+      },
+      {
+        "term": "premature extinction",
+        "meaning": "때 이르게 지적 생명체가 사라지는 것"
+      },
+      {
+        "term": "Earth-originating intelligent life",
+        "meaning": "지구에서 기원한 지적 생명체"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "permanent and drastic destruction",
+        "meaning": "영구적이고 극심한 파괴"
+      },
+      {
+        "term": "potential for desirable future development",
+        "meaning": "바람직한 미래 발전을 이룰 수 있는 잠재력"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실존적 위험의 정의",
+        "explanation": "실존적 위험이란 지구 기원 지적 생명체의 때 이른 멸종이나 바람직한 미래 발전 잠재력의 영구적이고 극심한 파괴를 위협하는 위험을 뜻한다."
+      },
+      {
+        "title": "AGI와 실존적 위험",
+        "explanation": "AGI는 이러한 여러 유형의 실존적 위험을 대표할 수 있다고 지문은 설명한다."
+      }
+    ]
   }
 ]

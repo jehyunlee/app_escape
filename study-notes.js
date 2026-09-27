@@ -1,9 +1,17 @@
 import scienceNotes from "./assets/wikipedia/science-notes.json" with { type: "json" };
 import aiNotes from "./assets/wikipedia/ai-notes.json" with { type: "json" };
 import historyNotes from "./assets/wikipedia/history-notes.json" with { type: "json" };
+import psychologyNotes from "./assets/wikipedia/psychology-notes.json" with { type: "json" };
+import metascienceNotes from "./assets/wikipedia/metascience-notes.json" with { type: "json" };
 
 const notesByPassage = new Map();
-for (const note of [...scienceNotes, ...aiNotes, ...historyNotes]) {
+for (const note of [
+  ...scienceNotes,
+  ...aiNotes,
+  ...historyNotes,
+  ...psychologyNotes,
+  ...metascienceNotes,
+]) {
   if (notesByPassage.has(note.passageId))
     throw new Error(`Duplicate study notes: ${note.passageId}`);
   notesByPassage.set(note.passageId, note);

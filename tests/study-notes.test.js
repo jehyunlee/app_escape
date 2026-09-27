@@ -26,17 +26,20 @@ function submit(state, slot, correct) {
 }
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-test("all 240 Wikipedia passages have relevant Korean vocabulary and concept notes", () => {
+const NOTE_TOPICS = ["science", "ai", "history", "psychology", "metascience"];
+const NOTES_PER_TOPIC = 144;
+
+test("all 720 Wikipedia passages have relevant Korean vocabulary and concept notes", () => {
   let total = 0;
-  for (const [index, topic] of ["science", "ai", "history"].entries()) {
+  for (const [index, topic] of NOTE_TOPICS.entries()) {
     const notes = JSON.parse(
       readFileSync(
         new URL(`../assets/wikipedia/${topic}-notes.json`, import.meta.url),
         "utf8",
       ),
     );
-    assert.equal(notes.length, 80, topic);
-    assert.equal(new Set(notes.map((n) => n.passageId)).size, 80);
+    assert.equal(notes.length, NOTES_PER_TOPIC, topic);
+    assert.equal(new Set(notes.map((n) => n.passageId)).size, NOTES_PER_TOPIC);
     const sources = JSON.parse(
       readFileSync(
         new URL(`../assets/wikipedia/${topic}-sources.json`, import.meta.url),
@@ -81,7 +84,7 @@ test("all 240 Wikipedia passages have relevant Korean vocabulary and concept not
     for (const q of questionPool(index + 1, "dad"))
       assert.equal(studyNotesFor(q).passageId, q.passageId);
   }
-  assert.equal(total, 240);
+  assert.equal(total, NOTE_TOPICS.length * NOTES_PER_TOPIC);
 });
 
 test("right and wrong answers get the same passage-specific study notes", () => {
