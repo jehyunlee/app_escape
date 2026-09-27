@@ -2402,6 +2402,619 @@ const questionSpecs = [
     explanation: "AI winter는 AI 연구의 자금과 관심이 줄어드는 기간입니다.",
     difficulty: 1,
   },
+
+  // 145 target 0
+  {
+    id: "dad-ai-v2-145",
+    topic: "ai",
+    passageId: "ai-alan-turing-p1",
+    prompt: "According to the passage, what is Alan Turing widely regarded as?",
+    options: [
+      "The father of theoretical computer science",
+      "The inventor of the World Wide Web",
+      "The founder of modern chemistry",
+      "The first person to fly an airplane",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 앨런 튜링이 이론 컴퓨터 과학의 아버지로 널리 여겨진다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 146 target 1
+  {
+    id: "dad-ai-v2-146",
+    topic: "ai",
+    passageId: "ai-alan-turing-p2",
+    prompt: "What did Queen Elizabeth II do for Turing in 2013, per the passage?",
+    options: [
+      "She knighted him posthumously.",
+      "She granted him a pardon.",
+      "She awarded him a Nobel Prize.",
+      "She named a university after him.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 2013년 엘리자베스 2세 여왕이 튜링에게 사면을 내렸다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 147 target 2
+  {
+    id: "dad-ai-v2-147",
+    topic: "ai",
+    passageId: "ai-alan-turing-p3",
+    prompt: "How did Turing travel to Sherborne School on the first day of term, according to the passage?",
+    options: [
+      "He was driven by his parents.",
+      "He walked the entire distance from Guildford.",
+      "He rode his bicycle unaccompanied 60 miles from Southampton.",
+      "He took a train from London.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 총파업 중에도 튜링이 사우샘프턴에서 셔번까지 혼자 자전거로 60마일을 갔다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 148 target 3
+  {
+    id: "dad-ai-v2-148",
+    topic: "ai",
+    passageId: "ai-alan-turing-p4",
+    prompt: "What did Turing manage to do after encountering Einstein's work in 1928, per the passage?",
+    options: [
+      "He rejected Einstein's ideas entirely.",
+      "He wrote a rebuttal published in a journal.",
+      "He met Einstein in person to discuss it.",
+      "He possibly deduced Einstein's questioning of Newton's laws of motion.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 튜링이 아인슈타인의 글에서 명시되지 않은 뉴턴 운동법칙에 대한 의문 제기를 스스로 추론했을 가능성이 있다고 설명합니다.",
+    difficulty: 3,
+  },
+  // 149 target 0
+  {
+    id: "dad-ai-v2-149",
+    topic: "ai",
+    passageId: "ai-alan-turing-p5",
+    prompt: "What did Turing write to Morcom's mother about the connection between spirit and body, per the passage?",
+    options: [
+      "That the body holds onto a spirit while alive, and when the body dies the spirit finds a new body.",
+      "That spirit and body have no relationship at all.",
+      "That spirit is purely a religious myth with no basis.",
+      "That only scientists can perceive the spirit.",
+    ],
+    answer: 0,
+    explanation:
+      "지문에서 튜링은 몸이 살아있는 동안 정신을 붙잡고 있으며, 몸이 죽으면 정신이 새로운 몸을 찾는다고 썼습니다.",
+    difficulty: 2,
+  },
+  // 150 target 1
+  {
+    id: "dad-ai-v2-150",
+    topic: "ai",
+    passageId: "ai-alan-turing-p6",
+    prompt: "What was the subject of Turing's dissertation delivered in November 1934, per the passage?",
+    options: [
+      "The design of the Automatic Computing Engine.",
+      "The Gaussian error function, proving a version of the central limit theorem.",
+      "The Enigma machine's cryptographic weaknesses.",
+      "Chemical oscillators in morphogenesis.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 튜링의 학위 논문이 가우스 오차함수에 관한 것이며 중심극한정리의 한 형태를 증명했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 151 target 2
+  {
+    id: "dad-ai-v2-151",
+    topic: "ai",
+    passageId: "ai-geoffrey-hinton-p1",
+    prompt: "Why did Hinton announce his departure from Google in May 2023, per the passage?",
+    options: [
+      "He wanted to start his own AI company.",
+      "He was forced to retire due to age.",
+      "He cited concerns about the many risks of artificial intelligence technology.",
+      "He disagreed with Google's advertising policies.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 힌튼이 인공지능 기술의 여러 위험에 대한 우려를 이유로 구글을 떠난다고 발표했다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 152 target 3
+  {
+    id: "dad-ai-v2-152",
+    topic: "ai",
+    passageId: "ai-geoffrey-hinton-p2",
+    prompt: "What degree did Hinton graduate with from King's College, Cambridge in 1970, per the passage?",
+    options: [
+      "A PhD in artificial intelligence",
+      "A Bachelor of Science in computer science",
+      "A Master's degree in philosophy",
+      "A Bachelor of Arts in experimental psychology",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 힌튼이 1970년 실험심리학 학사 학위(BA)로 졸업했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 153 target 0
+  {
+    id: "dad-ai-v2-153",
+    topic: "ai",
+    passageId: "ai-geoffrey-hinton-p3",
+    prompt: "What did Hinton co-found in 2012 with his two graduate students, per the passage?",
+    options: [
+      "DNNresearch Inc.",
+      "The Vector Institute",
+      "The Gatsby Charitable Foundation",
+      "CIFAR",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 힌튼이 2012년 대학원생 두 명과 함께 DNNresearch Inc.를 공동 설립했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 154 target 1
+  {
+    id: "dad-ai-v2-154",
+    topic: "ai",
+    passageId: "ai-geoffrey-hinton-p4",
+    prompt: "What visualization method did Hinton develop with Laurens van der Maaten in 2008, per the passage?",
+    options: [
+      "PCA",
+      "t-SNE",
+      "GLOM",
+      "The Forward-Forward algorithm",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 힌튼이 2008년 로렌스 반 데어 마텐과 함께 t-SNE라는 시각화 방법을 개발했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 155 target 2
+  {
+    id: "dad-ai-v2-155",
+    topic: "ai",
+    passageId: "ai-geoffrey-hinton-p5",
+    prompt: "What is the Forward-Forward algorithm well-suited for, according to the passage?",
+    options: [
+      "Traditional backpropagation with a single forward pass",
+      "Replacing all forms of neural network training permanently",
+      "\"Mortal computation\", where learned knowledge dies with the hardware",
+      "Training only on negative data",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 Forward-Forward 알고리즘이 학습된 지식이 하드웨어와 함께 사라지는 '유한한 계산(mortal computation)'에 적합하다고 설명합니다.",
+    difficulty: 3,
+  },
+  // 156 target 3
+  {
+    id: "dad-ai-v2-156",
+    topic: "ai",
+    passageId: "ai-geoffrey-hinton-p6",
+    prompt: "What honor did Hinton receive together with John Hopfield in 2024, per the passage?",
+    options: [
+      "The Turing Award",
+      "The Kyoto Prize",
+      "The National Medal of Science",
+      "The Nobel Prize in Physics",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 2024년 힌튼이 존 홉필드와 공동으로 노벨 물리학상을 받았다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 157 target 0
+  {
+    id: "dad-ai-v2-157",
+    topic: "ai",
+    passageId: "ai-claude-shannon-p1",
+    prompt: "What is Claude Shannon known as, according to the passage?",
+    options: [
+      "The father of information theory",
+      "The father of quantum mechanics",
+      "The inventor of the internet",
+      "The founder of modern chemistry",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 클로드 섀넌이 '정보 이론의 아버지'로 알려져 있다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 158 target 1
+  {
+    id: "dad-ai-v2-158",
+    topic: "ai",
+    passageId: "ai-claude-shannon-p2",
+    prompt: "What did Shannon's 1948 paper 'A Mathematical Theory of Communication' establish, per the passage?",
+    options: [
+      "The foundations of quantum computing",
+      "The foundations for the field of information theory",
+      "The design of the Enigma machine",
+      "The rules of Boolean algebra itself",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 섀넌의 1948년 논문 '통신의 수학적 이론'이 정보이론 분야의 토대를 마련했다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 159 target 2
+  {
+    id: "dad-ai-v2-159",
+    topic: "ai",
+    passageId: "ai-claude-shannon-p3",
+    prompt: "What did Shannon design while studying Vannevar Bush's differential analyzer at MIT, per the passage?",
+    options: [
+      "The first digital computer",
+      "The Enigma decryption machine",
+      "Switching circuits based on Boole's concepts",
+      "A radio-controlled model boat for the Navy",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 섀넌이 부시의 미분해석기를 연구하며 불의 개념에 기반한 스위칭 회로를 설계했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 160 target 3
+  {
+    id: "dad-ai-v2-160",
+    topic: "ai",
+    passageId: "ai-claude-shannon-p4",
+    prompt: "What did Shannon's PhD thesis, 'An Algebra for Theoretical Genetics', apply an algebraic framework to, per the passage?",
+    options: [
+      "Cryptographic key generation",
+      "Digital circuit switching theory",
+      "Fire-control prediction systems",
+      "Theoretical population genetics",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 섀넌의 박사 논문이 이론적 개체군 유전학 연구에 대수적 틀을 적용한 초기 사례 중 하나라고 설명합니다.",
+    difficulty: 2,
+  },
+  // 161 target 0
+  {
+    id: "dad-ai-v2-161",
+    topic: "ai",
+    passageId: "ai-claude-shannon-p5",
+    prompt: "What did Turing show Shannon when they met at teatime in 1943, per the passage?",
+    options: [
+      "His 1936 paper defining the universal Turing machine",
+      "His plans for the Enigma machine",
+      "A prototype of the Automatic Computing Engine",
+      "His work on morphogenesis",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 튜링이 섀넌에게 1936년 논문에서 정의한 '보편 튜링 기계' 개념을 보여주었다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 162 target 1
+  {
+    id: "dad-ai-v2-162",
+    topic: "ai",
+    passageId: "ai-claude-shannon-p6",
+    prompt: "What did Shannon prove about the cryptographic one-time pad while at Bell Labs, per the passage?",
+    options: [
+      "That it could always be broken with enough computing power",
+      "That it is unbreakable",
+      "That it required a reused key to function",
+      "That it was only theoretical and never usable",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 섀넌이 벨 연구소에서 일회용 암호표(one-time pad)가 해독 불가능함을 증명했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 163 target 2
+  {
+    id: "dad-ai-v2-163",
+    topic: "ai",
+    passageId: "ai-john-mccarthy-p1",
+    prompt: "What did McCarthy co-author the proposal for, per the passage?",
+    options: [
+      "The Manhattan Project",
+      "The Turing test",
+      "The Dartmouth workshop that coined the term \"artificial intelligence\"",
+      "The first Enigma decryption effort",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 매카시가 '인공지능'이라는 용어를 만든 다트머스 워크숍 제안서를 공동 작성했다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 164 target 3
+  {
+    id: "dad-ai-v2-164",
+    topic: "ai",
+    passageId: "ai-john-mccarthy-p2",
+    prompt: "What did McCarthy receive a PhD in from Princeton in 1951, per the passage?",
+    options: [
+      "Physics",
+      "Electrical engineering",
+      "Cognitive psychology",
+      "Mathematics",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 매카시가 1951년 프린스턴에서 수학 박사 학위를 받았다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 165 target 0
+  {
+    id: "dad-ai-v2-165",
+    topic: "ai",
+    passageId: "ai-john-mccarthy-p3",
+    prompt: "What did McCarthy invent around 1959 to solve memory management problems in Lisp, per the passage?",
+    options: [
+      "Garbage collection methods",
+      "The lambda calculus",
+      "Time-sharing systems",
+      "The ALGOL 60 standard",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 매카시가 1959년경 리스프의 문제를 해결하기 위해 '가비지 컬렉션' 기법을 발명했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 166 target 1
+  {
+    id: "dad-ai-v2-166",
+    topic: "ai",
+    passageId: "ai-john-mccarthy-p4",
+    prompt: "What did McCarthy develop between 1978 and 1986, per the passage?",
+    options: [
+      "The Lisp programming language",
+      "The circumscription method of non-monotonic reasoning",
+      "The concept of utility computing",
+      "The advice taker system",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 매카시가 1978년부터 1986년까지 비단조 추론의 서컴스크립션(circumscription) 기법을 개발했다고 설명합니다.",
+    difficulty: 3,
+  },
+  // 167 target 2
+  {
+    id: "dad-ai-v2-167",
+    topic: "ai",
+    passageId: "ai-john-mccarthy-p5",
+    prompt: "What did John Searle propose in 1980 in response to McCarthy's article, per the passage?",
+    options: [
+      "The advice taker",
+      "The theory of bounded rationality",
+      "The Chinese Room Argument",
+      "The Turing test",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 철학자 존 설이 1980년 매카시의 글에 대한 반응으로 '중국어 방 논증'을 제시했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 168 target 3
+  {
+    id: "dad-ai-v2-168",
+    topic: "ai",
+    passageId: "ai-john-mccarthy-p6",
+    prompt: "How did Hubert Dreyfus view human reasoning, in contrast to McCarthy, per the passage?",
+    options: [
+      "As entirely reducible to formal logic",
+      "As identical to machine computation",
+      "As irrelevant to philosophy",
+      "As something more than just logic",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 드레이퓌스가 인간의 추론을 단순한 논리 이상의 것으로 보았다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 169 target 0
+  {
+    id: "dad-ai-v2-169",
+    topic: "ai",
+    passageId: "ai-ada-lovelace-p1",
+    prompt: "What is Ada Lovelace often considered, per the passage?",
+    options: [
+      "The first computer programmer",
+      "The inventor of the analytical engine",
+      "The founder of modern cryptography",
+      "The first female mathematician in history",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 에이다 러브레이스가 흔히 최초의 컴퓨터 프로그래머로 여겨진다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 170 target 1
+  {
+    id: "dad-ai-v2-170",
+    topic: "ai",
+    passageId: "ai-ada-lovelace-p2",
+    prompt: "What is often called the first published computer program, per the passage?",
+    options: [
+      "Babbage's original blueprint for the difference engine",
+      "Lovelace's method for calculating Bernoulli numbers using the machine",
+      "A translation of Menabrea's article without any notes",
+      "A method for encoding music into punched cards",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 러브레이스가 만든 베르누이 수를 계산하는 방법이 흔히 최초로 발표된 컴퓨터 프로그램으로 불린다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 171 target 2
+  {
+    id: "dad-ai-v2-171",
+    topic: "ai",
+    passageId: "ai-ada-lovelace-p3",
+    prompt: "What happened to Lovelace in June 1829, per the passage?",
+    options: [
+      "She married William King.",
+      "She met Charles Babbage for the first time.",
+      "She was paralyzed after a bout of measles.",
+      "She published her notes on the analytical engine.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 1829년 6월 러브레이스가 홍역을 앓은 후 마비되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 172 target 3
+  {
+    id: "dad-ai-v2-172",
+    topic: "ai",
+    passageId: "ai-ada-lovelace-p4",
+    prompt: "What was Ada's project at age twelve, in February 1828, per the passage?",
+    options: [
+      "To design a mechanical calculating engine",
+      "To translate a French mathematics textbook",
+      "To study astronomy with a private observatory",
+      "To construct wings and write a book called Flyology",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 12살의 에이다가 날고 싶어서 날개를 제작하고 'Flyology'라는 책을 쓰기로 했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 173 target 0
+  {
+    id: "dad-ai-v2-173",
+    topic: "ai",
+    passageId: "ai-ada-lovelace-p5",
+    prompt: "On what date did Ada marry William, 8th Baron King, per the passage?",
+    options: [
+      "8 July 1835",
+      "24 February 1834",
+      "16 January 1816",
+      "27 February 1841",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 에이다가 1835년 7월 8일 윌리엄 킹 남작과 결혼했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 174 target 1
+  {
+    id: "dad-ai-v2-174",
+    topic: "ai",
+    passageId: "ai-ada-lovelace-p6",
+    prompt: "What did Ada's mother reveal to Ada and Medora Leigh in 1841, per the passage?",
+    options: [
+      "That Babbage had abandoned the analytical engine",
+      "That Ada's father was also Medora's father",
+      "That Ada's marriage was arranged for money",
+      "That Ada had a secret twin sister",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 1841년 에이다의 어머니가 에이다의 아버지가 메도라의 아버지이기도 하다는 사실을 알렸다고 설명합니다.",
+    difficulty: 3,
+  },
+  // 175 target 2
+  {
+    id: "dad-ai-v2-175",
+    topic: "ai",
+    passageId: "ai-herbert-a-simon-p1",
+    prompt: "What is Herbert Simon best known for, according to the passage?",
+    options: [
+      "The invention of the Turing machine",
+      "The discovery of the Enigma cipher weakness",
+      "The theories of \"bounded rationality\" and \"satisficing\"",
+      "The theory of information entropy",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 허버트 사이먼이 '제한된 합리성'과 '만족화' 이론으로 가장 잘 알려져 있다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 176 target 3
+  {
+    id: "dad-ai-v2-176",
+    topic: "ai",
+    passageId: "ai-herbert-a-simon-p2",
+    prompt: "Why did Simon choose not to pursue biology despite his interest, per the passage?",
+    options: [
+      "Because his family forbade it",
+      "Because he failed his biology entrance exam",
+      "Because he preferred pure mathematics instead",
+      "Because of his color-blindness and awkwardness in the laboratory",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 사이먼이 색맹과 실험실에서의 서투름 때문에 생물학을 추구하지 않기로 했다고 설명합니다.",
+    difficulty: 2,
+  },
+  // 177 target 0
+  {
+    id: "dad-ai-v2-177",
+    topic: "ai",
+    passageId: "ai-herbert-a-simon-p3",
+    prompt: "What book made Simon best known for his theory of corporate decision, per the passage?",
+    options: [
+      "Administrative Behavior",
+      "The General Problem Solver",
+      "The Logic Theory Machine",
+      "An Algebra for Theoretical Genetics",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 사이먼이 저서 'Administrative Behavior'로 기업 의사결정 이론에 있어 가장 잘 알려지게 되었다고 설명합니다.",
+    difficulty: 1,
+  },
+  // 178 target 1
+  {
+    id: "dad-ai-v2-178",
+    topic: "ai",
+    passageId: "ai-herbert-a-simon-p4",
+    prompt: "What three steps did Simon divide the task of rational choice into, per the passage?",
+    options: [
+      "Gathering data, running simulations, and publishing results",
+      "Identifying alternatives, determining consequences, and comparing accuracy and efficiency of consequences",
+      "Forming a hypothesis, testing it, and revising the theory",
+      "Setting a budget, hiring staff, and evaluating performance",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 선택의 과제를 대안 나열, 결과 판단, 정확성과 효율성 비교의 세 단계로 나눴다고 설명합니다.",
+    difficulty: 3,
+  },
+  // 179 target 2
+  {
+    id: "dad-ai-v2-179",
+    topic: "ai",
+    passageId: "ai-herbert-a-simon-p5",
+    prompt: "What two universal elements of human social behavior did Simon see as key to organizational behavior, per the passage?",
+    options: [
+      "Wealth and Status",
+      "Rationality and Emotion",
+      "Authority and Loyalties and Identification",
+      "Competition and Cooperation",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 사이먼이 조직적 행동을 가능하게 하는 인간 사회적 행동의 두 보편 요소로 권위와 충성/동일시를 꼽았다고 설명합니다.",
+    difficulty: 3,
+  },
+  // 180 target 3
+  {
+    id: "dad-ai-v2-180",
+    topic: "ai",
+    passageId: "ai-herbert-a-simon-p6",
+    prompt: "What programs did Simon create with Allen Newell, per the passage?",
+    options: [
+      "The Boltzmann machine and t-SNE",
+      "Lisp and ALGOL",
+      "The universal Turing machine and Enigma decoder",
+      "The Logic Theory Machine and the General Problem Solver",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 사이먼이 앨런 뉴얼과 함께 논리 이론 기계와 일반 문제 해결기(GPS)를 만들었다고 설명합니다.",
+    difficulty: 1,
+  },
 ];
 
 const sourceForArticle = (article) => ({

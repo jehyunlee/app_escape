@@ -2268,6 +2268,546 @@ const questionSpecs = [
       "지문은 technical note를 기존 것을 개선해 새롭고 더 효과적으로 만든 기술이나 장비에 대한 설명이라고 정의합니다.",
     difficulty: 2,
   },
+  {
+    id: "dad-metascience-v2-145",
+    passageId: "metascience-derek-j-de-solla-price-p1",
+    prompt: "What did Price notice while arranging volumes of the Philosophical Transactions of the Royal Society in Singapore?",
+    options: [
+      "Their yearly height increased exponentially with time.",
+      "They were missing many volumes.",
+      "They decreased in size over the decades.",
+      "They were written in Latin rather than English.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 프라이스가 학술지 연보를 연대순으로 정리하다가 해마다 그 두께가 지수적으로 늘어난다는 사실을 발견했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-146",
+    passageId: "metascience-derek-j-de-solla-price-p2",
+    prompt: "Whom is \"The Equatorie of the Planetis\" now attributed to, according to the passage?",
+    options: [
+      "Joseph Needham",
+      "A St Albans monk called John Westwyk",
+      "C. Northcote Parkinson",
+      "Geoffrey Chaucer",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 이 필사본이 원래 초서의 저작으로 여겨졌지만 지금은 세인트 올번스의 수도사 존 웨스트윅의 것으로 귀속된다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-147",
+    passageId: "metascience-derek-j-de-solla-price-p3",
+    prompt: "What book resulted from Price's 1959 lecture series at Yale?",
+    options: [
+      "Science since Babylon",
+      "The Pasteurization of France",
+      "Little Science, Big Science",
+      "We Have Never Been Modern",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 프라이스가 1959년 예일대에서 한 강연 시리즈가 Science since Babylon(1961)이라는 책의 토대가 되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-148",
+    passageId: "metascience-derek-j-de-solla-price-p4",
+    prompt: "What term did Price use to refer to the network of scientific communication existing outside formal channels?",
+    options: [
+      "The \"hidden network\"",
+      "The \"invisible college\"",
+      "The \"shadow academy\"",
+      "The \"silent society\"",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 프라이스가 공식 채널 밖에 존재하는 과학 소통망을 '보이지 않는 대학'이라고 불렀다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-149",
+    passageId: "metascience-derek-j-de-solla-price-p5",
+    prompt: "According to the passage, which law is a better empirical fit for the distribution of scientific publications among authors?",
+    options: [
+      "Price's law",
+      "Newton's law",
+      "Lotka's law",
+      "An extended version of Zipf's law",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 프라이스 법칙은 실증 자료와 잘 맞지 않는 반면 관련된 로트카 법칙은 잘 들어맞는다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-150",
+    passageId: "metascience-derek-j-de-solla-price-p6",
+    prompt: "In which publication did Price's 1959 article \"An Ancient Greek Computer\" appear, according to the passage?",
+    options: [
+      "Science",
+      "The Geographical Journal",
+      "Nature",
+      "Scientific American",
+    ],
+    answer: 3,
+    explanation:
+      "지문의 서지 목록에 따르면 'An Ancient Greek Computer'는 Scientific American에 실렸습니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-151",
+    passageId: "metascience-thomas-kuhn-p1",
+    prompt: "According to the passage, what determines scientific truth at a given moment, in Kuhn's view?",
+    options: [
+      "Objective criteria alone",
+      "Government regulation",
+      "A consensus of a scientific community",
+      "Mathematical proof",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 쿤이 과학적 진리는 객관적 기준만으로 정해지는 것이 아니라 과학 공동체의 합의로 정의된다고 주장했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-152",
+    passageId: "metascience-thomas-kuhn-p2",
+    prompt: "Under whose supervision did Kuhn obtain his PhD in physics?",
+    options: [
+      "Niels Bohr",
+      "James B. Conant",
+      "Karl Popper",
+      "John Van Vleck",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 쿤이 존 밴 블렉의 지도 아래 1949년 물리학 박사 학위를 받았다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-153",
+    passageId: "metascience-thomas-kuhn-p3",
+    prompt: "According to the passage, in what publication was The Structure of Scientific Revolutions originally printed as an article?",
+    options: [
+      "Scientific American",
+      "The International Encyclopedia of Unified Science, published by the Vienna Circle logical positivists",
+      "The Journal of the History of Science",
+      "Philosophical Transactions of the Royal Society",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 과학혁명의 구조가 원래 비엔나 서클 논리실증주의자들이 발간한 통일과학 국제백과사전의 논문으로 인쇄되었다고 설명합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-metascience-v2-154",
+    passageId: "metascience-thomas-kuhn-p4",
+    prompt: "Whose falsifiability criterion does the passage say Kuhn's account of normal science runs contrary to?",
+    options: [
+      "Robert Merton's",
+      "Derek de Solla Price's",
+      "Ludwik Fleck's",
+      "Karl Popper's",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 정상과학 시기에 이상 결과를 이론의 반박이 아니라 연구자의 실수로 본다는 점이 칼 포퍼의 반증 가능성 기준과 대조된다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-155",
+    passageId: "metascience-thomas-kuhn-p5",
+    prompt: "According to the passage, what is described as the single most widely cited book in the social sciences?",
+    options: [
+      "Little Science, Big Science",
+      "The Structure of Scientific Revolutions",
+      "The Open Society and Its Enemies",
+      "We Have Never Been Modern",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 The Structure of Scientific Revolutions가 사회과학 분야에서 가장 많이 인용되는 단일 저서라고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-156",
+    passageId: "metascience-thomas-kuhn-p6",
+    prompt: "Which of the following is listed in the passage as one of Kuhn's five criteria for theory choice?",
+    options: [
+      "Popularity among the general public",
+      "Endorsement by a government agency",
+      "Fruitful — disclosing new phenomena or relationships",
+      "Low cost of experimentation",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 쿤의 다섯 가지 이론 선택 기준 중 하나로 새로운 현상이나 관계를 드러내는 '생산성(Fruitful)'을 제시합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-157",
+    passageId: "metascience-karl-popper-p1",
+    prompt: "According to the passage, what did Popper believe a theory in the empirical sciences can never be?",
+    options: [
+      "Falsified",
+      "Proven",
+      "Tested",
+      "Published",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 포퍼에 따르면 경험과학의 이론은 결코 증명될 수 없으며 다만 반증될 수 있을 뿐이라고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-158",
+    passageId: "metascience-karl-popper-p2",
+    prompt: "According to the passage, how large was Popper's father's personal library?",
+    options: [
+      "About 100 volumes",
+      "12,000–14,000 volumes",
+      "Over 1 million volumes",
+      "Exactly 6,000 volumes",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 포퍼의 아버지가 개인 서재에 12,000~14,000권의 장서를 보유한 애서가였다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-159",
+    passageId: "metascience-karl-popper-p3",
+    prompt: "According to the passage, what did Popper put forth as the criterion demarcating science from non-science in Logik der Forschung?",
+    options: [
+      "Peer review",
+      "Statistical significance",
+      "Potential falsifiability",
+      "Reproducibility of citations",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 포퍼가 Logik der Forschung에서 잠재적 반증 가능성을 과학과 비과학을 구분하는 기준으로 제시했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-160",
+    passageId: "metascience-karl-popper-p4",
+    prompt: "According to the passage, at which institution did Popper become a reader in logic and scientific method in 1946?",
+    options: [
+      "The University of Vienna",
+      "Canterbury University College",
+      "The University of Klagenfurt",
+      "The London School of Economics",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 포퍼가 1946년 런던 정치경제대학교(LSE)에서 논리학과 과학적 방법의 리더가 되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-161",
+    passageId: "metascience-karl-popper-p5",
+    prompt: "According to the passage, which university acquired Popper's library in 1995?",
+    options: [
+      "Stanford University",
+      "The University of Vienna",
+      "The University of Klagenfurt",
+      "The London School of Economics",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 클라겐푸르트 대학교가 1995년 포퍼의 장서를 인수했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-162",
+    passageId: "metascience-karl-popper-p6",
+    prompt: "According to the passage, what were Popper's two most important works in the field of social science?",
+    options: [
+      "Little Science, Big Science and Science since Babylon",
+      "The Poverty of Historicism and The Open Society and Its Enemies",
+      "Laboratory Life and Science in Action",
+      "The Structure of Scientific Revolutions and Objectivity, Value Judgment, and Theory Choice",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 포퍼의 사회과학 분야 가장 중요한 저작으로 The Poverty of Historicism과 The Open Society and Its Enemies를 언급합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-163",
+    passageId: "metascience-john-ioannidis-p1",
+    prompt: "According to the passage, what made Ioannidis's 2005 essay notable as of 2020?",
+    options: [
+      "It was the most-accessed article in the history of PLOS, with over three million views.",
+      "It was translated into 50 languages.",
+      "It won the Nobel Prize.",
+      "It was retracted for plagiarism.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 이오아니디스의 2005년 에세이가 2020년 기준 PLOS 역사상 가장 많이 접속된 논문으로 3백만 회 이상의 조회수를 기록했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-164",
+    passageId: "metascience-john-ioannidis-p2",
+    prompt: "According to the passage, what term did Trikalinos and Ioannidis coin to describe early studies finding larger effects than later ones?",
+    options: [
+      "The Matthew effect",
+      "The h-index",
+      "The Proteus phenomenon",
+      "Publish or perish",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 트리칼리노스와 이오아니디스가 초기 연구가 이후 연구보다 더 큰 효과를 발견하는 경향을 '프로테우스 현상'이라 명명했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-165",
+    passageId: "metascience-john-ioannidis-p3",
+    prompt: "According to the passage, what is the Manifesto for Reproducible Science?",
+    options: [
+      "A funding proposal for the NIH",
+      "A peer review guideline for physics journals",
+      "A biography of Karl Popper",
+      "An eight-page document addressing flaws in the scientific process and the reproducibility crisis",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 이오아니디스가 공동 저술한 Manifesto for Reproducible Science가 과학 과정의 결함과 재현성 위기를 다루는 8페이지 문서라고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-166",
+    passageId: "metascience-john-ioannidis-p4",
+    prompt: "According to the passage, which biases does the passage say Ioannidis has worked on adjusting meta-analysis results for?",
+    options: [
+      "Only sampling bias",
+      "Publication bias and reporting bias resulting in funnel-plot asymmetry",
+      "Only survivorship bias",
+      "Only confirmation bias in interviews",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 이오아니디스가 깔때기 도표 비대칭을 유발하는 출판 편향과 보고 편향 등을 조정하는 방법을 연구했다고 설명합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-metascience-v2-167",
+    passageId: "metascience-john-ioannidis-p5",
+    prompt: "According to the passage, what fraction of interventions tested in Cochrane Reviews were found to have benefits supported by high-quality evidence?",
+    options: [
+      "1 in 2",
+      "1 in 20",
+      "All of them",
+      "None of them",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 코크란 리뷰에서 검증된 개입 중 고품질 근거로 뒷받침되는 이득을 가진 것은 20개 중 1개에 불과하다는 연구를 인용합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-168",
+    passageId: "metascience-john-ioannidis-p6",
+    prompt: "According to the passage, which randomized trial comparing diets did Ioannidis co-author?",
+    options: [
+      "A trial proving low-fat diets are always superior",
+      "A trial funded exclusively by a supplement company",
+      "The DIETFITS trial showing no difference between low-fat and low-carb diets",
+      "A trial on caffeine and reaction time",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 이오아니디스가 저지방 식단과 저탄수화물 식단 사이에 차이가 없음을 보여준 DIETFITS 무작위 시험을 공동 저술했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-169",
+    passageId: "metascience-robert-k-merton-p1",
+    prompt: "According to the passage, what was Merton awarded the National Medal of Science for in 1994?",
+    options: [
+      "His contributions to the field and for founding the sociology of science",
+      "His contributions to physics",
+      "His invention of the h-index",
+      "His discovery of the Antikythera mechanism",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 머튼이 1994년 자신의 학문적 기여와 과학사회학 창시에 대해 국가과학훈장을 받았다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-170",
+    passageId: "metascience-robert-k-merton-p2",
+    prompt: "According to the passage, what was Merton's birth name?",
+    options: [
+      "Meyer Robert Schkolnick",
+      "Robert K. Merton",
+      "Aaron Schkolnickoff",
+      "Harrie Skolnick",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 머튼이 원래 마이어 로버트 슈콜닉이라는 이름으로 태어났다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-metascience-v2-171",
+    passageId: "metascience-robert-k-merton-p3",
+    prompt: "According to the passage, who was the founding chair of the Harvard University sociology department that Merton met?",
+    options: [
+      "Pitrim A. Sorokin",
+      "Talcott Parsons",
+      "George Sarton",
+      "Max Weber",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 머튼이 하버드대 사회학과의 창립 학과장인 피티림 소로킨을 만났고 그의 밑에서 조교로 일했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-172",
+    passageId: "metascience-robert-k-merton-p4",
+    prompt: "According to the passage, at which university did Merton become professor and chairman of the Department of Sociology in 1938?",
+    options: [
+      "Harvard University",
+      "Columbia University",
+      "Tulane University",
+      "Rockefeller University",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 머튼이 1938년 툴레인 대학교의 사회학과 교수 겸 학과장이 되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-173",
+    passageId: "metascience-robert-k-merton-p5",
+    prompt: "According to the passage, what did Merton prefer over Parsons's general theoretical foundation?",
+    options: [
+      "Purely mathematical models",
+      "Case studies of a single individual",
+      "Historical narrative without theory",
+      "More limited, middle-range theories",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 머튼이 파슨스의 일반 이론 대신 더 제한적인 중범위 이론을 선호했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-174",
+    passageId: "metascience-robert-k-merton-p6",
+    prompt: "According to the passage, what does Merton's term 'strain' refer to?",
+    options: [
+      "The physical stress of manual labor",
+      "The disagreement between two competing paradigms",
+      "The financial cost of academic publishing",
+      "The gap between culturally determined goals and institutionalized means to achieve them",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 머튼이 말한 '긴장(strain)'이 문화적으로 정해진 목표와 그것을 이루기 위한 제도화된 수단 사이의 격차를 뜻한다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-175",
+    passageId: "metascience-bruno-latour-p1",
+    prompt: "According to the passage, who are Latour, Michel Callon, Madeleine Akrich, and John Law considered primary developers of?",
+    options: [
+      "Actor-network theory (ANT)",
+      "The h-index",
+      "The reproducibility crisis framework",
+      "Middle-range theory",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 라투르가 미셸 칼롱, 마들렌 아크리쉬, 존 로와 함께 행위자-연결망 이론(ANT)의 주요 개발자 중 한 명이라고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-176",
+    passageId: "metascience-bruno-latour-p2",
+    prompt: "According to the passage, where did Latour undertake fieldwork on decolonisation, race, and industrial relations?",
+    options: [
+      "Ivory Coast",
+      "Singapore",
+      "Vienna",
+      "New Zealand",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 라투르가 ORSTOM을 위해 코트디부아르에서 탈식민화, 인종, 산업관계에 관한 현장조사를 수행했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-177",
+    passageId: "metascience-bruno-latour-p3",
+    prompt: "According to the passage, what did philosopher Jon Elster criticize about Latour's 2013 Holberg Prize?",
+    options: [
+      "That the prize money was too small",
+      "That the committee was too small",
+      "That Latour would be unqualified if new knowledge were the main award criterion",
+      "That Latour had never published in Norwegian",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 욘 엘스터가 새로운 지식이 주된 기준이었다면 라투르는 전혀 자격이 없었을 것이라고 비판했다고 설명합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-metascience-v2-178",
+    passageId: "metascience-bruno-latour-p4",
+    prompt: "According to the passage, what analogy did Gross and Leavitt use to argue Latour's position becomes absurd?",
+    options: [
+      "Scientists disagreeing about the color of the sky",
+      "A debate about whether gravity exists",
+      "A dispute over the temperature of boiling water",
+      "Coworkers debating whether it is raining outside, then finding raindrops and puddles outdoors",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 그로스와 레빗이 실내에서 비가 오는지 논쟁하다가 밖에 나가 빗방울과 웅덩이를 발견하는 사례를 들어 라투르의 입장이 터무니없어진다고 주장했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-179",
+    passageId: "metascience-bruno-latour-p5",
+    prompt: "According to the passage, in what year did the Aramis personal rapid transit project die?",
+    options: [
+      "1979",
+      "1991",
+      "1999",
+      "1987",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 아라미스 프로젝트가 1987년에 무산되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-metascience-v2-180",
+    passageId: "metascience-bruno-latour-p6",
+    prompt: "According to the passage, what did Latour promote over postmodernism, modernism, or antimodernism?",
+    options: [
+      "Nonmodernism (or amodernism)",
+      "Neoclassicism",
+      "Structuralism",
+      "Empiricism",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 라투르가 포스트모더니즘, 모더니즘, 반모더니즘 대신 비모더니즘(또는 아모더니즘)을 내세웠다고 설명합니다.",
+    difficulty: 2,
+  },
 ];
 
 const buildQuestion = (spec) => {

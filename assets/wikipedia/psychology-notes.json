@@ -5318,5 +5318,1337 @@
         "explanation": "이는 과학적으로 반박된 사상이라도 완전히 사라지지 않고 비주류 경로를 통해 지속될 수 있음을 보여줍니다."
       }
     ]
+  },
+  {
+    "passageId": "psychology-sigmund-freud-p1",
+    "importantWords": [
+      {
+        "term": "psychoanalysis",
+        "meaning": "환자와 정신분석가의 대화를 통해 정신적 갈등에서 비롯된 병리를 평가하고 치료하는 임상적 방법이다."
+      },
+      {
+        "term": "unconscious",
+        "meaning": "의식적으로 자각되지 않지만 정신 작용과 행동에 영향을 미치는 마음의 영역이다."
+      },
+      {
+        "term": "repression",
+        "meaning": "고통스럽거나 받아들이기 힘든 생각을 무의식 속으로 밀어 넣어 억누르는 방어 기제이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Oedipus complex",
+        "meaning": "유아기 성적 발달 단계에서 비롯된다고 본 정신분석 이론의 핵심 개념이다."
+      },
+      {
+        "term": "death drive",
+        "meaning": "강박적 반복, 증오, 공격성의 원천이 되는 파괴적 충동을 가리키는 정신분석 용어이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "프로이트의 정신 구조 모델",
+        "explanation": "프로이트는 무의식 이론을 발전시켜 원초아, 자아, 초자아로 이루어진 정신 구조 모델을 제시했습니다. 이는 인간 정신을 여러 층으로 나누어 설명하려는 시도였습니다."
+      },
+      {
+        "title": "리비도와 충동",
+        "explanation": "프로이트는 리비도라는 성적으로 색채화된 정신 에너지가 성적 애착과 죽음 충동을 만들어낸다고 보았습니다. 이 충동들이 공격성과 신경증적 죄책감의 근원이 된다고 설명했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-sigmund-freud-p2",
+    "importantWords": [
+      {
+        "term": "Freiberg",
+        "meaning": "프로이트가 태어난 오스트리아 제국 모라비아 지방의 마을 이름이다."
+      },
+      {
+        "term": "caul",
+        "meaning": "태아를 감싸는 얇은 막으로, 그것을 쓰고 태어나면 길조로 여겨지기도 했다."
+      },
+      {
+        "term": "Matura",
+        "meaning": "오스트리아 김나지움 졸업 시 치르는 대학 입학 자격시험이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Hasidic Jews",
+        "meaning": "동유럽에서 시작된 유대교의 경건주의 신앙 운동을 따르는 유대인 공동체이다."
+      },
+      {
+        "term": "counterfeit rubles",
+        "meaning": "위조된 러시아 화폐를 뜻하며 프로이트 삼촌의 체포 혐의와 관련된다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "프로이트의 가족 배경",
+        "explanation": "프로이트의 아버지 야콥은 하시디즘 전통에서 벗어났지만 토라 연구로 알려졌고, 어머니 아말리아는 그보다 20살 어렸습니다. 이런 가족사는 프로이트의 정체성 형성에 영향을 주었습니다."
+      },
+      {
+        "title": "레오폴트슈타트 김나지움",
+        "explanation": "프로이트는 1865년 명문 레오폴트슈타트 실업 김나지움에 입학해 뛰어난 학생으로 인정받았고 1873년 우등으로 졸업 시험을 통과했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-sigmund-freud-p3",
+    "importantWords": [
+      {
+        "term": "University of Vienna",
+        "meaning": "프로이트가 17세에 입학해 의학을 공부한 오스트리아 빈의 대학이다."
+      },
+      {
+        "term": "physiology",
+        "meaning": "생물체의 기능과 작용을 연구하는 생물학의 한 분야이다."
+      },
+      {
+        "term": "military service",
+        "meaning": "국가가 의무적으로 부과하는 군 복무를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "zoological research station",
+        "meaning": "동물을 채집하고 해부하며 연구하는 시설을 뜻한다."
+      },
+      {
+        "term": "nervous tissue",
+        "meaning": "뉴런과 신경교세포로 이루어져 신호를 전달하는 조직이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "브뤼케 실험실에서의 연구",
+        "explanation": "프로이트는 에른스트 브뤼케의 생리학 실험실에서 6년간 인간과 척추동물, 무척추동물의 뇌를 비교하는 연구를 했습니다. 이 연구는 이후 뉴런 발견의 토대가 되었습니다."
+      },
+      {
+        "title": "병역과 학업의 중단",
+        "explanation": "프로이트의 연구는 1879년 1년간의 의무 병역으로 중단되었습니다. 이 기간 동안 그는 존 스튜어트 밀의 저작을 번역하는 작업을 완료했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-sigmund-freud-p4",
+    "importantWords": [
+      {
+        "term": "Martha Bernays",
+        "meaning": "1886년 프로이트와 결혼한 여성으로 함부르크 수석 랍비의 손녀였다."
+      },
+      {
+        "term": "private practice",
+        "meaning": "병원에 소속되지 않고 독립적으로 진료하는 개인 의료 행위를 뜻한다."
+      },
+      {
+        "term": "civil ceremony",
+        "meaning": "종교 의식이 아닌 법적 절차로 이루어지는 혼인식을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "B'nai B'rith",
+        "meaning": "프로이트가 평생 관계를 유지한 독일계 유대인 문화 단체의 이름이다."
+      },
+      {
+        "term": "Berggasse",
+        "meaning": "프로이트 가족이 1938년까지 거주한 빈의 아파트가 있던 거리 이름이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "프로이트의 결혼과 자녀",
+        "explanation": "프로이트는 1886년 마르타 베르나이스와 결혼했으며 여섯 자녀를 두었습니다. 이 시기 그는 병원을 떠나 신경 장애를 전문으로 하는 개인 병원을 개업했습니다."
+      },
+      {
+        "title": "유대인 정체성의 영향",
+        "explanation": "프로이트의 유대인 기원과 세속적 유대 정체성에 대한 소속감은 그의 지적, 도덕적 관점 형성에 중요했습니다. 이는 정신분석 사상의 내용에도 영향을 미쳤습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-sigmund-freud-p5",
+    "importantWords": [
+      {
+        "term": "hotel guest book",
+        "meaning": "투숙객의 이름을 기록하는 호텔의 장부를 뜻한다."
+      },
+      {
+        "term": "cigar smoker",
+        "meaning": "담배 대신 시가를 피우는 사람을 뜻하며 프로이트의 흡연 습관을 설명한다."
+      },
+      {
+        "term": "buccal cancer",
+        "meaning": "입안, 특히 뺨 안쪽에 발생하는 암을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "masturbation",
+        "meaning": "프로이트가 중독의 대체물로 언급한 자위 행위를 뜻한다."
+      },
+      {
+        "term": "introspection",
+        "meaning": "자신의 정신 상태나 경험을 스스로 관찰하고 성찰하는 행위이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "프로이트와 미나의 스캔들 논쟁",
+        "explanation": "스웨일스와 매시에프스키 등은 프로이트가 처제 미나와 성적 관계를 가졌고 임신과 낙태가 있었다는 증거로 호텔 장부를 제시했습니다. 이는 여전히 논쟁적인 주장입니다."
+      },
+      {
+        "title": "브렌타노와 무의식",
+        "explanation": "프로이트는 철학 스승 브렌타노가 저서에서 무의식의 존재 가능성을 논의한 것이 자신에게 그 개념을 소개하는 데 도움이 되었다고 여겼습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-sigmund-freud-p6",
+    "importantWords": [
+      {
+        "term": "Charles Darwin",
+        "meaning": "진화론을 제시한 생물학자로 프로이트가 그의 저작을 소유하고 활용했다."
+      },
+      {
+        "term": "empathy",
+        "meaning": "타인의 감정과 경험을 이해하고 공감하는 능력을 뜻한다."
+      },
+      {
+        "term": "Nietzsche",
+        "meaning": "프로이트가 저작을 읽고 강하게 매료되었다고 언급한 독일 철학자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Untimely Meditations",
+        "meaning": "니체가 쓴 초기 저작 중 하나의 제목이다."
+      },
+      {
+        "term": "neurology",
+        "meaning": "신경계의 구조와 기능, 질환을 다루는 의학 분야이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "프로이트에게 영향을 준 사상가들",
+        "explanation": "프로이트는 다윈, 폰 하르트만, 페히너, 헤르바르트, 립스 등 여러 사상가의 저작을 접했습니다. 이들의 무의식과 공감 개념이 프로이트 이론 형성에 기여했습니다."
+      },
+      {
+        "title": "니체에 대한 양가감정",
+        "explanation": "프로이트는 니체의 직관적 통찰이 자신의 생각과 너무 닮아 있어 부담스러워 니체를 깊이 연구하지 않으려 했다고 말했습니다. 이는 영향을 인정하면서도 거리를 두려는 태도를 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-jean-piaget-p1",
+    "importantWords": [
+      {
+        "term": "cognitive development",
+        "meaning": "연령에 따라 사고와 이해 능력이 변화하고 발달하는 과정을 뜻한다."
+      },
+      {
+        "term": "genetic epistemology",
+        "meaning": "지식이 어떻게 발생하고 발달하는지를 연구하는 피아제의 이론적 관점이다."
+      },
+      {
+        "term": "constructivist",
+        "meaning": "지식이 능동적으로 구성된다고 보는 이론적 입장을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "International Bureau of Education",
+        "meaning": "피아제가 소장으로서 교육 정책에 영향을 미친 국제 기구이다."
+      },
+      {
+        "term": "mollusks",
+        "meaning": "연체동물을 뜻하며 피아제가 어릴 때 연구한 생물 분류군이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "피아제의 학문적 명성",
+        "explanation": "20세기 말 피아제는 B. F. 스키너 다음으로 가장 많이 인용된 심리학자였습니다. 그의 이론은 발달심리학을 심리학의 주요 하위 분야로 자리매김하게 했습니다."
+      },
+      {
+        "title": "교육에 대한 피아제의 신념",
+        "explanation": "피아제는 국제교육국 국장으로서 교육만이 사회를 붕괴로부터 구할 수 있다고 주장했습니다. 이는 아동 발달 이론이 교육 실천과 밀접하게 연결됨을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-jean-piaget-p2",
+    "importantWords": [
+      {
+        "term": "epistemology",
+        "meaning": "지식의 본질과 기원, 한계를 탐구하는 철학의 한 분야이다."
+      },
+      {
+        "term": "psychoanalysis",
+        "meaning": "프로이트가 창시한 무의식 탐구와 치료를 다루는 심리학 분야이다."
+      },
+      {
+        "term": "godfather",
+        "meaning": "대자의 정신적 후견인 역할을 하는 대부를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Binet-Simon test",
+        "meaning": "알프레드 비네가 개발한 초기 지능검사이다."
+      },
+      {
+        "term": "Stanford",
+        "meaning": "비네시몽 검사를 개정한 스탠퍼드-비네 지능척도와 관련된 대학명이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "거짓 기억의 발견",
+        "explanation": "피아제는 유모가 지어낸 유괴 이야기를 실제 기억처럼 간직하고 있었다는 사실에 놀랐습니다. 이는 그가 기억의 허구적 형성 가능성에 관심을 갖는 계기가 되었습니다."
+      },
+      {
+        "title": "오답 패턴에서 얻은 통찰",
+        "explanation": "피아제는 비네의 지능검사를 채점하며 어린아이들이 나이 든 아이나 성인과는 다른 유형의 오류를 일관되게 범한다는 것을 발견했습니다. 이것이 인지 발달 단계 이론의 출발점이 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-jean-piaget-p3",
+    "importantWords": [
+      {
+        "term": "trials and errors",
+        "meaning": "관찰과 실패를 반복하며 점차 정답에 다가가는 시행착오 학습 방식을 뜻한다."
+      },
+      {
+        "term": "groping",
+        "meaning": "시행착오와 밀접히 연관된 심리학적 탐색 행동을 가리키는 클라파레드의 개념이다."
+      },
+      {
+        "term": "curriculum development",
+        "meaning": "교육 과정을 설계하고 개발하는 활동을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "figurative thought",
+        "meaning": "지각이나 기억처럼 완전히 논리적이지 않은 사고 형태를 뜻한다."
+      },
+      {
+        "term": "Beilin",
+        "meaning": "피아제의 이론적 연구 프로그램을 네 단계로 구분한 학자의 이름이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "피아제 연구의 네 단계",
+        "explanation": "해리 베일린은 피아제의 이론적 연구 프로그램을 사회학적 모델, 생물학적 모델, 논리적 모델, 형상적 사고 연구의 네 단계로 나누었습니다. 이는 서로 다른 '피아제들'로 특징지어질 만큼 이질적입니다."
+      },
+      {
+        "title": "피아제의 죽음과 안장",
+        "explanation": "피아제는 1980년 9월 16일 사망했고 본인의 요청에 따라 제네바 시메티에르 데 루아의 무명 가족 묘지에 묻혔습니다. 이는 그의 소박한 성격을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-jean-piaget-p4",
+    "importantWords": [
+      {
+        "term": "egocentrism",
+        "meaning": "자신의 관점을 중심으로 세상을 이해하는 아동기 사고 특성이다."
+      },
+      {
+        "term": "semiclinical interview",
+        "meaning": "표준화된 질문과 아동의 응답에 따른 후속 질문을 결합한 면접 방법이다."
+      },
+      {
+        "term": "assimilation",
+        "meaning": "새로운 대상을 기존의 인지 도식에 맞춰 받아들이는 과정이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Hawthorne Experiments",
+        "meaning": "엘튼 메이요가 피아제의 연구를 토대로 수행한 유명한 산업심리학 실험이다."
+      },
+      {
+        "term": "sociocentrism",
+        "meaning": "자기중심성에서 벗어나 타인의 관점을 고려하게 되는 사회적 지향을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자기중심성에서 사회중심성으로",
+        "explanation": "피아제는 아동이 자기중심적 사고에서 사회중심적 사고로 이동한다고 제안했습니다. 이는 또래와의 사회적 상호작용과 도전을 통해 이루어진다고 보았습니다."
+      },
+      {
+        "title": "동화의 개념",
+        "explanation": "피아제는 영아가 손에 닿는 모든 것을 빠는 행동을 동화의 예로 들었습니다. 이는 아이가 대상을 자신의 기존 정신 구조에 맞추어 받아들이는 과정을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-jean-piaget-p5",
+    "importantWords": [
+      {
+        "term": "accommodation",
+        "meaning": "기존 도식을 수정하거나 새로운 도식을 만들어 새로운 대상에 대응하는 과정이다."
+      },
+      {
+        "term": "reflex actions",
+        "meaning": "학습 없이 자동으로 일어나는 선천적인 반응을 뜻한다."
+      },
+      {
+        "term": "intellectual growth",
+        "meaning": "사고와 이해 능력이 점차 향상되는 발달 과정을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "impetus",
+        "meaning": "어떤 과정을 촉발하거나 추진하는 힘이나 자극을 뜻한다."
+      },
+      {
+        "term": "primarily reflex actions",
+        "meaning": "영아기 초기의 행동이 주로 반사 작용에 의존함을 가리키는 표현이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "동화와 조절의 상호작용",
+        "explanation": "피아제는 동화와 조절이 자주 충돌하며 이 균형을 맞추려는 지속적 필요가 지적 성장을 촉발한다고 보았습니다. 두 과정의 긴장이 발달의 원동력이 됩니다."
+      },
+      {
+        "title": "반사에서 의도적 행동으로",
+        "explanation": "영아는 처음에는 빨기 같은 반사 행동만 하다가 점차 물건을 집어 입에 넣는 행동으로 반사를 조절합니다. 이는 조절 과정을 구체적으로 보여주는 사례입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-jean-piaget-p6",
+    "importantWords": [
+      {
+        "term": "reversible",
+        "meaning": "논리적 절차를 거꾸로 밟아 원래의 전제로 돌아갈 수 있는 성질을 뜻한다."
+      },
+      {
+        "term": "figurative process",
+        "meaning": "그림이나 기억처럼 논리적으로 완전히 조작할 수 없는 인지 과정을 뜻한다."
+      },
+      {
+        "term": "preoperational stage",
+        "meaning": "피아제 이론에서 비가역적 사고를 특징으로 하는 발달 단계이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Bärbel Inhelder",
+        "meaning": "피아제와 함께 지각, 기억 등에 관한 책을 출판한 동료 연구자이다."
+      },
+      {
+        "term": "readiness",
+        "meaning": "특정 정보나 개념을 가르치기에 적절한 발달 시점을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "논리 개념의 가역성",
+        "explanation": "피아제는 논리적 개념이 완전히 가역적이라고 설명했습니다. 전제에서 결론으로 간 절차를 거꾸로 밟아 다시 전제로 돌아갈 수 있기 때문입니다."
+      },
+      {
+        "title": "준비도와 교육 시점",
+        "explanation": "피아제 이론에 따르면 아동이 적절한 인지 발달 단계에 도달하기 전에는 특정 개념을 가르쳐서는 안 됩니다. 이는 생물학적 성숙에 기반한 그의 이론의 핵심 함의입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-b-f-skinner-p1",
+    "importantWords": [
+      {
+        "term": "radical behaviorism",
+        "meaning": "관찰 가능한 행동만이 아니라 은밀한 행동까지 환경 변인으로 설명하려는 스키너의 철학이다."
+      },
+      {
+        "term": "operant conditioning",
+        "meaning": "행동의 결과인 강화나 처벌에 의해 행동의 빈도가 변화하는 학습 원리이다."
+      },
+      {
+        "term": "cumulative recorder",
+        "meaning": "반응률을 기록하기 위해 스키너가 발명한 장치이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Schedules of Reinforcement",
+        "meaning": "스키너와 퍼스터가 1957년에 출판한 영향력 있는 실험 연구서의 제목이다."
+      },
+      {
+        "term": "Walden Two",
+        "meaning": "스키너가 1948년에 쓴 유토피아 소설의 제목이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "스키너 상자의 역할",
+        "explanation": "스키너는 조작적 조건형성을 연구하기 위해 조작적 조건형성 상자, 즉 스키너 상자를 발명했습니다. 이 장치는 동물의 반응과 강화 관계를 통제된 환경에서 관찰하게 해주었습니다."
+      },
+      {
+        "title": "행동주의의 선구자들",
+        "explanation": "지문은 스키너, 존 왓슨, 이반 파블로프를 현대 행동주의의 선구자로 꼽습니다. 세 사람의 연구는 행동주의 심리학의 기틀을 마련했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-b-f-skinner-p2",
+    "importantWords": [
+      {
+        "term": "Hamilton College",
+        "meaning": "스키너가 작가가 되려는 목표로 다닌 대학이다."
+      },
+      {
+        "term": "Fred S. Keller",
+        "meaning": "하버드에서 스키너에게 행동 연구를 실험 과학으로 만들 수 있다고 설득한 동료 학생이다."
+      },
+      {
+        "term": "Dark Years",
+        "meaning": "스키너가 소설 쓰기에 실패하고 부모와 지내던 시기를 스스로 부른 표현이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Lambda Chi Alpha",
+        "meaning": "스키너가 소속되었던 대학 남학생 사교 클럽의 이름이다."
+      },
+      {
+        "term": "Robert Frost",
+        "meaning": "스키너를 격려했던 시인의 이름이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "작가에서 심리학자로의 전환",
+        "explanation": "스키너는 원래 작가가 되려 했지만 문학적 재능에 회의를 느끼고 존 왓슨의 행동주의를 접하며 심리학 대학원으로 진로를 바꿨습니다. 이는 그의 경력에서 중요한 전환점이었습니다."
+      },
+      {
+        "title": "엘더베리 사업 일화",
+        "explanation": "스키너와 친구 도크는 여름철 엘더베리를 모아 팔며 익은 열매와 익지 않은 열매를 분리하는 장치를 직접 만들었습니다. 이는 어린 시절부터 기계 장치에 대한 관심을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-b-f-skinner-p3",
+    "importantWords": [
+      {
+        "term": "Humanist Manifesto",
+        "meaning": "스키너가 1973년 서명자 중 한 명이었던 인본주의 선언문이다."
+      },
+      {
+        "term": "leukemia",
+        "meaning": "혈액과 골수에 발생하는 암의 한 종류이다."
+      },
+      {
+        "term": "tenured professor",
+        "meaning": "해고 위험 없이 종신 재직권을 가진 정교수를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Mount Auburn Cemetery",
+        "meaning": "스키너의 아내 이본이 묻힌 매사추세츠주의 묘지이다."
+      },
+      {
+        "term": "lifetime achievement award",
+        "meaning": "평생의 업적을 기리기 위해 수여하는 상을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "스키너의 경력 이동",
+        "explanation": "스키너는 하버드에서 박사를 받은 뒤 미네소타, 인디애나 대학을 거쳐 1948년 하버드로 돌아와 종신교수가 되었습니다. 이 경로는 그의 학문적 성장 과정을 보여줍니다."
+      },
+      {
+        "title": "말년의 활동과 죽음",
+        "explanation": "스키너는 은퇴 후에도 활발히 활동하다가 1989년 백혈병 진단을 받았고, 죽기 열흘 전 평생공로상을 받으며 강연했습니다. 이는 그가 마지막까지 학문에 전념했음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-b-f-skinner-p4",
+    "importantWords": [
+      {
+        "term": "mentalism",
+        "meaning": "행동의 원인을 내적 정신 상태에서 찾으려는 관점으로 스키너가 비판한 접근이다."
+      },
+      {
+        "term": "reinforcement",
+        "meaning": "행동 뒤에 주어져 그 행동의 빈도를 높이는 결과를 뜻한다."
+      },
+      {
+        "term": "punishment",
+        "meaning": "행동 뒤에 주어져 그 행동의 빈도를 낮추는 결과를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "methodological behaviorist",
+        "meaning": "관찰 가능한 행동만을 연구 대상으로 삼아야 한다고 주장하는 행동주의자를 뜻한다."
+      },
+      {
+        "term": "collateral products",
+        "meaning": "내성적으로 관찰되는 것이 행동의 원인이 아니라 유전과 환경 역사의 부산물임을 가리키는 표현이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "내성에 대한 스키너의 비판",
+        "explanation": "스키너는 내성적으로 관찰되는 것이 행동의 원인이 아니라 유전과 환경 역사의 부수적 산물일 뿐이라고 주장했습니다. 그는 이를 통해 정신주의의 폐해를 바로잡으려 했습니다."
+      },
+      {
+        "title": "스키너 상자의 실용적 영향",
+        "explanation": "스키너 상자는 통제된 환경에서 학습 과정을 정확하게 관찰할 수 있게 해주었고, 조작적 원리는 치료, 교육, 직장 등 인간 맥락에도 적용되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-b-f-skinner-p5",
+    "importantWords": [
+      {
+        "term": "Edward Thorndike",
+        "meaning": "조작 행동을 초기에 실험적으로 연구한 심리학자이다."
+      },
+      {
+        "term": "shaping",
+        "meaning": "원하는 행동의 점진적 변형을 강화하여 형성해가는 스키너의 용어이다."
+      },
+      {
+        "term": "superstitious",
+        "meaning": "실제로는 무관한 강화와 반응이 우연히 연결되어 나타나는 행동을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "instrumental conditioning",
+        "meaning": "조작적 조건형성의 또 다른 명칭으로 반응이 강화물을 낳는 학습을 뜻한다."
+      },
+      {
+        "term": "behavioral repertoire",
+        "meaning": "한 개체가 나타낼 수 있는 행동들의 전체 목록을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "조작 행동의 기원",
+        "explanation": "스키너는 다윈이 새로운 신체 구조의 기원을 변이와 선택으로 설명했듯이, 조작 행동도 변이가 강화되어 강해진다고 설명했습니다. 이는 진화론적 유비를 활용한 설명입니다."
+      },
+      {
+        "title": "형성의 개념",
+        "explanation": "셰이핑은 원하는 변이를 강화함으로써 행동을 점진적으로 수정해가는 스키너의 용어입니다. 이를 통해 복잡한 행동도 단계적으로 만들어질 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-b-f-skinner-p6",
+    "importantWords": [
+      {
+        "term": "discriminative stimulus",
+        "meaning": "특정 반응이 강화될 것임을 알리는 자극을 뜻한다."
+      },
+      {
+        "term": "lever-pressing",
+        "meaning": "실험 동물이 레버를 누르는 조작 행동의 대표적 예이다."
+      },
+      {
+        "term": "chaining",
+        "meaning": "여러 개의 개별 반응이 연속적으로 이어져 복잡한 행동을 이루는 과정이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "conditioned reinforcer",
+        "meaning": "본래는 중립적이었으나 학습을 통해 강화 기능을 갖게 된 자극을 뜻한다."
+      },
+      {
+        "term": "three-term contingency",
+        "meaning": "자극, 반응, 강화물의 세 요소로 이루어진 스키너 이론의 핵심 개념이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세 항 수반성",
+        "explanation": "스키너는 자극-반응-강화물로 이루어진 세 항 수반성을 자신의 이론에서 가장 중요한 개념 중 하나로 꼽았습니다. 이는 단순한 쌍대 연합 이론과 구별됩니다."
+      },
+      {
+        "title": "연쇄를 통한 복잡한 행동 설명",
+        "explanation": "체이닝은 변별 자극이 이후 행동의 계기가 될 뿐 아니라 그에 선행하는 행동을 강화할 수도 있다는 사실에 기반합니다. 이를 통해 긴 행동 연쇄가 만들어질 수 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-ivan-pavlov-p1",
+    "importantWords": [
+      {
+        "term": "classical conditioning",
+        "meaning": "중립 자극이 무조건 자극과 반복적으로 짝지어져 조건 반응을 유발하게 되는 학습 원리이다."
+      },
+      {
+        "term": "Russian Orthodox priest",
+        "meaning": "파블로프의 아버지가 담당했던 러시아 정교회의 마을 사제직을 뜻한다."
+      },
+      {
+        "term": "instinct for research",
+        "meaning": "파블로프가 어린 시절부터 지녔다고 스스로 표현한 연구에 대한 본능적 호기심이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "theological seminary",
+        "meaning": "성직자를 양성하는 신학교를 뜻한다."
+      },
+      {
+        "term": "Candidate of Natural Sciences",
+        "meaning": "파블로프가 1875년 받은 자연과학 후보 학위를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어린 시절의 부상과 늦은 취학",
+        "explanation": "파블로프는 높은 벽에서 돌바닥으로 떨어지는 심각한 부상을 입어 11세가 되어서야 정규 학교 교육을 시작했습니다. 이는 조숙한 지적 호기심에도 불구하고 학업이 지연된 이유였습니다."
+      },
+      {
+        "title": "종교에서 과학으로의 전환",
+        "explanation": "파블로프는 피사레프와 세체노프의 진보적 사상에 영향을 받아 신학교를 졸업하지 않고 성직자의 길을 포기한 뒤 과학에 헌신했습니다. 이는 그의 인생에서 중요한 전환점이었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-ivan-pavlov-p2",
+    "importantWords": [
+      {
+        "term": "Imperial Academy of Medical Surgery",
+        "meaning": "파블로프가 생리학 연구를 계속하기 위해 진학한 의학 아카데미이다."
+      },
+      {
+        "term": "circulatory system",
+        "meaning": "혈액을 순환시키는 심장과 혈관으로 이루어진 신체 계통이다."
+      },
+      {
+        "term": "gold medal",
+        "meaning": "파블로프가 1879년 군의학 아카데미를 졸업하며 연구 업적으로 받은 상이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "trophic function",
+        "meaning": "신경계가 조직의 영양과 유지에 관여하는 기능을 뜻한다."
+      },
+      {
+        "term": "Botkin Clinic",
+        "meaning": "파블로프가 생리학 연구실 책임자로 일했던 클리닉이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "파블로프의 초기 연구 경력",
+        "explanation": "파블로프는 우스티모비치의 실험실 조교로 시작해 순환계를 연구했고, 이후 보트킨 클리닉의 생리학 연구실 책임자가 되었습니다. 이 과정에서 그는 반사 조절에 관한 증거를 축적했습니다."
+      },
+      {
+        "title": "파블로프에게 영향을 준 인물들",
+        "explanation": "파블로프는 문학평론가 피사레프와 생리학의 아버지로 불리는 세체노프에게 영감을 받아 과학자의 길을 걷게 되었다고 밝혔습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-ivan-pavlov-p3",
+    "importantWords": [
+      {
+        "term": "Nobel Prize",
+        "meaning": "뛰어난 업적을 이룬 사람에게 수여되는 국제적으로 권위 있는 상이다."
+      },
+      {
+        "term": "digestive glands",
+        "meaning": "소화 효소를 분비하는 샘으로 파블로프가 실험한 신체 기관이다."
+      },
+      {
+        "term": "kennel",
+        "meaning": "실험용 개들을 기르기 위한 시설을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Heidenhain",
+        "meaning": "파블로프가 위 소화 실험 기법을 배운 독일 브레슬라우의 생리학 실험실을 이끈 학자이다."
+      },
+      {
+        "term": "pharmacology",
+        "meaning": "약물이 생체에 미치는 작용을 연구하는 학문이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "노벨상 수상의 배경",
+        "explanation": "파블로프는 1901년부터 여러 해 동안 노벨상 후보로 올랐지만 특정 발견에 초점이 맞춰지지 않아 1904년에야 소화 생리학 연구 공로로 수상했습니다."
+      },
+      {
+        "title": "소화샘 연구의 시작",
+        "explanation": "파블로프는 실험동물연구소에서 소화샘에 관한 고전적 실험을 수행했으며, 이 연구가 결국 노벨상 수상으로 이어졌습니다. 그의 실험실에는 개 사육 시설이 갖춰져 있었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-ivan-pavlov-p4",
+    "importantWords": [
+      {
+        "term": "chronic experiments",
+        "meaning": "동물을 살려서 장기간에 걸쳐 관찰하는 실험 방식을 뜻한다."
+      },
+      {
+        "term": "vivisection",
+        "meaning": "살아있는 동물을 해부하는 것으로 급성 실험에서 동물을 죽게 했다."
+      },
+      {
+        "term": "fistula",
+        "meaning": "체내 장기와 외부를 연결하기 위해 인위적으로 만든 통로를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "esophagus",
+        "meaning": "입에서 위까지 음식을 운반하는 식도를 뜻한다."
+      },
+      {
+        "term": "acute",
+        "meaning": "단기간에 걸쳐 이루어지며 동물을 해부해 죽게 하는 실험 방식을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "만성 실험의 도입",
+        "explanation": "파블로프는 개를 살려서 건강하게 유지하며 장기적인 생리적 과정을 관찰하는 새로운 유형의 만성 실험을 고안했습니다. 이는 이전의 급성 실험과 대비되는 방법론적 혁신이었습니다."
+      },
+      {
+        "title": "누공 수술 기법",
+        "explanation": "파블로프는 여러 개의 식도를 제거하고 목에 누공을 만드는 수술적 기법을 사용해 소화 과정을 관찰했습니다. 이러한 정교한 수술 기법이 그의 연구를 가능하게 했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-ivan-pavlov-p5",
+    "importantWords": [
+      {
+        "term": "Kirov",
+        "meaning": "1934년 살해된 소련 정치인으로 이후 대숙청의 계기가 되었다."
+      },
+      {
+        "term": "Stalin Constitution",
+        "meaning": "1936년 소련에서 제정된 헌법을 뜻한다."
+      },
+      {
+        "term": "double pneumonia",
+        "meaning": "양쪽 폐에 발생한 폐렴을 뜻하며 파블로프의 사인이었다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Volkovo Cemetery",
+        "meaning": "파블로프의 묘가 있는 상트페테르부르크의 묘지이다."
+      },
+      {
+        "term": "terminal phase",
+        "meaning": "생의 마지막 단계, 즉 임종 직전의 시기를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "파블로프의 임종 태도",
+        "explanation": "파블로프는 임종 순간까지 의식이 있었고 제자에게 자신의 죽어가는 과정을 기록해 달라고 요청했습니다. 이는 죽음을 과학적 관찰의 대상으로 삼으려 한 그의 태도를 보여줍니다."
+      },
+      {
+        "title": "소련 정부에 대한 만년의 태도 변화",
+        "explanation": "말년에 파블로프는 소련 정부의 정책을 완전히 지지하지는 않았지만 과학 기관에 대한 지원을 칭찬하며 다소 누그러진 태도를 보였습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-ivan-pavlov-p6",
+    "importantWords": [
+      {
+        "term": "temperament",
+        "meaning": "개인의 정서적, 행동적 반응 경향을 뜻하는 기질을 가리킨다."
+      },
+      {
+        "term": "transmarginal inhibition",
+        "meaning": "과도한 자극이나 스트레스에 신체가 정지 반응을 보이는 현상을 뜻한다."
+      },
+      {
+        "term": "systematic desensitization",
+        "meaning": "공포증을 줄이기 위해 점진적으로 자극에 노출시키는 행동치료 기법이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Hippocrates",
+        "meaning": "고대 그리스의 의사로 네 가지 기질 유형을 처음 기술한 인물이다."
+      },
+      {
+        "term": "choleric",
+        "meaning": "파블로프가 연구한 네 가지 기질 유형 중 담즙질을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신경계 속성과 기질 유형",
+        "explanation": "파블로프는 신경계의 강도, 이동성, 흥분과 억제의 균형이라는 세 가지 속성을 바탕으로 네 가지 기질 유형을 도출했습니다. 이는 고대의 기질 이론을 신경생리학적으로 재해석한 것입니다."
+      },
+      {
+        "title": "경계선 억제 현상",
+        "explanation": "파블로프와 연구진은 압도적인 스트레스나 고통에 노출되었을 때 신체가 정지하는 자연스러운 반응인 경계선 억제를 관찰했습니다. 기질 유형마다 이 정지점에 도달하는 속도가 달랐습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-daniel-kahneman-p1",
+    "importantWords": [
+      {
+        "term": "behavioral economics",
+        "meaning": "심리학적 통찰을 경제적 의사결정 연구에 접목한 학문 분야이다."
+      },
+      {
+        "term": "prospect theory",
+        "meaning": "위험 하의 의사결정을 설명하는 카너먼과 트버스키의 이론이다."
+      },
+      {
+        "term": "heuristics",
+        "meaning": "빠르고 간편하지만 편향을 일으킬 수 있는 사고의 지름길을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Princeton School of Public and International Affairs",
+        "meaning": "카너먼이 명예교수로 재직했던 프린스턴 대학의 공공국제대학원이다."
+      },
+      {
+        "term": "Thinking, Fast and Slow",
+        "meaning": "카너먼의 연구를 대중에게 소개한 베스트셀러 저서의 제목이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행동경제학의 대부",
+        "explanation": "카너먼은 인간의 합리성을 가정하는 현대 경제 이론에 도전하는 실증적 발견들로 유명해져 '행동경제학의 대부'로 불리게 되었습니다."
+      },
+      {
+        "title": "노벨 경제학상 수상",
+        "explanation": "카너먼은 2002년 버논 스미스와 함께 노벨 경제학상을 받았습니다. 이는 심리학자가 경제학상을 받은 이례적인 사례로 주목받았습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-daniel-kahneman-p2",
+    "importantWords": [
+      {
+        "term": "Nazi-occupied",
+        "meaning": "1940년 독일에 점령당한 프랑스의 상황을 가리키는 표현이다."
+      },
+      {
+        "term": "curfew",
+        "meaning": "특정 시간 이후 외출을 금지하는 통행 제한을 뜻한다."
+      },
+      {
+        "term": "Star of David",
+        "meaning": "나치 점령기 유대인에게 착용이 강제되었던 표식이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "SS soldiers",
+        "meaning": "나치 독일의 특별 조직인 친위대 소속 군인들을 뜻한다."
+      },
+      {
+        "term": "Mandatory Palestine",
+        "meaning": "영국이 위임통치하던 팔레스타인 지역을 뜻하며 카너먼 가족이 이주한 곳이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "점령기의 아찔한 경험",
+        "explanation": "어린 카너먼은 유대인 표식을 숨긴 채 거리를 걷다가 독일군에게 붙잡혀 안겼지만 다행히 정체가 발각되지 않았습니다. 이 경험은 그가 인간의 복잡성에 매료되는 계기가 되었습니다."
+      },
+      {
+        "title": "심리학에 입문한 계기",
+        "explanation": "카너먼은 이 경험을 통해 사람들이 끝없이 복잡하고 흥미롭다는 확신을 갖게 되었다고 회고했습니다. 이는 그가 심리학의 길로 들어선 이유 중 하나로 소개됩니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-daniel-kahneman-p3",
+    "importantWords": [
+      {
+        "term": "Israel Defense Forces",
+        "meaning": "카너먼이 소위로 복무한 이스라엘의 군대이다."
+      },
+      {
+        "term": "structured interview",
+        "meaning": "표준화된 질문 형식을 사용하는 면접 방법이다."
+      },
+      {
+        "term": "dissertation",
+        "meaning": "박사 학위를 위해 제출하는 학술 논문을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "semantic differential",
+        "meaning": "형용사를 이용해 개념에 대한 의미를 측정하는 심리 측정 기법이다."
+      },
+      {
+        "term": "FORTRAN",
+        "meaning": "카너먼이 즐겨 사용했다고 언급한 초기 프로그래밍 언어이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "군 복무 중의 기여",
+        "explanation": "카너먼은 이스라엘 방위군 심리학과에서 전투 병사를 위한 구조화 면접법을 개발했으며 이는 수십 년간 사용되었습니다. 이는 그의 실용적 심리학 응용 능력을 보여줍니다."
+      },
+      {
+        "title": "버클리에서의 박사 과정",
+        "explanation": "카너먼은 1958년 미국으로 건너가 버클리에서 심리학 박사 과정을 밟았고, 형용사 간의 관계를 다룬 논문을 완성했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-daniel-kahneman-p4",
+    "importantWords": [
+      {
+        "term": "anchoring",
+        "meaning": "초기에 제시된 정보가 이후 판단에 영향을 미치는 인지 편향이다."
+      },
+      {
+        "term": "Amos Tversky",
+        "meaning": "카너먼과 오랫동안 협업한 심리학자이다."
+      },
+      {
+        "term": "Econometrica",
+        "meaning": "전망 이론 최종본이 발표된 저명한 경제학 학술지이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Norm Theory",
+        "meaning": "카너먼이 데일 밀러와 함께 발표한 규범 이론을 뜻한다."
+      },
+      {
+        "term": "counterfactual thinking",
+        "meaning": "실제와 다른 대안적 상황을 상상하는 사고 과정이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "카너먼과 트버스키의 협업",
+        "explanation": "두 사람은 1969년부터 협업을 시작해 여러 편의 논문을 공동 저술했으며 저자 순서를 동전 던지기로 정했습니다. 이러한 협업은 전망 이론이라는 결실로 이어졌습니다."
+      },
+      {
+        "title": "전망 이론의 완성과 발표",
+        "explanation": "카너먼과 트버스키는 3년 넘게 전망 이론 초안을 수정한 끝에 1979년 이코노메트리카에 최종본을 발표했으며 이는 경제학에서 가장 많이 인용된 논문이 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-daniel-kahneman-p5",
+    "importantWords": [
+      {
+        "term": "University of British Columbia",
+        "meaning": "카너먼이 1978년 히브리 대학을 떠나 자리 잡은 캐나다의 대학이다."
+      },
+      {
+        "term": "fallacies",
+        "meaning": "논리적으로 오류가 있는 추론을 뜻한다."
+      },
+      {
+        "term": "systematic errors",
+        "meaning": "우연이 아니라 일관되게 반복되는 판단 오류를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Cass Sunstein",
+        "meaning": "카너먼이 2021년 노이즈를 공동 저술한 학자 중 한 명이다."
+      },
+      {
+        "term": "Daniel Gilbert",
+        "meaning": "카너먼의 메시지를 인간 이성의 오류 경향에 대한 중요한 발견이라 평가한 하버드 심리학자이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인간 이성의 체계적 오류",
+        "explanation": "다니엘 길버트는 카너먼의 핵심 메시지가 인간 이성이 여러 오류와 체계적 오류에 빠지기 쉽다는 것이라고 평가했습니다. 이는 더 나은 의사결정을 위해 편향을 인식해야 함을 시사합니다."
+      },
+      {
+        "title": "노이즈의 공동 저술",
+        "explanation": "카너먼은 2021년 올리비에 시보니, 캐스 선스타인과 함께 인간 판단의 결함을 다룬 저서 노이즈를 출판했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-daniel-kahneman-p6",
+    "importantWords": [
+      {
+        "term": "experienced utility",
+        "meaning": "실제로 경험하는 순간의 쾌락이나 고통을 뜻하는 효용 개념이다."
+      },
+      {
+        "term": "decision utility",
+        "meaning": "선택으로부터 도출되고 설명되는 효용을 뜻한다."
+      },
+      {
+        "term": "colonoscopy",
+        "meaning": "대장 내부를 검사하는 의료 시술로 피크엔드 법칙 설명에 사용된 예시이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "affective forecasting",
+        "meaning": "미래 경험에 대한 감정적 반응을 예측하는 것을 뜻한다."
+      },
+      {
+        "term": "hedonic psychology",
+        "meaning": "무엇이 경험과 삶을 즐겁거나 불쾌하게 만드는지를 연구하는 심리학 분야이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "피크엔드 법칙",
+        "explanation": "카너먼은 과거 경험에 대한 전반적 인상이 경험의 총합이 아니라 절정과 마지막 순간의 느낌에 좌우된다는 피크엔드 법칙을 제시했습니다. 대장내시경 실험이 그 대표적 증거입니다."
+      },
+      {
+        "title": "기억된 효용의 부정확성",
+        "explanation": "카너먼의 연구는 경험된 효용에 대한 기억이 체계적으로 부정확하다는 것을 보여주었습니다. 그럼에도 기억된 효용은 이후 결정 효용을 가장 잘 예측하는 요인이었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-carl-jung-p1",
+    "importantWords": [
+      {
+        "term": "analytical psychology",
+        "meaning": "융이 창시한 심리학 학파로 원형과 무의식을 중심으로 한다."
+      },
+      {
+        "term": "archetypes",
+        "meaning": "집단 무의식 속에 존재하는 보편적인 심상이나 상징을 뜻한다."
+      },
+      {
+        "term": "individuation",
+        "meaning": "의식과 무의식 요소로부터 자기를 분화시키는 평생에 걸친 심리적 과정이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Burghölzli",
+        "meaning": "융이 오이겐 블로일러 밑에서 연구했던 취리히의 정신병원이다."
+      },
+      {
+        "term": "International Psychoanalytical Association",
+        "meaning": "프로이트가 창설하고 융이 회장으로 선임되었던 국제 정신분석 학회이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "개성화의 개념",
+        "explanation": "융은 개성화, 즉 각 개인의 의식과 무의식 요소로부터 자기를 분화시키는 평생의 과정을 인간 발달의 주요 과제로 여겼습니다."
+      },
+      {
+        "title": "프로이트와의 관계와 결별",
+        "explanation": "프로이트는 융을 정신분석학의 후계자로 여겼지만 두 사람의 견해차로 결국 갈라섰습니다. 이 결별은 융이 독자적인 분석심리학 체계를 세우는 계기가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-carl-jung-p2",
+    "importantWords": [
+      {
+        "term": "synchronicity",
+        "meaning": "인과관계 없이 의미 있게 동시에 일어나는 사건들을 설명하는 융의 개념이다."
+      },
+      {
+        "term": "collective unconscious",
+        "meaning": "모든 인간이 공유한다고 여겨지는 보편적인 무의식의 층을 뜻한다."
+      },
+      {
+        "term": "introversion",
+        "meaning": "내면의 세계로 에너지가 향하는 성격 성향을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Rowland Hazard",
+        "meaning": "융이 1926년 치료한 미국의 사업가이자 정치인이다."
+      },
+      {
+        "term": "vital spiritual",
+        "meaning": "융이 알코올 중독 회복의 열쇠로 여긴 강렬한 영적 혹은 종교적 체험을 가리키는 표현이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "단주친목 결성에 끼친 영향",
+        "explanation": "융은 알코올 중독자가 영적 체험을 통해 회복될 수 있다고 확신하며 롤런드 헤이즈드를 치료했고, 이는 단주친목(AA) 결성으로 이어지는 사건들에 결정적 역할을 했습니다."
+      },
+      {
+        "title": "융의 다재다능함",
+        "explanation": "융은 예술가, 장인, 건축가이자 다작의 작가였습니다. 그의 저작 중 상당수는 사후에야 출판되었고 일부는 여전히 미출판 상태입니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-carl-jung-p3",
+    "importantWords": [
+      {
+        "term": "Zionism",
+        "meaning": "유대인 국가 건설을 지지하는 정치적, 사상적 운동을 뜻한다."
+      },
+      {
+        "term": "innate unreliability",
+        "meaning": "융이 어머니의 불안정한 모습을 보고 여성 전반에 대해 형성한 인식을 가리키는 표현이다."
+      },
+      {
+        "term": "eczema",
+        "meaning": "피부에 염증이 생기는 만성 피부 질환을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "hospitalisation",
+        "meaning": "치료를 위해 병원에 입원하는 것을 뜻한다."
+      },
+      {
+        "term": "Klein-Hüningen",
+        "meaning": "융의 가족이 1879년에 이주한 바젤 인근 지역이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어머니에 대한 상반된 기억",
+        "explanation": "융은 낮에는 평범했지만 밤에는 이상하고 신비롭게 변하는 어머니의 모습을 기억하며 여성에 대한 불신을 형성했습니다. 이는 훗날 다른 경험들로 수정되었다고 그는 말했습니다."
+      },
+      {
+        "title": "어린 시절의 이별과 습진",
+        "explanation": "세 살 때 어머니가 몇 달간 입원하며 떨어져 지내야 했던 융은 그 영향으로 전신 습진이 생겼습니다. 그는 이를 자신이 안고 시작한 핸디캡이라 표현했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-carl-jung-p4",
+    "importantWords": [
+      {
+        "term": "introverted",
+        "meaning": "내면으로 에너지가 향하는 내향적 성향을 뜻한다."
+      },
+      {
+        "term": "Basel Gymnasium",
+        "meaning": "융이 다니며 매우 불행했다고 느낀 바젤의 중등학교이다."
+      },
+      {
+        "term": "philosophy",
+        "meaning": "융이 17세에서 18세 사이 몰두하기 시작한 학문 분야이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Personality Number 2",
+        "meaning": "융이 자신의 무의식을 대변한다고 여긴 과거의 위엄 있는 인격을 가리키는 용어이다."
+      },
+      {
+        "term": "tjurungas",
+        "meaning": "호주 원주민 문화에서 사용되는 토템 관련 성스러운 물건을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 개의 인격",
+        "explanation": "융은 자신에게 학교에 다니는 현대적 인격인 '인격 1'과 과거에서 온 위엄 있는 인격인 '인격 2'라는 두 인격이 있다고 믿었습니다. 이는 그의 훗날 무의식 이론의 초기 단서가 되었습니다."
+      },
+      {
+        "title": "마네킹 의식의 의미",
+        "explanation": "어린 융은 자를 깎아 만든 마네킹과 색칠한 돌을 다락방에 숨기고 주기적으로 찾아가는 의식을 치렀습니다. 이 행위는 그에게 내적 평화와 안정감을 주었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-carl-jung-p5",
+    "importantWords": [
+      {
+        "term": "unconscious ritual",
+        "meaning": "의식하지 못한 채 반복적으로 행해지는 의례적 행동을 뜻한다."
+      },
+      {
+        "term": "neurosis",
+        "meaning": "불안이나 강박 등 심리적 갈등에서 비롯된 정신 장애를 뜻한다."
+      },
+      {
+        "term": "epilepsy",
+        "meaning": "뇌의 이상 방전으로 발작을 일으키는 신경 질환이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Humanistisches Gymnasium",
+        "meaning": "융이 12세 때 사고를 당한 바젤의 인문계 김나지움이다."
+      },
+      {
+        "term": "Latin grammar",
+        "meaning": "융이 기절 증세를 극복하기 위해 몰두했던 라틴어 문법을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "기절 증세와 신경증의 발견",
+        "explanation": "융은 학교에 가지 않으려는 무의식적 바람 때문에 기절 증세가 반복되었음을 깨닫고, 이 경험을 통해 신경증이 무엇인지 배웠다고 회고했습니다."
+      },
+      {
+        "title": "의지로 극복한 증세",
+        "explanation": "융은 가족의 가난한 처지를 깨닫고 라틴어 문법에 몰두하며 기절 증세를 스스로 극복해냈습니다. 이는 그의 강한 의지와 학업에 대한 각성을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "psychology-carl-jung-p6",
+    "importantWords": [
+      {
+        "term": "doctoral thesis",
+        "meaning": "박사 학위 취득을 위해 제출하는 논문을 뜻한다."
+      },
+      {
+        "term": "spiritualism",
+        "meaning": "영혼과의 교신을 믿는 사상으로 융의 박사 논문 주제였다."
+      },
+      {
+        "term": "paleoanthropology",
+        "meaning": "인류의 진화와 화석을 연구하는 고인류학을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Hélène Preiswerk",
+        "meaning": "융이 박사 논문에서 다룬 젊은 영매였던 그의 사촌이다."
+      },
+      {
+        "term": "Krafft-Ebing",
+        "meaning": "융이 정신과 의사가 되기로 결심하게 만든 정신의학 교과서의 저자이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "박사 논문의 주제",
+        "explanation": "융은 사촌 엘렌 프라이스베르크의 영매 활동을 다룬 심령주의 논문을 1903년 출판했습니다. 이는 그의 초기 학문적 관심을 보여줍니다."
+      },
+      {
+        "title": "정신의학을 선택한 계기",
+        "explanation": "외과 의사가 될 가능성도 있었던 융은 크라프트에빙의 정신의학 교과서를 읽고 가족과 교수들의 실망에도 불구하고 정신과 의사가 되기로 결심했습니다."
+      }
+    ]
   }
 ]

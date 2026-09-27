@@ -5306,5 +5306,1337 @@
         "explanation": "고도칸을 중심으로 활동한 미토 학파는 국학과 연결된 독자적 사상 개념을 발전시키는 데 특히 중요한 역할을 했다."
       }
     ]
+  },
+  {
+    "passageId": "history-leonardo-da-vinci-p1",
+    "importantWords": [
+      {
+        "term": "polymath",
+        "meaning": "여러 분야에 능통한 박식가"
+      },
+      {
+        "term": "High Renaissance",
+        "meaning": "르네상스 전성기, 15세기 말~16세기 초 이탈리아 예술의 절정기"
+      },
+      {
+        "term": "Mona Lisa",
+        "meaning": "레오나르도가 그린 세계에서 가장 유명한 그림"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "draughtsman",
+        "meaning": "정밀한 소묘와 도면을 그리는 사람"
+      },
+      {
+        "term": "epitomised",
+        "meaning": "전형적으로 구현했다, 대표적으로 보여주었다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "르네상스 인문주의자의 이상",
+        "explanation": "레오나르도는 회화뿐 아니라 해부학, 천문학, 식물학 등 다양한 분야를 기록한 노트를 남겨 르네상스 인문주의자의 이상을 대표하는 인물로 평가받는다."
+      },
+      {
+        "title": "미완성 걸작의 역설",
+        "explanation": "레오나르도는 남아 있는 확실한 주요 작품이 25점이 채 되지 않고 그중 다수가 미완성인데도 서양 회화사에 가장 큰 영향을 남긴 화가로 꼽힌다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-leonardo-da-vinci-p2",
+    "importantWords": [
+      {
+        "term": "Salvator Mundi",
+        "meaning": "2017년 경매에서 4억 5천만 달러가 넘는 가격에 팔린 그림"
+      },
+      {
+        "term": "flying machines",
+        "meaning": "레오나르도가 구상한 비행 기계"
+      },
+      {
+        "term": "tribology",
+        "meaning": "마찰, 마모, 윤활을 연구하는 학문"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "concentrated solar power",
+        "meaning": "거울 등을 이용해 태양광을 한곳에 모으는 기술"
+      },
+      {
+        "term": "bobbin winder",
+        "meaning": "실을 감는 얼레를 자동으로 감는 장치"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "시대를 앞선 발명",
+        "explanation": "레오나르도는 장갑 차량이나 이중 선체 같은 설계를 구상했지만 당시 금속공학과 공학 기술이 미숙해 실현되지 못한 것이 많았다."
+      },
+      {
+        "title": "숨겨진 발견들",
+        "explanation": "그는 해부학과 유체역학 등에서 중요한 발견을 이뤘지만 이를 출판하지 않아 이후 과학 발전에 직접적인 영향을 거의 주지 못했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-leonardo-da-vinci-p3",
+    "importantWords": [
+      {
+        "term": "half-siblings",
+        "meaning": "아버지나 어머니 중 한쪽만 같은 형제자매"
+      },
+      {
+        "term": "Giorgio Vasari",
+        "meaning": "레오나르도의 전기를 쓴 16세기 미술사가"
+      },
+      {
+        "term": "Codex Atlanticus",
+        "meaning": "레오나르도가 최초의 기억을 기록한 코덱스"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "apocryphal",
+        "meaning": "출처가 불확실하거나 진위가 의심스러운"
+      },
+      {
+        "term": "paternal grandfather",
+        "meaning": "친할아버지"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "불확실한 어린 시절",
+        "explanation": "레오나르도의 어린 시절 기록은 매우 적고 바사리의 전기도 종종 진위가 의심스러워 그의 유년기는 신화에 가려져 있다."
+      },
+      {
+        "title": "복잡한 가족 관계",
+        "explanation": "부모가 각각 재혼하며 레오나르도는 16명의 이복형제자매를 두었지만 나이 차이가 크고 접촉이 거의 없었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-leonardo-da-vinci-p4",
+    "importantWords": [
+      {
+        "term": "Verrocchio",
+        "meaning": "레오나르도가 견습생으로 들어간 피렌체의 대표 화가 겸 조각가"
+      },
+      {
+        "term": "garzone",
+        "meaning": "공방에서 일하는 견습 소년"
+      },
+      {
+        "term": "Ghirlandaio",
+        "meaning": "베로키오 공방과 관련된 유명 화가"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Platonic Academy",
+        "meaning": "메디치 가문이 후원한 플라톤 철학 연구 모임"
+      },
+      {
+        "term": "De pictura",
+        "meaning": "알베르티가 쓴 회화에 관한 논문"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "공방 교육의 폭넓음",
+        "explanation": "레오나르도는 베로키오 공방에서 소묘와 회화뿐 아니라 화학, 야금술, 목공 등 폭넓은 기술 훈련을 받았다."
+      },
+      {
+        "title": "동시대 화가들의 영향",
+        "explanation": "피에로 델라 프란체스카의 원근법 연구와 알베르티의 저술이 레오나르도를 포함한 젊은 예술가들에게 깊은 영향을 주었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-leonardo-da-vinci-p5",
+    "importantWords": [
+      {
+        "term": "Baptism of Christ",
+        "meaning": "베로키오와 레오나르도가 함께 작업한 그림"
+      },
+      {
+        "term": "buckler shield",
+        "meaning": "작고 둥근 방패"
+      },
+      {
+        "term": "Medusa",
+        "meaning": "레오나르도가 방패 그림의 영감을 얻은 신화 속 괴물"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "tempera",
+        "meaning": "달걀 등을 섞어 만든 전통 안료 기법"
+      },
+      {
+        "term": "Guild of Saint Luke",
+        "meaning": "화가와 의사들이 속한 길드"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "유화 기법의 도입",
+        "explanation": "세례 요한 그림에서 레오나르도가 그린 부분에는 새로운 유화 기법이 사용되어 기존의 템페라 기법과 구별되었다."
+      },
+      {
+        "title": "일화 속 재능의 과시",
+        "explanation": "바사리가 전하는 방패 그림 일화는 어린 레오나르도의 창의성과 사실적 표현력이 이미 뛰어났음을 보여 주는 이야기로 전해진다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-leonardo-da-vinci-p6",
+    "importantWords": [
+      {
+        "term": "Ludovico Sforza",
+        "meaning": "레오나르도가 밀라노에서 섬긴 공작"
+      },
+      {
+        "term": "Adoration of the Magi",
+        "meaning": "산 도나토 수도사들이 의뢰한 미완성 그림"
+      },
+      {
+        "term": "Neoplatonism",
+        "meaning": "고대 플라톤 사상을 계승한 신플라톤주의"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Anonimo Gaddiano",
+        "meaning": "레오나르도에 관한 기록을 남긴 익명의 초기 전기 작가"
+      },
+      {
+        "term": "Pico della Mirandola",
+        "meaning": "메디치 아카데미와 관련된 젊은 시인이자 철학자"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "밀라노로의 전환",
+        "explanation": "레오나르도는 완성하지 못한 두 건의 위탁 작업을 두고 밀라노 공작 루도비코 스포르차에게 봉사하기 위해 피렌체를 떠났다."
+      },
+      {
+        "title": "인문주의자들과의 교류",
+        "explanation": "레오나르도는 메디치 가문을 통해 피치노, 란디노 같은 인문주의 철학자들과 교류하며 지적 네트워크를 넓혔다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-genghis-khan-p1",
+    "importantWords": [
+      {
+        "term": "Temüjin",
+        "meaning": "칭기즈 칸의 본명"
+      },
+      {
+        "term": "Mongol Empire",
+        "meaning": "칭기즈 칸이 세운 몽골 제국"
+      },
+      {
+        "term": "Borjigin",
+        "meaning": "테무친이 속한 씨족"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Jamukha",
+        "meaning": "테무친과 동맹했다가 훗날 적이 된 초원의 지도자"
+      },
+      {
+        "term": "Naiman tribe",
+        "meaning": "테무친이 물리친 부족"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "권력 통합 과정",
+        "explanation": "테무친은 자무카, 토그릴 등과 동맹과 전쟁을 거치며 몽골 초원의 유일한 지배자로 올라섰다."
+      },
+      {
+        "title": "칭기즈 칸 칭호의 채택",
+        "explanation": "1206년 집회에서 테무친은 칭기즈 칸이라는 칭호를 공식적으로 채택하며 몽골 부족 구조를 능력 중심 체제로 개혁했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-genghis-khan-p2",
+    "importantWords": [
+      {
+        "term": "Jin dynasty",
+        "meaning": "칭기즈 칸이 정복한 중국 왕조"
+      },
+      {
+        "term": "Khwarazmian Empire",
+        "meaning": "사신 처형 후 칭기즈 칸이 침공한 제국"
+      },
+      {
+        "term": "Tengri",
+        "meaning": "칭기즈 칸이 믿은 샤머니즘의 최고신"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Transoxiana",
+        "meaning": "화레즘 침공으로 황폐화된 중앙아시아 지역"
+      },
+      {
+        "term": "interregnum",
+        "meaning": "군주 부재 상태로 통치가 공백인 시기"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정복과 파괴의 이중성",
+        "explanation": "칭기즈 칸의 몽골군은 수백만 명을 살해했지만 동시에 유라시아 전역에 전례 없는 상업과 문화 교류를 촉진했다."
+      },
+      {
+        "title": "역사적 평가의 변화",
+        "explanation": "러시아와 아랍권에서는 야만적 폭군으로 기억되지만 1990년대 이후 서구 학계는 그를 야만적 전사로만 보던 시각을 재평가하기 시작했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-genghis-khan-p3",
+    "importantWords": [
+      {
+        "term": "Kublai Khan",
+        "meaning": "칭기즈 칸의 손자로 원나라를 세운 인물"
+      },
+      {
+        "term": "Yuan dynasty",
+        "meaning": "쿠빌라이 칸이 1271년 세운 왕조"
+      },
+      {
+        "term": "Taizu",
+        "meaning": "칭기즈 칸에게 내려진 묘호로 '위대한 시조'라는 뜻"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "posthumous name",
+        "meaning": "사후에 붙이는 시호"
+      },
+      {
+        "term": "Külüg Khan",
+        "meaning": "쿠빌라이의 증손자로 칭호를 확장한 인물"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이름 표기의 다양성",
+        "explanation": "몽골어에 통일된 로마자 표기법이 없어 칭기즈 칸의 이름은 언어와 시대에 따라 다양하게 표기되어 왔다."
+      },
+      {
+        "title": "칭호를 통한 정당성 부여",
+        "explanation": "후손들이 칭기즈 칸에게 태조, 성무황제 등 여러 칭호를 붙인 것은 왕조의 정통성을 강조하려는 목적이었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-genghis-khan-p4",
+    "importantWords": [
+      {
+        "term": "Ata-Malik Juvayni",
+        "meaning": "몽골에 두 차례 방문한 페르시아 연대기 작가"
+      },
+      {
+        "term": "Jami' al-tawarikh",
+        "meaning": "라시드 알딘이 편찬한 페르시아어 사료"
+      },
+      {
+        "term": "Rashid al-Din",
+        "meaning": "가잔 칸의 명령으로 연대기를 편찬한 인물"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Khwarazmian prince",
+        "meaning": "화레즘 왕조의 왕자"
+      },
+      {
+        "term": "Zhao Hong",
+        "meaning": "1221년 몽골을 방문한 송나라 외교관"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "사료의 신뢰성 차이",
+        "explanation": "주즈자니는 몽골 정복의 잔혹함을 직접 목격해 적대적으로 서술한 반면, 주바이니는 더 우호적이고 신뢰도 높은 기록을 남겼다."
+      },
+      {
+        "title": "검열된 공식 사료",
+        "explanation": "라시드 알딘은 공식 연대기를 작성하며 불편하거나 금기시된 세부 사항을 검열했다고 알려져 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-genghis-khan-p5",
+    "importantWords": [
+      {
+        "term": "Yesügei",
+        "meaning": "테무친의 아버지이자 몽골족 족장"
+      },
+      {
+        "term": "Hö'elün",
+        "meaning": "테무친의 어머니"
+      },
+      {
+        "term": "Borjigin clan",
+        "meaning": "테무친이 태어난 씨족"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "blood clot",
+        "meaning": "혈액이 굳어 뭉친 핏덩이"
+      },
+      {
+        "term": "Merkit bridegroom",
+        "meaning": "호엘룬의 원래 약혼자였던 메르키트족 신랑"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "출생 전설의 상징성",
+        "explanation": "테무친이 핏덩이를 쥐고 태어났다는 전설은 아시아 민속에서 전사가 될 운명을 뜻하는 상징으로 여겨졌다."
+      },
+      {
+        "title": "이름의 기원 논쟁",
+        "explanation": "테무친이라는 이름의 유래에 대해 포로의 이름을 딴 것이라는 설과 '철'을 뜻하는 어근에서 왔다는 설이 엇갈린다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-genghis-khan-p6",
+    "importantWords": [
+      {
+        "term": "Börte",
+        "meaning": "테무친과 약혼한 옹기라트 족장의 딸"
+      },
+      {
+        "term": "Onggirat",
+        "meaning": "보르테가 속한 부족"
+      },
+      {
+        "term": "Dei Sechen",
+        "meaning": "보르테의 아버지인 옹기라트 족장"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "bride price",
+        "meaning": "혼인 시 신부 측에 지불하는 값"
+      },
+      {
+        "term": "levirate marriage",
+        "meaning": "형이 죽으면 동생이 형수와 혼인하는 전통 혼인 관습"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정략적 약혼",
+        "explanation": "예수게이는 강력한 동맹을 얻기 위해 아들 테무친과 옹기라트 족장의 딸 보르테의 약혼을 성사시켰다."
+      },
+      {
+        "title": "지도자 사망 후의 혼란",
+        "explanation": "예수게이가 독살로 죽은 뒤 타이치우드 씨족이 그의 부족을 버리면서 테무친 가족은 큰 어려움을 겪었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-nelson-mandela-p1",
+    "importantWords": [
+      {
+        "term": "apartheid",
+        "meaning": "남아프리카공화국의 인종 분리 정책"
+      },
+      {
+        "term": "African National Congress",
+        "meaning": "만델라가 이끈 아프리카 민족회의"
+      },
+      {
+        "term": "Rivonia Trial",
+        "meaning": "만델라가 종신형을 선고받은 재판"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Umkhonto we Sizwe",
+        "meaning": "만델라가 공동 창설한 무장 저항 조직"
+      },
+      {
+        "term": "seditious activities",
+        "meaning": "국가 전복을 꾀하는 선동 행위"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "비폭력에서 무장 저항으로",
+        "explanation": "만델라는 처음에는 비폭력 저항을 지지했지만 이후 남아공 공산당과 함께 움콘토 웨 시즈웨를 창설해 사보타주 활동을 이끌었다."
+      },
+      {
+        "title": "27년의 수감 생활",
+        "explanation": "만델라는 국가 전복 혐의로 종신형을 선고받아 로벤 섬 등에서 27년간 복역했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-nelson-mandela-p2",
+    "importantWords": [
+      {
+        "term": "de Klerk",
+        "meaning": "1990년 만델라를 석방한 대통령 F. W. 데 클레르크"
+      },
+      {
+        "term": "Truth and Reconciliation Commission",
+        "meaning": "만델라가 설립한 과거사 조사 위원회"
+      },
+      {
+        "term": "Madiba",
+        "meaning": "만델라가 남아공에서 불리는 코사 씨족 이름"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Non-Aligned Movement",
+        "meaning": "만델라가 사무총장을 지낸 비동맹 운동"
+      },
+      {
+        "term": "cult of personality",
+        "meaning": "특정 인물을 숭배하는 현상"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "화해를 통한 국가 재건",
+        "explanation": "만델라는 데 클레르크와 협상해 아파르트헤이트를 종식시키고 진실화해위원회를 세워 인종 간 화해를 도모했다."
+      },
+      {
+        "title": "엇갈리는 평가",
+        "explanation": "만델라는 우파에게는 공산주의 테러리스트로, 급진 좌파에게는 타협적이라는 비판을 받았지만 국제적으로는 도덕적 지도력의 상징으로 평가받았다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-nelson-mandela-p3",
+    "importantWords": [
+      {
+        "term": "Ngubengcuka",
+        "meaning": "만델라의 고조부이자 템부 왕국의 통치자"
+      },
+      {
+        "term": "Thembu",
+        "meaning": "만델라가 속한 템부 왕가"
+      },
+      {
+        "term": "Methodist school",
+        "meaning": "만델라가 다닌 감리교 학교"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "morganatic",
+        "meaning": "왕위 계승권이 없는 귀천상혼 관계의"
+      },
+      {
+        "term": "polygamist",
+        "meaning": "여러 명의 배우자를 둔 사람"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "왕가의 방계 신분",
+        "explanation": "만델라의 가문은 '좌수궁' 출신 왕비의 자손이라 왕위 계승권은 없지만 세습 자문관으로 인정받는 방계 왕족이었다."
+      },
+      {
+        "title": "이름을 통한 정체성 형성",
+        "explanation": "만델라는 감리교 학교에서 세례를 받으며 교사에게서 '넬슨'이라는 영어 이름을 받아 새로운 정체성을 갖게 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-nelson-mandela-p4",
+    "importantWords": [
+      {
+        "term": "Jongintaba Dalindyebo",
+        "meaning": "만델라의 후견인이 된 템부 섭정"
+      },
+      {
+        "term": "ulwaluko",
+        "meaning": "소년에서 성인 남성으로의 전환을 상징하는 할례 의식"
+      },
+      {
+        "term": "Dalibunga",
+        "meaning": "할례 의식 후 만델라가 받은 이름"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "anti-imperialist rhetoric",
+        "meaning": "제국주의에 반대하는 수사와 언설"
+      },
+      {
+        "term": "Clarkebury Methodist High School",
+        "meaning": "만델라가 중등교육을 시작한 학교"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "후견 아래에서의 성장",
+        "explanation": "만델라는 어머니와 떨어져 템부 섭정 종인타바의 궁에서 자신의 친자식처럼 양육되며 기독교와 아프리카 역사를 배웠다."
+      },
+      {
+        "title": "성인식과 새로운 이름",
+        "explanation": "16세에 할례 의식을 치른 만델라는 소년에서 성인 남성으로 인정받으며 달리분가라는 새 이름을 얻었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-nelson-mandela-p5",
+    "importantWords": [
+      {
+        "term": "University of Fort Hare",
+        "meaning": "만델라가 학사 과정을 시작한 흑인 명문 대학"
+      },
+      {
+        "term": "Oliver Tambo",
+        "meaning": "포트헤어에서 만난 만델라의 오랜 동료"
+      },
+      {
+        "term": "SRC",
+        "meaning": "식사 질에 항의해 보이콧을 벌인 학생대표위원회"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Roman-Dutch law",
+        "meaning": "남아공 법체계의 기반이 된 로마-네덜란드법"
+      },
+      {
+        "term": "Wesley House",
+        "meaning": "만델라가 머문 대학 기숙사"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정치 참여의 유보",
+        "explanation": "포트헤어 시절 만델라는 ANC와 연결된 친구들이 있었음에도 아직 독립 운동에는 관여하지 않고 영국의 전쟁 노력을 지지했다."
+      },
+      {
+        "title": "학업 중단의 전환점",
+        "explanation": "식당 개선을 요구하는 보이콧에 가담해 정학당한 사건은 만델라가 대학을 떠나 요하네스버그로 향하게 된 계기가 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-nelson-mandela-p6",
+    "importantWords": [
+      {
+        "term": "Lazar Sidelsky",
+        "meaning": "만델라를 서기로 고용한 자유주의 성향 변호사"
+      },
+      {
+        "term": "Communist Party",
+        "meaning": "만델라가 모임에 참석했지만 가입하지 않은 정당"
+      },
+      {
+        "term": "Alexandra township",
+        "meaning": "만델라가 방을 빌려 살았던 흑인 거주 지역"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "articled clerk",
+        "meaning": "법률사무소에서 실무 수습을 받는 서기"
+      },
+      {
+        "term": "Witwatersrand Native Labour Association",
+        "meaning": "만델라가 이주해 살았던 광부 숙소를 운영한 단체"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "인종을 넘어선 만남",
+        "explanation": "만델라는 법률사무소에서 일하며 유대인, 공산당원 등 다양한 배경의 사람들과 교류하며 평등한 관계를 경험했다."
+      },
+      {
+        "title": "종교와 계급 인식의 충돌",
+        "explanation": "만델라는 공산당의 무신론이 자신의 기독교 신앙과 맞지 않고 남아공의 투쟁을 계급 문제보다 인종 문제로 보았기에 입당하지 않았다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-marco-polo-p1",
+    "importantWords": [
+      {
+        "term": "Silk Road",
+        "meaning": "마르코 폴로가 여행한 아시아 교역로"
+      },
+      {
+        "term": "Kublai Khan",
+        "meaning": "마르코 폴로를 외교 사절로 임명한 몽골 제국 통치자"
+      },
+      {
+        "term": "The Travels of Marco Polo",
+        "meaning": "마르코 폴로의 여행을 기록한 책"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "royal court",
+        "meaning": "군주가 다스리는 궁정"
+      },
+      {
+        "term": "diplomatic missions",
+        "meaning": "외교적 목적의 파견 임무"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가족 상인의 여정",
+        "explanation": "마르코 폴로는 아버지와 삼촌에게서 상업을 배우고 그들과 함께 실크로드를 따라 아시아로 향하는 여정에 나섰다."
+      },
+      {
+        "title": "제노바 감옥에서의 기록",
+        "explanation": "베네치아와 제노바의 전쟁 중 포로가 된 마르코 폴로는 감옥에서 자신의 여행담을 구술해 훗날 책으로 남겼다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-marco-polo-p2",
+    "importantWords": [
+      {
+        "term": "Christopher Columbus",
+        "meaning": "마르코 폴로의 기록에서 영감을 받은 탐험가"
+      },
+      {
+        "term": "gunpowder",
+        "meaning": "마르코 폴로의 기록에 담긴 화약"
+      },
+      {
+        "term": "Catalan Atlas",
+        "meaning": "마르코 폴로의 영향을 받은 지도"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "porcelain",
+        "meaning": "마르코 폴로가 서양에 처음 기록한 도자기"
+      },
+      {
+        "term": "Fra Mauro map",
+        "meaning": "마르코 폴로의 저술에 영향받은 세계지도"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "유럽의 동방 인식 확장",
+        "explanation": "마르코 폴로의 기록은 도자기, 화약, 지폐 등을 유럽에 처음 소개하며 동방에 대한 지리적 이해를 넓혔다."
+      },
+      {
+        "title": "출생지를 둘러싼 논쟁",
+        "explanation": "마르코 폴로의 출생지는 베네치아가 정설이지만 코르출라나 콘스탄티노플이라는 소수 주장도 존재한다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-marco-polo-p3",
+    "importantWords": [
+      {
+        "term": "Milione",
+        "meaning": "마르코 폴로에게 붙은 별명, '백만'이라는 뜻"
+      },
+      {
+        "term": "Niccolò Polo",
+        "meaning": "마르코 폴로의 아버지"
+      },
+      {
+        "term": "Luigi Foscolo Benedetto",
+        "meaning": "밀리오네라는 별명의 유래를 연구한 19세기 문헌학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "philologist",
+        "meaning": "언어와 문헌을 연구하는 학자"
+      },
+      {
+        "term": "Messer Marco Milioni",
+        "meaning": "마르코 폴로에게 붙은 더 정확한 별명"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "별명의 유래 논쟁",
+        "explanation": "라무시오는 마르코가 쿠빌라이 칸의 재산을 백만 단위로 자주 언급해 밀리오네라는 별명이 붙었다고 전했다."
+      },
+      {
+        "title": "가문 구분을 위한 이름",
+        "explanation": "베네데토는 아버지 니콜로도 같은 별명으로 불렸다는 점에서 밀리오네가 폴로 가문의 한 분파를 구별하기 위한 이름이었다고 추측했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-marco-polo-p4",
+    "importantWords": [
+      {
+        "term": "Shangdu",
+        "meaning": "마르코 폴로가 도착한 쿠빌라이 칸의 궁전이 있던 곳"
+      },
+      {
+        "term": "Arghun Khan",
+        "meaning": "쾨쾨친 공주가 시집가려 했던 페르시아의 칸"
+      },
+      {
+        "term": "Great Khan",
+        "meaning": "교황의 편지 수신자로 지칭된 몽골 제국의 대칸"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Dominican fathers",
+        "meaning": "교황이 폴로 일가와 함께 보낸 도미니크회 수도사들"
+      },
+      {
+        "term": "Conclave",
+        "meaning": "새 교황을 선출하는 추기경 회의"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "교황의 외교 임무",
+        "explanation": "새로 선출된 교황은 폴로 일가에게 대칸에게 로마로 사절을 보내라는 편지를 전하는 외교 임무를 맡겼다."
+      },
+      {
+        "title": "궁정에서의 신임",
+        "explanation": "쿠빌라이 칸은 마르코의 지혜와 겸손함에 감명받아 그를 인도와 미얀마로 보내는 외교 사절로 임명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-marco-polo-p5",
+    "importantWords": [
+      {
+        "term": "Republic of Genoa",
+        "meaning": "베네치아와 전쟁 중이던 상대국"
+      },
+      {
+        "term": "Rustichello da Pisa",
+        "meaning": "마르코 폴로가 감옥에서 여행담을 구술한 동료 수감자"
+      },
+      {
+        "term": "trebuchet",
+        "meaning": "폴로가 무장한 갤리선에 장착한 투석기"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "galley",
+        "meaning": "노를 저어 움직이는 전투용 배"
+      },
+      {
+        "term": "gemstones",
+        "meaning": "재산을 바꾼 보석류"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전쟁 포로가 된 상인",
+        "explanation": "베네치아와 제노바의 전쟁 중 폴로는 갤리선을 무장해 참전했다가 제노바군에 포로로 잡혔다."
+      },
+      {
+        "title": "감옥에서 탄생한 명저",
+        "explanation": "폴로가 감옥에서 루스티첼로에게 구술한 이야기는 필사본 형태로 유럽 전역에 퍼져 동방에 대한 최초의 종합적 기록이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-marco-polo-p6",
+    "importantWords": [
+      {
+        "term": "Donata Badoèr",
+        "meaning": "1300년 마르코 폴로와 결혼한 여성"
+      },
+      {
+        "term": "Pietro d'Abano",
+        "meaning": "마르코 폴로의 천문 관측을 기록한 철학자 겸 천문학자"
+      },
+      {
+        "term": "comet",
+        "meaning": "마르코 폴로가 목격했다고 전해지는 혜성"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Sumatran rhinoceros",
+        "meaning": "폴로가 묘사한 수마트라코뿔소"
+      },
+      {
+        "term": "Conciliator Differentiarum",
+        "meaning": "피에트로 다바노가 관측 기록을 남긴 저서"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가정을 이룬 말년",
+        "explanation": "마르코 폴로는 1300년 도나타 바도에르와 결혼해 세 딸을 두었고 이전에도 다른 관계에서 딸을 두었던 것으로 밝혀졌다."
+      },
+      {
+        "title": "천문 관측의 기록",
+        "explanation": "피에트로 다바노는 마르코 폴로가 남반구에서 목격한 자루 모양의 혜성 등 천문 관측 내용을 자신의 저서에 남겼다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-johannes-gutenberg-p1",
+    "importantWords": [
+      {
+        "term": "movable-type printing press",
+        "meaning": "구텐베르크가 발명한 활판 인쇄기"
+      },
+      {
+        "term": "Gutenberg Bible",
+        "meaning": "구텐베르크가 인쇄한 최초의 성경"
+      },
+      {
+        "term": "type metal alloy",
+        "meaning": "활자를 만드는 데 쓰인 합금"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "adjustable molds",
+        "meaning": "활자를 주조하는 조절 가능한 주형"
+      },
+      {
+        "term": "Gutenberg Museum",
+        "meaning": "구텐베르크 탄생 500주년을 기려 세운 박물관"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정보 혁명의 시작",
+        "explanation": "구텐베르크의 인쇄기는 인쇄 속도를 크게 높여 유럽 전역에 문헌이 대량으로 퍼지는 정보 혁명을 일으켰다."
+      },
+      {
+        "title": "합금 기술의 개선",
+        "explanation": "납, 주석, 안티모니를 섞은 합금은 낮은 온도에서 녹아 더 경제적이고 내구성 있는 활자를 만들 수 있게 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-johannes-gutenberg-p2",
+    "importantWords": [
+      {
+        "term": "Friele Gensfleisch",
+        "meaning": "구텐베르크의 아버지"
+      },
+      {
+        "term": "Mainz",
+        "meaning": "구텐베르크가 태어난 독일 도시"
+      },
+      {
+        "term": "patrician",
+        "meaning": "구텐베르크 가문이 속한 귀족 계층"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Münzerhausgenossenschaft",
+        "meaning": "조폐국과 관련된 협동조합"
+      },
+      {
+        "term": "Hof zum Gutenberg",
+        "meaning": "구텐베르크 가문이 물려받은 저택"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신분 차이가 낳은 제약",
+        "explanation": "어머니가 평민 출신이라는 이유로 구텐베르크는 아버지의 조폐국 직위를 물려받을 수 없어 발명가라는 특이한 길을 걷게 되었을 수 있다."
+      },
+      {
+        "title": "귀족과 길드의 갈등",
+        "explanation": "마인츠의 귀족 계층과 길드 장인들 사이의 갈등은 1411년 폭력 사태로까지 번져 여러 귀족 가문이 도시를 떠나야 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-johannes-gutenberg-p3",
+    "importantWords": [
+      {
+        "term": "Strasbourg",
+        "meaning": "1434년 구텐베르크가 거주한 것으로 확인된 도시"
+      },
+      {
+        "term": "University of Erfurt",
+        "meaning": "구텐베르크가 다녔을 것으로 추정되는 대학"
+      },
+      {
+        "term": "Eltville",
+        "meaning": "구텐베르크 가족이 피신한 마을"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "hunger riots",
+        "meaning": "식량 부족으로 인한 폭동"
+      },
+      {
+        "term": "goldsmith",
+        "meaning": "금속 세공을 하는 금세공인"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "기록의 공백",
+        "explanation": "구텐베르크의 유년기와 청년기에 관한 문서는 거의 남아 있지 않아 전기 작가들도 이 시기를 자세히 서술하지 못한다."
+      },
+      {
+        "title": "이주로 이어진 정치 불안",
+        "explanation": "마인츠의 선거 분쟁과 식량 폭동은 구텐베르크 가족을 엘트빌레로, 이후 스트라스부르로 이주하게 만든 배경이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-johannes-gutenberg-p4",
+    "importantWords": [
+      {
+        "term": "Aachen",
+        "meaning": "구텐베르크가 거울을 팔려 했던 순례지"
+      },
+      {
+        "term": "Aventur und Kunst",
+        "meaning": "구텐베르크가 인쇄 비밀을 공개했다고 전해지는 사업의 이름"
+      },
+      {
+        "term": "Arnold Gelthus",
+        "meaning": "구텐베르크에게 대출해 준 매형"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "intaglio printing",
+        "meaning": "오목판을 이용한 인쇄 기법"
+      },
+      {
+        "term": "Master of Playing Cards",
+        "meaning": "구텐베르크가 함께 작업했다고 알려진 판화가"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실패에서 얻은 자본",
+        "explanation": "아헨 순례객을 위한 거울 사업이 홍수로 지연되며 손실을 보았지만 이 경험이 이후 인쇄 사업의 밑거름이 되었을 수 있다."
+      },
+      {
+        "title": "인쇄술 개발의 비밀 유지",
+        "explanation": "구텐베르크는 스트라스부르에서 인쇄 기술을 비밀리에 연구했으며 정확히 어떤 작업이었는지는 오늘날까지 불분명하다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-johannes-gutenberg-p5",
+    "importantWords": [
+      {
+        "term": "Johann Fust",
+        "meaning": "구텐베르크에게 대출해 준 부유한 금융업자"
+      },
+      {
+        "term": "Peter Schöffer",
+        "meaning": "푸스트의 사위이자 인쇄 사업 참여자"
+      },
+      {
+        "term": "Bamberg",
+        "meaning": "구텐베르크가 파산 후 성경 인쇄에 참여한 도시"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "indulgences",
+        "meaning": "교회가 발행한 면죄부"
+      },
+      {
+        "term": "Humbrechthof",
+        "meaning": "구텐베르크의 인쇄 작업장이 있던 곳"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자본을 통한 사업 확장",
+        "explanation": "구텐베르크는 푸스트에게서 두 차례 800길더씩 빌려 성경 인쇄 프로젝트를 진행할 자금을 마련했다."
+      },
+      {
+        "title": "수익 사업과 병행된 성경 인쇄",
+        "explanation": "구텐베르크의 인쇄소는 성경 작업과 함께 면죄부 인쇄 같은 수익성 높은 사업도 함께 운영했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-johannes-gutenberg-p6",
+    "importantWords": [
+      {
+        "term": "Mainz Psalter",
+        "meaning": "푸스트-쇠퍼 인쇄소가 처음으로 인쇄자 이름을 밝힌 책"
+      },
+      {
+        "term": "Ivo Wittig",
+        "meaning": "구텐베르크를 활판술의 발명가로 언급한 1504년 저서의 저자"
+      },
+      {
+        "term": "Hofmann",
+        "meaning": "1465년 대주교가 구텐베르크에게 준 궁정인 칭호"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Catholicon",
+        "meaning": "구텐베르크의 작업장에서 인쇄되었을 것으로 추정되는 대사전"
+      },
+      {
+        "term": "Mainz Diocesan Feud",
+        "meaning": "1462년 마인츠를 파괴한 교구 분쟁"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "익명으로 남은 업적",
+        "explanation": "구텐베르크의 인쇄물에는 이름이나 날짜가 없어 그의 작업으로 확실히 인정되는 책이 거의 없다."
+      },
+      {
+        "title": "말년의 명예 회복",
+        "explanation": "파산 이후에도 구텐베르크는 대주교로부터 궁정인 칭호와 연금을 받으며 업적을 인정받았다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-sejong-the-great-p1",
+    "importantWords": [
+      {
+        "term": "Hangul",
+        "meaning": "세종이 창제한 한국 고유의 문자"
+      },
+      {
+        "term": "Hall of Worthies",
+        "meaning": "세종이 재건한 왕립 연구 기관"
+      },
+      {
+        "term": "Joseon",
+        "meaning": "세종이 다스린 조선 왕조"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Ch'ilchŏngsan",
+        "meaning": "집현전이 만든 최초의 한국 고유 역법"
+      },
+      {
+        "term": "Ōei Invasion",
+        "meaning": "세종이 대마도에 감행한 원정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학문과 실천의 결합",
+        "explanation": "세종은 과학과 농업, 의학 등 여러 분야의 연구를 직접 감독하고 참여하며 성과를 이루었다."
+      },
+      {
+        "title": "유교 강화와 불교 억제",
+        "explanation": "세종은 유교의 영향력을 크게 확대하는 동시에 조선 내 불교의 영향력을 줄이는 정책을 추진했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-sejong-the-great-p2",
+    "importantWords": [
+      {
+        "term": "Munjong",
+        "meaning": "세종의 뒤를 이을 왕세자, 훗날의 왕"
+      },
+      {
+        "term": "Yeongneung",
+        "meaning": "세종이 묻힌 왕릉"
+      },
+      {
+        "term": "Sejong City",
+        "meaning": "세종의 이름을 딴 도시"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "feudal subjugation",
+        "meaning": "봉건적 예속 상태"
+      },
+      {
+        "term": "class stratification",
+        "meaning": "계급이 엄격히 나뉜 사회 구조"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신앙과 정책의 모순",
+        "explanation": "세종은 반불교 정책을 폈지만 사적으로는 불교 신앙을 점점 더 드러내 조정의 유학자들과 갈등을 빚었다."
+      },
+      {
+        "title": "평가의 양면성",
+        "explanation": "남한에서는 세종을 문화적 아이콘으로 기리지만 북한의 공식 문헌은 그의 치세 아래 농민의 삶이 고달팠다는 점도 함께 강조한다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-sejong-the-great-p3",
+    "importantWords": [
+      {
+        "term": "Ch'ungnyŏng",
+        "meaning": "세종이 왕이 되기 전 불린 칭호"
+      },
+      {
+        "term": "Yi Su",
+        "meaning": "충녕을 가르친 학자 관료"
+      },
+      {
+        "term": "Kuso sugan",
+        "meaning": "충녕이 여러 번 반복해 읽었다는 책"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "gayageum",
+        "meaning": "충녕이 능숙했던 한국 전통 현악기"
+      },
+      {
+        "term": "First Strife of the Princes",
+        "meaning": "충녕의 아버지가 일으킨 왕자의 난"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학구열을 보여주는 일화",
+        "explanation": "충녕이 책을 너무 많이 읽어 아버지가 건강을 걱정해 책을 빼앗았다는 일화는 그의 학문적 열정을 보여 준다."
+      },
+      {
+        "title": "왕위와 거리가 멀었던 유년",
+        "explanation": "충녕은 셋째 아들로 태어나 왕위를 계승할 가능성이 낮아 보였기에 그의 어린 시절 기록은 거의 남아 있지 않다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-sejong-the-great-p4",
+    "importantWords": [
+      {
+        "term": "Yangnyŏng",
+        "meaning": "폐위된 세자, 세종의 형"
+      },
+      {
+        "term": "Kwak Sŏn",
+        "meaning": "양녕이 불륜을 저지른 여성의 원래 주인이었던 관료"
+      },
+      {
+        "term": "Sŏngnyŏng",
+        "meaning": "병으로 죽은 충녕의 동생"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "concubine",
+        "meaning": "정실이 아닌 부인, 첩"
+      },
+      {
+        "term": "Kaesong",
+        "meaning": "태종이 양녕을 남겨두고 향한 도시"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "형제간의 대비",
+        "explanation": "양녕은 학업을 소홀히 하고 문제를 일으킨 반면 충녕은 총명하고 학구적이라는 평가를 받아 둘 사이에 뿌리 깊은 경쟁이 생겼다."
+      },
+      {
+        "title": "불륜 사건의 파장",
+        "explanation": "양녕이 어리와 벌인 불륜은 태종을 격노하게 했고 이는 결국 세자 교체 논의로 이어지는 계기가 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-sejong-the-great-p5",
+    "importantWords": [
+      {
+        "term": "Hyoryŏng",
+        "meaning": "유약하다고 평가받아 후계자에서 제외된 둘째 아들"
+      },
+      {
+        "term": "primogeniture",
+        "meaning": "장자 상속의 원칙"
+      },
+      {
+        "term": "Gwangju",
+        "meaning": "폐위된 양녕이 유배된 곳"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "demoted",
+        "meaning": "지위가 강등된"
+      },
+      {
+        "term": "nominated",
+        "meaning": "후계자로 지명된"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "장자 상속 원칙의 파기",
+        "explanation": "양녕을 폐위하는 결정은 안정적인 장자 상속 관행을 뒤엎는 일이라 조정에서 논쟁이 컸다."
+      },
+      {
+        "title": "능력 중심의 후계자 선정",
+        "explanation": "태종은 둘째 아들이 유약하다고 판단해 제외하고 학구적이고 지혜로운 충녕을 새 후계자로 지명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "history-sejong-the-great-p6",
+    "importantWords": [
+      {
+        "term": "Hall of Worthies",
+        "meaning": "세종이 1420년 재건한 학술 연구 기관"
+      },
+      {
+        "term": "saga toksŏ",
+        "meaning": "1426년 시작된 학자들의 독립 연구 제도"
+      },
+      {
+        "term": "Gyeongbokgung",
+        "meaning": "세종이 주 궁궐로 삼은 궁"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Changdeokgung",
+        "meaning": "세종이 경복궁으로 옮기기 전 머문 궁궐"
+      },
+      {
+        "term": "bureaucratic institutions",
+        "meaning": "행정을 담당하는 관료 제도"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "현대적 연구 제도의 원형",
+        "explanation": "1426년 시작된 사가독서 제도는 학자들이 국정 업무 없이 독립적으로 연구할 수 있게 해 오늘날의 연구 지원 제도에 비견된다."
+      },
+      {
+        "title": "안정된 통치 기반의 계승",
+        "explanation": "세종의 성공적인 치세는 태종이 다져 놓은 관료 제도와 안정된 통치 기반 덕분에 가능했다는 평가를 받는다."
+      }
+    ]
   }
 ]

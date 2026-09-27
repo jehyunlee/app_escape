@@ -5098,5 +5098,1337 @@
         "explanation": "이 연구는 빛과 물질의 전자적 성질 사이에 강한 관계가 있음을 처음으로 보여준 중요한 사례로 평가됩니다."
       }
     ]
+  },
+  {
+    "passageId": "science-charles-darwin-p1",
+    "importantWords": [
+      {
+        "term": "natural selection",
+        "meaning": "환경에 더 적합한 개체가 살아남아 번식하는 진화의 메커니즘이다."
+      },
+      {
+        "term": "Linnean Society",
+        "meaning": "다윈과 월리스의 이론이 공동으로 발표된 런던의 학회이다."
+      },
+      {
+        "term": "common ancestor",
+        "meaning": "모든 생물종이 공유하는 하나의 조상을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "artificial selection",
+        "meaning": "인간이 원하는 형질을 골라 번식시키는 인위적인 선택을 뜻한다."
+      },
+      {
+        "term": "marine invertebrates",
+        "meaning": "척추가 없는 바다 생물을 가리키는 표현이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자연선택과 인위선택의 유사성",
+        "explanation": "지문은 생존 경쟁에 의한 자연선택이 사육 시 품종 개량에 쓰이는 인위 선택과 비슷한 효과를 낸다고 비교합니다."
+      },
+      {
+        "title": "공동 발표의 배경",
+        "explanation": "다윈은 오랜 시간 이론을 다듬고 있었지만, 월리스가 같은 생각을 담은 글을 보내오자 서둘러 공동으로 발표하게 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-charles-darwin-p2",
+    "importantWords": [
+      {
+        "term": "On the Origin of Species",
+        "meaning": "다윈이 1859년에 발표한, 진화론의 증거를 제시한 저서이다."
+      },
+      {
+        "term": "evolutionary synthesis",
+        "meaning": "여러 학문 분야가 결합되어 자연선택을 진화의 핵심 기제로 확정한 20세기 중반의 합의를 뜻한다."
+      },
+      {
+        "term": "sexual selection",
+        "meaning": "짝짓기 성공과 관련된 형질이 진화에 영향을 주는 과정이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "coevolution",
+        "meaning": "서로 다른 두 종이 상호작용하며 함께 진화하는 현상이다."
+      },
+      {
+        "term": "diversification",
+        "meaning": "생물이 다양한 형태로 갈라져 나가는 과정을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "수용과 합의의 시차",
+        "explanation": "1870년대에 진화 자체는 널리 받아들여졌지만, 자연선택이 핵심 기제라는 합의는 수십 년 뒤에야 이루어졌다는 시차를 지문은 강조합니다."
+      },
+      {
+        "title": "다윈의 마지막 저작들",
+        "explanation": "지문은 지렁이에 관한 책이 다윈의 마지막 저작이라고 언급하며, 그의 관심사가 인간 심리부터 토양까지 폭넓었음을 보여줍니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-charles-darwin-p3",
+    "importantWords": [
+      {
+        "term": "Plinian Society",
+        "meaning": "다윈이 학생 시절 참여했던 자연사 토론 모임이다."
+      },
+      {
+        "term": "taxidermy",
+        "meaning": "동물의 가죽을 보존 처리해 표본으로 만드는 기술이다."
+      },
+      {
+        "term": "skate leech",
+        "meaning": "다윈이 발견한, 알이 굴 껍데기 속 홀씨처럼 보였던 생물이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "neptunism",
+        "meaning": "암석이 물에서 형성되었다고 보는 지질학 학설이다."
+      },
+      {
+        "term": "plutonism",
+        "meaning": "암석이 화산 활동으로 형성되었다고 보는 지질학 학설이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "의학 대신 자연사로",
+        "explanation": "다윈은 의학 강의를 지루해했지만 해부와 박제 등 자연사 활동에는 열정적으로 참여했습니다."
+      },
+      {
+        "title": "스승들의 영향",
+        "explanation": "Grant와의 활동, Jameson의 강의 등 여러 스승과의 경험이 다윈의 초기 과학적 관심을 형성했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-charles-darwin-p4",
+    "importantWords": [
+      {
+        "term": "Glutton Club",
+        "meaning": "처음 먹어보는 동물을 먹는 모임으로 다윈이 케임브리지에서 가입했다."
+      },
+      {
+        "term": "entomology",
+        "meaning": "곤충을 연구하는 학문 분야이다."
+      },
+      {
+        "term": "Natural Theology",
+        "meaning": "자연 속 신의 설계를 논증한 Paley의 저서 제목이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ordinary degree course",
+        "meaning": "Tripos 시험 자격이 안 되는 학생이 대신 듣는 학위 과정을 뜻한다."
+      },
+      {
+        "term": "inductive reasoning",
+        "meaning": "개별 관찰로부터 일반 법칙을 이끌어내는 추론 방식이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다윈의 이중적 관심사",
+        "explanation": "다윈은 승마와 사냥을 공부보다 좋아했지만, 동시에 곤충 채집과 자연신학 책 읽기에는 깊이 몰두했습니다."
+      },
+      {
+        "title": "헨슬로와의 인연",
+        "explanation": "사촌 Fox를 통해 식물학 교수 Henslow와 가까워진 일이 이후 비글호 항해 추천으로 이어지는 계기가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-charles-darwin-p5",
+    "importantWords": [
+      {
+        "term": "HMS Beagle",
+        "meaning": "다윈이 5년간 항해하며 자연사를 조사한 배 이름이다."
+      },
+      {
+        "term": "Robert FitzRoy",
+        "meaning": "비글호의 선장으로 다윈을 박물학자로 초청한 인물이다."
+      },
+      {
+        "term": "Josiah Wedgwood",
+        "meaning": "다윈의 항해를 아버지에게 설득해 준 외삼촌이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "supernumerary",
+        "meaning": "정식 인원 외에 추가로 배치된 자리를 뜻한다."
+      },
+      {
+        "term": "private capacity",
+        "meaning": "공식 직책이 아닌 개인 자격을 의미한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가족의 반대와 설득",
+        "explanation": "아버지 로버트는 항해를 시간 낭비로 여겨 반대했지만, 외삼촌의 설득으로 결국 자금을 지원하기로 했습니다."
+      },
+      {
+        "title": "수집품 소유권 문제",
+        "explanation": "다윈은 개인 자격을 유지해 자신의 수집품에 대한 통제권을 지키고, 이를 주요 과학 기관에 제공할 계획이었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-charles-darwin-p6",
+    "importantWords": [
+      {
+        "term": "Punta Alta",
+        "meaning": "다윈이 거대 멸종 포유류 화석을 발견한 절벽 인근 지명이다."
+      },
+      {
+        "term": "Megatherium",
+        "meaning": "다윈이 턱과 이빨로 식별한 거대한 멸종 포유류이다."
+      },
+      {
+        "term": "Principles of Geology",
+        "meaning": "Charles Lyell이 저술한, 다윈이 항해 중 읽은 지질학 책이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "uniformitarian",
+        "meaning": "지질학적 변화가 오랜 시간 서서히 일어난다고 보는 관점을 뜻한다."
+      },
+      {
+        "term": "centres of creation",
+        "meaning": "특정 종이 특정 장소에서 창조되었다고 보는 개념이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "화석과 멸종의 단서",
+        "explanation": "다윈은 현생 조개껍데기 옆에서 거대 멸종 포유류의 화석을 발견해, 급격한 재앙 없이도 멸종이 일어날 수 있음을 시사받았습니다."
+      },
+      {
+        "title": "라이엘 이론에 대한 도전",
+        "explanation": "다윈은 라이엘의 점진적 지질 변화 개념에는 동의했지만, 자신의 발견은 라이엘의 종 창조 중심지 개념에 의문을 던졌습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-marie-curie-p1",
+    "importantWords": [
+      {
+        "term": "radioactivity",
+        "meaning": "원자핵이 붕괴하며 방사선을 방출하는 현상으로, 퀴리가 이름 붙인 용어이다."
+      },
+      {
+        "term": "Curie Institute",
+        "meaning": "퀴리가 파리와 바르샤바에 설립한 의학 연구 기관이다."
+      },
+      {
+        "term": "mobile radiography",
+        "meaning": "전장에서 X선 촬영을 할 수 있도록 만든 이동식 장비이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "neoplasms",
+        "meaning": "비정상적으로 자라난 조직, 즉 종양을 뜻한다."
+      },
+      {
+        "term": "isolation of radium",
+        "meaning": "라듐을 다른 물질에서 분리해내는 작업을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 번의 노벨상",
+        "explanation": "퀴리는 1903년 물리학상과 1911년 화학상을 각각 받아, 서로 다른 두 과학 분야에서 노벨상을 받은 유일한 인물이 되었습니다."
+      },
+      {
+        "title": "전쟁 중의 실용적 기여",
+        "explanation": "퀴리는 순수 연구에 그치지 않고 제1차 세계대전 중 이동식 X선 장비를 개발해 야전병원에서 실제로 활용되도록 했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-marie-curie-p2",
+    "importantWords": [
+      {
+        "term": "aplastic anaemia",
+        "meaning": "골수가 혈구를 충분히 만들지 못하는 혈액 질환이다."
+      },
+      {
+        "term": "Panthéon",
+        "meaning": "퀴리가 자신의 업적으로 안치된 파리의 기념 건물이다."
+      },
+      {
+        "term": "curium",
+        "meaning": "퀴리를 기려 이름 붙여진 인공 합성 원소이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "sanatorium",
+        "meaning": "요양을 위한 병원 시설을 뜻한다."
+      },
+      {
+        "term": "entombed",
+        "meaning": "유해가 안치되었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "방사선 노출의 대가",
+        "explanation": "퀴리는 연구와 야전병원 방사선 업무로 오랜 기간 방사선에 노출되었고, 이것이 그녀의 사망 원인인 재생불량성 빈혈과 관련 있다고 지문은 설명합니다."
+      },
+      {
+        "title": "사후의 기림",
+        "explanation": "퀴리는 파리 팡테옹에 자신의 업적으로 안치된 최초의 여성이 되었고, 원소 퀴륨에도 그녀의 이름이 남았습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-marie-curie-p3",
+    "importantWords": [
+      {
+        "term": "boarding school",
+        "meaning": "기숙 형태로 운영되는 학교를 뜻하며, 마리아 어머니가 운영하고 마리아 자신도 다녔다."
+      },
+      {
+        "term": "Flying University",
+        "meaning": "여성 입학이 허용되던, 러시아 지배하 폴란드의 비밀 고등교육 기관이다."
+      },
+      {
+        "term": "Żorawskis",
+        "meaning": "마리아가 가정교사로 일했던 지주 집안의 성씨이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "tuberculosis",
+        "meaning": "마리아의 어머니가 사망한 원인이 된 결핵을 뜻한다."
+      },
+      {
+        "term": "agnostic",
+        "meaning": "신의 존재를 알 수 없다고 보는 불가지론자를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가문의 몰락과 교육열",
+        "explanation": "두 집안 모두 폴란드 독립운동에 참여했다가 재산을 잃었지만, 아버지는 과학 교육에 대한 열정을 자녀들에게 물려주었습니다."
+      },
+      {
+        "title": "억압 속의 대응",
+        "explanation": "러시아 당국이 실험 수업을 없애자 아버지는 집에서 몰래 실험 교육을 이어가는 방식으로 대응했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-marie-curie-p4",
+    "importantWords": [
+      {
+        "term": "Kazimierz",
+        "meaning": "마리아가 가정교사로 일하던 집안의 아들로, 훈날 수학자가 된 인물이다."
+      },
+      {
+        "term": "Radium Institute",
+        "meaning": "퀴리가 1932년 설립한 연구소이다."
+      },
+      {
+        "term": "governess",
+        "meaning": "가정에서 아이들을 가르치는 여성 가정교사를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "penniless relative",
+        "meaning": "돈이 없는 친척이라는 뜻으로, Żorawski 부모가 마리아를 가리킨 표현이다."
+      },
+      {
+        "term": "lucrative position",
+        "meaning": "수입이 좋은 일자리를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이루어지지 못한 사랑",
+        "explanation": "Żorawski의 부모가 반대해 결혼이 무산되었지만, 그는 훗날 노교수가 되어 마리아의 동상 앞에 서곤 했다고 지문은 전합니다."
+      },
+      {
+        "title": "자금을 모으기 위한 기다림",
+        "explanation": "마리아는 파리 유학을 원했지만 등록금이 없어 1년 반을 더 기다리며 자금을 모아야 했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-marie-curie-p5",
+    "importantWords": [
+      {
+        "term": "Gabriel Lippmann",
+        "meaning": "마리아가 1893년 학위 후 일했던 산업 연구소의 지도자이다."
+      },
+      {
+        "term": "ESPCI Paris",
+        "meaning": "피에르 퀴리가 강사로 있었던 파리의 공업물리화학 고등교육기관이다."
+      },
+      {
+        "term": "Józef Wierusz-Kowalski",
+        "meaning": "마리아와 피에르를 소개해 준 폴란드 물리학자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "meagre resources",
+        "meaning": "매우 부족한 생활 자금을 뜻한다."
+      },
+      {
+        "term": "fellowship",
+        "meaning": "연구나 학업을 지원하는 장학금 제도를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "궁핍했던 파리 유학 생활",
+        "explanation": "마리아는 추운 겨울에 옷을 겹쳐 입고 끼니를 거를 정도로 검소하게 생활하며 연구에 몰두했습니다."
+      },
+      {
+        "title": "연구 공간을 통한 만남",
+        "explanation": "피에르와의 만남은 실험 공간이 필요했던 마리아의 사정과 자연과학에 대한 공통 관심에서 시작되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-marie-curie-p6",
+    "importantWords": [
+      {
+        "term": "electrometer",
+        "meaning": "전하를 측정하는 민감한 장치로, 피에르 형제가 개발했다."
+      },
+      {
+        "term": "uranium rays",
+        "meaning": "퀴리가 연구 주제로 삼은, 우라늄에서 나오는 방사선이다."
+      },
+      {
+        "term": "Henri Becquerel",
+        "meaning": "우라늄염이 X선과 비슷한 방사선을 낸다는 것을 발견한 과학자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "indivisible",
+        "meaning": "더 이상 나눌 수 없다는 뜻으로, 원자에 대한 기존 가정을 가리킨다."
+      },
+      {
+        "term": "Sceaux",
+        "meaning": "퀴리 부부가 결혼식을 올린 프랑스의 지명이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "원자 내부에서 나오는 방사선",
+        "explanation": "퀴리는 우라늄 화합물의 방사선 세기가 오직 우라늄 양에만 좌우된다는 것을 발견하고, 방사선이 원자 자체에서 나온다고 추론했습니다."
+      },
+      {
+        "title": "원자 분할 불가설에 대한 도전",
+        "explanation": "이 가설은 당시 널리 받아들여지던 원자가 더 이상 쪼갤 수 없는 단위라는 가정을 흔드는 중요한 첫걸음이었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-isaac-newton-p1",
+    "importantWords": [
+      {
+        "term": "Principia",
+        "meaning": "뉴턴이 1687년에 출판한 고전역학을 확립한 저서이다."
+      },
+      {
+        "term": "universal gravitation",
+        "meaning": "모든 질량이 서로 끌어당긴다는 뉴턴의 중력 법칙이다."
+      },
+      {
+        "term": "Kepler's laws",
+        "meaning": "행성 운동을 설명하는 법칙으로, 뉴턴이 중력 이론으로 유도해냈다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "oblate spheroid",
+        "meaning": "극 쪽이 눌리고 적도 쪽이 부푼 회전 타원체 모양을 뜻한다."
+      },
+      {
+        "term": "heliocentricity",
+        "meaning": "태양이 태양계 중심에 있다는 개념을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "근사로서의 뉴턴 역학",
+        "explanation": "상대성 이론에 자리를 내주었지만, 느린 속도와 약한 중력 조건에서는 뉴턴의 법칙이 여전히 충분히 정확한 근사치로 쓰입니다."
+      },
+      {
+        "title": "이론에서 관측 확인으로",
+        "explanation": "뉴턴의 지구가 편평한 타원체라는 추론은 이후 여러 과학자의 측지 측정으로 실제로 확인되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-isaac-newton-p2",
+    "importantWords": [
+      {
+        "term": "reflecting telescope",
+        "meaning": "거울을 이용해 빛을 모으는 망원경으로, 뉴턴이 처음 만들었다."
+      },
+      {
+        "term": "Opticks",
+        "meaning": "뉴턴이 1704년 출판한 빛에 관한 저서이다."
+      },
+      {
+        "term": "binomial theorem",
+        "meaning": "다항식의 거듭제곱을 전개하는 공식으로, 뉴턴이 실수 지수까지 일반화했다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Newtonian fluid",
+        "meaning": "점성이 전단 속도와 관계없이 일정한 유체를 뜻한다."
+      },
+      {
+        "term": "Couette flow",
+        "meaning": "두 평행판 사이에서 발생하는 층류 흐름을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "빛과 색의 이론",
+        "explanation": "뉴턴은 프리즘으로 백색광이 여러 색으로 나뉜다는 것을 관찰해 색에 관한 정교한 이론을 세웠습니다."
+      },
+      {
+        "title": "수학 전반에 걸친 업적",
+        "explanation": "이항정리 일반화부터 테일러 급수, 변분법까지 뉴턴의 수학적 기여는 매우 폭넓었다고 지문은 나열합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-isaac-newton-p3",
+    "importantWords": [
+      {
+        "term": "alchemy",
+        "meaning": "물질을 변환시키려 한 전근대 화학의 전신으로, 뉴턴도 몰두했다."
+      },
+      {
+        "term": "Royal Mint",
+        "meaning": "뉴턴이 감독관과 조폐국장을 지낸 영국의 화폐 주조 기관이다."
+      },
+      {
+        "term": "Member of Parliament",
+        "meaning": "뉴턴이 케임브리지 대학 대표로 두 차례 지낸 의회 의원직이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "biblical chronology",
+        "meaning": "성서 속 사건들의 연대를 계산하는 연구를 뜻한다."
+      },
+      {
+        "term": "knighted",
+        "meaning": "기사 작위를 받았다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과학 밖의 뉴턴",
+        "explanation": "뉴턴은 수학과 과학뿐 아니라 연금술과 성서 연대 연구에도 많은 시간을 쏟았지만, 이는 사후에야 널리 알려졌습니다."
+      },
+      {
+        "title": "공직 생활",
+        "explanation": "뉴턴은 국회의원, 조폐국 감독관 및 국장, 왕립학회 회장 등 다양한 공직을 거쳤습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-isaac-newton-p4",
+    "importantWords": [
+      {
+        "term": "Woolsthorpe",
+        "meaning": "뉴턴이 학교에서 돌아와 농부가 되도록 강요받았던 고향이다."
+      },
+      {
+        "term": "Henry Stokes",
+        "meaning": "뉴턴을 다시 학교로 돌아오도록 설득한 King's School의 교장이다."
+      },
+      {
+        "term": "sundials",
+        "meaning": "뉴턴이 만들어 유명해진, 해 그림자로 시간을 알리는 장치이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "schoolyard bully",
+        "meaning": "학교에서 다른 학생을 괴롭히던 아이를 뜻한다."
+      },
+      {
+        "term": "humiliated",
+        "meaning": "상대를 굴욕적으로 만들었다는 뜻이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "농부가 될 뻔한 뉴턴",
+        "explanation": "어머니는 뉴턴을 농부로 만들려 했지만, 학교 관계자들의 설득으로 다시 학업을 이어갈 수 있었습니다."
+      },
+      {
+        "title": "복수심이 만든 학업열",
+        "explanation": "싸움에서 이긴 뒤 생긴 승부욕이 뉴턴을 최상위권 학생으로 변화시킨 계기였다고 지문은 전합니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-isaac-newton-p5",
+    "importantWords": [
+      {
+        "term": "Isaac Barrow",
+        "meaning": "뉴턴의 학문적 재능을 알아본 루카스 석좌교수이다."
+      },
+      {
+        "term": "Thirty-nine Articles",
+        "meaning": "영국 성공회 교리의 기초가 되는 39개 조항이다."
+      },
+      {
+        "term": "holy orders",
+        "meaning": "성직자로 임명되는 절차를 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Janusian thinker",
+        "meaning": "서로 다른 분야를 결합해 창의적 발견을 이끌어내는 사고 방식을 가진 사람을 뜻한다."
+      },
+      {
+        "term": "dog-earing",
+        "meaning": "책장 모서리를 접어 표시해두는 것을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "철저한 기록 습관",
+        "explanation": "뉴턴은 중요한 페이지를 접어두고 주제별 알파벳 색인을 만드는 등 매우 체계적으로 메모하는 사람이었습니다."
+      },
+      {
+        "title": "종교와 학문의 갈등",
+        "explanation": "펠로우가 되려면 성직 서품이 필요했지만, 뉴턴의 비정통적인 신앙관 때문에 이 요건은 문제가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-isaac-newton-p6",
+    "importantWords": [
+      {
+        "term": "King Charles II",
+        "meaning": "뉴턴이 성직 서품을 면제받도록 허락한 국왕이다."
+      },
+      {
+        "term": "Humphrey Newton",
+        "meaning": "뉴턴의 조수로 그의 강의 습관을 기록한 사이저이다."
+      },
+      {
+        "term": "Geographia Generalis",
+        "meaning": "뉴턴이 개정판을 낸 지리학 교과서이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "sizar",
+        "meaning": "일을 하며 학비를 대신하던 케임브리지 학생 신분을 뜻한다."
+      },
+      {
+        "term": "Fellow of the Royal Society",
+        "meaning": "영국 왕립학회의 회원 자격을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "뛰어난 이론가, 서툰 교사",
+        "explanation": "뉴턴은 이론적으로는 매우 뛰어났지만 강의에는 흥미가 없어 학생이 거의 없었다고 지문은 전합니다."
+      },
+      {
+        "title": "지리학 교과서 개정",
+        "explanation": "뉴턴은 루카스 교수직의 지리학 강의 의무 때문에 Varenius의 교과서를 두 차례 개정 출판했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-rosalind-franklin-p1",
+    "importantWords": [
+      {
+        "term": "X-ray crystallographer",
+        "meaning": "X선을 이용해 물질의 결정 구조를 분석하는 과학자를 뜻한다."
+      },
+      {
+        "term": "Photo 51",
+        "meaning": "DNA 이중나선 구조 발견에 결정적 역할을 한 X선 회절 사진이다."
+      },
+      {
+        "term": "King's College London",
+        "meaning": "프랭클린이 1951년부터 DNA 연구를 수행한 대학이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "chercheur",
+        "meaning": "프랑스어로 박사후 연구원을 뜻하는 표현이다."
+      },
+      {
+        "term": "double helix",
+        "meaning": "DNA가 두 가닥이 꼬여 있는 나선 구조임을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "가려진 공로",
+        "explanation": "프랭클린의 DNA 연구 기여는 생전에는 거의 인정받지 못했고, 사후에야 다양한 별칭으로 재조명되었습니다."
+      },
+      {
+        "title": "다른 이의 노벨상 수상",
+        "explanation": "프랭클린의 X선 회절 사진은 크릭, 왓슨, 윌킨스가 노벨상을 받는 데 핵심적인 근거가 되었지만, 정작 그녀는 상을 받지 못했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-rosalind-franklin-p2",
+    "importantWords": [
+      {
+        "term": "tobacco mosaic virus",
+        "meaning": "프랭클린이 Birkbeck에서 연구한 식물 바이러스이다."
+      },
+      {
+        "term": "Aaron Klug",
+        "meaning": "프랭클린의 연구를 이어받아 노벨 화학상을 받은 동료이다."
+      },
+      {
+        "term": "John Desmond Bernal",
+        "meaning": "프랭클린이 Birkbeck에서 바이러스 연구를 이끌 때 소속되었던 지도자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ovarian cancer",
+        "meaning": "프랭클린이 37세에 사망한 원인이 된 난소암을 뜻한다."
+      },
+      {
+        "term": "international fair",
+        "meaning": "프랭클린이 바이러스 구조를 발표할 예정이었던 브뤼셀의 국제 박람회이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이른 죽음과 미완의 발표",
+        "explanation": "프랭클린은 담배모자이크바이러스 구조를 발표하기 하루 전날 세상을 떠나, 그 발표를 직접 하지 못했습니다."
+      },
+      {
+        "title": "동료를 통한 연구의 계승",
+        "explanation": "프랭클린 사후 그녀의 팀원 Aaron Klug가 연구를 이어받아 훗날 노벨 화학상을 수상했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-rosalind-franklin-p3",
+    "importantWords": [
+      {
+        "term": "Norland Place School",
+        "meaning": "프랭클린이 6세에 오빠와 함께 다닌 사립 초등학교이다."
+      },
+      {
+        "term": "St Paul's Girls' School",
+        "meaning": "물리와 화학을 가르치던 몇 안 되는 여학교 중 하나로 프랭클린이 다녔다."
+      },
+      {
+        "term": "Gustav Holst",
+        "meaning": "프랭클린의 음악 실력을 걱정해 어머니에게 문의했던 작곡가 겸 음악 감독이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "matriculation",
+        "meaning": "대학 입학을 위한 자격 시험을 통과하는 것을 뜻한다."
+      },
+      {
+        "term": "Lindores School",
+        "meaning": "프랭클린이 9세에 입학한 바닷가 근처 기숙학교이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어릴 적부터 뛰어난 재능",
+        "explanation": "이모 Mamie는 프랭클린이 산수를 즐기며 늘 정답을 맞힌다고 표현할 만큼 어릴 때부터 명석함을 보였습니다."
+      },
+      {
+        "title": "장학금을 양보한 선택",
+        "explanation": "프랭클린은 대학 장학금을 받았지만, 아버지의 요청으로 그것을 어려운 난민 학생에게 양보했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-rosalind-franklin-p4",
+    "importantWords": [
+      {
+        "term": "Bill Price",
+        "meaning": "프랭클린과 함께 실험실 시연자로 일하고 훗날 킹스칼리지 동료가 된 분광학자이다."
+      },
+      {
+        "term": "titular BA",
+        "meaning": "1947년부터 여성에게 소급 수여된 명목상의 학사 학위이다."
+      },
+      {
+        "term": "Adrienne Weill",
+        "meaning": "퀴리의 제자였고 프랭클린에게 큰 영향을 준 프랑스인 난민이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "obstinate",
+        "meaning": "고집이 세다는 뜻이다."
+      },
+      {
+        "term": "National Service Acts",
+        "meaning": "전시 영국에서 국민의 노동력을 동원하던 법령이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지도교수와의 불화",
+        "explanation": "Norrish의 고집스럽고 비판에 민감한 태도, 그리고 음주 문제로 인해 프랭클린은 그의 실험실에서 실질적인 성과를 거의 내지 못했습니다."
+      },
+      {
+        "title": "전시 의무로 옮긴 진로",
+        "explanation": "프랭클린은 국민근로법에 따른 의무를 이행하기 위해 Norrish의 실험실을 떠나 석탄 연구 기관인 BCURA로 옮겼습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-rosalind-franklin-p5",
+    "importantWords": [
+      {
+        "term": "Air Raid Precautions",
+        "meaning": "공습에 대비해 시민의 안전을 살피던 감시원 제도이다."
+      },
+      {
+        "term": "porosity of coal",
+        "meaning": "석탄 안의 미세한 구멍이 이루는 다공성을 뜻한다."
+      },
+      {
+        "term": "PhD thesis",
+        "meaning": "박사 학위를 위해 제출하는 논문을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "molecular size",
+        "meaning": "분자의 크기를 뜻하며, 온도에 따라 물질이 빠져나가는 순서를 결정한다."
+      },
+      {
+        "term": "gas masks",
+        "meaning": "유해 가스를 막기 위해 착용하는 방독면을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전쟁과 과학의 접점",
+        "explanation": "프랭클린의 석탄 연구는 방독면 같은 전시 장비의 성능 예측에도 활용될 만큼 실용적 가치가 있었습니다."
+      },
+      {
+        "title": "박사 학위로 이어진 성과",
+        "explanation": "헬륨을 이용한 석탄 밀도 연구는 결국 1945년 케임브리지 박사 학위 논문의 기초가 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-rosalind-franklin-p6",
+    "importantWords": [
+      {
+        "term": "graphitising",
+        "meaning": "탄소가 흑연화되는 성질을 가리키며 프랭클린이 만든 용어이다."
+      },
+      {
+        "term": "non-graphitising carbon",
+        "meaning": "흑연으로 잘 변하지 않는 탄소를 뜻하는, 프랭클린이 만든 용어이다."
+      },
+      {
+        "term": "Mering",
+        "meaning": "프랭클린에게 비정질 물질에 대한 X선 결정학을 가르친 파리의 지도자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "amorphous substances",
+        "meaning": "규칙적인 결정 구조가 없는 물질을 뜻한다."
+      },
+      {
+        "term": "carbonaceous materials",
+        "meaning": "탄소를 주성분으로 하는 물질을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "새로운 방법론의 개척",
+        "explanation": "프랭클린은 규칙적인 결정이 아닌 비정질 물질에 X선 회절을 적용하면서 실험과 해석 모두에서 새로운 방법을 개발해야 했습니다."
+      },
+      {
+        "title": "용어를 남긴 연구자",
+        "explanation": "프랭클린이 만든 흑연화, 비흑연화라는 용어는 오늘날까지 탄소 화학 분야에서 표준 용어로 쓰이고 있습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-louis-pasteur-p1",
+    "importantWords": [
+      {
+        "term": "pasteurization",
+        "meaning": "미생물 오염을 막기 위해 액체를 가열 처리하는 파스퇴르가 개발한 공정이다."
+      },
+      {
+        "term": "spontaneous generation",
+        "meaning": "생명이 무생물에서 저절로 생겨난다는, 파스퇴르가 반박한 학설이다."
+      },
+      {
+        "term": "germ theory",
+        "meaning": "질병이 미생물에 의해 발생한다는 이론이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Alhumbert Prize",
+        "meaning": "파스퇴르가 자연발생설 반박 실험으로 받은 상이다."
+      },
+      {
+        "term": "bacteriology",
+        "meaning": "세균을 연구하는 학문 분야를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자연발생설의 반박",
+        "explanation": "밀봉된 멸균 플라스크에서는 아무것도 생기지 않지만 열린 플라스크에서는 미생물이 자란다는 실험으로, 생명이 저절로 생기지 않음을 보여주었습니다."
+      },
+      {
+        "title": "이론에서 실용으로",
+        "explanation": "파스퇴르의 세균 이론은 저온살균법처럼 질병 예방과 위생을 위한 실질적 기술로 이어졌습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-louis-pasteur-p2",
+    "importantWords": [
+      {
+        "term": "Pasteur Institute",
+        "meaning": "파스퇴르가 1887년 설립해 사망할 때까지 이끈 연구 기관이다."
+      },
+      {
+        "term": "structural chemistry",
+        "meaning": "분자의 구조를 다루는 화학 분야를 뜻한다."
+      },
+      {
+        "term": "Collège d'Arbois",
+        "meaning": "파스퇴르가 다닌 중등학교이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Bachelor of Letters",
+        "meaning": "파스퇴르가 1840년에 받은 문학 학사 학위이다."
+      },
+      {
+        "term": "dysgraphic",
+        "meaning": "글씨 쓰기에 어려움을 겪는 증상을 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "명성과 논란의 공존",
+        "explanation": "파스퇴르는 획기적인 실험으로 명성을 얻었지만, 노트 재검토 결과 경쟁자를 이기기 위한 속임수를 썼다는 논란도 함께 남아 있습니다."
+      },
+      {
+        "title": "평범했던 학생 시절",
+        "explanation": "파스퇴르는 어린 시절 특별히 학업이 뛰어나지 않았고 낚시와 그림 그리기에 더 관심이 많았으며, 난독증과 난서증을 앓았습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-louis-pasteur-p3",
+    "importantWords": [
+      {
+        "term": "École Normale Supérieure",
+        "meaning": "파스퇴르가 입학시험을 치른 프랑스의 명문 고등교육기관이다."
+      },
+      {
+        "term": "Sorbonne",
+        "meaning": "파스퇴르가 Jean-Baptiste Dumas의 강의를 들은 파리의 대학이다."
+      },
+      {
+        "term": "Jean-Baptiste Boussingault",
+        "meaning": "파스퇴르가 국립공예원에서 사사한 화학자이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "agrégé préparateur",
+        "meaning": "프랑스어로 대학원 실험 조교를 뜻하는 직함이다."
+      },
+      {
+        "term": "licencié ès sciences",
+        "meaning": "프랑스의 이학 학사 학위를 뜻하는 용어이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "실패를 딛고 얻은 합격",
+        "explanation": "첫 시험에 낮은 순위로 통과했지만 다시 도전하지 않고, 이듬해 높은 순위로 합격해 에콜 노르말에 입학했습니다."
+      },
+      {
+        "title": "결혼과 가정의 비극",
+        "explanation": "파스퇴르는 스트라스부르 대학 학장의 딸과 결혼해 다섯 자녀를 두었지만, 그중 세 명이 장티푸스로 사망했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-louis-pasteur-p4",
+    "importantWords": [
+      {
+        "term": "University of Lille",
+        "meaning": "파스퇴르가 새 이학부 학장으로 부임해 발효 연구를 시작한 대학이다."
+      },
+      {
+        "term": "École Normale Supérieure",
+        "meaning": "파스퇴르가 파리에서 학술 연구 책임자로 일한 기관이다."
+      },
+      {
+        "term": "the bean revolt",
+        "meaning": "학생들이 파스퇴르의 엄격한 규율에 반발한 사건 중 하나이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "authoritarian",
+        "meaning": "권위적이고 강압적인 태도를 뜻한다."
+      },
+      {
+        "term": "physiological chemistry",
+        "meaning": "생리 현상을 화학적으로 연구하는 분야를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "유명한 격언의 유래",
+        "explanation": "파스퇴르는 릴 대학의 이학부 학장이 되면서 '기회는 준비된 마음에만 유리하다'는 유명한 말을 남겼습니다."
+      },
+      {
+        "title": "엄격함이 부른 반발",
+        "explanation": "파스퇴르의 권위적인 개혁은 시험을 어렵게 만들었지만, 동시에 두 차례의 학생 반발을 불러일으켰습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-louis-pasteur-p5",
+    "importantWords": [
+      {
+        "term": "tartaric acid",
+        "meaning": "파스퇴르가 광학 이성질 현상을 처음 밝혀낸 화합물이다."
+      },
+      {
+        "term": "dextrorotatory",
+        "meaning": "빛의 편광면을 오른쪽으로 회전시키는 성질을 뜻한다."
+      },
+      {
+        "term": "levorotatory",
+        "meaning": "빛의 편광면을 왼쪽으로 회전시키는 성질을 뜻한다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "racemic mixtures",
+        "meaning": "오른손형과 왼손형 이성질체가 동일한 비율로 섞인 혼합물을 뜻한다."
+      },
+      {
+        "term": "mirror images",
+        "meaning": "서로 거울에 비친 모습처럼 대칭인 형태를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "분자의 비대칭 발견",
+        "explanation": "파스퇴르는 결정의 모양과 광학 활성 사이의 관계를 밝혀, 분자 내부의 비대칭 배열이 빛을 회전시키는 원인임을 알아냈습니다."
+      },
+      {
+        "title": "이성질현상의 첫 설명",
+        "explanation": "이 연구는 분자 카이랄성을 처음으로 증명한 사례이자, 이성질 현상에 대한 최초의 설명으로 평가받습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-louis-pasteur-p6",
+    "importantWords": [
+      {
+        "term": "lactic acid fermentation",
+        "meaning": "당이 젖산으로 변하는 발효 과정을 뜻한다."
+      },
+      {
+        "term": "Pasteur effect",
+        "meaning": "공기 노출 시 효모의 발효 속도가 낮아지는 현상을 가리키는 용어이다."
+      },
+      {
+        "term": "pasteurization",
+        "meaning": "음료의 세균과 곰팡이를 제거하기 위해 가열하는 처리 방법이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Société des Sciences de Lille",
+        "meaning": "파스퇴르가 젖산 발효 논문을 보낸 릴의 과학 학회이다."
+      },
+      {
+        "term": "memoire",
+        "meaning": "연구 내용을 정리해 발표하는 학술 보고서를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "발효는 분해가 아니다",
+        "explanation": "파스퇴르는 발효가 단순한 분해 반응이라는 기존 이론을 반박하고, 효모라는 살아 있는 미생물이 발효를 일으킨다는 것을 입증했습니다."
+      },
+      {
+        "title": "산소와 발효 속도의 관계",
+        "explanation": "효모가 공기에 노출되면 발효 속도가 줄어드는 현상을 관찰해, 이는 훗날 파스퇴르 효과라는 이름으로 불리게 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-michael-faraday-p1",
+    "importantWords": [
+      {
+        "term": "electromagnetic induction",
+        "meaning": "자기장의 변화가 전류를 유도하는 현상으로, 패러데이가 발견한 원리이다."
+      },
+      {
+        "term": "diamagnetism",
+        "meaning": "물질이 자기장에 약하게 반발하는 성질을 뜻한다."
+      },
+      {
+        "term": "electrolysis",
+        "meaning": "전류를 이용해 화합물을 분해하는 화학 반응이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "capacitance",
+        "meaning": "전하를 저장할 수 있는 능력을 뜻하며, 단위 패럿이 그의 이름에서 왔다."
+      },
+      {
+        "term": "oxidation numbers",
+        "meaning": "원자가 화합물에서 갖는 산화 상태를 나타내는 숫자 체계이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전자기장 개념의 확립",
+        "explanation": "패러데이는 전류가 흐르는 도체 주위 자기장을 연구해, 물리학에서 전자기장이라는 개념 자체를 세웠습니다."
+      },
+      {
+        "title": "독학으로 이룬 업적",
+        "explanation": "정규 교육을 거의 받지 못했음에도 패러데이는 역사상 가장 영향력 있는 과학자 중 한 명이 되었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-michael-faraday-p2",
+    "importantWords": [
+      {
+        "term": "Haswell",
+        "meaning": "패러데이가 탄광 폭발을 조사한 County Durham의 지역이다."
+      },
+      {
+        "term": "coal dust",
+        "meaning": "폭발의 심각성에 기여한 것으로 밝혀진 석탄 먼지를 뜻한다."
+      },
+      {
+        "term": "Great Stink",
+        "meaning": "템스강의 악취가 심각했던 사건으로, 패러데이가 편지를 쓴 계기이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "forensic investigation",
+        "meaning": "사건의 원인을 과학적으로 조사하는 것을 뜻한다."
+      },
+      {
+        "term": "ventilation",
+        "meaning": "공기를 순환시켜 위험한 가스나 먼지를 제거하는 환기를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과학을 통한 공공봉사",
+        "explanation": "패러데이는 등대 개선, 탄광 폭발 조사, 대기오염 연구 등 다양한 공공 문제에 과학적 지식을 활용했습니다."
+      },
+      {
+        "title": "양심에 따른 거절",
+        "explanation": "패러데이는 명성이 있었음에도 크림 전쟁 화학무기 개발 요청을 윤리적 이유로 거절했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-michael-faraday-p3",
+    "importantWords": [
+      {
+        "term": "George Riebau",
+        "meaning": "패러데이가 14세에 도제로 들어간 제본업자이자 서적상이다."
+      },
+      {
+        "term": "City Philosophical Society",
+        "meaning": "패러데이가 동료들과 과학 강연을 들으며 토론한 모임이다."
+      },
+      {
+        "term": "Conversations on Chemistry",
+        "meaning": "패러데이에게 영감을 준 Jane Marcet의 화학 입문서이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "apprenticeship",
+        "meaning": "기술을 배우기 위해 일정 기간 일하며 훈련받는 도제 제도를 뜻한다."
+      },
+      {
+        "term": "The Improvement of the Mind",
+        "meaning": "패러데이가 실천하려 애썼던 Isaac Watts의 저서이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "책이 열어준 과학의 길",
+        "explanation": "정규 교육을 거의 받지 못한 패러데이는 도제 기간 중 읽은 책들을 통해 스스로 과학에 대한 관심을 키웠습니다."
+      },
+      {
+        "title": "토론을 통한 성장",
+        "explanation": "City Philosophical Society에서의 강연과 토론은 패러데이가 전기 등 과학 주제에 대한 지식을 넓히는 데 도움을 주었습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-michael-faraday-p4",
+    "importantWords": [
+      {
+        "term": "Sandemanian",
+        "meaning": "패러데이가 속했던, 스코틀랜드 교회에서 갈라져 나온 기독교 교파이다."
+      },
+      {
+        "term": "Church of Scotland",
+        "meaning": "패러데이가 속한 Sandemanian 교파가 갈라져 나온 모체 교회이다."
+      },
+      {
+        "term": "Barnsbury Grove",
+        "meaning": "1862년 교회가 옮겨간 이슬링턴의 지명이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "deacon",
+        "meaning": "교회에서 봉사를 담당하는 직분인 집사를 뜻한다."
+      },
+      {
+        "term": "Paul's Alley",
+        "meaning": "패러데이가 다니던 교회가 위치했던 바비칸의 지명이다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신앙과 삶의 통합",
+        "explanation": "전기 작가들은 신과 자연의 통일성에 대한 강한 믿음이 패러데이의 삶과 연구 전반에 스며들어 있었다고 평가합니다."
+      },
+      {
+        "title": "교회 안에서의 봉사",
+        "explanation": "패러데이는 결혼 후에도 자신이 자란 교회에서 집사와 장로로 오랫동안 봉사하며 신앙 공동체에 헌신했습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-michael-faraday-p5",
+    "importantWords": [
+      {
+        "term": "Hampton Court",
+        "meaning": "패러데이가 만년에 거주하도록 제공받은 저택이 있는 지역이다."
+      },
+      {
+        "term": "Crimean War",
+        "meaning": "패러데이가 화학무기 개발 자문을 거절한 계기가 된 전쟁이다."
+      },
+      {
+        "term": "Highgate Cemetery",
+        "meaning": "패러데이가 안장된, 비국교도 구역이 있는 런던의 묘지이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "nervous breakdown",
+        "meaning": "심각한 정신적 쇠약 상태를 뜻한다."
+      },
+      {
+        "term": "grace and favour house",
+        "meaning": "공로를 인정받아 특별히 무상으로 제공되는 주거지를 뜻한다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "원칙을 지킨 과학자",
+        "explanation": "패러데이는 정부의 화학무기 개발 요청을 윤리적인 이유로 거부하며 자신의 신념을 지켰습니다."
+      },
+      {
+        "title": "명예보다 소박한 삶",
+        "explanation": "패러데이는 웨스트민스터 사원 매장 제안을 거절하고, 부와 명예보다 과학에 대한 사랑을 앞세운 삶을 살았습니다."
+      }
+    ]
+  },
+  {
+    "passageId": "science-michael-faraday-p6",
+    "importantWords": [
+      {
+        "term": "Bunsen burner",
+        "meaning": "실험실에서 열원으로 쓰이는 장치로, 패러데이가 초기 형태를 발명했다."
+      },
+      {
+        "term": "benzene",
+        "meaning": "패러데이가 발견한 화합물로, 그는 이를 bicarburet of hydrogen이라 불렀다."
+      },
+      {
+        "term": "molecular aggregation",
+        "meaning": "분자들이 서로 뭉쳐 있는 상태를 뜻하는 개념이다."
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "clathrate hydrate",
+        "meaning": "물 분자 격자 속에 다른 분자가 갇혀 있는 화합물을 뜻한다."
+      },
+      {
+        "term": "metallic nanoparticles",
+        "meaning": "나노미터 크기의 금속 입자로, 패러데이가 처음 보고한 것으로 여겨진다."
+      }
+    ],
+    "concepts": [
+      {
+        "title": "기체 액화의 의미",
+        "explanation": "여러 기체를 액화시키는 데 성공한 것은 기체가 끓는점이 매우 낮은 액체의 증기라는 개념을 확립하는 데 기여했습니다."
+      },
+      {
+        "title": "나노과학의 시초",
+        "explanation": "금 콜로이드의 광학적 성질이 벌크 금속과 다르다는 관찰은 양자 크기 효과에 대한 최초의 보고이자 나노과학의 시작으로 여겨집니다."
+      }
+    ]
   }
 ]

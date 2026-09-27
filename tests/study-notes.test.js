@@ -27,9 +27,9 @@ function submit(state, slot, correct) {
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const NOTE_TOPICS = ["science", "ai", "history", "psychology", "metascience"];
-const NOTES_PER_TOPIC = 144;
+const NOTES_PER_TOPIC = 180;
 
-test("all 720 Wikipedia passages have relevant Korean vocabulary and concept notes", () => {
+test("all 900 Wikipedia passages have relevant Korean vocabulary and concept notes", () => {
   let total = 0;
   for (const [index, topic] of NOTE_TOPICS.entries()) {
     const notes = JSON.parse(

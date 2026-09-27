@@ -2217,6 +2217,582 @@ const questionSpecs = [
       "지문은 많은 현대 역사가들이 르네상스를 중세의 연장으로 본다고 설명합니다.",
     difficulty: 2,
   },
+  {
+    id: "dad-history-v2-145",
+    passageId: "history-leonardo-da-vinci-p1",
+    prompt:
+      "According to the passage, which painting is regarded as the world's most famous painting?",
+    options: [
+      "The Mona Lisa",
+      "The Last Supper",
+      "Salvator Mundi",
+      "The Vitruvian Man",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 모나리자가 세계에서 가장 유명한 그림으로 여겨진다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-146",
+    passageId: "history-leonardo-da-vinci-p2",
+    prompt:
+      "What did Leonardo conceptualise according to the passage, alongside flying machines?",
+    options: [
+      "A steam-powered locomotive",
+      "A type of armoured fighting vehicle",
+      "A hot air balloon",
+      "A telescope for astronomy",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 레오나르도가 비행 기계와 함께 일종의 장갑 전투 차량을 구상했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-147",
+    passageId: "history-leonardo-da-vinci-p3",
+    prompt:
+      "How many of Leonardo's half-siblings survived infancy, according to the passage?",
+    options: [
+      "16",
+      "3",
+      "11",
+      "46",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 16명의 이복형제자매 중 11명이 유아기를 넘겨 살아남았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-148",
+    passageId: "history-leonardo-da-vinci-p4",
+    prompt:
+      "In whose workshop did Leonardo become an apprentice around the age of 14?",
+    options: [
+      "Donatello",
+      "Piero della Francesca",
+      "Ghiberti",
+      "Andrea del Verrocchio",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 레오나르도가 14세 무렵 안드레아 델 베로키오의 공방에서 견습생이 되었다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-149",
+    passageId: "history-leonardo-da-vinci-p5",
+    prompt:
+      "What did Leonardo reportedly paint on the peasant's round buckler shield, according to Vasari's story?",
+    options: [
+      "A monster spitting fire, inspired by the story of Medusa",
+      "A portrait of the Duke of Milan",
+      "A scene from the Baptism of Christ",
+      "A drawing of the Arno valley",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 레오나르도가 메두사 이야기에서 영감을 받아 불을 뿜는 괴물을 방패에 그렸다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-150",
+    passageId: "history-leonardo-da-vinci-p6",
+    prompt:
+      "Who commissioned Leonardo to paint The Adoration of the Magi in March 1481, per the passage?",
+    options: [
+      "Duke of Milan Ludovico Sforza",
+      "The monks of San Donato in Scopeto",
+      "Lorenzo de' Medici",
+      "The Confraternity of the Immaculate Conception",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 1481년 3월 산 도나토 아 스코페토 수도사들이 동방박사의 경배를 의뢰했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-151",
+    passageId: "history-genghis-khan-p1",
+    prompt:
+      "What was Genghis Khan's birth name, according to the passage?",
+    options: [
+      "Kublai",
+      "Ögedei",
+      "Temüjin",
+      "Toghrul",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 칭기즈 칸이 테무친이라는 이름으로 태어났다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-152",
+    passageId: "history-genghis-khan-p2",
+    prompt:
+      "According to the passage, who acceded to the throne after a two-year interregnum following Genghis's death?",
+    options: [
+      "Jebe",
+      "Subutai",
+      "Kublai Khan",
+      "Ögedei",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 2년의 공위기 후 셋째 아들이자 후계자인 우구데이가 왕위에 올랐다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-153",
+    passageId: "history-genghis-khan-p3",
+    prompt:
+      "What temple name did Kublai Khan bestow upon Genghis Khan when he established the Yuan dynasty in 1271?",
+    options: [
+      "Taizu",
+      "Fatian Qiyun",
+      "Shengwu Huangdi",
+      "Chéngjísī",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 쿠빌라이 칸이 1271년 원나라를 세우며 조부에게 태조라는 묘호를 내렸다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-154",
+    passageId: "history-genghis-khan-p4",
+    prompt:
+      "Which Persian chronicler's account is described as the most reliable for Genghis Khan's western campaigns?",
+    options: [
+      "Minhaj-i Siraj Juzjani",
+      "Ata-Malik Juvayni",
+      "Rashid al-Din",
+      "Al-Nasawi",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 몽골을 두 차례 방문한 아타 말리크 주바이니의 기록이 서방 원정에 가장 신뢰할 만하다고 설명합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-history-v2-155",
+    passageId: "history-genghis-khan-p5",
+    prompt:
+      "According to the passage, what motif in Asian folklore is associated with Temüjin's birth legend?",
+    options: [
+      "Being raised by wolves",
+      "Being struck by lightning at birth",
+      "Being born clutching a blood clot in his hand",
+      "Being born during a solar eclipse",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 테무친이 손에 핏덩이를 쥐고 태어났다는 전설이 전사의 징표로 여겨졌다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-156",
+    passageId: "history-genghis-khan-p6",
+    prompt:
+      "Who did Yesügei arrange a betrothal for Temüjin with, according to the passage?",
+    options: [
+      "Hö'elün, of the Olkhonud clan",
+      "Sochigel, Yesügei's secondary wife",
+      "A daughter of the Tayichiud clan",
+      "Börte, daughter of Onggirat chieftain Dei Sechen",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 예수게이가 옹기라트 족장 데이 세첸의 딸 보르테와 테무친의 약혼을 성사시켰다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-157",
+    passageId: "history-nelson-mandela-p1",
+    prompt:
+      "According to the passage, Mandela was sentenced to life imprisonment in which trial?",
+    options: [
+      "The Rivonia Trial",
+      "The Treason Trial",
+      "The Defiance Campaign trial",
+      "The Sharpeville trial",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 만델라가 리보니아 재판에서 종신형을 선고받았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-158",
+    passageId: "history-nelson-mandela-p2",
+    prompt:
+      "What Xhosa clan name is Mandela often referred to by in South Africa, per the passage?",
+    options: [
+      "Rolihlahla",
+      "Madiba",
+      "Dalibunga",
+      "Thembu",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 남아공에서 만델라가 흔히 그의 코사 씨족 이름인 마디바로 불린다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-159",
+    passageId: "history-nelson-mandela-p3",
+    prompt:
+      "According to the passage, who gave Mandela the English forename \"Nelson\"?",
+    options: [
+      "His father Gadla",
+      "Chief Jongintaba",
+      "His teacher at the Methodist school",
+      "Walter Sisulu",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 만델라가 감리교 학교 교사에게서 넬슨이라는 영어 이름을 받았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-160",
+    passageId: "history-nelson-mandela-p4",
+    prompt:
+      "What name was Mandela given after undergoing the ulwaluko circumcision ritual, per the passage?",
+    options: [
+      "Madiba",
+      "Rolihlahla",
+      "Jongintaba",
+      "Dalibunga",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 울왈루코 할례 의식을 치른 후 만델라가 달리분가라는 이름을 받았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-161",
+    passageId: "history-nelson-mandela-p5",
+    prompt:
+      "Why was Mandela suspended from the University of Fort Hare, according to the passage?",
+    options: [
+      "For participating in an SRC boycott against the quality of food",
+      "For joining the ANC Youth League",
+      "For refusing an arranged marriage",
+      "For supporting the British war effort",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 만델라가 음식의 질에 항의하는 학생대표위원회 보이콧에 가담해 정학당했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-162",
+    passageId: "history-nelson-mandela-p6",
+    prompt:
+      "According to the passage, why did Mandela state he did not join the Communist Party despite attending its gatherings?",
+    options: [
+      "He disliked its multiracial membership",
+      "Its atheism conflicted with his Christian faith",
+      "He was too poor to pay membership dues",
+      "The ANC forbade dual membership",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 공산당의 무신론이 자신의 기독교 신앙과 충돌해 가입하지 않았다고 만델라가 말했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-163",
+    passageId: "history-marco-polo-p1",
+    prompt:
+      "According to the passage, what role did Kublai Khan appoint Marco Polo to serve?",
+    options: [
+      "A palace guard",
+      "A court physician",
+      "His foreign emissary",
+      "A tax collector",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 쿠빌라이 칸이 마르코 폴로를 자신의 외교 사절로 임명했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-164",
+    passageId: "history-marco-polo-p2",
+    prompt:
+      "According to the passage, whose narrative did Marco Polo's account inspire?",
+    options: [
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Ibn Battuta",
+      "Christopher Columbus",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 마르코 폴로의 이야기가 크리스토퍼 콜럼버스에게 영감을 주었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-165",
+    passageId: "history-marco-polo-p3",
+    prompt:
+      "According to philologist Luigi Foscolo Benedetto's theory referenced in the passage, what was Milione a shortened version of?",
+    options: [
+      "Emilione",
+      "Millioni",
+      "Marco Milioni",
+      "Il Milione",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 베네데토가 밀리오네가 에밀리오네의 준말이라고 보았다고 설명합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-history-v2-166",
+    passageId: "history-marco-polo-p4",
+    prompt:
+      "What mission did the new Pope entrust to the Polos, according to the passage?",
+    options: [
+      "To convert Kublai Khan to Christianity",
+      "To deliver letters for the Great Khan inviting him to send emissaries to Rome",
+      "To map the Silk Road for the Vatican",
+      "To negotiate a truce between Venice and Genoa",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 새 교황이 대칸에게 로마로 사신을 보내라는 편지를 폴로 일가에게 맡겼다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-167",
+    passageId: "history-marco-polo-p5",
+    prompt:
+      "According to the passage, to whom did Marco Polo dictate his travel account while imprisoned?",
+    options: [
+      "Kublai Khan",
+      "Niccolò Polo",
+      "Rustichello da Pisa",
+      "Giovanni Battista Ramusio",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 마르코 폴로가 감옥에서 동료 수감자 루스티첼로 다 피사에게 여행담을 구술했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-168",
+    passageId: "history-marco-polo-p6",
+    prompt:
+      "According to the passage, what did Marco Polo describe to Pietro d'Abano that he had spotted during his return trip?",
+    options: [
+      "A total solar eclipse",
+      "A new constellation in the southern sky",
+      "A meteor shower over the South China Sea",
+      "A star shaped like a sack with a big tail, likely a comet",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 마르코 폴로가 귀환길에 자루 모양에 긴 꼬리가 달린 별, 즉 혜성으로 보이는 것을 보았다고 피에트로 다바노에게 말했다고 설명합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-history-v2-169",
+    passageId: "history-johannes-gutenberg-p1",
+    prompt:
+      "According to the passage, what is Gutenberg's major work, the first printed version of the Bible?",
+    options: [
+      "The Gutenberg Bible",
+      "The Mainz Psalter",
+      "The Catholicon",
+      "The 42-line Grammar",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 구텐베르크의 주요 작품인 구텐베르크 성경이 최초로 인쇄된 성경이라고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-170",
+    passageId: "history-johannes-gutenberg-p2",
+    prompt:
+      "According to the passage, why could Gutenberg never succeed his father at the mint?",
+    options: [
+      "He had no interest in the family trade",
+      "Because of his mother's commoner status",
+      "He was exiled from Mainz as a child",
+      "The mint was closed by the archbishop",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 어머니가 평민 신분이었기 때문에 구텐베르크가 아버지의 조폐국 직위를 물려받을 수 없었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-171",
+    passageId: "history-johannes-gutenberg-p3",
+    prompt:
+      "According to the passage, where was Gutenberg living in March 1434, per a surviving letter?",
+    options: [
+      "Mainz",
+      "Eltville",
+      "Strasbourg",
+      "Erfurt",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 1434년 3월 편지에 따르면 구텐베르크가 스트라스부르에 살고 있었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-172",
+    passageId: "history-johannes-gutenberg-p4",
+    prompt:
+      "According to the passage, in what year did Gutenberg return to Mainz and take a loan from his brother-in-law?",
+    options: [
+      "1439",
+      "1444",
+      "1450",
+      "1448",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 1448년 구텐베르크가 마인츠로 돌아와 매형 아놀드 겔투스에게서 대출을 받았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-173",
+    passageId: "history-johannes-gutenberg-p5",
+    prompt:
+      "According to the passage, how many copies of the 42-line Gutenberg Bible were printed?",
+    options: [
+      "About 180",
+      "About 42",
+      "About 100",
+      "About 800",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 42행 구텐베르크 성경이 약 180부 인쇄되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-174",
+    passageId: "history-johannes-gutenberg-p6",
+    prompt:
+      "According to the passage, what title did Archbishop von Nassau give Gutenberg in 1465?",
+    options: [
+      "Bürgermeister",
+      "Hofmann",
+      "Kurfürst",
+      "Domherr",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 1465년 나사우 대주교가 구텐베르크에게 궁정인이라는 뜻의 호프만 칭호를 주었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-175",
+    passageId: "history-sejong-the-great-p1",
+    prompt:
+      "According to the passage, what is Sejong particularly remembered for creating?",
+    options: [
+      "The Ch'ilchŏngsan calendar",
+      "The Hall of Worthies",
+      "Hangul, the native Korean alphabet",
+      "The Nongsa chiksŏl",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 세종이 한국어 고유 문자인 한글 창제로 특히 기억된다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-176",
+    passageId: "history-sejong-the-great-p2",
+    prompt:
+      "At what age did Sejong die, according to the passage?",
+    options: [
+      "21",
+      "42",
+      "60",
+      "52",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 세종이 52세의 나이로 1450년에 사망했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-history-v2-177",
+    passageId: "history-sejong-the-great-p3",
+    prompt:
+      "According to the passage, what did Taejong tell Ch'ungnyŏng (later Sejong) in 1413?",
+    options: [
+      "That he should just enjoy his life in peace since he had nothing in particular to do",
+      "That he would be named crown prince",
+      "That he must marry immediately",
+      "That he should study military strategy",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 1413년 태종이 충녕에게 특별히 할 일이 없으니 그냥 평안히 즐기며 살라고 말했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-178",
+    passageId: "history-sejong-the-great-p4",
+    prompt:
+      "According to the passage, with whom did Grand Prince Yangnyŏng have an affair that enraged Taejong?",
+    options: [
+      "A palace maid named Nosekeni",
+      "A woman named Ŏri, concubine of scholar-official Kwak Sŏn",
+      "The Queen Regent of a neighboring state",
+      "A daughter of the Onggirat clan",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 양녕대군이 곽선의 첩 어리와 벌인 불륜이 태종을 격노하게 했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-179",
+    passageId: "history-sejong-the-great-p5",
+    prompt:
+      "According to the passage, which son did Taejong describe as \"weak and overly agreeable\" when considering a new successor?",
+    options: [
+      "Grand Prince Yangnyŏng",
+      "Grand Prince Sŏngnyŏng",
+      "Grand Prince Hyoryŏng",
+      "Ch'ungnyŏng",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 태종이 둘째 아들 효령대군을 유약하고 지나치게 순응적이라고 묘사했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-history-v2-180",
+    passageId: "history-sejong-the-great-p6",
+    prompt:
+      "According to the passage, what practice did Sejong order the Hall of Worthies to begin in 1426?",
+    options: [
+      "A mandatory civil service examination",
+      "The compilation of the Ch'ilchŏngsan calendar",
+      "The construction of Gyeongbokgung palace",
+      "Saga toksŏ, allowing scholars to independently research without government duties",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 1426년 세종이 학자들이 국정 업무 없이 독립적으로 연구하는 사가독서 제도를 시행하도록 명했다고 설명합니다.",
+    difficulty: 3,
+  },
 ];
 
 export const dadHistoryQuestions = questionSpecs.map((spec) =>

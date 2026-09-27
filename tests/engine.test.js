@@ -120,12 +120,68 @@ test("ten correct on the fifteenth attempt passes, but nine correct does not", (
   assert.strictEqual(openQuestion(start(), 15).selected, null);
 });
 
+test("expanded banks ask different questions instead of one question with swapped numbers", () => {
+  // The banks once shipped families like "A 1mol·B 2mol", "A 2mol·B 3mol",
+  // "A 3mol·B 4mol" — one question padded out with different constants — and
+  // reading items that reused a single passage behind a counter. Collapse the
+  // varying parts and require the survivors to be genuinely distinct.
+  const skeleton = (text) =>
+    text
+      .replace(/\d+(?:[.,]\d+)?/g, "#")
+      .replace(/[A-Z][a-z]+/g, "N")
+      .replace(/\s+/g, " ")
+      .trim();
+  const KEPT = 80; // frozen originals carry the historical defect
+  const seen = new Set();
+  for (const character of ["yewon", "hunho"])
+    for (let level = 1; level <= 10; level++) {
+      const pool = questionPool(level, character);
+      if (seen.has(pool)) continue;
+      seen.add(pool);
+      const added = pool.slice(KEPT);
+      if (!added.length) continue;
+
+      const families = new Map();
+      for (const question of added) {
+        const key = skeleton(question.prompt);
+        families.set(key, (families.get(key) ?? 0) + 1);
+      }
+      const templated = [...families.values()]
+        .filter((count) => count > 1)
+        .reduce((total, count) => total + count, 0);
+      assert.equal(
+        templated,
+        0,
+        `${character}/${level}: ${templated} added questions are number-swapped copies`,
+      );
+
+      for (const question of added) {
+        assert.ok(
+          !/\(Intro\)|a topic worth examining in depth|TODO|PLACEHOLDER/i.test(
+            question.prompt,
+          ),
+          `${question.id}: unwritten placeholder text`,
+        );
+        assert.ok(
+          !/\uc740\(\ub294\)|\uc774\(\uac00\)|\ub97c\(\uc744\)/.test(
+            question.prompt,
+          ),
+          `${question.id}: programmatic Korean particle form`,
+        );
+      }
+    }
+});
+
 test("all six characters have correct grade routing across ten stages", () => {
   assert.equal(characters.length, 6);
   for (const c of characters)
     for (let l = 1; l <= 10; l++) {
       const p = questionPool(l, c.id);
-      assert.ok(p.length >= 80, `${c.id}/${l}`);
+      // A pool must outlast the deck it feeds: 15 questions per stage, and one
+      // pool can serve up to three stages for a single character. Size beyond
+      // that buys nothing, so variety is enforced separately and a smaller
+      // honest bank is preferred over a padded one.
+      assert.ok(p.length >= 3 * QUESTION_COUNT, `${c.id}/${l}`);
       assert.equal(
         new Set(p.map((q) => q.prompt)).size,
         p.length,

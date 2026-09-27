@@ -5326,5 +5326,1337 @@
         "explanation": "AGI는 이러한 여러 유형의 실존적 위험을 대표할 수 있다고 지문은 설명한다."
       }
     ]
+  },
+  {
+    "passageId": "ai-alan-turing-p1",
+    "importantWords": [
+      {
+        "term": "theoretical computer science",
+        "meaning": "컴퓨터의 계산 능력과 한계를 수학적으로 연구하는 분야"
+      },
+      {
+        "term": "Turing machine",
+        "meaning": "알고리즘과 계산을 형식화한 일반 목적 컴퓨터 모델"
+      },
+      {
+        "term": "Enigma machine",
+        "meaning": "제2차 세계대전 당시 독일군이 사용한 암호 기계"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "cryptanalysis",
+        "meaning": "암호를 해독하는 학문 및 기술"
+      },
+      {
+        "term": "morphogenesis",
+        "meaning": "생물의 형태가 형성되는 과정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "튜링 기계와 계산이론",
+        "explanation": "튜링은 알고리즘과 계산의 개념을 튜링 기계라는 모델로 형식화하여 이론 컴퓨터 과학의 토대를 놓았다."
+      },
+      {
+        "title": "에니그마 암호 해독",
+        "explanation": "튜링의 암호해독 기법은 독일군의 에니그마 암호를 해독하는 데 도움을 주어 연합군의 전쟁 수행에 기여했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alan-turing-p2",
+    "importantWords": [
+      {
+        "term": "Gordon Brown",
+        "meaning": "튜링에게 공식 사과를 표명한 영국 총리"
+      },
+      {
+        "term": "pardon",
+        "meaning": "국가가 죄를 용서하여 법적 효력을 없애는 조치"
+      },
+      {
+        "term": "Alan Turing law",
+        "meaning": "동성애 행위로 처벌받은 남성들을 소급 사면한 2017년 영국 법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "retroactively",
+        "meaning": "과거로 거슬러 올라가 효력을 미치는 방식으로"
+      },
+      {
+        "term": "criminalisation",
+        "meaning": "특정 행위를 범죄로 규정하는 것"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "튜링에 대한 사후 명예회복",
+        "explanation": "고든 브라운 총리의 사과와 엘리자베스 2세 여왕의 사면을 통해 튜링에 대한 부당한 처우가 뒤늦게 인정되었다."
+      },
+      {
+        "title": "앨런 튜링법",
+        "explanation": "2017년 제정된 이 법은 동성애 행위로 유죄 판결을 받았던 남성들을 소급하여 사면하는 내용을 담고 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alan-turing-p3",
+    "importantWords": [
+      {
+        "term": "Hazelhurst Preparatory School",
+        "meaning": "튜링이 1922년부터 1926년까지 다닌 예비 학교"
+      },
+      {
+        "term": "Sherborne School",
+        "meaning": "튜링이 13세에 입학한 독립 기숙학교"
+      },
+      {
+        "term": "General Strike",
+        "meaning": "1926년 영국에서 일어난 총파업"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "headmistress",
+        "meaning": "여성 교장"
+      },
+      {
+        "term": "unaccompanied",
+        "meaning": "동행자 없이 혼자서"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "튜링의 학창 시절",
+        "explanation": "튜링은 헤이즐허스트 예비학교를 거쳐 셔번 스쿨에 진학했으며, 어릴 때부터 수학과 과학에 뛰어난 재능을 보였다."
+      },
+      {
+        "title": "총파업 속 등교 의지",
+        "explanation": "1926년 총파업으로 교통이 마비되었지만 튜링은 자전거로 60마일을 달려 학교에 도착할 만큼 강한 의지를 보였다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alan-turing-p4",
+    "importantWords": [
+      {
+        "term": "Albert Einstein",
+        "meaning": "상대성이론을 제시한 물리학자로 튜링이 16세에 그의 저작을 접함"
+      },
+      {
+        "term": "Newton's laws of motion",
+        "meaning": "뉴턴이 정립한 운동에 관한 물리 법칙"
+      },
+      {
+        "term": "Christopher Collan Morcom",
+        "meaning": "셔번 스쿨에서 튜링의 첫사랑으로 묘사되는 동급생"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Scientific Specialist",
+        "meaning": "과학 분야에만 전념하는 전문가"
+      },
+      {
+        "term": "elaborate school pranks",
+        "meaning": "정교하게 꾸민 학교 장난"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "아인슈타인 저작의 이해",
+        "explanation": "튜링은 16세에 아인슈타인의 저작을 접하고 명시되지 않은 뉴턴 법칙에 대한 의문까지 스스로 추론했을 가능성이 있다."
+      },
+      {
+        "title": "모르컴과의 우정",
+        "explanation": "튜링은 셔본 스쿨에서 크리스토퍼 모르컴과 깊은 우정을 나누었고, 이는 그의 이후 학문적 열정에 영감을 주었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alan-turing-p5",
+    "importantWords": [
+      {
+        "term": "atheism",
+        "meaning": "신의 존재를 믿지 않는 입장"
+      },
+      {
+        "term": "The Nature of Spirit",
+        "meaning": "튜링이 모르컴 가족의 집에서 쓴 글의 제목"
+      },
+      {
+        "term": "materialistic explanations",
+        "meaning": "모든 현상을 물질적 원인으로 설명하려는 태도"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unconceited",
+        "meaning": "잘난 체하지 않는"
+      },
+      {
+        "term": "third anniversary",
+        "meaning": "세 번째 기념일"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "모르컴의 죽음과 신념 변화",
+        "explanation": "모르컴의 죽음은 튜링의 무신론과 모든 현상이 물질적으로 설명되어야 한다는 확신의 원인이 되었다고 추측된다."
+      },
+      {
+        "title": "정신과 육체에 대한 사색",
+        "explanation": "튜링은 편지에서 육체가 살아있는 동안 정신을 붙잡고 있으며 죽으면 정신이 새로운 몸을 찾는다는 사색을 남겼다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-alan-turing-p6",
+    "importantWords": [
+      {
+        "term": "Trinity College",
+        "meaning": "모르컴과 튜링이 장학금에 지원한 케임브리지 대학의 칼리지"
+      },
+      {
+        "term": "Mathematical Tripos",
+        "meaning": "케임브리지 대학의 수학 학위 과정"
+      },
+      {
+        "term": "central limit theorem",
+        "meaning": "표본 평균의 분포가 정규분포에 가까워진다는 통계학 정리"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "exhibition",
+        "meaning": "성적 우수 학생에게 주는 비교적 낮은 액수의 장학금"
+      },
+      {
+        "term": "Gaussian error function",
+        "meaning": "정규분포와 관련된 특수 함수"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "케임브리지 장학 시험",
+        "explanation": "모르컴은 트리니티 칼리지 장학금에 합격했지만 튜링은 실패하여 대신 킹스 칼리지 시험에 응시해 합격했다."
+      },
+      {
+        "title": "학위 논문과 중심극한정리",
+        "explanation": "튜링은 가우스 오차함수를 다룬 학위 논문에서 중심극한정리의 한 형태를 독자적으로 증명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-geoffrey-hinton-p1",
+    "importantWords": [
+      {
+        "term": "Godfather of AI",
+        "meaning": "인공신경망 연구로 힌튼에게 붙은 별명"
+      },
+      {
+        "term": "Google Brain",
+        "meaning": "힌튼이 2013년부터 2023년까지 몸담았던 구글의 AI 연구 조직"
+      },
+      {
+        "term": "backpropagation algorithm",
+        "meaning": "다층 신경망을 학습시키는 대중화된 알고리즘"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "existential risk",
+        "meaning": "인류의 생존 자체를 위협하는 위험"
+      },
+      {
+        "term": "technological unemployment",
+        "meaning": "기술 발전으로 인한 실업"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "역전파 알고리즘의 대중화",
+        "explanation": "힌튼은 럼멜하트, 윌리엄스와 함께 1986년 논문에서 다층 신경망 학습용 역전파 알고리즘을 대중화했다."
+      },
+      {
+        "title": "구글 퇴사와 AI 위험 경고",
+        "explanation": "힌튼은 2023년 인공지능 기술의 여러 위험을 자유롭게 경고하기 위해 구글에서의 직책을 떠났다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-geoffrey-hinton-p2",
+    "importantWords": [
+      {
+        "term": "Clifton College",
+        "meaning": "힌튼이 브리스톨에서 교육받은 학교"
+      },
+      {
+        "term": "experimental psychology",
+        "meaning": "실험을 통해 심리 현상을 연구하는 학문"
+      },
+      {
+        "term": "University of Edinburgh",
+        "meaning": "힌튼이 인공지능 박사 학위를 받은 대학"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "matriculated",
+        "meaning": "대학에 정식으로 입학 등록했다"
+      },
+      {
+        "term": "symbolic AI approach",
+        "meaning": "규칙과 기호 조작으로 지능을 구현하려는 인공지능 접근법"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "힌튼의 학문적 방황과 진로",
+        "explanation": "힌튼은 자연과학, 미술사, 철학 사이를 오가다 실험심리학 학사로 졸업한 뒤 인공지능 박사 과정을 밟았다."
+      },
+      {
+        "title": "지도교수와의 접근법 차이",
+        "explanation": "힌튼의 지도교수 롱게-히긴스는 신경망보다 기호적 AI 접근법을 선호했지만 힌튼은 신경망 연구를 지속했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-geoffrey-hinton-p3",
+    "importantWords": [
+      {
+        "term": "DNNresearch Inc.",
+        "meaning": "힌튼이 대학원생들과 함께 세운 스타트업으로 구글에 인수됨"
+      },
+      {
+        "term": "Alex Krizhevsky",
+        "meaning": "DNNresearch를 공동 설립한 힌튼의 대학원생"
+      },
+      {
+        "term": "Ilya Sutskever",
+        "meaning": "DNNresearch를 공동 설립한 또 다른 대학원생"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "postdoctoral researchers",
+        "meaning": "박사 학위 취득 후 연구를 수행하는 연구자"
+      },
+      {
+        "term": "$44 million",
+        "meaning": "구글이 DNNresearch를 인수한 금액"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "DNNresearch의 구글 인수",
+        "explanation": "힌튼이 세운 DNNresearch는 2013년 구글에 4400만 달러에 인수되었고, 힌튼은 대학과 구글 업무를 병행했다."
+      },
+      {
+        "title": "힌튼 연구실 출신 인재들",
+        "explanation": "힌튼의 연구실에서는 얀 르쿤, 일리야 수츠케버 등 딥러닝 분야의 주요 연구자들이 배출되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-geoffrey-hinton-p4",
+    "importantWords": [
+      {
+        "term": "wake-sleep algorithm",
+        "meaning": "인식과 생성 경로를 분리해 학습시키는 알고리즘"
+      },
+      {
+        "term": "t-SNE",
+        "meaning": "고차원 데이터를 시각화하는 기법"
+      },
+      {
+        "term": "capsule neural networks",
+        "meaning": "이미지 속 부분과 전체 관계를 모델링하려는 신경망 구조"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "contrastive learning",
+        "meaning": "비슷한 표현은 가깝게, 다른 표현은 멀게 학습시키는 방법"
+      },
+      {
+        "term": "Forward-Forward",
+        "meaning": "2022년 힌튼이 제안한 새로운 신경망 학습 알고리즘"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다양한 신경망 연구 기여",
+        "explanation": "힌튼은 웨이크-슬립 알고리즘, t-SNE 시각화, 캡슐 신경망 등 여러 학습 및 표현 기법을 제안했다."
+      },
+      {
+        "title": "Forward-Forward 알고리즘 발표",
+        "explanation": "2022년 NeurIPS에서 힌튼은 기존 역전파를 대체할 새로운 학습 알고리즘인 Forward-Forward를 소개했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-geoffrey-hinton-p5",
+    "importantWords": [
+      {
+        "term": "mortal computation",
+        "meaning": "학습된 지식이 하드웨어와 함께 소멸하는 계산 방식"
+      },
+      {
+        "term": "positive",
+        "meaning": "실제 데이터를 의미하는 순전파 경로의 입력"
+      },
+      {
+        "term": "Fellow of the Royal Society",
+        "meaning": "영국 왕립학회의 회원 자격"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "analog computers",
+        "meaning": "연속적인 물리량으로 계산을 수행하는 컴퓨터"
+      },
+      {
+        "term": "autonomous intelligent",
+        "meaning": "스스로 작동하는 지능을 가진"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Forward-Forward와 유한한 계산",
+        "explanation": "Forward-Forward 알고리즘은 두 번의 순전파를 사용하며, 지식이 하드웨어에 종속되는 유한한 계산 방식에 적합하다."
+      },
+      {
+        "title": "왕립학회의 평가",
+        "explanation": "왕립학회는 힌튼이 인간 교사 없이 학습하도록 신경망을 설계한 공로로 그를 평가했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-geoffrey-hinton-p6",
+    "importantWords": [
+      {
+        "term": "Killam Prize",
+        "meaning": "2012년 힌튼이 공학 분야에서 받은 캐나다 위원회 상"
+      },
+      {
+        "term": "National Academy of Engineering",
+        "meaning": "2016년 힌튼이 국제 회원으로 선출된 미국 학술 기관"
+      },
+      {
+        "term": "Turing Award",
+        "meaning": "2018년 힌튼이 르쿤, 벤지오와 함께 받은 컴퓨터 과학 최고 권위상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Companion of the Order of Canada",
+        "meaning": "캐나다 훈장의 최고 등급 회원 자격"
+      },
+      {
+        "term": "Dickson Prize",
+        "meaning": "카네기 멜론 대학이 수여하는 과학상"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "튜링상 공동 수상",
+        "explanation": "힌튼은 얀 르쿤, 요슈아 벤지오와 함께 심층신경망을 컴퓨팅의 핵심 요소로 만든 공로로 2018년 튜링상을 받았다."
+      },
+      {
+        "title": "노벨 물리학상 수상",
+        "explanation": "2024년 힌튼은 존 홉필드와 함께 인공신경망을 이용한 기계학습의 토대를 마련한 공로로 노벨 물리학상을 받았다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-claude-shannon-p1",
+    "importantWords": [
+      {
+        "term": "father of information theory",
+        "meaning": "정보이론을 창시한 사람에게 붙는 별칭"
+      },
+      {
+        "term": "Boolean algebra",
+        "meaning": "참과 거짓의 논리 연산을 다루는 대수 체계"
+      },
+      {
+        "term": "Rodney Brooks",
+        "meaning": "섀넌을 20세기 최고의 공헌 엔지니어로 평가한 로봇공학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "polymath",
+        "meaning": "여러 학문 분야에 두루 능통한 사람"
+      },
+      {
+        "term": "Solomon W. Golomb",
+        "meaning": "섀넌의 지적 업적을 극찬한 수학자"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정보이론의 아버지",
+        "explanation": "섀넌은 정보 시대의 토대를 놓은 인물로 정보이론의 아버지라 불린다."
+      },
+      {
+        "title": "불 대수와 디지털 회로",
+        "explanation": "섀넌은 모든 디지털 전자 회로의 기초가 되는 불 대수의 활용을 처음으로 기술한 인물 중 하나였다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-claude-shannon-p2",
+    "importantWords": [
+      {
+        "term": "A Mathematical Theory of Communication",
+        "meaning": "정보이론의 토대를 놓은 섀넌의 1948년 논문"
+      },
+      {
+        "term": "Robert G. Gallager",
+        "meaning": "섀넌의 논문을 '디지털 시대의 청사진'이라 평한 전기공학자"
+      },
+      {
+        "term": "Dartmouth workshop",
+        "meaning": "1956년 열린 인공지능 분야의 창시 행사"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Theseus machine",
+        "meaning": "시행착오로 학습한 최초의 전기 장치"
+      },
+      {
+        "term": "Special Cryptologic Advisory Group",
+        "meaning": "섀넌이 1951년 가입한 CIA 산하 암호 자문 그룹"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "정보이론의 파급력",
+        "explanation": "섀넌의 이론은 CD 발명, 인터넷 발전, 이동통신 상용화 등 여러 과학 분야에 활용되었다."
+      },
+      {
+        "title": "다트머스 워크숍과 AI 기여",
+        "explanation": "섀넌은 인공지능의 시초로 여겨지는 1956년 다트머스 워크숍을 공동 조직하며 AI 분야에도 기여했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-claude-shannon-p3",
+    "importantWords": [
+      {
+        "term": "Gaylord High School",
+        "meaning": "섀넌이 1932년 졸업한 고등학교"
+      },
+      {
+        "term": "Thomas Edison",
+        "meaning": "섀넌의 어린 시절 영웅이었던 발명가로 먼 친척"
+      },
+      {
+        "term": "differential analyzer",
+        "meaning": "전기기계식 부품으로 구성된 초기 아날로그 컴퓨터"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "barbed-wire telegraph",
+        "meaning": "철조망을 이용해 만든 전신 시스템"
+      },
+      {
+        "term": "switching circuits",
+        "meaning": "전기 신호의 흐름을 제어하는 회로"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어린 시절의 발명 재능",
+        "explanation": "섀넌은 어린 시절부터 비행기 모형, 무선 조종 보트, 철조망 전신 등을 직접 만들며 공학적 재능을 보였다."
+      },
+      {
+        "title": "불 대수와 스위칭 회로",
+        "explanation": "섀넌은 부시의 미분해석기를 연구하며 불의 개념에 기반한 스위칭 회로를 설계해 석사 논문의 토대를 마련했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-claude-shannon-p4",
+    "importantWords": [
+      {
+        "term": "Akira Nakashima",
+        "meaning": "기존 회로 이론에 기반해 접근한 이전 세대 엔지니어"
+      },
+      {
+        "term": "Howard Gardner",
+        "meaning": "섀넌의 석사 논문을 극찬한 학자"
+      },
+      {
+        "term": "An Algebra for Theoretical Genetics",
+        "meaning": "섀넌의 박사 학위 논문 제목"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "theoretical rigor",
+        "meaning": "이론적으로 엄밀함"
+      },
+      {
+        "term": "Cold Spring Harbor Laboratory",
+        "meaning": "섀넌이 유전학 연구를 하도록 권유받은 연구소"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "석사 논문의 역사적 평가",
+        "explanation": "가드너와 골드스타인은 섀넌의 석사 논문이 디지털 회로 설계를 예술에서 과학으로 바꾼 가장 중요한 논문 중 하나라고 평가했다."
+      },
+      {
+        "title": "유전학으로의 전환",
+        "explanation": "섀넌은 부시의 권유로 콜드 스프링 하버 연구소에서 멘델 유전학에 대한 수학적 정식화를 시도한 박사 논문을 썼다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-claude-shannon-p5",
+    "importantWords": [
+      {
+        "term": "John von Neumann",
+        "meaning": "섀넌이 프린스턴에서 교류한 영향력 있는 수학자"
+      },
+      {
+        "term": "signal-flow graphs",
+        "meaning": "1942년 섀넌이 발명한 신호 흐름을 나타내는 그래프"
+      },
+      {
+        "term": "universal Turing machine",
+        "meaning": "튜링이 1936년 논문에서 정의한 계산 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "topological gain formula",
+        "meaning": "신호흐름그래프에서 이득을 구하는 위상수학적 공식"
+      },
+      {
+        "term": "Kriegsmarine U-boats",
+        "meaning": "독일 해군의 잠수함"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "프린스턴에서의 학문적 교류",
+        "explanation": "섀넌은 프린스턴 고등연구소에서 폰 노이만, 바일 등과 교류하며 여러 분야를 넘나드는 사고를 발전시켰다."
+      },
+      {
+        "title": "튜링과의 만남",
+        "explanation": "1943년 섀넌은 벨 연구소 카페테리아에서 튜링을 만나 보편 튜링 기계 개념을 접하고 깊은 인상을 받았다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-claude-shannon-p6",
+    "importantWords": [
+      {
+        "term": "Data Smoothing and Prediction in Fire-Control Systems",
+        "meaning": "섀넌이 공저한 사격 통제 시스템 관련 논문"
+      },
+      {
+        "term": "A Mathematical Theory of Cryptography",
+        "meaning": "1945년 섀넌이 작성한 기밀 암호이론 메모"
+      },
+      {
+        "term": "one-time pad",
+        "meaning": "키를 한 번만 사용하는 해독 불가능한 암호 방식"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Communication Theory of Secrecy Systems",
+        "meaning": "1949년 공개된 섀넌의 암호이론 논문"
+      },
+      {
+        "term": "Bell System Technical Journal",
+        "meaning": "섀넌의 논문이 게재된 벨 시스템 학술지"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "사격통제와 신호 분리",
+        "explanation": "섀넌은 사격통제 시스템에서 데이터를 매끄럽게 만드는 문제를 통신에서 신호와 잡음을 분리하는 문제에 비유해 다뤘다."
+      },
+      {
+        "title": "일회용 암호표의 안전성 증명",
+        "explanation": "섀넌은 키가 완전히 무작위이고 재사용되지 않을 때 일회용 암호표가 해독 불가능함을 수학적으로 증명했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-john-mccarthy-p1",
+    "importantWords": [
+      {
+        "term": "Dartmouth workshop",
+        "meaning": "'인공지능'이라는 용어가 만들어진 1956년 워크숍"
+      },
+      {
+        "term": "Turing Award",
+        "meaning": "매카시가 1971년 받은 AI 기여 관련 상"
+      },
+      {
+        "term": "Amalgamated Clothing Workers",
+        "meaning": "매카시의 아버지가 조직가로 일한 노동조합"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "100,000 Whys",
+        "meaning": "매카시가 과학에 관심을 갖게 한 러시아 어린이 과학책"
+      },
+      {
+        "term": "Belmont High School",
+        "meaning": "매카시가 2년 일찍 졸업한 고등학교"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AI 창시자로서의 매카시",
+        "explanation": "매카시는 인공지능이라는 용어를 만든 다트머스 워크숍 제안서를 공동 작성한 AI 창시자 중 한 명이다."
+      },
+      {
+        "title": "이민자 가정의 성장 배경",
+        "explanation": "매카시는 아일랜드 출신 아버지와 리투아니아 유대인 출신 어머니 밑에서 대공황기에 자주 이사하며 성장했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-john-mccarthy-p2",
+    "importantWords": [
+      {
+        "term": "Donald C. Spencer",
+        "meaning": "매카시의 박사 논문을 지도한 프린스턴 교수"
+      },
+      {
+        "term": "advice taker",
+        "meaning": "질의응답과 논리 프로그래밍에 영향을 준 매카시의 1958년 제안"
+      },
+      {
+        "term": "Nathaniel Rochester",
+        "meaning": "다트머스 제안서를 매카시와 함께 쓴 인물"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "lambda calculus",
+        "meaning": "함수를 이용해 계산을 표현하는 형식 체계"
+      },
+      {
+        "term": "common sense",
+        "meaning": "인공지능에서 인간처럼 상식적으로 추론하는 능력"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "캘리포니아 공과대학에서의 수학 재능",
+        "explanation": "매카시는 10대에 독학으로 대학 수학을 익혀 칼텍의 수학 첫 2년 과정을 건너뛸 수 있었다."
+      },
+      {
+        "title": "상식 논리 연구",
+        "explanation": "매카시는 람다 계산법 등 수학을 활용해 인공지능이 상식적 추론을 하도록 하는 논리를 고안했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-john-mccarthy-p3",
+    "importantWords": [
+      {
+        "term": "Lisp programming language",
+        "meaning": "매카시가 만든 기호 표현 계산용 프로그래밍 언어"
+      },
+      {
+        "term": "garbage collection",
+        "meaning": "매카시가 고안한 자동 메모리 관리 기법"
+      },
+      {
+        "term": "ALGOL 60",
+        "meaning": "매카시가 표준화에 참여한 프로그래밍 언어"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "primitive recursive functions",
+        "meaning": "기본 연산으로 정의되는 재귀 함수의 한 종류"
+      },
+      {
+        "term": "time-sharing systems",
+        "meaning": "여러 사용자가 컴퓨터 자원을 동시에 나눠 쓰는 시스템"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Lisp 언어의 탄생",
+        "explanation": "매카시는 원시 재귀 함수를 기호 표현 계산으로 확장하여 Lisp 프로그래밍 언어를 만들었다."
+      },
+      {
+        "title": "시분할 시스템의 선구자",
+        "explanation": "매카시는 초기 시분할 시스템의 개발을 주도해 오늘날 클라우드 컴퓨팅의 개념적 토대를 놓았다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-john-mccarthy-p4",
+    "importantWords": [
+      {
+        "term": "circumscription",
+        "meaning": "매카시가 개발한 비단조 추론 방법"
+      },
+      {
+        "term": "space fountain",
+        "meaning": "매카시가 구상한 우주로 뻗은 탑 개념"
+      },
+      {
+        "term": "grid computing",
+        "meaning": "여러 컴퓨터 자원을 연결해 활용하는 컴퓨팅 방식"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "non-monotonic reasoning",
+        "meaning": "새로운 정보로 기존 결론이 철회될 수 있는 추론 방식"
+      },
+      {
+        "term": "Kotok-McCarthy",
+        "meaning": "매카시 팀이 소련과 벌인 체스 프로그램 대결"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "비단조 추론의 개발",
+        "explanation": "매카시는 1978년부터 1986년까지 서컴스크립션이라는 비단조 추론 방법을 개발했다."
+      },
+      {
+        "title": "컴퓨팅 유틸리티 개념의 재부상",
+        "explanation": "1960년대 유행했던 정보 유틸리티 개념은 2000년 이후 그리드 컴퓨팅과 클라우드 컴퓨팅 형태로 다시 나타났다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-john-mccarthy-p5",
+    "importantWords": [
+      {
+        "term": "Vera Watson",
+        "meaning": "매카시의 두 번째 아내로 등반 중 사망한 프로그래머"
+      },
+      {
+        "term": "Carolyn Talcott",
+        "meaning": "매카시가 이후 결혼한 스탠퍼드의 컴퓨터 과학자"
+      },
+      {
+        "term": "Stanford Memorial Church",
+        "meaning": "매카시가 무신론을 선언한 스탠퍼드의 교회"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Annapurna I Central",
+        "meaning": "베라 왓슨이 등반 중 사망한 히말라야 봉우리"
+      },
+      {
+        "term": "conservative Republican",
+        "meaning": "보수적인 공화당 지지자"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "매카시의 개인사",
+        "explanation": "매카시는 세 번 결혼했으며 두 번째 아내 베라 왓슨은 등반 중 사망했고, 이후 캐롤린 탤콧과 결혼했다."
+      },
+      {
+        "title": "정치적 견해의 변화",
+        "explanation": "공산주의 가정에서 자란 매카시는 1968년 소련의 체코슬로바키아 침공 이후 보수적인 공화당 지지자가 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-john-mccarthy-p6",
+    "importantWords": [
+      {
+        "term": "Dreyfus",
+        "meaning": "초기 인공지능에 대한 유명한 회의론자"
+      },
+      {
+        "term": "nihilism",
+        "meaning": "삶의 의미나 가치를 부정하는 철학적 입장"
+      },
+      {
+        "term": "Kyoto Prize",
+        "meaning": "매카시가 1988년 받은 상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "existential questions",
+        "meaning": "존재의 의미에 관한 근본적인 질문"
+      },
+      {
+        "term": "Benjamin Franklin Medal",
+        "meaning": "매카시가 2003년 받은 컴퓨터 인지과학 분야 메달"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "매카시와 드레이퓌스의 논쟁",
+        "explanation": "매카시는 논리 기반 인공지능을 낙관했지만 드레이퓌스는 인간 이해가 논리 이상의 것이라며 평생 논쟁했다."
+      },
+      {
+        "title": "매카시가 받은 학술적 영예",
+        "explanation": "매카시는 튜링상, 교토상, 미국 국가과학훈장 등 여러 권위 있는 상을 수상했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-ada-lovelace-p1",
+    "importantWords": [
+      {
+        "term": "analytical engine",
+        "meaning": "찰스 배비지가 구상한 기계식 범용 컴퓨터"
+      },
+      {
+        "term": "first computer programmer",
+        "meaning": "러브레이스에게 붙는 별칭"
+      },
+      {
+        "term": "Charles Babbage",
+        "meaning": "러브레이스와 함께 연구한 영국 수학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "poetical science",
+        "meaning": "러브레이스가 자신의 접근법을 표현한 용어"
+      },
+      {
+        "term": "Analyst (& Metaphysician)",
+        "meaning": "러브레이스가 스스로를 칭한 표현"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "해석기관과 최초의 프로그래머",
+        "explanation": "러브레이스는 배비지의 해석기관 연구에 참여했으며 흔히 최초의 컴퓨터 프로그래머로 여겨진다."
+      },
+      {
+        "title": "시적 과학이라는 접근법",
+        "explanation": "러브레이스는 자신의 연구 방식을 '시적 과학'이라 부르며 상상력과 과학적 엄밀함을 결합했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-ada-lovelace-p2",
+    "importantWords": [
+      {
+        "term": "Luigi Menabrea",
+        "meaning": "러브레이스가 해석기관에 관한 글을 번역한 군사 공학자"
+      },
+      {
+        "term": "Bernoulli numbers",
+        "meaning": "러브레이스의 계산 방법이 다룬 수열"
+      },
+      {
+        "term": "poetical science",
+        "meaning": "기술과 사회의 관계를 탐구한 러브레이스의 사고방식"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "explanatory notes",
+        "meaning": "본문을 보충 설명하는 주석"
+      },
+      {
+        "term": "number-crunching",
+        "meaning": "단순한 수치 계산"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "최초로 발표된 컴퓨터 프로그램",
+        "explanation": "러브레이스가 베르누이 수를 계산하는 방법을 설명한 주석은 흔히 최초로 발표된 컴퓨터 프로그램으로 불린다."
+      },
+      {
+        "title": "계산기의 확장 가능성 통찰",
+        "explanation": "러브레이스는 계산기가 숫자뿐 아니라 음악 같은 정보도 다룰 수 있다고 최초로 지적했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-ada-lovelace-p3",
+    "importantWords": [
+      {
+        "term": "Lady Milbanke",
+        "meaning": "러브레이스를 돌본 외할머니"
+      },
+      {
+        "term": "measles",
+        "meaning": "러브레이스를 마비시킨 질병"
+      },
+      {
+        "term": "crutches",
+        "meaning": "다리가 불편할 때 사용하는 보조 도구"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "acrimonious separation",
+        "meaning": "격렬하고 신랄한 별거"
+      },
+      {
+        "term": "maternal grandmother",
+        "meaning": "외할머니"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어린 시절의 병약함",
+        "explanation": "러브레이스는 어린 시절부터 병약했으며 홍역 이후 마비되어 거의 1년간 침상에서 지냈다."
+      },
+      {
+        "title": "어머니와의 소원한 관계",
+        "explanation": "러브레이스는 어머니와 가깝지 않았고 주로 외할머니 밀뱅크 부인의 보살핌을 받으며 자랐다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-ada-lovelace-p4",
+    "importantWords": [
+      {
+        "term": "Lady Fairy",
+        "meaning": "배비지가 애정을 담아 러브레이스를 부른 별명"
+      },
+      {
+        "term": "Flyology",
+        "meaning": "에이다가 날개 연구 내용을 담아 쓰기로 한 책"
+      },
+      {
+        "term": "Elizabeth Medora Leigh",
+        "meaning": "러브레이스와 접촉이 있었던 바이런 이복누나의 딸"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "oilsilk",
+        "meaning": "날개 재료로 고려된 기름을 먹인 실크"
+      },
+      {
+        "term": "elope",
+        "meaning": "허락 없이 몰래 결혼하려고 도망치다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "날고 싶다는 소녀의 열정",
+        "explanation": "12살의 에이다는 날개를 만들기 위해 재료를 연구하고 새의 해부학을 조사하며 'Flyology'라는 책을 쓰려 했다."
+      },
+      {
+        "title": "가정교사와의 스캔들",
+        "explanation": "에이다는 1833년 가정교사와 관계를 가지고 도피를 시도했으나 발각되어 어머니가 이를 무마했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-ada-lovelace-p5",
+    "importantWords": [
+      {
+        "term": "John Hobhouse",
+        "meaning": "에이다를 인상적으로 묘사한 바이런의 친구"
+      },
+      {
+        "term": "Ockham Park",
+        "meaning": "러브레이스 부부가 소유한 저택 중 하나"
+      },
+      {
+        "term": "Ashley Combe",
+        "meaning": "부부가 신혼여행을 보낸 사냥용 별장"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "dainty",
+        "meaning": "우아하고 여린 느낌을 주는"
+      },
+      {
+        "term": "coarse-skinned",
+        "meaning": "피부가 거친"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "결혼과 백작 부인 작위",
+        "explanation": "1835년 윌리엄 킹과 결혼한 에이다는 1838년 남편이 러브레이스 백작이 되면서 러브레이스 백작 부인이 되었다."
+      },
+      {
+        "title": "세 자녀의 출산",
+        "explanation": "부부는 바이런, 애나벨라, 랠프 고든이라는 세 자녀를 두었으며 둘째 출산 후 에이다는 오랜 병을 앓았다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-ada-lovelace-p6",
+    "importantWords": [
+      {
+        "term": "Carpenter",
+        "meaning": "에이다의 자녀를 가르치며 에이다와 얽힌 가정교사"
+      },
+      {
+        "term": "Medora Leigh",
+        "meaning": "에이다와 이복 자매 관계였다는 사실이 드러난 인물"
+      },
+      {
+        "term": "gambling",
+        "meaning": "에이다가 빠져든 도박"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unbecoming",
+        "meaning": "품위나 도리에 맞지 않는"
+      },
+      {
+        "term": "incestuous relationship",
+        "meaning": "근친 관계"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "카펜터와의 갈등",
+        "explanation": "가정교사 카펜터가 애정을 표현하려 하자 에이다는 관계가 부적절해질 조짐을 보고 이를 끊었다."
+      },
+      {
+        "title": "출생의 비밀 공개",
+        "explanation": "1841년 에이다는 어머니로부터 자신의 아버지가 메도라의 아버지이기도 하다는 사실을 듣고 충격을 받지 않았다고 답했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-herbert-a-simon-p1",
+    "importantWords": [
+      {
+        "term": "bounded rationality",
+        "meaning": "인간의 인지적 한계로 인해 합리성이 제한된다는 이론"
+      },
+      {
+        "term": "satisficing",
+        "meaning": "완벽한 최적해 대신 충분히 만족스러운 해를 선택하는 전략"
+      },
+      {
+        "term": "Nobel Memorial Prize in Economic Sciences",
+        "meaning": "사이먼이 1978년 받은 경제학 분야의 상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "interdisciplinary",
+        "meaning": "여러 학문 분야를 아우르는"
+      },
+      {
+        "term": "preferential attachment",
+        "meaning": "이미 많이 연결된 대상이 더 많이 연결되는 경향의 메커니즘"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "제한된 합리성과 만족화",
+        "explanation": "사이먼은 인간이 완전한 합리성 대신 제한된 합리성 속에서 만족스러운 선택을 한다는 이론으로 유명하다."
+      },
+      {
+        "title": "카네기 멜론에서의 학문적 업적",
+        "explanation": "사이먼은 카네기 멜론 대학에서 컴퓨터과학 대학 설립을 도우며 여러 학문 분야를 넘나드는 연구를 수행했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-herbert-a-simon-p2",
+    "importantWords": [
+      {
+        "term": "Harold Merkel",
+        "meaning": "사이먼에게 사회과학의 문을 열어준 외삼촌"
+      },
+      {
+        "term": "single tax",
+        "meaning": "헨리 조지가 주장한 토지 단일세 사상"
+      },
+      {
+        "term": "color-blindness",
+        "meaning": "색을 구별하지 못하는 시각 장애"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "debate team",
+        "meaning": "토론을 훈련하는 학교 동아리"
+      },
+      {
+        "term": "econometrician",
+        "meaning": "경제 현상을 통계적으로 분석하는 학자"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "사회과학에 대한 관심의 기원",
+        "explanation": "사이먼은 외삼촌 해럴드 머켈의 책을 통해 인간 행동을 과학적으로 연구할 수 있다는 생각을 접했다."
+      },
+      {
+        "title": "생물학 포기와 진로 선택",
+        "explanation": "사이먼은 색맹과 실험실에서의 서투름 때문에 생물학 대신 정치학과 경제학을 전공하기로 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-herbert-a-simon-p3",
+    "importantWords": [
+      {
+        "term": "Cowles Commission",
+        "meaning": "사이먼이 참여한 경제학 세미나를 주최한 기관"
+      },
+      {
+        "term": "Administrative Behavior",
+        "meaning": "사이먼이 기업 의사결정 이론으로 유명해진 저서"
+      },
+      {
+        "term": "Economic Cooperation Administration",
+        "meaning": "마셜 플랜 원조를 관리한 행정 기구"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "institutionalism",
+        "meaning": "제도가 경제 행위에 미치는 영향을 강조하는 경제학 조류"
+      },
+      {
+        "term": "Marshall Plan",
+        "meaning": "제2차 세계대전 후 미국의 유럽 원조 계획"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "경제학 세미나 참여",
+        "explanation": "사이먼은 일리노이 공대 재직 시절 카울스 위원회 세미나에 참여하며 제도주의 경제학을 깊이 연구했다."
+      },
+      {
+        "title": "행정적 행동 이론의 확립",
+        "explanation": "사이먼은 저서 'Administrative Behavior'에서 의사결정에 영향을 미치는 여러 요인을 인정하는 접근법을 제시했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-herbert-a-simon-p4",
+    "importantWords": [
+      {
+        "term": "homo economicus",
+        "meaning": "완전히 합리적으로 행동한다고 가정하는 경제적 인간 모델"
+      },
+      {
+        "term": "doctoral dissertation",
+        "meaning": "박사 학위 논문"
+      },
+      {
+        "term": "administrative decision",
+        "meaning": "행정적 의사결정"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "imperfectly differentiated",
+        "meaning": "불완전하게 구분된"
+      },
+      {
+        "term": "coordinated means",
+        "meaning": "서로 조율된 수단들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "합리적 의사결정의 정의",
+        "explanation": "사이먼은 올바르고 효율적이며 실행 가능한 수단으로 이루어진 의사결정을 합리적 의사결정으로 정의했다."
+      },
+      {
+        "title": "선택 과제의 세 단계",
+        "explanation": "사이먼은 합리적 선택의 과제를 대안 목록화, 결과 판단, 정확성과 효율성 비교의 세 단계로 나누었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-herbert-a-simon-p5",
+    "importantWords": [
+      {
+        "term": "Economic man",
+        "meaning": "완전한 합리성을 가정하는 경제적 인간 모델"
+      },
+      {
+        "term": "Administrative man",
+        "meaning": "제한된 합리성 속에서 행동하는 인간 모델"
+      },
+      {
+        "term": "Chester Barnard",
+        "meaning": "조직 내 결정과 개인적 결정을 구분한 학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "closed system",
+        "meaning": "외부와 상호작용이 제한된 제한된 변수의 체계"
+      },
+      {
+        "term": "extra–organizational",
+        "meaning": "조직 외부의"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "경제인과 행정인 모델",
+        "explanation": "사이먼은 인간 인지의 한계를 조건으로 경제인과 행정인이라는 틀로 의사결정을 설명했다."
+      },
+      {
+        "title": "조직 내 의사결정의 특수성",
+        "explanation": "체스터 바나드를 따라 사이먼은 조직 구성원으로서의 결정이 개인적 결정과는 다르다고 보았다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-herbert-a-simon-p6",
+    "importantWords": [
+      {
+        "term": "Authority",
+        "meaning": "상위 계급이 하위 계급의 결정을 지시할 수 있는 권리"
+      },
+      {
+        "term": "Loyalty",
+        "meaning": "개인이 조직의 목표를 자신의 목표로 대체하는 과정"
+      },
+      {
+        "term": "Harold Lasswell",
+        "meaning": "사이먼이 인용한 정치학자"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "subordinate",
+        "meaning": "하급자 또는 종속된 사람"
+      },
+      {
+        "term": "path diagrams",
+        "meaning": "변수 간 인과관계를 나타내는 도표"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "권위와 조직 행동",
+        "explanation": "사이먼은 권위를 상급자의 결정을 하급자가 따르는 기대로 정의하며 조직 행동의 핵심 요소로 보았다."
+      },
+      {
+        "title": "충성심과 조직 동일시",
+        "explanation": "사이먼은 충성심을 개인이 조직의 목표를 자신의 가치 기준으로 삼는 과정으로 정의했다."
+      }
+    ]
   }
 ]

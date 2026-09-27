@@ -2247,6 +2247,582 @@ const questionSpecs = [
       "지문은 행동이 상충하는 신념을 만들거나 새로운 정보가 기존 신념에 도전할 때 심리적 스트레스로 인지 부조화가 드러난다고 설명합니다.",
     difficulty: 2,
   },
+  {
+    id: "dad-psychology-v2-145",
+    passageId: "psychology-sigmund-freud-p1",
+    prompt:
+      "According to the passage, what did Freud develop by elaborating his theory of the unconscious?",
+    options: [
+      "A model of psychic structure comprising id, ego, and superego.",
+      "A model of psychic structure comprising conscious, subconscious, and preconscious only.",
+      "A behaviorist model based on stimulus-response chains.",
+      "A model of cognitive development divided into four stages.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 프로이트가 무의식 이론을 발전시켜 원초아, 자아, 초자아로 구성된 정신 구조 모델을 만들었다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-146",
+    passageId: "psychology-sigmund-freud-p2",
+    prompt:
+      "What omen did Freud's mother see connected to his birth, per the passage?",
+    options: [
+      "That he was born during a lunar eclipse.",
+      "That being born with a caul was a positive omen for his future.",
+      "That his birth order made him unlucky.",
+      "That his birth date matched a religious holiday.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 프로이트가 태아막을 쓰고 태어난 것을 어머니가 아들의 미래에 대한 좋은 징조로 여겼다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-147",
+    passageId: "psychology-sigmund-freud-p3",
+    prompt:
+      "What did Freud study under Ernst Brücke at the University of Vienna?",
+    options: [
+      "Law and jurisprudence.",
+      "Zoology and marine biology exclusively.",
+      "Physiology, spending six years comparing brains of humans and other vertebrates.",
+      "Psychoanalytic technique and dream interpretation.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 프로이트가 에른스트 브뤼케의 생리학 실험실에서 인간과 다른 척추동물의 뇌를 비교하며 6년을 보냈다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-148",
+    passageId: "psychology-sigmund-freud-p4",
+    prompt:
+      "How many children did Sigmund and Martha Freud have, according to the passage?",
+    options: [
+      "Two.",
+      "Four.",
+      "Eight.",
+      "Six: Mathilde, Jean-Martin, Oliver, Ernst, Sophie, and Anna.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 프로이트 부부가 마틸데, 장마르탱, 올리버, 에른스트, 조피, 안나까지 여섯 자녀를 두었다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-149",
+    passageId: "psychology-sigmund-freud-p5",
+    prompt:
+      "What health-related surgery did Freud undergo in November 1923, hoping to check the recurrence of his cancer?",
+    options: [
+      "A Steinach operation, a vasoligature believed to have rejuvenating effects.",
+      "A full laryngectomy.",
+      "An experimental lobotomy.",
+      "A cocaine-based nerve treatment.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 1923년 11월 프로이트가 암 재발을 막고 활력을 되찾기 위해 회춘 효과가 있다고 여겨진 슈타이나흐 수술을 받았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-150",
+    passageId: "psychology-sigmund-freud-p6",
+    prompt:
+      "Whose 1869 work, The Philosophy of the Unconscious, influenced Freud according to the passage?",
+    options: [
+      "Wilhelm Fliess.",
+      "Eduard von Hartmann.",
+      "Carl Jung.",
+      "William Shakespeare.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 프로이트가 에두아르트 폰 하르트만의 1869년 저서 무의식의 철학의 영향을 받았다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-151",
+    passageId: "psychology-jean-piaget-p1",
+    prompt:
+      "What had Piaget published on by the age of 15, according to the passage?",
+    options: [
+      "A theory of operant conditioning.",
+      "A dissertation on classical conditioning.",
+      "Several articles on mollusks, earning him a reputation in zoology.",
+      "A textbook on child psychoanalysis.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 피아제가 15세에 이미 연체동물에 관한 여러 논문을 발표해 동물학계에서 명성을 얻었다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-152",
+    passageId: "psychology-jean-piaget-p2",
+    prompt:
+      "What realization did Piaget reach while helping mark Binet's intelligence tests?",
+    options: [
+      "That intelligence tests were entirely invalid.",
+      "That older children and adults never made mistakes.",
+      "That memory formation was impossible in young children.",
+      "That young children's cognitive processes are inherently different from those of adults.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 피아제가 비네의 지능검사 채점을 도우며 어린아이의 인지 과정이 성인과 본질적으로 다르다는 이론에 이르렀다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-153",
+    passageId: "psychology-jean-piaget-p3",
+    prompt:
+      "Where was Piaget buried, according to the passage?",
+    options: [
+      "In an unmarked grave in the Cimetière des Rois in Geneva.",
+      "In Neuchâtel next to his parents.",
+      "In Paris at Père Lachaise Cemetery.",
+      "In Zurich near the Burghölzli hospital.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 피아제가 자신의 요청대로 제네바 시메티에르 데 루아의 무명 가족 묘지에 묻혔다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-154",
+    passageId: "psychology-jean-piaget-p4",
+    prompt:
+      "What method did Piaget create to investigate children's minds, per the passage?",
+    options: [
+      "The Skinner box paradigm.",
+      "A semiclinical interview combining psychological and clinical methods.",
+      "A standardized multiple-choice IQ test.",
+      "Free association through dream analysis.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 피아제가 심리학적 방법과 임상적 방법을 결합한 반임상적 면접법을 만들어 아이들의 마음을 조사했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-155",
+    passageId: "psychology-jean-piaget-p5",
+    prompt:
+      "How did Piaget test his theory of assimilation and accommodation, according to the passage?",
+    options: [
+      "By running operant conditioning experiments on rats.",
+      "By conducting large-scale surveys of adults.",
+      "By observing the habits of his own children.",
+      "By analyzing dream reports from patients.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 피아제가 자신의 이론을 검증하기 위해 자기 자녀들의 습관을 관찰했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-156",
+    passageId: "psychology-jean-piaget-p6",
+    prompt:
+      "According to Piaget's theory as described in the passage, what should determine when certain concepts are taught to children?",
+    options: [
+      "Only the child's chronological age in years.",
+      "The teacher's personal preference.",
+      "Random assignment to reinforce operant behavior.",
+      "The concept of readiness, meaning children should not be taught concepts until they reach the appropriate stage of cognitive development.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 피아제의 이론에서 아동이 적절한 인지 발달 단계에 도달하기 전에는 특정 개념을 가르쳐서는 안 된다는 준비도 개념이 중요하다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-157",
+    passageId: "psychology-b-f-skinner-p1",
+    prompt:
+      "What two tools did Skinner invent to study and measure operant conditioning, per the passage?",
+    options: [
+      "The operant conditioning chamber (Skinner box) and the cumulative recorder.",
+      "The polygraph and the EEG machine.",
+      "The Stanford-Binet test and the WAIS.",
+      "The MRI scanner and the PET scanner.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 스키너가 조작적 조건형성을 연구하기 위해 스키너 상자와 반응률을 측정하는 누적기록계를 발명했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-158",
+    passageId: "psychology-b-f-skinner-p2",
+    prompt:
+      "Who convinced Skinner at Harvard that he could make an experimental science of the study of behavior?",
+    options: [
+      "John B. Watson.",
+      "Fred S. Keller, a fellow student.",
+      "Ivan Pavlov.",
+      "Robert Frost, the poet.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 하버드의 동료 학생 프레드 켈러가 스키너에게 행동 연구를 실험 과학으로 만들 수 있다고 설득했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-159",
+    passageId: "psychology-b-f-skinner-p3",
+    prompt:
+      "What illness was Skinner diagnosed with in 1989, leading to his death the following year?",
+    options: [
+      "Tuberculosis.",
+      "Buccal cancer.",
+      "Leukemia.",
+      "Pneumonia.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 스키너가 1989년 백혈병 진단을 받고 이듬해인 1990년 사망했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-160",
+    passageId: "psychology-b-f-skinner-p4",
+    prompt:
+      "According to Skinner's radical behaviorism as quoted in the passage, what is actually felt or introspectively observed?",
+    options: [
+      "A nonphysical world of consciousness and mind.",
+      "The unconscious drives described by psychoanalysis.",
+      "Genetically fixed mental structures.",
+      "The observer's own body, not some nonphysical mental world.",
+    ],
+    answer: 3,
+    explanation:
+      "지문에서 스키너는 느껴지거나 내성적으로 관찰되는 것은 비물질적 의식의 세계가 아니라 관찰자 자신의 신체라고 주장합니다.",
+    difficulty: 3,
+  },
+  {
+    id: "dad-psychology-v2-161",
+    passageId: "psychology-b-f-skinner-p5",
+    prompt:
+      "Whose earlier work on respondent behaviors did Skinner's account build upon, per the passage?",
+    options: [
+      "Ivan Pavlov's.",
+      "Jean Piaget's.",
+      "Sigmund Freud's.",
+      "Daniel Kahneman's.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 반응 행동은 이미 이반 파블로프가 실험적으로 연구했고 조작 행동은 손다이크가 연구했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-162",
+    passageId: "psychology-b-f-skinner-p6",
+    prompt:
+      "What concept did Skinner introduce to account for complex behavior that appears suddenly in its final form, such as finding the elevator by following instructions?",
+    options: [
+      "Classical conditioning.",
+      "Rule-governed behavior.",
+      "The Oedipus complex.",
+      "Genetic epistemology.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 스키너가 지시를 따라 갑자기 완성된 형태로 나타나는 복잡한 행동을 설명하기 위해 규칙 지배 행동 개념을 도입했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-163",
+    passageId: "psychology-ivan-pavlov-p1",
+    prompt:
+      "Why did Pavlov not begin formal schooling until age 11, according to the passage?",
+    options: [
+      "His family could not afford a school.",
+      "He was homeschooled by his mother by choice.",
+      "He had sustained serious injuries from falling from a high wall onto a stone pavement.",
+      "Religious authorities forbade his early education.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 파블로프가 높은 벽에서 돌바닥으로 떨어져 심각한 부상을 입었기 때문에 11세가 되어서야 정규 학교 교육을 시작했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-164",
+    passageId: "psychology-ivan-pavlov-p2",
+    prompt:
+      "What was the subject of Pavlov's 1883 doctoral thesis, per the passage?",
+    options: [
+      "The digestive glands of dogs.",
+      "Classical conditioning of salivary reflexes.",
+      "The physiology of the pancreas.",
+      "The centrifugal nerves of the heart.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 파블로프가 1883년 심장의 원심신경을 주제로 박사 학위 논문을 제출했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-165",
+    passageId: "psychology-ivan-pavlov-p3",
+    prompt:
+      "For what was Pavlov specifically awarded the 1904 Nobel Prize, according to the passage?",
+    options: [
+      "His work on the physiology of digestion.",
+      "His discovery of classical conditioning.",
+      "His research on temperament types.",
+      "His studies of the nervous system's transmarginal inhibition.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 노벨상 수여 당시 소화의 생리학에 관한 연구 업적을 인정받았다고 명시했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-166",
+    passageId: "psychology-ivan-pavlov-p4",
+    prompt:
+      "Why did Pavlov design 'chronic' experiments on dogs rather than 'acute' ones, per the passage?",
+    options: [
+      "Because acute experiments were too expensive.",
+      "Because he wanted to keep the dogs alive and healthy to observe their long-term physiological processes.",
+      "Because the government banned acute experiments.",
+      "Because chronic experiments required no surgery at all.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 파블로프가 개의 정상적인 장기 생리 과정을 이해하기 위해 개를 살려서 건강하게 유지하는 만성 실험을 설계했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-167",
+    passageId: "psychology-ivan-pavlov-p5",
+    prompt:
+      "What did Pavlov die of on 27 February 1936, according to the passage?",
+    options: [
+      "Leukemia.",
+      "A cerebral hemorrhage.",
+      "Double pneumonia, at the age of 86.",
+      "Buccal cancer.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 파블로프가 1936년 2월 27일 86세의 나이에 양측 폐렴으로 사망했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-168",
+    passageId: "psychology-ivan-pavlov-p6",
+    prompt:
+      "What did Pavlov call the body's natural response of shutting down when exposed to overwhelming stress or pain, per the passage?",
+    options: [
+      "Classical conditioning.",
+      "The peak-end rule.",
+      "Rule-governed behavior.",
+      "Transmarginal inhibition (TMI).",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 파블로프와 그의 연구진이 과도한 스트레스나 고통에 노출되었을 때 신체가 정지하는 자연스러운 반응을 경계선 억제(TMI)라고 불렀다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-169",
+    passageId: "psychology-daniel-kahneman-p1",
+    prompt:
+      "Along with Vernon L. Smith, what prize did Kahneman receive in 2002, per the passage?",
+    options: [
+      "The Nobel Memorial Prize in Economic Sciences.",
+      "The Nobel Prize in Physiology or Medicine.",
+      "The Fields Medal.",
+      "The Turing Award.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 카너먼이 2002년 버논 스미스와 함께 노벨 경제학상을 수상했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-170",
+    passageId: "psychology-daniel-kahneman-p2",
+    prompt:
+      "What happened to Kahneman's father Efrayim during the German occupation, according to the passage?",
+    options: [
+      "He was never affected by the occupation.",
+      "He was picked up in the first major round-up of French Jews but released after six weeks, later dying of diabetes in 1944.",
+      "He immediately fled to the United States.",
+      "He joined the German army.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 카너먼의 아버지 에프라임이 프랑스 유대인 첫 대규모 검거 때 붙잡혔다가 6주 후 풀려났고 1944년 당뇨병으로 사망했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-171",
+    passageId: "psychology-daniel-kahneman-p3",
+    prompt:
+      "What did Kahneman develop during his service in the psychology department of the IDF, per the passage?",
+    options: [
+      "The Skinner box.",
+      "The peak-end rule.",
+      "A structured interview for combat recruits, which remained in use for decades.",
+      "The Stanford-Binet test.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 카너먼이 이스라엘 방위군 심리학과에서 복무하며 수십 년간 사용된 전투병 구조화 면접법을 개발했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-172",
+    passageId: "psychology-daniel-kahneman-p4",
+    prompt:
+      "In which journal was the final version of prospect theory published in 1979, according to the passage?",
+    options: [
+      "Nature.",
+      "Science.",
+      "The Journal of Abnormal Psychology.",
+      "Econometrica.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 전망 이론의 최종본이 1979년 당대 최고 경제학 학술지인 이코노메트리카에 발표되었다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-173",
+    passageId: "psychology-daniel-kahneman-p5",
+    prompt:
+      "With whom did Kahneman co-author the 2021 book Noise: A Flaw in Human Judgment, per the passage?",
+    options: [
+      "Olivier Sibony and Cass Sunstein.",
+      "Amos Tversky and Paul Slovic.",
+      "Richard Thaler and Jack Knetsch.",
+      "Anne Treisman and Ed Diener.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 카너먼이 2021년 올리비에 시보니와 캐스 선스타인과 함께 노이즈라는 책을 공동 저술했다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-174",
+    passageId: "psychology-daniel-kahneman-p6",
+    prompt:
+      "What is the peak-end rule, as described in the passage?",
+    options: [
+      "The idea that only the total duration of an experience determines memory of it.",
+      "The idea that a person's overall impression of a past experience is determined mainly by how it felt at its peak and at its end, not the total pleasure or suffering.",
+      "The idea that decisions are always rational.",
+      "The idea that reinforcement schedules determine behavioral memory.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 피크엔드 법칙이 경험 전체의 총합이 아니라 절정과 마지막 순간의 느낌이 과거 경험에 대한 전반적 인상을 결정한다는 것이라고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-175",
+    passageId: "psychology-carl-jung-p1",
+    prompt:
+      "What did Jung consider to be the main task of human development, according to the passage?",
+    options: [
+      "Achieving classical conditioning of reflexes.",
+      "Resolving the Oedipus complex.",
+      "Individuation, the lifelong process of differentiating the self from conscious and unconscious elements.",
+      "Reaching the formal operational stage.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 융이 개성화, 즉 의식과 무의식 요소로부터 자기를 분화시키는 평생에 걸친 과정을 인간 발달의 주요 과제로 여겼다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-176",
+    passageId: "psychology-carl-jung-p2",
+    prompt:
+      "Jung's treatment of Rowland Hazard in 1926 played a role in the formation of which organization, per the passage?",
+    options: [
+      "The International Psychoanalytical Association.",
+      "The Rousseau Institute.",
+      "The Vienna General Hospital.",
+      "Alcoholics Anonymous.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 1926년 롤런드 헤이즈드 치료가 이후 단주친목(익명의 알코올중독자들)이 결성되는 일련의 사건에 결정적 역할을 했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-177",
+    passageId: "psychology-carl-jung-p3",
+    prompt:
+      "Why was Emilie Jung hospitalized when Carl was three years old, according to the passage?",
+    options: [
+      "For several months near Basel due to an unspecified physical ailment he later attributed to marital problems.",
+      "For treatment of alcoholism.",
+      "For a broken leg from a fall.",
+      "For surgery on her eczema.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 융의 어머니가 세 살 때 바젤 근처에서 몇 달간 입원했으며 이는 훗날 부부 문제 때문이었다고 그가 추측했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-178",
+    passageId: "psychology-carl-jung-p4",
+    prompt:
+      "What did young Jung carve and hide inside the end of a wooden ruler from his pencil case, according to the passage?",
+    options: [
+      "A miniature copy of Faust.",
+      "A tiny mannequin, along with a painted stone.",
+      "A drawing of an archetype.",
+      "A photograph of his mother.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 어린 융이 필통에서 나온 나무 자 끝을 파내 작은 마네킹을 만들고 색칠한 돌을 함께 넣어 숨겼다고 설명합니다.",
+    difficulty: 1,
+  },
+  {
+    id: "dad-psychology-v2-179",
+    passageId: "psychology-carl-jung-p5",
+    prompt:
+      "What realization did Jung reach after overcoming his fainting spells at age 12, per the passage?",
+    options: [
+      "That he wanted to become an archaeologist immediately.",
+      "That his family had ample wealth and no urgency to study.",
+      "This event was when he learned what a neurosis is.",
+      "That epilepsy could not be treated at all.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 융이 이 사건을 통해 신경증이 무엇인지 배운 순간이었다고 훗날 회상했다고 설명합니다.",
+    difficulty: 2,
+  },
+  {
+    id: "dad-psychology-v2-180",
+    passageId: "psychology-carl-jung-p6",
+    prompt:
+      "What led Jung to decide to become a psychiatrist, despite showing promise in surgery, according to the passage?",
+    options: [
+      "A conversation with Sigmund Freud.",
+      "His doctoral thesis on spiritualism.",
+      "His interest in paleoanthropology alone.",
+      "Reading Richard von Krafft-Ebing's Textbook of Psychiatry.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 융이 리하르트 폰 크라프트에빙의 정신의학 교과서를 읽은 후 가족과 교수들의 실망에도 불구하고 정신과 의사가 되기로 결심했다고 설명합니다.",
+    difficulty: 2,
+  },
 ];
 
 const buildQuestion = (spec) => {

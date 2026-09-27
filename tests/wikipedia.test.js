@@ -26,7 +26,7 @@ import { destinationRoom } from "../rooms.js";
 import { wikipediaReadingMarkup } from "../wikipedia-reading.js";
 
 const topics = ["science", "ai", "history", "psychology", "metascience"];
-const PASSAGES_PER_TOPIC = 144;
+const PASSAGES_PER_TOPIC = 180;
 
 test("dad receives only English Wikipedia reading across every stage", () => {
   for (let stage = 1; stage <= 10; stage++) {
@@ -45,7 +45,7 @@ test("dad receives only English Wikipedia reading across every stage", () => {
   assert.throws(() => dadTopic(11), RangeError);
 });
 
-test("all 720 questions use exact stored Wikipedia excerpts with traceable revisions", () => {
+test("all 900 questions use exact stored Wikipedia excerpts with traceable revisions", () => {
   const allIds = new Set();
   const allTexts = new Set();
   for (const [index, topic] of topics.entries()) {
