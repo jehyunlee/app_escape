@@ -1,0 +1,148 @@
+{
+  "character": "hunho",
+  "item": "hat-09",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:31:31.339527+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. No glasses; this person does not wear glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim. This character always has TWO small brown deer antlers. Both antlers MUST remain clearly visible, one on each side above the ears, protruding through discreet openings beside the hat. Do not hide, cover, remove or replace the antlers. They are part of this character identity, not optional decoration. Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 사선챙 방수마법모. A weatherproof muted-green wizard hat with a diagonally angled pointed crown, a sloped reinforced brim, double edge stitching, and a plain woven chin cord. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/hunho-hat-09.png",
+  "rawSha256": "827fdce5aa73d468f06a114b1933a51edb603726ce013d4ae7e31362aa939720",
+  "registration": {
+    "sourceToGeneratedScale": 2.4985382203830584,
+    "rotationRadians": -0.0007897081451965943,
+    "translation": [
+      -739.3628830580992,
+      245.41763789388753
+    ],
+    "initialCorrelation": 0.921149776858782,
+    "refinedCorrelation": 0.9234695018702791,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "hunho-neutral-hat-09.webp": {
+      "sha256": "438a85b918c1ba853d710db9ea15a8283d4db8c3271db146137b07f888c03a2d",
+      "bbox": [
+        313,
+        -12,
+        688,
+        569
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "hunho-happy-hat-09.webp": {
+      "sha256": "c4ab48f3cc7de03a53fa75cfd47f6ae08e9cd5c9d08278e3bec5b2cb429a1017",
+      "bbox": [
+        313,
+        -12,
+        688,
+        569
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "hunho-sad-hat-09.webp": {
+      "sha256": "3e4d16a8e5fe24f6b9c192b47150440167f1e2db4e5219d86f4a834154b8a194",
+      "bbox": [
+        313,
+        -12,
+        688,
+        569
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Parent and independent reviewers inspected all 234 bare/hat/mood head-neck compositions; intact jaws, one visible neck, preserved hat cords and face identity, no visible expression-patch boundaries.",
+    "reviewedAt": "2026-09-27T11:48:10.496219+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-09.webp",
+      "sha256": "08c61dbf1b71b1b6c6156cddfde5c288fd305e522dae46bb509837d4f547a8c2"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/hunho-neutral.webp",
+      "sha256": "c08c2d0778743001f6150da3d1567850f9bc5bc3b18248370fa5c44ed93267fd"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/hunho-neutral.webp",
+      "sha256": "6c84c5a19d88f3ea85a3ad4550045be79bfb0ec907b474a7801cdf6c78dbdf90"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "08c61dbf1b71b1b6c6156cddfde5c288fd305e522dae46bb509837d4f547a8c2",
+    "identity": "c08c2d0778743001f6150da3d1567850f9bc5bc3b18248370fa5c44ed93267fd",
+    "headReference": "6c84c5a19d88f3ea85a3ad4550045be79bfb0ec907b474a7801cdf6c78dbdf90"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "75d5a5d9dd63cd1e15b7cf0ebdcf4ee56de3f3554e62568b7c45a5fbf6992a7f",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/hunho-hat-09-75d5a5d9dd63cd1e.json",
+    "rawSha256": "827fdce5aa73d468f06a114b1933a51edb603726ce013d4ae7e31362aa939720",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      0,
+      73
+    ],
+    "sourceJawCurve": [
+      [
+        443,
+        337
+      ],
+      [
+        465,
+        352
+      ],
+      [
+        490,
+        361
+      ],
+      [
+        511,
+        365
+      ],
+      [
+        534,
+        361
+      ],
+      [
+        553,
+        351
+      ],
+      [
+        575,
+        334
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/hunho-hat-09.webp",
+    "neckSha256": "d815d293ba7c5f49243705c5207daf81ec103f8f19d85bc6760420d98ecbd256",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 3,
+      "maxExtensionPixels": 12,
+      "registeredPixels": 20,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "92b0b35af27e344c19039b504df06a238520ddbfdc1f7b1fe4ad45e4331715d4"
+  }
+}

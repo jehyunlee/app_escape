@@ -1,0 +1,97 @@
+{
+  "character": "suan",
+  "item": "hat-12",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:28:32.302525+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. No glasses; this person does not wear glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 철심 방벽모. A firm angular moderate wizard crown made from dense charcoal leather, with thick matte-iron structural ribs crossing the crown and a reinforced brim; face open, visor-free, smooth crown, no protrusions or stones, substantial protective craft without flash. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/suan-hat-12.png",
+  "rawSha256": "66d11b7dd5325ad458b99bae8a4b2207a8f873eb488a0d5a19a6ebaa5fd61c30",
+  "registration": {
+    "sourceToGeneratedScale": 1.8900487618387474,
+    "rotationRadians": 0.08516334243315767,
+    "translation": [
+      -398.4056825446145,
+      418.53433224010666
+    ],
+    "initialCorrelation": 0.878054322726797,
+    "refinedCorrelation": 0.9673266545840711,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "suan-neutral-hat-12.webp": {
+      "sha256": "7d882bee8e82f75612f596d4571914bbdc5f60d6d7f09a68530d5b0264392874",
+      "bbox": [
+        238,
+        -209,
+        772,
+        508
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 27
+    },
+    "suan-happy-hat-12.webp": {
+      "sha256": "b3c0b7f5077ccb0c4e62f1e45a6a435ef75070a6df088ab6c3eabaf4844a7275",
+      "bbox": [
+        238,
+        -209,
+        772,
+        508
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 27
+    },
+    "suan-sad-hat-12.webp": {
+      "sha256": "98a3d7fa0b43d54cd107f66c8524ca91a587c8020bdd1bfc70dd97f1466f7a5e",
+      "bbox": [
+        238,
+        -209,
+        772,
+        508
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 27
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Independent reviews 72 and 73 inspected all three expressions per hat: likeness, glasses, fitted hair and intact hats accepted; both Hunho antlers retained. Yewon hat09 excluded pending ponytail correction.",
+    "reviewedAt": "2026-09-27T01:55:19.976580+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-12.webp",
+      "sha256": "1845190999940af36780ae46d4fab9518affdcaaca790ede02c990168b178aa2"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/suan-neutral.webp",
+      "sha256": "841c080261c32eb13f4b07a6c67ec13e662e0e444284f7b016392446a56b8de3"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/suan-neutral.webp",
+      "sha256": "97a6d544d2a7c747efc9bd3156aea1589ab68f876f0954dc84d9add762216e2e"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "1845190999940af36780ae46d4fab9518affdcaaca790ede02c990168b178aa2",
+    "identity": "841c080261c32eb13f4b07a6c67ec13e662e0e444284f7b016392446a56b8de3",
+    "headReference": "97a6d544d2a7c747efc9bd3156aea1589ab68f876f0954dc84d9add762216e2e"
+  }
+}

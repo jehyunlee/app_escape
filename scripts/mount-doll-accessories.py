@@ -22,7 +22,6 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 DOLL = ROOT / "assets" / "doll"
-REFERENCE = ROOT / "scripts" / "art-sources" / "doll-reference"
 PUBLISHED_OUT = DOLL / "rigged"
 OUT = PUBLISHED_OUT
 DEFAULT_DESIGNS = ROOT / "scripts" / "art-sources" / "field-wardrobe" / "designs"
@@ -541,41 +540,13 @@ def save(image, path):
     clean(image).save(path, format="WEBP", lossless=True, method=6)
 
 
-def _rig_layers_in_memory():
-    """Build the body/hand masks for occlusion and QA without writing files."""
-    base = clean(Image.open(REFERENCE / "prototypes" / "grips" / "grip-base.png"))
-    mask = Image.open(REFERENCE / "prototypes" / "grips" / "grip-base-mask.png").getchannel("A")
-    a = np.asarray(base).copy()
-    m = np.asarray(mask) / 255
-    hands = a.copy()
-    hands[:, :, 3] = np.round(hands[:, :, 3] * m).astype(np.uint8)
-    a[:, :, 3] = np.round(a[:, :, 3] * (1 - m)).astype(np.uint8)
-    neck = Image.new("L", SIZE, 255)
-    d = ImageDraw.Draw(neck)
-    d.rectangle((0, 0, 1023, 468), fill=0)
-    d.polygon([(460, 396), (563, 396), (587, 469), (431, 469)], fill=255)
-    a[:, :, 3] = np.minimum(a[:, :, 3], np.asarray(neck))
-    return clean(Image.fromarray(a)), clean(Image.fromarray(hands))
-
-
 def _preview_layers():
-    """Load existing parent-owned layers without generating or overwriting them."""
+    """Use the same canonical anatomy as the renderer, never a legacy chin mask."""
     preview_root = OUT if CANDIDATE_MODE else PUBLISHED_OUT
-    if CANDIDATE_MODE and (
-        preview_root / "body-upper.webp"
-    ).exists() and (preview_root / "hands-base.webp").exists():
-        body = clean(Image.open(preview_root / "body-upper.webp"))
-        pants = preview_root / "starter-pants.webp"
-        if pants.exists():
-            body.alpha_composite(clean(Image.open(pants)))
-        hands = clean(Image.open(preview_root / "hands-base.webp"))
-    elif (preview_root / "body.webp").exists() and (
-        preview_root / "hands-base.webp"
-    ).exists():
-        body = clean(Image.open(preview_root / "body.webp"))
-        hands = clean(Image.open(preview_root / "hands-base.webp"))
-    else:
-        body, hands = _rig_layers_in_memory()
+    body = clean(Image.open(PUBLISHED_OUT / "starter-pants.webp"))
+    body.alpha_composite(clean(Image.open(PUBLISHED_OUT / "necks/dad.webp")))
+    body.alpha_composite(clean(Image.open(PUBLISHED_OUT / "body-upper.webp")))
+    hands = clean(Image.open(PUBLISHED_OUT / "hands-base.webp"))
     glove_path = preview_root / "gloves" / "gloves-12.webp"
     if not glove_path.exists():
         glove_path = PUBLISHED_OUT / "gloves" / "gloves-12.webp"

@@ -47,13 +47,26 @@ def build(doll):
     for i in range(1, 13):
         add(doll / 'rigged/gloves' / f'gloves-{i:02d}.webp')
     for character in ['dad', 'mom', 'jeongan', 'suan', 'yewon', 'hunho']:
+        add(doll / 'rigged/necks' / f'{character}.webp')
+        for i in range(1, 13):
+            add(doll / 'rigged/necks' / f'{character}-hat-{i:02d}.webp')
         for mood in ['neutral', 'happy', 'sad']:
             add(doll / 'headwear' / f'{character}-{mood}-bare.webp', y=-768)
             for i in range(1, 13):
                 add(doll / 'headwear' / f'{character}-{mood}-hat-{i:02d}.webp', y=-768)
         with Image.open(doll / 'headwear' / f'{character}-neutral-bare.webp') as source:
             head = source.convert('RGBA')
-        head = head.crop(head.getchannel('A').getbbox())
+        head_box = head.getchannel('A').getbbox()
+        portrait_source = Image.new('RGBA', head.size)
+        with Image.open(doll / 'rigged/necks' / f'{character}.webp') as source:
+            portrait_source.alpha_composite(source.convert('RGBA'), (0, 768))
+        with Image.open(doll / 'rigged/body-upper.webp') as source:
+            portrait_source.alpha_composite(source.convert('RGBA'), (0, 768))
+        portrait_source.alpha_composite(head)
+        head = portrait_source.crop((
+            max(0, head_box[0] - 12), head_box[1],
+            min(1024, head_box[2] + 12), max(head_box[3], 768 + 510),
+        ))
         head.thumbnail((920, 920), Image.Resampling.LANCZOS)
         portrait = Image.new('RGBA', (1024, 1024))
         portrait.alpha_composite(head, ((1024 - head.width) // 2, (1024 - head.height) // 2))
@@ -62,7 +75,7 @@ def build(doll):
         add(portrait_path)
     manifest = {
         'schema': 'paper-doll-rig-v2', 'bodyCanvas': [1024, 1536],
-        'anatomy': 'one fixed two-arm rig; exclusive hand foreground; prop grip at finger opening',
+        'anatomy': 'one fixed two-arm rig; one character neck behind shirt and jewellery; complete jaw and hair in front; exclusive hands and split wand grip',
         'files': files,
     }
     (doll / 'rigged/runtime.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')

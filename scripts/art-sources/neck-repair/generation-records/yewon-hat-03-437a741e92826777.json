@@ -1,0 +1,164 @@
+{
+  "character": "yewon",
+  "item": "hat-03",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:28:36.166514+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 짧은 비대칭 꼭지모. A short slate wool wizard hat with an asymmetric pointed crown leaning slightly to one side, a circular reinforced brim, and one visible structural seam; friendly and unmistakably wizardly. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/yewon-hat-03.png",
+  "rawSha256": "2d5da7c3cbc5df56f4ee238ddaa19c72d50057183211d045d78aebe3152c2031",
+  "registration": {
+    "sourceToGeneratedScale": 2.1455743206346454,
+    "rotationRadians": 0.014339414576864962,
+    "translation": [
+      -572.7916360305189,
+      360.4906621077348
+    ],
+    "initialCorrelation": 0.929558190939211,
+    "refinedCorrelation": 0.9411783787741367,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "yewon-neutral-hat-03.webp": {
+      "sha256": "124632d23f971dcb217f80b76b9b26ffc42bb0d8a9ad00b7c9cd1c9b417bee29",
+      "bbox": [
+        286,
+        -57,
+        754,
+        468
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "yewon-happy-hat-03.webp": {
+      "sha256": "10e764717d425270728492ec66a65fddd6b82053a174b52951173b949e8dfe01",
+      "bbox": [
+        286,
+        -57,
+        754,
+        468
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "yewon-sad-hat-03.webp": {
+      "sha256": "28b0be7975697fa2518bcd4a6729881ed7c1f26958d1116146d087a987e05987",
+      "bbox": [
+        286,
+        -57,
+        754,
+        468
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Parent and independent reviewers inspected all 234 bare/hat/mood head-neck compositions; intact jaws, one visible neck, preserved hat cords and face identity, no visible expression-patch boundaries.",
+    "reviewedAt": "2026-09-27T11:48:10.488159+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-03.webp",
+      "sha256": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/yewon-neutral.webp",
+      "sha256": "1f076b946f606d917db844b19ab83ef8919b865129566d4aead5650041fb800a"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/yewon-neutral.webp",
+      "sha256": "6bb07cfee99fc2b1e69882e51ff5622e52f444ff10ecac6f545a0d6e13c3732b"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda",
+    "identity": "1f076b946f606d917db844b19ab83ef8919b865129566d4aead5650041fb800a",
+    "headReference": "6bb07cfee99fc2b1e69882e51ff5622e52f444ff10ecac6f545a0d6e13c3732b"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "5cf6faecf88e4f845bc54b07c3f436c8fd20bf1b15433805ce73ac2a884fe5b6",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/yewon-hat-03-5cf6faecf88e4f84.json",
+    "rawSha256": "2d5da7c3cbc5df56f4ee238ddaa19c72d50057183211d045d78aebe3152c2031",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      9,
+      44
+    ],
+    "sourceJawCurve": [
+      [
+        340,
+        317
+      ],
+      [
+        356,
+        334
+      ],
+      [
+        382,
+        350
+      ],
+      [
+        411,
+        363
+      ],
+      [
+        445,
+        373
+      ],
+      [
+        482,
+        379
+      ],
+      [
+        508,
+        381
+      ],
+      [
+        543,
+        374
+      ],
+      [
+        574,
+        361
+      ],
+      [
+        600,
+        342
+      ],
+      [
+        620,
+        319
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/yewon-hat-03.webp",
+    "neckSha256": "8619a58c285a985cbd948553eb02090ea20382a2b5a8d421160960fa4e56b389",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 101,
+      "maxExtensionPixels": 8,
+      "registeredPixels": 414,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "92b0b35af27e344c19039b504df06a238520ddbfdc1f7b1fe4ad45e4331715d4"
+  }
+}

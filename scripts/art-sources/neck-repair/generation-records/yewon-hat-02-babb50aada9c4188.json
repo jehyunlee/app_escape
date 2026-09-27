@@ -1,0 +1,97 @@
+{
+  "character": "yewon",
+  "item": "hat-02",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:28:33.700368+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 낮은 기울임 마법모. A foldable earth-brown felt wizard hat with a low slanted pointed crown, two deliberate fold seams, a firm narrow brim, and a flat leather band; clearly magical travel wear. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/yewon-hat-02.png",
+  "rawSha256": "3d57b192d6e4a601dac7ffce8a773be9189d83ca4df1c2b9fad405289c3afb95",
+  "registration": {
+    "sourceToGeneratedScale": 2.1264792065513527,
+    "rotationRadians": 0.01010107363361589,
+    "translation": [
+      -557.3700694283655,
+      400.63789511794647
+    ],
+    "initialCorrelation": 0.9467884162929964,
+    "refinedCorrelation": 0.9664190738912807,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "yewon-neutral-hat-02.webp": {
+      "sha256": "ac451635dfc0068339941e8c70fd442391eea89c551f2e5dfb18e34c395b37b8",
+      "bbox": [
+        287,
+        -92,
+        731,
+        438
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 32
+    },
+    "yewon-happy-hat-02.webp": {
+      "sha256": "9d70ac3d469eb4b030376fb4cf5059cb35126557056b5504488cdf0da0c56b73",
+      "bbox": [
+        287,
+        -92,
+        731,
+        438
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 32
+    },
+    "yewon-sad-hat-02.webp": {
+      "sha256": "8ee64b98cedefd58e0e5d4f4b58040e24b995bfaec808f3bea415be88e1dc662",
+      "bbox": [
+        287,
+        -92,
+        731,
+        438
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 32
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Independent reviews 72 and 73 inspected all three expressions per hat: likeness, glasses, fitted hair and intact hats accepted; both Hunho antlers retained. Yewon hat09 excluded pending ponytail correction.",
+    "reviewedAt": "2026-09-27T01:55:19.977464+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-02.webp",
+      "sha256": "4fa10dc3e84fe2c4eb5fbccf30087227006f1a2577e222de4816cfb6eb55880a"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/yewon-neutral.webp",
+      "sha256": "1f076b946f606d917db844b19ab83ef8919b865129566d4aead5650041fb800a"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/yewon-neutral.webp",
+      "sha256": "6bb07cfee99fc2b1e69882e51ff5622e52f444ff10ecac6f545a0d6e13c3732b"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "4fa10dc3e84fe2c4eb5fbccf30087227006f1a2577e222de4816cfb6eb55880a",
+    "identity": "1f076b946f606d917db844b19ab83ef8919b865129566d4aead5650041fb800a",
+    "headReference": "6bb07cfee99fc2b1e69882e51ff5622e52f444ff10ecac6f545a0d6e13c3732b"
+  }
+}

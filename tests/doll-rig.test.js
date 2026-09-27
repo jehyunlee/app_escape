@@ -54,6 +54,44 @@ test("runtime layers match actual verified raster files, not stale acceptance fl
   }
 });
 
+test("every head has a source-bound continuous neck and no mannequin neck underneath", () => {
+  const assembly = json("../assets/doll/rigged/neck-assembly.json");
+  const measured = proof.checks.neckAssembly;
+  assert.equal(assembly.review, "visual-review-passed");
+  assert.equal(measured.nativeNeckPixelsInBody, 0);
+  assert.equal(measured.changedBodyPixelsOutsideJoint, 0);
+  assert.equal(Object.keys(measured.states).length, 6 * 13 * 3);
+  assert.equal(
+    hash(
+      readFileSync(new URL(`../${assembly.body.source.path}`, import.meta.url)),
+    ),
+    assembly.body.source.sha256,
+  );
+  assert.equal(
+    hash(
+      readFileSync(
+        new URL(`../assets/doll/${assembly.body.removalMask}`, import.meta.url),
+      ),
+    ),
+    assembly.body.maskSha256,
+  );
+  for (const [file, state] of Object.entries(measured.states)) {
+    const recorded = assembly.heads[file];
+    assert.equal(state.headSha256, rig.files[file].sha256, file);
+    assert.equal(state.neckSha256, rig.files[state.neckFile].sha256, file);
+    assert.equal(state.neckFile, recorded.neck, file);
+    assert.equal(state.uncoveredCollarPixels, 0, file);
+    assert.equal(state.centralJointHoles, 0, file);
+    if (recorded.hat !== "bare") {
+      const head = json(
+        `../assets/doll/headwear/${recorded.character}-${recorded.hat}.json`,
+      );
+      assert.equal(head.assembly.usesOpaqueBottomAttachment, false);
+      assert.equal(head.assembly.neckOwner, recorded.neck);
+    }
+  }
+});
+
 test("wearing a hat replaces the whole head and hairstyle instead of layering over free hair", () => {
   const hats = catalog.filter((item) => item.category === "hat");
   for (const character of characters)
@@ -105,6 +143,26 @@ test("all expressions use the same body, two hand anchors and non-head equipment
           "success/failure cannot add or move arms",
         );
         assert.equal(layers.filter((layer) => layer.kind === "body").length, 1);
+        assert.equal(layers.filter((layer) => layer.kind === "neck").length, 1);
+        const neckIndex = layers.findIndex((layer) => layer.kind === "neck");
+        assert.equal(
+          layers[neckIndex].file,
+          eq.hat === "hat-base"
+            ? `rigged/necks/${character.id}.webp`
+            : `rigged/necks/${character.id}-${eq.hat}.webp`,
+        );
+        assert.ok(
+          neckIndex < layers.findIndex((layer) => layer.kind === "body"),
+          "the shirt collar must cover the anatomical neck, not vice versa",
+        );
+        const necklaceIndex = layers.findIndex(
+          (layer) => layer.kind === "necklace",
+        );
+        if (necklaceIndex >= 0)
+          assert.ok(
+            neckIndex < necklaceIndex,
+            "front jewellery stays in front of the neck",
+          );
         assert.equal(
           layers.filter((layer) => layer.kind === "hands").length,
           1,

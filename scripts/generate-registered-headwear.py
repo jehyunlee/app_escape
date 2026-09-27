@@ -6,6 +6,7 @@ stacked over an unhatted hairstyle. Raw art stays outside the published assets.
 import argparse
 import hashlib
 import importlib.util
+import io
 import json
 import shutil
 import time
@@ -21,7 +22,7 @@ REFERENCE=ROOT/'scripts/art-sources/doll-reference'
 DEFAULT_CATALOG=ROOT/'assets/wardrobe-catalog.json'
 DEFAULT_DESIGNS=ROOT/'scripts/art-sources/field-wardrobe/designs'
 DEFAULT_OUT=DOLL/'headwear'
-DEFAULT_RAW=ROOT/'scripts/art-sources/headwear'
+DEFAULT_RAW=ROOT/'scripts/art-sources/field-wardrobe/headwear-raw'
 CATALOG_PATH=DEFAULT_CATALOG
 CATALOG=DEFAULT_CATALOG
 DESIGNS=DEFAULT_DESIGNS
@@ -37,8 +38,23 @@ def module(name,filename):
  mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod);return mod
 api=module('head_api','image-api.py')
 reg=module('head_register','register-doll-heads.py')
+assembly=module('repaired_head_assembly','assemble-repaired-headwear.py')
+HEAD_REFERENCES={}
 
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def head_reference(char):
+ if char not in HEAD_REFERENCES:
+  source=Image.open(REFERENCE/f'{char}-neutral-full.png').convert('RGBA')
+  matte=Image.open(assembly.REPAIR_ROOT/f'{char}-anatomy-mask.png').convert('L')
+  source.putalpha(Image.fromarray(np.minimum(np.asarray(source.getchannel('A')),np.asarray(matte))))
+  buffer=io.BytesIO();source.save(buffer,format='PNG',optimize=True);data=buffer.getvalue()
+  folder=assembly.REPAIR_ROOT/'generation-inputs';folder.mkdir(parents=True,exist_ok=True)
+  path=folder/f'{char}-{hashlib.sha256(data).hexdigest()[:16]}.png'
+  if not path.exists():path.write_bytes(data)
+  HEAD_REFERENCES[char]=path
+ return HEAD_REFERENCES[char]
 
 
 def _actual_input_cache_matches(record, source_hashes, text):
@@ -116,7 +132,7 @@ def mask():
 
 def save_webp(im,path):
  a=np.asarray(im.convert('RGBA')).copy();a[a[:,:,3]<10]=0
- Image.fromarray(a).save(path,format='WEBP',quality=94,method=6)
+ Image.fromarray(a).save(path,format='WEBP',lossless=True,method=6)
 
 def generate(char,item,force=False,rebuild=False):
  key=f'{char}-{item["id"]}'
@@ -125,18 +141,19 @@ def generate(char,item,force=False,rebuild=False):
   'catalog':digest(CATALOG),
   'product':digest(DESIGNS/f'{item["id"]}.webp'),
   'identity':digest(ROOT/f'scripts/art-sources/wizards/{char}-neutral.webp'),
-  'headReference':digest(REFERENCE/f'{char}-neutral.webp'),
+  'headReference':digest(head_reference(char)),
  }
  text=prompt(char,item)
  if metadata.exists() and not force and not rebuild:
   record=json.loads(metadata.read_text())
   if (
    _actual_input_cache_matches(record,source_hashes,text)
+   and record.get('assembly',{}).get('recipeSha256')==assembly.recipe_hash()
    and all((OUT/file).exists() for file in record.get('files',{}))
    and len(record.get('files',{}))==3
   ):
    return key,record.get('status')
- base=Image.open(REFERENCE/f'{char}-neutral.webp').convert('RGBA')
+ base=Image.open(head_reference(char)).convert('RGBA')
  design=Image.open(DESIGNS/f'{item["id"]}.webp').convert('RGBA')
  identity=Image.open(ROOT/f'scripts/art-sources/wizards/{char}-neutral.webp').convert('RGBA')
  raw_path=RAW/f'{key}.png'
@@ -181,39 +198,28 @@ def generate(char,item,force=False,rebuild=False):
  bbox=aligned.getchannel('A').getbbox()
  if not bbox:raise ValueError(f'{key}: empty image')
  status='needs-visual-review' if metrics['refinedCorrelation']>=.75 else 'registration-failed'
- _,neck_offset=reg.attach_neck(aligned)
+ neck_path,neck_registration=assembly.write_neck(char,item['id'],aligned,OUT)
  files={}
  for mood in MOODS:
-  head=aligned.copy()
-  if mood!='neutral':
-   patch=reg.expression_patch(char,mood)
-   patch.putalpha(Image.fromarray(np.minimum(np.asarray(patch.getchannel('A')),np.asarray(aligned.getchannel('A')))))
-   head.alpha_composite(patch)
-  head=head.transform(reg.CANVAS,Image.Transform.AFFINE,(1,0,0,0,1,-neck_offset),Image.Resampling.BICUBIC)
+  head=assembly.assemble_registered(char,aligned,mood,item['id'])
   file=f'{char}-{mood}-{item["id"]}.webp';save_webp(head,OUT/file)
   box=head.getchannel('A').getbbox()
-  files[file]={'sha256':digest(OUT/file),'bbox':[box[0],box[1]-reg.PAD,box[2],box[3]-reg.PAD], 'offsetY':-reg.PAD,'width':1024,'height':2304,'neckOffset':neck_offset}
+  files[file]={'sha256':digest(OUT/file),'bbox':[box[0],box[1]-reg.PAD,box[2],box[3]-reg.PAD], 'offsetY':-reg.PAD,'width':1024,'height':2304}
  record={'character':char,'item':item['id'],'model':receipt['model'],'quality':QUALITY,'createdAt':receipt['createdAt'],'prompt':receipt['prompt'],'raw':rel(raw_path),'rawSha256':digest(raw_path),'registration':metrics,'status':status,'files':files,'visualReview':None}
  record['sources']={
   'catalog':{'path':rel(CATALOG),'sha256':digest(CATALOG)},
   'product':{'path':rel(DESIGNS/f'{item["id"]}.webp'),'sha256':digest(DESIGNS/f'{item["id"]}.webp')},
   'identity':{'path':rel(ROOT/f'scripts/art-sources/wizards/{char}-neutral.webp'),'sha256':digest(ROOT/f'scripts/art-sources/wizards/{char}-neutral.webp')},
-  'headReference':{'path':rel(REFERENCE/f'{char}-neutral.webp'),'sha256':digest(REFERENCE/f'{char}-neutral.webp')},
+  'headReference':{'path':rel(head_reference(char)),'sha256':digest(head_reference(char))},
  }
+ record['assembly']={'method':'anatomical-jaw-partition-with-separate-character-neck','recipeSha256':assembly.recipe_hash(),'neckOwner':f'rigged/necks/{char}-{item["id"]}.webp','neckSha256':digest(neck_path),'neckJointRegistration':neck_registration,'usesOpaqueBottomAttachment':False,'translation':list(assembly.repair.registered_translation(assembly.character_spec(char)))}
  record['sourceHashes']={name:value['sha256'] for name,value in record['sources'].items()}
  metadata.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
  return key,status
 
 def bare_heads():
  for char in CHARS:
-  neutral=Image.new('RGBA',reg.CANVAS)
-  neutral.alpha_composite(Image.open(REFERENCE/f'{char}-neutral.webp').convert('RGBA'),(0,reg.PAD))
-  _,offset=reg.attach_neck(neutral)
-  for mood in MOODS:
-   im=Image.new('RGBA',reg.CANVAS)
-   im.alpha_composite(Image.open(REFERENCE/f'{char}-{mood}.webp').convert('RGBA'),(0,reg.PAD))
-   im=im.transform(reg.CANVAS,Image.Transform.AFFINE,(1,0,0,0,1,-offset),Image.Resampling.BICUBIC)
-   save_webp(im,OUT/f'{char}-{mood}-bare.webp')
+  assembly.build_bare(char,OUT)
 
 def main():
  p=argparse.ArgumentParser()
@@ -250,7 +256,12 @@ def main():
    path.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
   print(f'Recorded {args.review} visual review for {len(jobs)} headwear variants')
   return
- if args.rebuild_existing:jobs=[(c,i)for c,i in jobs if (RAW/f'{c}-{i["id"]}.png').exists()]
+ if args.rebuild_existing:
+  for char,item in jobs:assembly.build_hat(char,item['id'],OUT)
+  bare_heads()
+  print(f'Reassembled {len(jobs)} cached headwear variants without API calls')
+  return
+ for char in CHARS:head_reference(char)
  failures=[]
  with ThreadPoolExecutor(max_workers=args.workers)as pool:
   futures={pool.submit(generate,c,i,args.force,args.rebuild_existing):f'{c}-{i["id"]}'for c,i in jobs}

@@ -1,0 +1,1604 @@
+{
+  "schemaVersion": 1,
+  "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+  "profilesSha256": "3caf75edffc249b61079570d861a55441168da176ed8e11e6b0297df852451b1",
+  "status": "prototype-awaiting-parent-and-architect-visual-review",
+  "scope": {
+    "included": [
+      "dad neutral bare",
+      "mom neutral bare",
+      "hunho neutral bare",
+      "jeongan neutral bare",
+      "suan neutral bare",
+      "yewon neutral bare"
+    ],
+    "excluded": [
+      "happy/sad expression patches",
+      "all hats",
+      "runtime/public asset promotion"
+    ]
+  },
+  "rootCause": [
+    "Legacy extract_head_layer treated mannequin RGB/alpha difference and skin/hair palette guesses as anatomy ownership below y=396, so valid jaw/neck pixels were dropped while some source collar pixels survived.",
+    "Legacy attach_neck then aligned the lowest opaque central pixel to y=430. That pixel was not an anatomical collar anchor and varied between jaw, neck, and misclassified collar by character.",
+    "The resulting head was composited last over body-upper.webp, whose independent mannequin chin/neck stub still owns y=396..about 490. Two anatomy owners therefore produced flat jaw cuts, skin gaps, and double collars."
+  ],
+  "renderContract": {
+    "bodyCanvas": [
+      1024,
+      1536
+    ],
+    "headCanvas": [
+      1024,
+      2304
+    ],
+    "headOffset": [
+      0,
+      -768
+    ],
+    "requiredRelativeOrder": [
+      "pants/back props",
+      "character neck",
+      "body-shirt-only",
+      "vest/cloak",
+      "necklace",
+      "wand/hands/grip",
+      "character head-front/hair"
+    ],
+    "neckOwner": "exactly one per character; reuse the same character neck file for neutral, happy, and sad",
+    "expressionRule": "future moods may replace only expression-feature pixels inside the source face interior; jaw, neck, hair silhouette, glasses/antlers ownership and registration remain unchanged",
+    "hatRule": "not prototyped here; a promoted hatted head must use the same jaw partition/neck owner instead of attaching by opaque bounds"
+  },
+  "bodyCandidate": {
+    "source": {
+      "path": "scripts/art-sources/neck-repair/before/body-upper.webp",
+      "sha256": "497c0be857d7fc2ea82702b1e2fb3913c4f59eb5b333eedc08b74929cc5bda75"
+    },
+    "output": {
+      "path": "scripts/art-sources/neck-repair/body-shirt-only.png",
+      "sha256": "d60cda1cb009f3d9df5a708f82b9d6eafec9d0eaa100cd948904d7826d5c20a2"
+    },
+    "removalMask": {
+      "path": "scripts/art-sources/neck-repair/body-neck-removal-mask.png",
+      "sha256": "f84a3526011850123cb82a7870e7a6637ecb76df5ed5905d6a88426696fec672"
+    },
+    "actualOwnership": "canonical shirt/arms outside the declared neck joint are byte-identical RGBA; mannequin chin/neck inside the joint has zero ownership",
+    "changedPixelCount": 10993,
+    "changedOutsideDeclaredJoint": 0,
+    "changedBoundsInclusive": [
+      440,
+      396,
+      580,
+      493
+    ]
+  },
+  "prototypes": {
+    "dad": {
+      "scope": "neutral bare-head prototype only",
+      "sources": {
+        "intactFull": {
+          "path": "scripts/art-sources/doll-reference/dad-neutral-full.png",
+          "sha256": "22d2eac6b757eb0a61429fc737132023a22bea3569f89ddaa5b1aea242aa25f8"
+        },
+        "legacyCurrentHead": {
+          "path": "scripts/art-sources/neck-repair/before/dad-neutral-bare.webp",
+          "sha256": "52bac80b7185ef7b7a5aab65dc77c618bb0b29c1c99b0b57a3a3cd5a92813403"
+        }
+      },
+      "anchors": {
+        "sourceCollarLeftCentreRight": [
+          [
+            449,
+            430
+          ],
+          [
+            511,
+            463
+          ],
+          [
+            573,
+            430
+          ]
+        ],
+        "targetCanonicalCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "registeredCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            493
+          ],
+          [
+            573,
+            460
+          ]
+        ],
+        "sourceJawCurve": [
+          [
+            451,
+            393
+          ],
+          [
+            465,
+            402
+          ],
+          [
+            485,
+            410
+          ],
+          [
+            512,
+            414
+          ],
+          [
+            540,
+            410
+          ],
+          [
+            559,
+            403
+          ],
+          [
+            573,
+            393
+          ]
+        ],
+        "registeredJawCurve": [
+          [
+            451,
+            423
+          ],
+          [
+            465,
+            432
+          ],
+          [
+            485,
+            440
+          ],
+          [
+            512,
+            444
+          ],
+          [
+            540,
+            440
+          ],
+          [
+            559,
+            433
+          ],
+          [
+            573,
+            423
+          ]
+        ],
+        "sourceNeckBehindJawSeam": [
+          [
+            470,
+            403
+          ],
+          [
+            490,
+            413
+          ],
+          [
+            512,
+            416
+          ],
+          [
+            535,
+            412
+          ],
+          [
+            554,
+            403
+          ]
+        ],
+        "registeredNeckBehindJawSeam": [
+          [
+            470,
+            433
+          ],
+          [
+            490,
+            443
+          ],
+          [
+            512,
+            446
+          ],
+          [
+            535,
+            442
+          ],
+          [
+            554,
+            433
+          ]
+        ]
+      },
+      "registration": {
+        "kind": "integer rigid head registration plus anatomical collar-contact extension from the registered source neck",
+        "translation": [
+          0,
+          30
+        ],
+        "usesAlphaBoundingBox": false,
+        "usesMannequinRgbDifference": false,
+        "interpolation": "none; uncovered collar-contact pixels reuse the exact RGBA of the nearest opaque pixel in the registered source-neck owner"
+      },
+      "ownership": {
+        "headFront": "intact source face, complete jaw, identity features, glasses/antlers, and all retained hair; renders above clothing/jewellery",
+        "neck": "rigid intact-source interior plus exact source-pixel reuse inside the anatomical collar-contact mask; one mood-invariant owner; renders below shirt/clothing/jewellery",
+        "sourceShirt": "unowned and excluded by the recorded anatomical mask"
+      },
+      "structuralEvidence": {
+        "ownerPartitionMismatchPixels": 0,
+        "headColourPreservation": {
+          "ownedPixels": 114133,
+          "changedOwnedRgbPixels": 0,
+          "maxOwnedRgbDelta": 0
+        },
+        "neckColourPreservation": {
+          "ownedPixels": 5747,
+          "novelRgbPixels": 0,
+          "sourceOwnedRgbPaletteSize": 2989
+        },
+        "requiredCollarContactPixels": 3866,
+        "uncoveredCollarContactPixels": 0
+      },
+      "outputs": {
+        "headFront": {
+          "path": "scripts/art-sources/neck-repair/dad-neutral-head-front.png",
+          "sha256": "1e38ffc7d0b894f2d9be26920dbc2753ccb0073302f3bea22070af6cbe56439f"
+        },
+        "neck": {
+          "path": "scripts/art-sources/neck-repair/dad-neck.png",
+          "sha256": "6e0f093f07773d46a24c0cb920d043b5f0a7bfc5693f56313ced9f7ae2e6ac9d"
+        },
+        "composite": {
+          "path": "scripts/art-sources/neck-repair/dad-neutral-composite.png",
+          "sha256": "35e0018660e343fc5169d3776f8766360993f5a9fcf8e385fcf351f5c1453896"
+        },
+        "anatomyMask": {
+          "path": "scripts/art-sources/neck-repair/dad-anatomy-mask.png",
+          "sha256": "7cc8c3bb3c35ba36dad38a1e455ea34ceea384197f01ebc183fad814c0694dd3"
+        },
+        "headOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/dad-head-owner-mask.png",
+          "sha256": "f0b89691923bf01b92e9502101099f2ca709eed9f1b596f53fb33beeba7c8891"
+        },
+        "sourceNeckMask": {
+          "path": "scripts/art-sources/neck-repair/dad-source-neck-mask.png",
+          "sha256": "17632352c1670287a71a4eae1114012a11f52ef12db93822d6765912d2a8cb90"
+        },
+        "skinSampleMask": {
+          "path": "scripts/art-sources/neck-repair/dad-skin-sample-mask.png",
+          "sha256": "0f821f1005c06df2d8b470e215f725817b2439592c4c8c1bfd4254a008e5e1de"
+        },
+        "neckOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/dad-neck-owner-mask.png",
+          "sha256": "25b050819933ef9c419b7f64692e7063510ae53e99ac4354770bd86f5ac970e5"
+        },
+        "collarContactMask": {
+          "path": "scripts/art-sources/neck-repair/dad-collar-contact-mask.png",
+          "sha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875"
+        }
+      }
+    },
+    "mom": {
+      "scope": "neutral bare-head prototype only",
+      "sources": {
+        "intactFull": {
+          "path": "scripts/art-sources/doll-reference/mom-neutral-full.png",
+          "sha256": "f0f0b56f139940d9b6a3b96a8cc103604d414438665d983f0e186e740df0a6a2"
+        },
+        "legacyCurrentHead": {
+          "path": "scripts/art-sources/neck-repair/before/mom-neutral-bare.webp",
+          "sha256": "d653c7ce1c44cd6e4f58d4fb4525ea2449f89fa9c88257f2de549eae61fe4df9"
+        }
+      },
+      "anchors": {
+        "sourceCollarLeftCentreRight": [
+          [
+            449,
+            420
+          ],
+          [
+            512,
+            452
+          ],
+          [
+            575,
+            420
+          ]
+        ],
+        "targetCanonicalCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "registeredCollarLeftCentreRight": [
+          [
+            448,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            574,
+            460
+          ]
+        ],
+        "sourceJawCurve": [
+          [
+            463,
+            353
+          ],
+          [
+            474,
+            370
+          ],
+          [
+            492,
+            382
+          ],
+          [
+            512,
+            389
+          ],
+          [
+            532,
+            382
+          ],
+          [
+            550,
+            370
+          ],
+          [
+            563,
+            351
+          ]
+        ],
+        "registeredJawCurve": [
+          [
+            462,
+            393
+          ],
+          [
+            473,
+            410
+          ],
+          [
+            491,
+            422
+          ],
+          [
+            511,
+            429
+          ],
+          [
+            531,
+            422
+          ],
+          [
+            549,
+            410
+          ],
+          [
+            562,
+            391
+          ]
+        ],
+        "sourceNeckBehindJawSeam": [
+          [
+            475,
+            365
+          ],
+          [
+            490,
+            382
+          ],
+          [
+            512,
+            391
+          ],
+          [
+            534,
+            382
+          ],
+          [
+            549,
+            365
+          ]
+        ],
+        "registeredNeckBehindJawSeam": [
+          [
+            474,
+            405
+          ],
+          [
+            489,
+            422
+          ],
+          [
+            511,
+            431
+          ],
+          [
+            533,
+            422
+          ],
+          [
+            548,
+            405
+          ]
+        ]
+      },
+      "registration": {
+        "kind": "integer rigid head registration plus anatomical collar-contact extension from the registered source neck",
+        "translation": [
+          -1,
+          40
+        ],
+        "usesAlphaBoundingBox": false,
+        "usesMannequinRgbDifference": false,
+        "interpolation": "none; uncovered collar-contact pixels reuse the exact RGBA of the nearest opaque pixel in the registered source-neck owner"
+      },
+      "ownership": {
+        "headFront": "intact source face, complete jaw, identity features, glasses/antlers, and all retained hair; renders above clothing/jewellery",
+        "neck": "rigid intact-source interior plus exact source-pixel reuse inside the anatomical collar-contact mask; one mood-invariant owner; renders below shirt/clothing/jewellery",
+        "sourceShirt": "unowned and excluded by the recorded anatomical mask"
+      },
+      "structuralEvidence": {
+        "ownerPartitionMismatchPixels": 0,
+        "headColourPreservation": {
+          "ownedPixels": 125478,
+          "changedOwnedRgbPixels": 0,
+          "maxOwnedRgbDelta": 0
+        },
+        "neckColourPreservation": {
+          "ownedPixels": 7588,
+          "novelRgbPixels": 0,
+          "sourceOwnedRgbPaletteSize": 3322
+        },
+        "requiredCollarContactPixels": 3866,
+        "uncoveredCollarContactPixels": 0
+      },
+      "outputs": {
+        "headFront": {
+          "path": "scripts/art-sources/neck-repair/mom-neutral-head-front.png",
+          "sha256": "678015b2a474d9304fbbe8040de0ef6a1726a9f13e3a97d6573abf273df7bae0"
+        },
+        "neck": {
+          "path": "scripts/art-sources/neck-repair/mom-neck.png",
+          "sha256": "534ca80c35145cc9d2f441eb6c3b41d966de4ac955b7435a6ffa5d36ba2242cd"
+        },
+        "composite": {
+          "path": "scripts/art-sources/neck-repair/mom-neutral-composite.png",
+          "sha256": "5b8cbd8b31db87fdfef564ebf7808a08fbd72b15fe99885404fa7fe6fc0c4aef"
+        },
+        "anatomyMask": {
+          "path": "scripts/art-sources/neck-repair/mom-anatomy-mask.png",
+          "sha256": "6b6aeec86592d5ef8710a1ab9440be23530fca8e3e224f871a33e674c5be56e3"
+        },
+        "headOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/mom-head-owner-mask.png",
+          "sha256": "701a28c8d91ad27fe263715b8b44b95bd210b2f052c78f3c4760504cb8c771a9"
+        },
+        "sourceNeckMask": {
+          "path": "scripts/art-sources/neck-repair/mom-source-neck-mask.png",
+          "sha256": "b1e4202cea4320e2ea15e7262c15002376341fd2e6d2dd3bba8da20724676a10"
+        },
+        "skinSampleMask": {
+          "path": "scripts/art-sources/neck-repair/mom-skin-sample-mask.png",
+          "sha256": "e2f7b6a25e13f2098ba580517ee039ca2e885112a26335a09ab99a14e5be7cd3"
+        },
+        "neckOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/mom-neck-owner-mask.png",
+          "sha256": "a45a3f1094e9705009d54a242792126942f0aac2d0fae99306d73838b88bd391"
+        },
+        "collarContactMask": {
+          "path": "scripts/art-sources/neck-repair/mom-collar-contact-mask.png",
+          "sha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875"
+        }
+      }
+    },
+    "hunho": {
+      "scope": "neutral bare-head prototype only",
+      "sources": {
+        "intactFull": {
+          "path": "scripts/art-sources/doll-reference/hunho-neutral-full.png",
+          "sha256": "b977e1713b9cdf7600797c5891387129c61c90773ddd442a78a01154a17c605f"
+        },
+        "legacyCurrentHead": {
+          "path": "scripts/art-sources/neck-repair/before/hunho-neutral-bare.webp",
+          "sha256": "1372c4636f7b83d151f2a5ec7089a7b141f41116d472140bd544ec99cac86233"
+        }
+      },
+      "anchors": {
+        "sourceCollarLeftCentreRight": [
+          [
+            449,
+            387
+          ],
+          [
+            511,
+            419
+          ],
+          [
+            575,
+            387
+          ]
+        ],
+        "targetCanonicalCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "registeredCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            575,
+            460
+          ]
+        ],
+        "sourceJawCurve": [
+          [
+            443,
+            337
+          ],
+          [
+            465,
+            352
+          ],
+          [
+            490,
+            361
+          ],
+          [
+            511,
+            365
+          ],
+          [
+            534,
+            361
+          ],
+          [
+            553,
+            351
+          ],
+          [
+            575,
+            334
+          ]
+        ],
+        "registeredJawCurve": [
+          [
+            443,
+            410
+          ],
+          [
+            465,
+            425
+          ],
+          [
+            490,
+            434
+          ],
+          [
+            511,
+            438
+          ],
+          [
+            534,
+            434
+          ],
+          [
+            553,
+            424
+          ],
+          [
+            575,
+            407
+          ]
+        ],
+        "sourceNeckBehindJawSeam": [
+          [
+            470,
+            345
+          ],
+          [
+            490,
+            356
+          ],
+          [
+            511,
+            361
+          ],
+          [
+            533,
+            356
+          ],
+          [
+            550,
+            345
+          ]
+        ],
+        "registeredNeckBehindJawSeam": [
+          [
+            470,
+            418
+          ],
+          [
+            490,
+            429
+          ],
+          [
+            511,
+            434
+          ],
+          [
+            533,
+            429
+          ],
+          [
+            550,
+            418
+          ]
+        ]
+      },
+      "registration": {
+        "kind": "integer rigid head registration plus anatomical collar-contact extension from the registered source neck",
+        "translation": [
+          0,
+          73
+        ],
+        "usesAlphaBoundingBox": false,
+        "usesMannequinRgbDifference": false,
+        "interpolation": "none; uncovered collar-contact pixels reuse the exact RGBA of the nearest opaque pixel in the registered source-neck owner"
+      },
+      "ownership": {
+        "headFront": "intact source face, complete jaw, identity features, glasses/antlers, and all retained hair; renders above clothing/jewellery",
+        "neck": "rigid intact-source interior plus exact source-pixel reuse inside the anatomical collar-contact mask; one mood-invariant owner; renders below shirt/clothing/jewellery",
+        "sourceShirt": "unowned and excluded by the recorded anatomical mask"
+      },
+      "structuralEvidence": {
+        "ownerPartitionMismatchPixels": 0,
+        "headColourPreservation": {
+          "ownedPixels": 65850,
+          "changedOwnedRgbPixels": 0,
+          "maxOwnedRgbDelta": 0
+        },
+        "neckColourPreservation": {
+          "ownedPixels": 6211,
+          "novelRgbPixels": 0,
+          "sourceOwnedRgbPaletteSize": 3016
+        },
+        "requiredCollarContactPixels": 3866,
+        "uncoveredCollarContactPixels": 0
+      },
+      "outputs": {
+        "headFront": {
+          "path": "scripts/art-sources/neck-repair/hunho-neutral-head-front.png",
+          "sha256": "482fd68f4950a047ba198f8c7113fda8c2e4e4cb48f41eff6129e93b8ae362d2"
+        },
+        "neck": {
+          "path": "scripts/art-sources/neck-repair/hunho-neck.png",
+          "sha256": "8443894cd12e4a46efc96d3b0113a029e165e9346f7720b93f6801f05d85105a"
+        },
+        "composite": {
+          "path": "scripts/art-sources/neck-repair/hunho-neutral-composite.png",
+          "sha256": "e2a5a90e4871b9c0ff83b4353a61e7df9cf074c4633296451816137ba9c50c76"
+        },
+        "anatomyMask": {
+          "path": "scripts/art-sources/neck-repair/hunho-anatomy-mask.png",
+          "sha256": "d58e046cca2767205f4fb54b2fc1979e97ff273146e65d1b95c79cb3deaf3cae"
+        },
+        "headOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/hunho-head-owner-mask.png",
+          "sha256": "49a8315e6ae79756f15ac0e969d0e9bbccc6f85114ee43dbc65f12bf98c9e7f1"
+        },
+        "sourceNeckMask": {
+          "path": "scripts/art-sources/neck-repair/hunho-source-neck-mask.png",
+          "sha256": "8c5473dfecfc3691fc73cacf4d3cf2353e4d772651eba8d62f515ed7fedbc2a9"
+        },
+        "skinSampleMask": {
+          "path": "scripts/art-sources/neck-repair/hunho-skin-sample-mask.png",
+          "sha256": "52b1781c6a11c5357d05b9a41d5b5c63242208f39ac3ed411fa59264f629374d"
+        },
+        "neckOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/hunho-neck-owner-mask.png",
+          "sha256": "b28fd10efe7f8383abde19877f1d1a91e1233230e8723857bce6769203a7c92e"
+        },
+        "collarContactMask": {
+          "path": "scripts/art-sources/neck-repair/hunho-collar-contact-mask.png",
+          "sha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875"
+        }
+      }
+    },
+    "jeongan": {
+      "scope": "neutral bare-head prototype only",
+      "sources": {
+        "intactFull": {
+          "path": "scripts/art-sources/doll-reference/jeongan-neutral-full.png",
+          "sha256": "b17955e935d945918681c7ba7228eec419c6931663d742aaa2c0b8aad28dd0e6"
+        },
+        "legacyCurrentHead": {
+          "path": "scripts/art-sources/neck-repair/before/jeongan-neutral-bare.webp",
+          "sha256": "92cb23f34dc0906ff393168560991183a6ed05f254104fcb9a7d09e895acb35e"
+        }
+      },
+      "anchors": {
+        "sourceCollarLeftCentreRight": [
+          [
+            465,
+            466
+          ],
+          [
+            512,
+            480
+          ],
+          [
+            566,
+            460
+          ]
+        ],
+        "targetCanonicalCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "registeredCollarLeftCentreRight": [
+          [
+            462,
+            466
+          ],
+          [
+            509,
+            480
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "sourceJawCurve": [
+          [
+            383,
+            370
+          ],
+          [
+            394,
+            389
+          ],
+          [
+            414,
+            403
+          ],
+          [
+            440,
+            413
+          ],
+          [
+            470,
+            421
+          ],
+          [
+            512,
+            427
+          ],
+          [
+            548,
+            419
+          ],
+          [
+            576,
+            405
+          ],
+          [
+            599,
+            388
+          ],
+          [
+            614,
+            368
+          ]
+        ],
+        "registeredJawCurve": [
+          [
+            380,
+            370
+          ],
+          [
+            391,
+            389
+          ],
+          [
+            411,
+            403
+          ],
+          [
+            437,
+            413
+          ],
+          [
+            467,
+            421
+          ],
+          [
+            509,
+            427
+          ],
+          [
+            545,
+            419
+          ],
+          [
+            573,
+            405
+          ],
+          [
+            596,
+            388
+          ],
+          [
+            611,
+            368
+          ]
+        ],
+        "sourceNeckBehindJawSeam": [
+          [
+            463,
+            416
+          ],
+          [
+            484,
+            425
+          ],
+          [
+            512,
+            430
+          ],
+          [
+            540,
+            423
+          ],
+          [
+            546,
+            414
+          ]
+        ],
+        "registeredNeckBehindJawSeam": [
+          [
+            460,
+            416
+          ],
+          [
+            481,
+            425
+          ],
+          [
+            509,
+            430
+          ],
+          [
+            537,
+            423
+          ],
+          [
+            543,
+            414
+          ]
+        ]
+      },
+      "registration": {
+        "kind": "integer rigid head registration plus anatomical collar-contact extension from the registered source neck",
+        "translation": [
+          -3,
+          0
+        ],
+        "usesAlphaBoundingBox": false,
+        "usesMannequinRgbDifference": false,
+        "interpolation": "none; uncovered collar-contact pixels reuse the exact RGBA of the nearest opaque pixel in the registered source-neck owner"
+      },
+      "ownership": {
+        "headFront": "intact source face, complete jaw, identity features, glasses/antlers, and all retained hair; renders above clothing/jewellery",
+        "neck": "rigid intact-source interior plus exact source-pixel reuse inside the anatomical collar-contact mask; one mood-invariant owner; renders below shirt/clothing/jewellery",
+        "sourceShirt": "unowned and excluded by the recorded anatomical mask"
+      },
+      "structuralEvidence": {
+        "ownerPartitionMismatchPixels": 0,
+        "headColourPreservation": {
+          "ownedPixels": 141704,
+          "changedOwnedRgbPixels": 0,
+          "maxOwnedRgbDelta": 0
+        },
+        "neckColourPreservation": {
+          "ownedPixels": 6667,
+          "novelRgbPixels": 0,
+          "sourceOwnedRgbPaletteSize": 2723
+        },
+        "requiredCollarContactPixels": 3866,
+        "uncoveredCollarContactPixels": 0
+      },
+      "outputs": {
+        "headFront": {
+          "path": "scripts/art-sources/neck-repair/jeongan-neutral-head-front.png",
+          "sha256": "ea3a333592ecc5520d49879e3c768a52bd357d45f24ab189a042a880ea43bf4d"
+        },
+        "neck": {
+          "path": "scripts/art-sources/neck-repair/jeongan-neck.png",
+          "sha256": "164deae70938eb6f49c669bf368b400c786bbb47a50aa714bf80272c86defa98"
+        },
+        "composite": {
+          "path": "scripts/art-sources/neck-repair/jeongan-neutral-composite.png",
+          "sha256": "038654b554c78e506c1f5cca3ac2f4e639e8d236fe606351582f0d7127a96d6c"
+        },
+        "anatomyMask": {
+          "path": "scripts/art-sources/neck-repair/jeongan-anatomy-mask.png",
+          "sha256": "b8537ae1a2596326219c6a0e5cec6ba61bc6bb08b9b4151b2c07e732a8bde14d"
+        },
+        "headOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/jeongan-head-owner-mask.png",
+          "sha256": "259aee6951916c23b17f5b9bdc5e71db244a3091f121c16869283e392243c55d"
+        },
+        "sourceNeckMask": {
+          "path": "scripts/art-sources/neck-repair/jeongan-source-neck-mask.png",
+          "sha256": "00d456cde7072db1b52d932c60b05403381808628f523656b35b8f2ee79ec961"
+        },
+        "skinSampleMask": {
+          "path": "scripts/art-sources/neck-repair/jeongan-skin-sample-mask.png",
+          "sha256": "c3e2f3290a0da7553893192308bc059bb42492d15a3fa9e4aba9c52d8a5bad6c"
+        },
+        "neckOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/jeongan-neck-owner-mask.png",
+          "sha256": "db468958be9c3b8c31e8fb56cf178d49ad9d596afd27293358e9d74c4d6ca805"
+        },
+        "collarContactMask": {
+          "path": "scripts/art-sources/neck-repair/jeongan-collar-contact-mask.png",
+          "sha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875"
+        }
+      }
+    },
+    "suan": {
+      "scope": "neutral bare-head prototype only",
+      "sources": {
+        "intactFull": {
+          "path": "scripts/art-sources/doll-reference/suan-neutral-full.png",
+          "sha256": "ffb8c6b42c2eb666e933b74739a8435b662979ae1b84fa1b25cd259f928d0b2b"
+        },
+        "legacyCurrentHead": {
+          "path": "scripts/art-sources/neck-repair/before/suan-neutral-bare.webp",
+          "sha256": "c12fdb9d912001b4a4ab1f2080335ba5de226933aa900a179658c8aabcb409fa"
+        }
+      },
+      "anchors": {
+        "sourceCollarLeftCentreRight": [
+          [
+            464,
+            407
+          ],
+          [
+            512,
+            430
+          ],
+          [
+            573,
+            406
+          ]
+        ],
+        "targetCanonicalCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "registeredCollarLeftCentreRight": [
+          [
+            454,
+            461
+          ],
+          [
+            502,
+            484
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "sourceJawCurve": [
+          [
+            381,
+            302
+          ],
+          [
+            397,
+            318
+          ],
+          [
+            420,
+            333
+          ],
+          [
+            449,
+            348
+          ],
+          [
+            478,
+            359
+          ],
+          [
+            512,
+            370
+          ],
+          [
+            546,
+            359
+          ],
+          [
+            576,
+            344
+          ],
+          [
+            601,
+            326
+          ],
+          [
+            620,
+            305
+          ],
+          [
+            632,
+            287
+          ]
+        ],
+        "registeredJawCurve": [
+          [
+            371,
+            356
+          ],
+          [
+            387,
+            372
+          ],
+          [
+            410,
+            387
+          ],
+          [
+            439,
+            402
+          ],
+          [
+            468,
+            413
+          ],
+          [
+            502,
+            424
+          ],
+          [
+            536,
+            413
+          ],
+          [
+            566,
+            398
+          ],
+          [
+            591,
+            380
+          ],
+          [
+            610,
+            359
+          ],
+          [
+            622,
+            341
+          ]
+        ],
+        "sourceNeckBehindJawSeam": [
+          [
+            464,
+            354
+          ],
+          [
+            468,
+            356
+          ],
+          [
+            474,
+            358
+          ],
+          [
+            478,
+            360
+          ],
+          [
+            480,
+            361
+          ],
+          [
+            481,
+            362
+          ],
+          [
+            486,
+            366
+          ],
+          [
+            512,
+            372
+          ],
+          [
+            539,
+            365
+          ],
+          [
+            548,
+            362
+          ],
+          [
+            552,
+            358
+          ],
+          [
+            553,
+            354
+          ]
+        ],
+        "registeredNeckBehindJawSeam": [
+          [
+            454,
+            408
+          ],
+          [
+            458,
+            410
+          ],
+          [
+            464,
+            412
+          ],
+          [
+            468,
+            414
+          ],
+          [
+            470,
+            415
+          ],
+          [
+            471,
+            416
+          ],
+          [
+            476,
+            420
+          ],
+          [
+            502,
+            426
+          ],
+          [
+            529,
+            419
+          ],
+          [
+            538,
+            416
+          ],
+          [
+            542,
+            412
+          ],
+          [
+            543,
+            408
+          ]
+        ]
+      },
+      "registration": {
+        "kind": "integer rigid head registration plus anatomical collar-contact extension from the registered source neck",
+        "translation": [
+          -10,
+          54
+        ],
+        "usesAlphaBoundingBox": false,
+        "usesMannequinRgbDifference": false,
+        "interpolation": "none; uncovered collar-contact pixels reuse the exact RGBA of the nearest opaque pixel in the registered source-neck owner"
+      },
+      "ownership": {
+        "headFront": "intact source face, complete jaw, identity features, glasses/antlers, and all retained hair; renders above clothing/jewellery",
+        "neck": "rigid intact-source interior plus exact source-pixel reuse inside the anatomical collar-contact mask; one mood-invariant owner; renders below shirt/clothing/jewellery",
+        "sourceShirt": "unowned and excluded by the recorded anatomical mask"
+      },
+      "structuralEvidence": {
+        "ownerPartitionMismatchPixels": 0,
+        "headColourPreservation": {
+          "ownedPixels": 156800,
+          "changedOwnedRgbPixels": 0,
+          "maxOwnedRgbDelta": 0
+        },
+        "neckColourPreservation": {
+          "ownedPixels": 6940,
+          "novelRgbPixels": 0,
+          "sourceOwnedRgbPaletteSize": 2768
+        },
+        "requiredCollarContactPixels": 3866,
+        "uncoveredCollarContactPixels": 0
+      },
+      "outputs": {
+        "headFront": {
+          "path": "scripts/art-sources/neck-repair/suan-neutral-head-front.png",
+          "sha256": "c2a6ec69b85a929b1eb3c5551732383a14b9ee5c6f372f0e8c731b7961ff4a67"
+        },
+        "neck": {
+          "path": "scripts/art-sources/neck-repair/suan-neck.png",
+          "sha256": "65e11ff327252a7c5c87f28b50b1adc836d75c482f16eaa6fc1e74f3cceb8506"
+        },
+        "composite": {
+          "path": "scripts/art-sources/neck-repair/suan-neutral-composite.png",
+          "sha256": "0f1d18e4ba6d871551fc43b6b9abeee54cd702d30b5e37a860de93fc34ce9a02"
+        },
+        "anatomyMask": {
+          "path": "scripts/art-sources/neck-repair/suan-anatomy-mask.png",
+          "sha256": "769b3b743c63914814b6d3d2320a1cc4c3ffe5f4d7364edc6e1ceed2ef7d9424"
+        },
+        "headOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/suan-head-owner-mask.png",
+          "sha256": "8760cb10503daa6f125850143788e1714ff3be3b23bcad952ef1de770679fc2c"
+        },
+        "sourceNeckMask": {
+          "path": "scripts/art-sources/neck-repair/suan-source-neck-mask.png",
+          "sha256": "4dd6bfe3629f9278a06e7b3b0a2c914400fcba029661508f69b225942d344ac0"
+        },
+        "skinSampleMask": {
+          "path": "scripts/art-sources/neck-repair/suan-skin-sample-mask.png",
+          "sha256": "eafd43a78507c11633b65dde0a7a7a58e5db527381f7637ed3bdaee363813127"
+        },
+        "neckOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/suan-neck-owner-mask.png",
+          "sha256": "101a5f17723c3d87ad94060043684055bb57ba1503867e35c82f4f26e3f35928"
+        },
+        "collarContactMask": {
+          "path": "scripts/art-sources/neck-repair/suan-collar-contact-mask.png",
+          "sha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875"
+        }
+      }
+    },
+    "yewon": {
+      "scope": "neutral bare-head prototype only",
+      "sources": {
+        "intactFull": {
+          "path": "scripts/art-sources/doll-reference/yewon-neutral-full.png",
+          "sha256": "30831a082525c42c52d9377e2cb7a82a26b97a15fb69589bcc2f64c43e04ca3e"
+        },
+        "legacyCurrentHead": {
+          "path": "scripts/art-sources/neck-repair/before/yewon-neutral-bare.webp",
+          "sha256": "1a059ecf7d77ac190e6f6e25e07ee4eca49984b34487e4ca78f5f4ea6bf5ddd7"
+        }
+      },
+      "anchors": {
+        "sourceCollarLeftCentreRight": [
+          [
+            440,
+            416
+          ],
+          [
+            510,
+            436
+          ],
+          [
+            554,
+            420
+          ]
+        ],
+        "targetCanonicalCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            511,
+            492
+          ],
+          [
+            563,
+            460
+          ]
+        ],
+        "registeredCollarLeftCentreRight": [
+          [
+            449,
+            460
+          ],
+          [
+            519,
+            480
+          ],
+          [
+            563,
+            464
+          ]
+        ],
+        "sourceJawCurve": [
+          [
+            340,
+            317
+          ],
+          [
+            356,
+            334
+          ],
+          [
+            382,
+            350
+          ],
+          [
+            411,
+            363
+          ],
+          [
+            445,
+            373
+          ],
+          [
+            482,
+            379
+          ],
+          [
+            508,
+            381
+          ],
+          [
+            543,
+            374
+          ],
+          [
+            574,
+            361
+          ],
+          [
+            600,
+            342
+          ],
+          [
+            620,
+            319
+          ]
+        ],
+        "registeredJawCurve": [
+          [
+            349,
+            361
+          ],
+          [
+            365,
+            378
+          ],
+          [
+            391,
+            394
+          ],
+          [
+            420,
+            407
+          ],
+          [
+            454,
+            417
+          ],
+          [
+            491,
+            423
+          ],
+          [
+            517,
+            425
+          ],
+          [
+            552,
+            418
+          ],
+          [
+            583,
+            405
+          ],
+          [
+            609,
+            386
+          ],
+          [
+            629,
+            363
+          ]
+        ],
+        "sourceNeckBehindJawSeam": [
+          [
+            445,
+            365
+          ],
+          [
+            469,
+            376
+          ],
+          [
+            507,
+            382
+          ],
+          [
+            529,
+            376
+          ],
+          [
+            535,
+            366
+          ]
+        ],
+        "registeredNeckBehindJawSeam": [
+          [
+            454,
+            409
+          ],
+          [
+            478,
+            420
+          ],
+          [
+            516,
+            426
+          ],
+          [
+            538,
+            420
+          ],
+          [
+            544,
+            410
+          ]
+        ]
+      },
+      "registration": {
+        "kind": "integer rigid head registration plus anatomical collar-contact extension from the registered source neck",
+        "translation": [
+          9,
+          44
+        ],
+        "usesAlphaBoundingBox": false,
+        "usesMannequinRgbDifference": false,
+        "interpolation": "none; uncovered collar-contact pixels reuse the exact RGBA of the nearest opaque pixel in the registered source-neck owner"
+      },
+      "ownership": {
+        "headFront": "intact source face, complete jaw, identity features, glasses/antlers, and all retained hair; renders above clothing/jewellery",
+        "neck": "rigid intact-source interior plus exact source-pixel reuse inside the anatomical collar-contact mask; one mood-invariant owner; renders below shirt/clothing/jewellery",
+        "sourceShirt": "unowned and excluded by the recorded anatomical mask"
+      },
+      "structuralEvidence": {
+        "ownerPartitionMismatchPixels": 0,
+        "headColourPreservation": {
+          "ownedPixels": 104205,
+          "changedOwnedRgbPixels": 0,
+          "maxOwnedRgbDelta": 0
+        },
+        "neckColourPreservation": {
+          "ownedPixels": 7030,
+          "novelRgbPixels": 0,
+          "sourceOwnedRgbPaletteSize": 2923
+        },
+        "requiredCollarContactPixels": 3866,
+        "uncoveredCollarContactPixels": 0
+      },
+      "outputs": {
+        "headFront": {
+          "path": "scripts/art-sources/neck-repair/yewon-neutral-head-front.png",
+          "sha256": "a31ae24120f30feb798dfc6af006cc9d8c6e8cfa06bffe66656a42c193eb1599"
+        },
+        "neck": {
+          "path": "scripts/art-sources/neck-repair/yewon-neck.png",
+          "sha256": "280a98b37f9169d686a317af30966d0723fedeca7518b5cb66613c4692e6cf21"
+        },
+        "composite": {
+          "path": "scripts/art-sources/neck-repair/yewon-neutral-composite.png",
+          "sha256": "21e37139db8ce681d7169c7f5803f82d240d9bf4a5fdae7d2903a58813046d2f"
+        },
+        "anatomyMask": {
+          "path": "scripts/art-sources/neck-repair/yewon-anatomy-mask.png",
+          "sha256": "ed7b6c355bfeac5bfe311100c1ed9cb8780a3b1f54700b21ea981a8833e5abf9"
+        },
+        "headOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/yewon-head-owner-mask.png",
+          "sha256": "7a7a5e6591e5496948344c221a01c47e8a385a956a4eb428c72a17a054980f99"
+        },
+        "sourceNeckMask": {
+          "path": "scripts/art-sources/neck-repair/yewon-source-neck-mask.png",
+          "sha256": "5ee0081ab122811b587829a9551c16752a2b91b19735a7192a45c552f3970218"
+        },
+        "skinSampleMask": {
+          "path": "scripts/art-sources/neck-repair/yewon-skin-sample-mask.png",
+          "sha256": "9c1039d69f509a4bbd4a43a6d9ab175aa560365346a0d8d61b9ac1a9826a7316"
+        },
+        "neckOwnerMask": {
+          "path": "scripts/art-sources/neck-repair/yewon-neck-owner-mask.png",
+          "sha256": "d35572f38d88df490ec41e565e16e4c9ada3a644b63239f8fb248ca082e37034"
+        },
+        "collarContactMask": {
+          "path": "scripts/art-sources/neck-repair/yewon-collar-contact-mask.png",
+          "sha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875"
+        }
+      }
+    }
+  },
+  "qa": {
+    "path": "/tmp/paper-doll-qa/neck-repair-prototypes.png",
+    "sha256": "15fa6947964402785507657602df2608f2bf4742234b374c0aaf27a3b1af3c07"
+  },
+  "knownIssues": [
+    "This is deliberately only a three-neutral-bare proof. It does not assert that hats or mood interiors have been propagated.",
+    "The source collar and canonical collar are not identical curves; canonical shirt pixels intentionally render above the translated source neck and hide the lower overlap. Parent/architect visual review must confirm each contact before promotion.",
+    "Structural pixel checks prove ownership partition and no recolouring, not subjective anatomical acceptance; the QA sheet is the acceptance evidence."
+  ]
+}

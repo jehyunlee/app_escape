@@ -1,0 +1,97 @@
+{
+  "character": "mom",
+  "item": "hat-10",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:24:24.777634+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 네모패널 가죽마법모. A four-panel earth-brown leather wizard hat with a low slightly asymmetric pointed crown, visible square joining seams, and a short firm reinforced brim; strong clean construction. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/mom-hat-10.png",
+  "rawSha256": "ce90c0d97c82d39cadd7bca14eccc0d35a471f5c7429d6b009002ed2a3973401",
+  "registration": {
+    "sourceToGeneratedScale": 2.070267870646965,
+    "rotationRadians": -0.00354158790709845,
+    "translation": [
+      -526.434851209073,
+      423.2538995749603
+    ],
+    "initialCorrelation": 0.9105436583943683,
+    "refinedCorrelation": 0.9176728238698344,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "mom-neutral-hat-10.webp": {
+      "sha256": "61b0f63e42d48b638797a54f7f19d0143f7d3baae97d1df447fe1d72b50ad994",
+      "bbox": [
+        277,
+        -89,
+        739,
+        452
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 40
+    },
+    "mom-happy-hat-10.webp": {
+      "sha256": "618a8b9fc9e516c3c0600de2ed2618553a7ac28f3072e5f1f99f0f88a07f80e3",
+      "bbox": [
+        277,
+        -89,
+        739,
+        452
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 40
+    },
+    "mom-sad-hat-10.webp": {
+      "sha256": "23e75624e0873e839b3e807df4ef50fe37f52866405ca03326c4f51c209c02a7",
+      "bbox": [
+        277,
+        -89,
+        739,
+        452
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 40
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Parent visually inspected all 36 expressions per character in dad-all-hats.png and mom-all-hats.png; whole hats, hair under brims, glasses, face likeness and expression blending accepted. Dad prototypes also reviewed on the actual body.",
+    "reviewedAt": "2026-09-27T01:36:36.836984+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-10.webp",
+      "sha256": "f46af748b5cdce53d8b9451507b6adb049a1468083c6e68eff356c1e1eea08ea"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/mom-neutral.webp",
+      "sha256": "e6e0ecd889261dcbe4a308bf8e366715aa6e948f313d46e74faa0671302c809e"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/mom-neutral.webp",
+      "sha256": "933263a9ee42f8887dfc83ed3d3f3be9e564fe556c534a90a26e0d97908ee3c2"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "f46af748b5cdce53d8b9451507b6adb049a1468083c6e68eff356c1e1eea08ea",
+    "identity": "e6e0ecd889261dcbe4a308bf8e366715aa6e948f313d46e74faa0671302c809e",
+    "headReference": "933263a9ee42f8887dfc83ed3d3f3be9e564fe556c534a90a26e0d97908ee3c2"
+  }
+}

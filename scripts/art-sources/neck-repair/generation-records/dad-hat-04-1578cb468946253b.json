@@ -1,0 +1,148 @@
+{
+  "character": "dad",
+  "item": "hat-04",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:22:00.422452+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 넓은 강화꼭지모. A muted-green woven wizard hat with a broad low pointed crown, a wide flat reinforced brim, and a plain cloth band; practical field protection, never a modern brimmed cap. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/dad-hat-04.png",
+  "rawSha256": "b1cb88c7f177e3e71053c2d59a95dd65ca85e1bea4108cdcfb23fe1c58d557b7",
+  "registration": {
+    "sourceToGeneratedScale": 1.6513711084463192,
+    "rotationRadians": 0.005232257846432688,
+    "translation": [
+      -320.3438915360245,
+      464.8585211160091
+    ],
+    "initialCorrelation": 0.9367187359979822,
+    "refinedCorrelation": 0.9386201104927988,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "dad-neutral-hat-04.webp": {
+      "sha256": "2898259f9719971108b899ce02c133bf9f8798712ff01e413b1ea09ede96665f",
+      "bbox": [
+        201,
+        -121,
+        809,
+        453
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "dad-happy-hat-04.webp": {
+      "sha256": "9556e05052c3e39552cd1986d950ea09bb313335749a83ebefa7bfe5c7920f38",
+      "bbox": [
+        201,
+        -121,
+        809,
+        453
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "dad-sad-hat-04.webp": {
+      "sha256": "ff9db24fa944b868dd0bb40dea165ac48d1ef89c7d2afa9f0f7b45ac8d54ae64",
+      "bbox": [
+        201,
+        -121,
+        809,
+        453
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Parent and independent reviewers inspected all 234 bare/hat/mood head-neck compositions; intact jaws, one visible neck, preserved hat cords and face identity, no visible expression-patch boundaries.",
+    "reviewedAt": "2026-09-27T11:48:10.463700+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-04.webp",
+      "sha256": "5cac461d897f1b33efd49299b4f2211bf85b1e421784610ffae76545ff825875"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/dad-neutral.webp",
+      "sha256": "fc55dd83c604a010c53e3adbbf4197037e9937d674182a03778da55e3f311ed5"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/dad-neutral.webp",
+      "sha256": "3572ece7a41e27b5f2abaa507fdcd999e30aeb8e20b2d5cb82dba7aa52a370ac"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "5cac461d897f1b33efd49299b4f2211bf85b1e421784610ffae76545ff825875",
+    "identity": "fc55dd83c604a010c53e3adbbf4197037e9937d674182a03778da55e3f311ed5",
+    "headReference": "3572ece7a41e27b5f2abaa507fdcd999e30aeb8e20b2d5cb82dba7aa52a370ac"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "caf2c7654087f5d7261222856c2d0f3565d23bc0a57c91c96028338160716133",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/dad-hat-04-caf2c7654087f5d7.json",
+    "rawSha256": "b1cb88c7f177e3e71053c2d59a95dd65ca85e1bea4108cdcfb23fe1c58d557b7",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      0,
+      30
+    ],
+    "sourceJawCurve": [
+      [
+        451,
+        393
+      ],
+      [
+        465,
+        402
+      ],
+      [
+        485,
+        410
+      ],
+      [
+        512,
+        414
+      ],
+      [
+        540,
+        410
+      ],
+      [
+        559,
+        403
+      ],
+      [
+        573,
+        393
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/dad-hat-04.webp",
+    "neckSha256": "ae026dae2d71264aed606c47ac19f81943ed01d922517aff5c9deb3d743d0ab2",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 0,
+      "maxExtensionPixels": 0,
+      "registeredPixels": 0,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "92b0b35af27e344c19039b504df06a238520ddbfdc1f7b1fe4ad45e4331715d4"
+  }
+}

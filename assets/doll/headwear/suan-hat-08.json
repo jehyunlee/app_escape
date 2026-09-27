@@ -25,50 +25,47 @@
   "status": "visual-review-passed",
   "files": {
     "suan-neutral-hat-08.webp": {
-      "sha256": "86ca9e300de7357d3bf5192b2a8a81199d44a0f95de4a0c65878bf4038d5571d",
+      "sha256": "aa77d17f55f1b7303937c582e693f1953be360e23053e028d7c203ab1cfa1b3b",
       "bbox": [
-        220,
-        -224,
-        786,
-        515
+        210,
+        -233,
+        776,
+        506
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 63
+      "height": 2304
     },
     "suan-happy-hat-08.webp": {
-      "sha256": "f6a2f88947c5a606a12632f65212802c0573a8b64a75bd5c859f28cd7b92dd34",
+      "sha256": "43bd293fc317369f091a3fdc7daf5657379c0332cc758393b2b1f6aaa8ddde06",
       "bbox": [
-        220,
-        -224,
-        786,
-        515
+        210,
+        -233,
+        776,
+        506
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 63
+      "height": 2304
     },
     "suan-sad-hat-08.webp": {
-      "sha256": "3b3b797aa50a24a88eeb16478772c18091d9240271aeefaeb296b9b5a59aef19",
+      "sha256": "45f825d2b72bf4d03bda814d4cf09ff9b92cab9b5eb0aed916570aeda0ee2a53",
       "bbox": [
-        220,
-        -224,
-        786,
-        515
+        210,
+        -233,
+        776,
+        506
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 63
+      "height": 2304
     }
   },
   "visualReview": {
     "status": "passed",
     "reviewer": "parent assistant",
-    "note": "Independent reviews 72 and 73 inspected all three expressions per hat: likeness, glasses, fitted hair and intact hats accepted; both Hunho antlers retained. Yewon hat09 excluded pending ponytail correction.",
-    "reviewedAt": "2026-09-27T01:55:19.974827+00:00"
+    "note": "All 234 head-neck states visually approved by parent and independent reviews 89/90; exact raster reproduction confirmed, 0 neck holes and 0 body changes outside the anatomical joint.",
+    "reviewedAt": "2026-09-27T11:55:19.479773+00:00"
   },
   "sources": {
     "catalog": {
@@ -93,5 +90,75 @@
     "product": "b0f4b800eabbd52c9937307d2fcbfce72a2a7ef11b3f3dd5e8d2c1c06b3596c7",
     "identity": "841c080261c32eb13f4b07a6c67ec13e662e0e444284f7b016392446a56b8de3",
     "headReference": "97a6d544d2a7c747efc9bd3156aea1589ab68f876f0954dc84d9add762216e2e"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "6df7baf2077b9de93e6a7fcf5c00957cac19f7411e352dcf9076240f66c7e839",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/suan-hat-08-6df7baf2077b9de9.json",
+    "rawSha256": "2ab54a143660d03aac0864294cf4083e1c7cc7055139f504b683dd108fc73324",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      -10,
+      54
+    ],
+    "sourceJawCurve": [
+      [
+        381,
+        302
+      ],
+      [
+        397,
+        318
+      ],
+      [
+        420,
+        333
+      ],
+      [
+        449,
+        348
+      ],
+      [
+        478,
+        359
+      ],
+      [
+        512,
+        370
+      ],
+      [
+        546,
+        359
+      ],
+      [
+        576,
+        344
+      ],
+      [
+        601,
+        326
+      ],
+      [
+        620,
+        305
+      ],
+      [
+        632,
+        287
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/suan-hat-08.webp",
+    "neckSha256": "c1726c0d0642497b82e6eda5bc300f4ed24831c11141b8e1c6578217346dc610",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 142,
+      "maxExtensionPixels": 6,
+      "registeredPixels": 415,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "755f88c4efeb97e9d7b219eee4bc4331fa69d22e5dafc0565b2844fc7516e746"
   }
 }

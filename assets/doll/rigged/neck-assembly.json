@@ -1,0 +1,1976 @@
+{
+  "schema": "single-visible-neck-v1",
+  "review": "visual-review-passed",
+  "body": {
+    "file": "rigged/body-upper.webp",
+    "sha256": "2ac30ea33887cefc2fa1c592702be470bedfda3307ef54455029f7a181a7bc61",
+    "source": {
+      "path": "scripts/art-sources/neck-repair/before/body-upper.webp",
+      "sha256": "497c0be857d7fc2ea82702b1e2fb3913c4f59eb5b333eedc08b74929cc5bda75"
+    },
+    "removalMask": "rigged/anatomy-masks/body-neck-removal.png",
+    "maskSha256": "f84a3526011850123cb82a7870e7a6637ecb76df5ed5905d6a88426696fec672"
+  },
+  "characters": {
+    "dad": {
+      "neck": "rigged/necks/dad.webp",
+      "sha256": "1f1232008c629f978ffc5ed1ecc2b787d12d62878e7d12cdae11d0b38fbf066b",
+      "contactMask": "rigged/anatomy-masks/dad-collar-contact.png",
+      "contactSha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875",
+      "intactSource": {
+        "path": "scripts/art-sources/doll-reference/dad-neutral-full.png",
+        "sha256": "22d2eac6b757eb0a61429fc737132023a22bea3569f89ddaa5b1aea242aa25f8"
+      },
+      "translation": [
+        0,
+        30
+      ]
+    },
+    "mom": {
+      "neck": "rigged/necks/mom.webp",
+      "sha256": "5e46a170e128cb41f96bca15862f54f3ad22126ab75b53a49cb0a2a0faff2a76",
+      "contactMask": "rigged/anatomy-masks/mom-collar-contact.png",
+      "contactSha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875",
+      "intactSource": {
+        "path": "scripts/art-sources/doll-reference/mom-neutral-full.png",
+        "sha256": "f0f0b56f139940d9b6a3b96a8cc103604d414438665d983f0e186e740df0a6a2"
+      },
+      "translation": [
+        -1,
+        40
+      ]
+    },
+    "hunho": {
+      "neck": "rigged/necks/hunho.webp",
+      "sha256": "b6fb30ffec2465b9b79083074e9a53cceb6a55c62c94383d6fecd7878bd26c53",
+      "contactMask": "rigged/anatomy-masks/hunho-collar-contact.png",
+      "contactSha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875",
+      "intactSource": {
+        "path": "scripts/art-sources/doll-reference/hunho-neutral-full.png",
+        "sha256": "b977e1713b9cdf7600797c5891387129c61c90773ddd442a78a01154a17c605f"
+      },
+      "translation": [
+        0,
+        73
+      ]
+    },
+    "jeongan": {
+      "neck": "rigged/necks/jeongan.webp",
+      "sha256": "a048ee67b1b31f6ca902298a9212297b0b710dfb05f6106be720f6f319106e0e",
+      "contactMask": "rigged/anatomy-masks/jeongan-collar-contact.png",
+      "contactSha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875",
+      "intactSource": {
+        "path": "scripts/art-sources/doll-reference/jeongan-neutral-full.png",
+        "sha256": "b17955e935d945918681c7ba7228eec419c6931663d742aaa2c0b8aad28dd0e6"
+      },
+      "translation": [
+        -3,
+        0
+      ]
+    },
+    "suan": {
+      "neck": "rigged/necks/suan.webp",
+      "sha256": "ae5ca86065f1e09c80f4f6cb9fb1bdbd43844dd6a574353113f05e6e5180d1fb",
+      "contactMask": "rigged/anatomy-masks/suan-collar-contact.png",
+      "contactSha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875",
+      "intactSource": {
+        "path": "scripts/art-sources/doll-reference/suan-neutral-full.png",
+        "sha256": "ffb8c6b42c2eb666e933b74739a8435b662979ae1b84fa1b25cd259f928d0b2b"
+      },
+      "translation": [
+        -10,
+        54
+      ]
+    },
+    "yewon": {
+      "neck": "rigged/necks/yewon.webp",
+      "sha256": "621619ca4257c17c45f1de3d9f2b47d1f621cd17b1f460dcb1d90d7d284e5987",
+      "contactMask": "rigged/anatomy-masks/yewon-collar-contact.png",
+      "contactSha256": "0951fd0598366a617387ee48cdc7251b718b23240387c28977bf91121d814875",
+      "intactSource": {
+        "path": "scripts/art-sources/doll-reference/yewon-neutral-full.png",
+        "sha256": "30831a082525c42c52d9377e2cb7a82a26b97a15fb69589bcc2f64c43e04ca3e"
+      },
+      "translation": [
+        9,
+        44
+      ]
+    }
+  },
+  "heads": {
+    "headwear/dad-neutral-bare.webp": {
+      "sha256": "777922b94f5aebb517b30635a882cbee364eb8e77a50878866de476b2697b92e",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "bare",
+      "neck": "rigged/necks/dad.webp",
+      "neckSha256": "1f1232008c629f978ffc5ed1ecc2b787d12d62878e7d12cdae11d0b38fbf066b"
+    },
+    "headwear/dad-happy-bare.webp": {
+      "sha256": "6fb51c104fc1565dd7c1b542fb01c8fffbf2008893af83ab797d4822375546fc",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "bare",
+      "neck": "rigged/necks/dad.webp",
+      "neckSha256": "1f1232008c629f978ffc5ed1ecc2b787d12d62878e7d12cdae11d0b38fbf066b"
+    },
+    "headwear/dad-sad-bare.webp": {
+      "sha256": "bdb4e30c0d03bb6d83b500bd898aac251ccdacdf7ba3fa21ebaa84832edc2cf7",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "bare",
+      "neck": "rigged/necks/dad.webp",
+      "neckSha256": "1f1232008c629f978ffc5ed1ecc2b787d12d62878e7d12cdae11d0b38fbf066b"
+    },
+    "headwear/dad-neutral-hat-01.webp": {
+      "sha256": "54366e0a684bd7e40b20366d2de9c44cf49de76bf89c2c217521e399689a79b6",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-01",
+      "neck": "rigged/necks/dad-hat-01.webp",
+      "neckSha256": "41a42ed10c910283c3e8b48b95210cc18a6ac15a0b7e691e9d959391d68acc77"
+    },
+    "headwear/dad-happy-hat-01.webp": {
+      "sha256": "5bd2a8d71011445241018565bc1cd1c4bd8818dceaa1057a2d7671ca04e319a0",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-01",
+      "neck": "rigged/necks/dad-hat-01.webp",
+      "neckSha256": "41a42ed10c910283c3e8b48b95210cc18a6ac15a0b7e691e9d959391d68acc77"
+    },
+    "headwear/dad-sad-hat-01.webp": {
+      "sha256": "17a969094f4acc5b4cdd71178dd647fd8c1b45d1cff72f441ebdc36e3ac23193",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-01",
+      "neck": "rigged/necks/dad-hat-01.webp",
+      "neckSha256": "41a42ed10c910283c3e8b48b95210cc18a6ac15a0b7e691e9d959391d68acc77"
+    },
+    "headwear/dad-neutral-hat-02.webp": {
+      "sha256": "ce9c62edef035d1059d62a498f5656b44c83e1f713a626507a7064a494382b0c",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-02",
+      "neck": "rigged/necks/dad-hat-02.webp",
+      "neckSha256": "5948139c259f4ba9b09d0a2ed7f9440a586f381fb8272a97ad8d8f597dc50b31"
+    },
+    "headwear/dad-happy-hat-02.webp": {
+      "sha256": "553944dd5ee720e2d1d822841e124982ae4d6cbc608462dc4e4560e0ccc4289e",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-02",
+      "neck": "rigged/necks/dad-hat-02.webp",
+      "neckSha256": "5948139c259f4ba9b09d0a2ed7f9440a586f381fb8272a97ad8d8f597dc50b31"
+    },
+    "headwear/dad-sad-hat-02.webp": {
+      "sha256": "20f48202dc5762fd391e428f22d7afcef62013e4d0862984b43cf8ac0d38bd7e",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-02",
+      "neck": "rigged/necks/dad-hat-02.webp",
+      "neckSha256": "5948139c259f4ba9b09d0a2ed7f9440a586f381fb8272a97ad8d8f597dc50b31"
+    },
+    "headwear/dad-neutral-hat-03.webp": {
+      "sha256": "216eca0c4b12a855488cb879a0290b10fa236af6a4aef5bbf6be68711e3976f6",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-03",
+      "neck": "rigged/necks/dad-hat-03.webp",
+      "neckSha256": "da04d9d01b2b7ccb8a0c77918ec62ebe525f89408d829949650af914fbdc5d07"
+    },
+    "headwear/dad-happy-hat-03.webp": {
+      "sha256": "8d876ea48f0d3087d4fa6c1b6ce0b899c2df90354d9e4add58a0902bc2d9ac1d",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-03",
+      "neck": "rigged/necks/dad-hat-03.webp",
+      "neckSha256": "da04d9d01b2b7ccb8a0c77918ec62ebe525f89408d829949650af914fbdc5d07"
+    },
+    "headwear/dad-sad-hat-03.webp": {
+      "sha256": "ba88143866ea057a1f8cd637ec260e56368d0a491b95c9d90ab1355d0e93504d",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-03",
+      "neck": "rigged/necks/dad-hat-03.webp",
+      "neckSha256": "da04d9d01b2b7ccb8a0c77918ec62ebe525f89408d829949650af914fbdc5d07"
+    },
+    "headwear/dad-neutral-hat-04.webp": {
+      "sha256": "2898259f9719971108b899ce02c133bf9f8798712ff01e413b1ea09ede96665f",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-04",
+      "neck": "rigged/necks/dad-hat-04.webp",
+      "neckSha256": "ae026dae2d71264aed606c47ac19f81943ed01d922517aff5c9deb3d743d0ab2"
+    },
+    "headwear/dad-happy-hat-04.webp": {
+      "sha256": "9556e05052c3e39552cd1986d950ea09bb313335749a83ebefa7bfe5c7920f38",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-04",
+      "neck": "rigged/necks/dad-hat-04.webp",
+      "neckSha256": "ae026dae2d71264aed606c47ac19f81943ed01d922517aff5c9deb3d743d0ab2"
+    },
+    "headwear/dad-sad-hat-04.webp": {
+      "sha256": "ff9db24fa944b868dd0bb40dea165ac48d1ef89c7d2afa9f0f7b45ac8d54ae64",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-04",
+      "neck": "rigged/necks/dad-hat-04.webp",
+      "neckSha256": "ae026dae2d71264aed606c47ac19f81943ed01d922517aff5c9deb3d743d0ab2"
+    },
+    "headwear/dad-neutral-hat-05.webp": {
+      "sha256": "e32737cec1497ea0744588f74c14bc5ba866db15618943014cded993e7a5dba6",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-05",
+      "neck": "rigged/necks/dad-hat-05.webp",
+      "neckSha256": "9ba3c7cb99691eaf0520780ed9b3f282d61cc339c8deeaaf361bfe968f892dd7"
+    },
+    "headwear/dad-happy-hat-05.webp": {
+      "sha256": "2a73f76383a3bd9cf69bd16eda8e4891c8734242c957681e8ed809c8cf81f85d",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-05",
+      "neck": "rigged/necks/dad-hat-05.webp",
+      "neckSha256": "9ba3c7cb99691eaf0520780ed9b3f282d61cc339c8deeaaf361bfe968f892dd7"
+    },
+    "headwear/dad-sad-hat-05.webp": {
+      "sha256": "36cb312ebb2b6e207321cd3bd8e4bafb49bcb6411cd616415f3bee10ce8635cd",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-05",
+      "neck": "rigged/necks/dad-hat-05.webp",
+      "neckSha256": "9ba3c7cb99691eaf0520780ed9b3f282d61cc339c8deeaaf361bfe968f892dd7"
+    },
+    "headwear/dad-neutral-hat-06.webp": {
+      "sha256": "aa2cdff948ae6f9dea3d94c0c8dbd5a1501fb042edc3bfedbe9f20ab023a1abe",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-06",
+      "neck": "rigged/necks/dad-hat-06.webp",
+      "neckSha256": "e639bc994958977de6cacba503aef8ebbf3430069a3b5eb6b5d968de892cf9ad"
+    },
+    "headwear/dad-happy-hat-06.webp": {
+      "sha256": "900d4926804e1d9a68e5dafd3ccc2136ee146853c91a8886e08ff93d7b2b15d0",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-06",
+      "neck": "rigged/necks/dad-hat-06.webp",
+      "neckSha256": "e639bc994958977de6cacba503aef8ebbf3430069a3b5eb6b5d968de892cf9ad"
+    },
+    "headwear/dad-sad-hat-06.webp": {
+      "sha256": "197d1b8168ed4764a343822eb745b03bd45afac680948372d308dbc441f05c97",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-06",
+      "neck": "rigged/necks/dad-hat-06.webp",
+      "neckSha256": "e639bc994958977de6cacba503aef8ebbf3430069a3b5eb6b5d968de892cf9ad"
+    },
+    "headwear/dad-neutral-hat-07.webp": {
+      "sha256": "e8adfd5e0240d37d7e8d5108241f1072a8c58606e10a91d76dd5a88ab24fa7cc",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-07",
+      "neck": "rigged/necks/dad-hat-07.webp",
+      "neckSha256": "8c54bc8ab9a3ad1b6f6589d47f75425b2d61ab7fcd5c51eba5b331fe7e6b7c65"
+    },
+    "headwear/dad-happy-hat-07.webp": {
+      "sha256": "3c13a0f60b47386b489facf5e3e53282d65448aeef89fc5d1875429324e5cb0f",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-07",
+      "neck": "rigged/necks/dad-hat-07.webp",
+      "neckSha256": "8c54bc8ab9a3ad1b6f6589d47f75425b2d61ab7fcd5c51eba5b331fe7e6b7c65"
+    },
+    "headwear/dad-sad-hat-07.webp": {
+      "sha256": "98a04b2c30006bc3e69d10ff4302c54e3223f357537089a4181f9282e2327988",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-07",
+      "neck": "rigged/necks/dad-hat-07.webp",
+      "neckSha256": "8c54bc8ab9a3ad1b6f6589d47f75425b2d61ab7fcd5c51eba5b331fe7e6b7c65"
+    },
+    "headwear/dad-neutral-hat-08.webp": {
+      "sha256": "c2d1679c6fd4af1483b47886371c626b3fc2b3ebd08638aa7bd9478e49c1e8d2",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-08",
+      "neck": "rigged/necks/dad-hat-08.webp",
+      "neckSha256": "dbdb69aa184c999da515c0c5806c075c20acc090514a52e3d01bf67ab7d645ae"
+    },
+    "headwear/dad-happy-hat-08.webp": {
+      "sha256": "e010a8ce35b13914e11cf7bb756de301b62986ca5e77bcd632ef72b6d3011ac0",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-08",
+      "neck": "rigged/necks/dad-hat-08.webp",
+      "neckSha256": "dbdb69aa184c999da515c0c5806c075c20acc090514a52e3d01bf67ab7d645ae"
+    },
+    "headwear/dad-sad-hat-08.webp": {
+      "sha256": "8232cbc078453bb2af005056f954ec5d5fda81794b3fb12d1ef727077048ef4e",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-08",
+      "neck": "rigged/necks/dad-hat-08.webp",
+      "neckSha256": "dbdb69aa184c999da515c0c5806c075c20acc090514a52e3d01bf67ab7d645ae"
+    },
+    "headwear/dad-neutral-hat-09.webp": {
+      "sha256": "af24056d213c08f66faad75bf6d02d9d1f1dd8888b30d045bf5fa834fa7c2c3c",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-09",
+      "neck": "rigged/necks/dad-hat-09.webp",
+      "neckSha256": "296871e5689b163cf736e8f2c4251c9e787d5f4eb408c80e9ad64fda499154c9"
+    },
+    "headwear/dad-happy-hat-09.webp": {
+      "sha256": "0c996c601c0a6375d4bf37e39f9f827ba015be68dc799b0fc26db76ece8a0659",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-09",
+      "neck": "rigged/necks/dad-hat-09.webp",
+      "neckSha256": "296871e5689b163cf736e8f2c4251c9e787d5f4eb408c80e9ad64fda499154c9"
+    },
+    "headwear/dad-sad-hat-09.webp": {
+      "sha256": "576bd858bbb970635276740857be33d1f2d2ab72432f2ec4f76584a777494421",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-09",
+      "neck": "rigged/necks/dad-hat-09.webp",
+      "neckSha256": "296871e5689b163cf736e8f2c4251c9e787d5f4eb408c80e9ad64fda499154c9"
+    },
+    "headwear/dad-neutral-hat-10.webp": {
+      "sha256": "fda7699a0958a635f7ed6bce36086d81060188c3c4c67d29102174c5af49a5e8",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-10",
+      "neck": "rigged/necks/dad-hat-10.webp",
+      "neckSha256": "cd047aa6d62b36ce68b69346743aa58aee76e480492fa570a7733847f6fd1a69"
+    },
+    "headwear/dad-happy-hat-10.webp": {
+      "sha256": "5118ce0e299ad11e896a9b81cc1eecda3bd5edbc366ff404d2fad4047fdd44f9",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-10",
+      "neck": "rigged/necks/dad-hat-10.webp",
+      "neckSha256": "cd047aa6d62b36ce68b69346743aa58aee76e480492fa570a7733847f6fd1a69"
+    },
+    "headwear/dad-sad-hat-10.webp": {
+      "sha256": "218e85d6c7f31af05cba6bb0cdf2e7b2bffc1ecfaaa953001a52056fa0416fb9",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-10",
+      "neck": "rigged/necks/dad-hat-10.webp",
+      "neckSha256": "cd047aa6d62b36ce68b69346743aa58aee76e480492fa570a7733847f6fd1a69"
+    },
+    "headwear/dad-neutral-hat-11.webp": {
+      "sha256": "5c459c6b9e386232869dd99950883fcf9285e304befbc2d0d5ac493669c3e311",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-11",
+      "neck": "rigged/necks/dad-hat-11.webp",
+      "neckSha256": "e5e25e170b4729306efec3a6f537854d4a4cd54d22a96242ba5e739700519f4b"
+    },
+    "headwear/dad-happy-hat-11.webp": {
+      "sha256": "cfab741e8fd741192675112e975d3db0ace76c541223caa9651633df1fcc8848",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-11",
+      "neck": "rigged/necks/dad-hat-11.webp",
+      "neckSha256": "e5e25e170b4729306efec3a6f537854d4a4cd54d22a96242ba5e739700519f4b"
+    },
+    "headwear/dad-sad-hat-11.webp": {
+      "sha256": "6d5f601556129e2b346abd55c9ab3ed764b9a0b6f2ca39a45ae1edca300f86e4",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-11",
+      "neck": "rigged/necks/dad-hat-11.webp",
+      "neckSha256": "e5e25e170b4729306efec3a6f537854d4a4cd54d22a96242ba5e739700519f4b"
+    },
+    "headwear/dad-neutral-hat-12.webp": {
+      "sha256": "a70f9ef8b72f0d4b589c24385d8fd8ace4edc25c21effa3b3f625fbd9f0e3ad2",
+      "character": "dad",
+      "mood": "neutral",
+      "hat": "hat-12",
+      "neck": "rigged/necks/dad-hat-12.webp",
+      "neckSha256": "370006319be3ac6b04e2494a74d785a39ce75e49929edb3faad0bcb4f50017bd"
+    },
+    "headwear/dad-happy-hat-12.webp": {
+      "sha256": "1ed499e30f4b1338a0449ea12a127d56a21730bde9a0c41746d81c6e6be56481",
+      "character": "dad",
+      "mood": "happy",
+      "hat": "hat-12",
+      "neck": "rigged/necks/dad-hat-12.webp",
+      "neckSha256": "370006319be3ac6b04e2494a74d785a39ce75e49929edb3faad0bcb4f50017bd"
+    },
+    "headwear/dad-sad-hat-12.webp": {
+      "sha256": "6d8a67b7040694a6a80378fa5f2ad9d103ac87ba5a47f38ae4626cc534e600ba",
+      "character": "dad",
+      "mood": "sad",
+      "hat": "hat-12",
+      "neck": "rigged/necks/dad-hat-12.webp",
+      "neckSha256": "370006319be3ac6b04e2494a74d785a39ce75e49929edb3faad0bcb4f50017bd"
+    },
+    "headwear/mom-neutral-bare.webp": {
+      "sha256": "0765552028243a68c602d6a089f14567a7ac95d92e6ac82bdeb6b103c565e043",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "bare",
+      "neck": "rigged/necks/mom.webp",
+      "neckSha256": "5e46a170e128cb41f96bca15862f54f3ad22126ab75b53a49cb0a2a0faff2a76"
+    },
+    "headwear/mom-happy-bare.webp": {
+      "sha256": "3030c96691979ba3c298eca1add8181d7b4825bbdbe9f13edcfbb09ee907c348",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "bare",
+      "neck": "rigged/necks/mom.webp",
+      "neckSha256": "5e46a170e128cb41f96bca15862f54f3ad22126ab75b53a49cb0a2a0faff2a76"
+    },
+    "headwear/mom-sad-bare.webp": {
+      "sha256": "47738b1e73a6be9a7804f2f198be4081f149444268a9c5e66b30aa95116df8fe",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "bare",
+      "neck": "rigged/necks/mom.webp",
+      "neckSha256": "5e46a170e128cb41f96bca15862f54f3ad22126ab75b53a49cb0a2a0faff2a76"
+    },
+    "headwear/mom-neutral-hat-01.webp": {
+      "sha256": "cb490c2673c7d2f65088e6ff0744c392288c3426feb5f35162b243a59daac684",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-01",
+      "neck": "rigged/necks/mom-hat-01.webp",
+      "neckSha256": "7caa303141955bed75ac8b5658af275710347a57c6ca49e07160b0c2395ed9a1"
+    },
+    "headwear/mom-happy-hat-01.webp": {
+      "sha256": "9f810f6f12f539187d8f385be54d27e2f74653347d9dfe53af4cf878fbb590ce",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-01",
+      "neck": "rigged/necks/mom-hat-01.webp",
+      "neckSha256": "7caa303141955bed75ac8b5658af275710347a57c6ca49e07160b0c2395ed9a1"
+    },
+    "headwear/mom-sad-hat-01.webp": {
+      "sha256": "eb68c2baeb0aad6933ef61366d6a6c9c35383e60c321f23461605efafcc23cc4",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-01",
+      "neck": "rigged/necks/mom-hat-01.webp",
+      "neckSha256": "7caa303141955bed75ac8b5658af275710347a57c6ca49e07160b0c2395ed9a1"
+    },
+    "headwear/mom-neutral-hat-02.webp": {
+      "sha256": "f353b8ecb8e9b9e7e119399f69618dcecf2b74e73010737ea467b5dfa1245abe",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-02",
+      "neck": "rigged/necks/mom-hat-02.webp",
+      "neckSha256": "4efeadc9bac221c00be8e7dad498215ef248d9ece0da8ef6bd2ad1d5a283ae53"
+    },
+    "headwear/mom-happy-hat-02.webp": {
+      "sha256": "0ed959faf8c226390d96c51dae0a89718105398f36832f0b40dd9974c87d16f7",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-02",
+      "neck": "rigged/necks/mom-hat-02.webp",
+      "neckSha256": "4efeadc9bac221c00be8e7dad498215ef248d9ece0da8ef6bd2ad1d5a283ae53"
+    },
+    "headwear/mom-sad-hat-02.webp": {
+      "sha256": "6b410bb55f3b6140f6fcaf2955f11500af3e7b241f46d4731f7c29166c3c5eac",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-02",
+      "neck": "rigged/necks/mom-hat-02.webp",
+      "neckSha256": "4efeadc9bac221c00be8e7dad498215ef248d9ece0da8ef6bd2ad1d5a283ae53"
+    },
+    "headwear/mom-neutral-hat-03.webp": {
+      "sha256": "ea3cc6f8134d442ecee3e70a040c61200fed2d13020541f4d41994bad3e4c0dd",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-03",
+      "neck": "rigged/necks/mom-hat-03.webp",
+      "neckSha256": "832eb238f058b6b5ac6a67adfe94a3c9d98f1ae37e88d54d9f00c6e12665a997"
+    },
+    "headwear/mom-happy-hat-03.webp": {
+      "sha256": "24cfc6c92a16d8b3451617ce10f70263e35f46aa9c8c0ef1f1be7fc28cca7598",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-03",
+      "neck": "rigged/necks/mom-hat-03.webp",
+      "neckSha256": "832eb238f058b6b5ac6a67adfe94a3c9d98f1ae37e88d54d9f00c6e12665a997"
+    },
+    "headwear/mom-sad-hat-03.webp": {
+      "sha256": "62a30b6522721c8933e3b5cabab41463afa712f1b082793bbd85e11f476303d8",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-03",
+      "neck": "rigged/necks/mom-hat-03.webp",
+      "neckSha256": "832eb238f058b6b5ac6a67adfe94a3c9d98f1ae37e88d54d9f00c6e12665a997"
+    },
+    "headwear/mom-neutral-hat-04.webp": {
+      "sha256": "c8dfb36230a7414ab4c8a18139a222f6e023b73a1bf010e7d16cd609085b85ad",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-04",
+      "neck": "rigged/necks/mom-hat-04.webp",
+      "neckSha256": "3d6a5ea74532e856dfd61db74ea1d5dd91a02e3c2992794e7cf26c55f872f4f5"
+    },
+    "headwear/mom-happy-hat-04.webp": {
+      "sha256": "c4e12de656d73886bc34102a62cd1a2a5f4ab7a354a765b087c1956d5d89fe10",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-04",
+      "neck": "rigged/necks/mom-hat-04.webp",
+      "neckSha256": "3d6a5ea74532e856dfd61db74ea1d5dd91a02e3c2992794e7cf26c55f872f4f5"
+    },
+    "headwear/mom-sad-hat-04.webp": {
+      "sha256": "2c54a2c95d64ea18984e3e9233603b1d02a81f3fe007af16ff8a85a1e367de58",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-04",
+      "neck": "rigged/necks/mom-hat-04.webp",
+      "neckSha256": "3d6a5ea74532e856dfd61db74ea1d5dd91a02e3c2992794e7cf26c55f872f4f5"
+    },
+    "headwear/mom-neutral-hat-05.webp": {
+      "sha256": "554385683ec6db10fd147e8908600241eea8f1e4059b6c79e2fddde40d1dc75a",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-05",
+      "neck": "rigged/necks/mom-hat-05.webp",
+      "neckSha256": "3e4614d84d038e55cb41319faf0394f8f51cb2d6bd98dc1a3c49c082f22e006f"
+    },
+    "headwear/mom-happy-hat-05.webp": {
+      "sha256": "25bc7b1a480c4579209a2af6a8925c4a63196e34d78ab32a508bb2423e920b85",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-05",
+      "neck": "rigged/necks/mom-hat-05.webp",
+      "neckSha256": "3e4614d84d038e55cb41319faf0394f8f51cb2d6bd98dc1a3c49c082f22e006f"
+    },
+    "headwear/mom-sad-hat-05.webp": {
+      "sha256": "0f62ab0fc7981e5634af3144734a36ca74c525aabf2aeede1870959b6aa6da41",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-05",
+      "neck": "rigged/necks/mom-hat-05.webp",
+      "neckSha256": "3e4614d84d038e55cb41319faf0394f8f51cb2d6bd98dc1a3c49c082f22e006f"
+    },
+    "headwear/mom-neutral-hat-06.webp": {
+      "sha256": "ba083a7549e878aa519a46fbac005075e9126aac8d2c539a68d0f6f71544e19d",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-06",
+      "neck": "rigged/necks/mom-hat-06.webp",
+      "neckSha256": "bf53ef247d98258be0de6dbd4df879e3e0503531cddb416ab541d5f2c5da30df"
+    },
+    "headwear/mom-happy-hat-06.webp": {
+      "sha256": "324a397a608db93a195f09989a8d0fc2fb865bc2cf3481ec5039c88f6f4b75b1",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-06",
+      "neck": "rigged/necks/mom-hat-06.webp",
+      "neckSha256": "bf53ef247d98258be0de6dbd4df879e3e0503531cddb416ab541d5f2c5da30df"
+    },
+    "headwear/mom-sad-hat-06.webp": {
+      "sha256": "e21f40eeb95028944b57e57e1e919928625bb18a760ebb546b23445a0b126c5c",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-06",
+      "neck": "rigged/necks/mom-hat-06.webp",
+      "neckSha256": "bf53ef247d98258be0de6dbd4df879e3e0503531cddb416ab541d5f2c5da30df"
+    },
+    "headwear/mom-neutral-hat-07.webp": {
+      "sha256": "4bf28c876143523508e14d2e83dc8ab3bdb22d9ab9643cdcaf0d18ef4ecce671",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-07",
+      "neck": "rigged/necks/mom-hat-07.webp",
+      "neckSha256": "05d9024bc9b446c594cc11f9371cb17cc406621e2a48dd8527faa5364ac72b21"
+    },
+    "headwear/mom-happy-hat-07.webp": {
+      "sha256": "48a2fcbc9638b56bc1b1aa11fb72f6ca9c9ea5878b3358befb1ecb9e35848733",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-07",
+      "neck": "rigged/necks/mom-hat-07.webp",
+      "neckSha256": "05d9024bc9b446c594cc11f9371cb17cc406621e2a48dd8527faa5364ac72b21"
+    },
+    "headwear/mom-sad-hat-07.webp": {
+      "sha256": "8654fad8effc7dd6a475080dc3a4e29676222b4be397eef7ddb506c30246cb3c",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-07",
+      "neck": "rigged/necks/mom-hat-07.webp",
+      "neckSha256": "05d9024bc9b446c594cc11f9371cb17cc406621e2a48dd8527faa5364ac72b21"
+    },
+    "headwear/mom-neutral-hat-08.webp": {
+      "sha256": "f09e77d2de0a1a973f90d515d65bab3c1c6f69f764ccc757fabf509cecb2ba17",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-08",
+      "neck": "rigged/necks/mom-hat-08.webp",
+      "neckSha256": "5a60524103a58bc705aa8ebdb1a295b5dd32a7f5181309a7cdf5a09f91e0f913"
+    },
+    "headwear/mom-happy-hat-08.webp": {
+      "sha256": "e2a2e80f13c72ff4aa5e981af8271a8b14e9a6b303807e557c59772807a2d29d",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-08",
+      "neck": "rigged/necks/mom-hat-08.webp",
+      "neckSha256": "5a60524103a58bc705aa8ebdb1a295b5dd32a7f5181309a7cdf5a09f91e0f913"
+    },
+    "headwear/mom-sad-hat-08.webp": {
+      "sha256": "7a755a4612387cc21d932309e759d532f32a40c395a25c1043768b2fb776cf7a",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-08",
+      "neck": "rigged/necks/mom-hat-08.webp",
+      "neckSha256": "5a60524103a58bc705aa8ebdb1a295b5dd32a7f5181309a7cdf5a09f91e0f913"
+    },
+    "headwear/mom-neutral-hat-09.webp": {
+      "sha256": "d65014b5e7e013b4e5eae8e4b8b927d33953dbafde78fc93fc733725748c24a2",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-09",
+      "neck": "rigged/necks/mom-hat-09.webp",
+      "neckSha256": "d53f3adac3c11be1afe732f7b531aeeaa26de634dd1ef90df7a66cd368be060d"
+    },
+    "headwear/mom-happy-hat-09.webp": {
+      "sha256": "263a56c050fe7b105b307c22e91d61824cd25e164a08027f96f4b96fc5cf2f3c",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-09",
+      "neck": "rigged/necks/mom-hat-09.webp",
+      "neckSha256": "d53f3adac3c11be1afe732f7b531aeeaa26de634dd1ef90df7a66cd368be060d"
+    },
+    "headwear/mom-sad-hat-09.webp": {
+      "sha256": "b82b01575404617eefca5468d96a5ef5fae3e9f4047ddba898b8df29968ce7b3",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-09",
+      "neck": "rigged/necks/mom-hat-09.webp",
+      "neckSha256": "d53f3adac3c11be1afe732f7b531aeeaa26de634dd1ef90df7a66cd368be060d"
+    },
+    "headwear/mom-neutral-hat-10.webp": {
+      "sha256": "ef593f217bbd3e5ac6aee7b35ca6cd42c3b93c6cb0cece9a57597de38f92091b",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-10",
+      "neck": "rigged/necks/mom-hat-10.webp",
+      "neckSha256": "f52e1772c49d6e77b43e2785b84dba4967abdd8bab0b62eeb8d660574f404219"
+    },
+    "headwear/mom-happy-hat-10.webp": {
+      "sha256": "ccbcbc78c1bf6e70311b47960d1eb9ece1cf894fa4d20ea72f4b357f1b17f8e1",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-10",
+      "neck": "rigged/necks/mom-hat-10.webp",
+      "neckSha256": "f52e1772c49d6e77b43e2785b84dba4967abdd8bab0b62eeb8d660574f404219"
+    },
+    "headwear/mom-sad-hat-10.webp": {
+      "sha256": "1b5e54618213c169269e82126b6fcf083c0d8e9d23b76e7e7686d436938a0f36",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-10",
+      "neck": "rigged/necks/mom-hat-10.webp",
+      "neckSha256": "f52e1772c49d6e77b43e2785b84dba4967abdd8bab0b62eeb8d660574f404219"
+    },
+    "headwear/mom-neutral-hat-11.webp": {
+      "sha256": "0f4111fb4e13d0996ecc7b08671467325661f9962956c2d44d3bde7e8d2f73fa",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-11",
+      "neck": "rigged/necks/mom-hat-11.webp",
+      "neckSha256": "4c1522d61e0c7ceef095f746227b5011617c6fd38fbcfa7a14fe75b0ff8311c7"
+    },
+    "headwear/mom-happy-hat-11.webp": {
+      "sha256": "d8d49c22c8eafa773bf72de1e648ef46c2ae50af271acf33947c865fcaacf878",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-11",
+      "neck": "rigged/necks/mom-hat-11.webp",
+      "neckSha256": "4c1522d61e0c7ceef095f746227b5011617c6fd38fbcfa7a14fe75b0ff8311c7"
+    },
+    "headwear/mom-sad-hat-11.webp": {
+      "sha256": "00a44a5ee38768d4851ac96bf7f67888c4c1af38a37eed12ccebd3109dc33d5f",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-11",
+      "neck": "rigged/necks/mom-hat-11.webp",
+      "neckSha256": "4c1522d61e0c7ceef095f746227b5011617c6fd38fbcfa7a14fe75b0ff8311c7"
+    },
+    "headwear/mom-neutral-hat-12.webp": {
+      "sha256": "9e54f70fa30c10f4bb0dc38e470a825d3d1ad9815bc804dda3dd83f5b797baee",
+      "character": "mom",
+      "mood": "neutral",
+      "hat": "hat-12",
+      "neck": "rigged/necks/mom-hat-12.webp",
+      "neckSha256": "b2ea2de224da5d8b8451a32ebf9dc3276ce471f9c59dca29db1182040b94262c"
+    },
+    "headwear/mom-happy-hat-12.webp": {
+      "sha256": "abf6f019b52bc847f0f9fbc7f2fef18ac304175fb17842802d4d436e30c6b454",
+      "character": "mom",
+      "mood": "happy",
+      "hat": "hat-12",
+      "neck": "rigged/necks/mom-hat-12.webp",
+      "neckSha256": "b2ea2de224da5d8b8451a32ebf9dc3276ce471f9c59dca29db1182040b94262c"
+    },
+    "headwear/mom-sad-hat-12.webp": {
+      "sha256": "d32624e345a5b904693ed95e9f59110de00de6a2acffd9b39708f424891a5908",
+      "character": "mom",
+      "mood": "sad",
+      "hat": "hat-12",
+      "neck": "rigged/necks/mom-hat-12.webp",
+      "neckSha256": "b2ea2de224da5d8b8451a32ebf9dc3276ce471f9c59dca29db1182040b94262c"
+    },
+    "headwear/hunho-neutral-bare.webp": {
+      "sha256": "d9a3e406398e478a2fa0e245b706de607dceb413555e5fdf0d21630a977cdd80",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "bare",
+      "neck": "rigged/necks/hunho.webp",
+      "neckSha256": "b6fb30ffec2465b9b79083074e9a53cceb6a55c62c94383d6fecd7878bd26c53"
+    },
+    "headwear/hunho-happy-bare.webp": {
+      "sha256": "9df00dce56ef6ca14dc4698c147c79c8ef7bb744e26fb2a5d7571a81d1442579",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "bare",
+      "neck": "rigged/necks/hunho.webp",
+      "neckSha256": "b6fb30ffec2465b9b79083074e9a53cceb6a55c62c94383d6fecd7878bd26c53"
+    },
+    "headwear/hunho-sad-bare.webp": {
+      "sha256": "28f698c451e0fb5d5143b9aa0aece0ec70a1ccd954268b7ea4e2b16715c48faf",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "bare",
+      "neck": "rigged/necks/hunho.webp",
+      "neckSha256": "b6fb30ffec2465b9b79083074e9a53cceb6a55c62c94383d6fecd7878bd26c53"
+    },
+    "headwear/hunho-neutral-hat-01.webp": {
+      "sha256": "59e02679982538d0bff024dee7d2526cff3aae000b1ca4cbde912d04587a393a",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-01",
+      "neck": "rigged/necks/hunho-hat-01.webp",
+      "neckSha256": "3f7440e47337db2b7e1136653a3f8efa7c8e0823d9d4dd8f64f6981ec7a78bb5"
+    },
+    "headwear/hunho-happy-hat-01.webp": {
+      "sha256": "935e3a2a56c7a8584cab5801961c172ab9c6370ed794530a1c9525ce7bd3ac9a",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-01",
+      "neck": "rigged/necks/hunho-hat-01.webp",
+      "neckSha256": "3f7440e47337db2b7e1136653a3f8efa7c8e0823d9d4dd8f64f6981ec7a78bb5"
+    },
+    "headwear/hunho-sad-hat-01.webp": {
+      "sha256": "316159e17952466cf17af77cdb3c4e2449b05789971d6c5eae8409434a6438b1",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-01",
+      "neck": "rigged/necks/hunho-hat-01.webp",
+      "neckSha256": "3f7440e47337db2b7e1136653a3f8efa7c8e0823d9d4dd8f64f6981ec7a78bb5"
+    },
+    "headwear/hunho-neutral-hat-02.webp": {
+      "sha256": "37d87de522470df36cb5474f2807645ca89bb4f08a4df2f990b2d5692c0e4937",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-02",
+      "neck": "rigged/necks/hunho-hat-02.webp",
+      "neckSha256": "54c38f61323787d178e9af4ba9711420675f5451ae9ef195dfdedc8353d8816e"
+    },
+    "headwear/hunho-happy-hat-02.webp": {
+      "sha256": "1d8a043770cab21df53330e85469fde2cbddcbf66d76f4b54ab3093c542616a3",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-02",
+      "neck": "rigged/necks/hunho-hat-02.webp",
+      "neckSha256": "54c38f61323787d178e9af4ba9711420675f5451ae9ef195dfdedc8353d8816e"
+    },
+    "headwear/hunho-sad-hat-02.webp": {
+      "sha256": "db2778b04fb8d02c5b86c8a8a5cf398d4d41164cfcd27b28cf81892ee1b428d0",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-02",
+      "neck": "rigged/necks/hunho-hat-02.webp",
+      "neckSha256": "54c38f61323787d178e9af4ba9711420675f5451ae9ef195dfdedc8353d8816e"
+    },
+    "headwear/hunho-neutral-hat-03.webp": {
+      "sha256": "5e6c7650daf5bc0c883f2888d9656fd3b9bf72f0800d831528e2788b75c1ba82",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-03",
+      "neck": "rigged/necks/hunho-hat-03.webp",
+      "neckSha256": "237f4d5462e0190bbe4c370b6c857cf11c3aa8a20dda0eac4c986c86df5bd502"
+    },
+    "headwear/hunho-happy-hat-03.webp": {
+      "sha256": "2f2487e317c1eb89bc8eb4cb21c90651ab3b2d836f6d799c1aea30e377a4cad5",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-03",
+      "neck": "rigged/necks/hunho-hat-03.webp",
+      "neckSha256": "237f4d5462e0190bbe4c370b6c857cf11c3aa8a20dda0eac4c986c86df5bd502"
+    },
+    "headwear/hunho-sad-hat-03.webp": {
+      "sha256": "ff96591b948625905e57bf97be8189d13712605b255ef11de93da540f9cb7557",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-03",
+      "neck": "rigged/necks/hunho-hat-03.webp",
+      "neckSha256": "237f4d5462e0190bbe4c370b6c857cf11c3aa8a20dda0eac4c986c86df5bd502"
+    },
+    "headwear/hunho-neutral-hat-04.webp": {
+      "sha256": "9aba350dde43b461eb4cd71536a2e766d13538749e37e0d184a0b84cd5eaecf5",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-04",
+      "neck": "rigged/necks/hunho-hat-04.webp",
+      "neckSha256": "cea70b70553987a65fcb11d034c3c131d189a7b6be73e1075f952fe0afc659ec"
+    },
+    "headwear/hunho-happy-hat-04.webp": {
+      "sha256": "10b6ce7242859575a84a37443f2426d4125b9c4e05cba1d2b67792a98a119a2d",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-04",
+      "neck": "rigged/necks/hunho-hat-04.webp",
+      "neckSha256": "cea70b70553987a65fcb11d034c3c131d189a7b6be73e1075f952fe0afc659ec"
+    },
+    "headwear/hunho-sad-hat-04.webp": {
+      "sha256": "34ed6c84a449d5cd7daa196dccaf32355e8defdd59d8db69051303cdd4cc8c29",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-04",
+      "neck": "rigged/necks/hunho-hat-04.webp",
+      "neckSha256": "cea70b70553987a65fcb11d034c3c131d189a7b6be73e1075f952fe0afc659ec"
+    },
+    "headwear/hunho-neutral-hat-05.webp": {
+      "sha256": "791569a3233b44c6b73f72b307766e88cd617eca35c84f2a0c10d04974dc959e",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-05",
+      "neck": "rigged/necks/hunho-hat-05.webp",
+      "neckSha256": "938fa471523ec68421770ab3f60282eca63d55da0bd021a3d08773e08468cc63"
+    },
+    "headwear/hunho-happy-hat-05.webp": {
+      "sha256": "0328bf23c847716003002334c43c52556bf0ab0cd1380cd9560b9c28ef616388",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-05",
+      "neck": "rigged/necks/hunho-hat-05.webp",
+      "neckSha256": "938fa471523ec68421770ab3f60282eca63d55da0bd021a3d08773e08468cc63"
+    },
+    "headwear/hunho-sad-hat-05.webp": {
+      "sha256": "7a8d937ea4d6bbf1cfb8cf6ea2cac5676e60616444284bb30d08ef31d7fed38b",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-05",
+      "neck": "rigged/necks/hunho-hat-05.webp",
+      "neckSha256": "938fa471523ec68421770ab3f60282eca63d55da0bd021a3d08773e08468cc63"
+    },
+    "headwear/hunho-neutral-hat-06.webp": {
+      "sha256": "eaa4dfcb12dd29fb7e21a52668613c6c63a0d5148a64706fe92622fae21c3950",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-06",
+      "neck": "rigged/necks/hunho-hat-06.webp",
+      "neckSha256": "3809426c9ace959e422b1828832c63fff14dcd0b1bc4908001b8f6379b276f29"
+    },
+    "headwear/hunho-happy-hat-06.webp": {
+      "sha256": "c37c0b62e5e9004a3c4d37d9e67b752fe1c461b35db23731d21599c093107c19",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-06",
+      "neck": "rigged/necks/hunho-hat-06.webp",
+      "neckSha256": "3809426c9ace959e422b1828832c63fff14dcd0b1bc4908001b8f6379b276f29"
+    },
+    "headwear/hunho-sad-hat-06.webp": {
+      "sha256": "e1d182015918f5c73ebb35e3264b187d6b471d48f6b3fd43bbf63bc77b6abc2a",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-06",
+      "neck": "rigged/necks/hunho-hat-06.webp",
+      "neckSha256": "3809426c9ace959e422b1828832c63fff14dcd0b1bc4908001b8f6379b276f29"
+    },
+    "headwear/hunho-neutral-hat-07.webp": {
+      "sha256": "e125804810a770a081052ab24e3b1fb621c5f997d5b3319365615d943bfda850",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-07",
+      "neck": "rigged/necks/hunho-hat-07.webp",
+      "neckSha256": "cb41dfb1fb10bc51a716779c360a251779029a17911af952004a54d445fbb43b"
+    },
+    "headwear/hunho-happy-hat-07.webp": {
+      "sha256": "b933eaa8ec1c4069a2716786a2f94daca6b4890ed6fb43f2bc70e8a238aed4e5",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-07",
+      "neck": "rigged/necks/hunho-hat-07.webp",
+      "neckSha256": "cb41dfb1fb10bc51a716779c360a251779029a17911af952004a54d445fbb43b"
+    },
+    "headwear/hunho-sad-hat-07.webp": {
+      "sha256": "c2087c603531d0b628ef3e0813adbcf2ec378c597dadad3dcb9377c5d96a843f",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-07",
+      "neck": "rigged/necks/hunho-hat-07.webp",
+      "neckSha256": "cb41dfb1fb10bc51a716779c360a251779029a17911af952004a54d445fbb43b"
+    },
+    "headwear/hunho-neutral-hat-08.webp": {
+      "sha256": "64b146df6088c2308e15755b186039c2d61e7b58d40311c607ac08aa52eab91d",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-08",
+      "neck": "rigged/necks/hunho-hat-08.webp",
+      "neckSha256": "31db6ca1dbf9f8bf751c8f1b2d3f35f2613a2c09f41a77a0cf4c9253413dc860"
+    },
+    "headwear/hunho-happy-hat-08.webp": {
+      "sha256": "7f4a044c42145138e4923dd3539278b962f8aa8b386e8c8bb58674b9d7b23678",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-08",
+      "neck": "rigged/necks/hunho-hat-08.webp",
+      "neckSha256": "31db6ca1dbf9f8bf751c8f1b2d3f35f2613a2c09f41a77a0cf4c9253413dc860"
+    },
+    "headwear/hunho-sad-hat-08.webp": {
+      "sha256": "e4ccc205d0e960606565c124119df9472c7a1c8f8f206f5e154599563ddee4a9",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-08",
+      "neck": "rigged/necks/hunho-hat-08.webp",
+      "neckSha256": "31db6ca1dbf9f8bf751c8f1b2d3f35f2613a2c09f41a77a0cf4c9253413dc860"
+    },
+    "headwear/hunho-neutral-hat-09.webp": {
+      "sha256": "438a85b918c1ba853d710db9ea15a8283d4db8c3271db146137b07f888c03a2d",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-09",
+      "neck": "rigged/necks/hunho-hat-09.webp",
+      "neckSha256": "d815d293ba7c5f49243705c5207daf81ec103f8f19d85bc6760420d98ecbd256"
+    },
+    "headwear/hunho-happy-hat-09.webp": {
+      "sha256": "c4ab48f3cc7de03a53fa75cfd47f6ae08e9cd5c9d08278e3bec5b2cb429a1017",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-09",
+      "neck": "rigged/necks/hunho-hat-09.webp",
+      "neckSha256": "d815d293ba7c5f49243705c5207daf81ec103f8f19d85bc6760420d98ecbd256"
+    },
+    "headwear/hunho-sad-hat-09.webp": {
+      "sha256": "3e4d16a8e5fe24f6b9c192b47150440167f1e2db4e5219d86f4a834154b8a194",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-09",
+      "neck": "rigged/necks/hunho-hat-09.webp",
+      "neckSha256": "d815d293ba7c5f49243705c5207daf81ec103f8f19d85bc6760420d98ecbd256"
+    },
+    "headwear/hunho-neutral-hat-10.webp": {
+      "sha256": "613a8d753b12eacd8dac33b2be71a50780a71bd46c506880b072d66652cd3b77",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-10",
+      "neck": "rigged/necks/hunho-hat-10.webp",
+      "neckSha256": "dd5affd05f773e2976ca50af7e496d7f02c707b7d845f7ad2ceed8a36f4953d5"
+    },
+    "headwear/hunho-happy-hat-10.webp": {
+      "sha256": "64b6d7a51f5e8c7fe2a9067edb34b4ff04ea3857005b572ceee0d5d5f5a1e17b",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-10",
+      "neck": "rigged/necks/hunho-hat-10.webp",
+      "neckSha256": "dd5affd05f773e2976ca50af7e496d7f02c707b7d845f7ad2ceed8a36f4953d5"
+    },
+    "headwear/hunho-sad-hat-10.webp": {
+      "sha256": "1b05faaeb339b134d0b56b70ce3db22d695528aebcbbf9a3304475059f57d06e",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-10",
+      "neck": "rigged/necks/hunho-hat-10.webp",
+      "neckSha256": "dd5affd05f773e2976ca50af7e496d7f02c707b7d845f7ad2ceed8a36f4953d5"
+    },
+    "headwear/hunho-neutral-hat-11.webp": {
+      "sha256": "da81af7ed9eec4341ffe95a5fe58569c4dd34401992a843160bf136eeb650ba9",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-11",
+      "neck": "rigged/necks/hunho-hat-11.webp",
+      "neckSha256": "e64ef9ef9a755981564b6a25c05190bd223323b3507bd85c32af1fbbc1f05b5a"
+    },
+    "headwear/hunho-happy-hat-11.webp": {
+      "sha256": "c6f4ef520e7462f0a7e5ea2b6c9b0dfc80f31b7b39b36d2f7759f4cc0f8ec0e1",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-11",
+      "neck": "rigged/necks/hunho-hat-11.webp",
+      "neckSha256": "e64ef9ef9a755981564b6a25c05190bd223323b3507bd85c32af1fbbc1f05b5a"
+    },
+    "headwear/hunho-sad-hat-11.webp": {
+      "sha256": "9252acf220f763784b0164847bc42a4fe7136a5bba756959b71cc5c313416b53",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-11",
+      "neck": "rigged/necks/hunho-hat-11.webp",
+      "neckSha256": "e64ef9ef9a755981564b6a25c05190bd223323b3507bd85c32af1fbbc1f05b5a"
+    },
+    "headwear/hunho-neutral-hat-12.webp": {
+      "sha256": "7434604885ec6c05f2c1177f39e9ab5ca7f183f1bab36e69d2245c2d94caed6b",
+      "character": "hunho",
+      "mood": "neutral",
+      "hat": "hat-12",
+      "neck": "rigged/necks/hunho-hat-12.webp",
+      "neckSha256": "03eb2106423a266fece67447ff232a7bdce195446f963390d6339893de918b7a"
+    },
+    "headwear/hunho-happy-hat-12.webp": {
+      "sha256": "842532026b80b38220293cefaeb486a3a2e51d8a084be8d5a1bbf68e78f1ffb0",
+      "character": "hunho",
+      "mood": "happy",
+      "hat": "hat-12",
+      "neck": "rigged/necks/hunho-hat-12.webp",
+      "neckSha256": "03eb2106423a266fece67447ff232a7bdce195446f963390d6339893de918b7a"
+    },
+    "headwear/hunho-sad-hat-12.webp": {
+      "sha256": "c342a826312ad0f46b340e57f694cb3bff9c2eebda55d7d2fe771d948ce79fdb",
+      "character": "hunho",
+      "mood": "sad",
+      "hat": "hat-12",
+      "neck": "rigged/necks/hunho-hat-12.webp",
+      "neckSha256": "03eb2106423a266fece67447ff232a7bdce195446f963390d6339893de918b7a"
+    },
+    "headwear/jeongan-neutral-bare.webp": {
+      "sha256": "428ed30e860e34c7b35c09f0a5c4fbe7bed64f64de3a3b0a0d5dda11b89825ee",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "bare",
+      "neck": "rigged/necks/jeongan.webp",
+      "neckSha256": "a048ee67b1b31f6ca902298a9212297b0b710dfb05f6106be720f6f319106e0e"
+    },
+    "headwear/jeongan-happy-bare.webp": {
+      "sha256": "f1f85db69c1185738753212fe33f3cbad5d8f2f33f40664f0f249ab21252c71b",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "bare",
+      "neck": "rigged/necks/jeongan.webp",
+      "neckSha256": "a048ee67b1b31f6ca902298a9212297b0b710dfb05f6106be720f6f319106e0e"
+    },
+    "headwear/jeongan-sad-bare.webp": {
+      "sha256": "80f00fd410cc608520c24b45e10575c4a25cb336e6c55c59c162703c84c2e6d6",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "bare",
+      "neck": "rigged/necks/jeongan.webp",
+      "neckSha256": "a048ee67b1b31f6ca902298a9212297b0b710dfb05f6106be720f6f319106e0e"
+    },
+    "headwear/jeongan-neutral-hat-01.webp": {
+      "sha256": "63631263a03614f3f3dcc0c808767f8101b701c93062e459d324f0ed9b5be8d8",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-01",
+      "neck": "rigged/necks/jeongan-hat-01.webp",
+      "neckSha256": "9af6fb46a801dfc6e173c38eefa8ce6f3df2160568fc78e14ca07e83492f5675"
+    },
+    "headwear/jeongan-happy-hat-01.webp": {
+      "sha256": "3b4a7949a1790486dadd1ba54313fc39de7ac77c21d8935ebcc00395224076e7",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-01",
+      "neck": "rigged/necks/jeongan-hat-01.webp",
+      "neckSha256": "9af6fb46a801dfc6e173c38eefa8ce6f3df2160568fc78e14ca07e83492f5675"
+    },
+    "headwear/jeongan-sad-hat-01.webp": {
+      "sha256": "deab0aa0800ecfe32862ff79b8f0b1f17da184236e354c0e09da3df71464313b",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-01",
+      "neck": "rigged/necks/jeongan-hat-01.webp",
+      "neckSha256": "9af6fb46a801dfc6e173c38eefa8ce6f3df2160568fc78e14ca07e83492f5675"
+    },
+    "headwear/jeongan-neutral-hat-02.webp": {
+      "sha256": "0c8deeeed09384056d23034ac4fa15bafeb7861874ba0ebc21cf659f2d3b2ce6",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-02",
+      "neck": "rigged/necks/jeongan-hat-02.webp",
+      "neckSha256": "668e79dcc9916498a76cea1ffcc1c75177ae8093ec50ca7eba18fe62def6959f"
+    },
+    "headwear/jeongan-happy-hat-02.webp": {
+      "sha256": "d03375ce0a6ce20d33325580a6ba9f5e3e20006661c929766cf0c091f295ab25",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-02",
+      "neck": "rigged/necks/jeongan-hat-02.webp",
+      "neckSha256": "668e79dcc9916498a76cea1ffcc1c75177ae8093ec50ca7eba18fe62def6959f"
+    },
+    "headwear/jeongan-sad-hat-02.webp": {
+      "sha256": "67743ef0015884c4194b1d6ce81790ac43e525d8a3611a7d10227bb261a1cd35",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-02",
+      "neck": "rigged/necks/jeongan-hat-02.webp",
+      "neckSha256": "668e79dcc9916498a76cea1ffcc1c75177ae8093ec50ca7eba18fe62def6959f"
+    },
+    "headwear/jeongan-neutral-hat-03.webp": {
+      "sha256": "923d4a79c4f4050e8c4449a18091e5f2f9f7b9ac19da2b1aa24be2c6adad6280",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-03",
+      "neck": "rigged/necks/jeongan-hat-03.webp",
+      "neckSha256": "233e04f9753eb805fab0d00b4c28a572595ef24cd5846f8030e7750683723fc3"
+    },
+    "headwear/jeongan-happy-hat-03.webp": {
+      "sha256": "e6a433eca4e834bfeb89a2c9a3dd0e5571d7172e5ea45c83b98ff7165d8fa62a",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-03",
+      "neck": "rigged/necks/jeongan-hat-03.webp",
+      "neckSha256": "233e04f9753eb805fab0d00b4c28a572595ef24cd5846f8030e7750683723fc3"
+    },
+    "headwear/jeongan-sad-hat-03.webp": {
+      "sha256": "240cf3797bc50141796bbd3b35b839c16620c624bb481dc7c70ef99362d65777",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-03",
+      "neck": "rigged/necks/jeongan-hat-03.webp",
+      "neckSha256": "233e04f9753eb805fab0d00b4c28a572595ef24cd5846f8030e7750683723fc3"
+    },
+    "headwear/jeongan-neutral-hat-04.webp": {
+      "sha256": "654e0ad6360e21cd4423655952f87e1c6624d75ffe2c508a91d689fec7368da6",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-04",
+      "neck": "rigged/necks/jeongan-hat-04.webp",
+      "neckSha256": "88471817cf14d57a30fe117e94697e31f4a5fd2a81752505eb06c0e26a646d83"
+    },
+    "headwear/jeongan-happy-hat-04.webp": {
+      "sha256": "52c741e37ac477441526cfd7b5b4eb18cd5110a72641d84a7700fdbf94a653db",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-04",
+      "neck": "rigged/necks/jeongan-hat-04.webp",
+      "neckSha256": "88471817cf14d57a30fe117e94697e31f4a5fd2a81752505eb06c0e26a646d83"
+    },
+    "headwear/jeongan-sad-hat-04.webp": {
+      "sha256": "7795792252c4c8eec2fd35d5d1f9e551e935afa4979784a041f5083a4a859db2",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-04",
+      "neck": "rigged/necks/jeongan-hat-04.webp",
+      "neckSha256": "88471817cf14d57a30fe117e94697e31f4a5fd2a81752505eb06c0e26a646d83"
+    },
+    "headwear/jeongan-neutral-hat-05.webp": {
+      "sha256": "52996e86d4991476fa62c0e76e4ebd86e01e8f8fd1cceb28b0a640d0be35edb6",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-05",
+      "neck": "rigged/necks/jeongan-hat-05.webp",
+      "neckSha256": "aa91f51a3964475e13a1cc1aedc0b1934cf4c0568310927729a56e3112cf3874"
+    },
+    "headwear/jeongan-happy-hat-05.webp": {
+      "sha256": "ffad129c9abef6b42be0be3210e1e5bf205d264274ec62a810d22cfbe6dd5110",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-05",
+      "neck": "rigged/necks/jeongan-hat-05.webp",
+      "neckSha256": "aa91f51a3964475e13a1cc1aedc0b1934cf4c0568310927729a56e3112cf3874"
+    },
+    "headwear/jeongan-sad-hat-05.webp": {
+      "sha256": "852f68476c110f331ef8a1917a07d4e0617901b3ee4f7356e1c65ab2a8483939",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-05",
+      "neck": "rigged/necks/jeongan-hat-05.webp",
+      "neckSha256": "aa91f51a3964475e13a1cc1aedc0b1934cf4c0568310927729a56e3112cf3874"
+    },
+    "headwear/jeongan-neutral-hat-06.webp": {
+      "sha256": "d5645479f79488ebfa7c6965126d4446c1384074fc7f138c12c42bb6323a0ac6",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-06",
+      "neck": "rigged/necks/jeongan-hat-06.webp",
+      "neckSha256": "58319628e9ecaf107465d06547ce4f8c6cc41554289811ccab7e9ff0e630394a"
+    },
+    "headwear/jeongan-happy-hat-06.webp": {
+      "sha256": "1bbab79de8d4dd075b270dd49cf0fb1be390caf5e2030de596a04bc1fa963d27",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-06",
+      "neck": "rigged/necks/jeongan-hat-06.webp",
+      "neckSha256": "58319628e9ecaf107465d06547ce4f8c6cc41554289811ccab7e9ff0e630394a"
+    },
+    "headwear/jeongan-sad-hat-06.webp": {
+      "sha256": "b78bfc57bda2e48ed4c7b055ada9d589fbc639e65c55c40acfa8237bf2321948",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-06",
+      "neck": "rigged/necks/jeongan-hat-06.webp",
+      "neckSha256": "58319628e9ecaf107465d06547ce4f8c6cc41554289811ccab7e9ff0e630394a"
+    },
+    "headwear/jeongan-neutral-hat-07.webp": {
+      "sha256": "aa55883ef10edd1a4e4f5c1b58c9634842114bd2c1c6451646e590088af29889",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-07",
+      "neck": "rigged/necks/jeongan-hat-07.webp",
+      "neckSha256": "e22a32528a5079f31837811a28f4f081d0fa8aeb6c7cd6a9e6372fa2ea952911"
+    },
+    "headwear/jeongan-happy-hat-07.webp": {
+      "sha256": "e2d251f54d2dbc251eae1b72f5d69633c577e8c7d5060d23ff521b43a088a423",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-07",
+      "neck": "rigged/necks/jeongan-hat-07.webp",
+      "neckSha256": "e22a32528a5079f31837811a28f4f081d0fa8aeb6c7cd6a9e6372fa2ea952911"
+    },
+    "headwear/jeongan-sad-hat-07.webp": {
+      "sha256": "915e0cbf40c1aa0a0a135996b5ddd26901df4049a0c6b9dabd547d848cfcc7b0",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-07",
+      "neck": "rigged/necks/jeongan-hat-07.webp",
+      "neckSha256": "e22a32528a5079f31837811a28f4f081d0fa8aeb6c7cd6a9e6372fa2ea952911"
+    },
+    "headwear/jeongan-neutral-hat-08.webp": {
+      "sha256": "2f00b6ccde598333e4406a5896cfbe94dc3896190a02e2f4dd268eedf3ddb938",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-08",
+      "neck": "rigged/necks/jeongan-hat-08.webp",
+      "neckSha256": "54e190d916937d5d8507c37919dd50919942dfb44feee30f6dc09ec8400e713e"
+    },
+    "headwear/jeongan-happy-hat-08.webp": {
+      "sha256": "427e2ee30fa79aa40171636985301ea84591cec3a9ef6091080b5e4dd1dbe97a",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-08",
+      "neck": "rigged/necks/jeongan-hat-08.webp",
+      "neckSha256": "54e190d916937d5d8507c37919dd50919942dfb44feee30f6dc09ec8400e713e"
+    },
+    "headwear/jeongan-sad-hat-08.webp": {
+      "sha256": "b8d2f5d0ad5a8c731d9bb9791ed61c52e724da2a2cfd91e5e0dc1b71575a57a4",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-08",
+      "neck": "rigged/necks/jeongan-hat-08.webp",
+      "neckSha256": "54e190d916937d5d8507c37919dd50919942dfb44feee30f6dc09ec8400e713e"
+    },
+    "headwear/jeongan-neutral-hat-09.webp": {
+      "sha256": "7f07c886ee0974638ff87793221371c62ec5ff95f8fb0cb25dbcf8dbe3c1752a",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-09",
+      "neck": "rigged/necks/jeongan-hat-09.webp",
+      "neckSha256": "1d48ae33d95f5df93b9b6771d168be44dab91459890fdd6a283a64514ee3c4fc"
+    },
+    "headwear/jeongan-happy-hat-09.webp": {
+      "sha256": "26cddbf970330754644047b7a93c1cc56a9d58c6adff5f571ee4d0115f5b7059",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-09",
+      "neck": "rigged/necks/jeongan-hat-09.webp",
+      "neckSha256": "1d48ae33d95f5df93b9b6771d168be44dab91459890fdd6a283a64514ee3c4fc"
+    },
+    "headwear/jeongan-sad-hat-09.webp": {
+      "sha256": "76e29dd3400ed4f60e1c3d144f863e0ec046d79e59d424d9634e43019749d534",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-09",
+      "neck": "rigged/necks/jeongan-hat-09.webp",
+      "neckSha256": "1d48ae33d95f5df93b9b6771d168be44dab91459890fdd6a283a64514ee3c4fc"
+    },
+    "headwear/jeongan-neutral-hat-10.webp": {
+      "sha256": "e5c2a6a174d4a546de82e16684c4399fe1e1a2c80d191c88842013b30616560d",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-10",
+      "neck": "rigged/necks/jeongan-hat-10.webp",
+      "neckSha256": "13681e10600e8a2fdc48967ddc414b25a59a949f3ef9c2cd044aca0218c5f58f"
+    },
+    "headwear/jeongan-happy-hat-10.webp": {
+      "sha256": "771d25b1da5c21f3a2ff0538b10b6dc1f0a1d41004aca362584eab3f0c80214b",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-10",
+      "neck": "rigged/necks/jeongan-hat-10.webp",
+      "neckSha256": "13681e10600e8a2fdc48967ddc414b25a59a949f3ef9c2cd044aca0218c5f58f"
+    },
+    "headwear/jeongan-sad-hat-10.webp": {
+      "sha256": "04e2e9134c6bafd05bfa90a61a672174b28b7716673427963b6f8a4b36037ce8",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-10",
+      "neck": "rigged/necks/jeongan-hat-10.webp",
+      "neckSha256": "13681e10600e8a2fdc48967ddc414b25a59a949f3ef9c2cd044aca0218c5f58f"
+    },
+    "headwear/jeongan-neutral-hat-11.webp": {
+      "sha256": "00105a018c6273f011d59e0358ec2b02fb483bb5097ea9d3825fdc03cd81fca3",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-11",
+      "neck": "rigged/necks/jeongan-hat-11.webp",
+      "neckSha256": "5467bc75cf8801decda1c507d7580ac7e7e6d9b595851ef238e7b5e7578bdbaf"
+    },
+    "headwear/jeongan-happy-hat-11.webp": {
+      "sha256": "96c83d6452ab598a37f18bb7145c01b9e0894f8678b350edb1308215ad0880ab",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-11",
+      "neck": "rigged/necks/jeongan-hat-11.webp",
+      "neckSha256": "5467bc75cf8801decda1c507d7580ac7e7e6d9b595851ef238e7b5e7578bdbaf"
+    },
+    "headwear/jeongan-sad-hat-11.webp": {
+      "sha256": "de0c5f2cf51cdcf4d94425052fe2ac1772e9c8efbbed75f1a65162cf724878d8",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-11",
+      "neck": "rigged/necks/jeongan-hat-11.webp",
+      "neckSha256": "5467bc75cf8801decda1c507d7580ac7e7e6d9b595851ef238e7b5e7578bdbaf"
+    },
+    "headwear/jeongan-neutral-hat-12.webp": {
+      "sha256": "4b52e7a82db2eddbaeb59d83b5728a90c03bb64a1717efa101073f93a29d087b",
+      "character": "jeongan",
+      "mood": "neutral",
+      "hat": "hat-12",
+      "neck": "rigged/necks/jeongan-hat-12.webp",
+      "neckSha256": "7568aff7ffec64cf51374def710ff442e770c407014962fa215312a1d0e314b1"
+    },
+    "headwear/jeongan-happy-hat-12.webp": {
+      "sha256": "69acad813d6df708bbfaac839e3ee507c4bdee95881174b07e0f2443a5fae577",
+      "character": "jeongan",
+      "mood": "happy",
+      "hat": "hat-12",
+      "neck": "rigged/necks/jeongan-hat-12.webp",
+      "neckSha256": "7568aff7ffec64cf51374def710ff442e770c407014962fa215312a1d0e314b1"
+    },
+    "headwear/jeongan-sad-hat-12.webp": {
+      "sha256": "70573c40d41198faf43b46f16dac18d5252b3984bcfd077009c7b92f91867376",
+      "character": "jeongan",
+      "mood": "sad",
+      "hat": "hat-12",
+      "neck": "rigged/necks/jeongan-hat-12.webp",
+      "neckSha256": "7568aff7ffec64cf51374def710ff442e770c407014962fa215312a1d0e314b1"
+    },
+    "headwear/suan-neutral-bare.webp": {
+      "sha256": "71b49f1bc96d3a1897dfed2f0b25fd423a58a2b2c51fb8e2e000ade8761dd546",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "bare",
+      "neck": "rigged/necks/suan.webp",
+      "neckSha256": "ae5ca86065f1e09c80f4f6cb9fb1bdbd43844dd6a574353113f05e6e5180d1fb"
+    },
+    "headwear/suan-happy-bare.webp": {
+      "sha256": "9221e60f9bc12ddabaa7418a325c1ebcc20ead79607cd33aa13d7850b2f54ab2",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "bare",
+      "neck": "rigged/necks/suan.webp",
+      "neckSha256": "ae5ca86065f1e09c80f4f6cb9fb1bdbd43844dd6a574353113f05e6e5180d1fb"
+    },
+    "headwear/suan-sad-bare.webp": {
+      "sha256": "3fb3acd949313d78338bf5ab18b52d2f3b639bbfbb0ad6d026df7e954b0c6bd7",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "bare",
+      "neck": "rigged/necks/suan.webp",
+      "neckSha256": "ae5ca86065f1e09c80f4f6cb9fb1bdbd43844dd6a574353113f05e6e5180d1fb"
+    },
+    "headwear/suan-neutral-hat-01.webp": {
+      "sha256": "a5f34f77027f4ca370b7facb2637407f50338a90ba63e72458c0ce45ca216c31",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-01",
+      "neck": "rigged/necks/suan-hat-01.webp",
+      "neckSha256": "0db5cba8160609fe610d953498836792f3d3b1d1b03bd9eac8568a2f538b0a5f"
+    },
+    "headwear/suan-happy-hat-01.webp": {
+      "sha256": "a1940a520779419291afb433dc967e71592691e79c4d3c3992a6f607d52ae7f4",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-01",
+      "neck": "rigged/necks/suan-hat-01.webp",
+      "neckSha256": "0db5cba8160609fe610d953498836792f3d3b1d1b03bd9eac8568a2f538b0a5f"
+    },
+    "headwear/suan-sad-hat-01.webp": {
+      "sha256": "99036772719426c4e41159ac7ffee972c1706f7e76f4abb698c5f1123cd0f3fa",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-01",
+      "neck": "rigged/necks/suan-hat-01.webp",
+      "neckSha256": "0db5cba8160609fe610d953498836792f3d3b1d1b03bd9eac8568a2f538b0a5f"
+    },
+    "headwear/suan-neutral-hat-02.webp": {
+      "sha256": "fc695cbc0fb1f7506c8c799164106e736c2aae3a58c272179031c6666f9c4f87",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-02",
+      "neck": "rigged/necks/suan-hat-02.webp",
+      "neckSha256": "959504ff03ca1311f22ece4c1153e6d74b0a851f3533eb817016216c1de3bc64"
+    },
+    "headwear/suan-happy-hat-02.webp": {
+      "sha256": "880ba1a6ccffb34f6d8f4c7f2016d219a0e2dd1751cd91e79c636aae543f2150",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-02",
+      "neck": "rigged/necks/suan-hat-02.webp",
+      "neckSha256": "959504ff03ca1311f22ece4c1153e6d74b0a851f3533eb817016216c1de3bc64"
+    },
+    "headwear/suan-sad-hat-02.webp": {
+      "sha256": "6d30ed1b8ca67254ab11e16337c8a0ae723784d51cb5a44210b836c62ec49d0f",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-02",
+      "neck": "rigged/necks/suan-hat-02.webp",
+      "neckSha256": "959504ff03ca1311f22ece4c1153e6d74b0a851f3533eb817016216c1de3bc64"
+    },
+    "headwear/suan-neutral-hat-03.webp": {
+      "sha256": "1a72e3c91c0d5242a856edae0c71de3bfcb260293ee8194054ccc11b946de362",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-03",
+      "neck": "rigged/necks/suan-hat-03.webp",
+      "neckSha256": "c020ccf90367bdfb339236e8ee1606178bbeb3c3f0a83e7a3d64e06f44904ec7"
+    },
+    "headwear/suan-happy-hat-03.webp": {
+      "sha256": "1df8b8e83a7a950db42152b75d0d4faae974157cb3bc010451b8f45d9a7d5b84",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-03",
+      "neck": "rigged/necks/suan-hat-03.webp",
+      "neckSha256": "c020ccf90367bdfb339236e8ee1606178bbeb3c3f0a83e7a3d64e06f44904ec7"
+    },
+    "headwear/suan-sad-hat-03.webp": {
+      "sha256": "0f0b6cf80fc90ced503f632bf9bcedc8dfec9b3f2c9761a2267397dc0a5b223d",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-03",
+      "neck": "rigged/necks/suan-hat-03.webp",
+      "neckSha256": "c020ccf90367bdfb339236e8ee1606178bbeb3c3f0a83e7a3d64e06f44904ec7"
+    },
+    "headwear/suan-neutral-hat-04.webp": {
+      "sha256": "f9d8a879d1d709dd1a9358c363ac011192fe77a3e9b1c5c0bcedebb7479ac17c",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-04",
+      "neck": "rigged/necks/suan-hat-04.webp",
+      "neckSha256": "a63c1bbe703bc2a1a528ba28272b7176662943ae96925b96ffa02ddf6aa5c8da"
+    },
+    "headwear/suan-happy-hat-04.webp": {
+      "sha256": "889a37a0d9ffec0198d390a16aa462369b63f253b6870a20e963a14ec4240b70",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-04",
+      "neck": "rigged/necks/suan-hat-04.webp",
+      "neckSha256": "a63c1bbe703bc2a1a528ba28272b7176662943ae96925b96ffa02ddf6aa5c8da"
+    },
+    "headwear/suan-sad-hat-04.webp": {
+      "sha256": "0fd06600b7ff2333819f9ca944c0ac6a8fcbdb9ff9ee37859758806e15add0d0",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-04",
+      "neck": "rigged/necks/suan-hat-04.webp",
+      "neckSha256": "a63c1bbe703bc2a1a528ba28272b7176662943ae96925b96ffa02ddf6aa5c8da"
+    },
+    "headwear/suan-neutral-hat-05.webp": {
+      "sha256": "38358c7b7d256229f66910c6d22dd10586671d46635c76ed377f28bdf390a020",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-05",
+      "neck": "rigged/necks/suan-hat-05.webp",
+      "neckSha256": "330b77a7c00dacc8a252c760dee29cd5befd7c1aeb8198d679af858536e56531"
+    },
+    "headwear/suan-happy-hat-05.webp": {
+      "sha256": "619b88f0319ada46d05619eb18a1e9ffa981a6d22ba3bc704a3746fa4576b119",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-05",
+      "neck": "rigged/necks/suan-hat-05.webp",
+      "neckSha256": "330b77a7c00dacc8a252c760dee29cd5befd7c1aeb8198d679af858536e56531"
+    },
+    "headwear/suan-sad-hat-05.webp": {
+      "sha256": "38703b644ab2f229df56b8a3f753131771f2aef7f5a7e17a161d128046f2ac41",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-05",
+      "neck": "rigged/necks/suan-hat-05.webp",
+      "neckSha256": "330b77a7c00dacc8a252c760dee29cd5befd7c1aeb8198d679af858536e56531"
+    },
+    "headwear/suan-neutral-hat-06.webp": {
+      "sha256": "1a43e54d670e1c942970e4fc8ae3a41891b4451cbdaec52f5b5ef7a5fec5f726",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-06",
+      "neck": "rigged/necks/suan-hat-06.webp",
+      "neckSha256": "dd01fd0b8380700784593d88e57136899d63a1fef3811536eef64e5fc96168fa"
+    },
+    "headwear/suan-happy-hat-06.webp": {
+      "sha256": "e89bcf88c3a2149340d04427d1a1c5fd3fc262f9c53135d6c50d7c6963b31c1d",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-06",
+      "neck": "rigged/necks/suan-hat-06.webp",
+      "neckSha256": "dd01fd0b8380700784593d88e57136899d63a1fef3811536eef64e5fc96168fa"
+    },
+    "headwear/suan-sad-hat-06.webp": {
+      "sha256": "d41c823e7e27320cb9b4e8002bdf300e344e2125474173d1a3b69192ce7aa63d",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-06",
+      "neck": "rigged/necks/suan-hat-06.webp",
+      "neckSha256": "dd01fd0b8380700784593d88e57136899d63a1fef3811536eef64e5fc96168fa"
+    },
+    "headwear/suan-neutral-hat-07.webp": {
+      "sha256": "242da0bfc13293685200e14328cee4ba39c2de01ca381b7a21f0a9fbe224ec18",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-07",
+      "neck": "rigged/necks/suan-hat-07.webp",
+      "neckSha256": "d5baa864c9f6ee5b033d424877eb915e50f601dfc8c9b94adcdeccd44082f737"
+    },
+    "headwear/suan-happy-hat-07.webp": {
+      "sha256": "81f2fa3854116eb4c434aa1ec7eaacce9f2ab95a42e45ba640d7d35b2e42d1db",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-07",
+      "neck": "rigged/necks/suan-hat-07.webp",
+      "neckSha256": "d5baa864c9f6ee5b033d424877eb915e50f601dfc8c9b94adcdeccd44082f737"
+    },
+    "headwear/suan-sad-hat-07.webp": {
+      "sha256": "4deeb3f487aa3b1f646e2db4080210ebe402fc85bd153c33bc9171bfe1c9142c",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-07",
+      "neck": "rigged/necks/suan-hat-07.webp",
+      "neckSha256": "d5baa864c9f6ee5b033d424877eb915e50f601dfc8c9b94adcdeccd44082f737"
+    },
+    "headwear/suan-neutral-hat-08.webp": {
+      "sha256": "aa77d17f55f1b7303937c582e693f1953be360e23053e028d7c203ab1cfa1b3b",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-08",
+      "neck": "rigged/necks/suan-hat-08.webp",
+      "neckSha256": "c1726c0d0642497b82e6eda5bc300f4ed24831c11141b8e1c6578217346dc610"
+    },
+    "headwear/suan-happy-hat-08.webp": {
+      "sha256": "43bd293fc317369f091a3fdc7daf5657379c0332cc758393b2b1f6aaa8ddde06",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-08",
+      "neck": "rigged/necks/suan-hat-08.webp",
+      "neckSha256": "c1726c0d0642497b82e6eda5bc300f4ed24831c11141b8e1c6578217346dc610"
+    },
+    "headwear/suan-sad-hat-08.webp": {
+      "sha256": "45f825d2b72bf4d03bda814d4cf09ff9b92cab9b5eb0aed916570aeda0ee2a53",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-08",
+      "neck": "rigged/necks/suan-hat-08.webp",
+      "neckSha256": "c1726c0d0642497b82e6eda5bc300f4ed24831c11141b8e1c6578217346dc610"
+    },
+    "headwear/suan-neutral-hat-09.webp": {
+      "sha256": "cae36e39d0060c858e4f9fdf947e41242436047a4d855e5e8d6400d62994b445",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-09",
+      "neck": "rigged/necks/suan-hat-09.webp",
+      "neckSha256": "bcf14be156368807f5b149b6fc5d7fc24bda109df637f01ab1ab330d6b58f18c"
+    },
+    "headwear/suan-happy-hat-09.webp": {
+      "sha256": "ac9a0e0ddba9c4b0c9fbb6beb511dc4891e7531d10965f7d9135f96580f6bd66",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-09",
+      "neck": "rigged/necks/suan-hat-09.webp",
+      "neckSha256": "bcf14be156368807f5b149b6fc5d7fc24bda109df637f01ab1ab330d6b58f18c"
+    },
+    "headwear/suan-sad-hat-09.webp": {
+      "sha256": "e059e7be2b3ce9f06df1e0afaf9b8d2218b0d5e506a20667a5326ce5ecdd8d54",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-09",
+      "neck": "rigged/necks/suan-hat-09.webp",
+      "neckSha256": "bcf14be156368807f5b149b6fc5d7fc24bda109df637f01ab1ab330d6b58f18c"
+    },
+    "headwear/suan-neutral-hat-10.webp": {
+      "sha256": "f2ad98686ea55615cf1494a5ce99ec90d94a6d2413a8457d8efebdcc9b5a0048",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-10",
+      "neck": "rigged/necks/suan-hat-10.webp",
+      "neckSha256": "841f2543796eae67273522a8e68e59403e4b92b3dc798866de58a820e2d16105"
+    },
+    "headwear/suan-happy-hat-10.webp": {
+      "sha256": "0ad555e26d8ad745dbfc1318f3abf627bc4ceecfa8dbf2d4bd245abdf3c13159",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-10",
+      "neck": "rigged/necks/suan-hat-10.webp",
+      "neckSha256": "841f2543796eae67273522a8e68e59403e4b92b3dc798866de58a820e2d16105"
+    },
+    "headwear/suan-sad-hat-10.webp": {
+      "sha256": "05fae7eb33b3db2a345b89a8abe2ad34a2bb7a3dd37a54ab6d915be7dd81331b",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-10",
+      "neck": "rigged/necks/suan-hat-10.webp",
+      "neckSha256": "841f2543796eae67273522a8e68e59403e4b92b3dc798866de58a820e2d16105"
+    },
+    "headwear/suan-neutral-hat-11.webp": {
+      "sha256": "2b69fd38bc847af7544cc0db6f7474bb5039e0322f9fe1c0e989c65024e87633",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-11",
+      "neck": "rigged/necks/suan-hat-11.webp",
+      "neckSha256": "b57f51ba6f841616ba0f31e3b03004e67e10cec312c72c8a15acf908058f400c"
+    },
+    "headwear/suan-happy-hat-11.webp": {
+      "sha256": "cce8efb1c58cb3f5c83fbc7441a0a5f296548b248da650cbab72c482a354dac7",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-11",
+      "neck": "rigged/necks/suan-hat-11.webp",
+      "neckSha256": "b57f51ba6f841616ba0f31e3b03004e67e10cec312c72c8a15acf908058f400c"
+    },
+    "headwear/suan-sad-hat-11.webp": {
+      "sha256": "05f9f616ff484351d380c4edb445590773f2aa87d4159786b1d4733206a309d6",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-11",
+      "neck": "rigged/necks/suan-hat-11.webp",
+      "neckSha256": "b57f51ba6f841616ba0f31e3b03004e67e10cec312c72c8a15acf908058f400c"
+    },
+    "headwear/suan-neutral-hat-12.webp": {
+      "sha256": "a7e7ecf765378abb1e257966b395f9563da2cedecef97d8c1d01937f8a98f382",
+      "character": "suan",
+      "mood": "neutral",
+      "hat": "hat-12",
+      "neck": "rigged/necks/suan-hat-12.webp",
+      "neckSha256": "9176286a5392eebe7c5f543aa0d7b7ffb52fe79db0a5fd352780ed069b52c10e"
+    },
+    "headwear/suan-happy-hat-12.webp": {
+      "sha256": "cba89860000232975b26a69722e4123dd70083dde064823154adef621bb43a73",
+      "character": "suan",
+      "mood": "happy",
+      "hat": "hat-12",
+      "neck": "rigged/necks/suan-hat-12.webp",
+      "neckSha256": "9176286a5392eebe7c5f543aa0d7b7ffb52fe79db0a5fd352780ed069b52c10e"
+    },
+    "headwear/suan-sad-hat-12.webp": {
+      "sha256": "81d5a034c391d96f5d300aeb55c444a557d100f7706cb22c808bd41742f153bb",
+      "character": "suan",
+      "mood": "sad",
+      "hat": "hat-12",
+      "neck": "rigged/necks/suan-hat-12.webp",
+      "neckSha256": "9176286a5392eebe7c5f543aa0d7b7ffb52fe79db0a5fd352780ed069b52c10e"
+    },
+    "headwear/yewon-neutral-bare.webp": {
+      "sha256": "04087abc9ea01b2a26f9599be0847b913f1a45c044a0309fd3ae8c082ed20047",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "bare",
+      "neck": "rigged/necks/yewon.webp",
+      "neckSha256": "621619ca4257c17c45f1de3d9f2b47d1f621cd17b1f460dcb1d90d7d284e5987"
+    },
+    "headwear/yewon-happy-bare.webp": {
+      "sha256": "53b381f9c887ada560d13b3d6d73879b78ee8c2eb97901d62a879cb7af42b714",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "bare",
+      "neck": "rigged/necks/yewon.webp",
+      "neckSha256": "621619ca4257c17c45f1de3d9f2b47d1f621cd17b1f460dcb1d90d7d284e5987"
+    },
+    "headwear/yewon-sad-bare.webp": {
+      "sha256": "a41543ea1dfe42d5b8da9004d5da2618e3e784d4923353d66876d5c7811d6c81",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "bare",
+      "neck": "rigged/necks/yewon.webp",
+      "neckSha256": "621619ca4257c17c45f1de3d9f2b47d1f621cd17b1f460dcb1d90d7d284e5987"
+    },
+    "headwear/yewon-neutral-hat-01.webp": {
+      "sha256": "0dfa56b22c1466aad00665a5a2f6f4865eb60f7691d94e97e43cfa2addff7ec9",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-01",
+      "neck": "rigged/necks/yewon-hat-01.webp",
+      "neckSha256": "67a6a05cb5724bc1594653bba9f4a07086c414c6ebd36a5ed6377ca41dcdd36a"
+    },
+    "headwear/yewon-happy-hat-01.webp": {
+      "sha256": "98e6ae5dd4fc4083b86c844a05fade22db20ca02acae855a48bda7c6378a3d7e",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-01",
+      "neck": "rigged/necks/yewon-hat-01.webp",
+      "neckSha256": "67a6a05cb5724bc1594653bba9f4a07086c414c6ebd36a5ed6377ca41dcdd36a"
+    },
+    "headwear/yewon-sad-hat-01.webp": {
+      "sha256": "236f500f63906776004c1474a7ed1fc78443b40ec972016d6656f6d31726f87d",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-01",
+      "neck": "rigged/necks/yewon-hat-01.webp",
+      "neckSha256": "67a6a05cb5724bc1594653bba9f4a07086c414c6ebd36a5ed6377ca41dcdd36a"
+    },
+    "headwear/yewon-neutral-hat-02.webp": {
+      "sha256": "3d62572218cf868d201090a8df473b0e67c4e8995c425e07bc889d5a3f6e0b9a",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-02",
+      "neck": "rigged/necks/yewon-hat-02.webp",
+      "neckSha256": "130fedcb76df41d5fabe50726527da0544ae440683b153a4dfc303145ebf2d57"
+    },
+    "headwear/yewon-happy-hat-02.webp": {
+      "sha256": "91e319bf52c930d9665e734ed52ac2045c0ed05613220787bfe42991b3e5b30b",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-02",
+      "neck": "rigged/necks/yewon-hat-02.webp",
+      "neckSha256": "130fedcb76df41d5fabe50726527da0544ae440683b153a4dfc303145ebf2d57"
+    },
+    "headwear/yewon-sad-hat-02.webp": {
+      "sha256": "83f5f685ff094b8e5763c38ce420a283537671007dbe281c81acba39087fc492",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-02",
+      "neck": "rigged/necks/yewon-hat-02.webp",
+      "neckSha256": "130fedcb76df41d5fabe50726527da0544ae440683b153a4dfc303145ebf2d57"
+    },
+    "headwear/yewon-neutral-hat-03.webp": {
+      "sha256": "124632d23f971dcb217f80b76b9b26ffc42bb0d8a9ad00b7c9cd1c9b417bee29",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-03",
+      "neck": "rigged/necks/yewon-hat-03.webp",
+      "neckSha256": "8619a58c285a985cbd948553eb02090ea20382a2b5a8d421160960fa4e56b389"
+    },
+    "headwear/yewon-happy-hat-03.webp": {
+      "sha256": "10e764717d425270728492ec66a65fddd6b82053a174b52951173b949e8dfe01",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-03",
+      "neck": "rigged/necks/yewon-hat-03.webp",
+      "neckSha256": "8619a58c285a985cbd948553eb02090ea20382a2b5a8d421160960fa4e56b389"
+    },
+    "headwear/yewon-sad-hat-03.webp": {
+      "sha256": "28b0be7975697fa2518bcd4a6729881ed7c1f26958d1116146d087a987e05987",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-03",
+      "neck": "rigged/necks/yewon-hat-03.webp",
+      "neckSha256": "8619a58c285a985cbd948553eb02090ea20382a2b5a8d421160960fa4e56b389"
+    },
+    "headwear/yewon-neutral-hat-04.webp": {
+      "sha256": "828d40e313c97d6641f8006441bc83f56414d76c12c0c34e8715284be0146761",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-04",
+      "neck": "rigged/necks/yewon-hat-04.webp",
+      "neckSha256": "ec8c9b0f1f177d8d332176d17e0fd65a0c5426449c28dd5bf0220c41550499df"
+    },
+    "headwear/yewon-happy-hat-04.webp": {
+      "sha256": "5630bd86c83201b2fe91418f050079dfce0f341544bafc1eb5532936bc023e49",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-04",
+      "neck": "rigged/necks/yewon-hat-04.webp",
+      "neckSha256": "ec8c9b0f1f177d8d332176d17e0fd65a0c5426449c28dd5bf0220c41550499df"
+    },
+    "headwear/yewon-sad-hat-04.webp": {
+      "sha256": "244b8de65cb46f280a2dccf4e36b996b8f1c3ca26f85d82ffaf5adfab51f2bdb",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-04",
+      "neck": "rigged/necks/yewon-hat-04.webp",
+      "neckSha256": "ec8c9b0f1f177d8d332176d17e0fd65a0c5426449c28dd5bf0220c41550499df"
+    },
+    "headwear/yewon-neutral-hat-05.webp": {
+      "sha256": "ad98af050b917ce0abe558d54c2add93ab2705fa7374d8930743288cac4fea99",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-05",
+      "neck": "rigged/necks/yewon-hat-05.webp",
+      "neckSha256": "a2ad1f2ffc8426c7c66c0253192be354ad9005661dad14e595b7dd969df1f17d"
+    },
+    "headwear/yewon-happy-hat-05.webp": {
+      "sha256": "3d20097cec803b598a29cda417f86062ef4a3f59bf4111a83f0f6cc1f7066f70",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-05",
+      "neck": "rigged/necks/yewon-hat-05.webp",
+      "neckSha256": "a2ad1f2ffc8426c7c66c0253192be354ad9005661dad14e595b7dd969df1f17d"
+    },
+    "headwear/yewon-sad-hat-05.webp": {
+      "sha256": "e60e9170b8a48fe164a14107833c36e595b72f19c7c8d0f4dc71e6a7c2a11b5b",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-05",
+      "neck": "rigged/necks/yewon-hat-05.webp",
+      "neckSha256": "a2ad1f2ffc8426c7c66c0253192be354ad9005661dad14e595b7dd969df1f17d"
+    },
+    "headwear/yewon-neutral-hat-06.webp": {
+      "sha256": "cca42de7769dfe24fd98bd80d2750538f697cedc3aefcca6dbe261bda628bd9c",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-06",
+      "neck": "rigged/necks/yewon-hat-06.webp",
+      "neckSha256": "7511d2e9045cbd1c5cac743fd447bb00c74e561ea249302b855434544ff53cf0"
+    },
+    "headwear/yewon-happy-hat-06.webp": {
+      "sha256": "e93cb008a4471785d99749f5e3e630fceef86a03ce5778d9ca568e776be38870",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-06",
+      "neck": "rigged/necks/yewon-hat-06.webp",
+      "neckSha256": "7511d2e9045cbd1c5cac743fd447bb00c74e561ea249302b855434544ff53cf0"
+    },
+    "headwear/yewon-sad-hat-06.webp": {
+      "sha256": "71787f7efb4a7b2752bc9bf447ab34babad93454b671003000c74f9fa0eb3121",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-06",
+      "neck": "rigged/necks/yewon-hat-06.webp",
+      "neckSha256": "7511d2e9045cbd1c5cac743fd447bb00c74e561ea249302b855434544ff53cf0"
+    },
+    "headwear/yewon-neutral-hat-07.webp": {
+      "sha256": "96f1b929c417d06aa14aa14c56e9f73a05d1f24e7adac2fbf7c827752d91969d",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-07",
+      "neck": "rigged/necks/yewon-hat-07.webp",
+      "neckSha256": "35d2cb2ab76f82315fc27a49a0e63c6e2fab3b3bd7e3453d9d2e576f65ff50eb"
+    },
+    "headwear/yewon-happy-hat-07.webp": {
+      "sha256": "858ffc2e1ce7a20971da07175f18f4b2a1215c10ae9350ebcec2733a28f12646",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-07",
+      "neck": "rigged/necks/yewon-hat-07.webp",
+      "neckSha256": "35d2cb2ab76f82315fc27a49a0e63c6e2fab3b3bd7e3453d9d2e576f65ff50eb"
+    },
+    "headwear/yewon-sad-hat-07.webp": {
+      "sha256": "b836b90bd225fd55fc63ca5f1e8af38cc9b7a80e09cb8e1a878ad89a351c7ab9",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-07",
+      "neck": "rigged/necks/yewon-hat-07.webp",
+      "neckSha256": "35d2cb2ab76f82315fc27a49a0e63c6e2fab3b3bd7e3453d9d2e576f65ff50eb"
+    },
+    "headwear/yewon-neutral-hat-08.webp": {
+      "sha256": "523a96dce641aa332e83b2a1f90ec67b648f4f9fd72c0db64a5b1778be9b98d6",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-08",
+      "neck": "rigged/necks/yewon-hat-08.webp",
+      "neckSha256": "b9a59515be8d43d209e29eb66e6a45eda172e6c45f13da76a92a8c05d63c4195"
+    },
+    "headwear/yewon-happy-hat-08.webp": {
+      "sha256": "85e158792ba9f9056ac98d447c523bae5e2d7d436bcf7256ebe68e5af61cdbaa",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-08",
+      "neck": "rigged/necks/yewon-hat-08.webp",
+      "neckSha256": "b9a59515be8d43d209e29eb66e6a45eda172e6c45f13da76a92a8c05d63c4195"
+    },
+    "headwear/yewon-sad-hat-08.webp": {
+      "sha256": "cb726b1760e11a9e684beb0f6d1401c6c6fd48196d83bbb988e7f25d7e5d46c5",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-08",
+      "neck": "rigged/necks/yewon-hat-08.webp",
+      "neckSha256": "b9a59515be8d43d209e29eb66e6a45eda172e6c45f13da76a92a8c05d63c4195"
+    },
+    "headwear/yewon-neutral-hat-09.webp": {
+      "sha256": "48f6671449a9b1dcd7bf5ce7bf46246788227d998fb58883527f0641adc9de21",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-09",
+      "neck": "rigged/necks/yewon-hat-09.webp",
+      "neckSha256": "d86cc87c99f61eb29b57f15075adfa82805aa916c579a196a4ac58d60e42b656"
+    },
+    "headwear/yewon-happy-hat-09.webp": {
+      "sha256": "4e5341df8af3e3539e46fb25a7b4c12a82b19a89103ab1cae979f643893e822e",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-09",
+      "neck": "rigged/necks/yewon-hat-09.webp",
+      "neckSha256": "d86cc87c99f61eb29b57f15075adfa82805aa916c579a196a4ac58d60e42b656"
+    },
+    "headwear/yewon-sad-hat-09.webp": {
+      "sha256": "d4777450220ffb2dc378c911698cd5469eadc8c73227f20185f7f6dd902e96d5",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-09",
+      "neck": "rigged/necks/yewon-hat-09.webp",
+      "neckSha256": "d86cc87c99f61eb29b57f15075adfa82805aa916c579a196a4ac58d60e42b656"
+    },
+    "headwear/yewon-neutral-hat-10.webp": {
+      "sha256": "f5909329dfd34a2fa754a5b2a5d99ef655d61669113c1931acf4443ef6e57654",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-10",
+      "neck": "rigged/necks/yewon-hat-10.webp",
+      "neckSha256": "dc1d144f0fdb95e79b308f30255cf38bfcfb591907bf426b287ed18a3fcaea0e"
+    },
+    "headwear/yewon-happy-hat-10.webp": {
+      "sha256": "b4c06908bc8a900549d90facc01a95cd525f1cdef449756bc6cc8a46b8063ae4",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-10",
+      "neck": "rigged/necks/yewon-hat-10.webp",
+      "neckSha256": "dc1d144f0fdb95e79b308f30255cf38bfcfb591907bf426b287ed18a3fcaea0e"
+    },
+    "headwear/yewon-sad-hat-10.webp": {
+      "sha256": "d31199707b398d776113a4651073052ce79872b348d27e5538f1999099d2cf19",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-10",
+      "neck": "rigged/necks/yewon-hat-10.webp",
+      "neckSha256": "dc1d144f0fdb95e79b308f30255cf38bfcfb591907bf426b287ed18a3fcaea0e"
+    },
+    "headwear/yewon-neutral-hat-11.webp": {
+      "sha256": "d48f10aa017b3dc8308a8ff05846ff527468315618cfdedf294aba97584d444d",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-11",
+      "neck": "rigged/necks/yewon-hat-11.webp",
+      "neckSha256": "aa4c84865bed6912bdda54a784aaf22c511a314e24e39fc570c88a2cf44f6671"
+    },
+    "headwear/yewon-happy-hat-11.webp": {
+      "sha256": "fa75fcb830e7dd7cd1e71e46da8d5ad94632e020658fd6ed8044b0aa77367245",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-11",
+      "neck": "rigged/necks/yewon-hat-11.webp",
+      "neckSha256": "aa4c84865bed6912bdda54a784aaf22c511a314e24e39fc570c88a2cf44f6671"
+    },
+    "headwear/yewon-sad-hat-11.webp": {
+      "sha256": "1410023a9748747cc9e7cab5120edfce73c7151e74559d14be1687c86b42ba4b",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-11",
+      "neck": "rigged/necks/yewon-hat-11.webp",
+      "neckSha256": "aa4c84865bed6912bdda54a784aaf22c511a314e24e39fc570c88a2cf44f6671"
+    },
+    "headwear/yewon-neutral-hat-12.webp": {
+      "sha256": "945516b273a9b4d641cbbc57f2e7882eef81dc84ecff293398e03b9d96a3ccfd",
+      "character": "yewon",
+      "mood": "neutral",
+      "hat": "hat-12",
+      "neck": "rigged/necks/yewon-hat-12.webp",
+      "neckSha256": "3524864f45acfc6ce9478d7666ff7712b9d41a96ba6310c69b527551d0787eea"
+    },
+    "headwear/yewon-happy-hat-12.webp": {
+      "sha256": "1f5db5d09331b4800c6af4b6dcb955a6beefb683c166fef273813fe3fb241f0a",
+      "character": "yewon",
+      "mood": "happy",
+      "hat": "hat-12",
+      "neck": "rigged/necks/yewon-hat-12.webp",
+      "neckSha256": "3524864f45acfc6ce9478d7666ff7712b9d41a96ba6310c69b527551d0787eea"
+    },
+    "headwear/yewon-sad-hat-12.webp": {
+      "sha256": "22d4d63e7d65de15b0a00dc3aa7433ed34ab2177a67ff7981025da396cff00ca",
+      "character": "yewon",
+      "mood": "sad",
+      "hat": "hat-12",
+      "neck": "rigged/necks/yewon-hat-12.webp",
+      "neckSha256": "3524864f45acfc6ce9478d7666ff7712b9d41a96ba6310c69b527551d0787eea"
+    }
+  },
+  "reviewedAt": "2026-09-27T11:49:05.112047+00:00",
+  "reviewScope": "234 character/hat/mood combinations; source-bound anatomy, complete jaw, single matching neck, face-interior expression"
+}

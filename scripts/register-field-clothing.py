@@ -826,17 +826,18 @@ def add_text(image: Image.Image, text: str, xy: tuple[int, int], size: int = 16)
     draw.text(xy, text, fill=(35, 42, 46, 255), font=font)
 
 
-def qa_body_layers(category: str) -> list[Image.Image]:
+def qa_body_layers(category: str, garment: Image.Image) -> list[Image.Image]:
     head = load_qa_head()
     upper = load_layer(ROOT / "assets" / "doll" / "rigged" / "body-upper.webp")
     hands = load_layer(ROOT / "assets" / "doll" / "rigged" / "hands-base.webp")
+    neck = load_layer(ROOT / "assets" / "doll" / "rigged" / "necks/dad.webp")
     boots = load_layer(ROOT / "assets" / "doll" / "rigged" / "boots.webp")
     if category == "pants":
         # Paid pants are tested with boots only.  Do not include starter-pants,
         # pants-base, legs-under, or any other native pants underlay here.
-        return [head, boots, upper, hands]
+        return [boots, garment, neck, upper, hands, head]
     starter = load_layer(ROOT / "assets" / "doll" / "rigged" / "starter-pants.webp")
-    return [head, starter, boots, upper, hands]
+    return [starter, neck, upper, garment, hands, head]
 
 
 def render_qa(category: str, items: list[str], layers_by_key: dict[str, Image.Image], qa_dir: Path, label: str) -> Path:
@@ -845,10 +846,9 @@ def render_qa(category: str, items: list[str], layers_by_key: dict[str, Image.Im
     rows = (len(items) + columns - 1) // columns
     cell = (340, 500)
     sheet = Image.new("RGBA", (columns * cell[0], rows * cell[1]), (239, 239, 235, 255))
-    base_layers = qa_body_layers(category)
     for index, key in enumerate(items):
         garment = layers_by_key[key]
-        body = compose([*base_layers[:-1], garment, base_layers[-1]])
+        body = compose(qa_body_layers(category, garment))
         thumbnail = fit_to_cell(body, cell)
         x = (index % columns) * cell[0]
         y = (index // columns) * cell[1]
@@ -867,8 +867,7 @@ def render_prototype(layers: dict[str, Image.Image], qa_dir: Path) -> Path:
     cell = (350, 570)
     sheet = Image.new("RGBA", (cell[0] * len(items), cell[1]), (239, 239, 235, 255))
     for index, (category, key) in enumerate(items):
-        base_layers = qa_body_layers(category)
-        body = compose([*base_layers[:-1], layers[key], base_layers[-1]])
+        body = compose(qa_body_layers(category, layers[key]))
         thumb = fit_to_cell(body, cell)
         x = index * cell[0]
         sheet.alpha_composite(thumb, (x, 0))

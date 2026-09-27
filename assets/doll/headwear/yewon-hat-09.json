@@ -25,50 +25,47 @@
   "status": "visual-review-passed",
   "files": {
     "yewon-neutral-hat-09.webp": {
-      "sha256": "8706a4eb24d3a3f7ff9c0f91164448acc3c04a4efaf328f02d7f65e009213388",
+      "sha256": "48f6671449a9b1dcd7bf5ce7bf46246788227d998fb58883527f0641adc9de21",
       "bbox": [
-        250,
-        -151,
-        759,
-        572
+        259,
+        -135,
+        767,
+        588
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 28
+      "height": 2304
     },
     "yewon-happy-hat-09.webp": {
-      "sha256": "625138bfa65a085769f57cd0b05bf422c705b4525aae67684a1c2c9fbd430605",
+      "sha256": "4e5341df8af3e3539e46fb25a7b4c12a82b19a89103ab1cae979f643893e822e",
       "bbox": [
-        250,
-        -151,
-        759,
-        572
+        259,
+        -135,
+        767,
+        588
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 28
+      "height": 2304
     },
     "yewon-sad-hat-09.webp": {
-      "sha256": "f2eb0f7cf62ff036d575ddc84a39a253b761dfdb6dc2e158390836ab352402af",
+      "sha256": "d4777450220ffb2dc378c911698cd5469eadc8c73227f20185f7f6dd902e96d5",
       "bbox": [
-        250,
-        -151,
-        759,
-        572
+        259,
+        -135,
+        767,
+        588
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 28
+      "height": 2304
     }
   },
   "visualReview": {
     "status": "passed",
     "reviewer": "parent assistant",
-    "note": "Parent inspected yewon-09-corrected.png in neutral, happy and sad: complete low viewer-right ponytail with curled tip preserved beside the chin strap; face, glasses and hat intact.",
-    "reviewedAt": "2026-09-27T02:25:55.888455+00:00"
+    "note": "All 234 head-neck states visually approved by parent and independent reviews 89/90; exact raster reproduction confirmed, 0 neck holes and 0 body changes outside the anatomical joint.",
+    "reviewedAt": "2026-09-27T11:55:19.485684+00:00"
   },
   "sources": {
     "catalog": {
@@ -93,5 +90,75 @@
     "product": "08c61dbf1b71b1b6c6156cddfde5c288fd305e522dae46bb509837d4f547a8c2",
     "identity": "1f076b946f606d917db844b19ab83ef8919b865129566d4aead5650041fb800a",
     "headReference": "6bb07cfee99fc2b1e69882e51ff5622e52f444ff10ecac6f545a0d6e13c3732b"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "1fc8ea88a85efcbbb1d4d73ce2e569fd4f8af96fbdd2b7e522dc289770609d9f",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/yewon-hat-09-1fc8ea88a85efcbb.json",
+    "rawSha256": "125302be1e297a7611b96948fc27f04d2013bccc58997251528c8d5e9a8b731c",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      9,
+      44
+    ],
+    "sourceJawCurve": [
+      [
+        340,
+        317
+      ],
+      [
+        356,
+        334
+      ],
+      [
+        382,
+        350
+      ],
+      [
+        411,
+        363
+      ],
+      [
+        445,
+        373
+      ],
+      [
+        482,
+        379
+      ],
+      [
+        508,
+        381
+      ],
+      [
+        543,
+        374
+      ],
+      [
+        574,
+        361
+      ],
+      [
+        600,
+        342
+      ],
+      [
+        620,
+        319
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/yewon-hat-09.webp",
+    "neckSha256": "d86cc87c99f61eb29b57f15075adfa82805aa916c579a196a4ac58d60e42b656",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 11,
+      "maxExtensionPixels": 11,
+      "registeredPixels": 63,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "755f88c4efeb97e9d7b219eee4bc4331fa69d22e5dafc0565b2844fc7516e746"
   }
 }

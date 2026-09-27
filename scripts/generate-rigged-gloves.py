@@ -739,13 +739,14 @@ def make_qa(manifest: dict[str, object], wand: Image.Image, broom: Image.Image) 
     QA_PATH.parent.mkdir(parents=True, exist_ok=True)
     upper = load_rgba(RIGGED / "body-upper.webp")
     pants = load_rgba(RIGGED / "starter-pants.webp")
+    neck = load_rgba(RIGGED / "necks/dad.webp")
     bare_hands = load_rgba(RIGGED / "hands-base.webp")
     front = load_rgba(OUT.parent / "wand-12-front.webp")
     head = Image.new("RGBA", CANVAS)
     head.alpha_composite(
         load_rgba(DOLL / "headwear/dad-neutral-bare.webp", canvas=False), (0, -768)
     )
-    foundation = alpha_composite(broom, pants, upper, wand)
+    foundation = alpha_composite(broom, pants, neck, upper, wand)
     bare_props = alpha_composite(foundation, bare_hands, front, head)
     cell_w, full_h, close_h, label_h = 256, 384, 240, 28
     columns = 4

@@ -25,50 +25,47 @@
   "status": "visual-review-passed",
   "files": {
     "jeongan-neutral-hat-03.webp": {
-      "sha256": "c4f59c8edd01eb2af56f8cd7609a19ba7c3075737253fd6e1c506868ec4efe7c",
+      "sha256": "923d4a79c4f4050e8c4449a18091e5f2f9f7b9ac19da2b1aa24be2c6adad6280",
       "bbox": [
-        237,
-        -100,
-        743,
-        472
+        234,
+        -105,
+        740,
+        467
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 5
+      "height": 2304
     },
     "jeongan-happy-hat-03.webp": {
-      "sha256": "a6b8089092af497e7890afd5ff46cae5e5c6e3e0ad2dd5aa46b8cf0f15e9446e",
+      "sha256": "e6a433eca4e834bfeb89a2c9a3dd0e5571d7172e5ea45c83b98ff7165d8fa62a",
       "bbox": [
-        237,
-        -100,
-        743,
-        472
+        234,
+        -105,
+        740,
+        467
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 5
+      "height": 2304
     },
     "jeongan-sad-hat-03.webp": {
-      "sha256": "53a8129db55b415fa9ea3a3cfc0110d5fb804a554308ff891a0eb65ddee66f82",
+      "sha256": "240cf3797bc50141796bbd3b35b839c16620c624bb481dc7c70ef99362d65777",
       "bbox": [
-        237,
-        -100,
-        743,
-        472
+        234,
+        -105,
+        740,
+        467
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 5
+      "height": 2304
     }
   },
   "visualReview": {
     "status": "passed",
     "reviewer": "parent assistant",
-    "note": "Independent reviews 72 and 73 inspected all three expressions per hat: likeness, glasses, fitted hair and intact hats accepted; both Hunho antlers retained. Yewon hat09 excluded pending ponytail correction.",
-    "reviewedAt": "2026-09-27T01:55:19.966437+00:00"
+    "note": "All 234 head-neck states visually approved by parent and independent reviews 89/90; exact raster reproduction confirmed, 0 neck holes and 0 body changes outside the anatomical joint.",
+    "reviewedAt": "2026-09-27T11:55:19.470989+00:00"
   },
   "sources": {
     "catalog": {
@@ -93,5 +90,71 @@
     "product": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda",
     "identity": "a598e10bef51c2e1dc5bd0f32eef328bddf07f1298b13fb3d3eaef68d57eeeca",
     "headReference": "95ee377bfd9558a68a64ad21ed6e5e666c3ff8e65318273c8dbd456e3346bed8"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "1513885d5e5d1306b3d95abdd7461ac080a51a347827af65430d00c099b6c2a1",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/jeongan-hat-03-1513885d5e5d1306.json",
+    "rawSha256": "3973e18a5123477486b90921ef3f76bf4462a4f06868d1d2078c8eabd0df7911",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      -3,
+      0
+    ],
+    "sourceJawCurve": [
+      [
+        383,
+        370
+      ],
+      [
+        394,
+        389
+      ],
+      [
+        414,
+        403
+      ],
+      [
+        440,
+        413
+      ],
+      [
+        470,
+        421
+      ],
+      [
+        512,
+        427
+      ],
+      [
+        548,
+        419
+      ],
+      [
+        576,
+        405
+      ],
+      [
+        599,
+        388
+      ],
+      [
+        614,
+        368
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/jeongan-hat-03.webp",
+    "neckSha256": "233e04f9753eb805fab0d00b4c28a572595ef24cd5846f8030e7750683723fc3",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 120,
+      "maxExtensionPixels": 12,
+      "registeredPixels": 443,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "755f88c4efeb97e9d7b219eee4bc4331fa69d22e5dafc0565b2844fc7516e746"
   }
 }

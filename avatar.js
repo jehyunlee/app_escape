@@ -126,7 +126,8 @@ export const STARTER_LAYERS = Object.freeze({
   hunho: Object.freeze(["wand", "broom"]),
 });
 /**
- * Anatomical regions have one owner. Fingers cover the lower wand handle;
+ * Each character has one neck behind the shirt and jewellery; the head owns
+ * its complete jaw and hair, not another neck or collar. Fingers cover the lower wand handle;
  * its upper shaft emerges in front from the thumb/index opening. A worn hat
  * replaces the complete head and hairstyle.
  */
@@ -134,6 +135,7 @@ export const RENDER_ORDER = Object.freeze([
   "broom",
   "boots",
   "pants",
+  "neck",
   "body",
   "vest",
   "cloak",
@@ -256,6 +258,11 @@ export function avatarLayers(equipped, characterId, mood = "neutral") {
   add("broom", garmentLayerFile(character, selected.broom), selected.broom);
   if (selected.pants.price > 0) add("boots", "rigged/boots.webp");
   add("pants", garmentLayerFile(character, selected.pants), selected.pants);
+  const neckFile =
+    selected.hat.price > 0
+      ? `rigged/necks/${character}-${selected.hat.id}.webp`
+      : `rigged/necks/${character}.webp`;
+  add("neck", neckFile);
   add("body", "rigged/body-upper.webp");
   for (const category of ["vest", "cloak", "necklace"])
     add(

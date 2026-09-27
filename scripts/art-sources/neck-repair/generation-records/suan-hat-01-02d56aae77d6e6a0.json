@@ -1,0 +1,164 @@
+{
+  "character": "suan",
+  "item": "hat-01",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:26:41.566594+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. No glasses; this person does not wear glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 부드러운 점끝 펠트모. A simple practical wizard travel hat made from soft charcoal felt, with a low gently pointed crown, a rounded reinforced brim, one plain woven band, and no rigid modern cap shape. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/suan-hat-01.png",
+  "rawSha256": "cdba7b21fa31e03727081fc3071ecc95f90768a96c93a563073c704533baaf29",
+  "registration": {
+    "sourceToGeneratedScale": 1.8338544643199601,
+    "rotationRadians": 0.11312541000771946,
+    "translation": [
+      -349.5843934984612,
+      412.1557705305734
+    ],
+    "initialCorrelation": 0.8494333878156358,
+    "refinedCorrelation": 0.9763681868938168,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "suan-neutral-hat-01.webp": {
+      "sha256": "a5f34f77027f4ca370b7facb2637407f50338a90ba63e72458c0ce45ca216c31",
+      "bbox": [
+        220,
+        -122,
+        766,
+        503
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "suan-happy-hat-01.webp": {
+      "sha256": "a1940a520779419291afb433dc967e71592691e79c4d3c3992a6f607d52ae7f4",
+      "bbox": [
+        220,
+        -122,
+        766,
+        503
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    },
+    "suan-sad-hat-01.webp": {
+      "sha256": "99036772719426c4e41159ac7ffee972c1706f7e76f4abb698c5f1123cd0f3fa",
+      "bbox": [
+        220,
+        -122,
+        766,
+        503
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Parent and independent reviewers inspected all 234 bare/hat/mood head-neck compositions; intact jaws, one visible neck, preserved hat cords and face identity, no visible expression-patch boundaries.",
+    "reviewedAt": "2026-09-27T11:48:10.480867+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-01.webp",
+      "sha256": "d66244813b89578affbd4077d199d749b63fd2ddb2b7bf9d571be456f67f72b5"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/suan-neutral.webp",
+      "sha256": "841c080261c32eb13f4b07a6c67ec13e662e0e444284f7b016392446a56b8de3"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/suan-neutral.webp",
+      "sha256": "97a6d544d2a7c747efc9bd3156aea1589ab68f876f0954dc84d9add762216e2e"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "d66244813b89578affbd4077d199d749b63fd2ddb2b7bf9d571be456f67f72b5",
+    "identity": "841c080261c32eb13f4b07a6c67ec13e662e0e444284f7b016392446a56b8de3",
+    "headReference": "97a6d544d2a7c747efc9bd3156aea1589ab68f876f0954dc84d9add762216e2e"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "2ea7badf0af7085532cdcaa603162f82c5aeb631ceb01542aa1b88928855d881",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/suan-hat-01-2ea7badf0af70855.json",
+    "rawSha256": "cdba7b21fa31e03727081fc3071ecc95f90768a96c93a563073c704533baaf29",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      -10,
+      54
+    ],
+    "sourceJawCurve": [
+      [
+        381,
+        302
+      ],
+      [
+        397,
+        318
+      ],
+      [
+        420,
+        333
+      ],
+      [
+        449,
+        348
+      ],
+      [
+        478,
+        359
+      ],
+      [
+        512,
+        370
+      ],
+      [
+        546,
+        359
+      ],
+      [
+        576,
+        344
+      ],
+      [
+        601,
+        326
+      ],
+      [
+        620,
+        305
+      ],
+      [
+        632,
+        287
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/suan-hat-01.webp",
+    "neckSha256": "0db5cba8160609fe610d953498836792f3d3b1d1b03bd9eac8568a2f538b0a5f",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 98,
+      "maxExtensionPixels": 4,
+      "registeredPixels": 318,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "92b0b35af27e344c19039b504df06a238520ddbfdc1f7b1fe4ad45e4331715d4"
+  }
+}

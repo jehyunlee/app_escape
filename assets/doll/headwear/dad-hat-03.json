@@ -25,50 +25,47 @@
   "status": "visual-review-passed",
   "files": {
     "dad-neutral-hat-03.webp": {
-      "sha256": "2a91cc1725f73073aea98439c799e08d77e4946b293b6b24f17feca606d3d684",
+      "sha256": "216eca0c4b12a855488cb879a0290b10fa236af6a4aef5bbf6be68711e3976f6",
       "bbox": [
         237,
-        -152,
+        -133,
         766,
-        433
+        452
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 11
+      "height": 2304
     },
     "dad-happy-hat-03.webp": {
-      "sha256": "81faa45c1e8b9bc3afbfc0b418cd61aee71041d27f09cef832e563e1b1e03429",
+      "sha256": "8d876ea48f0d3087d4fa6c1b6ce0b899c2df90354d9e4add58a0902bc2d9ac1d",
       "bbox": [
         237,
-        -152,
+        -133,
         766,
-        433
+        452
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 11
+      "height": 2304
     },
     "dad-sad-hat-03.webp": {
-      "sha256": "219d1386b917b0fdb2c0035d3d54c4f67d679c02f964092246f6eb8dedfe12a3",
+      "sha256": "ba88143866ea057a1f8cd637ec260e56368d0a491b95c9d90ab1355d0e93504d",
       "bbox": [
         237,
-        -152,
+        -133,
         766,
-        433
+        452
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 11
+      "height": 2304
     }
   },
   "visualReview": {
     "status": "passed",
     "reviewer": "parent assistant",
-    "note": "Parent visually inspected all 36 expressions per character in dad-all-hats.png and mom-all-hats.png; whole hats, hair under brims, glasses, face likeness and expression blending accepted. Dad prototypes also reviewed on the actual body.",
-    "reviewedAt": "2026-09-27T01:36:36.826713+00:00"
+    "note": "All 234 head-neck states visually approved by parent and independent reviews 89/90; exact raster reproduction confirmed, 0 neck holes and 0 body changes outside the anatomical joint.",
+    "reviewedAt": "2026-09-27T11:55:19.458806+00:00"
   },
   "sources": {
     "catalog": {
@@ -93,5 +90,59 @@
     "product": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda",
     "identity": "fc55dd83c604a010c53e3adbbf4197037e9937d674182a03778da55e3f311ed5",
     "headReference": "3572ece7a41e27b5f2abaa507fdcd999e30aeb8e20b2d5cb82dba7aa52a370ac"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "79a8099b211b015fb8da27a828716dff0b3d4a50db0094e8601da7e6221d052f",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/dad-hat-03-79a8099b211b015f.json",
+    "rawSha256": "a64ec2b765ce11b5b397ab0073e03c26d88bbdfc9e7ee99cdeb020ea786f0b90",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      0,
+      30
+    ],
+    "sourceJawCurve": [
+      [
+        451,
+        393
+      ],
+      [
+        465,
+        402
+      ],
+      [
+        485,
+        410
+      ],
+      [
+        512,
+        414
+      ],
+      [
+        540,
+        410
+      ],
+      [
+        559,
+        403
+      ],
+      [
+        573,
+        393
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/dad-hat-03.webp",
+    "neckSha256": "da04d9d01b2b7ccb8a0c77918ec62ebe525f89408d829949650af914fbdc5d07",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 0,
+      "maxExtensionPixels": 0,
+      "registeredPixels": 0,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "755f88c4efeb97e9d7b219eee4bc4331fa69d22e5dafc0565b2844fc7516e746"
   }
 }

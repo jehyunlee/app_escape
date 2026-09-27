@@ -33,8 +33,36 @@ def main():
   'bootsPixelsAbove1320':int((load(R/'boots.webp')[:1320,:,3]>0).sum()),
   'starterPantsHandFragments':int((load(R/'starter-pants.webp')[940:1020,220:340,3]>20).sum()+(load(R/'starter-pants.webp')[940:1020,705:815,3]>20).sum()),
  }
+ anatomy=json.loads((R/'neck-assembly.json').read_text())
+ body_record=anatomy['body']
+ removal_path=D/body_record['removalMask']
+ removal=np.asarray(Image.open(removal_path).convert('L'))>128
+ before_path=ROOT/body_record['source']['path']
+ before=load(before_path);current=load(R/'body-upper.webp')
+ visible=(before[:,:,3]>0)|(current[:,:,3]>0)
+ outside=int((np.any(before!=current,axis=2)&visible&~removal).sum())
+ retained=int(((body>0)&removal).sum())
+ if outside or retained:failures.append('body: anatomical neck partition mismatch')
+ if sha(before_path)!=body_record['source']['sha256'] or sha(removal_path)!=body_record['maskSha256'] or sha(R/'body-upper.webp')!=body_record['sha256']:failures.append('body: stale anatomical source')
+ neck_checks={}
+ for file,record in anatomy['heads'].items():
+  neck_path=D/record['neck'];head_path=D/file
+  neck=load(neck_path)[:,:,3]
+  head=load(head_path)[768:2304,:,3]
+  character=anatomy['characters'][record['character']]
+  contact_path=D/character['contactMask']
+  contact=np.asarray(Image.open(contact_path).convert('L'))>128
+  contact_holes=int(((neck<200)&contact).sum())
+  ys=slice(390,496);xs=slice(500,524)
+  combined=255*(1-(1-head[ys,xs]/255)*(1-neck[ys,xs]/255)*(1-body[ys,xs]/255))
+  required=removal[ys,xs]&(before[ys,xs,3]>=200)
+  joint_holes=int(((combined<180)&required).sum())
+  if contact_holes or joint_holes:failures.append(file+': disconnected anatomical neck')
+  if sha(head_path)!=record['sha256'] or sha(neck_path)!=record['neckSha256'] or sha(contact_path)!=character['contactSha256']:failures.append(file+': stale anatomical assembly')
+  neck_checks[file]={'headSha256':sha(head_path),'neckFile':record['neck'],'neckSha256':sha(neck_path),'uncoveredCollarPixels':contact_holes,'centralJointHoles':joint_holes}
+ checks['neckAssembly']={'changedBodyPixelsOutsideJoint':outside,'nativeNeckPixelsInBody':retained,'states':neck_checks}
  for name,value in checks.items():
-  if value:failures.append(name+': '+str(value))
+  if isinstance(value,int) and value:failures.append(name+': '+str(value))
  allowed=np.zeros((1536,1024),bool)
  allowed[735:995,200:398]=True;allowed[735:995,658:831]=True
  gloveChecks={}

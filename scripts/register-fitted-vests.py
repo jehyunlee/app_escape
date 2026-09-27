@@ -492,10 +492,10 @@ def add_text(image: Image.Image, text: str, xy: tuple[int, int], size: int = 16)
 def body_layers(garment: Image.Image) -> list[Image.Image]:
     head = load_qa_head()
     starter = load_rgba(ROOT / "assets" / "doll" / "rigged" / "starter-pants.webp")
-    boots = load_rgba(ROOT / "assets" / "doll" / "rigged" / "boots.webp")
+    neck = load_rgba(ROOT / "assets" / "doll" / "rigged" / "necks/dad.webp")
     upper = load_rgba(ROOT / "assets" / "doll" / "rigged" / "body-upper.webp")
     hands = load_rgba(ROOT / "assets" / "doll" / "rigged" / "hands-base.webp")
-    return [head, starter, boots, upper, garment, hands]
+    return [starter, neck, upper, garment, hands, head]
 
 
 def render_prototypes(layers: dict[str, Image.Image], qa_root: Path) -> Path:

@@ -25,50 +25,47 @@
   "status": "visual-review-passed",
   "files": {
     "hunho-neutral-hat-03.webp": {
-      "sha256": "61a7245cb07aa86037bd8b510bb57b4e20c6e96d0d7db741884ae6c60daf4b0e",
+      "sha256": "5e6c7650daf5bc0c883f2888d9656fd3b9bf72f0800d831528e2788b75c1ba82",
       "bbox": [
         328,
-        19,
+        55,
         666,
-        434
+        460
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 37
+      "height": 2304
     },
     "hunho-happy-hat-03.webp": {
-      "sha256": "2520592aef5b7af59e14b212804e82ba770d63ff435d65caaee0105f8076b7cf",
+      "sha256": "2f2487e317c1eb89bc8eb4cb21c90651ab3b2d836f6d799c1aea30e377a4cad5",
       "bbox": [
         328,
-        19,
+        55,
         666,
-        434
+        460
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 37
+      "height": 2304
     },
     "hunho-sad-hat-03.webp": {
-      "sha256": "c533337c0236901b7f8c75eb6245cb823af87c3f6055fd6948b1f33ac1410d02",
+      "sha256": "ff96591b948625905e57bf97be8189d13712605b255ef11de93da540f9cb7557",
       "bbox": [
         328,
-        19,
+        55,
         666,
-        434
+        460
       ],
       "offsetY": -768,
       "width": 1024,
-      "height": 2304,
-      "neckOffset": 37
+      "height": 2304
     }
   },
   "visualReview": {
     "status": "passed",
     "reviewer": "parent assistant",
-    "note": "Independent reviews 72 and 73 inspected all three expressions per hat: likeness, glasses, fitted hair and intact hats accepted; both Hunho antlers retained. Yewon hat09 excluded pending ponytail correction.",
-    "reviewedAt": "2026-09-27T01:55:19.982602+00:00"
+    "note": "All 234 head-neck states visually approved by parent and independent reviews 89/90; exact raster reproduction confirmed, 0 neck holes and 0 body changes outside the anatomical joint.",
+    "reviewedAt": "2026-09-27T11:55:19.488088+00:00"
   },
   "sources": {
     "catalog": {
@@ -93,5 +90,59 @@
     "product": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda",
     "identity": "c08c2d0778743001f6150da3d1567850f9bc5bc3b18248370fa5c44ed93267fd",
     "headReference": "6c84c5a19d88f3ea85a3ad4550045be79bfb0ec907b474a7801cdf6c78dbdf90"
+  },
+  "assembly": {
+    "method": "anatomical-jaw-partition-with-separate-character-neck",
+    "originalMetadataSha256": "97d8146944659ba4700b418416718a501f44e040fa39f5a4a5211ab8596dc670",
+    "originalMetadata": "scripts/art-sources/neck-repair/generation-records/hunho-hat-03-97d8146944659ba4.json",
+    "rawSha256": "a05128312f26ba62de93b38d9ba4f3c532129c0e3a41889a1cdc333d7e6fa941",
+    "repairScriptSha256": "8d3098eb3ceba4d9f12821a667628e3bd28200c6d302ff7840ea1f58f81487b3",
+    "translation": [
+      0,
+      73
+    ],
+    "sourceJawCurve": [
+      [
+        443,
+        337
+      ],
+      [
+        465,
+        352
+      ],
+      [
+        490,
+        361
+      ],
+      [
+        511,
+        365
+      ],
+      [
+        534,
+        361
+      ],
+      [
+        553,
+        351
+      ],
+      [
+        575,
+        334
+      ]
+    ],
+    "jawJointOverlap": 18,
+    "neckOwner": "rigged/necks/hunho-hat-03.webp",
+    "neckSha256": "237f4d5462e0190bbe4c370b6c857cf11c3aa8a20dda0eac4c986c86df5bd502",
+    "neckJointRegistration": {
+      "method": "existing-neck-column registration to actual generated jaw contour",
+      "extendedColumns": 2,
+      "maxExtensionPixels": 8,
+      "registeredPixels": 11,
+      "headPixelsChanged": 0
+    },
+    "usesOpaqueBottomAttachment": false,
+    "newApiCalls": 0,
+    "recipeSha256": "755f88c4efeb97e9d7b219eee4bc4331fa69d22e5dafc0565b2844fc7516e746"
   }
 }
