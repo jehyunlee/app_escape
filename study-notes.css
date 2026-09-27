@@ -1,0 +1,102 @@
+.study-notes {
+  margin: 18px 0;
+  padding: 18px;
+  border: 1px solid #718994;
+  border-radius: 12px;
+  background: #1c303c;
+  color: #eef2ef;
+  text-align: left;
+}
+.study-notes .study-notes-title {
+  margin: 0 0 16px;
+  color: #efd49d;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.study-vocabulary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.study-notes h5 {
+  margin: 0 0 10px;
+  color: #a9d8e5;
+  font-size: 13px;
+}
+.study-notes dl {
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+.study-word {
+  min-width: 0;
+}
+.study-notes dt {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #f0e3c5;
+  overflow-wrap: anywhere;
+}
+.study-notes dd {
+  margin: 3px 0 0;
+  font-size: 13px;
+  line-height: 1.75;
+  color: #e0e7e7;
+}
+.study-concepts {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #7d949d55;
+}
+.study-concepts article + article {
+  margin-top: 12px;
+}
+.study-concepts h6 {
+  margin: 0 0 4px;
+  font-size: 14px;
+  color: #f1dfb5;
+}
+.study-notes .study-concepts p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #e0e7e7;
+}
+.last-answer-explanation {
+  margin: 16px 0;
+  text-align: left;
+  line-height: 1.8;
+}
+.last-answer-explanation > h4 {
+  margin: 0 0 8px;
+  color: var(--gold);
+}
+.last-answer-explanation > p {
+  margin: 7px 0;
+}
+.feedback:focus {
+  outline: none;
+}
+#feedback {
+  scroll-margin-top: 20px;
+}
+@media (max-width: 650px) {
+  .study-notes {
+    padding: 14px 12px;
+  }
+  .study-vocabulary {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .study-notes dt {
+    font-size: 14px;
+  }
+  .study-notes dd,
+  .study-notes .study-concepts p {
+    font-size: 12px;
+  }
+  #feedback {
+    scroll-margin-top: 165px;
+  }
+}

@@ -6,3 +6,16 @@ __pycache__/
 .env
 .env.*
 _site/
+# Local generation caches and superseded artwork; active sources remain tracked.
+scripts/art-sources/field-release/
+scripts/art-sources/fit-correction/
+scripts/art-sources/legacy-garments/
+scripts/art-sources/legacy-spaces/
+scripts/art-sources/shop-designs/
+scripts/art-sources/headwear/
+scripts/art-sources/rigged-clothing/
+scripts/art-sources/rigged-gloves/
+scripts/art-sources/open-starters/
+scripts/art-sources/field-wardrobe/previous-runtime/
+scripts/art-sources/field-wardrobe/registration-archive/
+scripts/art-sources/field-wardrobe/archive/

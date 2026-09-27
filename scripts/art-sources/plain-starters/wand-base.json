@@ -1,0 +1,228 @@
+{
+  "schema": "plain-starter-wand-v1",
+  "status": "visual-review-passed",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "outputFormat": "png",
+  "prompt": "Create one new isolated plain starter wand from the supplied wand product reference.\nThe reference is only a style and complexity comparison: the new wand MUST be clearly much simpler than it.\nOutput OBJECT ONLY on a true transparent 1024x1536 canvas, with one straight, slim, short vertical brown\nwooden rod. It has plain matte natural brown wood grain, a narrow plain tip at the TOP, and only a slightly\nthicker rounded wooden handle at the BOTTOM. The bottom end is the handle and the top end is the tip.\nAbsolutely no crystal, gem, stone, metal, metallic trim, gold, silver, bands, knots, branches, roots, carved\nsymbols, wrapped grip, glow, sparkles, or other decoration. No person, hand, body, clothing, stand, ground,\nshadow, background, text, border, or second object. Keep the single rod fully visible, vertical and centered\nwith generous transparent margin. This is a simple starter prop, not a product-card redesign.",
+  "promptSha256": "fc3c086ee8e01378d18ab018ace51eb66aeb4492bfb3d94d3bc2e621b40d925b",
+  "maxAttempts": 2,
+  "createdAt": "2026-09-26T23:17:49.475730+00:00",
+  "sources": {
+    "wand01StyleReference": {
+      "path": "scripts/art-sources/shop-designs/wand-01.webp",
+      "sha256": "bd7786af8e2c5dd21ec1bf0ab85a065707ecd15aab5107ed388695fcd6c7899c",
+      "size": [
+        59,
+        789
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        59,
+        789
+      ]
+    },
+    "apiReferenceRegistration": {
+      "method": "transparent-registration-only",
+      "sourceBbox": [
+        0,
+        0,
+        59,
+        789
+      ],
+      "targetBbox": [
+        471,
+        228,
+        552,
+        1308
+      ],
+      "targetSize": [
+        81,
+        1080
+      ]
+    },
+    "mask": {
+      "path": "scripts/art-sources/plain-starters/wand-base-input-mask.png",
+      "sha256": "1913847bf9091720c48139f49dfbb3aa70c4d20de82f2718e3dcd8348c6e5e9c",
+      "editable": "entire transparent API canvas"
+    }
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted",
+      "elapsedSeconds": 24.68,
+      "rawPath": "wand-base-raw-attempt-1.png",
+      "rawSha256": "964884e615c8da549803a3e6ae3fa01867d12c6b26e994fa1ba68971d08b0bf5",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        477,
+        307,
+        548,
+        1230
+      ],
+      "rawPoseAlignment": {
+        "ok": false,
+        "sourceBbox": [
+          471,
+          228,
+          552,
+          1308
+        ],
+        "rawBbox": [
+          477,
+          307,
+          548,
+          1230
+        ],
+        "bboxDelta": [
+          6,
+          79,
+          -4,
+          -78
+        ],
+        "scale": [
+          0.8765432098765432,
+          0.8546296296296296
+        ],
+        "reason": "raw canvas pose/scale differs from canonical"
+      },
+      "cropped": {
+        "cropBoxOnApiCanvas": [
+          477,
+          307,
+          547,
+          1229
+        ],
+        "size": [
+          70,
+          922
+        ],
+        "alphaPixels": 37049,
+        "orientation": "tip-top-handle-bottom",
+        "tipEnd": "top",
+        "handleEnd": "bottom",
+        "tipAnchorInCrop": [
+          35.258521237545885,
+          41.36234923964342
+        ],
+        "handleAnchorInCrop": [
+          34.83688860159448,
+          879.7735401853049
+        ],
+        "mountAnchor": {
+          "end": "handle",
+          "point": [
+            34.83688860159448,
+            879.7735401853049
+          ],
+          "normalized": [
+            0.49766983716563545,
+            0.9542012366434978
+          ]
+        }
+      }
+    }
+  ],
+  "selectedAttempt": 1,
+  "rawApiPath": "wand-base-raw.png",
+  "rawApiSha256": "964884e615c8da549803a3e6ae3fa01867d12c6b26e994fa1ba68971d08b0bf5",
+  "rawApiSize": [
+    1024,
+    1536
+  ],
+  "rawPoseAlignment": {
+    "ok": false,
+    "sourceBbox": [
+      471,
+      228,
+      552,
+      1308
+    ],
+    "rawBbox": [
+      477,
+      307,
+      548,
+      1230
+    ],
+    "bboxDelta": [
+      6,
+      79,
+      -4,
+      -78
+    ],
+    "scale": [
+      0.8765432098765432,
+      0.8546296296296296
+    ],
+    "reason": "raw canvas pose/scale differs from canonical"
+  },
+  "finalPath": "wand-base.png",
+  "finalSha256": "a991a624d4d9c1694773741669c819db19cf7615435a04ecba45c9d36f819530",
+  "finalSize": [
+    70,
+    922
+  ],
+  "registration": {
+    "cropBoxOnApiCanvas": [
+      477,
+      307,
+      547,
+      1229
+    ],
+    "size": [
+      70,
+      922
+    ],
+    "alphaPixels": 37049,
+    "orientation": "tip-top-handle-bottom",
+    "tipEnd": "top",
+    "handleEnd": "bottom",
+    "tipAnchorInCrop": [
+      35.258521237545885,
+      41.36234923964342
+    ],
+    "handleAnchorInCrop": [
+      34.83688860159448,
+      879.7735401853049
+    ],
+    "mountAnchor": {
+      "end": "handle",
+      "point": [
+        34.83688860159448,
+        879.7735401853049
+      ],
+      "normalized": [
+        0.49766983716563545,
+        0.9542012366434978
+      ]
+    }
+  },
+  "handle": {
+    "end": "bottom",
+    "anchor": [
+      34.83688860159448,
+      879.7735401853049
+    ],
+    "tipEnd": "top",
+    "tipAnchor": [
+      35.258521237545885,
+      41.36234923964342
+    ],
+    "note": "The bottom/rounded end is the handle; mount using handleAnchorInCrop."
+  },
+  "visualReview": {
+    "result": "accepted",
+    "reviewer": "parent assistant",
+    "criteria": "Plain starter design reviewed beside the 1 GOLD item; final in-game default outfit and anatomy inspected."
+  }
+}

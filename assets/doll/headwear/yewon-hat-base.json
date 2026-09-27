@@ -1,0 +1,68 @@
+{
+  "character": "yewon",
+  "item": "hat-base",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-26T18:51:40.319790+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference, not a body to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions and recognizable identity. Do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: navy sapphire pointed scholar hat with silver moon trim. Use only the hat design visible in image 2.",
+  "raw": "scripts/art-sources/headwear/yewon-hat-base.png",
+  "rawSha256": "7b09fd5a8c6772aaa4e7af64f038ae56e326a5522d97a375d413cc38924ba76f",
+  "registration": {
+    "sourceToGeneratedScale": 2.000712335693102,
+    "rotationRadians": 0.0244810347997785,
+    "translation": [
+      -506.9545829833512,
+      342.24169641284675
+    ],
+    "initialCorrelation": 0.9056232359320172,
+    "refinedCorrelation": 0.9414256996426088,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "needs-visual-review",
+  "files": {
+    "yewon-neutral-hat-base.webp": {
+      "sha256": "ec736b9c74f0d56964f85817b9dcfd3517baffbd96ce1657d3e7e4023f4d273c",
+      "bbox": [
+        306,
+        -14,
+        759,
+        510
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 58
+    },
+    "yewon-happy-hat-base.webp": {
+      "sha256": "12107076d3baeaf395ce778ae0b9523bf848a3dfbdce0263479684c209dd87f7",
+      "bbox": [
+        306,
+        -14,
+        759,
+        510
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 58
+    },
+    "yewon-sad-hat-base.webp": {
+      "sha256": "6d9bbc009e86b65df2420fa3cdd0ac7c0a55b192879d566b544a8da21bf7d05b",
+      "bbox": [
+        306,
+        -14,
+        759,
+        510
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 58
+    }
+  },
+  "visualReview": null
+}

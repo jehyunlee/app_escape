@@ -1,0 +1,4003 @@
+{
+  "schema": "paper-doll-pixel-checks-v2",
+  "checkedAt": "2026-09-27T04:45:33.379259+00:00",
+  "files": {
+    "rigged/body-upper.webp": {
+      "sha256": "497c0be857d7fc2ea82702b1e2fb3913c4f59eb5b333eedc08b74929cc5bda75",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 142161
+    },
+    "rigged/hands-base.webp": {
+      "sha256": "39fd03df67deaea190540e803b3b48946af20d8b05885df6e722a0b02a08db17",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 14122
+    },
+    "rigged/starter-pants.webp": {
+      "sha256": "6346ef624b8d115b9bfc0081763615dec9e0f37d61d08c5f974e6d47267beecf",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 181321
+    },
+    "rigged/boots.webp": {
+      "sha256": "9292d46c9f502c426ba9aa551539afe6fa6a65fee77b7333bbaa106783c59f47",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 43359
+    },
+    "rigged/necklace-01.webp": {
+      "sha256": "0e77f60c2fd7a219846ef5da44d62cd8ce0289b4be7e13d6c3b350aabf9223dc",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 3300
+    },
+    "rigged/necklace-02.webp": {
+      "sha256": "0b83793176451ec154297a3c9b3665a6e4d1cc6490d8a57fae09c4a5bc2e2179",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 7154
+    },
+    "rigged/necklace-03.webp": {
+      "sha256": "43e35af4d937a1f12ef045a8bd8d8999113f5d5cb11ad0043d043ec4d9917961",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 5740
+    },
+    "rigged/necklace-04.webp": {
+      "sha256": "8f0590fd4fe15c8afceea5adc9ba1f6558958273d190912071b50cdeedb6eaca",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 3591
+    },
+    "rigged/necklace-05.webp": {
+      "sha256": "ad5835bab7e465b381efc8eaeccf8d19f2e8cfbb347da5cf23f8731ccd256bc7",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 8708
+    },
+    "rigged/necklace-06.webp": {
+      "sha256": "e2f4a0899b22df769d1fb8edc67a15aa5f682659005a72f4e54a1babafe543e6",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 8395
+    },
+    "rigged/necklace-07.webp": {
+      "sha256": "a6499caf1cdfeaa0e75dd2fd6cdbd789644a628aecc55d43ebde25365d1cc2a1",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 7941
+    },
+    "rigged/necklace-08.webp": {
+      "sha256": "b61e0efdf327d8baf26ed265b20394074fe9c6f881e56c69997a5fb686d9dbc9",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 15766
+    },
+    "rigged/necklace-09.webp": {
+      "sha256": "378f014ba618c363557cc0a01c65330b2ad9d16779ee57c8a1d087a6a02b33ab",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 7091
+    },
+    "rigged/necklace-10.webp": {
+      "sha256": "a77cce9ccc7130d74a792b0010d5d7f52b6ce07881cacb0843df4dfa1607b408",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 15407
+    },
+    "rigged/necklace-11.webp": {
+      "sha256": "a7edd045fff2261a4ad2f627ce0455127d673c4e0898eddcbcc7e8f85b5d2d79",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 12265
+    },
+    "rigged/necklace-12.webp": {
+      "sha256": "614bfbdf416745aa04c81fef73b210e73007c1c0cc1a206002942f94da3f1cc1",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 14333
+    },
+    "rigged/wand-01.webp": {
+      "sha256": "357639501cce1501528d699aa1d3decaa6077f6dbea8e75b93173de20717bfc7",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 913
+    },
+    "rigged/wand-01-front.webp": {
+      "sha256": "f12f861240477826ed0e26ae140ff01abbe5fc9ae2bfd109041dd2789130b999",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 4156
+    },
+    "rigged/wand-02.webp": {
+      "sha256": "3a5b42a16b3bbc4b3bbfb3d1598b5505228ec30bde3610b99857f6e5e56cc4ac",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1031
+    },
+    "rigged/wand-02-front.webp": {
+      "sha256": "4dda1f72ff658edb1f29808b03375a65efefd87cd9be158a1c3587df153575be",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 4257
+    },
+    "rigged/wand-03.webp": {
+      "sha256": "fe339cedf2f9867c48f7e6d839ad9a1942c6713491fa97fcb8df8b2fa091f46a",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1203
+    },
+    "rigged/wand-03-front.webp": {
+      "sha256": "760c8154676a47ad9731c6f29b87f1adf826cfc20b12bff31923050b5fa58f1b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 4598
+    },
+    "rigged/wand-04.webp": {
+      "sha256": "f0532e4327f1576f6594197692d542231a49874710c75b1cd4082984daaa81bc",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1128
+    },
+    "rigged/wand-04-front.webp": {
+      "sha256": "c363ac6e833759a6cb4054eeea9cd24ead45273659f66723eed216b4b79d3774",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 4897
+    },
+    "rigged/wand-05.webp": {
+      "sha256": "351e5e2b23c56cf55a02a974f1a004b0dcf5bba5b4e76cf29ff716cc0dbc514a",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1868
+    },
+    "rigged/wand-05-front.webp": {
+      "sha256": "64b0a39ad3af7d8a660a70f4fbc0e77466f265536f3a121a74dff923bd69623c",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 6894
+    },
+    "rigged/wand-06.webp": {
+      "sha256": "827e541b7522ebb79300588f8d4cba80321c9b6743a9928918abbcfdac90b03b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1297
+    },
+    "rigged/wand-06-front.webp": {
+      "sha256": "978498c45035c39613b67c069f3f36746dbcbcc7171c8539692aa31e929ab5b7",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 6222
+    },
+    "rigged/wand-07.webp": {
+      "sha256": "cbf575141a1ae7a9e93427d6ce44985b83c4b414e663eb7c6a21aa9824cc2d51",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1444
+    },
+    "rigged/wand-07-front.webp": {
+      "sha256": "7cafa5b83a5b6fbc430862189320a7860a38b5798c5946beccfa3609038dceb7",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 7491
+    },
+    "rigged/wand-08.webp": {
+      "sha256": "5eb04e835e405556e8061368a901037371244bbc207cceb6da83e4e81a7b97e4",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1947
+    },
+    "rigged/wand-08-front.webp": {
+      "sha256": "b8c1f8704840bfff814ae30a9f0e1513e6ec7b66d6f1186dc6cf519a48a05cca",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 6758
+    },
+    "rigged/wand-09.webp": {
+      "sha256": "83b048ed32b624dbae6ea9860171aa32fec337b5b34cbcbb902ce0ef93a56bd3",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1161
+    },
+    "rigged/wand-09-front.webp": {
+      "sha256": "5ebf24fd8471820f78e44a8970c59c32735064834b7d3d067bce708f782c09aa",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 4805
+    },
+    "rigged/wand-10.webp": {
+      "sha256": "1a1d1ad486bdcffe018a4ee0bdeb09cc8ac06aa9daae7535a8326bc3c2c24c4b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1114
+    },
+    "rigged/wand-10-front.webp": {
+      "sha256": "71e90584e3309a95a9464a1369e1ff087dd18363b50f453c4537fe58a71c7c54",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 5626
+    },
+    "rigged/wand-11.webp": {
+      "sha256": "09575ea7a34aa7dc82c6deda490ead6156d4f0623cf7361970717235769b1f76",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1133
+    },
+    "rigged/wand-11-front.webp": {
+      "sha256": "2c257e2ff003d5f0c4d559c50c71880f67b26220645459e6de364ea9fb410da9",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 5791
+    },
+    "rigged/wand-12.webp": {
+      "sha256": "168a864b87f1cf26b2f4bad15fa9971c5ee5a2e8997dda2b714ad8f0092683f0",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 1116
+    },
+    "rigged/wand-12-front.webp": {
+      "sha256": "ccfc9ac209bc745852b259a6b4de543f830dcc6a5fa06d70f22e84d1f26fc04b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 6566
+    },
+    "rigged/wand-base.webp": {
+      "sha256": "3fe50f1e8e6e5dc6bddf36bd1a9ae2354ff40a3416b0a5df34934690d38d26d2",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 608
+    },
+    "rigged/wand-base-front.webp": {
+      "sha256": "0ea0d821087b65432087bb19f55c0ec83ce27a4f5a9eddf9c3d89ff834a6e66f",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 3391
+    },
+    "rigged/broom-01.webp": {
+      "sha256": "31013c28bba9a87eb912365d3bde0153ee1ecba0fd17a3575d760be39e219428",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 138040
+    },
+    "rigged/broom-02.webp": {
+      "sha256": "bf6a601bed3776a0eed14fcfa16b624bb1f270a11a3d84f275851d75f711512d",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 90421
+    },
+    "rigged/broom-03.webp": {
+      "sha256": "10cd95560f6709dcd21b5a1c92a5afb8f5f4a3418c2306560b9d71b5db7c42ec",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 163148
+    },
+    "rigged/broom-04.webp": {
+      "sha256": "3abb87d339cefb56f948b0c2a50df122e340890593d3f3c56eda7c7d4821a9eb",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 183918
+    },
+    "rigged/broom-05.webp": {
+      "sha256": "358839ddaad1aa0b64dd6a428248ebc81bff5b00d4c5c74783fbf245c6bffadd",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 153614
+    },
+    "rigged/broom-06.webp": {
+      "sha256": "c508a3031a1384ba7a10b507a14e2c95b6c814ceffbab2e0bd2558f775562439",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 155440
+    },
+    "rigged/broom-07.webp": {
+      "sha256": "cfcba4941acdbecc4d7011a618ea91ed34147fdcfb31b1fffa3029d09a6bc6d1",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 145656
+    },
+    "rigged/broom-08.webp": {
+      "sha256": "1681db351cf5c6c5d8a0f363387a0740682eb982fc997bdc54e0240a62a54b76",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 209969
+    },
+    "rigged/broom-09.webp": {
+      "sha256": "b1b3037a333572152b1a0874f268aa9c3abdc704008be1a854100d12890f810a",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 153191
+    },
+    "rigged/broom-10.webp": {
+      "sha256": "645de570b274db01be1e0cd8143165cf0e01dfb1da0d436272c4591403518512",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 183877
+    },
+    "rigged/broom-11.webp": {
+      "sha256": "b2c7f71bcaa0afb523a5490cedb76c3998c86cb81588dabb405bc35ffc3f951b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 177453
+    },
+    "rigged/broom-12.webp": {
+      "sha256": "cde5bab888e9801d1212e3bc44abb6ac6267b4389d80ba01c1ce81cd64cd2e1c",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 194616
+    },
+    "rigged/broom-base.webp": {
+      "sha256": "ff2f46adbfde9c3f1187d378300a6e71e3c47a170cc38aeab3d43f30c5f003fc",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 120843
+    },
+    "rigged/clothing/cloak-01.webp": {
+      "sha256": "f2ab84940915ad346680182443468e19bd70be28370806b7c873d2400d68373e",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 240786
+    },
+    "rigged/clothing/cloak-02.webp": {
+      "sha256": "f4f1d9d7fcacfd75106be463e44d838b1c929198a414263ddd0de3c1f8665ef8",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 184210
+    },
+    "rigged/clothing/cloak-03.webp": {
+      "sha256": "87f825f311e834a31dcfc5da576b03ebf58e66f393acfe58f425e9ba31ce1767",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 274134
+    },
+    "rigged/clothing/cloak-04.webp": {
+      "sha256": "e0d103d33caa7609fb6561c1f8eef210e17559a6682911df4814e2d0c661c4c8",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 304661
+    },
+    "rigged/clothing/cloak-05.webp": {
+      "sha256": "f09e19b788609eb8acd3732a392b079a6fe60c2008e10c6d7a8853f5cb48aad0",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 292802
+    },
+    "rigged/clothing/cloak-06.webp": {
+      "sha256": "cb3658695572e6a2c92c271001a6038349c0199b6568615209821607fa30f0f3",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 313644
+    },
+    "rigged/clothing/cloak-07.webp": {
+      "sha256": "74b9cf33208339787cbeea6b896a3c132eb3bbb0cf77322d60010954cbcd9595",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 215703
+    },
+    "rigged/clothing/cloak-08.webp": {
+      "sha256": "43d934e24758ee09693791b3f41f10f47584c797be2087593e89fbaa7114bfaf",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 300702
+    },
+    "rigged/clothing/cloak-09.webp": {
+      "sha256": "6f019eaa8d1617d48fd0bab5e2824b43d0709426aef0c188b0c0758cb754a68d",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 342923
+    },
+    "rigged/clothing/cloak-10.webp": {
+      "sha256": "2effe9c321d2f027abed15eabc3bc7acd61324b149dc5094f808b99aca5c0be1",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 307645
+    },
+    "rigged/clothing/cloak-11.webp": {
+      "sha256": "578ec4e8edae68e8c83828792102c0c743c960f749915481db17a999be803351",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 371619
+    },
+    "rigged/clothing/cloak-12.webp": {
+      "sha256": "dc754d31cd4af8d7ae8533c00fea20cbdd758fafe30a075f84ac796fdeecde92",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 386471
+    },
+    "rigged/clothing/vest-01.webp": {
+      "sha256": "a5a661d543bce2841f9d2341a3eec92c0eaeaba09d70232f926ab5ef4291cf81",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 79822
+    },
+    "rigged/clothing/vest-02.webp": {
+      "sha256": "718e6192c4d3f2ed40ee4c3ed06d4005ea052b19cc2e4151cc354c2fa875057b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 62696
+    },
+    "rigged/clothing/vest-03.webp": {
+      "sha256": "409bdc7650e8edbb217f2942f7f5c44bf462d846233eece1916d3b274b7ce23a",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 80730
+    },
+    "rigged/clothing/vest-04.webp": {
+      "sha256": "3a7a40c972bc594ee162e7f2097d4e9a6aa8062efec5b18a93b82988b594973b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 78916
+    },
+    "rigged/clothing/vest-05.webp": {
+      "sha256": "7ba1cf977b34789dd6086d56c868d1d643c2219c764c0d587f1e52ddb4aa6eea",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 83066
+    },
+    "rigged/clothing/vest-06.webp": {
+      "sha256": "75d55876f6c772d1606d3d16f2a6043aac683f45da0b09ed56c84eb48097a2e0",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 80995
+    },
+    "rigged/clothing/vest-07.webp": {
+      "sha256": "03fceae160ee6e6ee7a0fa4d601c2d3da72172168ae76d19ee4f8bc827cead8b",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 85154
+    },
+    "rigged/clothing/vest-08.webp": {
+      "sha256": "1784e7b6d77d6cf5e5f25526151838c584100e22d5bf9728940d3c89d6e2c026",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 84702
+    },
+    "rigged/clothing/vest-09.webp": {
+      "sha256": "9fac55f16152df56da4bc27efc73e704e0ed0f2d1411afabf965f3f25d15d1ae",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 78390
+    },
+    "rigged/clothing/vest-10.webp": {
+      "sha256": "221e6450fc19b81a1957665eaefdee999291c758f39d23d51a643aa39dd968dd",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 81686
+    },
+    "rigged/clothing/vest-11.webp": {
+      "sha256": "d46b950d2d52a51358b6bb41d208598b53e12afe6b8620f63c8443be76a193e2",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 78754
+    },
+    "rigged/clothing/vest-12.webp": {
+      "sha256": "731911002bb71e6d8ddb7ad965bcf72824005de93e1b7a86ef0dc0ecf3ffeac6",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 77768
+    },
+    "rigged/clothing/pants-01.webp": {
+      "sha256": "f7c1e108c07a12e93813314df6532ede75d83fa33706fba55f4130fd01a8ea39",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 186446
+    },
+    "rigged/clothing/pants-02.webp": {
+      "sha256": "3f22b4fe1215fa74461c90f9adf69bc223076a9660da93f70cfa4786f71d9f92",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 184261
+    },
+    "rigged/clothing/pants-03.webp": {
+      "sha256": "b7f13bc95834907634bc4f3fae011fd4d3c87c2fded3fe6ab649d0401559c4c2",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 183324
+    },
+    "rigged/clothing/pants-04.webp": {
+      "sha256": "4b50c4aacfccc3267753452f5889eb1bc0474653e134881ecc787f777e4268ed",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 195593
+    },
+    "rigged/clothing/pants-05.webp": {
+      "sha256": "5b080ebc3fa39b62fee944e0e91cf9b9ec075bc431b0b5237b5946e7b8566d2c",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 183331
+    },
+    "rigged/clothing/pants-06.webp": {
+      "sha256": "26ca45b62d8495aa40278515caab649849f3cc1768c7916abbb700b14cfd2797",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 165081
+    },
+    "rigged/clothing/pants-07.webp": {
+      "sha256": "0de0e2d44d840f93c117519f4c84028bcfa2bd1033667607d7f93da35d6e31cd",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 182097
+    },
+    "rigged/clothing/pants-08.webp": {
+      "sha256": "c53888211fa79707c14b8a22029497b8cd2ca6056687031088606b1bb8bd3aef",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 184268
+    },
+    "rigged/clothing/pants-09.webp": {
+      "sha256": "d46784edf579952fe78d4aea08700503a29bc699c063418a39950401051eb019",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 179693
+    },
+    "rigged/clothing/pants-10.webp": {
+      "sha256": "f448c8522e9e14c841e28eee234b30b8c567f26ab7c62cef1aa29bbfcc434a51",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 180516
+    },
+    "rigged/clothing/pants-11.webp": {
+      "sha256": "af3388e4b20a2312b8efd9abde13fdef3bf2ebd6df2e7a92458e9cc7825fe7a8",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 179067
+    },
+    "rigged/clothing/pants-12.webp": {
+      "sha256": "dd3ff4afd1757e6e29c8079a13db6db4a3610c4daca06c1746efad5e57dd6772",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 177447
+    },
+    "rigged/gloves/gloves-01.webp": {
+      "sha256": "d7f4a78fc2dd6ff17fa408f07d2d9116c759c447bb26e3c161229a8932417241",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 20489
+    },
+    "rigged/gloves/gloves-02.webp": {
+      "sha256": "31b38735302ef0d513398b4792bb11484b011bb0ba72c117fee08dfb55b4bdfb",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 22874
+    },
+    "rigged/gloves/gloves-03.webp": {
+      "sha256": "3a8a32e7c47452087a5917fc1e578e31fe790ed1479830694d53a1f32fe2319a",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 23111
+    },
+    "rigged/gloves/gloves-04.webp": {
+      "sha256": "87b99b5e532ffb4c149c0ecb8fb45ee8e4f54a0ed992ad4f7d0040f78be79de5",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 23435
+    },
+    "rigged/gloves/gloves-05.webp": {
+      "sha256": "3c0c555ee27cc2d7ecbcd022d243997fca1fcae672600fc6334e2902b7ac7b7a",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 28352
+    },
+    "rigged/gloves/gloves-06.webp": {
+      "sha256": "f8b375c98dc5d5fcb34be3521c9caa62fefbdeb724c19eb874d9996ca5145170",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 23143
+    },
+    "rigged/gloves/gloves-07.webp": {
+      "sha256": "a05228b53236cb21a3a250a4d23d5196d28d7caa148f54c15080572eb174262d",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 27247
+    },
+    "rigged/gloves/gloves-08.webp": {
+      "sha256": "400cefd2d898ef359df094294813326cd1d7a5aba691d89572f1e066c89a5f98",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 26376
+    },
+    "rigged/gloves/gloves-09.webp": {
+      "sha256": "aacfcb53260076b405716c2ce16e99a11c5ba0fb2379e28ac8f11b92b88e1da5",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 24414
+    },
+    "rigged/gloves/gloves-10.webp": {
+      "sha256": "e9f18cf488439fa05597934a68218e5b59729a315b86366e26fddc2f9723fc82",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 23952
+    },
+    "rigged/gloves/gloves-11.webp": {
+      "sha256": "f960046e755864427d8564e2e56276bc0eef573af6e70afdda15874e99389a9e",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 22474
+    },
+    "rigged/gloves/gloves-12.webp": {
+      "sha256": "e1549fd7419580f7833e0f15b7dd056b34f06b2cc27d7102d364f9e3afbce9c4",
+      "width": 1024,
+      "height": 1536,
+      "opaquePixels": 25141
+    },
+    "headwear/dad-neutral-bare.webp": {
+      "sha256": "52bac80b7185ef7b7a5aab65dc77c618bb0b29c1c99b0b57a3a3cd5a92813403",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 112167
+    },
+    "headwear/dad-neutral-hat-01.webp": {
+      "sha256": "dd683f681bafa9c96681e42916af3baa67dd023da8b537b4b95a8eaa647274bf",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 184778
+    },
+    "headwear/dad-neutral-hat-02.webp": {
+      "sha256": "9fe4fad3ceb905c4d7762f5be1f2aa578916cc8771eaeda347c8fcf0ab8a7d68",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177256
+    },
+    "headwear/dad-neutral-hat-03.webp": {
+      "sha256": "2a91cc1725f73073aea98439c799e08d77e4946b293b6b24f17feca606d3d684",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 174521
+    },
+    "headwear/dad-neutral-hat-04.webp": {
+      "sha256": "1df2702f75f543abc5a9e30ec611ee9e1f825f214d8d57e86f080beb4a0bf693",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 192087
+    },
+    "headwear/dad-neutral-hat-05.webp": {
+      "sha256": "c08db5bd4b89c17219c92e11afbc20334ba474814c6bbe454e4a410669961bc2",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 190345
+    },
+    "headwear/dad-neutral-hat-06.webp": {
+      "sha256": "a3fb01d960d06e34b1cf6c48700f718c7c9717aaad823d0e6c99bb5a112df8b3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 179932
+    },
+    "headwear/dad-neutral-hat-07.webp": {
+      "sha256": "2b730e9eef6b05a4c44174fb089f689aa12d7bffb1adeff426763a7ad6e5ca77",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 205403
+    },
+    "headwear/dad-neutral-hat-08.webp": {
+      "sha256": "46ba318aad73933b71ab63ad080111925cc9e15378d373630975c72b7d4f147a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 195353
+    },
+    "headwear/dad-neutral-hat-09.webp": {
+      "sha256": "d42b07a29fb0027961fd6039e62bbfb8df63d2fe1c8f109201fb089ceef9961d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 225309
+    },
+    "headwear/dad-neutral-hat-10.webp": {
+      "sha256": "0bb58c3e854b606943ddb3b860872021a8d9856cb8a709fbb4643b8e28e505a9",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 174005
+    },
+    "headwear/dad-neutral-hat-11.webp": {
+      "sha256": "7e39e18a2212058890b15eb10ebab98ae401a33d4d0c27302c4bf6ce60766e50",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 182316
+    },
+    "headwear/dad-neutral-hat-12.webp": {
+      "sha256": "c31f7a41c81a50fe2dc8ed59d540832949f857ea1ef1a572f59f280fc6e09089",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 185864
+    },
+    "headwear/dad-happy-bare.webp": {
+      "sha256": "4d8c8fbbedc370a661c3e892aa254c2a8b74998245d74f0e27a6d84979d3412f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 111772
+    },
+    "headwear/dad-happy-hat-01.webp": {
+      "sha256": "776bc2bf1ae551aa91d4070b1f1020978773140883a01663bd8d402c2d5d1fb1",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 184778
+    },
+    "headwear/dad-happy-hat-02.webp": {
+      "sha256": "b82b0a38f4879e8d907c9928b081bd41bc308d863c6ab4479f45420152ea27c6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177256
+    },
+    "headwear/dad-happy-hat-03.webp": {
+      "sha256": "81faa45c1e8b9bc3afbfc0b418cd61aee71041d27f09cef832e563e1b1e03429",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 174521
+    },
+    "headwear/dad-happy-hat-04.webp": {
+      "sha256": "3d99102b1b59aee477caaba7db5611f8a0d38b3a24cee91b240ab4317ffa5ffe",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 192087
+    },
+    "headwear/dad-happy-hat-05.webp": {
+      "sha256": "12f5059395236223de713f3090dd3434b1c5158c54c868d8a8ab8017c89b9048",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 190345
+    },
+    "headwear/dad-happy-hat-06.webp": {
+      "sha256": "251e3e2e8bda655216b385cb1491c3fdfb9b754c0ec837f060005150a5f636fb",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 179932
+    },
+    "headwear/dad-happy-hat-07.webp": {
+      "sha256": "f91326bde15d5d1edd10c122c3cbc13813ab2e93cce3d9bb10c36cbdee4e41ab",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 205403
+    },
+    "headwear/dad-happy-hat-08.webp": {
+      "sha256": "93d6b885ef0e4d07301142dcd6731c88ad3b106605481bf6f65503615f53fdce",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 195353
+    },
+    "headwear/dad-happy-hat-09.webp": {
+      "sha256": "52311495203f0a9f27319b689a03ad1e5ba1272ceb8d0d96c90e9a9391b60dbf",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 225309
+    },
+    "headwear/dad-happy-hat-10.webp": {
+      "sha256": "6dc9b9a3aa19e1ad6f88e1f9c3dd9bf383120d075aa460a4192959036359793f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 174005
+    },
+    "headwear/dad-happy-hat-11.webp": {
+      "sha256": "eb849475da3143f3fb427f01b31f2f8898e36b6c5e902c2eede04ccd9d8a9cd5",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 182316
+    },
+    "headwear/dad-happy-hat-12.webp": {
+      "sha256": "83363f66bf8d77d9c7f8f82865dc7e4abbefa6906759d3fcef86ee12c1371103",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 185864
+    },
+    "headwear/dad-sad-bare.webp": {
+      "sha256": "56a0337c136a7fe210723e326799d712432a68625176de61931909db88ea0dd2",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 112546
+    },
+    "headwear/dad-sad-hat-01.webp": {
+      "sha256": "98555696ac90cfd4543930224d1fd614fb60db4a4a65336d81d3823d8ed00ec2",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 184778
+    },
+    "headwear/dad-sad-hat-02.webp": {
+      "sha256": "cb3153236ac179f4fb0e03a5d50a216318c193197cf235c17a1d19f87b356ac1",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177256
+    },
+    "headwear/dad-sad-hat-03.webp": {
+      "sha256": "219d1386b917b0fdb2c0035d3d54c4f67d679c02f964092246f6eb8dedfe12a3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 174521
+    },
+    "headwear/dad-sad-hat-04.webp": {
+      "sha256": "331a79f7af616bd135dd7eb92ee0aa6270323d5af2d780dc813bf795ca66c105",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 192087
+    },
+    "headwear/dad-sad-hat-05.webp": {
+      "sha256": "0d6fb21d4054a9a9630d9c307d3cd45d4405bca779b4e99ba8936b32bb38dc41",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 190345
+    },
+    "headwear/dad-sad-hat-06.webp": {
+      "sha256": "6e0c23933646cd80e75517bd9a8c1f04dad6358aee4627a202b4ff3ac43301c0",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 179932
+    },
+    "headwear/dad-sad-hat-07.webp": {
+      "sha256": "5a1491634ba6f7c3d55a4aad4713cc0539b26f1b7b1c1ae39dd3d099379db988",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 205403
+    },
+    "headwear/dad-sad-hat-08.webp": {
+      "sha256": "93574f88e44b24811b5a0adba7a9c24756715b13c8ef8648ed8226b6fd00e7f1",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 195353
+    },
+    "headwear/dad-sad-hat-09.webp": {
+      "sha256": "5ff696458ebba0f712c26f463059b2b45be1ab99ba60ab7648bf8292326abdf6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 225309
+    },
+    "headwear/dad-sad-hat-10.webp": {
+      "sha256": "ade6fbb9f2a345b2700e1db18c6dd90fb0f2f55e8ad349f4ef29a9eff7a1f3ba",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 174005
+    },
+    "headwear/dad-sad-hat-11.webp": {
+      "sha256": "9d6bf0d52a885b523b2c2f84e1c94cfdb7e2fcab0cc4b1db8d4c144d93112253",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 182316
+    },
+    "headwear/dad-sad-hat-12.webp": {
+      "sha256": "22043f3e2521dd943cdf9b00c955f48e321688eaa1525427b5d09e6cdf317eed",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 185864
+    },
+    "headwear/dad-portrait.webp": {
+      "sha256": "1a564c6b9be6adfd8a614ee3bd706b102797899aa61fd985ec4790b1cfad272b",
+      "width": 1024,
+      "height": 1024,
+      "opaquePixels": 112167
+    },
+    "headwear/mom-neutral-bare.webp": {
+      "sha256": "d653c7ce1c44cd6e4f58d4fb4525ea2449f89fa9c88257f2de549eae61fe4df9",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 134382
+    },
+    "headwear/mom-neutral-hat-01.webp": {
+      "sha256": "c001f01b2691b055fcef88ddc43e8d80db3d7c13c9a4dcf8027667903d1e2ed7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 176887
+    },
+    "headwear/mom-neutral-hat-02.webp": {
+      "sha256": "4bf81592d77d029e1c4c39227b0a24c3df54bbaaa76215a6903d71020d51252f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189618
+    },
+    "headwear/mom-neutral-hat-03.webp": {
+      "sha256": "bd174892341ca7d6d8ae657a2915dd4d04dcdb8f4f62f6ac98ad7dcb2b9b5b22",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 172396
+    },
+    "headwear/mom-neutral-hat-04.webp": {
+      "sha256": "f6e9d336d8c5997e0984dda03168db93863fe6fe24c0a30ad86e00d522e883b3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189601
+    },
+    "headwear/mom-neutral-hat-05.webp": {
+      "sha256": "58254680bcf79705226faabd1efc4a1271d03a9528947be40402baefa708267d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 180323
+    },
+    "headwear/mom-neutral-hat-06.webp": {
+      "sha256": "aeb4afa212a57e15fef400579e1d6c478cb1b10664938da46482b25f852198b3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 193114
+    },
+    "headwear/mom-neutral-hat-07.webp": {
+      "sha256": "bcf5e38532672d884c5e3f96d087a5d9561af82f7c97f4d7bef2aa451c985bd7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 206565
+    },
+    "headwear/mom-neutral-hat-08.webp": {
+      "sha256": "216dfe6b615b854741b200b85bc8caca81ff8917573ea7096cd8e6352b285e45",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 200502
+    },
+    "headwear/mom-neutral-hat-09.webp": {
+      "sha256": "c6cd6c57850ead304d440dfd93e5427b9b8def2b128434664d67d76d43a3f296",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 196669
+    },
+    "headwear/mom-neutral-hat-10.webp": {
+      "sha256": "61b0f63e42d48b638797a54f7f19d0143f7d3baae97d1df447fe1d72b50ad994",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 172948
+    },
+    "headwear/mom-neutral-hat-11.webp": {
+      "sha256": "f0ce8123f69896380bcaf16223faa28cbfb804eb9ec425fc2617b4988767ba09",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 199147
+    },
+    "headwear/mom-neutral-hat-12.webp": {
+      "sha256": "52d661e9aed219ba56b56577103a1631443e19ad61928d3c42ff77f4d7332b1b",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177019
+    },
+    "headwear/mom-happy-bare.webp": {
+      "sha256": "4816dcb3d6cfb393bfeec9da54b7f24032a1e05c8927a4c5c73b92cf14b7347f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 134370
+    },
+    "headwear/mom-happy-hat-01.webp": {
+      "sha256": "6b91e4167a367b06a3d92242b1d2834f9d7a1be1ee208ed048c2c125b1b32f0a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 176887
+    },
+    "headwear/mom-happy-hat-02.webp": {
+      "sha256": "3df9f6d216aebd7bbb5c5fd5b1f81e0f9acbdf87c2e35ed303644af3eaf7aef7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189618
+    },
+    "headwear/mom-happy-hat-03.webp": {
+      "sha256": "ec71c576f218656005697cfde0634e1a81e041de88d53dff046faa43b8c3632b",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 172396
+    },
+    "headwear/mom-happy-hat-04.webp": {
+      "sha256": "2f37653c08539d7cb9e7253f9d7c958942f87ebabdff9c27fc21059c6c81db37",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189601
+    },
+    "headwear/mom-happy-hat-05.webp": {
+      "sha256": "4f8ecce93a0fc967b2221931b730ec7974f505080d72b2b763055a30be937662",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 180323
+    },
+    "headwear/mom-happy-hat-06.webp": {
+      "sha256": "0d1440ea14275f004903763963dd19f9f651da352c7153feec0cd1db40ca0d6a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 193114
+    },
+    "headwear/mom-happy-hat-07.webp": {
+      "sha256": "4f3e55545663315aa0926523574fa00f933b5df9cb2068b4e9f0ad2cd622fd9e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 206565
+    },
+    "headwear/mom-happy-hat-08.webp": {
+      "sha256": "ed5d1492d0f293436bd346ed41c606b91e686f6501e7ce3e4ed8d331f2c57955",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 200502
+    },
+    "headwear/mom-happy-hat-09.webp": {
+      "sha256": "b6cca9d0be2e338800c63694e87327786a023dc9c7f291243a49647ec34f6a4a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 196669
+    },
+    "headwear/mom-happy-hat-10.webp": {
+      "sha256": "618a8b9fc9e516c3c0600de2ed2618553a7ac28f3072e5f1f99f0f88a07f80e3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 172969
+    },
+    "headwear/mom-happy-hat-11.webp": {
+      "sha256": "aade4f22952ee4b38e02c5779d60ff0f653b8d4ef523160fbec904a35e73a8ef",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 199158
+    },
+    "headwear/mom-happy-hat-12.webp": {
+      "sha256": "ded45ff8157a79857353042fd444534fa582a8aebf3b82524521d286e5c2d295",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177019
+    },
+    "headwear/mom-sad-bare.webp": {
+      "sha256": "c97151d5c6307ecd45097a7ce333edc090bbc3a23531ef519f1af5d44ec0769a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 134842
+    },
+    "headwear/mom-sad-hat-01.webp": {
+      "sha256": "f7e609da2fb92e02a1c97d63cece28b6c1d6a3ffbbcf105ad93b5e9fc396b255",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 176887
+    },
+    "headwear/mom-sad-hat-02.webp": {
+      "sha256": "6f5b0aeccbf419841b812a7f0b727ac3b5918afc9ab71d27f2a7569c0e3ba605",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189618
+    },
+    "headwear/mom-sad-hat-03.webp": {
+      "sha256": "2cbad4a0e0402e58ed3d627be4bc2fa5fe0ccec56e299300608066d81c60f158",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 172396
+    },
+    "headwear/mom-sad-hat-04.webp": {
+      "sha256": "862cbc4e0fb3eaa51a97142fb98d13f1dfc2f55628a598cf5bfe34993223bda4",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189601
+    },
+    "headwear/mom-sad-hat-05.webp": {
+      "sha256": "abbfca8ffb62cac3b61a2c218f8622889103e0996b2e844e2c3aebb643e96dec",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 180323
+    },
+    "headwear/mom-sad-hat-06.webp": {
+      "sha256": "8b83d06e8b8adab2d09e8cbadaa81b0857510a6a4db529a745def8b6b5503c63",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 193114
+    },
+    "headwear/mom-sad-hat-07.webp": {
+      "sha256": "9fa0ff75e1a0b1e4df6e50cde4d8f7859e01f8f3d67088ee676435ebc9540324",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 206565
+    },
+    "headwear/mom-sad-hat-08.webp": {
+      "sha256": "60ce028fbc0240df3b7aecdf85e014cc1ee5e5e5aa19aad7c25213c3975f0848",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 200502
+    },
+    "headwear/mom-sad-hat-09.webp": {
+      "sha256": "08c8a0a1d1fe3e4d5494643d9c4fadc02fa3a896044734a4ad85f199de47577a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 196669
+    },
+    "headwear/mom-sad-hat-10.webp": {
+      "sha256": "23e75624e0873e839b3e807df4ef50fe37f52866405ca03326c4f51c209c02a7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 172969
+    },
+    "headwear/mom-sad-hat-11.webp": {
+      "sha256": "b98f0ba048da057be261612c2ecb382061e65c971368c8277c7f5708de592888",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 199158
+    },
+    "headwear/mom-sad-hat-12.webp": {
+      "sha256": "4965b78d42dcdb8aaf3c6c08e7bea90a4c88f0a8cb280e604d58d701dc2dd115",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177019
+    },
+    "headwear/mom-portrait.webp": {
+      "sha256": "abe6e79ec18826b2a6c6faf3e1a65275d4b782a8eb65504be2319a8eac080e69",
+      "width": 1024,
+      "height": 1024,
+      "opaquePixels": 134382
+    },
+    "headwear/jeongan-neutral-bare.webp": {
+      "sha256": "92cb23f34dc0906ff393168560991183a6ed05f254104fcb9a7d09e895acb35e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140830
+    },
+    "headwear/jeongan-neutral-hat-01.webp": {
+      "sha256": "cf7036cd6f9d8b8a70a65181a2b034eb979c191ca5ace421f530ef8d1e01d0ac",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 179127
+    },
+    "headwear/jeongan-neutral-hat-02.webp": {
+      "sha256": "7b8e1eb6753b0e741b2e948c00690aebbd64b38cadd1623a3e17cca40b2a3a80",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 183047
+    },
+    "headwear/jeongan-neutral-hat-03.webp": {
+      "sha256": "c4f59c8edd01eb2af56f8cd7609a19ba7c3075737253fd6e1c506868ec4efe7c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177926
+    },
+    "headwear/jeongan-neutral-hat-04.webp": {
+      "sha256": "10cc7057124c3b11d1dce7283f86cbdae1784d888b532cee5232ec8469686ed3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 187785
+    },
+    "headwear/jeongan-neutral-hat-05.webp": {
+      "sha256": "793318f32279daa536689cdde922f8db2eee0f4a031f10ad38fe66a09979934a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 178010
+    },
+    "headwear/jeongan-neutral-hat-06.webp": {
+      "sha256": "3a80b58d0b04111b65b03cba19af7f17cfab6683be361a0a6e62b74524cb9590",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 167121
+    },
+    "headwear/jeongan-neutral-hat-07.webp": {
+      "sha256": "0c611293dcaacc874fd08c0280c05ff7d4fe5d1932bba55722a68990060eaec6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 193170
+    },
+    "headwear/jeongan-neutral-hat-08.webp": {
+      "sha256": "2d82a948467033ea6bcad90ead6bab844f1676053d921b89b8589ddebd84f80e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201477
+    },
+    "headwear/jeongan-neutral-hat-09.webp": {
+      "sha256": "a3d8402e96e4bdcda1a0a5d02d1c008c667c7fb711dfeb11d7145b57d2879f3d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 225091
+    },
+    "headwear/jeongan-neutral-hat-10.webp": {
+      "sha256": "1fce9e939005595e5e0e1e9aa07a3a53b42c0225e2a25a53114c21229e9a6366",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 159661
+    },
+    "headwear/jeongan-neutral-hat-11.webp": {
+      "sha256": "296815c89c515590c6f0bc08679db86414d52bd31bbb2a4c152d7d92d668c191",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 197596
+    },
+    "headwear/jeongan-neutral-hat-12.webp": {
+      "sha256": "d88500144f0071c5f5be6ff3c4dd6bd72680891371eaa63aeac09b7f6af131c6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 192895
+    },
+    "headwear/jeongan-happy-bare.webp": {
+      "sha256": "5c3f0dea380786cd1856841d7d925031a3a88e6389206bc3822f84efcf2a30ab",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 141030
+    },
+    "headwear/jeongan-happy-hat-01.webp": {
+      "sha256": "200332c922d160537a5a27b3193d7f118fb22b93e3f17f6708264105c974f64e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 179127
+    },
+    "headwear/jeongan-happy-hat-02.webp": {
+      "sha256": "d67bd05e062ffe66b2693cef288e4c06c594bef25faefa368f1cb13092aecd18",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 183047
+    },
+    "headwear/jeongan-happy-hat-03.webp": {
+      "sha256": "a6b8089092af497e7890afd5ff46cae5e5c6e3e0ad2dd5aa46b8cf0f15e9446e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177926
+    },
+    "headwear/jeongan-happy-hat-04.webp": {
+      "sha256": "ee84d1bae005eda380d06b4a2ed4d1b81badf98014ddad835f33bea497510153",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 187785
+    },
+    "headwear/jeongan-happy-hat-05.webp": {
+      "sha256": "8a6803c7a764c624676d99146e4178e8bf6d12fba6fd71def41f899de03541d4",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 178010
+    },
+    "headwear/jeongan-happy-hat-06.webp": {
+      "sha256": "861478cd40fe2a435fa23d900803bb008170fa4bb9df504f00fbb30a958d14d8",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 167121
+    },
+    "headwear/jeongan-happy-hat-07.webp": {
+      "sha256": "b7d2b553b71da545ba95a01e1d8414aafcb86dc07812c6461aa6427461082c53",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 193170
+    },
+    "headwear/jeongan-happy-hat-08.webp": {
+      "sha256": "e69e9f5187d981eaa36c44a6c95d161fee5137f85747ac38628b437078c09d2f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201477
+    },
+    "headwear/jeongan-happy-hat-09.webp": {
+      "sha256": "5edaf006c71669f3071b4e386142bc969359cad4a8bb235f1f81ec61fc1f361d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 225091
+    },
+    "headwear/jeongan-happy-hat-10.webp": {
+      "sha256": "f0d8af2644b58889fdbb4dc7e47779fcdc72646988b13e9c27de31bc3bf8d796",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 159661
+    },
+    "headwear/jeongan-happy-hat-11.webp": {
+      "sha256": "bebdd71af902fb0ecdcd330911b0b0d47354b5d9b18cd0636f035d8cf08453fa",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 197596
+    },
+    "headwear/jeongan-happy-hat-12.webp": {
+      "sha256": "ac22fa0e4de714184964ca7ef633a6b803e55663ac3b51842dda897153f1e7f7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 192895
+    },
+    "headwear/jeongan-sad-bare.webp": {
+      "sha256": "970692a92db0ea1cca5439e069e858e7ed8f74ecf707f14e3a252410b70960aa",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140049
+    },
+    "headwear/jeongan-sad-hat-01.webp": {
+      "sha256": "34276b612ebfc58d73082a65784dfdaf03f363ba3352320a7ebf527f82956a30",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 179127
+    },
+    "headwear/jeongan-sad-hat-02.webp": {
+      "sha256": "d82b185db1dac7a11cc31be559c3f38f6b1dd4769639226d1cca90584dec0102",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 183047
+    },
+    "headwear/jeongan-sad-hat-03.webp": {
+      "sha256": "53a8129db55b415fa9ea3a3cfc0110d5fb804a554308ff891a0eb65ddee66f82",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 177926
+    },
+    "headwear/jeongan-sad-hat-04.webp": {
+      "sha256": "46c6aac29777a5e619f8f3559fdbd30fc854a1e2294864fc9a3b760fbd130969",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 187785
+    },
+    "headwear/jeongan-sad-hat-05.webp": {
+      "sha256": "93295b2a2c539a6bcd671d6c527f6f3e1a1def43ff0f06205e8ed3a2860b3f61",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 178010
+    },
+    "headwear/jeongan-sad-hat-06.webp": {
+      "sha256": "74b90f6401bbad2e014d00d32c6642cd3c98f60e117333c46d646d9e08dffb4d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 167121
+    },
+    "headwear/jeongan-sad-hat-07.webp": {
+      "sha256": "a824ca191f6d9e5ff3f37e3b07685692833efe8bb463a025626280f7a6baf2a7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 193170
+    },
+    "headwear/jeongan-sad-hat-08.webp": {
+      "sha256": "cbe2f833bca89aba9b6bb449c45fed02e5885fc8de0598129faf92cfe4f7334f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201477
+    },
+    "headwear/jeongan-sad-hat-09.webp": {
+      "sha256": "5a1a5791207b7851c77a321532027bb25df353b81b31e7c7dd6d9a2ecca3fcb6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 225091
+    },
+    "headwear/jeongan-sad-hat-10.webp": {
+      "sha256": "6537f5767661bda57b15bb93b32e24851510a9e7a077809800e25ddb79036e89",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 159661
+    },
+    "headwear/jeongan-sad-hat-11.webp": {
+      "sha256": "6ed4439d62bc2911e7f4216fe01c08fdf485a769c376ede4dc8023e0f204aab2",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 197596
+    },
+    "headwear/jeongan-sad-hat-12.webp": {
+      "sha256": "6ea2be3bfbe2b6799682cfb90b8131c08ca442d8402668faa14368cd60617498",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 192895
+    },
+    "headwear/jeongan-portrait.webp": {
+      "sha256": "dd449e3f3aba3656ba484dd47a6df2f79d5db4cf15d7bee6d9ab3485e2b74179",
+      "width": 1024,
+      "height": 1024,
+      "opaquePixels": 140830
+    },
+    "headwear/suan-neutral-bare.webp": {
+      "sha256": "c12fdb9d912001b4a4ab1f2080335ba5de226933aa900a179658c8aabcb409fa",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 162263
+    },
+    "headwear/suan-neutral-hat-01.webp": {
+      "sha256": "00fe16c052a58147f687ee3172a671e806f7b7a95035702a2f4709429f2d5d44",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189562
+    },
+    "headwear/suan-neutral-hat-02.webp": {
+      "sha256": "4659cc42e25af212d08080c7a0873fdde7752cab71dc0c513548ca9a1b618288",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 197803
+    },
+    "headwear/suan-neutral-hat-03.webp": {
+      "sha256": "25288aa3332b80e4aac23683c74485a8d913537e8624dafce4d4d7cc684e41c3",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189235
+    },
+    "headwear/suan-neutral-hat-04.webp": {
+      "sha256": "5c6551e4370ed67df04362b8259f4da59a76d3dd614244c24e6a45ce4e2e6606",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 215275
+    },
+    "headwear/suan-neutral-hat-05.webp": {
+      "sha256": "68c6bfc54e5ab85ca9bf438cbc4a3183d2266d402770319cd221aab11b82d06d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 202185
+    },
+    "headwear/suan-neutral-hat-06.webp": {
+      "sha256": "5056478812364199e5444f28f8cdcaf66094cab55de757cb79af772450b1d18c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201036
+    },
+    "headwear/suan-neutral-hat-07.webp": {
+      "sha256": "32c9f1bc7e1803977a5dce9f8f8c51fc691bb07a84a8f971e745175ef6744ea2",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 221811
+    },
+    "headwear/suan-neutral-hat-08.webp": {
+      "sha256": "86ca9e300de7357d3bf5192b2a8a81199d44a0f95de4a0c65878bf4038d5571d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201735
+    },
+    "headwear/suan-neutral-hat-09.webp": {
+      "sha256": "9940cf81b3c9bf872d58c92bde4c8d32c45257c64f9fdc769e35c22d9ccae99c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 214786
+    },
+    "headwear/suan-neutral-hat-10.webp": {
+      "sha256": "c3067145540e00d5e20f3f3b26bebd63eed78e11062832a7d98db7424b14a6ac",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 175358
+    },
+    "headwear/suan-neutral-hat-11.webp": {
+      "sha256": "91eeed8f33154243c4b7366481c40c726c3c21721f4c850520ca6fff04c0478d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 213747
+    },
+    "headwear/suan-neutral-hat-12.webp": {
+      "sha256": "7d882bee8e82f75612f596d4571914bbdc5f60d6d7f09a68530d5b0264392874",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201638
+    },
+    "headwear/suan-happy-bare.webp": {
+      "sha256": "b2e9fa69cd24eb43b0b7bf5f6a7672a26c99ff2f5eb6e6a00b494a09618940eb",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 162535
+    },
+    "headwear/suan-happy-hat-01.webp": {
+      "sha256": "1b4f9a636c27be89f46eec94f822a33ac72ba804d278fd0820f9ff839689a290",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189563
+    },
+    "headwear/suan-happy-hat-02.webp": {
+      "sha256": "138bcde02fa485d9abccaeb055a5c41f4efa65b89d49b4c3138f33b830abfe16",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 197803
+    },
+    "headwear/suan-happy-hat-03.webp": {
+      "sha256": "de2bca64779505c0bb99fdd0f5bccc922e3dabc0bb283ee6c32a83d0a7121a1c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189235
+    },
+    "headwear/suan-happy-hat-04.webp": {
+      "sha256": "99b3e4649a03465d5df4828390cf62e7c25e857e80dddc1556609ff4271b974a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 215275
+    },
+    "headwear/suan-happy-hat-05.webp": {
+      "sha256": "762c39bba2fbc4292a7559da36d20c63aebebbec07cf7a69d29e82fcc7aae24e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 202196
+    },
+    "headwear/suan-happy-hat-06.webp": {
+      "sha256": "9a9e858a2b4ba12e0efdb8f63c8ad8d39115d200b4200e844e4a5beb927c62c2",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201036
+    },
+    "headwear/suan-happy-hat-07.webp": {
+      "sha256": "2dfd916a0c960c4cf883e3c316e02b742ab678945d48634b2589faa3571e7d3c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 221811
+    },
+    "headwear/suan-happy-hat-08.webp": {
+      "sha256": "f6a2f88947c5a606a12632f65212802c0573a8b64a75bd5c859f28cd7b92dd34",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201762
+    },
+    "headwear/suan-happy-hat-09.webp": {
+      "sha256": "32a0d97060f484f7ecc5d4eae7d47d2b5b4615ced79ae96a7ea36d8c586dfed8",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 214786
+    },
+    "headwear/suan-happy-hat-10.webp": {
+      "sha256": "d7191d87eed1f79ffd5371d785195f43f842dd5afd63bac17de947a73332eec9",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 175373
+    },
+    "headwear/suan-happy-hat-11.webp": {
+      "sha256": "3c59719c110b3df498dc48beabad7c4d3d66dfb1d7792d02fd546cae70692fd1",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 213747
+    },
+    "headwear/suan-happy-hat-12.webp": {
+      "sha256": "b3c0b7f5077ccb0c4e62f1e45a6a435ef75070a6df088ab6c3eabaf4844a7275",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201638
+    },
+    "headwear/suan-sad-bare.webp": {
+      "sha256": "e22a4d72e558ce029d7331e3795838e808f9671f3ce8f33906154c7359fc87dd",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 162565
+    },
+    "headwear/suan-sad-hat-01.webp": {
+      "sha256": "a0ccd14cfb7446a206114c187aa14f4da857ee8490d92bfb1cbf162dac8711f9",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189563
+    },
+    "headwear/suan-sad-hat-02.webp": {
+      "sha256": "453cd059296696f6aac66c7c787cd14a2e8cc7b1b9aebcbbf0a6b16c2dd47055",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 197803
+    },
+    "headwear/suan-sad-hat-03.webp": {
+      "sha256": "f1e3edaa461cac90b54c30d08009faec310e33b70961ce37e2828f6a1d6a2b3e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 189235
+    },
+    "headwear/suan-sad-hat-04.webp": {
+      "sha256": "ecab94b3c0fe0c239313f48de8649e4d7d7c17f3215d56c2f6d9a3ddb576d2b9",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 215275
+    },
+    "headwear/suan-sad-hat-05.webp": {
+      "sha256": "4cf85a66b28be778b60b2b084285565a4064f2bae025673208113f266f158f2a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 202196
+    },
+    "headwear/suan-sad-hat-06.webp": {
+      "sha256": "a8a46d806472f142335deb7db36c49bf4d6c1ef6344a38a4c4904432e01369d6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201036
+    },
+    "headwear/suan-sad-hat-07.webp": {
+      "sha256": "fe8805f1585b05d8a88f07e6e83f0374c8e28deff9442c484a22a50ca5e2aa77",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 221811
+    },
+    "headwear/suan-sad-hat-08.webp": {
+      "sha256": "3b3b797aa50a24a88eeb16478772c18091d9240271aeefaeb296b9b5a59aef19",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201762
+    },
+    "headwear/suan-sad-hat-09.webp": {
+      "sha256": "926fa0494ae5aa16d4e96d2d15259a2b23b455814ae4a8e6aad4ebdd3b3d2bde",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 214786
+    },
+    "headwear/suan-sad-hat-10.webp": {
+      "sha256": "5a86bfa1f65520e45267c617cb6dbdf2f9d786681414d176c0387b8b145f5427",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 175373
+    },
+    "headwear/suan-sad-hat-11.webp": {
+      "sha256": "f9b9c6afd486db034b29b0ddd154c54663d5c395fa67bf13a1d5a4dbc9fcc0ae",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 213747
+    },
+    "headwear/suan-sad-hat-12.webp": {
+      "sha256": "98a3d7fa0b43d54cd107f66c8524ca91a587c8020bdd1bfc70dd97f1466f7a5e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 201638
+    },
+    "headwear/suan-portrait.webp": {
+      "sha256": "dcd3277ed1b97eef008ea93cba70d2b7f127befc24afd558fca134b05333e9e5",
+      "width": 1024,
+      "height": 1024,
+      "opaquePixels": 162263
+    },
+    "headwear/yewon-neutral-bare.webp": {
+      "sha256": "1a059ecf7d77ac190e6f6e25e07ee4eca49984b34487e4ca78f5f4ea6bf5ddd7",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 109770
+    },
+    "headwear/yewon-neutral-hat-01.webp": {
+      "sha256": "62e6b38866bab8667cbb984724fcb2b84adb3d1bbc0471a534dce23441b61572",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140973
+    },
+    "headwear/yewon-neutral-hat-02.webp": {
+      "sha256": "ac451635dfc0068339941e8c70fd442391eea89c551f2e5dfb18e34c395b37b8",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 141729
+    },
+    "headwear/yewon-neutral-hat-03.webp": {
+      "sha256": "3832a15a60caa7adcb8ef5c6a7d8f5f8344b36b8646369fc21e8a02c83895ea8",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 136615
+    },
+    "headwear/yewon-neutral-hat-04.webp": {
+      "sha256": "8ca0a8ff763058b332c9391a80439a0fb2bb1937ae429f23ee4644b9148bab52",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 151713
+    },
+    "headwear/yewon-neutral-hat-05.webp": {
+      "sha256": "45932f40b109d8a1b2c860c4687f00fe6e5d23bc8dbefe9d1e54051c275c6123",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 135863
+    },
+    "headwear/yewon-neutral-hat-06.webp": {
+      "sha256": "9b53565cffaf05c5edd46b626499c2214620d4a62cefe18eb3e1ef1a10b410c6",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 144239
+    },
+    "headwear/yewon-neutral-hat-07.webp": {
+      "sha256": "bfc1054a16b0888c89af2cf816aeb4dd003248b26738639e4ff26b2f52d329bf",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 148979
+    },
+    "headwear/yewon-neutral-hat-08.webp": {
+      "sha256": "0442749efb283c7712d58ba0372328c61ff1190bd42cb787c9cb866b67fa03b4",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 146221
+    },
+    "headwear/yewon-neutral-hat-09.webp": {
+      "sha256": "8706a4eb24d3a3f7ff9c0f91164448acc3c04a4efaf328f02d7f65e009213388",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 181751
+    },
+    "headwear/yewon-neutral-hat-10.webp": {
+      "sha256": "9ed28297f8c3a56f227d44abffe123c0360dc57532dc50344e9c92deed28ab8d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 130273
+    },
+    "headwear/yewon-neutral-hat-11.webp": {
+      "sha256": "f586fc82322639f19adf6a514f3dbcbe8ab7290846d296153b7ba5d704e48c02",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 136235
+    },
+    "headwear/yewon-neutral-hat-12.webp": {
+      "sha256": "680ce943efada8e585ed66656b1969379829d0fe573ac1a3c4a4ee809601da3e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140163
+    },
+    "headwear/yewon-happy-bare.webp": {
+      "sha256": "4d804e04301dd0164a10bf09602360915f80f82e58e032e0df6d3cefe2afbad5",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 111993
+    },
+    "headwear/yewon-happy-hat-01.webp": {
+      "sha256": "73bcd28dee11f30b41adefebc730f651fce4e1606d1606a1e0d1797c97e4e657",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140998
+    },
+    "headwear/yewon-happy-hat-02.webp": {
+      "sha256": "9d70ac3d469eb4b030376fb4cf5059cb35126557056b5504488cdf0da0c56b73",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 141742
+    },
+    "headwear/yewon-happy-hat-03.webp": {
+      "sha256": "c1dbafa053e691260c02bf88c737ab839da804d0f1934dd270d506b7d7623963",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 136650
+    },
+    "headwear/yewon-happy-hat-04.webp": {
+      "sha256": "6e6c1826c0e923750e42e9e27415faba01442153745324b2ec305e6df797d93d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 151730
+    },
+    "headwear/yewon-happy-hat-05.webp": {
+      "sha256": "84417061a3ccde11350d89c6c866e598764ba2beba65dd748a8af5d6316fd421",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 135881
+    },
+    "headwear/yewon-happy-hat-06.webp": {
+      "sha256": "69391168e1b9f9eab25ec3b074e0dfdb8827c09dc5c2e4680ab9e0f07b61dd16",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 144256
+    },
+    "headwear/yewon-happy-hat-07.webp": {
+      "sha256": "491b08fcdf9d0444cec2b7fe6fb01935138c3ec0f4243b4bafdf4736483cb392",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 148994
+    },
+    "headwear/yewon-happy-hat-08.webp": {
+      "sha256": "875df8279ea389bf574c34aed66e5e1661638fbd27680ae0c296b604f25fff6a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 146232
+    },
+    "headwear/yewon-happy-hat-09.webp": {
+      "sha256": "625138bfa65a085769f57cd0b05bf422c705b4525aae67684a1c2c9fbd430605",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 181772
+    },
+    "headwear/yewon-happy-hat-10.webp": {
+      "sha256": "b4fde740c53065b7213304e3f022843c71346b8311a0646f588a3e649919486f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 130296
+    },
+    "headwear/yewon-happy-hat-11.webp": {
+      "sha256": "fcbc73d5cfdb85285bd7f3105391610211de5080aec779f197d8bbcf1f12e712",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 136276
+    },
+    "headwear/yewon-happy-hat-12.webp": {
+      "sha256": "8b5999f0d22f2cb5f8e3df4a8a0a321f490ba565ce22d83667bf07f68652215b",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140172
+    },
+    "headwear/yewon-sad-bare.webp": {
+      "sha256": "bacc97bade796fb43e9ae8898c5f7af450bf19ce6e76f2910f38441cd36c0c4d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 111016
+    },
+    "headwear/yewon-sad-hat-01.webp": {
+      "sha256": "bd4853d260620b748f1c11045d98b2503bc920e3841fc1f4512b830b35912fed",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140998
+    },
+    "headwear/yewon-sad-hat-02.webp": {
+      "sha256": "8ee64b98cedefd58e0e5d4f4b58040e24b995bfaec808f3bea415be88e1dc662",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 141742
+    },
+    "headwear/yewon-sad-hat-03.webp": {
+      "sha256": "0dfa86fc617b610bf6a3318d35b4bb96060a2bc58acd4972677bf902c7dd3b81",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 136650
+    },
+    "headwear/yewon-sad-hat-04.webp": {
+      "sha256": "088c6a33057b222fab7420fad23c0a9c2a14eb08ac75e1a35000c9a7927cc607",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 151730
+    },
+    "headwear/yewon-sad-hat-05.webp": {
+      "sha256": "89bba318812c337bd88d283d3c5bfdcd8c028007f248b536d5220f8dfd73849d",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 135881
+    },
+    "headwear/yewon-sad-hat-06.webp": {
+      "sha256": "64ab6d0800e66f32cb871aed50f989aa38905bd4bfc0840edb07494254f2df3e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 144256
+    },
+    "headwear/yewon-sad-hat-07.webp": {
+      "sha256": "dcd9724847e4bd59ae2c6a5529f7d49a587a53bc3c72d2126e48900939a6920a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 148994
+    },
+    "headwear/yewon-sad-hat-08.webp": {
+      "sha256": "599feff2a9f892a00307ccd58b31b040c7338fc44d03d5785c731f065151d0b8",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 146232
+    },
+    "headwear/yewon-sad-hat-09.webp": {
+      "sha256": "f2eb0f7cf62ff036d575ddc84a39a253b761dfdb6dc2e158390836ab352402af",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 181772
+    },
+    "headwear/yewon-sad-hat-10.webp": {
+      "sha256": "4ca51ce6cf8580c41ee7ecec9cd5b637072ce9ccac4158dafb411a2ae86f063f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 130295
+    },
+    "headwear/yewon-sad-hat-11.webp": {
+      "sha256": "b09112ff0e7b81a512e36d227ccfdbdbbea5fd0156179e322fa40b06aa39ec55",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 136276
+    },
+    "headwear/yewon-sad-hat-12.webp": {
+      "sha256": "52ed528ceb2dd31be9e065d4ce35ae5a1434f837f08b39d080ceb6be15a650f9",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 140172
+    },
+    "headwear/yewon-portrait.webp": {
+      "sha256": "25830af7891fe1316944a0cff55a7a7870e3936a2868bdf672320e1a150fb5df",
+      "width": 1024,
+      "height": 1024,
+      "opaquePixels": 109770
+    },
+    "headwear/hunho-neutral-bare.webp": {
+      "sha256": "1372c4636f7b83d151f2a5ec7089a7b141f41116d472140bd544ec99cac86233",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 69978
+    },
+    "headwear/hunho-neutral-hat-01.webp": {
+      "sha256": "3aecee40d8af6ca672c7cae58f216e9263828bbac75956eb3d0a7c96cdc56b22",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 83677
+    },
+    "headwear/hunho-neutral-hat-02.webp": {
+      "sha256": "3533efac2031dbd99e3a0aafa86548eccd6e83b56f7995211c8af05b2dd93528",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85746
+    },
+    "headwear/hunho-neutral-hat-03.webp": {
+      "sha256": "61a7245cb07aa86037bd8b510bb57b4e20c6e96d0d7db741884ae6c60daf4b0e",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 78254
+    },
+    "headwear/hunho-neutral-hat-04.webp": {
+      "sha256": "8f89c4f055804adc3c62102a9a9aace84ea2dcf97c80728493e88fe2a03b893c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 83016
+    },
+    "headwear/hunho-neutral-hat-05.webp": {
+      "sha256": "d23898ec0469999db54dfd875d61c0739cb4c75f0e20612b08f7e7c306d70995",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85741
+    },
+    "headwear/hunho-neutral-hat-06.webp": {
+      "sha256": "72b42e5f30b440506a61cea82d7d278c1034f043d84c0f1dcfa6c734f3179b24",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 80367
+    },
+    "headwear/hunho-neutral-hat-07.webp": {
+      "sha256": "5b671ac19d3fb802c642da0a7569b1d2e402e034b3029c215b4eee4d0792cc21",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 98324
+    },
+    "headwear/hunho-neutral-hat-08.webp": {
+      "sha256": "ca8d7873ae44ab844188a5c9c7ef553e86259e1a29b1a8369aca267bdf90d2e5",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85353
+    },
+    "headwear/hunho-neutral-hat-09.webp": {
+      "sha256": "0e33392540d78dabbded6d269013330f540925fcecc18320d9b915ddb79f0edc",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 95946
+    },
+    "headwear/hunho-neutral-hat-10.webp": {
+      "sha256": "6c0fb81964a8656e3cfc67b3b2ae936ceaf2f61b2734f88b250ffeedd4254afd",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 67858
+    },
+    "headwear/hunho-neutral-hat-11.webp": {
+      "sha256": "cf40bbc9f9461d1d2827135c88a3a6f83a5eeca2ca08bfaf89e9ddd6d1f2f1cd",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 76375
+    },
+    "headwear/hunho-neutral-hat-12.webp": {
+      "sha256": "73bab4edcd0e970893124062845d71f4b3c917981fe9200b0e019de33188d10a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 73035
+    },
+    "headwear/hunho-happy-bare.webp": {
+      "sha256": "f5ef238c4a8196a0677b242f4885b1886d711cd53883e28acbaa8704d175ba0a",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 71576
+    },
+    "headwear/hunho-happy-hat-01.webp": {
+      "sha256": "65c11dc37859b128157273487defdfe4765453f7f971a3650c86a1457a63c891",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 83758
+    },
+    "headwear/hunho-happy-hat-02.webp": {
+      "sha256": "023d69727ffdc3b7db7d01831c714b6d602299812d03971d22563666ffb0cccd",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85814
+    },
+    "headwear/hunho-happy-hat-03.webp": {
+      "sha256": "2520592aef5b7af59e14b212804e82ba770d63ff435d65caaee0105f8076b7cf",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 78315
+    },
+    "headwear/hunho-happy-hat-04.webp": {
+      "sha256": "59f4b8ac7ef48069466912292c54cd2f557a2c11961da8fc3d3b0d32a5fc9695",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 83098
+    },
+    "headwear/hunho-happy-hat-05.webp": {
+      "sha256": "e2b7b513e59b1ddc893a01df135fb73fab756c18709f2087b593a34eb5a95e95",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85813
+    },
+    "headwear/hunho-happy-hat-06.webp": {
+      "sha256": "9f9ea605a2f107600cf648955b9576a0240d9265bc5dc6f3430b77e9a572ab61",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 80427
+    },
+    "headwear/hunho-happy-hat-07.webp": {
+      "sha256": "c71b1c61563e6b3a7ddd75babbf8e26229a9ae3a6d2413136ca2e2a9bba74ba8",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 98437
+    },
+    "headwear/hunho-happy-hat-08.webp": {
+      "sha256": "e4baf5c4e0e4b067a418e85691de90961f91e61d169f92ecdd5efa5b2d325b2f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85442
+    },
+    "headwear/hunho-happy-hat-09.webp": {
+      "sha256": "f6f3376cca2fc2e61086d167ba8217b4a707f9207b8f739bb9d6ba184e687b16",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 96024
+    },
+    "headwear/hunho-happy-hat-10.webp": {
+      "sha256": "966fed150a2991f3439d3e36793d28f392751dd1e84faf57f31eec83f5e44593",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 67948
+    },
+    "headwear/hunho-happy-hat-11.webp": {
+      "sha256": "b0dc13d408a9bc820d6091fb11efb32be2c68bb8ac25a73dd28e6c65fb17c924",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 76472
+    },
+    "headwear/hunho-happy-hat-12.webp": {
+      "sha256": "f6bce10de2823ed904271fe406e512636b6f07ee68d54c1e4aef3e7242838c35",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 73089
+    },
+    "headwear/hunho-sad-bare.webp": {
+      "sha256": "4c123e06799d86905be8879aff10ead1ca801758234ec3f53fb8e68715067027",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 71741
+    },
+    "headwear/hunho-sad-hat-01.webp": {
+      "sha256": "e0da8ffb39be5e972cdd20986c56799cb24b3592fdf37b4951696a24b6f9415b",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 83760
+    },
+    "headwear/hunho-sad-hat-02.webp": {
+      "sha256": "5fc3719e77175832699da22d824f07ce8cc99a51dca338be6a18aba4974c2587",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85815
+    },
+    "headwear/hunho-sad-hat-03.webp": {
+      "sha256": "c533337c0236901b7f8c75eb6245cb823af87c3f6055fd6948b1f33ac1410d02",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 78313
+    },
+    "headwear/hunho-sad-hat-04.webp": {
+      "sha256": "59c91d11fc3dcc8c5df36a3857596ed1107ddd2fb894c1f353b208c9703ab876",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 83102
+    },
+    "headwear/hunho-sad-hat-05.webp": {
+      "sha256": "dc1fc3822e0513caf05a5dbf7460f3bf794ef0a74f70ee130185275b38a3fd31",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85814
+    },
+    "headwear/hunho-sad-hat-06.webp": {
+      "sha256": "64a5b1d0652b8a451be09e04bdf4c492e93a6f4aabb519e00bc68382cce644be",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 80426
+    },
+    "headwear/hunho-sad-hat-07.webp": {
+      "sha256": "f299a3aba2ae65c1491f685406e200c48b5e752047e974362ad94ea69c56392c",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 98439
+    },
+    "headwear/hunho-sad-hat-08.webp": {
+      "sha256": "c848573d89f3c4ef4ecd574c360fe272cccd9aac12f20e67792ad62274faba58",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 85447
+    },
+    "headwear/hunho-sad-hat-09.webp": {
+      "sha256": "e9653eace099ca7136d2cb63b4e6ac2e1934921c59c33a3aec1e36886d64298b",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 96020
+    },
+    "headwear/hunho-sad-hat-10.webp": {
+      "sha256": "f17422e1ca268fa469f6bd7b592a2039ec1da2965baa1d44285e99316da0b59f",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 67946
+    },
+    "headwear/hunho-sad-hat-11.webp": {
+      "sha256": "a62f75e8ef10ffca6e1ccde462e3348e67b7c92154bc0e10ec84fb7da91d52ac",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 76468
+    },
+    "headwear/hunho-sad-hat-12.webp": {
+      "sha256": "a27499b3b2af23004cb5136e32b4e61577d8288428a2dfc1aabb03ff099f0083",
+      "width": 1024,
+      "height": 2304,
+      "opaquePixels": 73091
+    },
+    "headwear/hunho-portrait.webp": {
+      "sha256": "8743e684765c43d8cf7681269c959798c1f15b80331f9b02aa28c4d27005c0eb",
+      "width": 1024,
+      "height": 1024,
+      "opaquePixels": 69978
+    }
+  },
+  "checks": {
+    "nativeHandsInBody": 0,
+    "nativeTrousersInBody": 0,
+    "bootsPixelsAbove1320": 0,
+    "starterPantsHandFragments": 0,
+    "gloves": {
+      "rigged/gloves/gloves-01.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 10589,
+        "rightPixels": 9900
+      },
+      "rigged/gloves/gloves-02.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 11618,
+        "rightPixels": 11256
+      },
+      "rigged/gloves/gloves-03.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 11604,
+        "rightPixels": 11507
+      },
+      "rigged/gloves/gloves-04.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 11720,
+        "rightPixels": 11715
+      },
+      "rigged/gloves/gloves-05.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 13997,
+        "rightPixels": 14355
+      },
+      "rigged/gloves/gloves-06.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 11892,
+        "rightPixels": 11251
+      },
+      "rigged/gloves/gloves-07.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 13774,
+        "rightPixels": 13473
+      },
+      "rigged/gloves/gloves-08.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 13228,
+        "rightPixels": 13148
+      },
+      "rigged/gloves/gloves-09.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 12474,
+        "rightPixels": 11940
+      },
+      "rigged/gloves/gloves-10.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 12100,
+        "rightPixels": 11852
+      },
+      "rigged/gloves/gloves-11.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 11053,
+        "rightPixels": 11421
+      },
+      "rigged/gloves/gloves-12.webp": {
+        "outsideHandRegions": 0,
+        "leftPixels": 12700,
+        "rightPixels": 12441
+      }
+    },
+    "clothingFit": {
+      "cloak-02": {
+        "sha256": "f4f1d9d7fcacfd75106be463e44d838b1c929198a414263ddd0de3c1f8665ef8",
+        "fabric": [
+          {
+            "point": [
+              337,
+              630
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              674,
+              630
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              512,
+              700
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              317,
+              700
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              695,
+              700
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [],
+        "fitErrors": 0
+      },
+      "cloak-07": {
+        "sha256": "74b9cf33208339787cbeea6b896a3c132eb3bbb0cf77322d60010954cbcd9595",
+        "fabric": [
+          {
+            "point": [
+              337,
+              630
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              674,
+              630
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              512,
+              700
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              317,
+              700
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              695,
+              700
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [],
+        "fitErrors": 0
+      },
+      "cloak-09": {
+        "sha256": "6f019eaa8d1617d48fd0bab5e2824b43d0709426aef0c188b0c0758cb754a68d",
+        "fabric": [
+          {
+            "point": [
+              350,
+              600
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              665,
+              600
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              512,
+              700
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              319,
+              750
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              710,
+              750
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [],
+        "fitErrors": 0
+      },
+      "vest-01": {
+        "sha256": "a5a661d543bce2841f9d2341a3eec92c0eaeaba09d70232f926ab5ef4291cf81",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 252
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-02": {
+        "sha256": "718e6192c4d3f2ed40ee4c3ed06d4005ea052b19cc2e4151cc354c2fa875057b",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 252
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          252
+        ],
+        "fitErrors": 0
+      },
+      "vest-03": {
+        "sha256": "409bdc7650e8edbb217f2942f7f5c44bf462d846233eece1916d3b274b7ce23a",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-04": {
+        "sha256": "3a7a40c972bc594ee162e7f2097d4e9a6aa8062efec5b18a93b82988b594973b",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-05": {
+        "sha256": "7ba1cf977b34789dd6086d56c868d1d643c2219c764c0d587f1e52ddb4aa6eea",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-06": {
+        "sha256": "75d55876f6c772d1606d3d16f2a6043aac683f45da0b09ed56c84eb48097a2e0",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 252
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-07": {
+        "sha256": "03fceae160ee6e6ee7a0fa4d601c2d3da72172168ae76d19ee4f8bc827cead8b",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-08": {
+        "sha256": "1784e7b6d77d6cf5e5f25526151838c584100e22d5bf9728940d3c89d6e2c026",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-09": {
+        "sha256": "9fac55f16152df56da4bc27efc73e704e0ed0f2d1411afabf965f3f25d15d1ae",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-10": {
+        "sha256": "221e6450fc19b81a1957665eaefdee999291c758f39d23d51a643aa39dd968dd",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-11": {
+        "sha256": "d46b950d2d52a51358b6bb41d208598b53e12afe6b8620f63c8443be76a193e2",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          253
+        ],
+        "fitErrors": 0
+      },
+      "vest-12": {
+        "sha256": "731911002bb71e6d8ddb7ad965bcf72824005de93e1b7a86ef0dc0ecf3ffeac6",
+        "fabric": [
+          {
+            "point": [
+              390,
+              520
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              638,
+              520
+            ],
+            "alpha": 254
+          },
+          {
+            "point": [
+              405,
+              650
+            ],
+            "alpha": 253
+          },
+          {
+            "point": [
+              610,
+              650
+            ],
+            "alpha": 253
+          }
+        ],
+        "underlayer": [
+          {
+            "point": [
+              375,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              650,
+              570
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          },
+          {
+            "point": [
+              512,
+              500
+            ],
+            "garmentAlpha": 0,
+            "bodyAlpha": 253
+          }
+        ],
+        "shoulderAlpha": [
+          253,
+          254
+        ],
+        "fitErrors": 0
+      }
+    },
+    "accessories": {
+      "necklace-01.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "ee10a2d203475af02a1196b61f3202fb10c51dc384d94a8d7e5ec3b2afc2ad22",
+        "frontPixels": 3300
+      },
+      "necklace-02.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "ee10a2d203475af02a1196b61f3202fb10c51dc384d94a8d7e5ec3b2afc2ad22",
+        "frontPixels": 7154
+      },
+      "necklace-03.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "ee10a2d203475af02a1196b61f3202fb10c51dc384d94a8d7e5ec3b2afc2ad22",
+        "frontPixels": 5740
+      },
+      "necklace-04.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "1b1c2da649cc8fa44f836b0d4fd29b541a4504736694048aab0b42dc19fcbcd7",
+        "frontPixels": 3591
+      },
+      "necklace-05.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "bbe4738658c2da525e299a0d307304776d408c936c8f20c03578f12be534b3bd",
+        "frontPixels": 8708
+      },
+      "necklace-06.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "43f06ada4e13fb38bd8a31fd249d80414bbe3d8e0a0fbcd4e3e30b8f0f9dec5e",
+        "frontPixels": 8395
+      },
+      "necklace-07.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "43f06ada4e13fb38bd8a31fd249d80414bbe3d8e0a0fbcd4e3e30b8f0f9dec5e",
+        "frontPixels": 7941
+      },
+      "necklace-08.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "6e76f86d4c8177c94a864d785cac210bc0857ae74d714caf36d9bb83428a7ef7",
+        "frontPixels": 15766
+      },
+      "necklace-09.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "ee10a2d203475af02a1196b61f3202fb10c51dc384d94a8d7e5ec3b2afc2ad22",
+        "frontPixels": 7091
+      },
+      "necklace-10.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "6e76f86d4c8177c94a864d785cac210bc0857ae74d714caf36d9bb83428a7ef7",
+        "frontPixels": 15407
+      },
+      "necklace-11.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "bbe4738658c2da525e299a0d307304776d408c936c8f20c03578f12be534b3bd",
+        "frontPixels": 12265
+      },
+      "necklace-12.webp": {
+        "rearArcVisiblePixels": 0,
+        "maskSha256": "ee10a2d203475af02a1196b61f3202fb10c51dc384d94a8d7e5ec3b2afc2ad22",
+        "frontPixels": 14333
+      },
+      "wand-01.webp": {
+        "gripAlpha": 252,
+        "frontGripAlpha": 252,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "f12f861240477826ed0e26ae140ff01abbe5fc9ae2bfd109041dd2789130b999",
+        "unpartitionedSha256": "baeb6576af125c312ca0681e57f93ce63625ec9c8d123012569df1e4ab9813c3",
+        "maskSha256": "e2d564695a4d6651f8d7a8ac8bf9e0a15664a547be3e2c110f5380a7faa95ceb"
+      },
+      "wand-02.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "4dda1f72ff658edb1f29808b03375a65efefd87cd9be158a1c3587df153575be",
+        "unpartitionedSha256": "3aa727f1427b031c686a7b0df0ce158d4c975b1af5d4232564c8c8a0c507f1bd",
+        "maskSha256": "9dfbfa06d699f539942aef5b798b4f8efaff0a11b6dff57536cfe33325b85e74"
+      },
+      "wand-03.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "760c8154676a47ad9731c6f29b87f1adf826cfc20b12bff31923050b5fa58f1b",
+        "unpartitionedSha256": "b00510cca28ac1b03a50f9e6ae8f66b2442bd8840eb538595d2ccbd4e39eacff",
+        "maskSha256": "cbc1b6993b0e749ca08231f04aeaba9173c50807641c87292f79429ed2dd0950"
+      },
+      "wand-04.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "c363ac6e833759a6cb4054eeea9cd24ead45273659f66723eed216b4b79d3774",
+        "unpartitionedSha256": "3dd8a3d9079e48d787f8ca10ef239aea232fff5bee3bb89075e58c0ceb901e46",
+        "maskSha256": "2b225e3d13b35b50f6b9c5a1f53a0e93fea73a93b76431771b050182b8b0b41f"
+      },
+      "wand-05.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "64b0a39ad3af7d8a660a70f4fbc0e77466f265536f3a121a74dff923bd69623c",
+        "unpartitionedSha256": "04f9190e6c0a6d09b9e74689e68e11ab3288f895142e5539f4e99cd4cb5065b5",
+        "maskSha256": "ce217a980a2217e7b729df80abe21a400aa4f162346b9a9373624f2fd90a1226"
+      },
+      "wand-06.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "978498c45035c39613b67c069f3f36746dbcbcc7171c8539692aa31e929ab5b7",
+        "unpartitionedSha256": "8bc6afb6390d51fa661da8f635b0e983f148561592aacc7777189fc6ca337130",
+        "maskSha256": "75b00809ee5f2f234c92722c0bf403098fc3d898de3835de7e9fda8f0223a534"
+      },
+      "wand-07.webp": {
+        "gripAlpha": 252,
+        "frontGripAlpha": 252,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "7cafa5b83a5b6fbc430862189320a7860a38b5798c5946beccfa3609038dceb7",
+        "unpartitionedSha256": "c1033b2bbc2e846db50f1e9c2f2abd4165728040a3efcb2ce0eb778874a38205",
+        "maskSha256": "d9ba7f61358b07964265107ed4f197091e33d70223ff6d09c86d7539820ab453"
+      },
+      "wand-08.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "b8c1f8704840bfff814ae30a9f0e1513e6ec7b66d6f1186dc6cf519a48a05cca",
+        "unpartitionedSha256": "5568fbd7a5eae0b82aaf63836564bc3f622e8306d997830bde9ada82fcb4f3ac",
+        "maskSha256": "79f56c776582526d414728a40f2419bbacb85aa06f89470fa97aacd9572abf0a"
+      },
+      "wand-09.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "5ebf24fd8471820f78e44a8970c59c32735064834b7d3d067bce708f782c09aa",
+        "unpartitionedSha256": "32ee5e60b87fb0dc487def193b401998cc757ed9e5160071e14abcc8a5a1f52d",
+        "maskSha256": "2ace0ea21ca431238b27d9d8b6010e8d24ef532015e0884d6b9fb95936f7313b"
+      },
+      "wand-10.webp": {
+        "gripAlpha": 252,
+        "frontGripAlpha": 252,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "71e90584e3309a95a9464a1369e1ff087dd18363b50f453c4537fe58a71c7c54",
+        "unpartitionedSha256": "c8a5590b416cef1ff2c6e9dee21b009800ab6c6326ac9d99de8b4bb935bba2d8",
+        "maskSha256": "d37264e7f3b64e029736fa8fec5b0a6b684c4cd4136f31a69eeac447692401c9"
+      },
+      "wand-11.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "2c257e2ff003d5f0c4d559c50c71880f67b26220645459e6de364ea9fb410da9",
+        "unpartitionedSha256": "597de2c435454a3609e52ee1a116a7a7df30db8f7e8cebc728db6513a2234a9d",
+        "maskSha256": "2d444f407d7d1605fe27b1ddaaf29e9b2534f0c378aa1c75bd3e11503f7d295a"
+      },
+      "wand-12.webp": {
+        "gripAlpha": 253,
+        "frontGripAlpha": 253,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "ccfc9ac209bc745852b259a6b4de543f830dcc6a5fa06d70f22e84d1f26fc04b",
+        "unpartitionedSha256": "28d800af72d50c492ecb3afa6ec32bfb5caa71a0b8b1536533a271a8e98087b1",
+        "maskSha256": "bd84a3b7dc9e23baa98d26edf59e975d258a39368e1f681866b40b6d890f8085"
+      },
+      "wand-base.webp": {
+        "gripAlpha": 252,
+        "frontGripAlpha": 252,
+        "forearmOverlapPixels": 0,
+        "partitionAlphaErrorPixels": 0,
+        "partitionColourErrorPixels": 0,
+        "frontMaskLeakPixels": 0,
+        "frontReachesUpperShaft": true,
+        "frontSha256": "0ea0d821087b65432087bb19f55c0ec83ce27a4f5a9eddf9c3d89ff834a6e66f",
+        "unpartitionedSha256": "8986e67d6f101b8d55604989b94128028af7de516fbc2884d43a41e301f858e0",
+        "maskSha256": "cbce5346c528e80799aa7789133c4e7d94b261af8e1403ee95df3daeda02cb34"
+      },
+      "broom-01.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-02.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-03.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-04.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-05.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-06.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-07.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-08.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-09.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-10.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-11.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-12.webp": {
+        "opaqueEdgePixels": 0
+      },
+      "broom-base.webp": {
+        "opaqueEdgePixels": 0
+      }
+    }
+  },
+  "heads": {
+    "headwear/dad-neutral-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-neutral-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-happy-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/dad-sad-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-neutral-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-happy-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/mom-sad-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-neutral-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-happy-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/jeongan-sad-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-neutral-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-happy-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/suan-sad-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-neutral-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-happy-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/yewon-sad-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-neutral-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-happy-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-bare.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-01.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-02.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-03.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-04.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-05.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-06.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-07.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-08.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-09.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-10.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-11.webp": {
+      "opaqueEdgePixels": 0
+    },
+    "headwear/hunho-sad-hat-12.webp": {
+      "opaqueEdgePixels": 0
+    }
+  },
+  "failures": [],
+  "scope": "Pixel ownership, bounds and hashes. Visual anatomy and fit reviewed separately; these metrics do not prove semantic image correctness."
+}

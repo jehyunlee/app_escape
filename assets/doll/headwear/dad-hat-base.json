@@ -1,0 +1,68 @@
+{
+  "character": "dad",
+  "item": "hat-base",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-26T18:51:04.208261+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference, not a body to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions and recognizable identity. Do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: navy starry wizard hat with gold astronomical trim. Use only the hat design visible in image 2.",
+  "raw": "scripts/art-sources/headwear/dad-hat-base.png",
+  "rawSha256": "a4ab3f00a6a03d2c5e9e721f5825544673c6f471f72e47bfc064eaded69e128b",
+  "registration": {
+    "sourceToGeneratedScale": 1.8183316360181445,
+    "rotationRadians": 0.00028346586063488307,
+    "translation": [
+      -390.05390285188184,
+      386.0673256171606
+    ],
+    "initialCorrelation": 0.8878152189035616,
+    "refinedCorrelation": 0.9246438758927563,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "needs-visual-review",
+  "files": {
+    "dad-neutral-hat-base.webp": {
+      "sha256": "d087d97b6421d655a57a80982b1d3de4cbaec6cd28f57ed2b37e6fcc209e53bc",
+      "bbox": [
+        241,
+        -86,
+        768,
+        432
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 11
+    },
+    "dad-happy-hat-base.webp": {
+      "sha256": "3c11a5f13230ec0fdac3c73a42162ff75f23ecbc1c2ec78310f2d9ecf5d4575f",
+      "bbox": [
+        241,
+        -86,
+        768,
+        432
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 11
+    },
+    "dad-sad-hat-base.webp": {
+      "sha256": "3fa6fd53fbd969236ed92893dfd4a8435a1f123c808809f3738637ab47f89d2c",
+      "bbox": [
+        241,
+        -86,
+        768,
+        432
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 11
+    }
+  },
+  "visualReview": null
+}

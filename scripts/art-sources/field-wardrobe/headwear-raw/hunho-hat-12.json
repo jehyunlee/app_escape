@@ -1,0 +1,22 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. No glasses; this person does not wear glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim. This character always has TWO small brown deer antlers. Both antlers MUST remain clearly visible, one on each side above the ears, protruding through discreet openings beside the hat. Do not hide, cover, remove or replace the antlers. They are part of this character identity, not optional decoration. Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 철심 방벽모. A firm angular moderate wizard crown made from dense charcoal leather, with thick matte-iron structural ribs crossing the crown and a reinforced brim; face open, visor-free, smooth crown, no protrusions or stones, substantial protective craft without flash. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+  "createdAt": "2026-09-27T01:31:56.830910+00:00",
+  "rawSha256": "c7c29eef41f66cd68a621f9059116f137226a6d14e12c1724bad3cb2ce690621",
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "1845190999940af36780ae46d4fab9518affdcaaca790ede02c990168b178aa2",
+    "identity": "c08c2d0778743001f6150da3d1567850f9bc5bc3b18248370fa5c44ed93267fd",
+    "headReference": "6c84c5a19d88f3ea85a3ad4550045be79bfb0ec907b474a7801cdf6c78dbdf90"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-12.webp",
+      "sha256": "1845190999940af36780ae46d4fab9518affdcaaca790ede02c990168b178aa2"
+    }
+  }
+}

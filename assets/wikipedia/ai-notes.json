@@ -1,0 +1,2962 @@
+[
+  {
+    "passageId": "ai-definition",
+    "importantWords": [
+      {
+        "term": "computational systems",
+        "meaning": "인간 지능과 관련된 일을 수행하는 계산 시스템"
+      },
+      {
+        "term": "defined goals",
+        "meaning": "시스템이 달성하도록 정해 둔 목표"
+      },
+      {
+        "term": "knowledge representation",
+        "meaning": "지식을 컴퓨터가 다룰 수 있는 형태로 나타내는 일"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "maximise their chances",
+        "meaning": "목표를 이룰 가능성을 최대화하다"
+      },
+      {
+        "term": "state space search",
+        "meaning": "가능한 상태들을 탐색해 해결책을 찾는 기법"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AI의 정의와 연구",
+        "explanation": "AI는 계산 시스템이 인간 지능과 관련된 일을 수행하는 능력이다. AI 연구는 그런 행동을 가능하게 하는 방법과 소프트웨어를 개발한다."
+      },
+      {
+        "title": "목표 지향적 행동",
+        "explanation": "기계는 환경을 지각하고 정의된 목표를 달성할 가능성이 높은 행동을 선택한다. 이는 성공을 보장한다는 뜻이 아니라 가능성을 높인다는 뜻이다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-history",
+    "importantWords": [
+      {
+        "term": "AI winters",
+        "meaning": "AI에 대한 실망과 자금 감소가 이어진 시기"
+      },
+      {
+        "term": "deep learning",
+        "meaning": "이전 AI 기법보다 높은 성과를 낸 학습 접근법"
+      },
+      {
+        "term": "transformer architecture",
+        "meaning": "2017년 이후 AI 성장을 더 가속한 신경망 구조"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "artificial general intelligence (AGI)",
+        "meaning": "거의 모든 인지 과제를 인간 수준 이상으로 수행하는 것을 목표로 한 AI"
+      },
+      {
+        "term": "potential existential risks",
+        "meaning": "존재 자체에 큰 위협이 될 가능성이 있는 위험"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AI 발전의 파동",
+        "explanation": "AI의 역사는 낙관과 실망, 자금 감소가 반복되는 파동을 겪었다. GPU와 딥러닝, 트랜스포머의 발전은 이후 관심과 성장을 다시 크게 높였다."
+      },
+      {
+        "title": "발전과 규제 논의",
+        "explanation": "생성형 AI의 확산은 미디어를 만들고 수정하는 일을 넓혔다. 안전·윤리·환경·실존 위험에 대한 우려는 AI 규제 논의를 촉진했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ml-foundations",
+    "importantWords": [
+      {
+        "term": "statistical algorithms",
+        "meaning": "데이터에서 학습하도록 설계된 통계 알고리즘"
+      },
+      {
+        "term": "generalize to unseen data",
+        "meaning": "보지 못한 데이터에도 배운 내용을 적용하다"
+      },
+      {
+        "term": "mathematical optimisation methods",
+        "meaning": "더 나은 해를 찾도록 수학적으로 조정하는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "explicitly programmed",
+        "meaning": "각 작업의 방법을 사람이 직접 명령으로 작성한"
+      },
+      {
+        "term": "exploratory data analysis (EDA)",
+        "meaning": "데이터의 특성과 패턴을 탐색하는 분석"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "머신러닝의 핵심",
+        "explanation": "머신러닝 알고리즘은 데이터에서 규칙을 배우고 보지 못한 데이터로 일반화한다. 따라서 모든 작업을 미리 명시적으로 프로그래밍하지 않아도 된다."
+      },
+      {
+        "title": "기초와 데이터 마이닝",
+        "explanation": "통계와 수학적 최적화가 머신러닝의 기초를 이룬다. 데이터 마이닝은 비지도 학습으로 탐색적 데이터 분석을 수행하는 관련 분야다."
+      }
+    ]
+  },
+  {
+    "passageId": "ml-deep",
+    "importantWords": [
+      {
+        "term": "empirical risk minimisation",
+        "meaning": "관측된 사례에서 계산한 위험을 최소화하는 학습 방식"
+      },
+      {
+        "term": "neural networks",
+        "meaning": "통계 알고리즘으로 이루어진 신경망 모델"
+      },
+      {
+        "term": "not synonymous",
+        "meaning": "서로 같은 뜻의 말이 아닌"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "surpass many previous machine learning approaches",
+        "meaning": "이전의 여러 머신러닝 접근법보다 성능이 높아지다"
+      },
+      {
+        "term": "used interchangeably",
+        "meaning": "서로 바꾸어 사용되다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "딥러닝과 성능 향상",
+        "explanation": "딥러닝의 발전은 신경망이 많은 기존 머신러닝 접근법을 성능에서 앞서게 했다. 지문은 이 변화를 머신러닝의 영향력 확대와 연결한다."
+      },
+      {
+        "title": "AI와 머신러닝의 관계",
+        "explanation": "머신러닝은 AI 안의 한 연구 분야이지만 두 용어는 동의어가 아니다. 실제 사용에서는 영향력이 커지면서 두 말을 서로 바꾸어 쓰기도 한다."
+      }
+    ]
+  },
+  {
+    "passageId": "dl-basics",
+    "importantWords": [
+      {
+        "term": "multilayered neural networks",
+        "meaning": "여러 층으로 구성된 신경망"
+      },
+      {
+        "term": "representation learning",
+        "meaning": "데이터를 유용한 표현으로 바꾸는 학습 과제"
+      },
+      {
+        "term": "multiple layers",
+        "meaning": "네트워크 안에 둘 이상 포함된 층들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "biological neuroscience",
+        "meaning": "생물의 신경계와 정보 처리를 연구하는 분야"
+      },
+      {
+        "term": "semi-supervised",
+        "meaning": "지도 정보와 비지도 데이터를 함께 활용하는 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "깊다는 의미",
+        "explanation": "딥러닝에서 ‘deep’은 네트워크가 여러 층을 사용한다는 뜻이다. 층의 수가 세 개에서 수백 또는 수천 개까지일 수 있다."
+      },
+      {
+        "title": "영감과 학습",
+        "explanation": "딥러닝은 생물학적 신경과학에서 영감을 얻고 인공 뉴런을 층층이 쌓아 데이터를 처리하도록 훈련한다. 이는 인간 뇌를 그대로 재현한다는 설명이 아니다."
+      }
+    ]
+  },
+  {
+    "passageId": "dl-uses",
+    "importantWords": [
+      {
+        "term": "convolutional neural networks",
+        "meaning": "이미지 같은 구조화된 입력 처리에 쓰이는 신경망 구조"
+      },
+      {
+        "term": "natural language processing",
+        "meaning": "사람의 언어를 처리하는 작업 분야"
+      },
+      {
+        "term": "human expert performance",
+        "meaning": "인간 전문가가 보이는 수행 수준"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "neural radiance fields",
+        "meaning": "장면의 공간과 시점별 빛을 모델링하는 신경 표현"
+      },
+      {
+        "term": "distributed communication nodes",
+        "meaning": "생물학적 시스템에 분산되어 정보를 주고받는 단위들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구조와 활용",
+        "explanation": "딥러닝에는 합성곱 신경망과 트랜스포머처럼 여러 구조가 있다. 이 구조들은 컴퓨터 비전, 음성 인식, 자연어 처리 등 다양한 분야에 적용된다."
+      },
+      {
+        "title": "성과의 범위",
+        "explanation": "일부 적용 분야에서 딥러닝 결과는 인간 전문가와 비슷하거나 더 나을 수 있다. 지문은 모든 분야에서 항상 인간을 능가한다고 말하지 않는다."
+      }
+    ]
+  },
+  {
+    "passageId": "alphago-evolution",
+    "importantWords": [
+      {
+        "term": "Monte Carlo tree search algorithm",
+        "meaning": "가능한 수의 나무를 표본 탐색해 수를 찾는 알고리즘"
+      },
+      {
+        "term": "artificial neural network",
+        "meaning": "학습으로 바둑판의 좋은 수를 평가하는 신경망"
+      },
+      {
+        "term": "winning percentages",
+        "meaning": "각 수가 이길 것으로 추정되는 비율"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "completely self-taught",
+        "meaning": "사람의 기보를 배우지 않고 스스로 학습한"
+      },
+      {
+        "term": "without being taught the rules",
+        "meaning": "규칙을 가르쳐 주지 않아도 학습하는 상태"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "탐색과 학습의 결합",
+        "explanation": "AlphaGo 계열은 머신러닝으로 얻은 지식과 Monte Carlo tree search를 함께 사용해 수를 찾는다. 신경망은 좋은 수와 승률을 추정해 다음 탐색을 더 강하게 만든다."
+      },
+      {
+        "title": "승률의 의미",
+        "explanation": "winning percentages는 각 수의 승리 가능성을 나타내는 추정치다. 따라서 높은 비율이 반드시 승리를 보장하는 것은 아니다."
+      }
+    ]
+  },
+  {
+    "passageId": "alphago-matches",
+    "importantWords": [
+      {
+        "term": "without handicap",
+        "meaning": "실력 차이를 줄이는 접바둑 없이"
+      },
+      {
+        "term": "full-sized 19×19 board",
+        "meaning": "정규 크기인 19×19 격자 바둑판"
+      },
+      {
+        "term": "honorary 9-dan",
+        "meaning": "승리를 기려 수여한 명예 9단"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "five-game match",
+        "meaning": "다섯 판으로 이루어진 대국"
+      },
+      {
+        "term": "Breakthrough of the Year runners-up",
+        "meaning": "올해의 혁신 선정에서 우수 후보로 뽑힌 대상"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "한 판과 전체 경기",
+        "explanation": "AlphaGo는 이세돌과의 다섯 판 경기에서 네 번째 판을 졌다. 그러나 마지막 판까지의 최종 점수는 AlphaGo의 4 대 1 승리였다."
+      },
+      {
+        "title": "두 번의 기록",
+        "explanation": "2015년에는 핸디캡 없이 정규판에서 인간 프로를 이긴 첫 컴퓨터 Go 프로그램이 되었다. 2016년에는 같은 조건에서 9단 프로를 이긴 첫 프로그램이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "eliza-design",
+    "importantWords": [
+      {
+        "term": "natural language processing",
+        "meaning": "인간 언어를 컴퓨터로 처리하는 분야"
+      },
+      {
+        "term": "pattern matching and substitution methodology",
+        "meaning": "입력의 패턴을 찾고 그에 맞는 표현으로 바꾸는 방법"
+      },
+      {
+        "term": "illusion of understanding",
+        "meaning": "실제로 이해하지 않아도 이해하는 듯 보이는 인상"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "non-directional questions",
+        "meaning": "특정 결론으로 이끌지 않는 질문"
+      },
+      {
+        "term": "Lisp-like expression",
+        "meaning": "Lisp와 비슷한 형식으로 작성된 표현"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "겉보기 이해와 실제 이해",
+        "explanation": "ELIZA는 패턴 매칭과 치환으로 대화하는 듯한 인상을 만들었다. 지문은 그런 반응을 실제 대화 이해로 볼 수 없다고 분명히 한다."
+      },
+      {
+        "title": "스크립트의 역할",
+        "explanation": "언어 능력의 규칙은 별도의 스크립트에 담겼다. DOCTOR 스크립트는 사용자의 말을 되비추는 방식에 맞춰 비지시적 질문을 만들었다."
+      }
+    ]
+  },
+  {
+    "passageId": "eliza-reception",
+    "importantWords": [
+      {
+        "term": "ELIZA effect",
+        "meaning": "사람들이 컴퓨터에 인간 같은 감정을 부여하는 현상"
+      },
+      {
+        "term": "human-like feelings",
+        "meaning": "인간에게 있는 것처럼 여겨지는 감정"
+      },
+      {
+        "term": "true understanding",
+        "meaning": "대화 내용을 실제로 이해하는 능력"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "psychological issues",
+        "meaning": "심리와 관련된 문제들"
+      },
+      {
+        "term": "source code",
+        "meaning": "프로그램의 동작을 정의한 원본 코드"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "ELIZA 효과의 핵심",
+        "explanation": "일부 사람들은 ELIZA에 인간 같은 감정이 있다고 여겼다. 이런 사람의 귀인을 ELIZA effect라고 부른다."
+      },
+      {
+        "title": "인상과 능력의 구분",
+        "explanation": "초기 사용자들이 지능과 이해를 믿었어도 ELIZA가 진정한 이해로 대화한 것은 아니다. 설득력 있는 대화 인상은 실제 이해의 증거가 아니다."
+      }
+    ]
+  },
+  {
+    "passageId": "turing-mechanics",
+    "importantWords": [
+      {
+        "term": "interactive dialogue",
+        "meaning": "서로 질문과 응답을 주고받는 대화"
+      },
+      {
+        "term": "text transcript",
+        "meaning": "대화 내용을 글로 기록한 자료"
+      },
+      {
+        "term": "cannot reliably tell them apart",
+        "meaning": "두 대상을 믿을 만하게 구별하지 못하다"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "natural-language conversation",
+        "meaning": "사람이 사용하는 자연어로 이루어진 대화"
+      },
+      {
+        "term": "resembled those of a human",
+        "meaning": "인간의 답변과 비슷한 모습을 보이다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구별 불가능성 평가",
+        "explanation": "현대의 튜링 테스트에서는 평가자가 인간과 기계의 자연어 대화 기록을 본다. 평가자가 둘을 신뢰성 있게 구별하지 못하면 기계가 통과한다."
+      },
+      {
+        "title": "정답보다 인간다움",
+        "explanation": "이 설명에서 결과는 질문에 정확히 답했는지에 달려 있지 않다. 응답이 인간의 답변과 얼마나 비슷한지가 기준이다."
+      }
+    ]
+  },
+  {
+    "passageId": "turing-origins",
+    "importantWords": [
+      {
+        "term": "imitation game",
+        "meaning": "질문과 답변으로 참가자를 구별하는 게임"
+      },
+      {
+        "term": "Computing Machinery and Intelligence",
+        "meaning": "튜링이 이 시험을 소개한 1950년 논문 제목"
+      },
+      {
+        "term": "relatively unambiguous words",
+        "meaning": "비교적 모호하지 않은 표현"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "three-person party game",
+        "meaning": "세 사람이 참여하는 파티 게임"
+      },
+      {
+        "term": "interrogator",
+        "meaning": "다른 참가자에게 질문해 구별하려는 사람"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "질문을 바꾼 이유",
+        "explanation": "튜링은 ‘생각하다’의 정의가 어렵다고 보았다. 그래서 더 명확한 말로 바꾼 문제를 imitation game의 형태로 제시했다."
+      },
+      {
+        "title": "원래 게임의 절차",
+        "explanation": "심문자는 다른 방의 남자와 여자에게 질문해 두 사람의 성별을 판단한다. 튜링은 이 게임을 디지털 컴퓨터가 잘할 수 있는지의 문제로 바꾸었다."
+      }
+    ]
+  },
+  {
+    "passageId": "winter-definition",
+    "importantWords": [
+      {
+        "term": "period of reduced funding and interest",
+        "meaning": "연구 자금과 관심이 줄어든 기간"
+      },
+      {
+        "term": "hype cycles",
+        "meaning": "과도한 기대와 실망이 반복되는 흐름"
+      },
+      {
+        "term": "renewed interest",
+        "meaning": "시간이 지난 뒤 다시 높아진 관심"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "chain reaction",
+        "meaning": "한 변화가 다음 변화를 연쇄적으로 일으키는 과정"
+      },
+      {
+        "term": "severe cutback in funding",
+        "meaning": "연구 자금이 크게 삭감되는 일"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AI 겨울의 의미",
+        "explanation": "AI 겨울은 AI 연구에 대한 자금과 관심이 줄어든 시기다. 지문은 이런 시기가 실망과 비판 뒤에 나타났다가 나중에 관심이 회복될 수 있다고 설명한다."
+      },
+      {
+        "title": "비관의 연쇄",
+        "explanation": "AI 공동체의 비관은 언론의 비관과 자금 삭감으로 이어질 수 있다. 지문에서는 그 결과가 진지한 연구의 종결로 이어지는 연쇄로 묘사된다."
+      }
+    ]
+  },
+  {
+    "passageId": "winter-cycles",
+    "importantWords": [
+      {
+        "term": "two major \"winters\"",
+        "meaning": "1974–1980년과 1987–2000년의 두 주요 침체기"
+      },
+      {
+        "term": "failure of machine translation",
+        "meaning": "기계 번역에서 발생한 실패 사례"
+      },
+      {
+        "term": "collapse of the LISP machine market",
+        "meaning": "LISP 기계 시장이 무너진 사건"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "criticism of perceptrons",
+        "meaning": "초기 단층 인공 신경망인 퍼셉트론에 대한 비판"
+      },
+      {
+        "term": "cancellation of new spending on AI",
+        "meaning": "AI에 대한 신규 지출을 취소한 결정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "여러 원인의 AI 겨울",
+        "explanation": "작은 침체 사례에는 기계 번역 실패와 퍼셉트론 비판이 포함된다. 시장 붕괴와 연구비 결정도 함께 나타나므로 한 종류의 실패만 있었던 것은 아니다."
+      },
+      {
+        "title": "큰 침체기의 범위",
+        "explanation": "지문은 주요 AI 겨울을 1974–1980년과 1987–2000년으로 제시한다. 1990년대 초 저점 뒤에는 AI에 대한 열정과 낙관이 대체로 증가했다."
+      }
+    ]
+  },
+  {
+    "passageId": "expert-overview",
+    "importantWords": [
+      {
+        "term": "emulating the decision-making ability",
+        "meaning": "의사결정 능력을 모방하는 것"
+      },
+      {
+        "term": "if–then rules",
+        "meaning": "조건이 맞으면 특정 결과를 내도록 표현한 규칙"
+      },
+      {
+        "term": "artificial neural networks",
+        "meaning": "전문가 시스템과 대비되어 언급된 인공 신경망"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "conventional procedural programming code",
+        "meaning": "정해진 절차를 순서대로 작성한 전통적 프로그램 코드"
+      },
+      {
+        "term": "proliferated in the 1980s",
+        "meaning": "1980년대에 널리 퍼졌다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전문가 시스템의 구성 생각",
+        "explanation": "전문가 시스템은 인간 전문가의 의사결정 능력을 모방하는 컴퓨터 시스템이다. 지식은 일반적인 절차 코드보다 if–then 규칙으로 표현된다."
+      },
+      {
+        "title": "초기 AI에서의 위치",
+        "explanation": "전문가 시스템은 초기의 진정으로 성공한 AI 소프트웨어 가운데 하나였다. 그래서 성공적인 인공 신경망이 등장하기 전에는 AI의 미래로 널리 여겨졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "expert-subsystems",
+    "importantWords": [
+      {
+        "term": "knowledge base",
+        "meaning": "사실과 규칙을 나타내는 지식 저장 부분"
+      },
+      {
+        "term": "inference engine",
+        "meaning": "규칙을 사실에 적용해 추론하는 부분"
+      },
+      {
+        "term": "deduce new facts",
+        "meaning": "기존 사실에서 새로운 사실을 추론하다"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "explaining and debugging abilities",
+        "meaning": "판단 과정을 설명하고 오류를 찾는 기능"
+      },
+      {
+        "term": "known facts",
+        "meaning": "시스템에 이미 주어진 사실"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "두 하위 시스템",
+        "explanation": "지식 기반은 사실과 규칙을 나타내고 추론 엔진은 그 규칙을 적용한다. 두 부분이 나뉘어 지식을 저장하는 일과 추론하는 일을 구분한다."
+      },
+      {
+        "title": "추론의 결과",
+        "explanation": "추론 엔진은 알려진 사실에 규칙을 적용해 새로운 사실을 도출한다. 이 엔진에는 설명과 디버깅 기능이 포함될 수도 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "llm-overview",
+    "importantWords": [
+      {
+        "term": "vast amount of text",
+        "meaning": "언어 모델을 훈련하는 방대한 텍스트"
+      },
+      {
+        "term": "natural language processing tasks",
+        "meaning": "사람의 언어를 다루는 처리 과제"
+      },
+      {
+        "term": "transformer architecture",
+        "meaning": "LLM이 일반적으로 기반으로 삼는 구조"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "language generation",
+        "meaning": "언어 형식의 새로운 텍스트를 만들어 내는 작업"
+      },
+      {
+        "term": "predict the next word",
+        "meaning": "앞선 문맥에 이어질 다음 단어를 예측하다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "LLM의 학습과 작업",
+        "explanation": "대규모 언어 모델은 자연어 처리, 특히 언어 생성을 위해 방대한 텍스트로 훈련된다. 텍스트를 생성·요약·번역·분석하는 작업을 할 수 있다."
+      },
+      {
+        "title": "GPT와 챗봇의 관계",
+        "explanation": "GPT는 다음 단어를 예측하도록 사전 훈련된 LLM의 한 종류다. LLM은 보통 트랜스포머 구조를 사용하며 여러 현대 챗봇의 기반이 된다."
+      }
+    ]
+  },
+  {
+    "passageId": "llm-limitations",
+    "importantWords": [
+      {
+        "term": "fine-tuned to follow instructions",
+        "meaning": "지시를 따르도록 추가 조정된"
+      },
+      {
+        "term": "less reliable",
+        "meaning": "출력을 덜 믿을 수 있는"
+      },
+      {
+        "term": "Benchmark evaluations",
+        "meaning": "모델의 여러 성질을 측정하려는 기준 평가"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Biased or inaccurate training data",
+        "meaning": "편향되었거나 부정확한 학습 데이터"
+      },
+      {
+        "term": "factual accuracy",
+        "meaning": "출력이 사실과 맞는 정도"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "데이터와 신뢰성",
+        "explanation": "편향되거나 부정확한 학습 데이터는 LLM 출력을 덜 신뢰할 수 있게 만들 수 있다. 따라서 모델의 유창함만으로 사실성을 보장할 수는 없다."
+      },
+      {
+        "title": "평가의 여러 기준",
+        "explanation": "벤치마크 평가는 추론, 사실 정확성, 정렬, 안전을 측정하려 한다. 평가는 한 가지 능력만이 아니라 여러 품질을 함께 살핀다."
+      }
+    ]
+  },
+  {
+    "passageId": "vision-overview",
+    "importantWords": [
+      {
+        "term": "digital images",
+        "meaning": "컴퓨터가 처리할 수 있는 디지털 형태의 이미지"
+      },
+      {
+        "term": "numerical or symbolic information",
+        "meaning": "수치 또는 기호로 표현된 정보"
+      },
+      {
+        "term": "appropriate action",
+        "meaning": "상황에 맞게 이끌어 낼 수 있는 행동"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "high-dimensional data",
+        "meaning": "많은 변수나 차원을 가진 복잡한 데이터"
+      },
+      {
+        "term": "disentangling of symbolic information",
+        "meaning": "이미지 데이터에서 기호 정보를 분리해 드러내는 과정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "컴퓨터 비전의 처리 흐름",
+        "explanation": "컴퓨터 비전은 이미지를 얻고 처리·분석해 수치 또는 기호 정보를 만든다. 그 결과는 결정과 같은 형태로 나타날 수 있다."
+      },
+      {
+        "title": "문맥 속 이해",
+        "explanation": "이 문맥의 ‘이해’는 시각 이미지를 세계에 대한 설명으로 바꾸는 일이다. 그 설명은 생각 과정에 의미가 있고 적절한 행동을 이끌 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "vision-disciplines",
+    "importantWords": [
+      {
+        "term": "extract information from images",
+        "meaning": "이미지에서 필요한 정보를 뽑아내다"
+      },
+      {
+        "term": "video sequences",
+        "meaning": "연속된 여러 영상 프레임의 흐름"
+      },
+      {
+        "term": "object detection",
+        "meaning": "이미지 속 사물의 위치와 종류를 찾아내는 작업"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "3D point clouds from LiDaR sensors",
+        "meaning": "LiDaR 센서가 얻는 입체 점들의 집합"
+      },
+      {
+        "term": "3D scene modeling",
+        "meaning": "장면을 3차원 구조로 모델링하는 하위 분야"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과학과 기술의 구분",
+        "explanation": "과학 분야는 이미지에서 정보를 추출하는 인공 시스템의 이론을 다룬다. 기술 분야는 그 이론과 모델을 적용해 실제 컴퓨터 비전 시스템을 만든다."
+      },
+      {
+        "title": "다양한 입력과 세부 분야",
+        "explanation": "이미지 데이터에는 영상, 여러 카메라 시점, 3차원 스캐너 자료 등이 포함될 수 있다. 장면 재구성, 객체 탐지, 영상 추적처럼 여러 하위 분야가 이를 다룬다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p001",
+    "importantWords": [
+      {
+        "term": "combinatorial explosion",
+        "meaning": "문제가 커질수록 계산이 기하급수적으로 느려지는 현상"
+      },
+      {
+        "term": "intuitive judgments",
+        "meaning": "빠르고 직관적으로 내리는 판단"
+      },
+      {
+        "term": "intermediate chains of thought",
+        "meaning": "중간 추론 단계들의 연결"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "step-by-step reasoning",
+        "meaning": "단계별로 논리를 전개하는 추론"
+      },
+      {
+        "term": "hallucinations",
+        "meaning": "모델이 만들어 내는 잘못된 출력"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "추론 문제의 규모",
+        "explanation": "초기 AI의 단계별 추론은 큰 문제에서 조합 폭발을 겪을 수 있다."
+      },
+      {
+        "title": "추론 모델의 한계",
+        "explanation": "2024년에 등장한 추론 모델은 복잡한 문제 성능을 높였지만 잘못된 출력이나 환각을 만들 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p002",
+    "importantWords": [
+      {
+        "term": "Unsupervised learning",
+        "meaning": "다른 지침 없이 데이터에서 패턴을 찾는 학습"
+      },
+      {
+        "term": "classification",
+        "meaning": "입력이 속한 범주를 예측하는 과제"
+      },
+      {
+        "term": "Reinforcement learning",
+        "meaning": "좋은 응답에 보상하고 나쁜 응답에 벌을 주는 학습"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Transfer learning",
+        "meaning": "한 문제에서 얻은 지식을 새 문제에 적용하는 학습"
+      },
+      {
+        "term": "Computational learning theory",
+        "meaning": "학습자를 계산 복잡도나 표본 복잡도로 평가하는 이론"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학습 방식의 대비",
+        "explanation": "비지도학습은 지침 없이 패턴을 찾고 지도학습은 기대 답을 사용한다."
+      },
+      {
+        "title": "강화와 전이",
+        "explanation": "강화학습은 보상으로 응답을 고르고 전이학습은 한 문제의 지식을 새 문제에 적용한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p003",
+    "importantWords": [
+      {
+        "term": "Natural language processing (NLP)",
+        "meaning": "사람의 언어를 읽고 쓰고 소통하게 하는 처리 분야"
+      },
+      {
+        "term": "word-sense disambiguation",
+        "meaning": "문맥에 맞는 단어 의미를 판별하는 일"
+      },
+      {
+        "term": "word embedding",
+        "meaning": "단어를 의미를 담은 벡터로 나타내는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "micro-worlds",
+        "meaning": "상식 문제를 피하려고 제한한 작은 영역"
+      },
+      {
+        "term": "attention mechanism",
+        "meaning": "트랜스포머가 사용하는 주의집중 방식"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자연어 처리 과제",
+        "explanation": "NLP에는 음성 인식·합성, 번역, 정보 추출·검색, 질문 응답이 포함된다."
+      },
+      {
+        "title": "현대 NLP 기법",
+        "explanation": "현대 딥러닝 NLP는 단어 임베딩과 어텐션을 쓰는 트랜스포머를 포함한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p004",
+    "importantWords": [
+      {
+        "term": "Machine perception",
+        "meaning": "센서 입력으로 세계의 측면을 추론하는 능력"
+      },
+      {
+        "term": "active lidar",
+        "meaning": "능동적으로 거리를 측정하는 센서"
+      },
+      {
+        "term": "robotic perception",
+        "meaning": "로봇이 환경을 지각하는 분야"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "tactile sensors",
+        "meaning": "접촉을 감지하는 센서"
+      },
+      {
+        "term": "deduce aspects of the world",
+        "meaning": "세계의 측면을 추론하다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "센서와 지각",
+        "explanation": "기계 지각은 카메라·마이크·레이더 같은 센서 입력으로 세계를 추론한다."
+      },
+      {
+        "title": "지각의 예",
+        "explanation": "컴퓨터 비전, 음성·얼굴·객체 인식, 객체 추적과 로봇 지각이 함께 언급된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p005",
+    "importantWords": [
+      {
+        "term": "State space search",
+        "meaning": "가능한 상태들의 나무에서 목표 상태를 찾는 탐색"
+      },
+      {
+        "term": "means-ends analysis",
+        "meaning": "목표와 하위 목표의 경로를 찾는 계획 과정"
+      },
+      {
+        "term": "Adversarial search",
+        "meaning": "게임의 수와 대응 수를 탐색하는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "search space",
+        "meaning": "탐색해야 할 장소의 수로 나타나는 탐색 범위"
+      },
+      {
+        "term": "Heuristics",
+        "meaning": "목표에 가까운 선택을 우선하는 경험적 규칙"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "상태 공간 탐색",
+        "explanation": "상태 트리에서 목표 상태로 가는 경로를 찾고 휴리스틱으로 선택을 우선한다."
+      },
+      {
+        "title": "게임 탐색",
+        "explanation": "체스나 바둑 프로그램의 적대적 탐색은 가능한 수와 대응 수를 살핀다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p006",
+    "importantWords": [
+      {
+        "term": "Local search",
+        "meaning": "추측에서 시작해 해를 점진적으로 개선하는 탐색"
+      },
+      {
+        "term": "Gradient descent",
+        "meaning": "손실 함수를 줄이도록 매개변수를 조정하는 지역 탐색"
+      },
+      {
+        "term": "swarm intelligence",
+        "meaning": "무리의 행동에서 영감을 얻은 분산 탐색"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "evolutionary computation",
+        "meaning": "후보 해를 변이·재조합해 개선하는 계산"
+      },
+      {
+        "term": "backpropagation algorithm",
+        "meaning": "신경망 학습에 쓰이는 역전파 알고리즘"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지역 탐색의 조정",
+        "explanation": "지역 탐색은 추측을 점진적으로 다듬으며 경사 하강법은 손실을 줄인다."
+      },
+      {
+        "title": "후보 해와 무리",
+        "explanation": "진화 계산은 적합한 후보를 남기고 입자·개미 군집 알고리즘은 분산 탐색을 조정한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p007",
+    "importantWords": [
+      {
+        "term": "population inferences",
+        "meaning": "표본에서 모집단에 대해 추론하는 것"
+      },
+      {
+        "term": "generalisable predictive patterns",
+        "meaning": "일반화 가능한 예측 패턴"
+      },
+      {
+        "term": "a priori selection",
+        "meaning": "데이터를 보기 전에 미리 선택하는 일"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "statistical learning",
+        "meaning": "통계 방법과 머신러닝 방법을 결합한 분야"
+      },
+      {
+        "term": "algorithmic model",
+        "meaning": "머신러닝 알고리즘을 가리키는 통계 모델 관점"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "통계와 머신러닝",
+        "explanation": "통계는 표본에서 모집단을 추론하고 머신러닝은 일반화할 예측 패턴을 찾는다."
+      },
+      {
+        "title": "모델을 만드는 방식",
+        "explanation": "전통 통계는 모델을 먼저 고르지만 머신러닝은 데이터가 패턴을 찾아 모델을 형성한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p008",
+    "importantWords": [
+      {
+        "term": "Supervised learning",
+        "meaning": "교사가 준 입력과 출력으로 일반 규칙을 배우는 방식"
+      },
+      {
+        "term": "Unsupervised learning",
+        "meaning": "라벨 없이 입력의 구조를 찾는 방식"
+      },
+      {
+        "term": "Reinforcement learning",
+        "meaning": "동적 환경에서 보상을 최대화하며 경험으로 배우는 방식"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "dynamic environment",
+        "meaning": "프로그램이 목표를 수행하며 상호작용하는 변화하는 환경"
+      },
+      {
+        "term": "feature learning",
+        "meaning": "숨은 패턴을 찾는 것을 목적이나 수단으로 삼는 학습"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "세 가지 접근",
+        "explanation": "지도학습은 입력-출력 규칙, 비지도학습은 구조, 강화학습은 보상 피드백을 사용한다."
+      },
+      {
+        "title": "단일 해법의 부재",
+        "explanation": "각 알고리즘에는 장단점이 있어 모든 문제에 맞는 하나의 알고리즘은 없다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p009",
+    "importantWords": [
+      {
+        "term": "commonalities",
+        "meaning": "데이터 안에서 여러 관찰이 공유하는 특징"
+      },
+      {
+        "term": "clustering",
+        "meaning": "비슷한 관찰을 같은 묶음으로 나누는 방법"
+      },
+      {
+        "term": "density estimation",
+        "meaning": "데이터 분포의 밀도를 추정하는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "self-supervised learning",
+        "meaning": "데이터 자체에서 감독 신호를 만들어 학습하는 방식"
+      },
+      {
+        "term": "internal compactness",
+        "meaning": "같은 군집 구성원 사이의 유사성"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "비지도 학습의 반응",
+        "explanation": "라벨이나 피드백 대신 데이터의 공통점을 찾아 새 데이터에 반응한다."
+      },
+      {
+        "title": "군집과 자기지도",
+        "explanation": "군집 분석은 비슷한 관찰을 묶고 자기지도 학습은 데이터 자체로 감독 신호를 만든다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p010",
+    "importantWords": [
+      {
+        "term": "dimensionality reduction",
+        "meaning": "고려할 변수 수나 특징 차원을 줄이는 과정"
+      },
+      {
+        "term": "principal variables",
+        "meaning": "차원을 줄여 얻는 주성분 변수"
+      },
+      {
+        "term": "principal component analysis (PCA)",
+        "meaning": "고차원 데이터를 더 작은 공간으로 바꾸는 방법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "feature elimination",
+        "meaning": "특징을 제거해 차원을 줄이는 방식"
+      },
+      {
+        "term": "manifold hypothesis",
+        "meaning": "고차원 데이터가 저차원 다양체를 따른다는 가정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "차원 축소",
+        "explanation": "차원 축소는 특징 수를 줄이며 PCA는 3D 데이터를 2D 공간으로 바꾸는 예가 된다."
+      },
+      {
+        "title": "다양체 가정",
+        "explanation": "많은 차원 축소 기법은 고차원 데이터가 저차원 다양체에 놓인다는 가정을 사용한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p011",
+    "importantWords": [
+      {
+        "term": "Semi-supervised learning",
+        "meaning": "라벨이 없는 자료와 완전히 라벨된 자료 사이의 학습"
+      },
+      {
+        "term": "unlabelled data",
+        "meaning": "훈련 라벨이 붙지 않은 데이터"
+      },
+      {
+        "term": "labelled data",
+        "meaning": "훈련 라벨이 붙은 데이터"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "weakly supervised learning",
+        "meaning": "시끄럽거나 제한적인 라벨을 사용하는 학습"
+      },
+      {
+        "term": "effective training sets",
+        "meaning": "약한 라벨로 커질 수 있는 유효 훈련 집합"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "반지도 학습의 위치",
+        "explanation": "반지도학습은 비지도학습과 지도학습 사이에서 두 종류의 데이터를 함께 활용한다."
+      },
+      {
+        "title": "약한 감독",
+        "explanation": "약한 감독의 라벨은 시끄럽거나 불완전하지만 얻기 쉬워 훈련 집합을 크게 할 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p012",
+    "importantWords": [
+      {
+        "term": "cumulative reward",
+        "meaning": "환경에서 얻는 보상의 누적 개념"
+      },
+      {
+        "term": "Markov decision process (MDP)",
+        "meaning": "강화학습 환경을 나타내는 마르코프 결정 과정"
+      },
+      {
+        "term": "dynamic programming techniques",
+        "meaning": "동적 계획법 기법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "exact mathematical model",
+        "meaning": "환경의 정확한 수학 모델"
+      },
+      {
+        "term": "multi-agent systems",
+        "meaning": "여러 에이전트가 상호작용하는 시스템"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "강화학습의 환경",
+        "explanation": "강화학습은 누적 보상을 최대화할 행동을 찾고 환경을 MDP로 나타낸다."
+      },
+      {
+        "title": "모델이 없어도 학습",
+        "explanation": "정확한 MDP 모델을 모를 때도 강화학습 알고리즘을 사용할 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p013",
+    "importantWords": [
+      {
+        "term": "universal approximation theorem",
+        "meaning": "신경망의 함수 근사 능력에 관한 정리"
+      },
+      {
+        "term": "feedforward neural networks",
+        "meaning": "입력에서 출력으로 순방향으로 연결된 신경망"
+      },
+      {
+        "term": "continuous functions",
+        "meaning": "연속 함수"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "sigmoid activation functions",
+        "meaning": "시그모이드 활성화 함수"
+      },
+      {
+        "term": "universal approximator",
+        "meaning": "연속 함수를 근사할 수 있는 모델"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "고전 보편 근사",
+        "explanation": "고전 정리는 유한 크기 단일 은닉층 순방향 신경망의 연속 함수 근사 능력을 다룬다."
+      },
+      {
+        "title": "근사 정리의 역사",
+        "explanation": "지문은 Cybenko의 1989년 증명과 다층 구조로의 일반화를 언급한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p014",
+    "importantWords": [
+      {
+        "term": "bounded width",
+        "meaning": "제한된 너비"
+      },
+      {
+        "term": "Lebesgue integrable function",
+        "meaning": "르베그 적분 가능한 함수"
+      },
+      {
+        "term": "input dimension",
+        "meaning": "입력의 차원"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ReLU activation",
+        "meaning": "ReLU 활성화"
+      },
+      {
+        "term": "probabilistic interpretation",
+        "meaning": "확률적 해석"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "깊이와 너비",
+        "explanation": "심층망 정리는 너비가 제한되어도 깊이를 늘릴 수 있는 네트워크를 다룬다."
+      },
+      {
+        "title": "확률적 해석",
+        "explanation": "확률적 해석은 학습·시험과 일반화, 활성화 비선형성을 누적분포함수로 보는 관점을 포함한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p015",
+    "importantWords": [
+      {
+        "term": "automatic speech recognition",
+        "meaning": "자동 음성 인식"
+      },
+      {
+        "term": "LSTM RNNs",
+        "meaning": "장기 의존성을 다루는 LSTM 순환 신경망"
+      },
+      {
+        "term": "TIMIT",
+        "meaning": "영어 방언 화자의 문장 읽기 데이터셋"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "phone-sequence recognition",
+        "meaning": "단어가 아닌 음소 순서를 인식하는 과제"
+      },
+      {
+        "term": "phone error rates (PER)",
+        "meaning": "음소 오류율"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "음성 인식의 성공 사례",
+        "explanation": "대규모 자동 음성 인식은 딥러닝의 가장 설득력 있는 성공 사례로 제시된다."
+      },
+      {
+        "title": "TIMIT 실험",
+        "explanation": "TIMIT은 630명의 화자가 10문장씩 읽은 작은 데이터셋이라 구성을 다양하게 시험할 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p016",
+    "importantWords": [
+      {
+        "term": "MNIST",
+        "meaning": "손으로 쓴 숫자로 이루어진 이미지 분류 데이터셋"
+      },
+      {
+        "term": "handwritten digits",
+        "meaning": "손으로 쓴 숫자"
+      },
+      {
+        "term": "360° camera views",
+        "meaning": "차량이 해석하는 360도 카메라 시야"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Facial Dysmorphology Novel Analysis (FDNA)",
+        "meaning": "유전 증후군 자료를 분석하는 예시 시스템"
+      },
+      {
+        "term": "human contestants",
+        "meaning": "사람인 이미지 인식 참가자"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "MNIST 규모",
+        "explanation": "MNIST에는 훈련 예제 60,000개와 시험 예제 10,000개가 있다."
+      },
+      {
+        "title": "초인적 이미지 인식",
+        "explanation": "지문은 교통 표지와 얼굴 인식에서 인간 참가자보다 정확한 결과가 나타났다고 설명한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p017",
+    "importantWords": [
+      {
+        "term": "regulatory approval",
+        "meaning": "규제 기관의 승인"
+      },
+      {
+        "term": "off-target effects",
+        "meaning": "의도한 표적 외 상호작용"
+      },
+      {
+        "term": "AtomNet",
+        "meaning": "구조 기반 신약 설계에 쓰인 딥러닝 시스템"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "on-target effect",
+        "meaning": "의도한 표적에서의 효능"
+      },
+      {
+        "term": "structure-based rational drug design",
+        "meaning": "구조 기반 합리적 약물 설계"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "후보 약물의 실패",
+        "explanation": "효능 부족, 원치 않는 상호작용, 예상 못한 독성이 승인 실패 원인이 될 수 있다."
+      },
+      {
+        "title": "분자 예측",
+        "explanation": "AtomNet은 에볼라와 다발성 경화증 표적의 후보 생체분자를 예측하는 데 사용되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p018",
+    "importantWords": [
+      {
+        "term": "latent factor model",
+        "meaning": "잠재 요인 모델"
+      },
+      {
+        "term": "content-based music",
+        "meaning": "내용 기반 음악 추천"
+      },
+      {
+        "term": "user preferences",
+        "meaning": "사용자 선호"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Multi-view deep learning",
+        "meaning": "여러 관점의 정보를 이용하는 딥러닝"
+      },
+      {
+        "term": "hybrid collaborative and content-based approach",
+        "meaning": "협업 방식과 내용 기반 방식을 결합한 접근"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "추천의 특징 추출",
+        "explanation": "딥러닝 추천 시스템은 음악과 저널 추천을 위한 잠재 요인 모델의 특징을 추출한다."
+      },
+      {
+        "title": "여러 도메인 선호",
+        "explanation": "다중 관점 딥러닝은 여러 도메인에서 사용자 선호를 학습하고 추천을 높인다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p019",
+    "importantWords": [
+      {
+        "term": "distributed version",
+        "meaning": "분산 버전"
+      },
+      {
+        "term": "Fan Hui",
+        "meaning": "유럽 바둑 챔피언 판후이"
+      },
+      {
+        "term": "full-sized board",
+        "meaning": "정규 크기의 바둑판"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "2-dan",
+        "meaning": "판후이의 프로 단수 표기"
+      },
+      {
+        "term": "publication of a paper",
+        "meaning": "알고리즘 논문 발표"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "판후이 대국",
+        "explanation": "2015년 10월 분산 AlphaGo는 2단 프로 판후이를 5대 0으로 이겼다."
+      },
+      {
+        "title": "핸디캡 없는 승리",
+        "explanation": "이 대국은 핸디캡 없이 정규 크기 판에서 프로 인간을 이긴 첫 사례였다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p020",
+    "importantWords": [
+      {
+        "term": "Future of Go Summit",
+        "meaning": "2017년 우전에서 열린 바둑 정상회의"
+      },
+      {
+        "term": "Ke Jie",
+        "meaning": "당시 세계 1위 바둑 기사 커제"
+      },
+      {
+        "term": "professional 9-dan",
+        "meaning": "중국위기협회가 수여한 프로 9단"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "winner prizes",
+        "meaning": "대국 승자에게 주어진 상금"
+      },
+      {
+        "term": "full length AlphaGo vs AlphaGo matches",
+        "meaning": "전체 길이의 대국"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "커제와의 세 판",
+        "explanation": "AlphaGo Master는 커제와 세 판을 모두 이겼고 중국위기협회에서 프로 9단을 받았다."
+      },
+      {
+        "title": "은퇴와 공개 대국",
+        "explanation": "커제 대국 뒤 AlphaGo는 은퇴했고 DeepMind는 50개의 AlphaGo 대 AlphaGo 대국을 공개했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p021",
+    "importantWords": [
+      {
+        "term": "AlphaGo Zero",
+        "meaning": "인간 데이터를 사용하지 않은 AlphaGo 버전"
+      },
+      {
+        "term": "AlphaZero algorithm",
+        "meaning": "AlphaGo Zero 접근을 일반화한 단일 알고리즘"
+      },
+      {
+        "term": "superhuman level of play",
+        "meaning": "초인적 수준의 경기력"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "human-champion-defeating version",
+        "meaning": "인간 챔피언을 이긴 버전"
+      },
+      {
+        "term": "world-champion programs",
+        "meaning": "세계 챔피언 수준의 프로그램"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자기 대국 학습",
+        "explanation": "AlphaGo Zero는 자기 대국으로 AlphaGo Lee를 100대 0으로 앞섰다."
+      },
+      {
+        "title": "여러 게임의 일반화",
+        "explanation": "AlphaZero는 체스·쇼기·바둑에서 세계 챔피언 프로그램을 이겼다고 보고되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p022",
+    "importantWords": [
+      {
+        "term": "teaching tool",
+        "meaning": "바둑 학습 도구"
+      },
+      {
+        "term": "winning rates",
+        "meaning": "승리 비율"
+      },
+      {
+        "term": "Go openings",
+        "meaning": "바둑 포문"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "human games",
+        "meaning": "인간 대국"
+      },
+      {
+        "term": "simulations",
+        "meaning": "시뮬레이션"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "포문 승률 분석",
+        "explanation": "교육 도구는 AlphaGo Master가 계산한 여러 포문의 승률을 분석한다."
+      },
+      {
+        "title": "대규모 자료",
+        "explanation": "도구는 인간 대국 23만 건에서 6,000개 포문을 모으고 각 포문을 천만 번 시뮬레이션했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p023",
+    "importantWords": [
+      {
+        "term": "tensor processing units",
+        "meaning": "구글의 자체 텐서 처리 장치"
+      },
+      {
+        "term": "proprietary hardware",
+        "meaning": "구글이 공개한 자체 하드웨어"
+      },
+      {
+        "term": "AlphaGo match against Lee Sedol",
+        "meaning": "이세돌과의 AlphaGo 대국"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "three stones",
+        "meaning": "바둑 실력 차이를 나타내는 세 점"
+      },
+      {
+        "term": "Future of Go Summit",
+        "meaning": "2017년 바둑 정상회의"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "TPU의 배치",
+        "explanation": "구글은 TPU가 이세돌 대국을 포함한 여러 내부 프로젝트에 이미 배치됐다고 밝혔다."
+      },
+      {
+        "title": "버전 간 실력",
+        "explanation": "AlphaGo Lee는 Fan보다 세 점 강했고 Master는 Lee보다도 세 점 강했다고 설명된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p024",
+    "importantWords": [
+      {
+        "term": "conservative",
+        "meaning": "적은 점수 차의 승률을 중시하는 스타일"
+      },
+      {
+        "term": "probability of winning",
+        "meaning": "승리할 확률"
+      },
+      {
+        "term": "shoulder hits",
+        "meaning": "상대가 과밀할 때 쓰는 바둑 수"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "territorial gains",
+        "meaning": "영토를 넓히는 이득"
+      },
+      {
+        "term": "opening moves",
+        "meaning": "대국 초반의 수"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "AlphaGo의 스타일",
+        "explanation": "판후이 대국 심판은 AlphaGo 스타일을 보수적이라고 묘사했다."
+      },
+      {
+        "title": "사람과 다른 선택",
+        "explanation": "AlphaGo는 영토보다 승리 확률을 중시하고 사람이 드물게 둔 포석을 사용했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p025",
+    "importantWords": [
+      {
+        "term": "conversational interaction",
+        "meaning": "대화 상호작용"
+      },
+      {
+        "term": "non-directive",
+        "meaning": "비지시적인"
+      },
+      {
+        "term": "psychotherapist",
+        "meaning": "심리치료사"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "speech patterns",
+        "meaning": "말투 패턴"
+      },
+      {
+        "term": "initial psychiatric interview",
+        "meaning": "초기 정신과 면담"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "DOCTOR의 대화",
+        "explanation": "DOCTOR 스크립트를 실행한 ELIZA는 비지시적 심리치료 면담과 비슷한 상호작용을 만들었다."
+      },
+      {
+        "title": "스크립트와 말투",
+        "explanation": "지문은 ELIZA의 말투가 DOCTOR 스크립트의 데이터와 지시에서 비롯된다고 설명한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p026",
+    "importantWords": [
+      {
+        "term": "keywords",
+        "meaning": "스크립트가 중요하게 보는 단어"
+      },
+      {
+        "term": "transformed the input",
+        "meaning": "입력을 변환했다"
+      },
+      {
+        "term": "rules of transformation",
+        "meaning": "출력 변환 규칙"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "data base of real-world knowledge",
+        "meaning": "현실 지식 데이터베이스"
+      },
+      {
+        "term": "reflect back",
+        "meaning": "사용자 말을 되비추다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "ELIZA의 처리",
+        "explanation": "ELIZA는 키워드에 값을 적용하고 입력을 출력으로 변환했다."
+      },
+      {
+        "title": "DOCTOR의 전략",
+        "explanation": "Weizenbaum은 현실 지식 데이터베이스 문제를 피하려고 환자의 말을 되비추게 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p027",
+    "importantWords": [
+      {
+        "term": "Eliza Doolittle",
+        "meaning": "Pygmalion의 노동계급 인물"
+      },
+      {
+        "term": "incrementally improved",
+        "meaning": "조금씩 개선되는"
+      },
+      {
+        "term": "active script",
+        "meaning": "현재 작동 중인 스크립트"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "upper-class accent",
+        "meaning": "상류층 억양"
+      },
+      {
+        "term": "interaction alone",
+        "meaning": "상호작용만으로"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "이름의 유래",
+        "explanation": "프로그램 이름 ELIZA는 George Bernard Shaw의 Pygmalion 인물 Eliza Doolittle에서 왔다."
+      },
+      {
+        "title": "학습의 한계",
+        "explanation": "사용자가 새 말투나 단어를 학습시키려면 상호작용만으로는 안 되고 활성 스크립트를 편집해야 한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p028",
+    "importantWords": [
+      {
+        "term": "fundamental technical problems",
+        "meaning": "ELIZA가 해결해야 했던 핵심 기술 문제"
+      },
+      {
+        "term": "minimal context",
+        "meaning": "응답에 필요한 최소 문맥"
+      },
+      {
+        "term": "editing capability",
+        "meaning": "스크립트를 편집할 수 있는 기능"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "appropriate transformations",
+        "meaning": "적절한 변환"
+      },
+      {
+        "term": "absence of key words",
+        "meaning": "키워드가 없는 상태"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "다섯 기술 문제",
+        "explanation": "ELIZA는 키워드 식별, 최소 문맥, 변환, 무키워드 응답, 스크립트 편집을 해결해야 했다."
+      },
+      {
+        "title": "설계의 범위",
+        "explanation": "목록은 입력에서 응답을 만드는 과정과 스크립트를 수정하는 기능을 함께 다룬다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p029",
+    "importantWords": [
+      {
+        "term": "decomposition rule",
+        "meaning": "입력을 부분으로 나누는 규칙"
+      },
+      {
+        "term": "reassembly rule",
+        "meaning": "부분을 다시 조합하는 규칙"
+      },
+      {
+        "term": "syntactical patterns",
+        "meaning": "문법적 패턴"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "disassembly rules",
+        "meaning": "분해 규칙들"
+      },
+      {
+        "term": "highest-ranking keyword",
+        "meaning": "가장 높은 순위의 키워드"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "변환의 두 단계",
+        "explanation": "ELIZA 변환은 입력의 최소 문맥을 찾는 분해와 응답을 만드는 재조립으로 구성된다."
+      },
+      {
+        "title": "문장 분해",
+        "explanation": "스크립트 규칙은 문장을 구성 요소로 나누고 최고 순위 키워드의 분해 규칙을 적용한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p030",
+    "importantWords": [
+      {
+        "term": "\"MEMORY\" structure",
+        "meaning": "이전 입력을 저장하는 구조"
+      },
+      {
+        "term": "specialized situations",
+        "meaning": "특수한 응답 상황"
+      },
+      {
+        "term": "repurpose words",
+        "meaning": "단어를 다른 출력 용도로 다시 쓰다"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "lacked content",
+        "meaning": "내용이 부족한"
+      },
+      {
+        "term": "prior recent inputs",
+        "meaning": "직전의 이전 입력"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "키워드가 없을 때",
+        "explanation": "ELIZA는 키워드가 없으면 “I see” 같은 내용 없는 말을 하거나 MEMORY를 사용했다."
+      },
+      {
+        "title": "이전 대화 참조",
+        "explanation": "MEMORY는 이전 입력을 기록해 앞선 대화의 일부를 참조하는 응답을 만들었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p031",
+    "importantWords": [
+      {
+        "term": "machine intelligence",
+        "meaning": "기계 지능"
+      },
+      {
+        "term": "Ratio Club",
+        "meaning": "영국 사이버네틱스 연구자 모임"
+      },
+      {
+        "term": "Intelligent Machinery",
+        "meaning": "튜링의 보고서 제목"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "computer intelligence",
+        "meaning": "컴퓨터 지능"
+      },
+      {
+        "term": "forerunner",
+        "meaning": "후속 시험의 선구자"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 영국 연구",
+        "explanation": "AI 연구 분야가 설립되기 전 영국 연구자들은 기계 지능을 탐구했다."
+      },
+      {
+        "title": "튜링의 초기 문제",
+        "explanation": "튜링은 1941년부터 기계 지능을 다뤘고 1947년 컴퓨터 지능을 언급했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p032",
+    "importantWords": [
+      {
+        "term": "\"equivalent\" alternative formulation",
+        "meaning": "동등한 대안적 형식"
+      },
+      {
+        "term": "BBC radio broadcast",
+        "meaning": "튜링이 설명한 BBC 라디오 방송"
+      },
+      {
+        "term": "putative objections",
+        "meaning": "가정된 반론들"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "significant proportion",
+        "meaning": "상당한 비율"
+      },
+      {
+        "term": "jury",
+        "meaning": "컴퓨터에 질문하는 배심원"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "튜링의 대안 형식",
+        "explanation": "튜링은 컴퓨터와 남자에게만 대화하는 판정자 형식을 제안했고 이후 제3의 형식을 설명했다."
+      },
+      {
+        "title": "BBC에서의 목표",
+        "explanation": "BBC 형식에서 컴퓨터는 배심원의 상당수가 자신을 실제 남자라고 믿게 해야 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p033",
+    "importantWords": [
+      {
+        "term": "laboratory test",
+        "meaning": "실험실 시험"
+      },
+      {
+        "term": "control",
+        "meaning": "시험에서 비교를 위한 통제"
+      },
+      {
+        "term": "interrogator-hidden interlocutor",
+        "meaning": "심문자에게 숨겨진 대화 상대"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "implementation and outcome",
+        "meaning": "시험의 실행과 결과"
+      },
+      {
+        "term": "Gricean maxim violations",
+        "meaning": "그라이스 격률 위반"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "통제와 인식",
+        "explanation": "튜링 테스트에는 통제가 필요하지만 심문자가 컴퓨터 참가자를 아는지는 분명하지 않다."
+      },
+      {
+        "title": "인식 여부의 효과",
+        "explanation": "지문은 컴퓨터 존재를 아는 참가자와 모르는 참가자의 응답이 달랐다고 설명한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p034",
+    "importantWords": [
+      {
+        "term": "power and appeal",
+        "meaning": "시험이 지니는 힘과 매력"
+      },
+      {
+        "term": "sufficiently precise",
+        "meaning": "충분히 정확한"
+      },
+      {
+        "term": "pragmatic attempt",
+        "meaning": "실용적인 시도"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "philosophy of mind",
+        "meaning": "마음의 철학"
+      },
+      {
+        "term": "central questions",
+        "meaning": "중심 질문들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "단순성과 측정",
+        "explanation": "튜링 테스트의 힘은 단순성에 있고 완벽하지 않아도 측정 가능한 것을 제공한다."
+      },
+      {
+        "title": "정의의 한계",
+        "explanation": "마음의 철학·심리학·신경과학도 기계에 적용할 만큼 정확한 지능 정의를 마련하지 못했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p035",
+    "importantWords": [
+      {
+        "term": "external behaviour",
+        "meaning": "기계의 외부 행동"
+      },
+      {
+        "term": "behaviourist or functionalist approach",
+        "meaning": "행동주의 또는 기능주의 접근"
+      },
+      {
+        "term": "Chinese room argument",
+        "meaning": "중국어 방 논증"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "operational definition",
+        "meaning": "운영적 정의"
+      },
+      {
+        "term": "intentionality",
+        "meaning": "생각이 무엇에 관한 것인지 나타내는 철학 용어"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "행동만 평가",
+        "explanation": "튜링 테스트는 주체의 외부 행동을 엄격히 다루며 행동주의·기능주의적 접근을 취한다."
+      },
+      {
+        "title": "행동과 마음의 구분",
+        "explanation": "중국어 방 논증은 시험 통과가 마음·의식·지향성을 보장하지 않는다고 주장한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p036",
+    "importantWords": [
+      {
+        "term": "Natural Language Processing",
+        "meaning": "자연어 처리"
+      },
+      {
+        "term": "huge text corpus",
+        "meaning": "방대한 텍스트 말뭉치"
+      },
+      {
+        "term": "self-reflection",
+        "meaning": "자기 성찰"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "initial training",
+        "meaning": "초기 훈련"
+      },
+      {
+        "term": "philosophical questions",
+        "meaning": "철학적 질문"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "언어 사용과 이해",
+        "explanation": "NLP 시스템은 훈련 자료의 문장을 조작해 테스트를 통과할 수 있어 언어 사용과 이해를 구분하는 변형이 제안되었다."
+      },
+      {
+        "title": "새로운 질문",
+        "explanation": "제안된 시험은 사전 지식에 의존하지 않지만 자기 성찰이 필요한 철학 질문을 사용한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p037",
+    "importantWords": [
+      {
+        "term": "machine translation (MT)",
+        "meaning": "기계 번역"
+      },
+      {
+        "term": "influential memorandum",
+        "meaning": "영향력 있는 메모"
+      },
+      {
+        "term": "public demonstration",
+        "meaning": "공개 시연"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "full-time professor",
+        "meaning": "전임 교수"
+      },
+      {
+        "term": "respected newspapers",
+        "meaning": "권위 있는 신문들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "기계 번역의 시작",
+        "explanation": "자연어 처리 연구는 1930년대 초 기계 번역 작업에서 시작되었다."
+      },
+      {
+        "title": "1949년 이후의 전개",
+        "explanation": "Weaver 메모 뒤 연구 기관·교수직·회의와 Georgetown–IBM 공개 시연이 이어졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p038",
+    "importantWords": [
+      {
+        "term": "Georgetown–IBM experiment",
+        "meaning": "Georgetown–IBM 기계 번역 실험"
+      },
+      {
+        "term": "curated set",
+        "meaning": "선별된 집합"
+      },
+      {
+        "term": "250 words",
+        "meaning": "시연 기계의 제한된 어휘 수"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "bilingual machine",
+        "meaning": "당시 신문이 붙인 표현"
+      },
+      {
+        "term": "word families",
+        "meaning": "어휘 이해를 세는 단위"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "과장된 보도",
+        "explanation": "언론은 Georgetown–IBM 성과의 의미를 과장했지만 실제 시연은 49문장에 한정됐다."
+      },
+      {
+        "title": "어휘 규모의 대비",
+        "explanation": "기계의 어휘는 250단어였고 인간이 98% 이해하려면 약 8,000~9,000 어족이 필요하다는 연구가 언급된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p039",
+    "importantWords": [
+      {
+        "term": "word-sense disambiguation",
+        "meaning": "문맥에 맞는 단어 의미를 결정하는 일"
+      },
+      {
+        "term": "commonsense knowledge problem",
+        "meaning": "문장이 무엇에 관한지 아는 데서 생기는 상식 지식 문제"
+      },
+      {
+        "term": "Automatic Language Processing Advisory Committee (ALPAC)",
+        "meaning": "기계 번역을 조사한 자문 위원회"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "imminent 'breakthroughs'",
+        "meaning": "곧 일어날 돌파구"
+      },
+      {
+        "term": "human translation",
+        "meaning": "인간 번역"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "낙관과 어려움",
+        "explanation": "연구자들은 돌파구를 예상했지만 단어 의미 판별과 문맥 이해의 어려움을 과소평가했다."
+      },
+      {
+        "title": "ALPAC 결론",
+        "explanation": "ALPAC의 1966년 보고서는 기계 번역이 인간 번역보다 비싸고 부정확하며 느리다고 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p040",
+    "importantWords": [
+      {
+        "term": "perceptrons",
+        "meaning": "초기 단층 인공 신경망"
+      },
+      {
+        "term": "manipulating symbols",
+        "meaning": "기호를 조작하는 것"
+      },
+      {
+        "term": "sheer force of his personality",
+        "meaning": "강한 개인적 영향력"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Logic Theorist",
+        "meaning": "기호 조작 프로그램의 예"
+      },
+      {
+        "term": "Mainstream research",
+        "meaning": "주류 연구"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 신경망의 좌절",
+        "explanation": "초기 연결 단위 네트워크가 약속한 결과를 내지 못해 버려졌고 기호 조작이 더 유망해 보였다."
+      },
+      {
+        "title": "퍼셉트론의 한계",
+        "explanation": "Minsky와 Papert의 책은 퍼셉트론 한계를 강조했고 당시 다층 퍼셉트론 훈련법은 알려지지 않았다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p041",
+    "importantWords": [
+      {
+        "term": "Lighthill report",
+        "meaning": "영국 AI 연구를 평가한 보고서"
+      },
+      {
+        "term": "combinatorial explosion",
+        "meaning": "문제 규모가 커질 때 계산이 폭발하는 현상"
+      },
+      {
+        "term": "\"toy\" versions",
+        "meaning": "현실보다 단순한 장난감 문제 버전"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "grandiose objectives",
+        "meaning": "거창한 목표"
+      },
+      {
+        "term": "intractability",
+        "meaning": "계산으로 풀기 어려운 성질"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Lighthill의 비판",
+        "explanation": "보고서는 AI가 거창한 목표를 달성하지 못했고 다른 과학도 할 수 있는 일을 한다고 비판했다."
+      },
+      {
+        "title": "현실 문제의 정지",
+        "explanation": "조합 폭발과 난해성 때문에 성공적인 알고리즘도 현실 문제에서는 멈출 수 있다고 지적했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p042",
+    "importantWords": [
+      {
+        "term": "XCON",
+        "meaning": "초기 성공 전문가 시스템의 예"
+      },
+      {
+        "term": "brittle",
+        "meaning": "특이한 입력에 이상한 실수를 하는 취약한 성질"
+      },
+      {
+        "term": "nonmonotonic logic",
+        "meaning": "비단조 논리"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "qualification problem",
+        "meaning": "예외 조건을 모두 기술하기 어려운 문제"
+      },
+      {
+        "term": "knowledge-based engineering",
+        "meaning": "지식 기반 공학"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전문가 시스템의 유지 문제",
+        "explanation": "XCON 같은 시스템은 유지 비용이 컸고 업데이트가 어렵고 학습하지 못했다."
+      },
+      {
+        "title": "제한된 유용성",
+        "explanation": "전문가 시스템은 유용했지만 일부 특수한 맥락에만 유용했고 회사들은 새 시장을 찾아야 했다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p043",
+    "importantWords": [
+      {
+        "term": "medical diagnostic decisions",
+        "meaning": "의료 진단 결정"
+      },
+      {
+        "term": "computer-aided systems",
+        "meaning": "컴퓨터 보조 시스템"
+      },
+      {
+        "term": "diagnostic outcome",
+        "meaning": "진단 결과"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "traditional methods",
+        "meaning": "전통적 방법"
+      },
+      {
+        "term": "statistical pattern matching",
+        "meaning": "통계적 패턴 매칭"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "초기 진단 시스템",
+        "explanation": "1950년대 연구자들은 컴퓨터로 인간의 의사결정을 모방하고 증상·검사 결과로 진단하려 했다."
+      },
+      {
+        "title": "전문가 시스템의 초기 형태",
+        "explanation": "이런 진단 시스템이 초기 전문가 시스템으로 불렸지만 전통 방법에는 한계가 있었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p044",
+    "importantWords": [
+      {
+        "term": "knowledge-based architecture",
+        "meaning": "지식 기반 구조"
+      },
+      {
+        "term": "explanation facility",
+        "meaning": "설명 시설"
+      },
+      {
+        "term": "knowledge acquisition facility",
+        "meaning": "지식 획득 시설"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "flat assertions",
+        "meaning": "변수에 대한 평면적 주장"
+      },
+      {
+        "term": "object-oriented programming",
+        "meaning": "객체 지향 프로그래밍"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "구성 요소",
+        "explanation": "전문가 시스템에는 지식 기반·추론 엔진·설명 시설·지식 획득 시설·사용자 인터페이스가 포함된다."
+      },
+      {
+        "title": "추론 엔진",
+        "explanation": "추론 엔진은 지식 기반의 현재 상태를 평가하고 규칙을 적용해 새 지식을 주장한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p045",
+    "importantWords": [
+      {
+        "term": "forward chaining",
+        "meaning": "전제에서 결론으로 가는 추론"
+      },
+      {
+        "term": "Backward chaining",
+        "meaning": "가능한 결론에서 거꾸로 확인하는 추론"
+      },
+      {
+        "term": "Mortal(Socrates)",
+        "meaning": "소크라테스가 필멸이라는 예시 결론"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Man(Socrates)",
+        "meaning": "소크라테스가 사람이라는 예시 사실"
+      },
+      {
+        "term": "straight forward",
+        "meaning": "간단하거나 직관적인"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "순방향 예시",
+        "explanation": "순방향 연쇄는 Man(Socrates)를 주장하고 R1을 적용해 Mortal(Socrates)를 지식 기반에 넣는다."
+      },
+      {
+        "title": "역방향 예시",
+        "explanation": "역방향 연쇄는 Mortal(Socrates)가 참인지 보려고 R1을 찾아 Man(Socrates)를 질의한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p046",
+    "importantWords": [
+      {
+        "term": "explicitly represent knowledge",
+        "meaning": "지식을 명시적으로 나타내다"
+      },
+      {
+        "term": "explanation abilities",
+        "meaning": "설명 기능"
+      },
+      {
+        "term": "natural English",
+        "meaning": "자연스러운 영어"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "fired",
+        "meaning": "발화된 규칙이 실행된"
+      },
+      {
+        "term": "less intuitive rules",
+        "meaning": "덜 직관적인 규칙"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "규칙과 설명",
+        "explanation": "규칙으로 지식을 명시하면 어떤 규칙이 결론을 만들었는지 설명할 수 있다."
+      },
+      {
+        "title": "소크라테스 예",
+        "explanation": "시스템은 “모든 사람은 필멸하고 소크라테스는 사람”이라는 자연어 설명을 제시할 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p047",
+    "importantWords": [
+      {
+        "term": "Increased availability and reliability",
+        "meaning": "가용성과 신뢰성 증가"
+      },
+      {
+        "term": "Multiple expertise",
+        "meaning": "여러 전문가 시스템의 전문성"
+      },
+      {
+        "term": "Reduced cost",
+        "meaning": "사용자별 전문 지식 비용 감소"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "real-time",
+        "meaning": "실시간"
+      },
+      {
+        "term": "on time",
+        "meaning": "제때"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전문가 시스템의 장점",
+        "explanation": "어떤 하드웨어에서도 전문성에 접근하고 응답을 제때 끝내며 여러 전문성을 함께 사용할 수 있다."
+      },
+      {
+        "title": "비용과 설명",
+        "explanation": "목록은 문제 해결 설명·빠른 응답·사용자별 비용 감소도 장점으로 든다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p048",
+    "importantWords": [
+      {
+        "term": "superficial knowledge",
+        "meaning": "피상적인 지식"
+      },
+      {
+        "term": "knowledge engineers",
+        "meaning": "지식을 입력하는 지식 공학자"
+      },
+      {
+        "term": "Problems of ethics",
+        "meaning": "AI 사용에서 발생하는 윤리 문제"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "computationally expensive",
+        "meaning": "계산 비용이 큰"
+      },
+      {
+        "term": "closed world",
+        "meaning": "특정 지식만 포함한 닫힌 세계"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "전문가 시스템의 한계",
+        "explanation": "전문가 시스템은 피상적 지식 때문에 간단한 작업도 계산 비용이 커질 수 있다."
+      },
+      {
+        "title": "윤리와 인식",
+        "explanation": "지문은 지식 입력이 어렵고 부적절한 방법을 고를 수 있으며 깊은 개념 인식이 없다고 말한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p049",
+    "importantWords": [
+      {
+        "term": "transformer-based models",
+        "meaning": "트랜스포머 기반 모델"
+      },
+      {
+        "term": "word alignment techniques",
+        "meaning": "단어 정렬 기법"
+      },
+      {
+        "term": "corpus-based language modeling",
+        "meaning": "말뭉치 기반 언어 모델링"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "computational and data constraints",
+        "meaning": "계산 및 데이터 제약"
+      },
+      {
+        "term": "state-of-the-art perplexity",
+        "meaning": "당시 최고 수준의 혼란도"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "트랜스포머 이전",
+        "explanation": "2017년 전에도 당시 자원 제약을 기준으로 크다고 평가된 언어 모델이 있었다."
+      },
+      {
+        "title": "통계 언어 모델의 축적",
+        "explanation": "IBM 정렬 기법과 웹에서 모은 대규모 텍스트 자료가 통계 언어 모델의 기반을 만들었다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p050",
+    "importantWords": [
+      {
+        "term": "byte-pair encoding",
+        "meaning": "문자 쌍을 병합하는 토큰화 방식"
+      },
+      {
+        "term": "vocabulary",
+        "meaning": "토큰화에 사용되는 어휘 집합"
+      },
+      {
+        "term": "tokenizer based on byte-pair encoding",
+        "meaning": "BPE 방식의 토큰화기"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "unique characters",
+        "meaning": "초기에 모두 개별 토큰으로 보는 고유 문자"
+      },
+      {
+        "term": "merged",
+        "meaning": "가장 빈번한 쌍을 하나로 합치다"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "BPE 토큰화",
+        "explanation": "BPE 토크나이저는 모든 고유 문자를 초기 집합으로 두고 가장 빈번한 쌍을 병합한다."
+      },
+      {
+        "title": "토큰화와 어휘",
+        "explanation": "각 어휘 항목에는 정수 인덱스와 임베딩이 연결되고 특수 토큰도 사용된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p051",
+    "importantWords": [
+      {
+        "term": "low-quality",
+        "meaning": "품질이 낮은"
+      },
+      {
+        "term": "duplicated",
+        "meaning": "중복된"
+      },
+      {
+        "term": "toxic data",
+        "meaning": "유해한 데이터"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "downstream performance",
+        "meaning": "후속 작업 성능"
+      },
+      {
+        "term": "LLM-generated content",
+        "meaning": "LLM이 생성한 콘텐츠"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "데이터 정제",
+        "explanation": "LLM 훈련 데이터는 저품질·중복·유해 자료를 제거해 정제할 수 있다."
+      },
+      {
+        "title": "웹 콘텐츠의 문제",
+        "explanation": "웹의 LLM 생성 콘텐츠는 인간 글과 비슷하면서 품질이 낮을 수 있어 미래 정제가 어려워진다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p052",
+    "importantWords": [
+      {
+        "term": "fine-tuned",
+        "meaning": "추가 조정된"
+      },
+      {
+        "term": "Instruction fine-tuning",
+        "meaning": "사용자 지시를 따르게 하는 지도학습 형태"
+      },
+      {
+        "term": "RLHF",
+        "meaning": "인간 피드백을 이용한 강화학습"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "constitutional AI",
+        "meaning": "헌법적 AI 기법"
+      },
+      {
+        "term": "reward model",
+        "meaning": "사람이 선호할 텍스트를 예측하는 모델"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "지시 미세 조정",
+        "explanation": "대부분의 LLM은 먼저 다음 토큰을 예측하고, 지시 미세 조정으로 사용자 지시를 따르도록 배운다."
+      },
+      {
+        "title": "RLHF 과정",
+        "explanation": "RLHF는 보상 모델을 훈련한 뒤 강화학습으로 그 보상 모델을 더 잘 만족하게 한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p053",
+    "importantWords": [
+      {
+        "term": "Inference",
+        "meaning": "훈련된 모델에 입력을 주고 출력을 받는 과정"
+      },
+      {
+        "term": "Hosted inference",
+        "meaning": "원격 데이터 센터에서 실행하는 추론"
+      },
+      {
+        "term": "open-weight language models",
+        "meaning": "가중치를 공개해 내려받을 수 있는 언어 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "remote AI data centers",
+        "meaning": "원격 AI 데이터 센터"
+      },
+      {
+        "term": "local storage",
+        "meaning": "개인 컴퓨터의 로컬 저장 공간"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "추론의 정의",
+        "explanation": "추론은 훈련된 LLM에 입력을 제공하고 텍스트·이미지·코드 같은 출력을 받는 과정이다."
+      },
+      {
+        "title": "호스팅과 로컬 실행",
+        "explanation": "호스팅 추론은 인터넷으로 원격 출력을 제공하고 오픈 가중치 모델은 개인 컴퓨터에서 실행될 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p054",
+    "importantWords": [
+      {
+        "term": "attention mechanism",
+        "meaning": "토큰 관련성을 계산하는 어텐션 장치"
+      },
+      {
+        "term": "attention heads",
+        "meaning": "각자 관련성을 계산하는 여러 어텐션 헤드"
+      },
+      {
+        "term": "Autoregressive models",
+        "meaning": "시퀀스가 어떻게 이어지는지 추측하는 모델"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "context window",
+        "meaning": "토큰 관련성을 살피는 문맥 범위"
+      },
+      {
+        "term": "Masked models",
+        "meaning": "시퀀스에서 빠진 부분을 추측하는 모델"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "어텐션 가중치",
+        "explanation": "어텐션은 문맥 창 안 토큰의 관련성을 소프트 가중치로 계산한다."
+      },
+      {
+        "title": "두 예측 방식",
+        "explanation": "자기회귀 모델은 시퀀스의 다음을, 마스크 모델은 빠진 부분을 훈련 자료의 성질로 추측한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p055",
+    "importantWords": [
+      {
+        "term": "high-level understanding",
+        "meaning": "디지털 이미지에서 얻는 높은 수준의 이해"
+      },
+      {
+        "term": "automatic extraction",
+        "meaning": "정보를 자동으로 추출하는 것"
+      },
+      {
+        "term": "Machine vision",
+        "meaning": "공장 자동화 맥락의 시스템 공학 분야"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "interdisciplinary field",
+        "meaning": "여러 학문이 만나는 분야"
+      },
+      {
+        "term": "theoretical and algorithmic basis",
+        "meaning": "이론적·알고리즘적 기반"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "컴퓨터 비전의 범위",
+        "explanation": "컴퓨터 비전은 이미지나 영상에서 이해를 얻고 인간 시각 체계의 작업을 자동화하려 한다."
+      },
+      {
+        "title": "과학과 기술",
+        "explanation": "과학 분야는 정보 추출 시스템의 이론을, 기술 분야는 그 이론과 모델의 구축을 다룬다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p056",
+    "importantWords": [
+      {
+        "term": "Solid-state physics",
+        "meaning": "고체의 물리 현상을 다루는 분야"
+      },
+      {
+        "term": "image sensors",
+        "meaning": "전자기 복사를 감지하는 이미지 센서"
+      },
+      {
+        "term": "quantum mechanics",
+        "meaning": "이미지 형성의 미시적 과정을 설명하는 양자역학"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "electromagnetic radiation",
+        "meaning": "센서가 감지하는 전자기 복사"
+      },
+      {
+        "term": "image formation process",
+        "meaning": "이미지가 만들어지는 과정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "센서와 물리",
+        "explanation": "컴퓨터 비전 센서는 가시광·적외선·자외선 같은 전자기 복사를 감지한다."
+      },
+      {
+        "title": "빛과 영상",
+        "explanation": "물리학은 표면과 빛의 상호작용, 광학, 정교한 센서의 이미지 형성을 설명한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p057",
+    "importantWords": [
+      {
+        "term": "signal processing",
+        "meaning": "신호를 처리하는 관련 분야"
+      },
+      {
+        "term": "one-variable signals",
+        "meaning": "일변수 신호"
+      },
+      {
+        "term": "multi-variable signals",
+        "meaning": "다변수 신호"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "two-variable signals",
+        "meaning": "이변수 신호"
+      },
+      {
+        "term": "multi-dimensionality",
+        "meaning": "신호가 여러 차원을 갖는 성질"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "신호 처리의 확장",
+        "explanation": "일변수 신호 처리 방법은 컴퓨터 비전의 이변수·다변수 신호에도 자연스럽게 확장된다."
+      },
+      {
+        "title": "비전 고유 방법",
+        "explanation": "이미지의 특성 때문에 일변수 신호에 대응물이 없는 컴퓨터 비전 방법도 개발된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p058",
+    "importantWords": [
+      {
+        "term": "industrial machine vision systems",
+        "meaning": "생산 라인을 검사하는 산업 머신 비전 시스템"
+      },
+      {
+        "term": "automated image analysis",
+        "meaning": "자동화된 이미지 분석"
+      },
+      {
+        "term": "robot guidance",
+        "meaning": "로봇 안내"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "pre-programmed",
+        "meaning": "특정 작업을 미리 프로그램한"
+      },
+      {
+        "term": "automated inspection",
+        "meaning": "자동화된 검사"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "응용 범위",
+        "explanation": "컴퓨터 비전은 생산 라인 병 검사부터 세계를 이해하는 AI·로봇 연구까지 쓰인다."
+      },
+      {
+        "title": "머신 비전의 역할",
+        "explanation": "머신 비전은 이미지 분석을 다른 기술과 결합해 산업 검사와 로봇 안내를 자동화한다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p059",
+    "importantWords": [
+      {
+        "term": "medical computer vision",
+        "meaning": "의료 컴퓨터 비전"
+      },
+      {
+        "term": "diagnose a patient",
+        "meaning": "환자를 진단하다"
+      },
+      {
+        "term": "detection of tumours",
+        "meaning": "종양 탐지"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "arteriosclerosis",
+        "meaning": "동맥경화"
+      },
+      {
+        "term": "organ dimensions",
+        "meaning": "장기 치수"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "의료 영상 진단",
+        "explanation": "의료 컴퓨터 비전은 이미지에서 정보를 추출해 종양 등 질환을 찾고 환자를 진단한다."
+      },
+      {
+        "title": "연구와 영상 개선",
+        "explanation": "장기 치수·혈류 측정과 뇌 구조 연구, 초음파·X선 영상의 잡음 감소도 응용에 포함된다."
+      }
+    ]
+  },
+  {
+    "passageId": "ai-v2-p060",
+    "importantWords": [
+      {
+        "term": "autonomous vehicles",
+        "meaning": "자율 차량"
+      },
+      {
+        "term": "obstacle warning systems",
+        "meaning": "차량 장애물 경고 시스템"
+      },
+      {
+        "term": "unmanned aerial vehicles (UAV)",
+        "meaning": "무인 항공기"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "SLAM",
+        "meaning": "동시적 위치 추정과 지도 작성"
+      },
+      {
+        "term": "autonomous landing",
+        "meaning": "항공기의 자율 착륙"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자율 차량의 시각",
+        "explanation": "자율 차량은 컴퓨터 비전으로 위치를 파악하고 환경을 지도화하며 장애물을 탐지한다."
+      },
+      {
+        "title": "다양한 차량",
+        "explanation": "자율 차량에는 수중·지상·공중 차량이 포함되고 산불 탐지나 자율 착륙에도 비전이 쓰인다."
+      }
+    ]
+  }
+]

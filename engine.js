@@ -48,6 +48,15 @@ export function layoutSeed(state) {
     0
   );
 }
+const passageKey = (question) =>
+  question?.passage
+    ? question.passage
+        .normalize("NFKC")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase()
+    : question?.passageId;
+
 export function sampleDeck(
   levelId,
   seed,
@@ -55,19 +64,59 @@ export function sampleDeck(
   characterId = null,
 ) {
   const excluded = new Set(excludedIds);
-  const ids = questionPool(levelId, characterId)
-    .filter((q) => !excluded.has(q.id))
-    .map((q) => q.id);
+  const questions = questionPool(levelId, characterId).filter(
+    (q) => !excluded.has(q.id),
+  );
+  const random = rng(seed);
+  for (let i = questions.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [questions[i], questions[j]] = [questions[j], questions[i]];
+  }
+  // Compare actual reading text, not just IDs: aliases must not let a repeated
+  // excerpt enter the same deck.
+  const passages = new Set();
+  const ids = [];
+  for (const question of questions) {
+    const key = passageKey(question);
+    if (key) {
+      if (passages.has(key)) continue;
+      passages.add(key);
+    }
+    ids.push(question.id);
+    if (ids.length === QUESTION_COUNT) break;
+  }
   if (ids.length < QUESTION_COUNT)
     throw new RangeError("Not enough unused questions");
-  const random = rng(seed);
-  for (let i = ids.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1));
-    [ids[i], ids[j]] = [ids[j], ids[i]];
-  }
-  return ids.slice(0, QUESTION_COUNT);
+  return ids;
+}
+export function passagesDistinct(levelId, ids, characterId = null) {
+  const passages = ids
+    .map((id) => passageKey(questionById(levelId, id, characterId)))
+    .filter(Boolean);
+  return new Set(passages).size === passages.length;
 }
 function enterStage(state, seenIds = [], shop = false) {
+  let excluded = seenIds;
+  if (state.characterId === "dad") {
+    excluded = [
+      ...new Set([
+        ...state.seenIds,
+        ...seenIds,
+        ...state.deckIds.filter((_, index) => state.answers[index] !== null),
+        ...state.retiredQuestions.map((question) => question.id),
+      ]),
+    ];
+    const pool = questionPool(state.level + 1, state.characterId);
+    if (
+      pool.filter((question) => !excluded.includes(question.id)).length <
+      QUESTION_COUNT
+    ) {
+      // Repeated detours can exhaust a finite bank. Cycle that topic only;
+      // normal progression retains previously read questions as exclusions.
+      const currentTopicIds = new Set(pool.map((question) => question.id));
+      excluded = excluded.filter((id) => !currentTopicIds.has(id));
+    }
+  }
   const clueTargets = [...state.clueTargets];
   clueTargets[state.level] = destinationRoom(state).id;
   return {
@@ -76,10 +125,10 @@ function enterStage(state, seenIds = [], shop = false) {
     deckIds: sampleDeck(
       state.level + 1,
       layoutSeed(state),
-      seenIds,
+      excluded,
       state.characterId,
     ),
-    seenIds: [...seenIds],
+    seenIds: [...excluded],
     answers: Array(QUESTION_COUNT).fill(null),
     selected: null,
     feedback: false,
@@ -216,12 +265,13 @@ export function answerQuestion(state, answer) {
   } else if (!canStillPass(next)) {
     next.selected = null;
     next.feedback = false;
+    // Keep the last incorrect question available for explanations, even when
+    // the run ends or the player declines an extra question.
+    next.rescueSlot = selected;
     if (next.gold >= 5) {
       next.phase = "rescue";
-      next.rescueSlot = selected;
     } else {
       next.phase = "gameover";
-      next.rescueSlot = null;
       next.gameOverReason = "gold";
     }
   }
@@ -245,13 +295,37 @@ function extraQuestionId(state, bonusSpent) {
   const retired = new Set(state.retiredQuestions.map(({ id }) => id));
   const seen = new Set(state.seenIds);
   const pool = questionPool(state.level + 1, state.characterId);
+  const passageOf = (id) =>
+    passageKey(questionById(state.level + 1, id, state.characterId));
+  const slotPassage = passageOf(state.deckIds[state.rescueSlot]);
+  // A replacement must never repeat a passage still on display. Passages the
+  // player already read this stage (the retired slot included) are avoided
+  // while any unread passage remains.
+  const shownPassages = new Set(
+    state.deckIds
+      .map(passageOf)
+      .filter((passage) => passage && passage !== slotPassage),
+  );
+  const readPassages = new Set(
+    [
+      slotPassage,
+      ...state.retiredQuestions.map(({ id }) => passageOf(id)),
+    ].filter(Boolean),
+  );
+  const fresh = (question) =>
+    !current.has(question.id) && !shownPassages.has(passageKey(question));
+  const unread = (question) => !readPassages.has(passageKey(question));
   let candidates = pool
-    .map((question) => question.id)
-    .filter((id) => !current.has(id) && !retired.has(id) && !seen.has(id));
+    .filter(
+      (question) =>
+        fresh(question) &&
+        unread(question) &&
+        !retired.has(question.id) &&
+        !seen.has(question.id),
+    )
+    .map((question) => question.id);
   if (!candidates.length)
-    candidates = pool
-      .map((question) => question.id)
-      .filter((id) => !current.has(id));
+    candidates = pool.filter(fresh).map((question) => question.id);
   if (!candidates.length) return null;
   const random = rng((state.seed + bonusSpent) >>> 0);
   return candidates[Math.floor(random() * candidates.length)];
@@ -282,6 +356,7 @@ export function acceptExtraQuestion(state) {
     deckIds,
     answers,
     retiredQuestions,
+    seenIds: state.seenIds.filter((previousId) => previousId !== id),
     bonusSpent: state.bonusSpent + 5,
     gold: state.gold - 5,
     selected: null,
@@ -298,7 +373,6 @@ export function declineExtraQuestion(state) {
         phase: "gameover",
         selected: null,
         feedback: false,
-        rescueSlot: null,
         gameOverReason: "declined",
       }
     : state;
@@ -578,12 +652,16 @@ export function restoreState(raw) {
       if (
         !characterExists(v.characterId) ||
         v.deckIds.length !== QUESTION_COUNT ||
-        ![
-          ...v.deckIds,
-          ...v.seenIds,
-          ...v.retiredQuestions.map((q) => q.id),
-        ].every((id) => questionById(v.level + 1, id, v.characterId)) ||
+        ![...v.deckIds, ...v.retiredQuestions.map((q) => q.id)].every((id) =>
+          questionById(v.level + 1, id, v.characterId),
+        ) ||
+        !v.seenIds.every((id) =>
+          v.characterId === "dad"
+            ? levels.some((level) => questionById(level.id, id, v.characterId))
+            : questionById(v.level + 1, id, v.characterId),
+        ) ||
         new Set(v.deckIds).size !== v.deckIds.length ||
+        !passagesDistinct(v.level + 1, v.deckIds, v.characterId) ||
         v.seenIds.some((id) => v.deckIds.includes(id)) ||
         v.retiredQuestions.some(
           (question) =>
@@ -610,7 +688,10 @@ export function restoreState(raw) {
         if (
           v.feedback ||
           v.selected !== null ||
-          v.rescueSlot !== null ||
+          v.rescueSlot === null ||
+          v.answers[v.rescueSlot] === null ||
+          v.answers[v.rescueSlot] ===
+            questionForObject(v, v.rescueSlot)?.answer ||
           !["declined", "gold"].includes(v.gameOverReason) ||
           (v.gameOverReason === "gold" && v.gold >= 5) ||
           (v.gameOverReason === "declined" && v.gold < 5) ||

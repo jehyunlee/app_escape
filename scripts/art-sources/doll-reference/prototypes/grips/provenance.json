@@ -1,0 +1,2623 @@
+{
+  "schema": "fixed-grip-prototype-v1",
+  "createdAt": "2026-09-26T18:05:30.930880+00:00",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "outputFormat": "png",
+  "sourceMannequin": "assets/doll/mannequin.png",
+  "sourceLandmarks": "assets/doll/landmarks.json",
+  "landmarks": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "figure": [
+      240,
+      39,
+      787,
+      1495
+    ],
+    "chin": 396,
+    "eyebrow": 228,
+    "shoulder": 469,
+    "waist": 796,
+    "hip": 913,
+    "knee": 1204,
+    "ankle": 1422,
+    "faceBox": [
+      344,
+      199,
+      683,
+      396
+    ],
+    "torso": [
+      396,
+      469,
+      617,
+      913
+    ],
+    "leftHand": [
+      240,
+      787,
+      371,
+      947
+    ],
+    "rightHand": [
+      708,
+      790,
+      787,
+      950
+    ],
+    "wandHand": "right",
+    "broomHand": "left"
+  },
+  "viewerHandPolygons": {
+    "viewer-left": [
+      [
+        242,
+        820
+      ],
+      [
+        291,
+        818
+      ],
+      [
+        312,
+        826
+      ],
+      [
+        325,
+        844
+      ],
+      [
+        330,
+        867
+      ],
+      [
+        329,
+        887
+      ],
+      [
+        340,
+        906
+      ],
+      [
+        342,
+        930
+      ],
+      [
+        335,
+        949
+      ],
+      [
+        320,
+        968
+      ],
+      [
+        282,
+        969
+      ],
+      [
+        259,
+        956
+      ],
+      [
+        243,
+        936
+      ],
+      [
+        235,
+        908
+      ],
+      [
+        235,
+        877
+      ],
+      [
+        239,
+        850
+      ],
+      [
+        243,
+        834
+      ]
+    ],
+    "viewer-right": [
+      [
+        707,
+        819
+      ],
+      [
+        754,
+        818
+      ],
+      [
+        770,
+        829
+      ],
+      [
+        779,
+        849
+      ],
+      [
+        783,
+        875
+      ],
+      [
+        783,
+        900
+      ],
+      [
+        778,
+        924
+      ],
+      [
+        767,
+        948
+      ],
+      [
+        748,
+        968
+      ],
+      [
+        718,
+        969
+      ],
+      [
+        696,
+        958
+      ],
+      [
+        686,
+        933
+      ],
+      [
+        686,
+        904
+      ],
+      [
+        689,
+        875
+      ],
+      [
+        696,
+        847
+      ],
+      [
+        701,
+        830
+      ]
+    ]
+  },
+  "viewerHandAnchors": {
+    "viewer-left": [
+      285,
+      865
+    ],
+    "viewer-right": [
+      750,
+      865
+    ]
+  },
+  "gloveCuffPolygons": {
+    "viewer-left": [
+      [
+        245,
+        783
+      ],
+      [
+        326,
+        782
+      ],
+      [
+        334,
+        840
+      ],
+      [
+        243,
+        843
+      ]
+    ],
+    "viewer-right": [
+      [
+        705,
+        784
+      ],
+      [
+        768,
+        785
+      ],
+      [
+        776,
+        840
+      ],
+      [
+        702,
+        842
+      ]
+    ]
+  },
+  "wandCorridor": [
+    [
+      285,
+      865
+    ],
+    [
+      266,
+      806
+    ],
+    [
+      236,
+      742
+    ],
+    [
+      205,
+      668
+    ],
+    [
+      175,
+      565
+    ],
+    [
+      145,
+      435
+    ],
+    [
+      115,
+      300
+    ],
+    [
+      91,
+      170
+    ],
+    [
+      84,
+      78
+    ]
+  ],
+  "broomCorridor": [
+    [
+      750,
+      865
+    ],
+    [
+      786,
+      940
+    ],
+    [
+      818,
+      1030
+    ],
+    [
+      850,
+      1130
+    ],
+    [
+      883,
+      1235
+    ],
+    [
+      918,
+      1335
+    ],
+    [
+      941,
+      1405
+    ]
+  ],
+  "broomBristlePolygon": [
+    [
+      866,
+      1306
+    ],
+    [
+      1002,
+      1282
+    ],
+    [
+      1023,
+      1325
+    ],
+    [
+      1023,
+      1515
+    ],
+    [
+      950,
+      1515
+    ],
+    [
+      875,
+      1475
+    ],
+    [
+      833,
+      1418
+    ]
+  ],
+  "constraints": {
+    "bodyOutsideHandMasksRestoredExactly": true,
+    "rawDriftReportedBeforeClamp": true,
+    "retryLimitPerEdit": 1,
+    "apiEditCountTarget": 4,
+    "noManualVectorPainting": true
+  },
+  "edits": [
+    {
+      "name": "grip-base",
+      "status": "ok",
+      "source": "assets/doll/mannequin.png",
+      "references": [],
+      "output": "grip-base.png",
+      "layer": "grip-base-layer.png",
+      "rendererMask": "grip-base-mask.png",
+      "inputMask": "api-input-masks/grip-base-input.png",
+      "prompt": "Use the supplied transparent 1024x1536 mannequin as the canonical image. Inside ONLY the two authored viewer-coordinate hand regions (viewer-left approximately x=240..338, y=818..962; viewer-right approximately x=702..776, y=818..962), replace the two open hanging skin hands with compact, anatomically correct closed fists. Each fist has curled fingers and a thumb visibly wrapped around an imaginary vertical slim handle, with the fist centred exactly on the current wrist/hand centre and still hanging low beside the hips. Keep the existing wrist junction, cuffs, sleeves, arms, elbows, shoulders, torso, head, legs, lighting, proportions, alpha silhouette and every pixel outside the two hand regions exactly unchanged. Do not change arm position. Do not add a wand, broom, glove, prop, raised arm, shoulder, elbow, extra finger, extra hand or floating object. The final image must show exactly two arms and exactly two hands. Preserve transparent background and the supplied polished stylized 3D animated-feature art style. This is a precise masked inpaint, not a redraw of the figure.",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rawPath": "api-raw/grip-base-attempt-1.png",
+          "rawOutsideMaskDrift": 0.34410085050766487,
+          "clampedOutsideMaskExact": true,
+          "clampedCoverage": 0.6356612788451764,
+          "handPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 8680,
+                  "bbox": [
+                    241,
+                    818,
+                    324,
+                    961
+                  ],
+                  "centroid": [
+                    280.3266073252922,
+                    886.7058057149134
+                  ]
+                },
+                "after": {
+                  "pixels": 7067,
+                  "bbox": [
+                    241,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    279.2657606423495,
+                    872.140779684896
+                  ]
+                },
+                "centroidDelta": [
+                  -1.0608466829426675,
+                  -14.565026030017407
+                ],
+                "bboxCenterDelta": [
+                  0.5,
+                  -16.5
+                ],
+                "areaRatio": 0.8141705069124424,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7552,
+                  "bbox": [
+                    702,
+                    818,
+                    774,
+                    961
+                  ],
+                  "centroid": [
+                    736.8924950493981,
+                    884.2596662188193
+                  ]
+                },
+                "after": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "centroidDelta": [
+                  -1.9182727394514814,
+                  -11.679302516860503
+                ],
+                "bboxCenterDelta": [
+                  -1.5,
+                  -16.5
+                ],
+                "areaRatio": 0.8163400423728814,
+                "ok": true
+              }
+            }
+          },
+          "propPresence": null,
+          "ok": true,
+          "response": {
+            "responseKeys": [
+              "background",
+              "created",
+              "data",
+              "output_format",
+              "quality",
+              "size",
+              "usage"
+            ],
+            "created": 1790445958,
+            "rawPngSha256": "4cd8f4b0a79b0aed5cc0e0a0ed57dbbe5c193e342168a0155acb75204676fade",
+            "rawPngBytes": 1710338,
+            "responseDataCount": 1
+          },
+          "rawHandPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 8957,
+                  "bbox": [
+                    240,
+                    818,
+                    324,
+                    964
+                  ],
+                  "centroid": [
+                    280.232746482297,
+                    886.683823682618
+                  ]
+                },
+                "after": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "centroidDelta": [
+                  -1.2694178718324451,
+                  -15.001884720074827
+                ],
+                "bboxCenterDelta": [
+                  0.0,
+                  -18.0
+                ],
+                "areaRatio": 0.8074131963827175,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 8847,
+                  "bbox": [
+                    690,
+                    818,
+                    774,
+                    963
+                  ],
+                  "centroid": [
+                    732.833295845894,
+                    886.1600231457717
+                  ]
+                },
+                "after": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "centroidDelta": [
+                  -2.2751290353498916,
+                  -14.605910657094341
+                ],
+                "bboxCenterDelta": [
+                  -3.0,
+                  -17.5
+                ],
+                "areaRatio": 0.818808635695716,
+                "ok": true
+              }
+            }
+          },
+          "rawHandRepositionFlag": false
+        }
+      ],
+      "finalQA": {
+        "attempt": 1,
+        "rawPath": "api-raw/grip-base-attempt-1.png",
+        "rawOutsideMaskDrift": 0.34410085050766487,
+        "clampedOutsideMaskExact": true,
+        "clampedCoverage": 0.6356612788451764,
+        "handPosition": {
+          "ok": true,
+          "sides": {
+            "viewer-left": {
+              "before": {
+                "pixels": 8680,
+                "bbox": [
+                  241,
+                  818,
+                  324,
+                  961
+                ],
+                "centroid": [
+                  280.3266073252922,
+                  886.7058057149134
+                ]
+              },
+              "after": {
+                "pixels": 7067,
+                "bbox": [
+                  241,
+                  818,
+                  325,
+                  928
+                ],
+                "centroid": [
+                  279.2657606423495,
+                  872.140779684896
+                ]
+              },
+              "centroidDelta": [
+                -1.0608466829426675,
+                -14.565026030017407
+              ],
+              "bboxCenterDelta": [
+                0.5,
+                -16.5
+              ],
+              "areaRatio": 0.8141705069124424,
+              "ok": true
+            },
+            "viewer-right": {
+              "before": {
+                "pixels": 7552,
+                "bbox": [
+                  702,
+                  818,
+                  774,
+                  961
+                ],
+                "centroid": [
+                  736.8924950493981,
+                  884.2596662188193
+                ]
+              },
+              "after": {
+                "pixels": 6165,
+                "bbox": [
+                  702,
+                  818,
+                  771,
+                  928
+                ],
+                "centroid": [
+                  734.9742223099466,
+                  872.5803637019588
+                ]
+              },
+              "centroidDelta": [
+                -1.9182727394514814,
+                -11.679302516860503
+              ],
+              "bboxCenterDelta": [
+                -1.5,
+                -16.5
+              ],
+              "areaRatio": 0.8163400423728814,
+              "ok": true
+            }
+          }
+        },
+        "propPresence": null,
+        "ok": true,
+        "response": {
+          "responseKeys": [
+            "background",
+            "created",
+            "data",
+            "output_format",
+            "quality",
+            "size",
+            "usage"
+          ],
+          "created": 1790445958,
+          "rawPngSha256": "4cd8f4b0a79b0aed5cc0e0a0ed57dbbe5c193e342168a0155acb75204676fade",
+          "rawPngBytes": 1710338,
+          "responseDataCount": 1
+        }
+      },
+      "replacementMaskPixels": 25644,
+      "finalOutputAfterMaskRepair": "grip-base.png",
+      "rawHandRepositionObserved": false
+    },
+    {
+      "name": "gloves-12",
+      "status": "ok",
+      "source": "grip-base.png",
+      "references": [
+        "assets/shop-designs/gloves-12.webp"
+      ],
+      "output": "gloves-12.png",
+      "layer": "gloves-12-layer.png",
+      "rendererMask": "gloves-12-mask.png",
+      "inputMask": "api-input-masks/gloves-12-input.png",
+      "prompt": "Use the supplied grip-base image as the canonical image and the supplied gloves-12 product reference for exact product identity. Inside ONLY the two authored viewer-coordinate hand-plus-small-cuff regions (viewer-left x=243..334, y=782..963; viewer-right x=702..776, y=784..963), put one complete matching glove on each existing closed fist. Render the full glove and hand replacement, including all curled fingers, thumb and the dark navy constellation material, gold edging, stars, blue gems and the short cuff from the product reference. Keep each fist centre, wrist junction, finger anatomy, hanging pose and arm/sleeve position unchanged. Do not extend the cuff beyond the small masked cuff margin. Do not redraw any shirt, arm, shoulder, torso, head, legs or background, and do not add any prop or extra limb. Exactly two hands and two arms. Preserve every pixel outside the masks and preserve transparent background.",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rawPath": "api-raw/gloves-12-attempt-1.png",
+          "rawOutsideMaskDrift": 0.3306839650394593,
+          "clampedOutsideMaskExact": true,
+          "clampedCoverage": 0.9837823399221552,
+          "handPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7067,
+                  "bbox": [
+                    241,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    279.2657606423495,
+                    872.140779684896
+                  ]
+                },
+                "after": {
+                  "pixels": 10492,
+                  "bbox": [
+                    240,
+                    818,
+                    339,
+                    961
+                  ],
+                  "centroid": [
+                    285.3107399614839,
+                    889.4264656945501
+                  ]
+                },
+                "centroidDelta": [
+                  6.04497931913437,
+                  17.285686009654114
+                ],
+                "bboxCenterDelta": [
+                  6.5,
+                  16.5
+                ],
+                "areaRatio": 1.484646950615537,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "after": {
+                  "pixels": 8738,
+                  "bbox": [
+                    702,
+                    818,
+                    777,
+                    961
+                  ],
+                  "centroid": [
+                    738.0202067905585,
+                    887.8053573557132
+                  ]
+                },
+                "centroidDelta": [
+                  3.045984480611878,
+                  15.224993653754382
+                ],
+                "bboxCenterDelta": [
+                  3.0,
+                  16.5
+                ],
+                "areaRatio": 1.4173560421735605,
+                "ok": true
+              }
+            }
+          },
+          "propPresence": null,
+          "ok": true,
+          "response": {
+            "responseKeys": [
+              "background",
+              "created",
+              "data",
+              "output_format",
+              "quality",
+              "size",
+              "usage"
+            ],
+            "created": 1790445988,
+            "rawPngSha256": "91f7cefa71dfd9f2303b91faf2ba94a73a2512a71112002f4a796341761cb8e6",
+            "rawPngBytes": 1737046,
+            "responseDataCount": 1
+          },
+          "rawHandPosition": {
+            "ok": false,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "after": {
+                  "pixels": 11655,
+                  "bbox": [
+                    235,
+                    818,
+                    339,
+                    963
+                  ],
+                  "centroid": [
+                    282.68537123356083,
+                    890.4722192164696
+                  ]
+                },
+                "centroidDelta": [
+                  3.7220426230962858,
+                  18.790280253926426
+                ],
+                "bboxCenterDelta": [
+                  5.0,
+                  17.5
+                ],
+                "areaRatio": 1.611587389380531,
+                "ok": false
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "after": {
+                  "pixels": 11488,
+                  "bbox": [
+                    686,
+                    818,
+                    781,
+                    963
+                  ],
+                  "centroid": [
+                    733.0307356886632,
+                    891.75842371435
+                  ]
+                },
+                "centroidDelta": [
+                  2.472568878119091,
+                  20.204311225672654
+                ],
+                "bboxCenterDelta": [
+                  4.5,
+                  17.5
+                ],
+                "areaRatio": 1.58586416344561,
+                "ok": false
+              }
+            }
+          },
+          "rawHandRepositionFlag": true
+        },
+        {
+          "attempt": 2,
+          "rawPath": "api-raw/gloves-12-attempt-2.png",
+          "rawOutsideMaskDrift": 0.3244689789771669,
+          "rawHandPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "after": {
+                  "pixels": 10390,
+                  "bbox": [
+                    235,
+                    818,
+                    332,
+                    948
+                  ],
+                  "centroid": [
+                    279.82585731421807,
+                    882.4195626935731
+                  ]
+                },
+                "centroidDelta": [
+                  0.8625287037535259,
+                  10.737623731029885
+                ],
+                "bboxCenterDelta": [
+                  1.5,
+                  10.0
+                ],
+                "areaRatio": 1.436670353982301,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "after": {
+                  "pixels": 10705,
+                  "bbox": [
+                    686,
+                    818,
+                    784,
+                    951
+                  ],
+                  "centroid": [
+                    735.4428714550688,
+                    883.745638115675
+                  ]
+                },
+                "centroidDelta": [
+                  4.8847046445247315,
+                  12.191525626997645
+                ],
+                "bboxCenterDelta": [
+                  6.0,
+                  11.5
+                ],
+                "areaRatio": 1.4777747101049143,
+                "ok": true
+              }
+            }
+          },
+          "rawHandRepositionFlag": false,
+          "clampedOutsideMaskExact": true,
+          "clampedCoverage": 0.9949423107317844,
+          "handPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "after": {
+                  "pixels": 10390,
+                  "bbox": [
+                    235,
+                    818,
+                    332,
+                    948
+                  ],
+                  "centroid": [
+                    279.82585731421807,
+                    882.4195626935731
+                  ]
+                },
+                "centroidDelta": [
+                  0.8625287037535259,
+                  10.737623731029885
+                ],
+                "bboxCenterDelta": [
+                  1.5,
+                  10.0
+                ],
+                "areaRatio": 1.436670353982301,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "after": {
+                  "pixels": 10705,
+                  "bbox": [
+                    686,
+                    818,
+                    784,
+                    951
+                  ],
+                  "centroid": [
+                    735.4428714550688,
+                    883.745638115675
+                  ]
+                },
+                "centroidDelta": [
+                  4.8847046445247315,
+                  12.191525626997645
+                ],
+                "bboxCenterDelta": [
+                  6.0,
+                  11.5
+                ],
+                "areaRatio": 1.4777747101049143,
+                "ok": true
+              }
+            }
+          },
+          "propPresence": null,
+          "ok": true,
+          "response": {
+            "responseKeys": [
+              "background",
+              "created",
+              "data",
+              "output_format",
+              "quality",
+              "size",
+              "usage"
+            ],
+            "created": 1790447878,
+            "rawPngSha256": "dae5c454fe9219a498de8c0096b3fd40eb668a2a4d2795e08adfbefc6e6ca0ab",
+            "rawPngBytes": 1745072,
+            "responseDataCount": 1
+          }
+        }
+      ],
+      "finalQA": {
+        "attempt": 1,
+        "rawPath": "api-raw/gloves-12-attempt-1.png",
+        "rawOutsideMaskDrift": 0.3306839650394593,
+        "clampedOutsideMaskExact": true,
+        "clampedCoverage": 0.9837823399221552,
+        "handPosition": {
+          "ok": true,
+          "sides": {
+            "viewer-left": {
+              "before": {
+                "pixels": 7067,
+                "bbox": [
+                  241,
+                  818,
+                  325,
+                  928
+                ],
+                "centroid": [
+                  279.2657606423495,
+                  872.140779684896
+                ]
+              },
+              "after": {
+                "pixels": 10492,
+                "bbox": [
+                  240,
+                  818,
+                  339,
+                  961
+                ],
+                "centroid": [
+                  285.3107399614839,
+                  889.4264656945501
+                ]
+              },
+              "centroidDelta": [
+                6.04497931913437,
+                17.285686009654114
+              ],
+              "bboxCenterDelta": [
+                6.5,
+                16.5
+              ],
+              "areaRatio": 1.484646950615537,
+              "ok": true
+            },
+            "viewer-right": {
+              "before": {
+                "pixels": 6165,
+                "bbox": [
+                  702,
+                  818,
+                  771,
+                  928
+                ],
+                "centroid": [
+                  734.9742223099466,
+                  872.5803637019588
+                ]
+              },
+              "after": {
+                "pixels": 8738,
+                "bbox": [
+                  702,
+                  818,
+                  777,
+                  961
+                ],
+                "centroid": [
+                  738.0202067905585,
+                  887.8053573557132
+                ]
+              },
+              "centroidDelta": [
+                3.045984480611878,
+                15.224993653754382
+              ],
+              "bboxCenterDelta": [
+                3.0,
+                16.5
+              ],
+              "areaRatio": 1.4173560421735605,
+              "ok": true
+            }
+          }
+        },
+        "propPresence": null,
+        "ok": true,
+        "response": {
+          "responseKeys": [
+            "background",
+            "created",
+            "data",
+            "output_format",
+            "quality",
+            "size",
+            "usage"
+          ],
+          "created": 1790445988,
+          "rawPngSha256": "91f7cefa71dfd9f2303b91faf2ba94a73a2512a71112002f4a796341761cb8e6",
+          "rawPngBytes": 1737046,
+          "responseDataCount": 1
+        }
+      },
+      "replacementMaskPixels": 31635,
+      "finalOutputAfterMaskRepair": "gloves-12.png",
+      "rawHandRepositionObserved": true,
+      "retryPerformedAfterRawHandFlag": true,
+      "retryRawHandPositionOk": true,
+      "selectedAttempt": 2
+    },
+    {
+      "name": "wand-12",
+      "status": "flagged-salvaged",
+      "source": "grip-base.png",
+      "references": [
+        "assets/shop-designs/wand-12.webp"
+      ],
+      "output": "wand-12.png",
+      "layer": "wand-12-layer.png",
+      "rendererMask": "wand-12-mask.png",
+      "inputMask": "api-input-masks/wand-12-input.png",
+      "prompt": "Use the supplied grip-base image as the canonical image and the supplied wand-12 product reference for exact product identity and materials. Place exactly one wand through the existing viewer-left closed fist at approximately (x=285, y=865). The fist stays low beside the hip and at the same wrist centre. The slender shaft passes through that fist and angles upward/outward toward viewer-left; its ornate sunburst tip may extend high outside the body's silhouette. Use only the existing viewer-left hand box and the marked empty corridor beside the body. Existing arm and sleeve pixels are protected and must not be redrawn, extended or moved. Do not raise the arm, alter the shoulder or elbow, add another hand/arm, or add a broom/glove/body fragment. Return the wand plus the single closed gripping hand, with exactly two arms and two hands overall, preserving transparent background and the polished stylized 3D material identity of wand-12.",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rawPath": "api-raw/wand-12-attempt-1.png",
+          "rawOutsideMaskDrift": 0.4005703425776795,
+          "clampedOutsideMaskExact": true,
+          "clampedCoverage": 0.9960877700289165,
+          "handPosition": {
+            "ok": false,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7067,
+                  "bbox": [
+                    241,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    279.2657606423495,
+                    872.140779684896
+                  ]
+                },
+                "after": {
+                  "pixels": 1819,
+                  "bbox": [
+                    270,
+                    818,
+                    339,
+                    932
+                  ],
+                  "centroid": [
+                    309.2074128574065,
+                    857.4827276211385
+                  ]
+                },
+                "centroidDelta": [
+                  29.94165221505699,
+                  -14.65805206375751
+                ],
+                "bboxCenterDelta": [
+                  21.5,
+                  2.0
+                ],
+                "areaRatio": 0.2573935191736239,
+                "ok": false
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "after": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "centroidDelta": [
+                  0.0,
+                  0.0
+                ],
+                "bboxCenterDelta": [
+                  0.0,
+                  0.0
+                ],
+                "areaRatio": 1.0,
+                "ok": true
+              }
+            }
+          },
+          "propPresence": {
+            "before": {
+              "pixels": 0,
+              "bbox": null,
+              "centroid": null
+            },
+            "after": {
+              "pixels": 6552,
+              "bbox": [
+                65,
+                78,
+                142,
+                323
+              ],
+              "centroid": [
+                95.05370729871403,
+                172.95632127119947
+              ]
+            },
+            "minimumPixels": 800,
+            "ok": true
+          },
+          "ok": false,
+          "response": {
+            "responseKeys": [
+              "background",
+              "created",
+              "data",
+              "output_format",
+              "quality",
+              "size",
+              "usage"
+            ],
+            "created": 1790446020,
+            "rawPngSha256": "a1ab582e52d1fa2fa6bb856b816a2419e7016c232c2135c68b70b2a32dbfa7e2",
+            "rawPngBytes": 1874764,
+            "responseDataCount": 1
+          },
+          "rawHandPosition": {
+            "ok": false,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "after": {
+                  "pixels": 2260,
+                  "bbox": [
+                    270,
+                    818,
+                    343,
+                    938
+                  ],
+                  "centroid": [
+                    312.5500317019527,
+                    860.2001926575643
+                  ]
+                },
+                "centroidDelta": [
+                  33.586703091488175,
+                  -11.481746304978856
+                ],
+                "bboxCenterDelta": [
+                  24.5,
+                  5.0
+                ],
+                "areaRatio": 0.3125,
+                "ok": false
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "after": {
+                  "pixels": 7275,
+                  "bbox": [
+                    690,
+                    818,
+                    773,
+                    928
+                  ],
+                  "centroid": [
+                    732.6806035048957,
+                    873.5159234846418
+                  ]
+                },
+                "centroidDelta": [
+                  2.1224366943515633,
+                  1.9618109959644698
+                ],
+                "bboxCenterDelta": [
+                  2.5,
+                  0.0
+                ],
+                "areaRatio": 1.0042794036443954,
+                "ok": true
+              }
+            }
+          },
+          "rawHandRepositionFlag": true
+        },
+        {
+          "attempt": 2,
+          "rawPath": "api-raw/wand-12-attempt-2.png",
+          "rawOutsideMaskDrift": 0.3999990859894588,
+          "clampedOutsideMaskExact": true,
+          "clampedCoverage": 0.99001287876947,
+          "handPosition": {
+            "ok": false,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7067,
+                  "bbox": [
+                    241,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    279.2657606423495,
+                    872.140779684896
+                  ]
+                },
+                "after": {
+                  "pixels": 3193,
+                  "bbox": [
+                    266,
+                    818,
+                    339,
+                    939
+                  ],
+                  "centroid": [
+                    307.36083652694845,
+                    865.0973351881488
+                  ]
+                },
+                "centroidDelta": [
+                  28.09507588459894,
+                  -7.043444496747156
+                ],
+                "bboxCenterDelta": [
+                  19.5,
+                  5.5
+                ],
+                "areaRatio": 0.4518183104570539,
+                "ok": false
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "after": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "centroidDelta": [
+                  0.0,
+                  0.0
+                ],
+                "bboxCenterDelta": [
+                  0.0,
+                  0.0
+                ],
+                "areaRatio": 1.0,
+                "ok": true
+              }
+            }
+          },
+          "propPresence": {
+            "before": {
+              "pixels": 0,
+              "bbox": null,
+              "centroid": null
+            },
+            "after": {
+              "pixels": 5990,
+              "bbox": [
+                67,
+                78,
+                144,
+                333
+              ],
+              "centroid": [
+                98.05622493411867,
+                183.9577270783506
+              ]
+            },
+            "minimumPixels": 800,
+            "ok": true
+          },
+          "ok": false,
+          "response": {
+            "responseKeys": [
+              "background",
+              "created",
+              "data",
+              "output_format",
+              "quality",
+              "size",
+              "usage"
+            ],
+            "created": 1790446052,
+            "rawPngSha256": "32cae1ad0b61cf72aff74cd8dfb16b2df509a1b0c81cc8ef0f4c1571a4c84531",
+            "rawPngBytes": 1831083,
+            "responseDataCount": 1
+          },
+          "rawHandPosition": {
+            "ok": false,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "after": {
+                  "pixels": 3683,
+                  "bbox": [
+                    266,
+                    818,
+                    343,
+                    945
+                  ],
+                  "centroid": [
+                    309.9850051314087,
+                    866.824656418723
+                  ]
+                },
+                "centroidDelta": [
+                  31.02167652094414,
+                  -4.857282543820247
+                ],
+                "bboxCenterDelta": [
+                  22.5,
+                  8.5
+                ],
+                "areaRatio": 0.5092643805309734,
+                "ok": false
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "after": {
+                  "pixels": 7149,
+                  "bbox": [
+                    690,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    731.883249098502,
+                    873.0359236612933
+                  ]
+                },
+                "centroidDelta": [
+                  1.3250822879579118,
+                  1.4818111726159486
+                ],
+                "bboxCenterDelta": [
+                  1.5,
+                  0.0
+                ],
+                "areaRatio": 0.986885698509111,
+                "ok": true
+              }
+            }
+          },
+          "rawHandRepositionFlag": true
+        }
+      ],
+      "finalQA": {
+        "attempt": 2,
+        "rawPath": "api-raw/wand-12-attempt-2.png",
+        "rawOutsideMaskDrift": 0.3999990859894588,
+        "clampedOutsideMaskExact": true,
+        "clampedCoverage": 0.99001287876947,
+        "handPosition": {
+          "ok": false,
+          "sides": {
+            "viewer-left": {
+              "before": {
+                "pixels": 7067,
+                "bbox": [
+                  241,
+                  818,
+                  325,
+                  928
+                ],
+                "centroid": [
+                  279.2657606423495,
+                  872.140779684896
+                ]
+              },
+              "after": {
+                "pixels": 3193,
+                "bbox": [
+                  266,
+                  818,
+                  339,
+                  939
+                ],
+                "centroid": [
+                  307.36083652694845,
+                  865.0973351881488
+                ]
+              },
+              "centroidDelta": [
+                28.09507588459894,
+                -7.043444496747156
+              ],
+              "bboxCenterDelta": [
+                19.5,
+                5.5
+              ],
+              "areaRatio": 0.4518183104570539,
+              "ok": false
+            },
+            "viewer-right": {
+              "before": {
+                "pixels": 6165,
+                "bbox": [
+                  702,
+                  818,
+                  771,
+                  928
+                ],
+                "centroid": [
+                  734.9742223099466,
+                  872.5803637019588
+                ]
+              },
+              "after": {
+                "pixels": 6165,
+                "bbox": [
+                  702,
+                  818,
+                  771,
+                  928
+                ],
+                "centroid": [
+                  734.9742223099466,
+                  872.5803637019588
+                ]
+              },
+              "centroidDelta": [
+                0.0,
+                0.0
+              ],
+              "bboxCenterDelta": [
+                0.0,
+                0.0
+              ],
+              "areaRatio": 1.0,
+              "ok": true
+            }
+          }
+        },
+        "propPresence": {
+          "before": {
+            "pixels": 0,
+            "bbox": null,
+            "centroid": null
+          },
+          "after": {
+            "pixels": 5990,
+            "bbox": [
+              67,
+              78,
+              144,
+              333
+            ],
+            "centroid": [
+              98.05622493411867,
+              183.9577270783506
+            ]
+          },
+          "minimumPixels": 800,
+          "ok": true
+        },
+        "ok": false,
+        "response": {
+          "responseKeys": [
+            "background",
+            "created",
+            "data",
+            "output_format",
+            "quality",
+            "size",
+            "usage"
+          ],
+          "created": 1790446052,
+          "rawPngSha256": "32cae1ad0b61cf72aff74cd8dfb16b2df509a1b0c81cc8ef0f4c1571a4c84531",
+          "rawPngBytes": 1831083,
+          "responseDataCount": 1
+        }
+      },
+      "replacementMaskPixels": 57138,
+      "finalOutputAfterMaskRepair": "wand-12.png",
+      "postprocess": {
+        "status": "flagged-salvaged",
+        "sourceRaw": "api-raw/wand-12-attempt-2.png",
+        "sourceOpenAIProductReference": "assets/shop-designs/wand-12.webp",
+        "method": "Affine-composited OpenAI wand reference; fixed grip-base restored around shaft",
+        "rawHandRepositionStillFlagged": true,
+        "rawCorridor": [
+          [
+            320,
+            860
+          ],
+          [
+            305,
+            770
+          ],
+          [
+            280,
+            650
+          ],
+          [
+            250,
+            540
+          ],
+          [
+            220,
+            420
+          ],
+          [
+            180,
+            300
+          ],
+          [
+            140,
+            190
+          ],
+          [
+            100,
+            70
+          ]
+        ],
+        "productAffineScale": 1.05,
+        "productAffineRotationDegrees": 10,
+        "productGripSourcePoint": [
+          112,
+          760
+        ],
+        "productGripTargetPoint": [
+          285,
+          865
+        ],
+        "productPlacement": [
+          30,
+          57
+        ],
+        "replacementMaskPixels": 57138,
+        "productPixelsKept": 49904,
+        "shaftWindowWidth": 30
+      },
+      "handRepositionWasNotApproved": true,
+      "rawHandRepositionObserved": true
+    },
+    {
+      "name": "broom-12",
+      "status": "ok",
+      "source": "grip-base.png",
+      "references": [
+        "assets/shop-designs/broom-12.webp"
+      ],
+      "output": "broom-12.png",
+      "layer": "broom-12-layer.png",
+      "rendererMask": "broom-12-mask.png",
+      "inputMask": "api-input-masks/broom-12-input.png",
+      "prompt": "Use the supplied grip-base image as the canonical image and the supplied broom-12 product reference for exact product identity and materials. Place exactly one broom through the existing viewer-right closed fist at approximately (x=750, y=865). Keep that fist low beside the hip at the same wrist centre and keep the arm, sleeve, shoulder and elbow unchanged. The shaft runs upright with a gentle lean toward viewer-right beside the body; the recognizable grey bristle fan reaches the ground outside the body's viewer-right edge. Use only the existing viewer-right hand box and the marked empty corridor beside the body. Existing arm and sleeve pixels are protected and must not be redrawn or moved. Do not raise the arm, add another hand/arm, add a wand/glove/body fragment, or alter the person. Return the broom plus one closed gripping hand, exactly two arms and two hands overall, with transparent background and the polished navy-and-gold product identity of broom-12 preserved.",
+      "attempts": [
+        {
+          "attempt": 1,
+          "rawPath": "api-raw/broom-12-attempt-1.png",
+          "rawOutsideMaskDrift": 0.42013489202663323,
+          "clampedOutsideMaskExact": true,
+          "clampedCoverage": 0.9875440021662605,
+          "handPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7067,
+                  "bbox": [
+                    241,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    279.2657606423495,
+                    872.140779684896
+                  ]
+                },
+                "after": {
+                  "pixels": 7067,
+                  "bbox": [
+                    241,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    279.2657606423495,
+                    872.140779684896
+                  ]
+                },
+                "centroidDelta": [
+                  0.0,
+                  0.0
+                ],
+                "bboxCenterDelta": [
+                  0.0,
+                  0.0
+                ],
+                "areaRatio": 1.0,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 6165,
+                  "bbox": [
+                    702,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    734.9742223099466,
+                    872.5803637019588
+                  ]
+                },
+                "after": {
+                  "pixels": 5971,
+                  "bbox": [
+                    712,
+                    818,
+                    777,
+                    961
+                  ],
+                  "centroid": [
+                    745.1902856808457,
+                    883.810826887528
+                  ]
+                },
+                "centroidDelta": [
+                  10.216063370899064,
+                  11.230463185569192
+                ],
+                "bboxCenterDelta": [
+                  8.0,
+                  16.5
+                ],
+                "areaRatio": 0.9685320356853203,
+                "ok": true
+              }
+            }
+          },
+          "propPresence": {
+            "before": {
+              "pixels": 0,
+              "bbox": null,
+              "centroid": null
+            },
+            "after": {
+              "pixels": 31329,
+              "bbox": [
+                760,
+                854,
+                1014,
+                1481
+              ],
+              "centroid": [
+                897.0702670719493,
+                1335.1970518841817
+              ]
+            },
+            "minimumPixels": 1800,
+            "ok": true
+          },
+          "ok": true,
+          "response": {
+            "responseKeys": [
+              "background",
+              "created",
+              "data",
+              "output_format",
+              "quality",
+              "size",
+              "usage"
+            ],
+            "created": 1790446080,
+            "rawPngSha256": "bdaa6ad9bd04ce10c29e98c2165a941608c3c3a7f97329e234a916f0b4910ad9",
+            "rawPngBytes": 2034004,
+            "responseDataCount": 1
+          },
+          "rawHandPosition": {
+            "ok": true,
+            "sides": {
+              "viewer-left": {
+                "before": {
+                  "pixels": 7232,
+                  "bbox": [
+                    239,
+                    818,
+                    325,
+                    928
+                  ],
+                  "centroid": [
+                    278.96332861046454,
+                    871.6819389625432
+                  ]
+                },
+                "after": {
+                  "pixels": 7269,
+                  "bbox": [
+                    240,
+                    818,
+                    326,
+                    927
+                  ],
+                  "centroid": [
+                    279.2368462846019,
+                    870.7261846438927
+                  ]
+                },
+                "centroidDelta": [
+                  0.27351767413733796,
+                  -0.95575431865052
+                ],
+                "bboxCenterDelta": [
+                  1.0,
+                  -0.5
+                ],
+                "areaRatio": 1.005116150442478,
+                "ok": true
+              },
+              "viewer-right": {
+                "before": {
+                  "pixels": 7244,
+                  "bbox": [
+                    687,
+                    818,
+                    771,
+                    928
+                  ],
+                  "centroid": [
+                    730.5581668105441,
+                    871.5541124886773
+                  ]
+                },
+                "after": {
+                  "pixels": 6811,
+                  "bbox": [
+                    708,
+                    818,
+                    783,
+                    969
+                  ],
+                  "centroid": [
+                    747.0254839036951,
+                    885.7385458612436
+                  ]
+                },
+                "centroidDelta": [
+                  16.467317093150996,
+                  14.184433372566218
+                ],
+                "bboxCenterDelta": [
+                  16.5,
+                  20.5
+                ],
+                "areaRatio": 0.9402263942573164,
+                "ok": true
+              }
+            }
+          },
+          "rawHandRepositionFlag": false
+        }
+      ],
+      "finalQA": {
+        "attempt": 1,
+        "rawPath": "api-raw/broom-12-attempt-1.png",
+        "rawOutsideMaskDrift": 0.42013489202663323,
+        "clampedOutsideMaskExact": true,
+        "clampedCoverage": 0.9875440021662605,
+        "handPosition": {
+          "ok": true,
+          "sides": {
+            "viewer-left": {
+              "before": {
+                "pixels": 7067,
+                "bbox": [
+                  241,
+                  818,
+                  325,
+                  928
+                ],
+                "centroid": [
+                  279.2657606423495,
+                  872.140779684896
+                ]
+              },
+              "after": {
+                "pixels": 7067,
+                "bbox": [
+                  241,
+                  818,
+                  325,
+                  928
+                ],
+                "centroid": [
+                  279.2657606423495,
+                  872.140779684896
+                ]
+              },
+              "centroidDelta": [
+                0.0,
+                0.0
+              ],
+              "bboxCenterDelta": [
+                0.0,
+                0.0
+              ],
+              "areaRatio": 1.0,
+              "ok": true
+            },
+            "viewer-right": {
+              "before": {
+                "pixels": 6165,
+                "bbox": [
+                  702,
+                  818,
+                  771,
+                  928
+                ],
+                "centroid": [
+                  734.9742223099466,
+                  872.5803637019588
+                ]
+              },
+              "after": {
+                "pixels": 5971,
+                "bbox": [
+                  712,
+                  818,
+                  777,
+                  961
+                ],
+                "centroid": [
+                  745.1902856808457,
+                  883.810826887528
+                ]
+              },
+              "centroidDelta": [
+                10.216063370899064,
+                11.230463185569192
+              ],
+              "bboxCenterDelta": [
+                8.0,
+                16.5
+              ],
+              "areaRatio": 0.9685320356853203,
+              "ok": true
+            }
+          }
+        },
+        "propPresence": {
+          "before": {
+            "pixels": 0,
+            "bbox": null,
+            "centroid": null
+          },
+          "after": {
+            "pixels": 31329,
+            "bbox": [
+              760,
+              854,
+              1014,
+              1481
+            ],
+            "centroid": [
+              897.0702670719493,
+              1335.1970518841817
+            ]
+          },
+          "minimumPixels": 1800,
+          "ok": true
+        },
+        "ok": true,
+        "response": {
+          "responseKeys": [
+            "background",
+            "created",
+            "data",
+            "output_format",
+            "quality",
+            "size",
+            "usage"
+          ],
+          "created": 1790446080,
+          "rawPngSha256": "bdaa6ad9bd04ce10c29e98c2165a941608c3c3a7f97329e234a916f0b4910ad9",
+          "rawPngBytes": 2034004,
+          "responseDataCount": 1
+        }
+      },
+      "replacementMaskPixels": 91765,
+      "finalOutputAfterMaskRepair": "broom-12.png",
+      "postprocess": {
+        "status": "reference-composited",
+        "sourceOpenAIProductReference": "assets/shop-designs/broom-12.webp",
+        "method": "Affine-composited OpenAI broom reference; fixed grip-base restored around shaft",
+        "rawHandRepositionStillChecked": true,
+        "productAffineScale": 1.08,
+        "productAffineRotationDegrees": 20,
+        "productGripSourcePoint": [
+          240,
+          450
+        ],
+        "productGripTargetPoint": [
+          731,
+          872
+        ],
+        "productPlacement": [
+          321,
+          375
+        ],
+        "replacementMaskPixels": 91765,
+        "productPixelsKept": 84485,
+        "shaftWindowWidth": 34,
+        "rawPathRetained": "api-raw/broom-12-attempt-1.png",
+        "rawOutputHandQA": {
+          "ok": true,
+          "sides": {
+            "viewer-left": {
+              "before": {
+                "pixels": 7232,
+                "bbox": [
+                  239,
+                  818,
+                  325,
+                  928
+                ],
+                "centroid": [
+                  278.96332861046454,
+                  871.6819389625432
+                ]
+              },
+              "after": {
+                "pixels": 7269,
+                "bbox": [
+                  240,
+                  818,
+                  326,
+                  927
+                ],
+                "centroid": [
+                  279.2368462846019,
+                  870.7261846438927
+                ]
+              },
+              "centroidDelta": [
+                0.27351767413733796,
+                -0.95575431865052
+              ],
+              "bboxCenterDelta": [
+                1.0,
+                -0.5
+              ],
+              "areaRatio": 1.005116150442478,
+              "ok": true
+            },
+            "viewer-right": {
+              "before": {
+                "pixels": 7244,
+                "bbox": [
+                  687,
+                  818,
+                  771,
+                  928
+                ],
+                "centroid": [
+                  730.5581668105441,
+                  871.5541124886773
+                ]
+              },
+              "after": {
+                "pixels": 6811,
+                "bbox": [
+                  708,
+                  818,
+                  783,
+                  969
+                ],
+                "centroid": [
+                  747.0254839036951,
+                  885.7385458612436
+                ]
+              },
+              "centroidDelta": [
+                16.467317093150996,
+                14.184433372566218
+              ],
+              "bboxCenterDelta": [
+                16.5,
+                20.5
+              ],
+              "areaRatio": 0.9402263942573164,
+              "ok": true
+            }
+          }
+        }
+      },
+      "rawHandRepositionObserved": false
+    }
+  ],
+  "combined": {
+    "output": "combined-fixed-grips.png",
+    "layerOrder": [
+      "grip-base.png",
+      "gloves-12.png",
+      "wand prop + shaft contact",
+      "broom prop + shaft contact"
+    ],
+    "unexpectedNewAlphaOutsideAllowedMasks": 0,
+    "exactlyTwoHandRegionsOccupied": true,
+    "handQA": {
+      "ok": true,
+      "sides": {
+        "viewer-left": {
+          "before": {
+            "pixels": 7232,
+            "bbox": [
+              239,
+              818,
+              325,
+              928
+            ],
+            "centroid": [
+              278.96332861046454,
+              871.6819389625432
+            ]
+          },
+          "after": {
+            "pixels": 10992,
+            "bbox": [
+              235,
+              818,
+              332,
+              969
+            ],
+            "centroid": [
+              280.81398487495295,
+              886.5237346410955
+            ]
+          },
+          "centroidDelta": [
+            1.850656264488407,
+            14.84179567855233
+          ],
+          "bboxCenterDelta": [
+            1.5,
+            20.5
+          ],
+          "areaRatio": 1.5199115044247788,
+          "ok": true
+        },
+        "viewer-right": {
+          "before": {
+            "pixels": 7244,
+            "bbox": [
+              687,
+              818,
+              771,
+              928
+            ],
+            "centroid": [
+              730.5581668105441,
+              871.5541124886773
+            ]
+          },
+          "after": {
+            "pixels": 11072,
+            "bbox": [
+              686,
+              818,
+              784,
+              969
+            ],
+            "centroid": [
+              735.9238224021127,
+              886.2650953676086
+            ]
+          },
+          "centroidDelta": [
+            5.365655591568611,
+            14.710982878931304
+          ],
+          "bboxCenterDelta": [
+            6.0,
+            20.5
+          ],
+          "areaRatio": 1.5284373274434013,
+          "ok": true
+        }
+      }
+    },
+    "bodySourcePixelsPreservedOutsideAllowedMasks": true,
+    "maskRepairApplied": true
+  },
+  "maskRepair": {
+    "reason": "Initial hand polygons left source finger-edge pixels outside the replacement masks. Expanded authored polygons now include the complete existing hand silhouettes while still stopping at the cuff/arm boundary.",
+    "apiCallsUsed": 6,
+    "apiEditTarget": 4,
+    "initialApiHandPolygons": {
+      "viewer-left": [
+        [
+          249,
+          820
+        ],
+        [
+          286,
+          818
+        ],
+        [
+          307,
+          827
+        ],
+        [
+          320,
+          843
+        ],
+        [
+          327,
+          865
+        ],
+        [
+          326,
+          887
+        ],
+        [
+          338,
+          906
+        ],
+        [
+          337,
+          930
+        ],
+        [
+          325,
+          949
+        ],
+        [
+          307,
+          960
+        ],
+        [
+          281,
+          958
+        ],
+        [
+          261,
+          944
+        ],
+        [
+          250,
+          927
+        ],
+        [
+          243,
+          904
+        ],
+        [
+          240,
+          879
+        ],
+        [
+          243,
+          853
+        ],
+        [
+          246,
+          835
+        ]
+      ],
+      "viewer-right": [
+        [
+          713,
+          819
+        ],
+        [
+          747,
+          818
+        ],
+        [
+          762,
+          828
+        ],
+        [
+          771,
+          847
+        ],
+        [
+          776,
+          872
+        ],
+        [
+          776,
+          898
+        ],
+        [
+          770,
+          923
+        ],
+        [
+          759,
+          946
+        ],
+        [
+          743,
+          960
+        ],
+        [
+          724,
+          960
+        ],
+        [
+          710,
+          946
+        ],
+        [
+          704,
+          925
+        ],
+        [
+          702,
+          901
+        ],
+        [
+          705,
+          875
+        ],
+        [
+          708,
+          847
+        ]
+      ]
+    },
+    "finalHandPolygons": {
+      "viewer-left": [
+        [
+          242,
+          820
+        ],
+        [
+          291,
+          818
+        ],
+        [
+          312,
+          826
+        ],
+        [
+          325,
+          844
+        ],
+        [
+          330,
+          867
+        ],
+        [
+          329,
+          887
+        ],
+        [
+          340,
+          906
+        ],
+        [
+          342,
+          930
+        ],
+        [
+          335,
+          949
+        ],
+        [
+          320,
+          968
+        ],
+        [
+          282,
+          969
+        ],
+        [
+          259,
+          956
+        ],
+        [
+          243,
+          936
+        ],
+        [
+          235,
+          908
+        ],
+        [
+          235,
+          877
+        ],
+        [
+          239,
+          850
+        ],
+        [
+          243,
+          834
+        ]
+      ],
+      "viewer-right": [
+        [
+          707,
+          819
+        ],
+        [
+          754,
+          818
+        ],
+        [
+          770,
+          829
+        ],
+        [
+          779,
+          849
+        ],
+        [
+          783,
+          875
+        ],
+        [
+          783,
+          900
+        ],
+        [
+          778,
+          924
+        ],
+        [
+          767,
+          948
+        ],
+        [
+          748,
+          968
+        ],
+        [
+          718,
+          969
+        ],
+        [
+          696,
+          958
+        ],
+        [
+          686,
+          933
+        ],
+        [
+          686,
+          904
+        ],
+        [
+          689,
+          875
+        ],
+        [
+          696,
+          847
+        ],
+        [
+          701,
+          830
+        ]
+      ]
+    },
+    "recompositedFromSavedRaw": true,
+    "rawOutputsKept": true,
+    "noAdditionalApiCallsAfterMaskRepair": true,
+    "retriesUsed": {
+      "gloves-12": 1,
+      "wand-12": 1
+    },
+    "apiCallAccounting": "4 prototype edits + 2 defect retries (gloves raw hand placement, wand raw hand placement); no bulk generation."
+  },
+  "rawQA": "Each attempt now carries rawHandPosition before clamping; hand placement is not approved from clamped metrics alone.",
+  "apiCallCount": 6,
+  "apiCallBreakdown": {
+    "grip-base": 1,
+    "gloves-12": 2,
+    "wand-12": 2,
+    "broom-12": 1
+  }
+}

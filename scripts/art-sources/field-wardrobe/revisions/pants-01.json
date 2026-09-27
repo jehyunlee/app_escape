@@ -1,0 +1,31 @@
+{
+  "revisionId": "pants-01-single-item-edit",
+  "item": "pants-01",
+  "kind": "single-item-edit-overlay",
+  "status": "generated",
+  "apiCalls": 1,
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "prompt": "Edit the supplied isolated product image of plain low-tier charcoal straight-leg wizard trousers. Preserve the exact front-facing product pose, two separate legs, full silhouette, framing, matte dark cloth, and true transparent background. Add only modest functional matte knee reinforcement panels over both knees and tidy double stitching running along each lower-leg seam from the knee toward the hem. Keep this an inexpensive basic item: subtle cloth reinforcement and visible utility stitching, not armor, jewelry, gems, shine, ornament, extra pockets, belt, logo, text, robe, skirt, person, body, or mannequin. Return one complete isolated pair of trousers with no other object.",
+  "source": "scripts/art-sources/field-wardrobe/archive/pants-01-before-revision/designs/pants-01.webp",
+  "sourceSha256": "dcce10e3940e276724ffc4e7de3101e6997088aacafc86066cdbdffd7fd0d3cb",
+  "rawResponse": "scripts/art-sources/field-wardrobe/revisions/pants-01-raw.png",
+  "rawResponseSha256": "73548543c8acfa93bb102543876770e89cf67432eeb7d3e4887e9b60fbef624e",
+  "output": "scripts/art-sources/field-wardrobe/designs/pants-01.webp",
+  "outputSha256": "d5baefca94bc326d452664cfe0ad5785e8bba581bebd96ee6deedd5255ab95f4",
+  "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-01.webp",
+  "comparison": "/tmp/paper-doll-qa/field-pants01-vs-starter.png",
+  "baseline": "assets/doll/rigged/starter-pants.webp",
+  "baselineSha256": "6346ef624b8d115b9bfc0081763615dec9e0f37d61d08c5f974e6d47267beecf",
+  "baselinePreserved": true,
+  "archive": "scripts/art-sources/field-wardrobe/archive/pants-01-before-revision",
+  "sourceSize": [
+    360,
+    842
+  ],
+  "outputSize": [
+    702,
+    1532
+  ],
+  "generatedAt": "2026-09-27T01:16:27.316711+00:00"
+}

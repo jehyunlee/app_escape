@@ -1,0 +1,97 @@
+{
+  "character": "dad",
+  "item": "hat-03",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:21:59.362668+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 짧은 비대칭 꼭지모. A short slate wool wizard hat with an asymmetric pointed crown leaning slightly to one side, a circular reinforced brim, and one visible structural seam; friendly and unmistakably wizardly. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/dad-hat-03.png",
+  "rawSha256": "a64ec2b765ce11b5b397ab0073e03c26d88bbdfc9e7ee99cdeb020ea786f0b90",
+  "registration": {
+    "sourceToGeneratedScale": 1.8864239977203434,
+    "rotationRadians": 0.01257253260276857,
+    "translation": [
+      -428.37698320188787,
+      461.94895334548374
+    ],
+    "initialCorrelation": 0.8868440719807763,
+    "refinedCorrelation": 0.9319890612616039,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "dad-neutral-hat-03.webp": {
+      "sha256": "2a91cc1725f73073aea98439c799e08d77e4946b293b6b24f17feca606d3d684",
+      "bbox": [
+        237,
+        -152,
+        766,
+        433
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 11
+    },
+    "dad-happy-hat-03.webp": {
+      "sha256": "81faa45c1e8b9bc3afbfc0b418cd61aee71041d27f09cef832e563e1b1e03429",
+      "bbox": [
+        237,
+        -152,
+        766,
+        433
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 11
+    },
+    "dad-sad-hat-03.webp": {
+      "sha256": "219d1386b917b0fdb2c0035d3d54c4f67d679c02f964092246f6eb8dedfe12a3",
+      "bbox": [
+        237,
+        -152,
+        766,
+        433
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 11
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Parent visually inspected all 36 expressions per character in dad-all-hats.png and mom-all-hats.png; whole hats, hair under brims, glasses, face likeness and expression blending accepted. Dad prototypes also reviewed on the actual body.",
+    "reviewedAt": "2026-09-27T01:36:36.826713+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-03.webp",
+      "sha256": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/dad-neutral.webp",
+      "sha256": "fc55dd83c604a010c53e3adbbf4197037e9937d674182a03778da55e3f311ed5"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/dad-neutral.webp",
+      "sha256": "3572ece7a41e27b5f2abaa507fdcd999e30aeb8e20b2d5cb82dba7aa52a370ac"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda",
+    "identity": "fc55dd83c604a010c53e3adbbf4197037e9937d674182a03778da55e3f311ed5",
+    "headReference": "3572ece7a41e27b5f2abaa507fdcd999e30aeb8e20b2d5cb82dba7aa52a370ac"
+  }
+}

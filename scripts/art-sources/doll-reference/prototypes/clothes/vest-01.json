@@ -1,0 +1,246 @@
+{
+  "schema": "clean-garment-prototype-v1",
+  "key": "vest-01",
+  "category": "vest",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "endpoint": "/v1/images/edits",
+  "maxAttempts": 2,
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent mannequin in the exact front-facing body pose. Image 2 is the exact shop product vest design. Image 3 is the current body-clothed composite showing the already-generated vest; use it to preserve the real garment RGB, stitching, pockets, buttons, V-neck and hem. Extract and fit only this exact vest to image 1's unchanged neck, shoulder, torso and waist coordinates. Preserve the product design and material; do not recolor or redraw it. The V-neck opening must be transparent (no cream shirt/neck skin in the vest layer), while all actual vest cloth, buttons, pockets, seams and hem remain opaque. Output one garment-only RGBA layer on the same 1024x1536 canvas. Everything that is not vest must be transparent: no head, hair, neck skin, hands, sleeves, plain cream shirt, gray trousers, boots, or body pixels. Do not paint a mannequin or a background. This is a semantic matte/extraction of the supplied generated art, not a new illustration.",
+  "sources": {
+    "mannequin": {
+      "path": "assets/doll/mannequin.png",
+      "sha256": "73adc946e2299b62b32697daa595aea198c481fc027c06b8ab817d7183bbdec9",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        240,
+        39,
+        787,
+        1496
+      ]
+    },
+    "product": {
+      "path": "assets/shop-designs/vest-01.webp",
+      "sha256": "136d39dbb086b94bc0a9db11276a10015aa65e5d019066b125e9701107ba9449",
+      "size": [
+        442,
+        588
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        442,
+        588
+      ]
+    },
+    "currentLayer": {
+      "path": "assets/doll/vest-01.webp",
+      "sha256": "93056767dfcc8fc69935143ef7f923c53e626bffeacf80db89ebed68f4361d5f",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        394,
+        467,
+        619,
+        915
+      ]
+    },
+    "currentBodyClothedComposite": {
+      "path": "assets/doll/vest-01.webp composited over mannequin.png",
+      "sha256": "39c4dbb2d57b07e167eb2bcf351fd39863700c254ad61f505b2e48f7cde2746c",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        240,
+        39,
+        787,
+        1496
+      ]
+    },
+    "mask": {
+      "sha256": "c7044aa2316161581a56b7a1897d8e1760b747a26d1bca0aee222d70aef669a2",
+      "editableBox": [
+        350,
+        425,
+        675,
+        950
+      ]
+    },
+    "ghostFit": {
+      "applied": true,
+      "productScaleX": 0.52,
+      "productScaleY": 0.6,
+      "offset": [
+        397,
+        467
+      ]
+    }
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted-after-ghost-fit",
+      "elapsedSeconds": 0.197,
+      "rawPath": "vest-01-raw-attempt-1.png",
+      "rawSha256": "75a630e4b50c4cc9c1d2b55a8dfe4e188553b408dedd5b3626a02b85494d1624",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        170,
+        292,
+        855,
+        1207
+      ],
+      "rawDirectAlignmentOk": false,
+      "rawDirectAlignmentStatus": "failed",
+      "rawDirectAlignment": {
+        "bbox": [
+          170,
+          292,
+          855,
+          1207
+        ],
+        "expectedEnvelope": [
+          350,
+          425,
+          675,
+          950
+        ],
+        "reason": "raw canvas is a centered product cutout; ghost fit required"
+      },
+      "extraction": {
+        "oldGarmentPixels": 61247,
+        "apiChangedPixels": 134566,
+        "apiSupportedGarmentPixels": 55685,
+        "rawFittedMainPixels": 0,
+        "rawFittedFillPixels": 248,
+        "bodyCopyPixelsRemoved": 1021832,
+        "finalAlphaPixels": 63421,
+        "fittedDesignAlphaPixels": 66383
+      },
+      "validation": {
+        "alphaPixels": 63421,
+        "alphaBbox": [
+          395,
+          467,
+          628,
+          822
+        ],
+        "bodyCopyOverlapPixels": 0,
+        "bodyCopyOverlapFraction": 0.0,
+        "alignmentOk": true,
+        "openingOk": true,
+        "bodyMaskOk": true,
+        "ok": true
+      }
+    },
+    {
+      "attempt": 2,
+      "status": "accepted-after-ghost-fit",
+      "elapsedSeconds": 0.212,
+      "rawPath": "vest-01-raw-attempt-2.png",
+      "rawSha256": "6630bd9db3c1d24c2f8508b05467cbd52486a8475d892f6ef1d8fda7f51369b1",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        168,
+        274,
+        856,
+        1205
+      ],
+      "rawDirectAlignmentOk": false,
+      "rawDirectAlignmentStatus": "failed",
+      "rawDirectAlignment": {
+        "bbox": [
+          168,
+          274,
+          856,
+          1205
+        ],
+        "expectedEnvelope": [
+          350,
+          425,
+          675,
+          950
+        ],
+        "reason": "raw canvas is a centered product cutout; ghost fit required"
+      },
+      "extraction": {
+        "oldGarmentPixels": 61247,
+        "apiChangedPixels": 137792,
+        "apiSupportedGarmentPixels": 57309,
+        "rawFittedMainPixels": 0,
+        "rawFittedFillPixels": 290,
+        "bodyCopyPixelsRemoved": 1021832,
+        "finalAlphaPixels": 63479,
+        "fittedDesignAlphaPixels": 66383
+      },
+      "validation": {
+        "alphaPixels": 63479,
+        "alphaBbox": [
+          395,
+          466,
+          628,
+          822
+        ],
+        "bodyCopyOverlapPixels": 0,
+        "bodyCopyOverlapFraction": 0.0,
+        "alignmentOk": true,
+        "openingOk": true,
+        "bodyMaskOk": true,
+        "ok": true
+      }
+    }
+  ],
+  "createdAt": "2026-09-26T18:35:51.490909+00:00",
+  "status": "visual-review-pending",
+  "selectedAttempt": 2,
+  "rawPath": "vest-01-raw.png",
+  "finalPath": "vest-01.png",
+  "rawSha256": "6630bd9db3c1d24c2f8508b05467cbd52486a8475d892f6ef1d8fda7f51369b1",
+  "finalSha256": "5ee369c236cfd6e9020e4518a42808eeb1e0e34736c790339b9771352f5c564d",
+  "selectedRawDirectAlignmentOk": false,
+  "selectedExtraction": {
+    "oldGarmentPixels": 61247,
+    "apiChangedPixels": 137792,
+    "apiSupportedGarmentPixels": 57309,
+    "rawFittedMainPixels": 0,
+    "rawFittedFillPixels": 290,
+    "bodyCopyPixelsRemoved": 1021832,
+    "finalAlphaPixels": 63479,
+    "fittedDesignAlphaPixels": 66383
+  },
+  "selectedValidation": {
+    "alphaPixels": 63479,
+    "alphaBbox": [
+      395,
+      466,
+      628,
+      822
+    ],
+    "bodyCopyOverlapPixels": 0,
+    "bodyCopyOverlapFraction": 0.0,
+    "alignmentOk": true,
+    "openingOk": true,
+    "bodyMaskOk": true,
+    "ok": true
+  },
+  "qaSheetPath": "/tmp/paper-doll-qa/clean-clothes.png",
+  "qaSheetSha256": "7c7793371a9ba041fac3c65ce46783cc8bed548cbfec98c9047238d099c5a0f7"
+}

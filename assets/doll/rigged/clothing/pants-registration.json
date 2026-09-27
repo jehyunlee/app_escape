@@ -1,0 +1,338 @@
+{
+  "pants-01": {
+    "source": "scripts/art-sources/rigged-clothing/pants-01-raw.png",
+    "sourceSha256": "554c7e5b59ecd410a997885c3553db4aaa54fd2a15979b0ca9c9ddc0b66bed86",
+    "sha256": "d2ceda547a3998b9d38d22c06a176c6b369a5f54ad6b72b10dc2ab3607ecc2b8",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        422.0,
+        477
+      ],
+      "rawCuffCentres": [
+        202.0711909461604,
+        654.0677617886777
+      ],
+      "horizontalScale": [
+        0.5974842767295597,
+        0.6570846310767244
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-02": {
+    "source": "scripts/art-sources/rigged-clothing/pants-02-raw.png",
+    "sourceSha256": "dfe59ec99c1c6fb8e474b91ac4c3d8661b89d051191ceac9c56617178f2ce22c",
+    "sha256": "e17b5d534f611360891695e1ab90ebcbeecda635ad39941c82bedf0bb4f60ffd",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        371.0,
+        515
+      ],
+      "rawCuffCentres": [
+        142.85039735759125,
+        608.0255626447604
+      ],
+      "horizontalScale": [
+        0.5533980582524272,
+        0.6384691663766086
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-03": {
+    "source": "scripts/art-sources/rigged-clothing/pants-03-raw.png",
+    "sourceSha256": "cb61c2c489105e1c33bebe5b68f8603f8f68ebaa61e3b88b23b3c88a8a77a4e6",
+    "sha256": "39dcbf9ee954d9f6a28118fbf02288b6112a12f881574e88488c72a9358d2084",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        344.5,
+        520
+      ],
+      "rawCuffCentres": [
+        121.0831041070588,
+        607.9073587847728
+      ],
+      "horizontalScale": [
+        0.5480769230769231,
+        0.6100764231573037
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-04": {
+    "source": "scripts/art-sources/rigged-clothing/pants-04-raw.png",
+    "sourceSha256": "a2662e7692620a4e359b55ff5f7acefcd65ec1a5755a16a534a87a9e2295c43c",
+    "sha256": "87291da91ebdc8d6866a10a9f6be06a045dd75acd34fc2862f611975af03dbde",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        352.5,
+        524
+      ],
+      "rawCuffCentres": [
+        98.67092516534886,
+        608.2166988492897
+      ],
+      "horizontalScale": [
+        0.5438931297709924,
+        0.5828720702611931
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-05": {
+    "source": "scripts/art-sources/rigged-clothing/pants-05-raw.png",
+    "sourceSha256": "0792927aa08881267fec75e97807891858997390fbec2b21e53b118a6f73099a",
+    "sha256": "3cb5c7cb5a25c54b482e474aa84ba6824d8411bb85c8eb73f26c007f9ea10359",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        450.0,
+        425
+      ],
+      "rawCuffCentres": [
+        228.4991537334151,
+        671.0181881162362
+      ],
+      "horizontalScale": [
+        0.6705882352941176,
+        0.6711575704629844
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-06": {
+    "source": "scripts/art-sources/rigged-clothing/pants-06-raw.png",
+    "sourceSha256": "11972630eaae6825c3c90d22498e226d63094dbe6a655c05a95aca49146ab2ac",
+    "sha256": "e1ba9f73d9e563392ddfbf514091616effcf5d01c1bed1477616f2e9f0e1b335",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        316.0,
+        469
+      ],
+      "rawCuffCentres": [
+        130.95187108040287,
+        538.7638464159843
+      ],
+      "horizontalScale": [
+        0.6076759061833689,
+        0.7282767990214212
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-07": {
+    "source": "scripts/art-sources/rigged-clothing/pants-07-raw.png",
+    "sourceSha256": "c431dc9e7b4a4fc59c65feec0f803d3b63abefabda99f4edd17fe05db30f5c90",
+    "sha256": "6fdba38813603eeaae9ed4a4739960f5cef328404e3ce33d443505ab294aa7e8",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        316.5,
+        502
+      ],
+      "rawCuffCentres": [
+        69.40691224756789,
+        577.1677140132308
+      ],
+      "horizontalScale": [
+        0.5677290836653387,
+        0.5849210867936764
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-08": {
+    "source": "scripts/art-sources/rigged-clothing/pants-08-raw.png",
+    "sourceSha256": "19b30eb7f56fcccb853dc93354a1227462603e8af0201c096ab40866b5fe5919",
+    "sha256": "e6469671947eefd9c8fb981f20708bad0f6b98f14af690edd3c5ac45d532a9a6",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        289.5,
+        480
+      ],
+      "rawCuffCentres": [
+        93.68273516993372,
+        482.38618124800206
+      ],
+      "horizontalScale": [
+        0.59375,
+        0.7640786388612301
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-09": {
+    "source": "scripts/art-sources/rigged-clothing/pants-09-raw.png",
+    "sourceSha256": "9c283269a7fa7f77380623495968a95ecd60b2a6768a4c4175545ee848a0ad85",
+    "sha256": "cc8f0d6dc95a9d15be70e41bbab8197ff09ad5d1df59ead6e4dcfda60a08460a",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        369.0,
+        477
+      ],
+      "rawCuffCentres": [
+        188.1413715957913,
+        568.3389933682387
+      ],
+      "horizontalScale": [
+        0.5974842767295597,
+        0.7811726928101562
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-10": {
+    "source": "scripts/art-sources/rigged-clothing/pants-10-raw.png",
+    "sourceSha256": "8e6b878bf8319b79b30fb3939473ab26abf6cb112f7d0c928b6b935009d95151",
+    "sha256": "f792ade7bc44ea8db6ff7214d31aa55c1361dd956f0684d532d43cad1cdfd38f",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        297.0,
+        465
+      ],
+      "rawCuffCentres": [
+        89.16307897021282,
+        511.9390140000819
+      ],
+      "horizontalScale": [
+        0.6129032258064516,
+        0.7024997768120765
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-11": {
+    "source": "scripts/art-sources/rigged-clothing/pants-11-raw.png",
+    "sourceSha256": "93e0222b06c90bc7ace38ba7b2f6281b44f5da1bca319d5b532e19006f74ee90",
+    "sha256": "f03226ce43af2625b6d9d3dfd0f9c6e9fd33ea26f625f462821e597aa759b029",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        381.0,
+        463
+      ],
+      "rawCuffCentres": [
+        186.4716209190958,
+        570.8376972102387
+      ],
+      "horizontalScale": [
+        0.6155507559395248,
+        0.7727008659708918
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  },
+  "pants-12": {
+    "source": "scripts/art-sources/rigged-clothing/pants-12-raw.png",
+    "sourceSha256": "843bb2c5cf2d708a92910ebf9574ffa12883f6b8fb35b09df80dc49dbdec894d",
+    "sha256": "ad928cd0da19357793859d679d333570ce8103c9010dd9b252f7c46f01401f77",
+    "registration": {
+      "waistY": 806,
+      "hemY": 1354,
+      "waistWidth": 285,
+      "ankleCentres": [
+        365,
+        662
+      ],
+      "rawWaist": [
+        349.0,
+        427
+      ],
+      "rawCuffCentres": [
+        232.22372480101777,
+        471.4311442877785
+      ],
+      "horizontalScale": [
+        0.667447306791569,
+        1.2416002841267968
+      ]
+    },
+    "method": "raw garment-only hip/ankle registration",
+    "review": "pending"
+  }
+}

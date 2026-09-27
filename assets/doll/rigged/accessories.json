@@ -1,0 +1,3486 @@
+{
+  "necklace-01.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-01.webp",
+    "sourceSha256": "965b8492409400066b41d234dd9d98964757c040c927e2507adb8b0c1866d959",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 156,
+      "height": 236,
+      "sourceSize": [
+        417,
+        631
+      ],
+      "trimmedSourceSize": [
+        417,
+        631
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 451,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 857,
+        "mask": "necklace-01-occlusion.png"
+      }
+    },
+    "bbox": [
+      434,
+      430,
+      590,
+      633
+    ]
+  },
+  "necklace-02.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-02.webp",
+    "sourceSha256": "75d299aaa7d1c67a9e489af5770974a463313cdfc0f2c1c1b4c67058fb950d20",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 160,
+      "height": 177,
+      "sourceSize": [
+        420,
+        464
+      ],
+      "trimmedSourceSize": [
+        420,
+        464
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 451,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 1108,
+        "mask": "necklace-02-occlusion.png"
+      }
+    },
+    "bbox": [
+      432,
+      430,
+      592,
+      574
+    ]
+  },
+  "necklace-03.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-03.webp",
+    "sourceSha256": "b2f3eebbf25232daf1eb357fa328e2611106e25182567c2a05c62345e9cb6645",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 156,
+      "height": 127,
+      "sourceSize": [
+        474,
+        385
+      ],
+      "trimmedSourceSize": [
+        474,
+        385
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 451,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 3345,
+        "mask": "necklace-03-occlusion.png"
+      }
+    },
+    "bbox": [
+      434,
+      430,
+      590,
+      524
+    ]
+  },
+  "necklace-04.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-04.webp",
+    "sourceSha256": "5d62cf5493ccadcbbf6601b4dbab70fe2184ed91de097a516ad17a2157e7699b",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 142,
+      "height": 192,
+      "sourceSize": [
+        420,
+        569
+      ],
+      "trimmedSourceSize": [
+        420,
+        569
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 446,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 1246,
+        "mask": "necklace-04-occlusion.png"
+      }
+    },
+    "bbox": [
+      441,
+      430,
+      583,
+      589
+    ]
+  },
+  "necklace-05.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-05.webp",
+    "sourceSha256": "6071e367b98b27ff3e941ebf64b0371e4db1a40e91264ccf450bbaa72741476f",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 174,
+      "height": 120,
+      "sourceSize": [
+        433,
+        299
+      ],
+      "trimmedSourceSize": [
+        433,
+        299
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 449,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 4340,
+        "mask": "necklace-05-occlusion.png"
+      }
+    },
+    "bbox": [
+      425,
+      430,
+      599,
+      517
+    ]
+  },
+  "necklace-06.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-06.webp",
+    "sourceSha256": "e192ed1f757c8b9402258991faf58395f6f7da80c5ed13d07b165bd760ae2556",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 174,
+      "height": 220,
+      "sourceSize": [
+        472,
+        596
+      ],
+      "trimmedSourceSize": [
+        472,
+        596
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 450,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 2814,
+        "mask": "necklace-06-occlusion.png"
+      }
+    },
+    "bbox": [
+      425,
+      430,
+      599,
+      617
+    ]
+  },
+  "necklace-07.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-07.webp",
+    "sourceSha256": "afce5c9ecf7aa106a8369922aead421ab7be2ee6e4129e8841e3fd819c61e041",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 176,
+      "height": 265,
+      "sourceSize": [
+        427,
+        644
+      ],
+      "trimmedSourceSize": [
+        427,
+        644
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 450,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 1513,
+        "mask": "necklace-07-occlusion.png"
+      }
+    },
+    "bbox": [
+      424,
+      430,
+      600,
+      662
+    ]
+  },
+  "necklace-08.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-08.webp",
+    "sourceSha256": "56821b922e7749ed563c4afc2e7aa6fc190ccba1619f6ab89ab916b8a8cb815c",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 190,
+      "height": 148,
+      "sourceSize": [
+        439,
+        341
+      ],
+      "trimmedSourceSize": [
+        439,
+        341
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 419,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 4369,
+        "mask": "necklace-08-occlusion.png"
+      }
+    },
+    "bbox": [
+      417,
+      430,
+      607,
+      545
+    ]
+  },
+  "necklace-09.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-09.webp",
+    "sourceSha256": "d949de32c3a053ca3235e43caf0bc664dae793a70f6f7f390bf343e632f3e71c",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 184,
+      "height": 181,
+      "sourceSize": [
+        445,
+        438
+      ],
+      "trimmedSourceSize": [
+        445,
+        438
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 451,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 2315,
+        "mask": "necklace-09-occlusion.png"
+      }
+    },
+    "bbox": [
+      420,
+      430,
+      604,
+      578
+    ]
+  },
+  "necklace-10.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-10.webp",
+    "sourceSha256": "61de6f62d00c0d661865f3407731ac8b732b7d15b157fd0bedb2d38bee97202b",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 220,
+      "height": 233,
+      "sourceSize": [
+        501,
+        531
+      ],
+      "trimmedSourceSize": [
+        501,
+        531
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 424,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 3626,
+        "mask": "necklace-10-occlusion.png"
+      }
+    },
+    "bbox": [
+      402,
+      430,
+      622,
+      630
+    ]
+  },
+  "necklace-11.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-11.webp",
+    "sourceSha256": "fcd2b31550f057e13828fd5d08d462033a20fb9b08e7f5bde9eece8f8dbf4e97",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 194,
+      "height": 275,
+      "sourceSize": [
+        444,
+        629
+      ],
+      "trimmedSourceSize": [
+        444,
+        629
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 449,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 2118,
+        "mask": "necklace-11-occlusion.png"
+      }
+    },
+    "bbox": [
+      415,
+      430,
+      609,
+      672
+    ]
+  },
+  "necklace-12.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/necklace-12.webp",
+    "sourceSha256": "3b9d7e834d09646134822e6dd7bdfb53d7397c89cb6b93577645815a05a72bfa",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-jewellery-after-body",
+      "top": 397,
+      "width": 204,
+      "height": 275,
+      "sourceSize": [
+        465,
+        626
+      ],
+      "trimmedSourceSize": [
+        465,
+        626
+      ],
+      "occlusion": {
+        "type": "rear-neck-ellipse",
+        "bounds": [
+          460,
+          396,
+          570,
+          469
+        ],
+        "clipYMax": 451,
+        "backAttachmentY": 430,
+        "description": "rear upper chain only; front sides, ribbon band and pendant preserved",
+        "occludedPixels": 4638,
+        "mask": "necklace-12-occlusion.png"
+      }
+    },
+    "bbox": [
+      410,
+      430,
+      614,
+      672
+    ]
+  },
+  "wand-01.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-01.webp",
+    "sourceSha256": "0bf896e2f41fcc67168f7a13f8514f50644309e1820794fb6677c6e90891a130",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.4888888888888889,
+        0.86
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        46,
+        926
+      ],
+      "trimmedSourceSize": [
+        46,
+        926
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-01-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-01-front-mask.png",
+          "sha256": "e2d564695a4d6651f8d7a8ac8bf9e0a15664a547be3e2c110f5380a7faa95ceb",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          44,
+          639,
+          296,
+          891
+        ],
+        "maskBbox": [
+          44,
+          639,
+          296,
+          891
+        ],
+        "sourceBbox": [
+          44,
+          639,
+          332,
+          927
+        ],
+        "opaquePixels": 4515,
+        "partition": {
+          "sourceAlphaPixels": 5493,
+          "frontAlphaPixels": 4515,
+          "backAlphaPixels": 978,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -345.07,
+          "openingProjection": 0.0
+        },
+        "sha256": "f12f861240477826ed0e26ae140ff01abbe5fc9ae2bfd109041dd2789130b999",
+        "unpartitionedProof": {
+          "file": "wand-01-unpartitioned.webp",
+          "sha256": "baeb6576af125c312ca0681e57f93ce63625ec9c8d123012569df1e4ab9813c3",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            44,
+            639,
+            332,
+            927
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 5493,
+            "frontAlphaPixels": 4515,
+            "backAlphaPixels": 978,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-01-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      283,
+      878,
+      332,
+      927
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-01-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-02.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-02.webp",
+    "sourceSha256": "05885d6141d15cc1f9363b0b7e259c987c25e723cb5e869fa5c99ba6dce6b265",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.86
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        51,
+        918
+      ],
+      "trimmedSourceSize": [
+        51,
+        918
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-02-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-02-front-mask.png",
+          "sha256": "9dfbfa06d699f539942aef5b798b4f8efaff0a11b6dff57536cfe33325b85e74",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          44,
+          640,
+          297,
+          891
+        ],
+        "maskBbox": [
+          44,
+          640,
+          297,
+          891
+        ],
+        "sourceBbox": [
+          44,
+          640,
+          332,
+          927
+        ],
+        "opaquePixels": 4593,
+        "partition": {
+          "sourceAlphaPixels": 5676,
+          "frontAlphaPixels": 4593,
+          "backAlphaPixels": 1083,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -345.07,
+          "openingProjection": 0.0
+        },
+        "sha256": "4dda1f72ff658edb1f29808b03375a65efefd87cd9be158a1c3587df153575be",
+        "unpartitionedProof": {
+          "file": "wand-02-unpartitioned.webp",
+          "sha256": "3aa727f1427b031c686a7b0df0ce158d4c975b1af5d4232564c8c8a0c507f1bd",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            44,
+            640,
+            332,
+            927
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 5676,
+            "frontAlphaPixels": 4593,
+            "backAlphaPixels": 1083,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-02-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      282,
+      878,
+      332,
+      927
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-02-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-03.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-03.webp",
+    "sourceSha256": "26f1993e51666273a062d9727a2acc41bfe4990578b365b00bc8fe598a6a9a2e",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5324675324675324,
+        0.84
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        78,
+        908
+      ],
+      "trimmedSourceSize": [
+        78,
+        908
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-03-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-03-front-mask.png",
+          "sha256": "cbc1b6993b0e749ca08231f04aeaba9173c50807641c87292f79429ed2dd0950",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          55,
+          640,
+          297,
+          891
+        ],
+        "maskBbox": [
+          55,
+          640,
+          297,
+          891
+        ],
+        "sourceBbox": [
+          55,
+          640,
+          338,
+          935
+        ],
+        "opaquePixels": 4905,
+        "partition": {
+          "sourceAlphaPixels": 6179,
+          "frontAlphaPixels": 4905,
+          "backAlphaPixels": 1274,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -336.58,
+          "openingProjection": 0.0
+        },
+        "sha256": "760c8154676a47ad9731c6f29b87f1adf826cfc20b12bff31923050b5fa58f1b",
+        "unpartitionedProof": {
+          "file": "wand-03-unpartitioned.webp",
+          "sha256": "b00510cca28ac1b03a50f9e6ae8f66b2442bd8840eb538595d2ccbd4e39eacff",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            55,
+            640,
+            338,
+            935
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 6179,
+            "frontAlphaPixels": 4905,
+            "backAlphaPixels": 1274,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-03-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      282,
+      878,
+      338,
+      935
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-03-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-04.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-04.webp",
+    "sourceSha256": "10917abae293d0e1745127911359a48b9ad66a57a887a4c2b906fa58ab35c308",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5098039215686274,
+        0.86
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        52,
+        920
+      ],
+      "trimmedSourceSize": [
+        52,
+        920
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-04-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-04-front-mask.png",
+          "sha256": "2b225e3d13b35b50f6b9c5a1f53a0e93fea73a93b76431771b050182b8b0b41f",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          45,
+          639,
+          298,
+          892
+        ],
+        "maskBbox": [
+          45,
+          639,
+          298,
+          892
+        ],
+        "sourceBbox": [
+          45,
+          639,
+          334,
+          927
+        ],
+        "opaquePixels": 5205,
+        "partition": {
+          "sourceAlphaPixels": 6395,
+          "frontAlphaPixels": 5205,
+          "backAlphaPixels": 1190,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -345.07,
+          "openingProjection": 0.0
+        },
+        "sha256": "c363ac6e833759a6cb4054eeea9cd24ead45273659f66723eed216b4b79d3774",
+        "unpartitionedProof": {
+          "file": "wand-04-unpartitioned.webp",
+          "sha256": "3dd8a3d9079e48d787f8ca10ef239aea232fff5bee3bb89075e58c0ceb901e46",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            45,
+            639,
+            334,
+            927
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 6395,
+            "frontAlphaPixels": 5205,
+            "backAlphaPixels": 1190,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-04-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      281,
+      876,
+      334,
+      927
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-04-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-05.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-05.webp",
+    "sourceSha256": "83afac0681f529a2c83d4b601f65c074eb193e6247d29e62dc4b26dedd37d29e",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5057471264367817,
+        0.86
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        88,
+        910
+      ],
+      "trimmedSourceSize": [
+        88,
+        910
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-05-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-05-front-mask.png",
+          "sha256": "ce217a980a2217e7b729df80abe21a400aa4f162346b9a9373624f2fd90a1226",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          44,
+          639,
+          304,
+          898
+        ],
+        "maskBbox": [
+          44,
+          639,
+          304,
+          898
+        ],
+        "sourceBbox": [
+          44,
+          639,
+          338,
+          932
+        ],
+        "opaquePixels": 7219,
+        "partition": {
+          "sourceAlphaPixels": 9155,
+          "frontAlphaPixels": 7219,
+          "backAlphaPixels": 1936,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -345.07,
+          "openingProjection": 0.0
+        },
+        "sha256": "64b0a39ad3af7d8a660a70f4fbc0e77466f265536f3a121a74dff923bd69623c",
+        "unpartitionedProof": {
+          "file": "wand-05-unpartitioned.webp",
+          "sha256": "04f9190e6c0a6d09b9e74689e68e11ab3288f895142e5539f4e99cd4cb5065b5",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            44,
+            639,
+            338,
+            932
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 9155,
+            "frontAlphaPixels": 7219,
+            "backAlphaPixels": 1936,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-05-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      276,
+      871,
+      338,
+      932
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-05-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-06.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-06.webp",
+    "sourceSha256": "5cd5d0fd167b3640cf6c85fdbe4ba0483af8b38e03d5c018dbb8636c3ac60add",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.484375,
+        0.86
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        65,
+        926
+      ],
+      "trimmedSourceSize": [
+        65,
+        926
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-06-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-06-front-mask.png",
+          "sha256": "75b00809ee5f2f234c92722c0bf403098fc3d898de3835de7e9fda8f0223a534",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          45,
+          639,
+          298,
+          892
+        ],
+        "maskBbox": [
+          45,
+          639,
+          298,
+          892
+        ],
+        "sourceBbox": [
+          45,
+          639,
+          334,
+          928
+        ],
+        "opaquePixels": 6564,
+        "partition": {
+          "sourceAlphaPixels": 7916,
+          "frontAlphaPixels": 6564,
+          "backAlphaPixels": 1352,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -345.07,
+          "openingProjection": 0.0
+        },
+        "sha256": "978498c45035c39613b67c069f3f36746dbcbcc7171c8539692aa31e929ab5b7",
+        "unpartitionedProof": {
+          "file": "wand-06-unpartitioned.webp",
+          "sha256": "8bc6afb6390d51fa661da8f635b0e983f148561592aacc7777189fc6ca337130",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            45,
+            639,
+            334,
+            928
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 7916,
+            "frontAlphaPixels": 6564,
+            "backAlphaPixels": 1352,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-06-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      282,
+      876,
+      334,
+      928
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-06-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-07.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-07.webp",
+    "sourceSha256": "e19a0dc6aabbf6fca581fb86de48461e5f4ae974a51c8b10b4edd103a276a75d",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.88
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        73,
+        909
+      ],
+      "trimmedSourceSize": [
+        73,
+        909
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-07-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-07-front-mask.png",
+          "sha256": "d9ba7f61358b07964265107ed4f197091e33d70223ff6d09c86d7539820ab453",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          37,
+          632,
+          301,
+          896
+        ],
+        "maskBbox": [
+          37,
+          632,
+          301,
+          896
+        ],
+        "sourceBbox": [
+          37,
+          632,
+          330,
+          925
+        ],
+        "opaquePixels": 7819,
+        "partition": {
+          "sourceAlphaPixels": 9336,
+          "frontAlphaPixels": 7819,
+          "backAlphaPixels": 1517,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -352.85,
+          "openingProjection": 0.0
+        },
+        "sha256": "7cafa5b83a5b6fbc430862189320a7860a38b5798c5946beccfa3609038dceb7",
+        "unpartitionedProof": {
+          "file": "wand-07-unpartitioned.webp",
+          "sha256": "c1033b2bbc2e846db50f1e9c2f2abd4165728040a3efcb2ce0eb778874a38205",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            37,
+            632,
+            330,
+            925
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 9336,
+            "frontAlphaPixels": 7819,
+            "backAlphaPixels": 1517,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-07-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      278,
+      873,
+      330,
+      925
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-07-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-08.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-08.webp",
+    "sourceSha256": "c82ddaf570a4d139a26efa1cb29ae957f7931ac477a005aefa2b320744a05422",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.84
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        101,
+        909
+      ],
+      "trimmedSourceSize": [
+        101,
+        909
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-08-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-08-front-mask.png",
+          "sha256": "79f56c776582526d414728a40f2419bbacb85aa06f89470fa97aacd9572abf0a",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          50,
+          646,
+          304,
+          899
+        ],
+        "maskBbox": [
+          50,
+          646,
+          304,
+          899
+        ],
+        "sourceBbox": [
+          50,
+          646,
+          342,
+          937
+        ],
+        "opaquePixels": 7075,
+        "partition": {
+          "sourceAlphaPixels": 9095,
+          "frontAlphaPixels": 7075,
+          "backAlphaPixels": 2020,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -336.58,
+          "openingProjection": 0.0
+        },
+        "sha256": "b8c1f8704840bfff814ae30a9f0e1513e6ec7b66d6f1186dc6cf519a48a05cca",
+        "unpartitionedProof": {
+          "file": "wand-08-unpartitioned.webp",
+          "sha256": "5568fbd7a5eae0b82aaf63836564bc3f622e8306d997830bde9ada82fcb4f3ac",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            50,
+            646,
+            342,
+            937
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 9095,
+            "frontAlphaPixels": 7075,
+            "backAlphaPixels": 2020,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-08-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      275,
+      871,
+      342,
+      937
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-08-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-09.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-09.webp",
+    "sourceSha256": "d4631847099828241e510c20c5a10ed50d6ff2ed255a8712d1227a68dcc4a078",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.87
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        63,
+        933
+      ],
+      "trimmedSourceSize": [
+        63,
+        933
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-09-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-09-front-mask.png",
+          "sha256": "2ace0ea21ca431238b27d9d8b6010e8d24ef532015e0884d6b9fb95936f7313b",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          43,
+          637,
+          298,
+          892
+        ],
+        "maskBbox": [
+          43,
+          637,
+          298,
+          892
+        ],
+        "sourceBbox": [
+          43,
+          637,
+          332,
+          926
+        ],
+        "opaquePixels": 5113,
+        "partition": {
+          "sourceAlphaPixels": 6337,
+          "frontAlphaPixels": 5113,
+          "backAlphaPixels": 1224,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -348.6,
+          "openingProjection": 0.0
+        },
+        "sha256": "5ebf24fd8471820f78e44a8970c59c32735064834b7d3d067bce708f782c09aa",
+        "unpartitionedProof": {
+          "file": "wand-09-unpartitioned.webp",
+          "sha256": "32ee5e60b87fb0dc487def193b401998cc757ed9e5160071e14abcc8a5a1f52d",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            43,
+            637,
+            332,
+            926
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 6337,
+            "frontAlphaPixels": 5113,
+            "backAlphaPixels": 1224,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-09-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      281,
+      876,
+      332,
+      926
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-09-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-10.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-10.webp",
+    "sourceSha256": "b17d74868528d8aa2ed694bf6a58f0d48eb4d4a1a20dca55b7fef4b7062a6e4f",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.49056603773584906,
+        0.87
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        54,
+        936
+      ],
+      "trimmedSourceSize": [
+        54,
+        936
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-10-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-10-front-mask.png",
+          "sha256": "d37264e7f3b64e029736fa8fec5b0a6b684c4cd4136f31a69eeac447692401c9",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          43,
+          637,
+          298,
+          892
+        ],
+        "maskBbox": [
+          43,
+          637,
+          298,
+          892
+        ],
+        "sourceBbox": [
+          43,
+          637,
+          331,
+          926
+        ],
+        "opaquePixels": 5995,
+        "partition": {
+          "sourceAlphaPixels": 7179,
+          "frontAlphaPixels": 5995,
+          "backAlphaPixels": 1184,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -348.6,
+          "openingProjection": 0.0
+        },
+        "sha256": "71e90584e3309a95a9464a1369e1ff087dd18363b50f453c4537fe58a71c7c54",
+        "unpartitionedProof": {
+          "file": "wand-10-unpartitioned.webp",
+          "sha256": "c8a5590b416cef1ff2c6e9dee21b009800ab6c6326ac9d99de8b4bb935bba2d8",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            43,
+            637,
+            331,
+            926
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 7179,
+            "frontAlphaPixels": 5995,
+            "backAlphaPixels": 1184,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-10-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      281,
+      876,
+      331,
+      926
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-10-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-11.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-11.webp",
+    "sourceSha256": "1c0446a2d5111ae3bf1f7d712dfee46e7d7157011e2f7301d05a8722af694fa8",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.88
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        65,
+        936
+      ],
+      "trimmedSourceSize": [
+        65,
+        936
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-11-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-11-front-mask.png",
+          "sha256": "2d444f407d7d1605fe27b1ddaaf29e9b2534f0c378aa1c75bd3e11503f7d295a",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          39,
+          634,
+          299,
+          894
+        ],
+        "maskBbox": [
+          39,
+          634,
+          299,
+          894
+        ],
+        "sourceBbox": [
+          39,
+          634,
+          327,
+          922
+        ],
+        "opaquePixels": 6133,
+        "partition": {
+          "sourceAlphaPixels": 7325,
+          "frontAlphaPixels": 6133,
+          "backAlphaPixels": 1192,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -352.85,
+          "openingProjection": 0.0
+        },
+        "sha256": "2c257e2ff003d5f0c4d559c50c71880f67b26220645459e6de364ea9fb410da9",
+        "unpartitionedProof": {
+          "file": "wand-11-unpartitioned.webp",
+          "sha256": "597de2c435454a3609e52ee1a116a7a7df30db8f7e8cebc728db6513a2234a9d",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            39,
+            634,
+            327,
+            922
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 7325,
+            "frontAlphaPixels": 6133,
+            "backAlphaPixels": 1192,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-11-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      280,
+      875,
+      327,
+      922
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-11-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-12.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/wand-12.webp",
+    "sourceSha256": "d544647cf2df6dfc879c9e27fab86c2899bd77ba930d017c1d24912dc67662b2",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.88
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 400,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        66,
+        928
+      ],
+      "trimmedSourceSize": [
+        66,
+        928
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-12-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-12-front-mask.png",
+          "sha256": "bd84a3b7dc9e23baa98d26edf59e975d258a39368e1f681866b40b6d890f8085",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          38,
+          634,
+          299,
+          894
+        ],
+        "maskBbox": [
+          38,
+          634,
+          299,
+          894
+        ],
+        "sourceBbox": [
+          38,
+          634,
+          327,
+          922
+        ],
+        "opaquePixels": 6899,
+        "partition": {
+          "sourceAlphaPixels": 8067,
+          "frontAlphaPixels": 6899,
+          "backAlphaPixels": 1168,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -352.85,
+          "openingProjection": 0.0
+        },
+        "sha256": "ccfc9ac209bc745852b259a6b4de543f830dcc6a5fa06d70f22e84d1f26fc04b",
+        "unpartitionedProof": {
+          "file": "wand-12-unpartitioned.webp",
+          "sha256": "28d800af72d50c492ecb3afa6ec32bfb5caa71a0b8b1536533a271a8e98087b1",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            38,
+            634,
+            327,
+            922
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 8067,
+            "frontAlphaPixels": 6899,
+            "backAlphaPixels": 1168,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-12-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      280,
+      875,
+      327,
+      922
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-12-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wand-base.webp": {
+    "source": "scripts/art-sources/plain-starters/wand-base.png",
+    "sourceSha256": "a991a624d4d9c1694773741669c819db19cf7615435a04ecba45c9d36f819530",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "front-prop-before-hand",
+      "targetGripStart": [
+        289,
+        884
+      ],
+      "targetGripMeaning": "solid handle centre at the viewer-left thumb/index webbing",
+      "openingReference": {
+        "center": [
+          289,
+          884
+        ],
+        "bounds": [
+          270,
+          862,
+          312,
+          898
+        ],
+        "measuredFrom": "hands-base.webp and gloves/gloves-01..12.webp"
+      },
+      "sourceGripAnchor": [
+        0.5,
+        0.9
+      ],
+      "sourceGripMeaning": "measured graspable handle centre before orientation",
+      "sourceOrientationDegrees": 0,
+      "fitTable": "candidate-bottom-handle-v1",
+      "rotationDegrees": 45,
+      "height": 310,
+      "forearmOverlapPixels": 0,
+      "shaftPixelsErased": 0,
+      "sourceSize": [
+        70,
+        922
+      ],
+      "trimmedSourceSize": [
+        69,
+        922
+      ],
+      "shaftDirection": "viewer-left/upward from thumb-side crease",
+      "frontLayer": {
+        "file": "wand-base-front.webp",
+        "layer": "front-prop-after-hand",
+        "mask": {
+          "file": "wand-base-front-mask.png",
+          "sha256": "cbce5346c528e80799aa7789133c4e7d94b261af8e1403ee95df3daeda02cb34",
+          "type": "tip-to-thumb-index-half-plane",
+          "openingCenter": [
+            289,
+            884
+          ],
+          "openingEndpoint": [
+            289,
+            884
+          ],
+          "openingBounds": [
+            270,
+            862,
+            312,
+            898
+          ],
+          "tipDirection": [
+            -0.707107,
+            -0.707107
+          ],
+          "openingBoundary": [
+            [
+              -435.08,
+              1608.08
+            ],
+            [
+              1013.08,
+              159.92
+            ]
+          ],
+          "sourceAlphaOnly": true,
+          "description": "Original wand pixels from the authored tip through the upper hand terminate at the measured thumb/index opening; the opposite handle side remains behind the fingers."
+        },
+        "bbox": [
+          91,
+          685,
+          298,
+          892
+        ],
+        "maskBbox": [
+          91,
+          685,
+          298,
+          892
+        ],
+        "sourceBbox": [
+          91,
+          685,
+          315,
+          909
+        ],
+        "opaquePixels": 3657,
+        "partition": {
+          "sourceAlphaPixels": 4304,
+          "frontAlphaPixels": 3657,
+          "backAlphaPixels": 647,
+          "frontPlusBackAlphaEqualsSource": true,
+          "tipProjection": -280.01,
+          "openingProjection": 0.0
+        },
+        "sha256": "0ea0d821087b65432087bb19f55c0ec83ce27a4f5a9eddf9c3d89ff834a6e66f",
+        "unpartitionedProof": {
+          "file": "wand-base-unpartitioned.webp",
+          "sha256": "8986e67d6f101b8d55604989b94128028af7de516fbc2884d43a41e301f858e0",
+          "size": [
+            1024,
+            1536
+          ],
+          "bbox": [
+            91,
+            685,
+            315,
+            909
+          ],
+          "composition": "original mounted object before the front/back split",
+          "alphaPartitionProof": {
+            "sourceAlphaPixels": 4304,
+            "frontAlphaPixels": 3657,
+            "backAlphaPixels": 647,
+            "frontPlusBackAlphaEqualsSource": true
+          }
+        }
+      },
+      "placement": {
+        "x": 0,
+        "y": 0
+      },
+      "gripLayer": {
+        "file": "wand-base-front.webp",
+        "x": 0,
+        "y": 0
+      }
+    },
+    "bbox": [
+      281,
+      876,
+      315,
+      909
+    ],
+    "placement": {
+      "x": 0,
+      "y": 0
+    },
+    "gripLayer": {
+      "file": "wand-base-front.webp",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "broom-01.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-01.webp",
+    "sourceSha256": "08bc74eeef5a8ec16197a1decb1ae12ab4f2985841cf0866ee9cdce4f011ab2c",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.708
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        352.44,
+        1121.86
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        140.31,
+        1471.46
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "straight-wood",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 327.14,
+      "mountedPathLengthPixels": 408.93,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          55,
+          253,
+          856,
+          1511
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        206,
+        963
+      ],
+      "trimmedSourceSize": [
+        206,
+        963
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      55,
+      253,
+      856,
+      1511
+    ]
+  },
+  "broom-02.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-02.webp",
+    "sourceSha256": "9a4805958993349842ad55a78bb9f4e7ea076ce8a05c00a45a542b02101dfa15",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.61
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        413.01,
+        998.56
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        141.16,
+        1471.95
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "bundled-reed",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 436.72,
+      "mountedPathLengthPixels": 545.9,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          86,
+          256,
+          852,
+          1490
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        117,
+        949
+      ],
+      "trimmedSourceSize": [
+        117,
+        949
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      86,
+      256,
+      852,
+      1490
+    ]
+  },
+  "broom-03.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-03.webp",
+    "sourceSha256": "9d1445cdf98ec81d3e90cdb87cc4400eba0d873f0c391e5acce472ee4844e378",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.584
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        431.05,
+        966.41
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        841.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        137.43,
+        1469.22
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "banded-wood",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 465.81,
+      "mountedPathLengthPixels": 582.27,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        1,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          6,
+          255,
+          857,
+          1528
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        251,
+        953
+      ],
+      "trimmedSourceSize": [
+        251,
+        953
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      6,
+      255,
+      857,
+      1528
+    ]
+  },
+  "broom-04.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-04.webp",
+    "sourceSha256": "6ec2681cdeebb8d373210d459917f4dd6c3d850df90947c050f20f58d05ecf32",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.713
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        391.79,
+        1097.46
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        894.0,
+        236.0
+      ],
+      "predictedBristleBottom": [
+        185.08,
+        1442.13
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "wide-band-reinforced",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 321.53,
+      "mountedPathLengthPixels": 401.91,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        54,
+        -24
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          6,
+          231,
+          908,
+          1530
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        320,
+        948
+      ],
+      "trimmedSourceSize": [
+        320,
+        948
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      6,
+      231,
+      908,
+      1530
+    ]
+  },
+  "broom-05.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-05.webp",
+    "sourceSha256": "dcac69b13a05845d5754bf7f212a634213bf6ab20e3cac73aab798b606fee6c1",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.592
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        434.74,
+        982.04
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        145.42,
+        1474.41
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "bent-wood",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 456.87,
+      "mountedPathLengthPixels": 571.08,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          75,
+          256,
+          851,
+          1501
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        178,
+        956
+      ],
+      "trimmedSourceSize": [
+        178,
+        956
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      75,
+      256,
+      851,
+      1501
+    ]
+  },
+  "broom-06.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-06.webp",
+    "sourceSha256": "1be8bf795e9588220978a809bfe9b1cdfa8e0ddfce947496a5f8205f91f0a5f9",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.593
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        425.77,
+        978.5
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        151.56,
+        1477.95
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "metal-collar",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 455.82,
+      "mountedPathLengthPixels": 569.78,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          39,
+          253,
+          864,
+          1512
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        223,
+        981
+      ],
+      "trimmedSourceSize": [
+        223,
+        981
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      39,
+      253,
+      864,
+      1512
+    ]
+  },
+  "broom-07.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-07.webp",
+    "sourceSha256": "b33baea00de5539ed3ca871b3ce253261785717acc9585f68ed1758bf289f1f7",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.69
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        357.39,
+        1095.65
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        145.16,
+        1474.26
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "carved-wood",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 347.23,
+      "mountedPathLengthPixels": 434.04,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          59,
+          254,
+          858,
+          1506
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        170,
+        959
+      ],
+      "trimmedSourceSize": [
+        170,
+        959
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      59,
+      254,
+      858,
+      1506
+    ]
+  },
+  "broom-08.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-08.webp",
+    "sourceSha256": "6e1286e8984b56b4a537d259cf34d30448e1174a4d349abaebd431f30a00a817",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.504
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        484.95,
+        868.92
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        128.63,
+        1464.72
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "triangular-braced",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 555.37,
+      "mountedPathLengthPixels": 694.21,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          7,
+          254,
+          859,
+          1527
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        248,
+        966
+      ],
+      "trimmedSourceSize": [
+        248,
+        966
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      7,
+      254,
+      859,
+      1527
+    ]
+  },
+  "broom-09.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-09.webp",
+    "sourceSha256": "dfe1dacf151bf324c532c96d90558135591986cdb8bd0fd4fc46f8e1b690ef9e",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.66
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        378.13,
+        1059.19
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        136.39,
+        1469.2
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "metal-collared",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 380.77,
+      "mountedPathLengthPixels": 475.96,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          31,
+          253,
+          861,
+          1515
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        220,
+        982
+      ],
+      "trimmedSourceSize": [
+        220,
+        982
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      31,
+      253,
+      861,
+      1515
+    ]
+  },
+  "broom-10.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-10.webp",
+    "sourceSha256": "8d572adbc7f93020cbd5f61f5849456e1bd230d9be9bf847c63f72e1812d4a95",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.557
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        451.15,
+        935.01
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        135.59,
+        1468.73
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "wrapped-collar",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 496.02,
+      "mountedPathLengthPixels": 620.03,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          21,
+          254,
+          860,
+          1518
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        246,
+        980
+      ],
+      "trimmedSourceSize": [
+        246,
+        980
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      21,
+      254,
+      860,
+      1518
+    ]
+  },
+  "broom-11.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-11.webp",
+    "sourceSha256": "1f09cf5384b81cc65c85ac0d574e42b92adc92d82464e37e5384184b055cde2c",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.67
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        374.78,
+        1073.41
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        149.07,
+        1476.52
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "sleeved-shaft",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 369.6,
+      "mountedPathLengthPixels": 462.0,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          9,
+          251,
+          864,
+          1527
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        262,
+        982
+      ],
+      "trimmedSourceSize": [
+        262,
+        982
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      9,
+      251,
+      864,
+      1527
+    ]
+  },
+  "broom-12.webp": {
+    "source": "scripts/art-sources/field-wardrobe/designs/broom-12.webp",
+    "sourceSha256": "187eca26ed3442b221911c9287d07642f9ac19f5ee2c7bf2fc0e6b04b14e9bd3",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.638
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        398.54,
+        1032.88
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        841.0,
+        258.0
+      ],
+      "predictedBristleBottom": [
+        151.09,
+        1475.11
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "reinforced-head",
+      "rotationDegrees": -30,
+      "height": 1400,
+      "baseHeight": 1120,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 405.4,
+      "mountedPathLengthPixels": 506.75,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        1,
+        -2
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          6,
+          251,
+          865,
+          1530
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        286,
+        985
+      ],
+      "trimmedSourceSize": [
+        286,
+        985
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      6,
+      251,
+      865,
+      1530
+    ]
+  },
+  "broom-base.webp": {
+    "source": "scripts/art-sources/starter-props/clean-broom.webp",
+    "sourceSha256": "35f77e90d63265bbeff6fd605207b58a4b7006a557c8f393e0a19f2a33d73ded",
+    "method": "rigid registration of isolated OpenAI product artwork; no anatomy pixels",
+    "transform": {
+      "layer": "back-prop-before-body",
+      "sourceJunctionAnchor": [
+        0.5,
+        0.62
+      ],
+      "junctionMeaning": "measured handle/bristle transition; product proportions preserved",
+      "junctionTarget": [
+        439.09,
+        1029.83
+      ],
+      "requestedHandleTipTarget": [
+        840,
+        260
+      ],
+      "handleTipTarget": [
+        840.0,
+        260.0
+      ],
+      "predictedBristleBottom": [
+        143.6,
+        1453.75
+      ],
+      "bristleDirection": "bottom-left/viewer-left",
+      "handleDirection": "top-right/viewer-right above shoulder",
+      "handleShape": "curved-starter",
+      "rotationDegrees": -43,
+      "height": 1350,
+      "baseHeight": 1080,
+      "lengthScale": 1.25,
+      "basePathLengthPixels": 413.39,
+      "mountedPathLengthPixels": 516.74,
+      "mountedPathLengthRatio": 1.25,
+      "aspectRatioPreserved": true,
+      "viewportOffset": [
+        0,
+        0
+      ],
+      "viewport": {
+        "size": [
+          1024,
+          1536
+        ],
+        "renderPadding": 512,
+        "bbox": [
+          123,
+          255,
+          850,
+          1523
+        ],
+        "opaqueEdgePixels": 0,
+        "cropped": false
+      },
+      "sourceSize": [
+        570,
+        1499
+      ],
+      "trimmedSourceSize": [
+        569,
+        1498
+      ],
+      "handWidthConstraint": "none; back-carry prop"
+    },
+    "bbox": [
+      123,
+      255,
+      850,
+      1523
+    ]
+  }
+}

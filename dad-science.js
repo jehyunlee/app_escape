@@ -8,9 +8,8 @@ const articleById = new Map(
 );
 
 const questionSpecs = [
-  // Penicillin, passage 1
   {
-    id: "dad-science-001",
+    id: "dad-science-v2-001",
     passageId: "science-penicillin-p1",
     prompt: "What is the passage's main description of penicillins?",
     options: [
@@ -25,56 +24,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-002",
-    passageId: "science-penicillin-p1",
-    prompt:
-      "Which production sequence does the passage associate with most penicillins used clinically?",
-    options: [
-      "They are grown in shallow cultures and used without purification.",
-      "They are made by P. chrysogenum through deep-tank fermentation, then purified.",
-      "They are obtained from P. rubens by fermentation but not purified.",
-      "They are synthesized directly from bacterial cultures in sealed tanks.",
-    ],
-    answer: 1,
-    explanation:
-      "지문은 임상용 페니실린 대부분이 P. chrysogenum의 심층 탱크 발효 뒤 정제되는 순서라고 설명합니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-003",
-    passageId: "science-penicillin-p1",
-    prompt:
-      "What contrast does the passage draw about natural penicillins and clinical use?",
-    options: [
-      "Only penicillin G has been discovered as a natural compound.",
-      "All natural penicillins are purified and given by mouth.",
-      "Only G and V are purified natural penicillins in clinical use.",
-      "Every natural penicillin is used clinically if it treats bacteria.",
-    ],
-    answer: 2,
-    explanation:
-      "지문은 천연 페니실린이 여러 개 발견되었지만 임상적으로 쓰이는 정제 화합물은 G와 V 두 가지라고 대비합니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-004",
-    passageId: "science-penicillin-p1",
-    prompt:
-      "What development is implied by the final sentence of this passage?",
-    options: [
-      "Resistance disappeared because current use is limited to two compounds.",
-      "Penicillin remains useful, and extensive use has removed bacterial resistance.",
-      "Only staphylococci and streptococci developed resistance after first use.",
-      "It remains widely used, but extensive use has led many bacteria to develop resistance.",
-    ],
-    answer: 3,
-    explanation:
-      "마지막 문장은 페니실린이 여전히 널리 쓰이지만 많은 세균이 과도한 사용 뒤 내성을 갖게 되었다고 말합니다.",
-    difficulty: 2,
-  },
-  // Penicillin, passage 2
-  {
-    id: "dad-science-005",
+    id: "dad-science-v2-002",
     passageId: "science-penicillin-p2",
     prompt: "Which event begins the sequence of penicillin work described?",
     options: [
@@ -89,55 +39,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-006",
-    passageId: "science-penicillin-p2",
-    prompt:
-      "Which event occurred before the purified compound was isolated in 1940?",
-    options: [
-      "Fleming treated meningitis with purified penicillin in 1942.",
-      "Cecil George Paine successfully treated neonatal conjunctivitis in 1930.",
-      "The Oxford team isolated penicillin F in 1940.",
-      "The three researchers received Nobel recognition in 1945.",
-    ],
-    answer: 1,
-    explanation:
-      "1930년 Paine의 신생아 결막염 치료가 1940년 정제 화합물 분리보다 먼저 일어났습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-007",
-    passageId: "science-penicillin-p2",
-    prompt: "How did the Oxford team advance Fleming’s earlier discovery?",
-    options: [
-      "It first produced a crude P. rubens extract for Fleming in 1928.",
-      "It treated neonatal conjunctivitis before any compound was isolated.",
-      "It isolated the purified compound penicillin F in 1940.",
-      "It shared the 1945 Nobel Prize as the complete research team.",
-    ],
-    answer: 2,
-    explanation:
-      "Fleming의 조추출물 발견 뒤 Oxford 팀은 1940년에 정제된 penicillin F를 분리해 다음 단계를 맡았습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-008",
-    passageId: "science-penicillin-p2",
-    prompt:
-      "What does the shared Nobel recognition imply about credit for the work?",
-    options: [
-      "The Nobel Prize went to Fleming in 1928 for the crude extract.",
-      "The 1945 prize recognized Paine’s eye treatment alone.",
-      "Only Florey and Chain received the prize for isolation.",
-      "Chain, Fleming, and Florey were jointly recognized in 1945.",
-    ],
-    answer: 3,
-    explanation:
-      "지문은 1945년 상을 Chain, Fleming, Florey가 함께 받았다고 하므로 공로를 공동으로 인정했음을 뜻합니다.",
-    difficulty: 2,
-  },
-  // X-ray, passage 1
-  {
-    id: "dad-science-009",
+    id: "dad-science-v2-003",
     passageId: "science-x-ray-p1",
     prompt:
       "Where does X-ray wavelength fall in the electromagnetic spectrum described?",
@@ -153,55 +55,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-010",
-    passageId: "science-x-ray-p1",
-    prompt:
-      "Which pair gives the approximate wavelength range stated for X-rays?",
-    options: [
-      "10 picometres to 10 femtometres",
-      "10 nanometres to 10 picometres",
-      "10 micrometres to 10 nanometres",
-      "10 femtometres to 10 picometres",
-    ],
-    answer: 1,
-    explanation:
-      "지문은 X선의 대략적인 파장 범위를 10 나노미터에서 10 피코미터라고 제시합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-011",
-    passageId: "science-x-ray-p1",
-    prompt:
-      "What does the passage connect to the stated X-ray wavelength range?",
-    options: [
-      "The wavelength range is connected to the age and source of X-rays.",
-      "The wavelength range is connected only to X-ray medical uses.",
-      "Corresponding frequency and photon-energy ranges.",
-      "The wavelength range is connected to chemical elements but not energy.",
-    ],
-    answer: 2,
-    explanation:
-      "파장 범위에 대응하는 주파수와 광자 에너지 범위가 함께 제시됩니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-012",
-    passageId: "science-x-ray-p1",
-    prompt: "Why does the passage give both wavelengths and frequencies?",
-    options: [
-      "To substitute photon energy for wavelength without giving a related measure.",
-      "To show wavelength and frequency vary independently for X-rays.",
-      "To compare X-rays with visible light by medical effect.",
-      "To describe the same radiation with related wavelength, frequency, and energy ranges.",
-    ],
-    answer: 3,
-    explanation:
-      "지문은 하나의 X선 범위를 파장과 그에 대응하는 주파수·에너지라는 여러 물리량으로 설명합니다.",
-    difficulty: 2,
-  },
-  // X-ray, passage 2
-  {
-    id: "dad-science-013",
+    id: "dad-science-v2-004",
     passageId: "science-x-ray-p2",
     prompt:
       "What use follows from X-rays penetrating solid materials and living tissue?",
@@ -217,55 +71,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-014",
-    passageId: "science-x-ray-p2",
-    prompt:
-      "Why are both living tissue and construction materials mentioned in the radiography sentence?",
-    options: [
-      "They show that X-rays are limited to biological tissue.",
-      "They illustrate two application areas made possible by penetration.",
-      "They show that materials science uses X-rays only for cancer treatment.",
-      "They imply construction materials absorb all X-rays before imaging.",
-    ],
-    answer: 1,
-    explanation:
-      "지문은 조직의 의료 진단과 건설 재료의 약점 탐지라는 두 응용을 X선의 침투성과 연결합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-015",
-    passageId: "science-x-ray-p2",
-    prompt: "What health concern does the passage attach to X-ray exposure?",
-    options: [
-      "Exposure weakens construction materials but has no health effect stated in the passage.",
-      "Exposure is harmless whenever radiography is used for routine medical diagnosis.",
-      "It can damage DNA and cause cancer; high intensities can cause burns or radiation sickness.",
-      "Exposure makes the radiation non-ionizing once it enters living tissue.",
-    ],
-    answer: 2,
-    explanation:
-      "X선은 이온화 방사선이므로 노출이 DNA 손상과 암을 일으킬 수 있고, 강도가 높으면 화상과 방사선병도 일으킬 수 있습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-016",
-    passageId: "science-x-ray-p2",
-    prompt:
-      "What does the final sentence imply about X-ray generation and use?",
-    options: [
-      "Public-health authorities leave both unrestricted because the benefits remove all risk.",
-      "Only medical use is controlled; materials-science use is excluded.",
-      "The passage recommends banning every use because any exposure is fatal.",
-      "Public-health authorities strictly control generation and use because exposure can be hazardous.",
-    ],
-    answer: 3,
-    explanation:
-      "앞에서 노출의 건강 위험을 설명한 뒤, 지문은 공중보건 당국이 X선의 생성과 사용을 엄격히 통제한다고 말합니다.",
-    difficulty: 2,
-  },
-  // Smallpox vaccine, passage 1
-  {
-    id: "dad-science-017",
+    id: "dad-science-v2-005",
     passageId: "science-smallpox-vaccine-p1",
     prompt: "What did Jenner demonstrate in 1796?",
     options: [
@@ -280,54 +86,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-018",
-    passageId: "science-smallpox-vaccine-p1",
-    prompt: "Why did cowpox serve as a natural vaccine?",
-    options: [
-      "Cowpox caused the deadly disease but was easier to diagnose.",
-      "It granted smallpox immunity while causing a relatively mild infection.",
-      "Cowpox was used because it contained the same species as smallpox.",
-      "Cowpox served as a vaccine only after routine vaccination ended.",
-    ],
-    answer: 1,
-    explanation:
-      "우두는 비교적 온화한 감염이면서 천연두 면역을 제공했기 때문에 천연 백신 역할을 했습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-019",
-    passageId: "science-smallpox-vaccine-p1",
-    prompt: "What result followed the WHO campaign from 1958 to 1977?",
-    options: [
-      "It made cowpox the only human disease eradicated.",
-      "It made routine smallpox vaccination permanent worldwide.",
-      "It eradicated smallpox, the only human disease eradicated.",
-      "It identified the vaccine but left smallpox circulating.",
-    ],
-    answer: 2,
-    explanation:
-      "1958~1977년 WHO 세계 예방접종 캠페인 뒤 천연두가 박멸되었다고 지문은 설명합니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-020",
-    passageId: "science-smallpox-vaccine-p1",
-    prompt:
-      "Why does production continue despite the end of routine public vaccination?",
-    options: [
-      "For routine public vaccination after smallpox had been eradicated.",
-      "For replacing vaccination with public-health surveillance.",
-      "For testing whether natural smallpox can return.",
-      "For research and protection against bioterrorism or biological warfare.",
-    ],
-    answer: 3,
-    explanation:
-      "정기 접종은 끝났지만 연구와 생물테러·생물학전에 대비하려고 백신을 계속 생산합니다.",
-    difficulty: 2,
-  },
-  // Smallpox vaccine, passage 2
-  {
-    id: "dad-science-021",
+    id: "dad-science-v2-006",
     passageId: "science-smallpox-vaccine-p2",
     prompt: "What is the linguistic origin of the term vaccine?",
     options: [
@@ -342,54 +101,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-022",
-    passageId: "science-smallpox-vaccine-p2",
-    prompt: "How did Jenner refer to cowpox?",
-    options: [
-      "As vacciniae variola, or cowpox of the smallpox.",
-      "As variolae vaccinae, or smallpox of the cow.",
-      "As variolae vaccinae, meaning the modern vaccine strain.",
-      "As vaccinia, the modern vaccine name.",
-    ],
-    answer: 1,
-    explanation:
-      "Jenner가 우두를 variolae vaccinae, 즉 소의 천연두라고 불렀다는 내용입니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-023",
-    passageId: "science-smallpox-vaccine-p2",
-    prompt: "What distinction did Downie’s 1939 evidence establish?",
-    options: [
-      "The modern vaccine was identical to every cowpox strain.",
-      "Cowpox was serologically distinct from the modern vaccine.",
-      "The modern smallpox vaccine was serologically distinct from cowpox.",
-      "Whole-genome sequencing had already shown vaccinia was horsepox-related.",
-    ],
-    answer: 2,
-    explanation:
-      "Downie는 1939년에 현대 천연두 백신이 우두와 혈청학적으로 구별된다는 점을 보였습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-024",
-    passageId: "science-smallpox-vaccine-p2",
-    prompt:
-      "What later evidence clarified the relationship between vaccinia and cowpox?",
-    options: [
-      "Serological testing showed vaccinia was closest to every British cowpox strain.",
-      "The 1939 demonstration showed vaccinia was closest to horsepox.",
-      "Whole-genome sequencing showed vaccinia was closest to cowpox.",
-      "Whole-genome sequencing showed vaccinia is most closely related to horsepox.",
-    ],
-    answer: 3,
-    explanation:
-      "전체 유전체 염기서열 분석이 vaccinia가 우두보다 horsepox에 가장 가깝다는 점을 밝혔습니다.",
-    difficulty: 3,
-  },
-  // Plate tectonics, passage 1
-  {
-    id: "dad-science-025",
+    id: "dad-science-v2-007",
     passageId: "science-plate-tectonics-p1",
     prompt: "What does the plate-tectonics theory say has been moving slowly?",
     options: [
@@ -404,54 +116,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-026",
-    passageId: "science-plate-tectonics-p1",
-    prompt: "Which earlier idea helped form the model of plate tectonics?",
-    options: [
-      "The seafloor-spreading idea helped form the plate model.",
-      "Continental drift",
-      "Seafloor spreading was the earlier twentieth-century model.",
-      "The continental-lithosphere model replaced continental drift.",
-    ],
-    answer: 1,
-    explanation:
-      "판 구조론 모델은 20세기 초에 발전한 대륙 이동 개념에 기반한다고 했습니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-027",
-    passageId: "science-plate-tectonics-p1",
-    prompt: "Which later evidence helped geoscientists accept plate tectonics?",
-    options: [
-      "Validation of continental drift in the mid-to-late 1960s.",
-      "Discovery of seafloor spreading in the first years of the twentieth century.",
-      "Validation of seafloor spreading in the mid-to-late 1960s.",
-      "Acceptance of plate tectonics before seafloor spreading was validated.",
-    ],
-    answer: 2,
-    explanation:
-      "1960년대 중후반 해저 확장이 검증된 일이 판 구조론 수용을 도운 증거로 제시됩니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-028",
-    passageId: "science-plate-tectonics-p1",
-    prompt:
-      "Why does the passage mention Greek and Latin roots before defining tectonics?",
-    options: [
-      "To show that Earth’s plates were named by Greek scientists.",
-      "To identify the Latin process that causes all plate motion.",
-      "To prove the theory was accepted when the word was coined.",
-      "To explain tectonics’ roots before defining the theory.",
-    ],
-    answer: 3,
-    explanation:
-      "용어의 그리스어·라틴어 뿌리를 먼저 설명해 tectonics라는 이름의 뜻을 밝힌 뒤 이론을 정의합니다.",
-    difficulty: 2,
-  },
-  // Plate tectonics, passage 2
-  {
-    id: "dad-science-029",
+    id: "dad-science-v2-008",
     passageId: "science-plate-tectonics-p2",
     prompt: "What is Earth's lithosphere described as?",
     options: [
@@ -466,54 +131,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-030",
-    passageId: "science-plate-tectonics-p2",
-    prompt: "What determines the type of plate boundary?",
-    options: [
-      "The absolute age of the plate.",
-      "The relative motion of the plates.",
-      "The number of earthquakes along the boundary.",
-      "The thickness of crust at the boundary.",
-    ],
-    answer: 1,
-    explanation:
-      "판이 서로 상대적으로 어떻게 움직이는지가 수렴·발산·변환 경계의 유형을 결정합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-031",
-    passageId: "science-plate-tectonics-p2",
-    prompt: "What range of annual plate movement is given?",
-    options: [
-      "Zero to 10 millimetres annually.",
-      "Zero to 10 metres annually.",
-      "Zero to 10 centimetres annually.",
-      "Ten to 100 centimetres annually.",
-    ],
-    answer: 2,
-    explanation:
-      "지문은 판의 상대적 이동이 보통 매년 0에서 10센티미터 사이라고 제시합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-032",
-    passageId: "science-plate-tectonics-p2",
-    prompt:
-      "Which set of events is associated with active faults in the passage?",
-    options: [
-      "Earthquakes, volcanic activity, and no mountain-building.",
-      "Mountain-building and trenches, but no earthquakes.",
-      "Only volcanic activity where plates never meet.",
-      "Earthquakes, volcanoes, mountain-building, and oceanic trenches.",
-    ],
-    answer: 3,
-    explanation:
-      "활성 단층은 지진·화산 활동·산맥 형성·해양 해구와 관련된다고 나열됩니다.",
-    difficulty: 2,
-  },
-  // Radioactive decay, passage 1
-  {
-    id: "dad-science-033",
+    id: "dad-science-v2-009",
     passageId: "science-radioactive-decay-p1",
     prompt: "What happens during radioactive decay?",
     options: [
@@ -528,52 +146,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-034",
-    passageId: "science-radioactive-decay-p1",
-    prompt: "What makes a material radioactive in this passage?",
-    options: [
-      "It contains nuclei that are stable but highly energized.",
-      "It contains unstable nuclei.",
-      "It contains only naturally occurring elements.",
-      "It contains radiation but no unstable nuclei.",
-    ],
-    answer: 1,
-    explanation: "불안정한 원자핵을 포함한 물질을 방사성이라고 정의합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-035",
-    passageId: "science-radioactive-decay-p1",
-    prompt: "Which list contains the three common decay types named?",
-    options: [
-      "Alpha, proton, and gamma",
-      "Beta, neutron, and gamma",
-      "Alpha, beta, and gamma",
-      "Alpha, beta, and electromagnetic",
-    ],
-    answer: 2,
-    explanation:
-      "지문에서 가장 흔한 세 붕괴 유형으로 알파·베타·감마를 열거합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-036",
-    passageId: "science-radioactive-decay-p1",
-    prompt: "How does beta decay differ in force from the other two types?",
-    options: [
-      "The weak force governs alpha decay; the nuclear force governs beta and gamma.",
-      "The electromagnetic force governs beta; the weak force governs alpha and gamma.",
-      "All three common decays are governed by the weak force.",
-      "The weak force governs beta; electromagnetic and nuclear forces govern alpha and gamma.",
-    ],
-    answer: 3,
-    explanation:
-      "베타 붕괴는 약한 힘, 나머지 둘은 각각 전자기력과 핵력의 지배를 받는다고 명시합니다.",
-    difficulty: 3,
-  },
-  // Radioactive decay, passage 2
-  {
-    id: "dad-science-037",
+    id: "dad-science-v2-010",
     passageId: "science-radioactive-decay-p2",
     prompt:
       "What can be predicted for a large group even though one atom is unpredictable?",
@@ -589,55 +162,7 @@ const questionSpecs = [
     difficulty: 2,
   },
   {
-    id: "dad-science-038",
-    passageId: "science-radioactive-decay-p2",
-    prompt:
-      "What is impossible according to the passage's quantum description?",
-    options: [
-      "Predicting the overall decay rate of a large sample.",
-      "Predicting when a particular atom will decay.",
-      "Measuring the half-life of an isotope.",
-      "Estimating the range of isotope lifetimes.",
-    ],
-    answer: 1,
-    explanation:
-      "양자 이론에 따르면 특정 원자가 언제 붕괴할지는 그 원자의 나이와 관계없이 예측할 수 없습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-039",
-    passageId: "science-radioactive-decay-p2",
-    prompt: "What does half-life describe in the context of this passage?",
-    options: [
-      "The exact decay moment of one atom.",
-      "The energy released by one daughter nuclide.",
-      "An overall decay timescale for a large population.",
-      "The chemical identity of the parent nucleus.",
-    ],
-    answer: 2,
-    explanation:
-      "반감기는 개별 원자의 순간을 정하는 값이 아니라 많은 동일 원자의 전체 붕괴 속도를 나타내는 척도입니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-040",
-    passageId: "science-radioactive-decay-p2",
-    prompt:
-      "What can be inferred from the passage’s very wide range of half-lives?",
-    options: [
-      "Every isotope can decay from instant to the universe’s age.",
-      "Half-lives differ only slightly around one standard duration.",
-      "Only primordial isotopes have measurable half-lives.",
-      "Isotope half-lives range from nearly instant to longer than the universe’s age.",
-    ],
-    answer: 3,
-    explanation:
-      "반감기는 거의 순간부터 우주 나이보다 훨씬 긴 범위까지라서 동위원소마다 붕괴 시간척도가 크게 다름을 알 수 있습니다.",
-    difficulty: 2,
-  },
-  // Photosynthesis, passage 1
-  {
-    id: "dad-science-041",
+    id: "dad-science-v2-011",
     passageId: "science-photosynthesis-p1",
     prompt: "What energy conversion defines photosynthesis in this passage?",
     options: [
@@ -652,55 +177,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-042",
-    passageId: "science-photosynthesis-p1",
-    prompt: "What is released as a byproduct of oxygenic photosynthesis?",
-    options: [
-      "Nitrogen from splitting atmospheric carbon dioxide.",
-      "Oxygen released when water is split.",
-      "Sulfur from splitting water in oxygenic photosynthesis.",
-      "No byproduct because oxygen is consumed.",
-    ],
-    answer: 1,
-    explanation:
-      "산소성 광합성은 물을 분해할 때 부산물로 산소를 방출한다고 했습니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-043",
-    passageId: "science-photosynthesis-p1",
-    prompt:
-      "Where do photosynthetic organisms store converted chemical energy?",
-    options: [
-      "In bonds of extracellular minerals such as salts.",
-      "In atmospheric oxygen released during the process.",
-      "In bonds of intracellular organic compounds such as sugars.",
-      "In chloroplast membranes rather than organic compounds.",
-    ],
-    answer: 2,
-    explanation:
-      "변환된 에너지는 당·전분·셀룰로스 같은 세포 내 유기 화합물의 결합에 저장됩니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-044",
-    passageId: "science-photosynthesis-p1",
-    prompt:
-      "Why does the passage present photosynthesis as important for complex life?",
-    options: [
-      "It maintains oxygen but supplies little energy for complex life.",
-      "It supplies energy while removing oxygen from the atmosphere.",
-      "It makes oxygen but does not maintain it.",
-      "It helps maintain oxygen and supplies much energy for complex life.",
-    ],
-    answer: 3,
-    explanation:
-      "광합성은 대기 산소를 만들고 유지하며 복잡한 생명에 필요한 생물학적 에너지 대부분을 공급하기 때문에 중요합니다.",
-    difficulty: 2,
-  },
-  // Photosynthesis, passage 2
-  {
-    id: "dad-science-045",
+    id: "dad-science-v2-012",
     passageId: "science-photosynthesis-p2",
     prompt: "What begins the process across the species discussed?",
     options: [
@@ -715,54 +192,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-046",
-    passageId: "science-photosynthesis-p2",
-    prompt: "Where are plant chlorophylls located according to the passage?",
-    options: [
-      "Embedded in the plasma membrane of cyanobacteria.",
-      "Inside chloroplasts, which are abundant in leaf cells.",
-      "Freely dissolved in air spaces around leaves.",
-      "In chloroplasts found mainly in roots rather than leaf cells.",
-    ],
-    answer: 1,
-    explanation:
-      "식물의 엽록소는 잎 세포에 풍부한 엽록체 안에 있다고 지문이 설명합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-047",
-    passageId: "science-photosynthesis-p2",
-    prompt: "What location contrast is made for cyanobacterial pigments?",
-    options: [
-      "They are held in chloroplasts, as in plants.",
-      "They are outside the cell because cyanobacteria lack membranes.",
-      "They are embedded in the plasma membrane.",
-      "They are stored only in leaf-cell chloroplasts.",
-    ],
-    answer: 2,
-    explanation:
-      "식물의 색소가 엽록체에 있는 것과 달리 남세균의 색소는 세포막에 박혀 있다고 했습니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-048",
-    passageId: "science-photosynthesis-p2",
-    prompt:
-      "What are two results of splitting water in light-dependent reactions?",
-    options: [
-      "It consumes oxygen and makes only glucose.",
-      "It produces no gas but stores all energy as chlorophyll.",
-      "It creates NADPH and ATP without releasing oxygen.",
-      "It produces oxygen and supplies hydrogen for creating NADPH and ATP.",
-    ],
-    answer: 3,
-    explanation:
-      "물 분해는 산소 기체를 만들고, 나온 수소는 NADPH와 ATP 생성에 쓰인다고 지문은 설명합니다.",
-    difficulty: 3,
-  },
-  // Antikythera mechanism, passage 1
-  {
-    id: "dad-science-049",
+    id: "dad-science-v2-013",
     passageId: "science-antikythera-mechanism-p1",
     prompt: "What kind of object is the Antikythera mechanism described as?",
     options: [
@@ -777,53 +207,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-050",
-    passageId: "science-antikythera-mechanism-p1",
-    prompt: "What makes the mechanism historically significant?",
-    options: [
-      "It is the oldest known Greek device for modelling lunar motion.",
-      "It is the oldest known example of an analogue computer.",
-      "It is the oldest known astronomical instrument without gears.",
-      "It is the oldest known model of an athletic cycle without astronomy.",
-    ],
-    answer: 1,
-    explanation:
-      "이 장치는 알려진 아날로그 컴퓨터 중 가장 오래된 사례라고 지문에서 강조됩니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-051",
-    passageId: "science-antikythera-mechanism-p1",
-    prompt: "What could the mechanism predict decades in advance?",
-    options: [
-      "The position of the Moon only, but not eclipses.",
-      "Athletic games decades in advance, but not astronomical positions.",
-      "Astronomical positions and eclipses decades in advance.",
-      "The four-year athletic cycle and no astronomical events.",
-    ],
-    answer: 2,
-    explanation:
-      "수십 년 앞의 천문 위치와 일식을 예측하는 데 사용될 수 있었습니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-052",
-    passageId: "science-antikythera-mechanism-p1",
-    prompt: "Besides astronomy, what cycle could it track?",
-    options: [
-      "A two-year cycle of lunar eclipses.",
-      "A four-year cycle of bacterial reproduction.",
-      "A yearly cycle of the instrument’s calibration.",
-      "A four-year athletic-games cycle like an Olympiad.",
-    ],
-    answer: 3,
-    explanation:
-      "천문학 외에도 올림피아드와 비슷한 4년 주기의 운동 경기를 추적할 수 있었습니다.",
-    difficulty: 2,
-  },
-  // Antikythera mechanism, passage 2
-  {
-    id: "dad-science-053",
+    id: "dad-science-v2-014",
     passageId: "science-antikythera-mechanism-p2",
     prompt: "Who led the team that imaged the mechanism’s fragments in 2005?",
     options: [
@@ -838,53 +222,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-054",
-    passageId: "science-antikythera-mechanism-p2",
-    prompt: "What did the 2005 imaging methods allow the team to do?",
-    options: [
-      "Use ordinary photographs to inspect only the outer casing.",
-      "Image inside crust-encased fragments and read faint casing inscriptions.",
-      "Count visible gears without examining the interior.",
-      "Calculate the shipwreck date without scanning the fragments.",
-    ],
-    answer: 1,
-    explanation:
-      "컴퓨터 X선 단층촬영과 고해상도 스캔으로 껍질에 싸인 조각 내부를 보고 바깥 덮개에 있던 희미한 글을 읽을 수 있었습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-055",
-    passageId: "science-antikythera-mechanism-p2",
-    prompt: "What gear count did the scans suggest?",
-    options: [
-      "35 bronze gears, all of them still visible.",
-      "30 meshing gears, with only five still visible.",
-      "35 meshing bronze gears, 30 of which were still visible.",
-      "35 gears made of separate materials, none still visible.",
-    ],
-    answer: 2,
-    explanation:
-      "스캔은 맞물린 청동 톱니가 35개였고 그중 30개가 여전히 보인다고 시사했습니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-056",
-    passageId: "science-antikythera-mechanism-p2",
-    prompt: "Which pair of astronomical tasks did the visible gears enable?",
-    options: [
-      "They followed only the Sun and ignored eclipses.",
-      "They predicted eclipses but treated the Moon’s orbit as regular.",
-      "They modelled the Moon’s orbit but did not follow solar movement.",
-      "They predicted eclipses and modelled the Moon’s irregular orbit.",
-    ],
-    answer: 3,
-    explanation:
-      "톱니들은 일식을 예측하고 달의 불규칙한 궤도를 모형화하게 했습니다.",
-    difficulty: 2,
-  },
-  // DNA, passage 1
-  {
-    id: "dad-science-057",
+    id: "dad-science-v2-015",
     passageId: "science-dna-p1",
     prompt: "What shape do the two DNA polynucleotide chains form?",
     options: [
@@ -899,54 +237,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-058",
-    passageId: "science-dna-p1",
-    prompt: "What kind of information does DNA carry?",
-    options: [
-      "Genetic instructions only for reproduction and no cell function.",
-      "Genetic instructions for growth, function, development, and reproduction.",
-      "Instructions for cell function but not growth or development.",
-      "Instructions for organisms, while viruses are excluded.",
-    ],
-    answer: 1,
-    explanation:
-      "지문은 DNA가 생물과 많은 바이러스의 발달·기능·성장·번식에 관한 유전 지침을 운반한다고 합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-059",
-    passageId: "science-dna-p1",
-    prompt: "How does the passage classify DNA and RNA?",
-    options: [
-      "As proteins that store genetic instructions.",
-      "As lipids alongside the other macromolecules.",
-      "As nucleic acids.",
-      "As carbohydrates that form chromosome backbones.",
-    ],
-    answer: 2,
-    explanation:
-      "DNA와 RNA는 핵산이며, 네 가지 주요 생체 거대분자 유형 가운데 하나라고 설명됩니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-060",
-    passageId: "science-dna-p1",
-    prompt:
-      "What does the list of major macromolecules emphasize about DNA and RNA?",
-    options: [
-      "They list three macromolecule types, with nucleic acids omitted.",
-      "They show that only nucleic acids are essential to life.",
-      "They classify DNA as a complex carbohydrate.",
-      "They identify four macromolecule types essential to all known life.",
-    ],
-    answer: 3,
-    explanation:
-      "목록은 DNA와 RNA를 단백질·지질·복합 탄수화물과 함께 생명에 필수적인 네 거대분자 유형 중 하나로 놓습니다.",
-    difficulty: 2,
-  },
-  // DNA, passage 2
-  {
-    id: "dad-science-061",
+    id: "dad-science-v2-016",
     passageId: "science-dna-p2",
     prompt: "What are the repeating units that compose each DNA strand?",
     options: [
@@ -961,52 +252,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-062",
-    passageId: "science-dna-p2",
-    prompt: "Which base pairing is stated in the passage?",
-    options: [
-      "A with C and G with T",
-      "A with T and C with G",
-      "A with U and C with G",
-      "T with C and A with G",
-    ],
-    answer: 1,
-    explanation: "지문은 DNA의 염기쌍 규칙을 A-T, C-G로 제시합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-063",
-    passageId: "science-dna-p2",
-    prompt: "What forms the alternating backbone of a DNA strand?",
-    options: [
-      "Alternating bases and proteins joined by hydrogen bonds.",
-      "Two sugars linked directly without phosphate groups.",
-      "Sugar and phosphate alternate through phosphodiester links.",
-      "A single chain of nitrogenous bases linked to lipids.",
-    ],
-    answer: 2,
-    explanation:
-      "당과 인산이 인접 뉴클레오타이드 사이의 인산다이에스터 결합으로 번갈아 이어져 골격을 만듭니다.",
-    difficulty: 3,
-  },
-  {
-    id: "dad-science-064",
-    passageId: "science-dna-p2",
-    prompt: "How are the two groups of DNA bases distinguished?",
-    options: [
-      "Pyrimidines have two rings; purines have one.",
-      "Both groups have one ring, differing only in base color.",
-      "Pyrimidines and purines are separated by their strand direction.",
-      "Pyrimidines have one ring, whereas purines have two rings.",
-    ],
-    answer: 3,
-    explanation:
-      "피리미딘은 단일 고리, 퓨린은 이중 고리라는 구조 차이로 두 그룹을 구분합니다.",
-    difficulty: 3,
-  },
-  // CRISPR, passage 1
-  {
-    id: "dad-science-065",
+    id: "dad-science-v2-017",
     passageId: "science-crispr-p1",
     prompt: "Where are CRISPR sequences found according to the passage?",
     options: [
@@ -1021,55 +267,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-066",
-    passageId: "science-crispr-p1",
-    prompt:
-      "Where does each sequence within an individual prokaryotic CRISPR come from?",
-    options: [
-      "A DNA fragment created by the prokaryote after infection.",
-      "A DNA fragment from a bacteriophage that infected it or an ancestor.",
-      "A DNA fragment from an organism that never infected the lineage.",
-      "A repeated sequence copied from a host chromosome.",
-    ],
-    answer: 1,
-    explanation:
-      "각 서열은 해당 원핵생물이나 조상을 감염시킨 박테리오파지의 DNA 조각에서 유래합니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-067",
-    passageId: "science-crispr-p1",
-    prompt: "How do CRISPR sequences help during later infections?",
-    options: [
-      "They recognize similar phage DNA but leave it intact.",
-      "They destroy the prokaryote’s own DNA during first infection.",
-      "They detect and destroy DNA from similar bacteriophages.",
-      "They use matching DNA to produce oxygen during infection.",
-    ],
-    answer: 2,
-    explanation:
-      "이전 감염의 서열을 이용해 이후 비슷한 박테리오파지의 DNA를 찾아 파괴합니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-068",
-    passageId: "science-crispr-p1",
-    prompt:
-      "Why does the passage call CRISPR defense both acquired and heritable?",
-    options: [
-      "Because CRISPR sequences are inherited but do not record infection.",
-      "Because every phage is destroyed before it can infect an ancestor.",
-      "Because acquired phage fragments work only in the individual cell.",
-      "Inherited phage fragments support an antiviral defense across generations.",
-    ],
-    answer: 3,
-    explanation:
-      "감염에서 얻은 파지 조각이 항바이러스 방어에 쓰이고 그 서열이 유전될 수 있어 두 성격을 가집니다.",
-    difficulty: 3,
-  },
-  // CRISPR, passage 2
-  {
-    id: "dad-science-069",
+    id: "dad-science-v2-018",
     passageId: "science-crispr-p2",
     prompt: "What does Cas9 use as a guide?",
     options: [
@@ -1084,54 +282,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-070",
-    passageId: "science-crispr-p2",
-    prompt: "What does Cas9 recognize and open?",
-    options: [
-      "All DNA strands regardless of sequence",
-      "Specific DNA strands complementary to the CRISPR sequence",
-      "Specific DNA strands identical rather than complementary to CRISPR",
-      "Only RNA strands inside the cell",
-    ],
-    answer: 1,
-    explanation:
-      "Cas9은 CRISPR 서열에 상보적인 특정 DNA 가닥을 인식하고 열어 줍니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-071",
-    passageId: "science-crispr-p2",
-    prompt:
-      "What technology is based on combining Cas9 enzymes with CRISPR sequences?",
-    options: [
-      "CRISPR-Cas9 gene copying without opening DNA.",
-      "A CRISPR sequence that edits proteins but not genes.",
-      "CRISPR-Cas9 genome editing",
-      "A genome-reading method that cannot edit living organisms.",
-    ],
-    answer: 2,
-    explanation:
-      "Cas9 효소와 CRISPR 서열을 결합하면 생물의 유전자를 편집하는 CRISPR-Cas9 기술이 됩니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-072",
-    passageId: "science-crispr-p2",
-    prompt: "Which range of applications does the passage explicitly include?",
-    options: [
-      "Basic research, clinical treatment, but not biotechnology products.",
-      "Biotechnology products, gene repair, and disease prevention.",
-      "Disease treatment alone after laboratory development.",
-      "Basic research, biotechnological products, and treatment of diseases.",
-    ],
-    answer: 3,
-    explanation:
-      "명시된 적용 범위는 기초 생물학 연구, 생명공학 제품 개발, 질병 치료입니다.",
-    difficulty: 2,
-  },
-  // Germ theory, passage 1
-  {
-    id: "dad-science-073",
+    id: "dad-science-v2-019",
     passageId: "science-germ-theory-of-disease-p1",
     prompt: "What does germ theory explain?",
     options: [
@@ -1146,54 +297,7 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    id: "dad-science-074",
-    passageId: "science-germ-theory-of-disease-p1",
-    prompt: "What can pathogens do inside a host?",
-    options: [
-      "Their growth can cause disease, but reproduction cannot.",
-      "Their growth and reproduction within hosts can cause disease.",
-      "Their reproduction occurs outside hosts and never affects health.",
-      "Their presence always causes disease regardless of growth.",
-    ],
-    answer: 1,
-    explanation:
-      "병원체가 숙주 안에서 성장하고 번식하면 질병을 일으킬 수 있다고 설명합니다.",
-    difficulty: 1,
-  },
-  {
-    id: "dad-science-075",
-    passageId: "science-germ-theory-of-disease-p1",
-    prompt: "Why is the word germ broader than bacteria in this passage?",
-    options: [
-      "It refers only to bacteria and excludes viruses.",
-      "It includes only visible parasites and fungi.",
-      "It includes fungi, viruses, parasites, and other pathogens.",
-      "It refers to any chemical that harms a host.",
-    ],
-    answer: 2,
-    explanation:
-      "germ은 세균뿐 아니라 원생생물·균류·기생충·바이러스·프리온·바이로이드 등도 가리킵니다.",
-    difficulty: 2,
-  },
-  {
-    id: "dad-science-076",
-    passageId: "science-germ-theory-of-disease-p1",
-    prompt:
-      "What other factors can shape disease after a pathogen is involved?",
-    options: [
-      "Environmental factors alone determine whether exposure causes infection.",
-      "Hereditary factors affect severity but not infection.",
-      "Pathogens determine infection and environmental factors have no role.",
-      "Environment and heredity can affect severity or infection as well as the pathogen.",
-    ],
-    answer: 3,
-    explanation:
-      "병원체가 주된 원인이어도 환경과 유전 요인이 질병의 심각도와 노출 뒤 감염 여부에 영향을 줄 수 있습니다.",
-    difficulty: 3,
-  },
-  // Germ theory, passage 2
-  {
-    id: "dad-science-077",
+    id: "dad-science-v2-020",
     passageId: "science-germ-theory-of-disease-p2",
     prompt:
       "How had the position of miasma theory changed by the end of the 1880s, according to the passage?",
@@ -1209,51 +313,917 @@ const questionSpecs = [
     difficulty: 2,
   },
   {
-    id: "dad-science-078",
-    passageId: "science-germ-theory-of-disease-p2",
-    prompt:
-      "What limitation remained even though smallpox vaccination was commonplace?",
-    options: [
-      "They knew how it worked but could not make it common.",
-      "They did not know its mechanism or how to apply it to other diseases.",
-      "They knew how to extend it but not how the vaccine worked.",
-      "They understood its mechanism and applied it to every disease.",
-    ],
+    passageId: "science-penicillin-p3",
+    prompt: "What determines the precise constitution of extracted penicillin?",
     answer: 1,
     explanation:
-      "천연두 접종은 흔했지만 의사들은 그 작동 방식과 다른 질병에 적용하는 방법을 알지 못했습니다.",
+      "지문은 extracted penicillin의 precise constitution이 사용한 Penicillium mould의 species와 배양에 사용한 nutrient media에 달려 있다고 설명합니다.",
     difficulty: 2,
+    id: "dad-science-v2-021",
+    options: [
+      "Only the name of the physician who first observed the mould.",
+      "The species of Penicillium mould and the nutrient media used to culture it.",
+      "The number of clinical doses given to patients.",
+      "The wavelength used to examine the fungus.",
+    ],
   },
   {
-    id: "dad-science-079",
-    passageId: "science-germ-theory-of-disease-p2",
-    prompt:
-      "Which sequence describes the transition from Pasteur’s work to Koch’s extension?",
-    options: [
-      "Pasteur’s work ended when Koch began in the 1850s.",
-      "Koch began in the 1880s before Pasteur’s transitional work.",
-      "Pasteur began work in the late 1850s; Koch later extended it in the 1880s.",
-      "The transition began with Jenner’s smallpox vaccination.",
-    ],
+    passageId: "science-penicillin-p4",
+    prompt: "How was the strain used to manufacture penicillin G improved?",
     answer: 2,
     explanation:
-      "전환기는 1850년대 후반 Pasteur의 연구로 시작되고 1880년대 Koch의 연구로 확장되었다고 제시됩니다.",
+      "지문은 오늘날 penicillin G 제조에 쓰이는 곰팡이 균주가 제조 과정의 수율을 높이도록 genetic engineering으로 만들어졌다고 말합니다.",
     difficulty: 2,
+    id: "dad-science-v2-022",
+    options: [
+      "It was selected because all other natural penicillins were already in clinical use.",
+      "It was changed by adding phenoxyacetic acid during every culture.",
+      "It was created by genetic engineering to improve the yield in the manufacturing process.",
+      "It was replaced with a strain that produces only penicillin V.",
+    ],
   },
   {
-    id: "dad-science-080",
-    passageId: "science-germ-theory-of-disease-p2",
-    prompt: "What development marked the “golden era” of bacteriology?",
-    options: [
-      "It quickly identified organisms but weakened germ theory.",
-      "It identified causes of many diseases only after miasma theory became dominant.",
-      "It identified pathogens but not the organisms causing disease.",
-      "Germ theory quickly led to identifying organisms that cause many diseases.",
-    ],
+    passageId: "science-penicillin-p5",
+    prompt: "Why is penicillin G given by injection rather than by mouth?",
     answer: 3,
     explanation:
-      "세균설이 많은 질병의 실제 원인 생물을 빠르게 밝혀낸 시기가 세균학의 ‘황금시대’였습니다.",
+      "지문은 stomach acid가 penicillin G를 파괴하므로 입으로 먹을 수 없고 intravenous or intramuscular injection으로 투여한다고 설명합니다.",
     difficulty: 2,
+    id: "dad-science-v2-023",
+    options: [
+      "It is absorbed only when mixed with penicillin V.",
+      "Its side chain prevents it from entering the bloodstream.",
+      "It is intended only for diseases requiring low blood levels.",
+      "Stomach acid destroys it, so it is administered intravenously or intramuscularly.",
+    ],
+  },
+  {
+    passageId: "science-penicillin-p6",
+    prompt:
+      "What treatment choice does the passage associate with widespread penicillin resistance?",
+    answer: 1,
+    explanation:
+      "지문은 penicillin resistance가 흔해졌기 때문에 other antibiotics가 치료에서 선호된다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-024",
+    options: [
+      "Penicillin is always preferred as the first-line treatment.",
+      "Other antibiotics are now the preferred choice for treatments.",
+      "Only topical antiseptics should be used for every infection.",
+      "Penicillin should be used without checking susceptibility.",
+    ],
+  },
+  {
+    passageId: "science-penicillin-p7",
+    prompt: "How does penicillin kill bacteria according to the passage?",
+    answer: 2,
+    explanation:
+      "지문은 penicillin이 peptidoglycan 합성의 완성을 막아 세포벽을 약화시키고 cell lysis와 death에 이르게 한다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-025",
+    options: [
+      "It increases peptidoglycan cross-linking until the wall becomes rigid.",
+      "It removes water from the cell by strengthening its osmotic gradient.",
+      "It blocks peptidoglycan synthesis, weakens the cell wall, and leads to lysis and death.",
+      "It prevents bacteria from forming any β-lactam ring.",
+    ],
+  },
+  {
+    passageId: "science-penicillin-p8",
+    prompt:
+      "Under what production condition does Penicillium rubens make penicillin as a secondary metabolite?",
+    answer: 3,
+    explanation:
+      "지문은 Penicillium rubens가 sugar fermentation 중 곰팡이의 성장이 stress로 억제되면 penicillin을 secondary metabolite로 만든다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-026",
+    options: [
+      "When the fungus grows without any stress in pure water.",
+      "When all feedback from l-lysine is removed from the pathway.",
+      "When penicillin is produced directly by human cells.",
+      "During sugar fermentation when growth of the fungus is inhibited by stress.",
+    ],
+  },
+  {
+    passageId: "science-x-ray-p3",
+    prompt: "What did Wilhelm Röntgen do on 8 November 1895?",
+    answer: 1,
+    explanation:
+      "지문은 1895년 11월 8일 Röntgen이 Lenard tubes와 Crookes tubes를 실험하다 X-rays를 발견했다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-027",
+    options: [
+      "He named a known type of radiation after the Greek letter Chi.",
+      "He discovered X-rays while experimenting with Lenard tubes and Crookes tubes.",
+      "He first used X-rays in a surgical operation in Birmingham.",
+      "He received the Nobel Prize before writing any report.",
+    ],
+  },
+  {
+    passageId: "science-x-ray-p4",
+    prompt:
+      "What happened in North America through February after Röntgen’s report?",
+    answer: 2,
+    explanation:
+      "지문은 2월까지 North America에서 46 experimenters가 그 기법을 받아들였다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-028",
+    options: [
+      "No one attempted to make an X-ray photograph.",
+      "Only Röntgen continued the technique in Europe.",
+      "Forty-six experimenters took up the technique.",
+      "The technique was restricted to crystallography.",
+    ],
+  },
+  {
+    passageId: "science-x-ray-p5",
+    prompt: "Which description matches hard X-rays in the passage?",
+    answer: 3,
+    explanation:
+      "지문은 hard X-rays를 높은 photon energies와 연결하고 penetrating ability 때문에 물체 내부 촬영에 널리 쓴다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-029",
+    options: [
+      "They have lower photon energies and longer wavelengths than soft X-rays.",
+      "They are easily absorbed in air and cannot image inside objects.",
+      "They are defined only by their use in crystal structures.",
+      "They have higher photon energies, penetrate objects, and are used for internal imaging.",
+    ],
+  },
+  {
+    passageId: "science-x-ray-p6",
+    prompt: "Which three interactions with matter are listed for X-rays?",
+    answer: 1,
+    explanation:
+      "지문은 X-rays와 matter의 상호작용으로 photoabsorption, Compton scattering, Rayleigh scattering을 나열합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-030",
+    options: [
+      "Refraction, combustion, and magnetic induction.",
+      "Photoabsorption, Compton scattering, and Rayleigh scattering.",
+      "Nuclear fission, osmosis, and fluorescence only.",
+      "Reflection, evaporation, and gravitational capture.",
+    ],
+  },
+  {
+    passageId: "science-x-ray-p7",
+    prompt: "How does an X-ray tube generate X-rays?",
+    answer: 2,
+    explanation:
+      "지문은 hot cathode에서 나온 electrons를 high voltage로 가속해 metal target인 anode에 충돌시키면 X-rays가 생긴다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-031",
+    options: [
+      "A cold cathode absorbs photons from a crystal.",
+      "A metal target emits X-rays without any electron collision.",
+      "A hot cathode releases electrons that high voltage accelerates into a metal anode.",
+      "A fluorescent screen turns visible light directly into X-rays.",
+    ],
+  },
+  {
+    passageId: "science-x-ray-p8",
+    prompt: "What is fluoroscopy used to obtain?",
+    answer: 3,
+    explanation:
+      "지문은 fluoroscopy를 patient의 internal structures에 대한 real-time moving images를 얻는 영상 기법이라고 정의합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-032",
+    options: [
+      "A static image of only crystal lattices.",
+      "A measurement of photon energy without a patient.",
+      "A scan that never uses an X-ray source.",
+      "Real-time moving images of a patient’s internal structures.",
+    ],
+  },
+  {
+    passageId: "science-smallpox-vaccine-p3",
+    prompt: "What distinction among vaccine generations is described?",
+    answer: 1,
+    explanation:
+      "지문은 first-generation이 살아 있는 동물 피부에서 자랐고 later generations가 배양 기술이나 attenuated strains를 사용했다고 구분합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-033",
+    options: [
+      "All generations were transmitted only arm-to-arm.",
+      "First-generation vaccines used live-animal skin, while later generations used cultures or attenuated strains.",
+      "Second-generation vaccines were made only from dry flasks.",
+      "Third-generation vaccines were the oldest vaccines used in the 1790s.",
+    ],
+  },
+  {
+    passageId: "science-smallpox-vaccine-p4",
+    prompt: "What was a key feature of first-generation smallpox vaccines?",
+    answer: 2,
+    explanation:
+      "지문은 first-generation vaccines가 live vaccinia virus를 live animals의 skin에서 길러 제조되었다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-034",
+    options: [
+      "They contained only an attenuated strain unable to replicate.",
+      "They were produced in human cell cultures rather than animals.",
+      "They were made by growing live vaccinia virus in the skin of live animals.",
+      "They could be preserved only when continuously refrigerated.",
+    ],
+  },
+  {
+    passageId: "science-smallpox-vaccine-p5",
+    prompt: "What happened to the Ankara vaccinia strain after serial passage?",
+    answer: 3,
+    explanation:
+      "지문은 serial passage 뒤 Ankara vaccinia가 유전체의 over 14%를 잃고 human cells에서 더는 replicate할 수 없게 되었다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-035",
+    options: [
+      "It gained the ability to replicate in human cells.",
+      "It was used only as a bacterial vaccine.",
+      "It became a cowpox strain used in the 1790s.",
+      "It lost over 14% of its genome and could no longer replicate in human cells.",
+    ],
+  },
+  {
+    passageId: "science-smallpox-vaccine-p6",
+    prompt: "What is LC16m8?",
+    answer: 1,
+    explanation:
+      "지문은 LC16m8을 일본에서 제조하는 minimally replicating attenuated strain of vaccinia라고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-036",
+    options: [
+      "A fully replicating strain made only in West Germany.",
+      "A minimally replicating attenuated strain of vaccinia manufactured in Japan.",
+      "A vaccine made from a nonviral bacterial culture.",
+      "A first-generation calf lymph vaccine from the 1880s.",
+    ],
+  },
+  {
+    passageId: "science-smallpox-vaccine-p7",
+    prompt: "What did the limited North American variolation trial show?",
+    answer: 2,
+    explanation:
+      "지문은 제한적 시험에서 variolation 사망률이 자연 disease보다 낮았고 그 절차가 이후 널리 채택되었다고 제시합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-037",
+    options: [
+      "Natural disease had a lower death rate than variolation.",
+      "No one in the trial received variolation.",
+      "Variolation had fewer deaths than natural disease and was then widely adopted.",
+      "The trial proved variolation was more deadly than natural infection.",
+    ],
+  },
+  {
+    passageId: "science-smallpox-vaccine-p8",
+    prompt:
+      "How did the Balmis Expedition carry cowpox vaccine to distant regions?",
+    answer: 3,
+    explanation:
+      "지문은 Balmis Expedition이 flasks가 아니라 live cowpox virus를 지닌 22 orphaned boys를 운반자로 삼았다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-038",
+    options: [
+      "It transported only sealed flasks by ship.",
+      "It relied on dry powder kept without any carriers.",
+      "It used a chain of X-ray images to identify the virus.",
+      "It carried live virus through 22 orphaned boys who served as carriers.",
+    ],
+  },
+  {
+    passageId: "science-plate-tectonics-p3",
+    prompt: "How does the passage describe the tectonic “conveyor belt”?",
+    answer: 1,
+    explanation:
+      "지문은 subduction이 표면을 줄이고 divergent margins의 seafloor spreading이 새 oceanic crust를 만들어 균형을 맞춘다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-039",
+    options: [
+      "Subduction creates crust while divergent margins destroy it.",
+      "Subduction removes surface area and seafloor spreading creates new oceanic crust to balance it.",
+      "Both convergent and divergent margins permanently reduce Earth’s surface.",
+      "Only continental crust is recycled while oceanic crust remains fixed.",
+    ],
+  },
+  {
+    passageId: "science-plate-tectonics-p4",
+    prompt: "What evidence of tectonic activity is mentioned for Europa?",
+    answer: 2,
+    explanation:
+      "지문은 Europa에서 ice crustal plates가 moving and interacting하는 징후가 보인다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-040",
+    options: [
+      "Europa has the same continents as Earth.",
+      "Europa has no evidence of any crustal movement.",
+      "Europa shows signs of ice crustal plates moving and interacting.",
+      "Europa’s activity is described as identical to Earth’s in every detail.",
+    ],
+  },
+  {
+    passageId: "science-plate-tectonics-p5",
+    prompt:
+      "Which process is identified as the strongest driver of plate motion?",
+    answer: 3,
+    explanation:
+      "지문은 subduction zone에서 cold, dense oceanic crust가 맨틀로 가라앉는 과정이 판 운동의 strongest driver라고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-041",
+    options: [
+      "Tidal drag alone at every plate boundary.",
+      "The fixed position of continents above the crust.",
+      "The disappearance of all mantle convection.",
+      "Cold, dense oceanic crust sinking at a subduction zone.",
+    ],
+  },
+  {
+    passageId: "science-plate-tectonics-p6",
+    prompt: "What happens at a divergent plate boundary?",
+    answer: 1,
+    explanation:
+      "지문은 divergent boundaries에서 두 판이 slide apart하고 seafloor spreading으로 new ocean basin이 만들어진다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-042",
+    options: [
+      "Two plates grind past each other without creating or destroying crust.",
+      "Two plates slide apart and seafloor spreading forms a new ocean basin.",
+      "One plate always sinks beneath a continent.",
+      "A plate boundary forms only after an ocean trench disappears.",
+    ],
+  },
+  {
+    passageId: "science-plate-tectonics-p7",
+    prompt: "What characterizes a transform boundary?",
+    answer: 2,
+    explanation:
+      "지문은 transform boundaries에서 판이 생성되거나 파괴되지 않고 transform faults를 따라 서로 grind past each other한다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-043",
+    options: [
+      "Plates are created at the boundary by seafloor spreading.",
+      "One plate must be subducted beneath the other.",
+      "Plates grind past each other along transform faults without being created or destroyed.",
+      "Transform faults cannot produce strong earthquakes.",
+    ],
+  },
+  {
+    passageId: "science-plate-tectonics-p8",
+    prompt: "What did the evidence around 1965 make clear?",
+    answer: 3,
+    explanation:
+      "지문은 해저와 대륙 주변 증거가 1965년 무렵 continental drift가 feasible함을 보였고 plate tectonics가 Earth sciences를 혁신했다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-044",
+    options: [
+      "Continental drift was impossible and plate tectonics ended.",
+      "Only paleobiology changed, while Earth science stayed the same.",
+      "The theory was defined before any ocean-floor evidence existed.",
+      "Continental drift was feasible, and plate tectonics soon revolutionized Earth sciences.",
+    ],
+  },
+  {
+    passageId: "science-radioactive-decay-p3",
+    prompt:
+      "What names does the passage give to the nuclei before and after a decay?",
+    answer: 1,
+    explanation:
+      "지문은 붕괴하는 핵을 parent radionuclide라 하고 그 과정이 적어도 하나의 daughter nuclide를 만든다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-045",
+    options: [
+      "Both nuclei are called daughter nuclides.",
+      "The unstable nucleus is the parent radionuclide and the product is a daughter nuclide.",
+      "The starting nucleus is a stable isotope and the product is always gamma radiation.",
+      "The starting nucleus is called a photon and the product a proton.",
+    ],
+  },
+  {
+    passageId: "science-radioactive-decay-p4",
+    prompt:
+      "Which statement about primordial radionuclides is supported by the passage?",
+    answer: 2,
+    explanation:
+      "지문은 태양계 형성 이전에 존재한 28개 naturally occurring radioactive elements의 35 radionuclides를 primordial radionuclides라 부릅니다.",
+    difficulty: 2,
+    id: "dad-science-v2-046",
+    options: [
+      "They were all created after the Solar System formed.",
+      "They consist only of synthetic isotopes made in laboratories.",
+      "They include 35 radionuclides in 28 naturally radioactive elements dating before the Solar System formed.",
+      "They are limited to one decay chain and exclude uranium.",
+    ],
+  },
+  {
+    passageId: "science-radioactive-decay-p5",
+    prompt: "How did Rutherford order the three named radiation beams?",
+    answer: 3,
+    explanation:
+      "지문은 Rutherford가 물질을 뚫는 능력이 증가하는 순서로 alpha, beta, gamma라는 이름을 붙였다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-047",
+    options: [
+      "By their chemical smell.",
+      "By the year each beam was discovered.",
+      "By decreasing electrical charge: gamma, beta, then alpha.",
+      "By increasing ability to penetrate matter: alpha, beta, then gamma.",
+    ],
+  },
+  {
+    passageId: "science-radioactive-decay-p6",
+    prompt: "What happens in electron capture?",
+    answer: 1,
+    explanation:
+      "지문은 proton-rich nuclides가 positrons를 방출하는 대신 자신의 atomic electrons를 capture한다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-048",
+    options: [
+      "A nuclide emits only a positron and never changes its neutron-to-proton ratio.",
+      "A proton-rich nuclide captures one of its own atomic electrons instead of emitting a positron.",
+      "An electron is captured by the detector rather than by the nucleus.",
+      "The process always creates a less stable, higher-energy nucleus.",
+    ],
+  },
+  {
+    passageId: "science-radioactive-decay-p7",
+    prompt: "What can happen to a daughter nuclide in a decay chain?",
+    answer: 2,
+    explanation:
+      "지문은 daughter nuclide도 불안정할 수 있어 여러 번 붕괴하는 decay chain을 이루다가 stable nuclide가 된다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-049",
+    options: [
+      "It must be stable immediately after the parent decays.",
+      "It always changes into a photon without further radiation.",
+      "It may itself be radioactive and decay repeatedly until a stable nuclide is produced.",
+      "It can never be produced by alpha decay.",
+    ],
+  },
+  {
+    passageId: "science-radioactive-decay-p8",
+    prompt: "What is radioisotopic labeling used to track?",
+    answer: 3,
+    explanation:
+      "지문은 radioisotopic labeling이 복잡한 계에서 chemical substance의 이동을 decay events 위치로 추적하는 데 쓰인다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-050",
+    options: [
+      "Only the temperature of an isolated radioactive sample.",
+      "The number of protons in every atom before decay.",
+      "The age of a crystal without detecting any radiation.",
+      "The passage of a chemical substance through a complex system by locating decay events.",
+    ],
+  },
+  {
+    passageId: "science-photosynthesis-p3",
+    prompt: "What distinguishes the anoxygenic photosynthesis described?",
+    answer: 1,
+    explanation:
+      "지문은 anoxygenic photosynthesis가 oxygen을 만들지 않으며 일부 bacteria가 hydrogen sulfide를 나누어 sulfur를 내놓는다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-051",
+    options: [
+      "It always splits water and releases oxygen.",
+      "It does not produce oxygen; some bacteria split hydrogen sulfide and release sulfur.",
+      "It occurs only in plants with chloroplasts.",
+      "It uses only animal pigments and cannot make ATP.",
+    ],
+  },
+  {
+    passageId: "science-photosynthesis-p4",
+    prompt: "What do the Calvin-cycle reactions do in the passage?",
+    answer: 2,
+    explanation:
+      "지문은 Calvin cycle에서 atmospheric carbon dioxide가 기존 organic compounds에 들어가고 ATP와 NADPH가 사용된다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-052",
+    options: [
+      "They remove ATP and NADPH before any carbon enters organic compounds.",
+      "They occur only in bacteria through the reverse Krebs cycle.",
+      "They incorporate atmospheric carbon dioxide into existing organic compounds using ATP and NADPH.",
+      "They convert glucose into light energy inside reaction centers.",
+    ],
+  },
+  {
+    passageId: "science-photosynthesis-p5",
+    prompt:
+      "What contrast between photosynthesis and cellular respiration is stated?",
+    answer: 3,
+    explanation:
+      "지문은 photosynthesis가 carbon dioxide를 carbohydrates로 환원하고 cellular respiration은 carbohydrates를 carbon dioxide로 산화한다고 대비합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-053",
+    options: [
+      "Both are oxidation of carbohydrates to carbon dioxide.",
+      "Photosynthesis and respiration both reduce carbon dioxide to carbohydrates.",
+      "Photosynthesis releases no chemical energy and respiration makes carbohydrates.",
+      "Photosynthesis reduces carbon dioxide to carbohydrates, while respiration oxidizes carbohydrates to carbon dioxide.",
+    ],
+  },
+  {
+    passageId: "science-photosynthesis-p6",
+    prompt:
+      "Where are the light-gathering proteins of photosynthetic bacteria located?",
+    answer: 1,
+    explanation:
+      "지문은 photosynthetic bacteria의 빛 수집 단백질이 cell membranes에 있고 막이 thylakoids나 intracytoplasmic membranes로 접힐 수 있다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-054",
+    options: [
+      "Only inside the nuclei of bacterial cells.",
+      "In cell membranes, sometimes folded into thylakoids or intracytoplasmic membranes.",
+      "In the extracellular soil surrounding the bacteria.",
+      "Only in the chloroplasts of plant leaves.",
+    ],
+  },
+  {
+    passageId: "science-photosynthesis-p7",
+    prompt:
+      "What sequence is described for the chlorophyll electron in the light-dependent reactions?",
+    answer: 2,
+    explanation:
+      "지문은 chlorophyll이 전자를 잃고 pheophytin이 quinone으로 전달해 NADPH와 ATP 생성에 이르게 하며 photolysis가 oxygen을 낸다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-055",
+    options: [
+      "Chlorophyll gains an electron, destroys ATP, and releases no oxygen.",
+      "Water receives the electron and directly becomes carbon dioxide.",
+      "Chlorophyll loses an electron; pheophytin passes it to quinone, leading to NADPH, an ATP gradient, and oxygen from photolysis.",
+      "Pheophytin blocks every electron transport chain before ATP synthesis.",
+    ],
+  },
+  {
+    passageId: "science-photosynthesis-p8",
+    prompt: "What happens in hot, dry conditions according to the passage?",
+    answer: 3,
+    explanation:
+      "지문은 hot and dry conditions에서 stomata가 닫혀 물 손실을 막고 carbon dioxide가 줄며 photorespiration이 늘어 carbon fixation이 감소한다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-056",
+    options: [
+      "Stomata open widely, carbon dioxide rises, and carbon fixation always increases.",
+      "Oxygen falls and photorespiration stops completely.",
+      "RuBisCO becomes an oxygen donor and no longer reacts with gases.",
+      "Stomata close to prevent water loss; carbon dioxide falls, photorespiration rises, and carbon fixation decreases.",
+    ],
+  },
+  {
+    passageId: "science-antikythera-mechanism-p3",
+    prompt: "What happened to the Antikythera artefact after its recovery?",
+    answer: 1,
+    explanation:
+      "지문은 artefact가 1901년 shipwreck 잔해에서 발견되었고 conservation 뒤 82 separate fragments로 나뉘었다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-057",
+    options: [
+      "It was built in a museum in 1902 from unrelated gears.",
+      "It was found in 1901 wreckage and later separated into 82 fragments after conservation.",
+      "Only a single intact gear survived and no inscriptions were found.",
+      "It was recovered from a land excavation far from Antikythera.",
+    ],
+  },
+  {
+    passageId: "science-antikythera-mechanism-p4",
+    prompt: "Who discovered the Antikythera wreck described in the passage?",
+    answer: 2,
+    explanation:
+      "지문은 Captain Dimitrios Kontos와 Symi island의 sponge divers가 난파선을 발견했다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-058",
+    options: [
+      "A team from Cardiff University led by Mike Edmunds.",
+      "A Roman cargo crew sailing from Athens in 1902.",
+      "Captain Dimitrios Kontos and sponge divers from Symi island.",
+      "The National Archaeological Museum staff during conservation.",
+    ],
+  },
+  {
+    passageId: "science-antikythera-mechanism-p5",
+    prompt: "What does the mechanism’s manufacture suggest about its history?",
+    answer: 3,
+    explanation:
+      "지문은 mechanism의 quality와 complexity가 undiscovered predecessors가 Hellenistic period에 있었음을 시사한다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-059",
+    options: [
+      "It was a simple device unrelated to astronomy.",
+      "It was definitely built after the fourteenth century.",
+      "Its construction used only theories developed in modern Europe.",
+      "Its quality and complexity suggest undiscovered Hellenistic predecessors.",
+    ],
+  },
+  {
+    passageId: "science-antikythera-mechanism-p6",
+    prompt: "What did the lunar pointer approximate?",
+    answer: 1,
+    explanation:
+      "지문은 lunar pointer가 Moon의 elliptical orbit에서 acceleration과 deceleration을 근사했다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-060",
+    options: [
+      "Only the fixed position of the Sun on a circular dial.",
+      "The Moon’s acceleration and deceleration along its elliptical orbit.",
+      "The four-year cycle of games without any celestial motion.",
+      "A uniform orbit that ignored the Moon’s changing speed.",
+    ],
+  },
+  {
+    passageId: "science-antikythera-mechanism-p7",
+    prompt: "What additional function was reported in the 2008 findings?",
+    answer: 2,
+    explanation:
+      "지문은 2008년 연구가 mechanism이 Metonic calendar와 solar eclipses뿐 아니라 panhellenic athletic games의 시기도 계산했다고 보고했다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-061",
+    options: [
+      "The mechanism stopped tracking the Metonic calendar.",
+      "It measured only the depth of the shipwreck.",
+      "It calculated the timing of panhellenic athletic games as well as tracking calendars and eclipses.",
+      "It used no inscriptions connected with any calendar.",
+    ],
+  },
+  {
+    passageId: "science-antikythera-mechanism-p8",
+    prompt:
+      "Which calendar was the mechanism likely to use according to the passage?",
+    answer: 3,
+    explanation:
+      "지문은 달력의 달 이름과 Games dial의 근거를 들어 장치의 달력이 Epirote calendar일 가능성이 높고 Epirus의 Corinthian colony에서 받아들였을 수 있다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-062",
+    options: [
+      "A calendar from Corinth itself with no connection to Epirus.",
+      "A calendar that began only after the modern Gregorian reform.",
+      "A calendar based solely on the names of Roman emperors.",
+      "The Epirote calendar, probably adopted from a Corinthian colony in Epirus.",
+    ],
+  },
+  {
+    passageId: "science-dna-p3",
+    prompt: "What shape do DNA’s paired strands form?",
+    answer: 1,
+    explanation:
+      "지문은 두 DNA 가닥이 서로 감겨 double helix 모양을 이룬다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-063",
+    options: [
+      "A single uncoiled strand.",
+      "A double helix.",
+      "A flat protein sheet.",
+      "A ring made only of phosphate groups.",
+    ],
+  },
+  {
+    passageId: "science-dna-p4",
+    prompt: "What two forces primarily stabilize the DNA double helix?",
+    answer: 2,
+    explanation:
+      "지문은 DNA double helix의 안정화에 hydrogen bonds between nucleotides와 base-stacking interactions가 주로 기여한다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-064",
+    options: [
+      "Ionic bonds between sugars and light absorption by chlorophyll.",
+      "Only covalent bonds between separate DNA backbones.",
+      "Hydrogen bonds between nucleotides and base-stacking interactions.",
+      "Magnetic attraction between chromosomes and proteins.",
+    ],
+  },
+  {
+    passageId: "science-dna-p5",
+    prompt: "What is negative DNA supercoiling described as doing?",
+    answer: 3,
+    explanation:
+      "지문은 negative supercoiling이 helix와 반대 방향으로 꼬여 bases가 더 쉽게 떨어지게 한다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-065",
+    options: [
+      "It holds bases more tightly by twisting in the helix direction.",
+      "It removes every twist from DNA permanently.",
+      "It changes DNA into RNA without enzymes.",
+      "It twists opposite the helix direction so the bases come apart more easily.",
+    ],
+  },
+  {
+    passageId: "science-dna-p6",
+    prompt: "How can DNA packaging affect gene expression?",
+    answer: 1,
+    explanation:
+      "지문은 DNA packaging과 base or histone modifications가 함께 chromatin과 gene expression에 영향을 줄 수 있다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-066",
+    options: [
+      "Packaging has no relation to whether genes are expressed.",
+      "Chromatin packaging and base or histone modifications can coordinate gene expression.",
+      "Only the amount of water outside the cell controls expression.",
+      "Gene expression stops whenever DNA is wrapped around histones.",
+    ],
+  },
+  {
+    passageId: "science-dna-p7",
+    prompt: "What mechanism allows a cell to copy DNA during division?",
+    answer: 2,
+    explanation:
+      "지문은 세포 분열 때 DNA strands가 분리되고 DNA polymerase가 complementary sequences를 만든다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-067",
+    options: [
+      "Both strands remain together and are copied by a membrane pump.",
+      "RNA replaces both strands before any copying occurs.",
+      "The strands separate and DNA polymerase builds complementary sequences by base pairing.",
+      "Only the old strand is copied and the other daughter cell receives no DNA.",
+    ],
+  },
+  {
+    passageId: "science-dna-p8",
+    prompt: "How does DNA profiling compare samples?",
+    answer: 3,
+    explanation:
+      "지문은 DNA profiling이 사람들 사이에서 variable repetitive DNA sections의 길이를 비교한다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-068",
+    options: [
+      "It compares the color of whole chromosomes in a microscope.",
+      "It measures only the amount of DNA in a crime scene.",
+      "It identifies people without using any DNA sequence information.",
+      "It compares lengths of variable repetitive DNA sections between people.",
+    ],
+  },
+  {
+    passageId: "science-crispr-p3",
+    prompt: "What natural role of CRISPR/Cas is described?",
+    answer: 1,
+    explanation:
+      "지문은 bacteria가 invading viral DNA 조각을 genome에 넣어 이후 감염에 대응하는 adaptive immune system을 만든다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-069",
+    options: [
+      "Bacteria remove every DNA sequence from their own genomes.",
+      "Bacteria insert pieces of invading viral DNA into their genome to support adaptive defense.",
+      "CRISPR/Cas is a process found only in animal cells.",
+      "The system prevents any later response to bacteriophages.",
+    ],
+  },
+  {
+    passageId: "science-crispr-p4",
+    prompt: "What did the 2005 spacer studies indicate?",
+    answer: 2,
+    explanation:
+      "지문은 2005년 연구들이 spacers를 과거 세포를 공격한 phage 또는 extrachromosomal DNA 조각으로 확인해 adaptive immunity를 뒷받침했다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-070",
+    options: [
+      "CRISPR spacers are unrelated to viruses or plasmids.",
+      "Only proteins, not DNA, are stored as spacers.",
+      "Spacers are fragments from previously attacking phage or extrachromosomal DNA, supporting adaptive immunity.",
+      "All three studies concluded CRISPR had no immune role.",
+    ],
+  },
+  {
+    passageId: "science-crispr-p5",
+    prompt: "How is a CRISPR array organized?",
+    answer: 3,
+    explanation:
+      "지문은 CRISPR array가 AT-rich leader sequence 뒤에 unique spacers로 분리된 short repeats가 이어지는 구조라고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-071",
+    options: [
+      "A single protein is followed by no repeated sequences.",
+      "It contains only random spacers with no leader sequence.",
+      "It is made solely from RNA hairpins outside the genome.",
+      "An AT-rich leader is followed by short repeats separated by unique spacers.",
+    ],
+  },
+  {
+    passageId: "science-crispr-p6",
+    prompt: "What distinguishes Class 1 and Class 2 CRISPR-Cas systems?",
+    answer: 1,
+    explanation:
+      "지문은 Class 1이 multiple Cas proteins 복합체를 사용하고 Class 2가 single large Cas protein을 사용한다고 구분합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-072",
+    options: [
+      "Class 1 has no Cas proteins, while Class 2 uses only RNA.",
+      "Class 1 uses multiple Cas proteins, while Class 2 uses a single large Cas protein.",
+      "Both classes always use exactly the same single protein.",
+      "Class 2 degrades foreign nucleic acids only outside cells.",
+    ],
+  },
+  {
+    passageId: "science-crispr-p7",
+    prompt:
+      "What is the role of a protospacer adjacent motif (PAM) in the described acquisition?",
+    answer: 2,
+    explanation:
+      "지문은 PAM을 선택된 protospacers 옆의 short DNA sequences로 설명하며 type I and type II acquisition에 중요하다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-073",
+    options: [
+      "It replaces every spacer in a CRISPR array.",
+      "It is a protein found only in type III systems.",
+      "It is a short DNA sequence adjacent to selected protospacers and is important for type I and II acquisition.",
+      "It prevents the spacer from maintaining a regular size.",
+    ],
+  },
+  {
+    passageId: "science-crispr-p8",
+    prompt: "What does CRISPR-Cas9 gene editing use to modify DNA?",
+    answer: 3,
+    explanation:
+      "지문은 CRISPR-Cas9 편집이 Cas9 nuclease와 engineered guide RNA로 유전체 특정 위치를 자른다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-074",
+    options: [
+      "Only a fluorescent screen and a metal target.",
+      "An unmodified cell membrane with no nuclease.",
+      "A random protein that edits every chromosome equally.",
+      "A Cas9 nuclease and engineered guide RNA that direct cuts at genome locations.",
+    ],
+  },
+  {
+    passageId: "science-germ-theory-of-disease-p3",
+    prompt: "Who proposed early forms of germ theory named in the passage?",
+    answer: 1,
+    explanation:
+      "지문은 초기 형태의 germ theory를 1546년 Fracastoro가 제안하고 1762년 von Plenciz가 확장했다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-075",
+    options: [
+      "Louis Pasteur in 1546 and Robert Koch in 1762.",
+      "Girolamo Fracastoro in 1546 and Marcus von Plenciz in 1762.",
+      "Edward Jenner in 1546 and John Snow in 1762.",
+      "Galen in 1546 and Ignaz Semmelweis in 1762.",
+    ],
+  },
+  {
+    passageId: "science-germ-theory-of-disease-p4",
+    prompt: "What did the miasma theory attribute disease to?",
+    answer: 2,
+    explanation:
+      "지문은 miasma theory가 rotting matter에서 나온 poisonous bad-air vapor와 contaminated water 같은 environmental conditions를 질병 원인으로 보았다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-076",
+    options: [
+      "Only inherited mutations inside a host.",
+      "Bacteria observed only through modern microscopes.",
+      "A poisonous bad-air vapor from rotting matter and environmental conditions such as contaminated water.",
+      "A harmless smell unrelated to places or hygiene.",
+    ],
+  },
+  {
+    passageId: "science-germ-theory-of-disease-p5",
+    prompt: "What did Francesco Redi’s covered-jar observation support?",
+    answer: 3,
+    explanation:
+      "지문은 uncovered meat에서 구더기가 생기고 gauze-covered meat에서는 gauze 표면에 나타난다는 관찰로 spontaneous generation을 거부했다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-077",
+    options: [
+      "Maggots always arise from meat whether covered or uncovered.",
+      "Spontaneous generation was confirmed by flies avoiding gauze.",
+      "Rotting meat cannot attract flies through any material.",
+      "Maggots appeared on uncovered meat, while gauze-covered meat placed them on the gauze, rejecting spontaneous generation.",
+    ],
+  },
+  {
+    passageId: "science-germ-theory-of-disease-p6",
+    prompt:
+      "What did Anton van Leeuwenhoek call the microscopic organisms he observed?",
+    answer: 1,
+    explanation:
+      "지문은 Leeuwenhoek가 현미경으로 본 미세 생물을 당시 “little animals”라는 뜻의 animalcules라고 불렀다고 말합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-078",
+    options: [
+      "Miasmata, meaning poisonous vapors.",
+      "Animalcules, meaning “little animals.”",
+      "Chromosomes, meaning inherited structures.",
+      "Vaccinia, meaning cowpox virus.",
+    ],
+  },
+  {
+    passageId: "science-germ-theory-of-disease-p7",
+    prompt: "What intervention did Semmelweis document?",
+    answer: 2,
+    explanation:
+      "지문은 Semmelweis가 의사들이 pregnant women을 진찰하기 전에 chlorinated lime water로 손을 씻게 하고 그 결과를 기록했다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-079",
+    options: [
+      "Doctors stopped examining pregnant women after every autopsy.",
+      "Midwives were required to perform autopsies before births.",
+      "Doctors washed their hands with chlorinated lime water before examining pregnant women.",
+      "Puerperal fever was declared unrelated to contagious disease.",
+    ],
+  },
+  {
+    passageId: "science-germ-theory-of-disease-p8",
+    prompt: "What did Snow’s pump analysis show?",
+    answer: 3,
+    explanation:
+      "지문은 Southwark and Vauxhall 회사의 물을 받은 지역에서 Lambeth pumps 이용 지역보다 deaths가 fourteen times 많았다고 설명합니다.",
+    difficulty: 2,
+    id: "dad-science-v2-080",
+    options: [
+      "Lambeth pumps supplied fourteen times more deaths than Southwark and Vauxhall pumps.",
+      "Sewage-polluted water was unrelated to cholera cases.",
+      "All pump districts had exactly the same death rate.",
+      "Areas supplied by Southwark and Vauxhall experienced fourteen times as many deaths as those using Lambeth pumps.",
+    ],
   },
 ];
 

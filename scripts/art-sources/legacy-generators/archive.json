@@ -1,0 +1,20 @@
+{
+  "status": "historical; superseded, not runtime tools",
+  "reason": "Retained provenance and superseded approaches. The restrained collection uses generate-field-wardrobe.py, register-field-clothing.py, generate-registered-headwear.py, generate-rigged-gloves.py and mount-doll-accessories.py. Starter outfits have no decorative garments.",
+  "files": [
+    "generate-garment-layers.py",
+    "fit-garment-layers.py",
+    "generate-clean-accessories.py",
+    "fit-shop-designs.py",
+    "generate-shop-products.py",
+    "prepare-wizard-masks.py",
+    "paper-doll.py",
+    "hat-head-prototypes.py",
+    "clean-garment-prototypes.py",
+    "fixed-grip-prototypes.py",
+    "generate-wardrobe-designs.py",
+    "generate-rigged-clothing.py",
+    "register-trouser-layers.py",
+    "generate-open-starters.py"
+  ]
+}

@@ -15,6 +15,7 @@ import {
 import { playTravel } from "./travel.js";
 import { createRoomView } from "./room-renderer.js";
 import { wikipediaReadingMarkup } from "./wikipedia-reading.js";
+import { studyNotesMarkup } from "./study-notes.js";
 import {
   rooms,
   currentRoom,
@@ -463,6 +464,10 @@ function renderQuestion() {
     $("#feedback").innerHTML =
       `<p><strong>${correct ? "정답이에요! +2 GOLD" : `아쉬워요. ${state.lastDelta} GOLD · 정답: ${escape(question.options[question.answer])}`}</strong><br>${escape(question.explanation)}</p>${cleared ? `<p class="instant-clear">${PASS_SCORE}개 정답! 남은 문제를 풀지 않아도 즉시 클리어예요.</p>` : ""}<button class="primary" id="continue-button">${cleared ? "단서로 다음 장소 찾기" : count === capacity ? "스테이지 결과 보기" : "방으로 돌아가 다른 물건 고르기"}</button>`;
     $("#continue-button").onclick = () => update(continueQuiz(state));
+    $("#feedback > p").insertAdjacentHTML(
+      "afterend",
+      studyNotesMarkup(question),
+    );
     return;
   }
   const submit = (answer) => {
@@ -480,6 +485,11 @@ function renderQuestion() {
           !question.passage &&
           !["rescue", "gameover"].includes(result.state.phase),
       });
+      if (question.passage && $("#feedback")?.firstElementChild) {
+        $("#feedback").setAttribute("tabindex", "-1");
+        $("#feedback").scrollIntoView({ block: "start", behavior: "instant" });
+        $("#feedback").focus({ preventScroll: true });
+      }
     }
   };
   document
@@ -504,20 +514,26 @@ function renderQuestion() {
     $("#spelling").oninput = () => $("#spelling").setCustomValidity("");
   }
 }
+function lastAnswerExplanation(question) {
+  if (!question) return "";
+  return `<section class="last-answer-explanation"><h4>직전 문제 해설</h4><p><strong>정답: ${escape(question.options[question.answer])}</strong></p><p>${escape(question.explanation)}</p>${studyNotesMarkup(question)}</section>`;
+}
 function renderRescue() {
   const question =
     state.rescueSlot === null
       ? null
       : questionForObject(state, state.rescueSlot);
-  const explanation = question?.explanation
-    ? `<div class="rescue-explanation"><strong>직전 문제 해설</strong><p>${escape(question.explanation)}</p></div>`
-    : "";
+  const explanation = lastAnswerExplanation(question);
   $("#challenge").innerHTML =
     `<section class="rescue-panel"><p class="eyebrow">LAST CHANCE</p><h3 id="rescue-heading" tabindex="-1">한 번 더 도전할까요?</h3>${companionMarkup("stage-companion-summary")} ${explanation}<p class="rescue-prompt">5 GOLD를 사용해서 한 문제를 더 풀 수 있습니다. 진행하겠습니까?</p><p class="rescue-balance">보유 GOLD <strong>${state.gold} GOLD</strong> · 남은 문제 <strong>${remainingQuestions(state)}</strong></p><div class="rescue-actions"><button id="rescue-accept" class="primary">YES</button><button id="rescue-decline">NO</button></div></section>`;
   $("#rescue-accept").onclick = () => update(acceptExtraQuestion(state));
   $("#rescue-decline").onclick = () => update(declineExtraQuestion(state));
 }
 function renderGameOver() {
+  const question =
+    state.rescueSlot === null
+      ? null
+      : questionForObject(state, state.rescueSlot);
   const reason =
     state.gameOverReason === "gold"
       ? "GOLD가 부족해서 더 풀 수 없어요."
@@ -527,6 +543,10 @@ function renderGameOver() {
     : `<p class="gameover-prompt">다시 시작하겠습니까?</p><div class="gameover-actions"><button id="restart-yes" class="primary">YES</button><button id="restart-no">NO</button></div>`;
   $("#challenge").innerHTML =
     `<section class="gameover-panel"><p class="eyebrow">GAME OVER</p><h3 id="gameover-heading" tabindex="-1">GAME OVER</h3>${prompt}<p>${reason}</p><p class="gameover-progress">남은 문제 ${remainingQuestions(state)}</p>${companionMarkup("stage-companion-summary")}</section>`;
+  $(".gameover-panel").insertAdjacentHTML(
+    "beforeend",
+    lastAnswerExplanation(question),
+  );
   $("#restart-yes")?.addEventListener("click", () => update(freshState()));
   $("#restart-no")?.addEventListener("click", () => {
     gameOverPromptDismissed = true;
@@ -640,6 +660,26 @@ function renderShop(message = "") {
       $("#cancel-purchase").focus();
     };
   }
+  const resetItemButton = document.createElement("button");
+  resetItemButton.id = "restore-base-item";
+  resetItemButton.textContent = [
+    "hat",
+    "necklace",
+    "cloak",
+    "gloves",
+    "vest",
+  ].includes(shopCategory)
+    ? `${categoryNames[shopCategory]} 벗기`
+    : "기본 장비로";
+  resetItemButton.onclick = () => {
+    state = equipItem(state, `${shopCategory}-base`);
+    trialItem = null;
+    pendingItem = null;
+    save();
+    renderSidebars();
+    renderShop("GOLD 사용 없이 기본 차림으로 돌아왔어요.");
+  };
+  $(".fitting-actions").append(resetItemButton);
   $("#finish-customizing").onclick = () => {
     trialItem = null;
     update(startStage(state));

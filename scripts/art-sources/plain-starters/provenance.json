@@ -1,0 +1,22 @@
+{
+  "schema": "plain-starters-v1",
+  "createdAt": "2026-09-26T23:26:06.188399+00:00",
+  "wand": {
+    "metadata": "wand-base.json",
+    "sha256": "a991a624d4d9c1694773741669c819db19cf7615435a04ecba45c9d36f819530"
+  },
+  "pants": {
+    "metadata": "starter-pants.json",
+    "path": "assets/doll/rigged/starter-pants.webp",
+    "sha256": "6346ef624b8d115b9bfc0081763615dec9e0f37d61d08c5f974e6d47267beecf"
+  },
+  "qa": {
+    "path": "/tmp/paper-doll-qa/plain-starters.png",
+    "sha256": "02c6aa65133d05889d54714cecbdb1eec074214716728c7243f9544c5bc56940"
+  },
+  "apiPolicy": {
+    "edits": 2,
+    "maxAttemptsPerEdit": 2,
+    "keyNeverLogged": true
+  }
+}

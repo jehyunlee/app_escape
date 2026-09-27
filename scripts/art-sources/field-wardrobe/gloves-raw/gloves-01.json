@@ -1,0 +1,194 @@
+{
+  "schema": "rigged-gloves-receipt-v1",
+  "key": "gloves-01",
+  "category": "gloves",
+  "stage": "paid",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "prompt": "Image 1 is the fixed two-fist grip-base mannequin and is a pose/scale reference only. Any old glove colours, jewels, embroidery, gold trim or other decoration visible in the template must be ignored. Image 2 is the exact new shop product reference for gloves-01; use it ONLY for its glove material, colour, seams and cuffs, never for its displayed unworn hand pose. Replace ONLY the two existing glove foregrounds inside the supplied hand-and-cuff edit mask. Keep the exact same front-facing mannequin, arms, wrists, fist centres (viewer-left about x=285,y=865 and viewer-right about x=748,y=865), scale and hanging pose. Render two complete tightly fitted gloves around the existing curled closed fists: every finger remains folded around a handle, with the thumb crossing the folded fingers. Keep the visible thumb/index opening of the viewer-left fist near x=289,y=884: a shaft would emerge there toward the upper-left while the thumb and curled fingers wrap over the lower handle. Do not draw the shaft itself. Both gloves must be compact closed fists matching Image 1. No straight or dangling fingers, no open palms, no floating product gloves, no changed hands, no new arms, no raised elbows and no extra limbs. Do not repaint or move the cream sleeves, cuffs, arms, torso, face, legs or background; do not add skin, shirt, handles or props. Return a transparent 1024x1536 image. The editable foreground is restricted to the two authored glove/cuff mattes; preserve every pixel outside that mask exactly.",
+  "promptSha256": "6769fc21ea38e647e02a437d8dc1723134d66c9e39a2e5d697e3134b0b6e68f4",
+  "inputHash": "a6752160a07d508f1e8d2b34b98cb832b7a807463647380366ef1895f98e135e",
+  "sources": [
+    [
+      "scripts/art-sources/doll-reference/prototypes/grips/grip-base.png",
+      "4c8cffafa440d4251dd41a6ff0a78167d391b98be6694f3ce43e9075f8a1f29b"
+    ],
+    [
+      "scripts/art-sources/doll-reference/prototypes/grips/gloves-12-mask.png",
+      "9629eee9ceeee1595bbb2b23f69659c44b5cb764cb195d17e1a5edc9f3b37e90"
+    ],
+    [
+      "scripts/art-sources/doll-reference/prototypes/grips/grip-base-mask.png",
+      "f1a0d73152c87daf019825cf6a5469e09150f7bfa4c5a99d608b9bce65ecf812"
+    ],
+    [
+      "scripts/art-sources/field-wardrobe/designs/gloves-01.webp",
+      "91a91e611857ef35ea3519bdd398a1c4220f14dd7d3da9918c805e08f9de64cb"
+    ]
+  ],
+  "editableMask": {
+    "path": "scripts/art-sources/doll-reference/prototypes/grips/gloves-12-mask.png",
+    "sha256": "9629eee9ceeee1595bbb2b23f69659c44b5cb764cb195d17e1a5edc9f3b37e90",
+    "pixels": 31635
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted",
+      "elapsedSeconds": 28.118,
+      "rawFile": "gloves-01-attempt-1.png",
+      "rawSha256": "e1e3db6166134f3fe240ed05b51ee45f73947246772701e74dbb179a5f2b20c5",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        221,
+        38,
+        795,
+        1496
+      ],
+      "rawBeforeClampDrift": {
+        "measuredBeforeClamp": true,
+        "changedPixels": 653330,
+        "changedInsideEditablePixels": 31621,
+        "changedOutsideEditablePixels": 621709,
+        "changedOutsideFraction": 0.9516002632666494,
+        "rawVisibleOutsideEditablePixels": 431588,
+        "rawChangedBbox": [
+          93,
+          0,
+          918,
+          1536
+        ]
+      },
+      "extraction": {
+        "rawVisiblePixels": 452355,
+        "semanticPixelsBeforeAllowedClamp": 68286,
+        "finalAlphaPixels": 20753,
+        "removedByAllowedClampPixels": 47533,
+        "allowedMaskPixels": 31635
+      },
+      "pose": {
+        "flagged": false,
+        "sides": {
+          "left": {
+            "current": {
+              "pixels": 10737,
+              "bbox": [
+                235,
+                782,
+                331,
+                917
+              ],
+              "centroid": [
+                280.8026450591413,
+                849.3070690136909
+              ],
+              "components": 1
+            },
+            "approved": {
+              "pixels": 13144,
+              "bbox": [
+                235,
+                782,
+                332,
+                948
+              ],
+              "centroid": [
+                280.4214850882532,
+                865.5043365794279
+              ],
+              "components": 1
+            },
+            "anchor": [
+              285.0,
+              865.0
+            ],
+            "centroidDelta": [
+              -4.197354940858702,
+              -15.69293098630908
+            ],
+            "areaRatioToApproved": 0.8168746195982958,
+            "silhouetteIoUToApproved": 0.7453043923116276,
+            "openFingerSuspected": false,
+            "poseFlag": false,
+            "openFingerVisualReviewRequired": true
+          },
+          "right": {
+            "current": {
+              "pixels": 10016,
+              "bbox": [
+                688,
+                784,
+                784,
+                918
+              ],
+              "centroid": [
+                737.7024760383387,
+                853.1104233226837
+              ],
+              "components": 1
+            },
+            "approved": {
+              "pixels": 13059,
+              "bbox": [
+                686,
+                784,
+                784,
+                951
+              ],
+              "centroid": [
+                735.8336013477295,
+                869.4615973658014
+              ],
+              "components": 1
+            },
+            "anchor": [
+              748.0,
+              865.0
+            ],
+            "centroidDelta": [
+              -10.29752396166134,
+              -11.889576677316313
+            ],
+            "areaRatioToApproved": 0.7669806263879317,
+            "silhouetteIoUToApproved": 0.7542192488976737,
+            "openFingerSuspected": false,
+            "poseFlag": false,
+            "openFingerVisualReviewRequired": true
+          }
+        }
+      },
+      "renderedInvariant": {
+        "canvas": [
+          1024,
+          1536
+        ],
+        "fullCanvas": true,
+        "alphaPixels": 20753,
+        "alphaBbox": [
+          235,
+          782,
+          784,
+          918
+        ],
+        "outsideAllowedPixels": 0,
+        "leftAlphaPixels": 10737,
+        "rightAlphaPixels": 10016,
+        "sourceFullyOpaqueExpectedCoverage": {
+          "leftFractionOfAllowed": 0.6410149253731343,
+          "rightFractionOfAllowed": 0.6728921733288545
+        },
+        "ok": true
+      },
+      "validation": {
+        "invariantOk": true,
+        "poseFlag": false,
+        "ok": true
+      },
+      "visualShapeStatus": "requires-human-inspection"
+    }
+  ],
+  "createdAt": "2026-09-27T01:08:40.157501+00:00"
+}

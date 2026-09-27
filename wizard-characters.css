@@ -8,10 +8,12 @@
   transform-origin: 50% 72%;
 }
 
-.avatar-art .avatar-generated-base,
-.avatar-art .avatar-mask-tint,
-.avatar-art .avatar-accessory {
+.avatar-art image {
   pointer-events: none;
+}
+
+.avatar-art .avatar-doll-body {
+  filter: drop-shadow(0 6px 5px rgb(20 15 35 / 30%));
 }
 
 .avatar-art[data-mood="happy"] .avatar-pose {
@@ -22,23 +24,12 @@
   animation: avatar-downcast 1.4s ease-in-out infinite;
 }
 
-.avatar-art[data-mood="happy"] .avatar-generated-base {
-  filter: drop-shadow(0 0 7px rgb(255 222 130 / 42%));
+.avatar-art[data-mood="happy"] .avatar-doll-head {
+  filter: drop-shadow(0 0 9px rgb(255 222 130 / 45%));
 }
 
-.avatar-art[data-mood="sad"] .avatar-generated-base {
-  opacity: 0.9;
-}
-
-.avatar-art .avatar-accessory {
-  overflow: visible;
-  filter: drop-shadow(0 4px 3px rgb(20 15 35 / 28%));
-  image-rendering: auto;
-}
-
-.avatar-art .avatar-garment-layer {
-  /* Garment source pixels are authored artwork; never recolour by price or mood. */
-  filter: drop-shadow(0 4px 3px rgb(20 15 35 / 28%));
+.avatar-art[data-mood="sad"] .avatar-pose {
+  opacity: 0.92;
 }
 
 @keyframes avatar-celebrate {

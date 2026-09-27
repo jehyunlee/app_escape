@@ -1,0 +1,97 @@
+{
+  "character": "jeongan",
+  "item": "hat-04",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-27T01:25:30.500845+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 넓은 강화꼭지모. A muted-green woven wizard hat with a broad low pointed crown, a wide flat reinforced brim, and a plain cloth band; practical field protection, never a modern brimmed cap. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+  "raw": "scripts/art-sources/field-wardrobe/headwear-raw/jeongan-hat-04.png",
+  "rawSha256": "e46150edf3ccbc59a4f57abe4b9ee4399f1da9b4715a6679b71ebaff7b164f1b",
+  "registration": {
+    "sourceToGeneratedScale": 1.7822513992371385,
+    "rotationRadians": 0.009127313747583438,
+    "translation": [
+      -366.7191122990566,
+      392.5811263490225
+    ],
+    "initialCorrelation": 0.9415905368553614,
+    "refinedCorrelation": 0.9680468742724867,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "visual-review-passed",
+  "files": {
+    "jeongan-neutral-hat-04.webp": {
+      "sha256": "10cc7057124c3b11d1dce7283f86cbdae1784d888b532cee5232ec8469686ed3",
+      "bbox": [
+        215,
+        -82,
+        778,
+        466
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 4
+    },
+    "jeongan-happy-hat-04.webp": {
+      "sha256": "ee84d1bae005eda380d06b4a2ed4d1b81badf98014ddad835f33bea497510153",
+      "bbox": [
+        215,
+        -82,
+        778,
+        466
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 4
+    },
+    "jeongan-sad-hat-04.webp": {
+      "sha256": "46c6aac29777a5e619f8f3559fdbd30fc854a1e2294864fc9a3b760fbd130969",
+      "bbox": [
+        215,
+        -82,
+        778,
+        466
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 4
+    }
+  },
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "parent assistant",
+    "note": "Independent reviews 72 and 73 inspected all three expressions per hat: likeness, glasses, fitted hair and intact hats accepted; both Hunho antlers retained. Yewon hat09 excluded pending ponytail correction.",
+    "reviewedAt": "2026-09-27T01:55:19.967035+00:00"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-04.webp",
+      "sha256": "5cac461d897f1b33efd49299b4f2211bf85b1e421784610ffae76545ff825875"
+    },
+    "identity": {
+      "path": "scripts/art-sources/wizards/jeongan-neutral.webp",
+      "sha256": "a598e10bef51c2e1dc5bd0f32eef328bddf07f1298b13fb3d3eaef68d57eeeca"
+    },
+    "headReference": {
+      "path": "scripts/art-sources/doll-reference/jeongan-neutral.webp",
+      "sha256": "95ee377bfd9558a68a64ad21ed6e5e666c3ff8e65318273c8dbd456e3346bed8"
+    }
+  },
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "5cac461d897f1b33efd49299b4f2211bf85b1e421784610ffae76545ff825875",
+    "identity": "a598e10bef51c2e1dc5bd0f32eef328bddf07f1298b13fb3d3eaef68d57eeeca",
+    "headReference": "95ee377bfd9558a68a64ad21ed6e5e666c3ff8e65318273c8dbd456e3346bed8"
+  }
+}

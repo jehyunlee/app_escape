@@ -9,11 +9,7 @@ import { avatarMarkup, catalog } from "../avatar.js";
 import { rooms, facilities } from "../rooms.js";
 import { magicalItems, itemsForRoom } from "../magical-items.js";
 import { STARTER } from "../engine.js";
-import {
-  characters,
-  portraitMarkup,
-  wizardPortraitMarkup,
-} from "../characters.js";
+import { characters, portraitMarkup } from "../characters.js";
 
 test("physical objects fill the viewport aspect without overlapping projected footprints", () => {
   for (const facility of facilities) {
@@ -104,7 +100,7 @@ test("each Hogwarts facility has distinct GPT-generated artwork and provenance",
   assert.equal(images.size, 40);
 });
 
-test("wardrobe selections retain generated art and apply selective tint or accessory layers", () => {
+test("wardrobe selections resolve distinct artwork without recolouring the body", () => {
   assert.equal(new Set(catalog.map((item) => item.id)).size, catalog.length);
   for (const category of Object.keys(STARTER)) {
     const items = catalog.filter((item) => item.category === category);
@@ -114,12 +110,9 @@ test("wardrobe selections retain generated art and apply selective tint or acces
     for (const item of items) {
       assert.ok(Number.isSafeInteger(item.price) && item.price >= 0);
       const html = avatarMarkup({ ...STARTER, [category]: item.id }, "dad");
-      assert.ok(html.includes("dad-neutral.webp"));
+      assert.ok(html.includes("headwear/dad-neutral-"));
       assert.ok(html.includes(`data-${category}="${item.id}"`));
-      if (item.price > 0) {
-        assert.ok(html.includes(item.color));
-        assert.ok(html.includes(item.id));
-      }
+      if (item.price > 0) assert.ok(html.includes(`${item.id}.webp`));
       renders.add(html);
     }
     assert.equal(renders.size, items.length);
@@ -262,7 +255,10 @@ test("every category has twelve distinct illustrated products from 1 to 100 GOLD
         new URL(`../assets/shop-items/${item.id}.webp`, import.meta.url),
       );
       const original = readFileSync(
-        new URL(`../assets/shop-designs/${item.id}.webp`, import.meta.url),
+        new URL(
+          `../scripts/art-sources/field-wardrobe/designs/${item.id}.webp`,
+          import.meta.url,
+        ),
       );
       assert.equal(thumbnail.subarray(8, 12).toString(), "WEBP");
       assert.equal(original.subarray(8, 12).toString(), "WEBP");
@@ -280,7 +276,7 @@ test("family portraits use distinct generated head crops and named wizard design
     assert.ok(portrait.includes(characters[index].title));
     const asset = readFileSync(
       new URL(
-        `../assets/wizards/${characters[index].id}-portrait.webp`,
+        `../assets/doll/headwear/${characters[index].id}-portrait.webp`,
         import.meta.url,
       ),
     );
@@ -343,109 +339,4 @@ test("scattered objects have no shared rows and are reproducible only for the sa
       }
     }
   }
-});
-
-test("all six wizards use separate generated full-body expressions", () => {
-  const hashes = new Set();
-  for (const character of characters) {
-    const portrait = wizardPortraitMarkup(character.id, STARTER);
-    assert.ok(portrait.includes(`${character.id}-neutral.webp`));
-    assert.ok(portrait.includes('viewBox="0 0 512 1024"'));
-    const metadata = JSON.parse(
-      readFileSync(
-        new URL(`../assets/wizards/${character.id}.json`, import.meta.url),
-        "utf8",
-      ),
-    );
-    assert.match(metadata.model, /^gpt-image-/);
-    for (const mood of ["neutral", "happy", "sad"]) {
-      const html = avatarMarkup(STARTER, character.id, mood);
-      assert.ok(html.includes(`${character.id}-${mood}.webp`));
-      assert.ok(html.includes(`data-mood="${mood}"`));
-      const asset = readFileSync(
-        new URL(
-          `../assets/wizards/${character.id}-${mood}.webp`,
-          import.meta.url,
-        ),
-      );
-      assert.equal(asset.subarray(8, 12).toString(), "WEBP");
-      hashes.add(createHash("sha256").update(asset).digest("hex"));
-    }
-  }
-  assert.equal(hashes.size, 18);
-});
-
-test("all eight categories can be equipped together without losing character or mood", () => {
-  const outfit = Object.fromEntries(
-    Object.keys(STARTER).map((category) => [
-      category,
-      catalog.find((item) => item.category === category && item.price === 1).id,
-    ]),
-  );
-  for (const character of characters)
-    for (const mood of ["neutral", "happy", "sad"]) {
-      const html = avatarMarkup(outfit, character.id, mood);
-      assert.ok(html.includes(`${character.id}-${mood}.webp`));
-      for (const [category, id] of Object.entries(outfit))
-        assert.ok(html.includes(`data-${category}="${id}"`));
-    }
-});
-
-test("1728 pose-specific garment layers exist and preserve protected face areas", () => {
-  const report = JSON.parse(
-    readFileSync(
-      new URL("../assets/garments/fit-report.json", import.meta.url),
-      "utf8",
-    ),
-  ).files;
-  const manifest = JSON.parse(
-    readFileSync(
-      new URL("../assets/garments/manifest.json", import.meta.url),
-      "utf8",
-    ),
-  );
-  assert.equal(manifest.sourceDirectory, "assets/shop-designs");
-  assert.equal(manifest.items, 96);
-  assert.equal(manifest.files, 1728);
-  const sourceManifest = JSON.parse(
-    readFileSync(
-      new URL("../assets/shop-designs/manifest.json", import.meta.url),
-      "utf8",
-    ),
-  );
-  assert.match(sourceManifest.model, /^gpt-image-/);
-  let count = 0;
-  for (const character of characters)
-    for (const mood of ["neutral", "happy", "sad"])
-      for (const item of catalog.filter((item) => item.price > 0)) {
-        const file = `${character.id}-${mood}-${item.id}.webp`;
-        const bytes = readFileSync(
-          new URL(`../assets/garments/${file}`, import.meta.url),
-        );
-        assert.equal(bytes.subarray(8, 12).toString(), "WEBP");
-        assert.ok(report[file].pixels >= 40, file);
-        assert.equal(report[file].faceOverlap, 0, file);
-        assert.deepEqual(report[file].size, [512, 1024]);
-        count++;
-      }
-  assert.equal(count, 1728);
-});
-
-test("custom hats use prepared bases rather than destructive SVG face cutouts", () => {
-  for (const character of characters)
-    for (const mood of ["neutral", "happy", "sad"]) {
-      const file = `${character.id}-${mood}-hatless.webp`;
-      const bytes = readFileSync(
-        new URL(`../assets/garments/${file}`, import.meta.url),
-      );
-      assert.equal(bytes.subarray(8, 12).toString(), "WEBP");
-      const html = avatarMarkup(
-        { ...STARTER, hat: "hat-01" },
-        character.id,
-        mood,
-      );
-      assert.ok(html.includes(file));
-      assert.ok(!html.includes("feMorphology"));
-      assert.ok(!avatarMarkup(STARTER, character.id, mood).includes(file));
-    }
 });

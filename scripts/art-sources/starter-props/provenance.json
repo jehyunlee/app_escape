@@ -1,0 +1,18 @@
+{
+  "wand": {
+    "source": "scripts/art-sources/starter-props/clean-wand.webp",
+    "copiedFrom": "assets/garments/clean-wand.webp",
+    "sha256": "6c2f3caa5bde448f8aa90805bbd726bd9b5b45a6336a08e7f8d394b9200c74e8",
+    "generator": "scripts/art-sources/legacy-generators/generate-clean-accessories.py",
+    "model": "gpt-image-2.5-flare",
+    "originalGenerator": "scripts/generate-clean-accessories.py"
+  },
+  "broom": {
+    "source": "scripts/art-sources/starter-props/clean-broom.webp",
+    "copiedFrom": "assets/garments/clean-broom.webp",
+    "sha256": "35f77e90d63265bbeff6fd605207b58a4b7006a557c8f393e0a19f2a33d73ded",
+    "generator": "scripts/art-sources/legacy-generators/generate-clean-accessories.py",
+    "model": "gpt-image-2.5-flare",
+    "originalGenerator": "scripts/generate-clean-accessories.py"
+  }
+}

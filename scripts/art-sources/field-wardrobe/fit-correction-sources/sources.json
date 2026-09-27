@@ -1,0 +1,26 @@
+{
+  "schema": "cloak-fit-correction-source-preservation-v1",
+  "entries": [
+    {
+      "key": "cloak-02",
+      "rawPath": "scripts/art-sources/field-wardrobe/fit-correction-sources/cloak-02-openai-raw.png",
+      "rawSha256": "7b5ef812024902148f63bff951bc32ec6b30db9ad894833da8eb3ce457a1ee10",
+      "receiptPath": "scripts/art-sources/field-wardrobe/fit-correction-sources/cloak-02-openai-receipt.json",
+      "productSource": "scripts/art-sources/field-wardrobe/designs/cloak-02.webp",
+      "currentTechnicalCandidate": "scripts/art-sources/fit-correction/before/cloak-02.webp"
+    },
+    {
+      "key": "cloak-07",
+      "rawPath": "scripts/art-sources/field-wardrobe/fit-correction-sources/cloak-07-openai-raw.png",
+      "rawSha256": "27eb94c484eb40a87514d8c3809c288c8f0d720c15418e9de27842aea4ed5196",
+      "receiptPath": "scripts/art-sources/field-wardrobe/fit-correction-sources/cloak-07-openai-receipt.json",
+      "productSource": "scripts/art-sources/field-wardrobe/designs/cloak-07.webp",
+      "currentTechnicalCandidate": "scripts/art-sources/fit-correction/before/cloak-07.webp"
+    }
+  ],
+  "canonicalBody": {
+    "bodyUpper": "assets/doll/rigged/body-upper.webp",
+    "handsBase": "assets/doll/rigged/hands-base.webp"
+  },
+  "apiCalls": 2
+}

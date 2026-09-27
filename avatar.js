@@ -1,4 +1,5 @@
 import wardrobeCatalog from "./assets/wardrobe-catalog.json" with { type: "json" };
+import rig from "./assets/doll/rigged/runtime.json" with { type: "json" };
 
 const WARDROBE_CATEGORIES = Object.freeze([
   "hat",
@@ -21,7 +22,13 @@ const catalogEntries = [
   ...WARDROBE_CATEGORIES.map((category) => ({
     id: `${category}-base`,
     category,
-    name: "기본 장비",
+    name: ["hat", "necklace", "cloak", "gloves", "vest"].includes(category)
+      ? "착용 안 함"
+      : category === "pants"
+        ? "기본 바지"
+        : category === "wand"
+          ? "기본 나무 지팡이"
+          : "기본 빗자루",
     price: 0,
     color: "#6f6575",
   })),
@@ -102,17 +109,40 @@ const CHARACTER_LABELS = Object.freeze({
   yewon: "예원언니",
   hunho: "훈호오빠",
 });
-const FAMILY_TOOLS = Object.freeze({
-  dad: "astrolabe",
-  mom: "botany",
-  jeongan: "lunar",
-  suan: "broom",
-  yewon: "spellbook",
-  hunho: "explorer-broom",
-});
 const VALID_MOODS = new Set(["neutral", "happy", "sad"]);
-const WIZARD_ASSET_ROOT = new URL("./assets/wizards/", import.meta.url);
-const GARMENT_ASSET_ROOT = new URL("./assets/garments/", import.meta.url);
+const DOLL_ASSET_ROOT = new URL("./assets/doll/", import.meta.url);
+/** Physical body canvas; complete hatted heads may extend above it. */
+export const DOLL_CANVAS = Object.freeze([1024, 1536]);
+/**
+ * Start without decorative clothing. The plain shirt is an underlayer;
+ * bare hands and hair are anatomical parts, not equipped accessories.
+ */
+export const STARTER_LAYERS = Object.freeze({
+  dad: Object.freeze(["wand"]),
+  mom: Object.freeze(["wand"]),
+  jeongan: Object.freeze(["wand"]),
+  suan: Object.freeze(["wand", "broom"]),
+  yewon: Object.freeze(["wand"]),
+  hunho: Object.freeze(["wand", "broom"]),
+});
+/**
+ * Anatomical regions have one owner. Fingers cover the lower wand handle;
+ * its upper shaft emerges in front from the thumb/index opening. A worn hat
+ * replaces the complete head and hairstyle.
+ */
+export const RENDER_ORDER = Object.freeze([
+  "broom",
+  "boots",
+  "pants",
+  "body",
+  "vest",
+  "cloak",
+  "necklace",
+  "wand",
+  "hands",
+  "wand-grip",
+  "head",
+]);
 const preloadedCharacters = new Set();
 
 const escapeXml = (value) =>
@@ -126,19 +156,51 @@ const escapeXml = (value) =>
     };
     return escaped[character];
   });
-const assetHref = (filename) => new URL(filename, WIZARD_ASSET_ROOT).href;
-const garmentHref = (character, mood, itemId) =>
-  new URL(`${character}-${mood}-${itemId}.webp`, GARMENT_ASSET_ROOT).href;
+const dollHref = (filename) => new URL(filename, DOLL_ASSET_ROOT).href;
+/** Layer file for a worn item, or null when the base clothing stays visible. */
+export function garmentLayerFile(character, item, mood = "neutral") {
+  normalizeCharacter(character);
+  if (item.category === "hat") {
+    const variant = item.price > 0 ? item.id : "bare";
+    return `headwear/${character}-${normalizeMood(mood)}-${variant}.webp`;
+  }
+  if (item.category === "pants")
+    return item.price === 0
+      ? "rigged/starter-pants.webp"
+      : `rigged/clothing/${item.id}.webp`;
+  if (item.category === "gloves")
+    return item.price === 0
+      ? "rigged/hands-base.webp"
+      : `rigged/gloves/${item.id}.webp`;
+  if (item.category === "cloak")
+    return item.price === 0 ? null : `rigged/clothing/${item.id}.webp`;
+  if (item.price === 0) {
+    if (
+      ["wand", "broom"].includes(item.category) &&
+      STARTER_LAYERS[character].includes(item.category)
+    )
+      return `rigged/${item.category}-base.webp`;
+    return null;
+  }
+  return ["wand", "broom", "necklace"].includes(item.category)
+    ? `rigged/${item.id}.webp`
+    : `rigged/clothing/${item.id}.webp`;
+}
 
 export function preloadCharacterArt(characterId) {
   const character = normalizeCharacter(characterId);
   if (preloadedCharacters.has(character) || typeof Image === "undefined")
     return;
   preloadedCharacters.add(character);
-  for (const mood of VALID_MOODS) {
+  const files = new Set(
+    [...VALID_MOODS].flatMap((mood) =>
+      avatarLayers(STARTER_OUTFIT, character, mood).map((layer) => layer.file),
+    ),
+  );
+  for (const file of files) {
     const image = new Image();
     image.decoding = "async";
-    image.src = assetHref(`${character}-${mood}.webp`);
+    image.src = dollHref(file);
   }
 }
 
@@ -165,24 +227,51 @@ const moodLabel = Object.freeze({
   sad: "걱정스러운 표정",
 });
 
-const GARMENT_RENDER_ORDER = Object.freeze([
-  "broom",
-  "base",
-  "pants",
-  "vest",
-  "gloves",
-  "cloak",
-  "necklace",
-  "hat",
-  "wand",
-]);
+function selectedOutfit(equipped) {
+  return Object.fromEntries(
+    WARDROBE_CATEGORIES.map((category) => [
+      category,
+      chosenItem(equipped, category),
+    ]),
+  );
+}
 
-const garmentLayer = (item, character, mood) => {
-  const itemId = escapeXml(item.id);
-  const category = escapeXml(item.category);
-  const name = escapeXml(item.name);
-  return `<image class="avatar-accessory avatar-garment-layer avatar-item avatar-item-${category}" data-layer="generated-garment" data-category="${category}" data-item="${itemId}" data-color="${escapeXml(item.color)}" href="${escapeXml(garmentHref(character, mood, item.id))}" x="0" y="0" width="512" height="1024" preserveAspectRatio="none" aria-label="${name}" />`;
-};
+export function avatarLayers(equipped, characterId, mood = "neutral") {
+  const character = normalizeCharacter(characterId),
+    selected = selectedOutfit(equipped),
+    layers = [];
+  const add = (kind, file, item = null) => {
+    if (!file) return;
+    const geometry = rig.files[file];
+    if (!geometry) throw new Error(`Missing paper-doll layer: ${file}`);
+    layers.push({
+      kind,
+      file,
+      ...geometry,
+      category: item?.category,
+      itemId: item?.id,
+      name: item?.name,
+    });
+  };
+  add("broom", garmentLayerFile(character, selected.broom), selected.broom);
+  if (selected.pants.price > 0) add("boots", "rigged/boots.webp");
+  add("pants", garmentLayerFile(character, selected.pants), selected.pants);
+  add("body", "rigged/body-upper.webp");
+  for (const category of ["vest", "cloak", "necklace"])
+    add(
+      category,
+      garmentLayerFile(character, selected[category]),
+      selected[category],
+    );
+  const wandFile = garmentLayerFile(character, selected.wand);
+  add("wand", wandFile, selected.wand);
+  add("hands", garmentLayerFile(character, selected.gloves), selected.gloves);
+  const gripFile = rig.files[wandFile].gripLayer;
+  if (!gripFile) throw new Error(`Missing finger-opening layer: ${wandFile}`);
+  add("wand-grip", gripFile);
+  add("head", garmentLayerFile(character, selected.hat, mood), selected.hat);
+  return layers;
+}
 
 export function avatarMarkup(
   equipped = {},
@@ -191,38 +280,21 @@ export function avatarMarkup(
 ) {
   const character = normalizeCharacter(characterId);
   const safeMood = normalizeMood(mood);
-  const selected = Object.fromEntries(
-    WARDROBE_CATEGORIES.map((category) => [
-      category,
-      chosenItem(equipped, category),
-    ]),
-  );
-  const customItems = new Map(
-    WARDROBE_CATEGORIES.map((category) => selected[category])
-      .filter((entry) => entry.id !== STARTER_OUTFIT[entry.category])
-      .map((entry) => [entry.category, entry]),
-  );
+  const selected = selectedOutfit(equipped);
   const dataAttributes = WARDROBE_CATEGORIES.map(
     (category) => `data-${category}="${escapeXml(selected[category].id)}"`,
   ).join(" ");
-  const characterName = CHARACTER_LABELS[character];
-  const label = `${characterName} 마법사, ${moodLabel[safeMood]}`;
-  const baseImage = assetHref(`${character}-${safeMood}.webp`);
-  const instanceLabel = `${characterName} 생성 전신 일러스트`;
-  const customHat = customItems.get("hat");
-  const wornBaseImage = customHat
-    ? new URL(`${character}-${safeMood}-hatless.webp`, GARMENT_ASSET_ROOT).href
-    : baseImage;
-  return `<svg class="avatar-art avatar-wizard avatar-mood-${escapeXml(safeMood)}" viewBox="0 0 512 1024" role="img" aria-label="${escapeXml(label)}" data-character="${escapeXml(character)}" data-mood="${escapeXml(safeMood)}" data-family-tool="${escapeXml(FAMILY_TOOLS[character])}" data-base-outfit="native-character-design" ${dataAttributes}>
-  <title>${escapeXml(label)} · 기본 의상은 캐릭터 고유 디자인</title>
-  <g class="avatar-pose" data-mood="${escapeXml(safeMood)}">
-    ${GARMENT_RENDER_ORDER.map((layer) => {
-      if (layer === "base") {
-        return `<image class="avatar-generated-base" data-layer="generated-art" data-original-art="${escapeXml(baseImage)}" href="${escapeXml(wornBaseImage)}" x="0" y="0" width="512" height="1024" preserveAspectRatio="xMidYMid meet" aria-label="${escapeXml(instanceLabel)}" />`;
-      }
-      const item = customItems.get(layer);
-      return item ? garmentLayer(item, character, safeMood) : "";
-    }).join("")}
-  </g>
-</svg>`;
+  const label = `${CHARACTER_LABELS[character]} 마법사, ${moodLabel[safeMood]}`;
+  const parts = avatarLayers(equipped, character, safeMood);
+  const top = Math.min(0, ...parts.map((part) => part.bbox[1] - 24));
+  const left = Math.min(0, ...parts.map((part) => part.bbox[0] - 24));
+  const right = Math.max(1024, ...parts.map((part) => part.bbox[2] + 24));
+  const bottom = Math.max(1536, ...parts.map((part) => part.bbox[3] + 24));
+  const layers = parts
+    .map(
+      (part) =>
+        `<image class="avatar-doll-${part.kind}${part.category ? ` avatar-item avatar-item-${part.category}` : ""}" data-layer="${part.kind}"${part.category ? ` data-garment-category="${part.category}" data-garment-item="${escapeXml(part.itemId)}"` : ""} href="${escapeXml(dollHref(part.file))}" x="${part.x}" y="${part.y}" width="${part.width}" height="${part.height}" preserveAspectRatio="none" aria-label="${escapeXml(part.name || label)}" />`,
+    )
+    .join("");
+  return `<svg class="avatar-art avatar-wizard avatar-mood-${escapeXml(safeMood)}" viewBox="${left} ${top} ${right - left} ${bottom - top}" role="img" aria-label="${escapeXml(label)}" data-character="${escapeXml(character)}" data-mood="${escapeXml(safeMood)}" data-base-outfit="paper-doll-rig-v2" ${dataAttributes}><title>${escapeXml(label)} · 옷과 모자에 맞춘 종이인형</title><g class="avatar-pose" data-mood="${escapeXml(safeMood)}">${layers}</g></svg>`;
 }

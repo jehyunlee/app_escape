@@ -1,0 +1,7 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Edit ONLY the leg clothing inside the mask. Keep this entire nonsexual stylized family-game paper-doll figure in precisely the same standing pose, frame, scale, anatomy and 1024x1536 transparent canvas. Remove the baggy grey trousers. Replace them with plain modest dark-grey fitted knee-length shorts, ending just above the knees. Show the two natural bare lower legs below those shorts, with the SAME unchanged brown ankle boots. Exactly two legs, same hip/knee/ankle/foot positions, same warm skin tone as the hands. Do not move or redraw the torso, cream long-sleeve shirt, closed fists, arms, head or face. Do not zoom, crop, change camera or create a product-only image. This is the concealed anatomical underlayer for dressing the figure with different trousers later. Preserve the soft stylized 3D texture, shading, identity and lighting. Transparent background, no text, no other objects.",
+  "source": "assets/doll/prototypes/grips/grip-base.png",
+  "createdAt": "2026-09-26T19:06:51.672056+00:00",
+  "rawSha256": "1fde61fa4bb1693c40d2c5d06dd06ada6fe578e242c83d6b87d663f65bbe00d9"
+}

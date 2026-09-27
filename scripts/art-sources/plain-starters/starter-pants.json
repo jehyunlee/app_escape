@@ -1,0 +1,284 @@
+{
+  "schema": "plain-starter-pants-v1",
+  "status": "visual-review-passed",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "outputFormat": "webp",
+  "prompt": "Edit ONLY the leg-clothing pixels inside the supplied lower-body ownership mask on Image 1.\nImage 1 is the authoritative full 1024x1536 transparent canonical two-fist paper-doll figure; it is the only\npose reference. Return the SAME whole figure on the SAME canvas, with the exact same camera, scale, body pose,\nhead, face, cream long-sleeve shirt, wrists, hands, arms, boots, lighting and alpha outside the mask. Do not\nzoom, crop, reframe, turn the body, make a product-only cutout, or invent another mannequin.\nReplace the existing trousers with one comfortable basic-fit pair of straight plain trousers: unpatterned\nmatte muted charcoal cloth, simple modest waistband/hem construction and natural soft folds only. They must\nbe visibly simpler than the supplied cheap patched-rags pants style. No belt, buckle, pocket, patch, button,\nembroidery, decorative seam, piping, trim, visible external stitching, cargo details, skirt, shorts, leggings,\nor exposed lower legs. Keep exactly two trousers legs in the existing coordinates and leave the unchanged\nbrown boots fully visible and identical. Do not include hands, arms, shirt, face, hair, props, text, shadow,\nor background outside the lower-body mask. This is a pose-locked garment edit, not a new illustration.",
+  "promptSha256": "1690dfaca622f0f6b906638045427ee01402a4830327721829a0e77a2d0bd707",
+  "maxAttempts": 2,
+  "createdAt": "2026-09-26T23:18:13.001425+00:00",
+  "sources": {
+    "canonicalGripBase": {
+      "path": "scripts/art-sources/doll-reference/prototypes/grips/grip-base.png",
+      "sha256": "4c8cffafa440d4251dd41a6ff0a78167d391b98be6694f3ce43e9075f8a1f29b",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        239,
+        39,
+        787,
+        1496
+      ]
+    },
+    "lowerBodyOwnership": {
+      "path": "assets/doll/rigged/native-pants-ownership.png",
+      "sha256": "0e7eb3cc1b1e402fa7168c952a7f6e149dd2d72645eac0c80229bd278e333d9f",
+      "size": [
+        1024,
+        1536
+      ],
+      "pixels": 400762,
+      "semantics": "lower-body owner; preserves shirt hem and excludes hands"
+    },
+    "boots": {
+      "path": "assets/doll/rigged/boots.webp",
+      "sha256": "9292d46c9f502c426ba9aa551539afe6fa6a65fee77b7333bbaa106783c59f47",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        254,
+        1320,
+        787,
+        1496
+      ]
+    },
+    "bodyUpper": {
+      "path": "assets/doll/rigged/body-upper.webp",
+      "sha256": "497c0be857d7fc2ea82702b1e2fb3913c4f59eb5b333eedc08b74929cc5bda75",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        245,
+        396,
+        769,
+        963
+      ]
+    }
+  },
+  "mask": {
+    "path": "scripts/art-sources/plain-starters/starter-pants-input-mask.png",
+    "sha256": "93842684ddad55abef774450901a4833b15ef0ade493846dcd655bbd317c8e51",
+    "editablePixels": 400762,
+    "protectedPixels": 1172102
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted",
+      "elapsedSeconds": 23.197,
+      "rawPath": "starter-pants-raw-attempt-1.png",
+      "rawSha256": "c9d0d6e113dd49bd436a775473db054fcb6197d1689f5b95f824461f4958639a",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        241,
+        39,
+        770,
+        1409
+      ],
+      "rawPoseAlignment": {
+        "ok": false,
+        "sourceBbox": [
+          239,
+          39,
+          787,
+          1496
+        ],
+        "rawBbox": [
+          241,
+          39,
+          770,
+          1409
+        ],
+        "bboxDelta": [
+          2,
+          0,
+          -17,
+          -87
+        ],
+        "scale": [
+          0.9653284671532847,
+          0.9402882635552505
+        ],
+        "reason": "raw canvas pose/scale differs from canonical"
+      },
+      "rawBeforeClampDrift": {
+        "comparable": true,
+        "protectedPixels": 1172102,
+        "changedPixels": 308176,
+        "changedFraction": 0.2629259228292418
+      },
+      "registrationBeforeExtract": {
+        "method": "alpha-bbox-registration",
+        "rawBbox": [
+          241,
+          39,
+          770,
+          1409
+        ],
+        "targetBbox": [
+          239,
+          39,
+          787,
+          1496
+        ],
+        "targetSize": [
+          548,
+          1457
+        ],
+        "translation": [
+          -2,
+          0
+        ],
+        "scale": [
+          1.0359168241965973,
+          1.0635036496350365
+        ],
+        "applied": true
+      },
+      "change": {
+        "sourcePantsPixels": 132562,
+        "changedPantsPixels": 67583,
+        "changedFraction": 0.5098218192242121
+      },
+      "bootRestore": {
+        "source": "assets/doll/rigged/boots.webp",
+        "sha256": "9292d46c9f502c426ba9aa551539afe6fa6a65fee77b7333bbaa106783c59f47",
+        "pixels": 44224,
+        "exact": true
+      },
+      "validation": {
+        "alphaPixels": 184980,
+        "alphaBbox": [
+          254,
+          774,
+          787,
+          1496
+        ],
+        "ownershipOutsidePixels": 0,
+        "pantsCoveragePixels": 128329,
+        "pantsCoverageFraction": 0.9680677720613751,
+        "changedPantsFraction": 0.5098218192242121,
+        "bootsExact": true,
+        "alignmentOk": true,
+        "centralLegGap": {
+          "checkedRows": 310,
+          "centralOwnerPixels": 15500,
+          "transparentCentralPixels": 13281,
+          "transparentFraction": 0.8568387096774194,
+          "ok": true
+        },
+        "upperBodyTransparent": true,
+        "ok": true
+      },
+      "shirtHemRestore": {
+        "source": "assets/doll/rigged/body-upper.webp",
+        "sha256": "497c0be857d7fc2ea82702b1e2fb3913c4f59eb5b333eedc08b74929cc5bda75",
+        "pixels": 0,
+        "exact": true
+      }
+    }
+  ],
+  "selectedAttempt": 1,
+  "rawApiPath": "starter-pants-raw.png",
+  "rawApiSha256": "c9d0d6e113dd49bd436a775473db054fcb6197d1689f5b95f824461f4958639a",
+  "rawApiSize": [
+    1024,
+    1536
+  ],
+  "rawBeforeClampDrift": {
+    "comparable": true,
+    "protectedPixels": 1172102,
+    "changedPixels": 308176,
+    "changedFraction": 0.2629259228292418
+  },
+  "registrationBeforeExtract": {
+    "method": "alpha-bbox-registration",
+    "rawBbox": [
+      241,
+      39,
+      770,
+      1409
+    ],
+    "targetBbox": [
+      239,
+      39,
+      787,
+      1496
+    ],
+    "targetSize": [
+      548,
+      1457
+    ],
+    "translation": [
+      -2,
+      0
+    ],
+    "scale": [
+      1.0359168241965973,
+      1.0635036496350365
+    ],
+    "applied": true
+  },
+  "finalPath": "assets/doll/rigged/starter-pants.webp",
+  "finalSha256": "6346ef624b8d115b9bfc0081763615dec9e0f37d61d08c5f974e6d47267beecf",
+  "finalSize": [
+    1024,
+    1536
+  ],
+  "ownershipExtraction": {
+    "maskApplied": true,
+    "bootsRestoredExactly": true,
+    "upperBodyExcluded": true,
+    "wholePantsReplacement": true,
+    "notOverlayNativePants": true,
+    "shirtHemRestoredExactly": true
+  },
+  "validation": {
+    "alphaPixels": 184980,
+    "alphaBbox": [
+      254,
+      774,
+      787,
+      1496
+    ],
+    "ownershipOutsidePixels": 0,
+    "pantsCoveragePixels": 128329,
+    "pantsCoverageFraction": 0.9680677720613751,
+    "changedPantsFraction": 0.5098218192242121,
+    "bootsExact": true,
+    "alignmentOk": true,
+    "centralLegGap": {
+      "checkedRows": 310,
+      "centralOwnerPixels": 15500,
+      "transparentCentralPixels": 13281,
+      "transparentFraction": 0.8568387096774194,
+      "ok": true
+    },
+    "upperBodyTransparent": true,
+    "ok": true
+  },
+  "componentCleanup": {
+    "method": "8-connected lower-body silhouette with two-pixel antialias margin",
+    "removedDetachedPixels": 822
+  },
+  "visualReview": {
+    "result": "accepted",
+    "reviewer": "parent assistant",
+    "criteria": "Plain starter design reviewed beside the 1 GOLD item; final in-game default outfit and anatomy inspected."
+  }
+}

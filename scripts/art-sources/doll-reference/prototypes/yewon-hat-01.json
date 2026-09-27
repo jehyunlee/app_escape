@@ -1,0 +1,131 @@
+{
+  "schema": "hat-head-prototype-v1",
+  "key": "yewon-hat-01",
+  "status": "flagged",
+  "character": "yewon",
+  "hatId": "hat-01",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "endpoint": "/v1/images/edits",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "received",
+      "elapsedSeconds": 29.955,
+      "rawSha256": "bb3bdce48737d6dcbe42e42f465004b29b21b3fc24679965f414cb6993e0a982",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "preClampProtectedDrift": 0.9412822731205318,
+      "editableChangeFraction": 0.7015059084510047,
+      "rawAlphaBbox": [
+        23,
+        182,
+        1006,
+        1200
+      ],
+      "rawTailAlphaFraction": 0.697484533326768,
+      "usableHeuristic": false
+    },
+    {
+      "attempt": 2,
+      "status": "received",
+      "elapsedSeconds": 30.877,
+      "rawSha256": "ff4e8602add9b1357dcabf5a3eb1af4e365878675fae0730845e829772c03d9f",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "preClampProtectedDrift": 0.8947679978143072,
+      "editableChangeFraction": 0.7648874737736134,
+      "rawAlphaBbox": [
+        149,
+        110,
+        925,
+        935
+      ],
+      "rawTailAlphaFraction": 0.4594367773218948,
+      "usableHeuristic": false
+    }
+  ],
+  "selectedAttempt": 2,
+  "rawPreClampProtectedDrift": 0.8947679978143072,
+  "rawSha256": "ff4e8602add9b1357dcabf5a3eb1af4e365878675fae0730845e829772c03d9f",
+  "finalSha256": "53b32292f5a0d130686cf7a8613a1b98461ed55a640ec53ef676501d47b6c64b",
+  "rawPath": "yewon-hat-01-raw.png",
+  "finalPath": "yewon-hat-01-final.png",
+  "moodPatchPaths": {
+    "happy": "yewon-hat-01-happy-face-patch.png",
+    "sad": "yewon-hat-01-sad-face-patch.png"
+  },
+  "mask": {
+    "protectedFaceEllipse": [
+      347,
+      224,
+      680,
+      408
+    ],
+    "protectedNeckEllipse": [
+      426,
+      376,
+      602,
+      466
+    ]
+  },
+  "sources": {
+    "headBase": {
+      "path": "assets/doll/yewon-neutral.webp",
+      "sha256": "6bb07cfee99fc2b1e69882e51ff5622e52f444ff10ecac6f545a0d6e13c3732b",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        311,
+        43,
+        709,
+        533
+      ]
+    },
+    "hatProduct": {
+      "path": "assets/shop-designs/hat-01.webp",
+      "sha256": "0fc1c41c206f47f4706709599f629b71ab5e7b3563a2fac6381f3e63c158d000",
+      "size": [
+        478,
+        439
+      ]
+    },
+    "styleIdentity": {
+      "path": "assets/wizards/yewon-neutral.webp",
+      "sha256": "1f076b946f606d917db844b19ab83ef8919b865129566d4aead5650041fb800a",
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "maskPngSha256": "cda2fb73f576692614ad69d0e75c998b3c72c70810d06ad558a8c3ef864bccfd"
+  },
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent head-only sprite for this Korean family member. Image 2 is the exact shop product hat design; preserve its silhouette, colors, materials, stitching and decorations. Image 3 is the original style/identity reference; use it only to anchor this known character's facial identity and the established polished 3D family art style, not its clothing or body. Replace the entire un-hatted hairstyle and head hair on image 1 with a newly drawn hairstyle that is designed to wear hat-01; do not overlay a tiny hat on the old hair. Render one complete transparent head + exact hat + restyled hair, aligned to the original face. The hat opening/brim must be wide enough for the FULL skull width, sit low and naturally just above the eyebrows, and fully cover the crown; never leave old hair tufts above the brim and never make a small cone perched on hair. This product is a floppy brown pointed hat; its floppy brim is one hat brim around the skull, never a cape or shoulder garment. Keep the protected eyes, nose, mouth, glasses, skin shading, face-feature positions, and neck unchanged. This is a Korean family reference: stay identity-faithful to the supplied references and art style; do not infer ethnicity from skin color and do not substitute a generic Western or generic Disney face.  Preserve the existing glasses exactly. Flatten the hair at the crown under the brim and let the long hair fall naturally from beneath the brim. Treat all pixels outside the head as transparent blank canvas. Output ONLY one head silhouette containing the face, hat, and hair. No torso, shirt, collar, cape, shawl, robe, shoulders, arms, hands, wand, body, or limbs. The lower hat brim must end around the head/neck and must never continue as a garment. Do not copy any full-body clothing from image 3. Keep the same canvas framing and lighting.",
+  "createdAt": "2026-09-26T18:06:47.996782+00:00",
+  "qaSheetPath": "/tmp/paper-doll-qa/hat-head-prototypes.png",
+  "qaSheetSha256": "b5a908bf3c32d2dbedf64b4ffc158c885a9cfb62e0c436a016fd36b47510d930",
+  "postprocess": "rebuild-final: restore protected face/neck and remove non-hair pixels below face",
+  "landmarksFaceBox": [
+    344,
+    199,
+    683,
+    396
+  ],
+  "verifiedHeadAlphaBbox": [
+    311,
+    43,
+    709,
+    533
+  ]
+}

@@ -1,7 +1,7 @@
 import { avatarMarkup } from "./avatar.js";
 
-const WIZARD_ASSET_ROOT = new URL("./assets/wizards/", import.meta.url);
-const PORTRAIT_SIZE = 512;
+const DOLL_ASSET_ROOT = new URL("./assets/doll/headwear/", import.meta.url);
+const PORTRAIT_SIZE = 1024;
 
 const escapeXml = (value) =>
   String(value).replace(/[&<>"']/g, (character) => {
@@ -15,7 +15,7 @@ const escapeXml = (value) =>
     return escaped[character];
   });
 
-const assetHref = (filename) => new URL(filename, WIZARD_ASSET_ROOT).href;
+const assetHref = (filename) => new URL(filename, DOLL_ASSET_ROOT).href;
 
 /**
  * The family choices remain clockwise from the upper-left choice in the UI.
@@ -27,7 +27,7 @@ export const characters = Object.freeze([
     id: "dad",
     name: "아빠",
     title: "별빛 천문술사",
-    description: "남색 로브와 금빛 아스트롤라베를 든 별빛 마법사",
+    description: "사각 안경의 별빛 마법사. 수수한 차림으로 모험을 시작해요.",
   }),
   Object.freeze({
     id: "mom",
@@ -39,28 +39,26 @@ export const characters = Object.freeze([
     id: "jeongan",
     name: "정안",
     title: "달빛 마법학도",
-    description: "보랏빛과 청록빛을 두른 둥근 안경의 달빛 견습생",
+    description: "둥근 안경과 단발머리의 달빛 견습생",
   }),
   Object.freeze({
     id: "suan",
     name: "수안",
     title: "바람의 비행술사",
-    description:
-      "안경 없이 산호빛과 호박빛을 입고 빗자루를 타는 바람의 비행술사",
+    description: "안경 없이 긴 머리를 한 바람의 비행술사",
   }),
   Object.freeze({
     id: "yewon",
     name: "예원언니",
     title: "사파이어 학술마녀",
-    description:
-      "안경과 낮은 포니테일을 한 사파이어빛 학술마녀, 별책과 은빛 지팡이를 든 현자",
+    description: "안경과 낮은 포니테일을 한 사파이어 학술마녀",
   }),
   Object.freeze({
     id: "hunho",
     name: "훈호오빠",
     title: "버건디 사슴 탐험가",
     description:
-      "안경 없이 작은 뿔장식을 한 버건디·은빛 사슴 탐험가, 여행 빗자루를 든 모험가",
+      "안경 없이 작은 뿔장식을 한 사슴 탐험가, 여행 빗자루를 멘 모험가",
   }),
 ]);
 

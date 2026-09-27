@@ -14,7 +14,7 @@ const buildQuestion = (spec, number) => {
   if (!article)
     throw new Error(`Missing history article: ${passage.articleId}`);
   return {
-    id: `dad-history-${String(number).padStart(3, "0")}`,
+    id: `dad-history-v2-${String(number).padStart(3, "0")}`,
     topic: "history",
     passageId: passage.id,
     passage: passage.text,
@@ -54,66 +54,6 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    passageId: "printing-press-1",
-    prompt:
-      "What language pattern does the passage associate with the spread of printed books?",
-    options: [
-      "Latin increasingly replaced vernacular languages",
-      "Books increasingly appeared in vernacular languages rather than Latin",
-      "Greek increasingly replaced every European language",
-      "National languages disappeared from printed books",
-    ],
-    answer: 1,
-    explanation:
-      "인쇄된 책이 라틴어보다 자국어로 점점 더 많이 나타났고, 국가 언어가 표준화되었다고 지문은 설명합니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "printing-press-1",
-    prompt:
-      "Which broad result does the passage link to printing spreading through European society?",
-    options: [
-      "A return to hand production",
-      "A decline in the availability of texts",
-      "An era of mass communication",
-      "The end of the Scientific Revolution",
-    ],
-    answer: 2,
-    explanation:
-      "인쇄의 확산이 유럽 사회에서 대중 통신의 시대를 열었다고 지문에 나옵니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "printing-press-1",
-    prompt:
-      "What combination helped printed texts support higher adult literacy rates?",
-    options: [
-      "Prices rose while availability fell",
-      "Books became limited to Latin readers",
-      "National languages were abandoned",
-      "The cost declined and availability increased",
-    ],
-    answer: 3,
-    explanation:
-      "지문은 인쇄물의 비용이 낮아지고 이용 가능성이 높아져 성인 문해율 향상에 도움이 되었다고 설명합니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "printing-press-2",
-    prompt:
-      "For how long was the basic wooden handpress design largely consistent?",
-    options: [
-      "For over three centuries",
-      "For about three decades",
-      "From 1814 until 1843",
-      "Only during the twentieth century",
-    ],
-    answer: 0,
-    explanation:
-      "목재 수동 인쇄기의 기본 설계는 산업혁명 때까지 3세기 넘게 대체로 유지되었습니다.",
-    difficulty: 1,
-  },
-  {
     passageId: "printing-press-2",
     prompt: "What could Lord Stanhope’s new iron press do by 1800?",
     options: [
@@ -128,60 +68,6 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    passageId: "printing-press-2",
-    prompt:
-      "Which features did The Times receive when it adopted Friedrich Koenig’s presses in 1814?",
-    options: [
-      "Iron plates and one-pull printing",
-      "Offset printing and phototypesetting",
-      "Steam power and rotary motion",
-      "Digital printing and standardized languages",
-    ],
-    answer: 2,
-    explanation:
-      "1814년 타임스가 채택한 쾨니히의 인쇄기는 증기 동력과 회전 운동을 결합했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "printing-press-2",
-    prompt:
-      "What does the passage say later rotary presses could eventually produce?",
-    options: [
-      "A single sheet at one pull",
-      "Only handwritten books",
-      "Only vernacular-language editions",
-      "Millions of page impressions in a day",
-    ],
-    answer: 3,
-    explanation:
-      "호의 회전식 인쇄기는 생산량을 크게 높였고, 이후 회전식 모델은 하루 수백만 페이지 인상을 낼 수 있었습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "rosetta-stone-1",
-    prompt: "What material is the Rosetta Stone described as?",
-    options: ["Granodiorite", "Papyrus", "Iron", "Marble"],
-    answer: 0,
-    explanation:
-      "지문 첫 문장이 로제타석을 화강섬록암(granodiorite) 비석이라고 명시합니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "rosetta-stone-1",
-    prompt:
-      "Which order matches the scripts from the top text to the bottom text?",
-    options: [
-      "Ancient Greek, Demotic, hieroglyphic",
-      "Hieroglyphic, Demotic, Ancient Greek",
-      "Demotic, Ancient Greek, hieroglyphic",
-      "Hieroglyphic, Ancient Greek, Demotic",
-    ],
-    answer: 1,
-    explanation:
-      "위에서 아래로 고대 이집트 상형문자, 데모틱 문자, 고대 그리스어 순서입니다.",
-    difficulty: 1,
-  },
-  {
     passageId: "rosetta-stone-1",
     prompt: "When and on whose behalf was the decree issued?",
     options: [
@@ -193,63 +79,6 @@ const questionSpecs = [
     answer: 2,
     explanation:
       "세 판본의 포고령은 기원전 196년 프톨레마이오스 5세 에피파네스의 이름으로 발표되었습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "rosetta-stone-1",
-    prompt:
-      "Why did the three versions make the stone especially useful for decipherment?",
-    options: [
-      "They used three unrelated subjects",
-      "They were all written only in Greek",
-      "They differed completely in every line",
-      "They had only minor differences from one another",
-    ],
-    answer: 3,
-    explanation:
-      "같은 포고령의 세 판본이 서로 조금만 달라 비교할 수 있었기 때문에 해독의 열쇠가 되었습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "rosetta-stone-2",
-    prompt: "Where was the stone believed to have been displayed originally?",
-    options: [
-      "Within a temple, possibly at Sais",
-      "In Fort Julien near Rashid",
-      "In a European museum",
-      "At a Roman military camp",
-    ],
-    answer: 0,
-    explanation:
-      "원래 사이스에 있었을 가능성이 있는 사원 안에 전시되었다고 지문은 추정합니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "rosetta-stone-2",
-    prompt: "What later use did the stone have before its modern discovery?",
-    options: [
-      "It served as a museum catalog",
-      "It was used as building material for Fort Julien",
-      "It became a plaster cast for scholars",
-      "It was placed in a temple at Sais again",
-    ],
-    answer: 1,
-    explanation:
-      "돌은 결국 나일 삼각주 라시드 근처 포트 줄리앙 건설의 건축 자재로 사용되었습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "rosetta-stone-2",
-    prompt: "Who found the stone in July 1799, and in what context?",
-    options: [
-      "Athenian statesman Demetrius during a library project",
-      "Champollion during a Paris study",
-      "French army officer Pierre-François Bouchard during the invasion of Egypt",
-      "A Ptolemaic king during a temple ceremony",
-    ],
-    answer: 2,
-    explanation:
-      "1799년 7월 프랑스의 이집트 침공 중 장교 피에르 프랑수아 부샤르가 발견했습니다.",
     difficulty: 2,
   },
   {
@@ -281,63 +110,6 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    passageId: "silk-road-1",
-    prompt: "Which kinds of interaction did this network help facilitate?",
-    options: [
-      "Only military and economic interaction",
-      "Economic, cultural, political, and religious interaction",
-      "Only religious interaction between East and West",
-      "Only political interaction within Europe",
-    ],
-    answer: 1,
-    explanation:
-      "동서 세계 사이에 경제·문화·정치·종교적 상호작용을 촉진했다고 지문이 열거합니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "silk-road-1",
-    prompt: "Why do some historians prefer the term “Silk Routes”?",
-    options: [
-      "The name was created in ancient China",
-      "The routes carried only silk",
-      "It better reflects an intricate web of land and sea routes",
-      "It refers only to routes inside Europe",
-    ],
-    answer: 2,
-    explanation:
-      "일부 현대 역사가는 단일 길보다 복잡한 육상·해상망이라는 점을 반영해 “Silk Routes”를 선호합니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "silk-road-1",
-    prompt:
-      "What position do some scholars take about the idea of “silk roads”?",
-    options: [
-      "They all regard it as a single uninterrupted road",
-      "They say the network had no cultural role",
-      "They argue the name should refer only to sea routes",
-      "They criticise or dismiss the idea and call for a new definition or term",
-    ],
-    answer: 3,
-    explanation:
-      "지문은 일부 학자들이 실크로드라는 생각을 비판하거나 배척하고 새로운 정의나 용어를 요구한다고 말합니다.",
-    difficulty: 3,
-  },
-  {
-    passageId: "silk-road-2",
-    prompt: "What gave the Silk Road its name?",
-    options: [
-      "Highly lucrative silk textiles primarily produced in China",
-      "The Han dynasty’s expansion into Central Asia",
-      "The Great Wall’s protection of trade routes",
-      "The Parthian Empire’s bridge to the Mediterranean",
-    ],
-    answer: 0,
-    explanation:
-      "이름은 중국에서 주로 생산된 매우 수익성 높은 비단 직물 무역에서 유래했습니다.",
-    difficulty: 1,
-  },
-  {
     passageId: "silk-road-2",
     prompt:
       "What event helped bring Central Asia under unified control around 114 BCE?",
@@ -353,62 +125,6 @@ const questionSpecs = [
     difficulty: 2,
   },
   {
-    passageId: "silk-road-2",
-    prompt: "Why did the Chinese extend the Great Wall in this account?",
-    options: [
-      "To connect the network to the Roman Empire’s western terminus",
-      "To protect only the Parthian bridge",
-      "To protect trade products and the trade route",
-      "To replace the network’s sea routes",
-    ],
-    answer: 2,
-    explanation: "중국은 교역품과 교역로를 보호하려고 만리장성을 연장했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "silk-road-2",
-    prompt: "What role did the Parthian Empire play in the network?",
-    options: [
-      "It produced the silk traded from China",
-      "It controlled the Great Wall’s construction",
-      "It established the western terminus in Rome",
-      "It provided a vital bridge connecting the network to the Mediterranean",
-    ],
-    answer: 3,
-    explanation:
-      "파르티아 제국은 교역망과 지중해를 연결하는 중요한 다리 역할을 했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "industrial-revolution-1",
-    prompt:
-      "Why is this period sometimes called the First Industrial Revolution?",
-    options: [
-      "To distinguish it from the subsequent Second Industrial Revolution",
-      "To show it began after the Second Industrial Revolution",
-      "To distinguish it from the earlier Second Agricultural Revolution",
-      "To indicate that only one revolution occurred",
-    ],
-    answer: 0,
-    explanation:
-      "뒤이어 일어난 제2차 산업혁명과 구별하기 위해 제1차라고도 부릅니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "industrial-revolution-1",
-    prompt: "Which geographical sequence is stated in the passage?",
-    options: [
-      "It began in the United States and reached Britain by 1840",
-      "It began in Great Britain around 1760 and spread to continental Europe and the United States by about 1840",
-      "It began in continental Europe and ended in Great Britain by 1760",
-      "It began in Egypt and reached the United States by 1840",
-    ],
-    answer: 1,
-    explanation:
-      "시작점은 1760년경 영국이며 1840년경 대륙 유럽과 미국으로 퍼졌다는 순서입니다.",
-    difficulty: 1,
-  },
-  {
     passageId: "industrial-revolution-1",
     prompt: "What kind of change does the excerpt chiefly describe?",
     options: [
@@ -420,66 +136,6 @@ const questionSpecs = [
     answer: 2,
     explanation:
       "핵심은 세계 경제가 더 널리, 효율적이고 안정적인 제조 과정으로 전환한 것입니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "industrial-revolution-1",
-    prompt:
-      "What comparison do economic historians make about its material importance?",
-    options: [
-      "Its onset mattered less than the adoption of agriculture",
-      "Its onset was comparable only to the growth of steam power",
-      "Its material effect was limited to Britain",
-      "Its onset was comparable only to the adoption of agriculture",
-    ],
-    answer: 3,
-    explanation:
-      "경제사학자들은 물질적 발전에서 산업혁명의 시작을 농업 채택에 견줄 만하다고 평가합니다.",
-    difficulty: 3,
-  },
-  {
-    passageId: "industrial-revolution-2",
-    prompt:
-      "Which production shift is explicitly listed as part of the transition?",
-    options: [
-      "From hand production methods to machines",
-      "From machines back to hand production",
-      "From mechanised factories to dispersed home workshops",
-      "From steam power to only animal power",
-    ],
-    answer: 0,
-    explanation:
-      "지문은 손으로 생산하던 방식에서 기계로 옮겨간 것을 전환의 한 요소로 제시합니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "industrial-revolution-2",
-    prompt:
-      "Which power sources does the excerpt mention as increasingly used?",
-    options: [
-      "Hand labor and animal power",
-      "Water power and steam power",
-      "Machine tools and mechanised factories",
-      "Chemical manufacturing and iron production",
-    ],
-    answer: 1,
-    explanation:
-      "점점 더 많이 사용된 동력으로 수력과 증기력이 명시되어 있습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "industrial-revolution-2",
-    prompt:
-      "What population effect does the passage associate with greatly increased output?",
-    options: [
-      "A temporary fall in population growth",
-      "No population change",
-      "An unprecedented rise in population and population growth",
-      "Population growth only in continental Europe",
-    ],
-    answer: 2,
-    explanation:
-      "생산량의 큰 증가와 함께 인구와 인구 증가가 전례 없이 늘었다고 지문이 연결합니다.",
     difficulty: 2,
   },
   {
@@ -510,64 +166,6 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    passageId: "great-fire-1",
-    prompt: "What did the main firefighting technique of the time involve?",
-    options: [
-      "Waiting for the east wind to drop",
-      "Removing structures in the fire’s path to create firebreaks",
-      "Using printed warnings to move every resident",
-      "Building taller structures around the flames",
-    ],
-    answer: 1,
-    explanation:
-      "당시의 주요 소방 방식인 방화선은 불길의 경로에 있는 구조물을 제거하는 것이었습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "great-fire-1",
-    prompt: "What delayed the use of that firefighting method?",
-    options: [
-      "The fire had already reached the River Fleet",
-      "The French and Dutch controlled the firebreaks",
-      "Lord Mayor Sir Thomas Bloodworth hesitated to give the order",
-      "The homeless refused to leave the City",
-    ],
-    answer: 2,
-    explanation:
-      "토머스 블러드워스 시장이 그 방법을 쓰라는 명령을 내리는 데 주저했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "great-fire-1",
-    prompt:
-      "Why had large-scale demolitions failed to stop the fire by Sunday night?",
-    options: [
-      "The firebreaks had been built too early",
-      "The bakery fire had already gone out",
-      "The City had moved north before the order",
-      "The wind had fanned the fire into a firestorm that defeated the measures",
-    ],
-    answer: 3,
-    explanation:
-      "대규모 철거가 명령될 때는 바람이 불을 화재 폭풍으로 키워 그 조치가 소용없게 되었습니다.",
-    difficulty: 3,
-  },
-  {
-    passageId: "great-fire-2",
-    prompt:
-      "Which two factors are said to have helped win the battle against the fire?",
-    options: [
-      "The east wind dropped and the Tower garrison used gunpowder firebreaks",
-      "Charles II ordered flight and the City gates closed",
-      "Radical rebuilding plans and a new street plan",
-      "The French and Dutch stopped fighting and returned",
-    ],
-    answer: 0,
-    explanation:
-      "강한 동풍이 약해지고 런던탑 수비대가 화약으로 효과적인 방화선을 만든 두 요인이었습니다.",
-    difficulty: 2,
-  },
-  {
     passageId: "great-fire-2",
     prompt:
       "Why did Charles II strongly encourage people to leave London and settle elsewhere?",
@@ -583,65 +181,6 @@ const questionSpecs = [
     difficulty: 2,
   },
   {
-    passageId: "great-fire-2",
-    prompt: "How did the eventual rebuilding compare with the proposals?",
-    options: [
-      "No rebuilding proposals were made",
-      "Every radical proposal was adopted",
-      "Some proposals were radical, but London was rebuilt essentially on the same medieval street plan",
-      "The city was rebuilt on an entirely new plan outside the old walls",
-    ],
-    answer: 2,
-    explanation:
-      "급진적인 안도 제시되었지만 실제 런던은 본질적으로 기존 중세 가로망 위에 재건되었습니다.",
-    difficulty: 3,
-  },
-  {
-    passageId: "great-fire-2",
-    prompt:
-      "What feature does the excerpt say still exists after the reconstruction?",
-    options: [
-      "The original bakery in Pudding Lane",
-      "The gunpowder firebreaks around the Tower",
-      "The city’s exact pre-fire population",
-      "Essentially the same medieval street plan",
-    ],
-    answer: 3,
-    explanation:
-      "재건 뒤에도 본질적으로 같은 중세 거리 계획이 남아 있다고 지문은 말합니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "library-alexandria-1",
-    prompt:
-      "What larger research institution included the Library of Alexandria?",
-    options: [
-      "The Mouseion",
-      "The Ptolemaic royal court",
-      "A separate Alexandrian temple archive",
-      "A Roman research academy",
-    ],
-    answer: 0,
-    explanation:
-      "알렉산드리아 도서관은 뮤세이온이라는 더 큰 연구 기관의 일부였습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "library-alexandria-1",
-    prompt:
-      "Who may have proposed the idea of a universal library, and to whom?",
-    options: [
-      "Callimachus to Ptolemy II",
-      "Demetrius of Phalerum to Ptolemy I Soter",
-      "Eratosthenes to Ptolemy II",
-      "A Roman emperor to Demetrius of Phalerum",
-    ],
-    answer: 1,
-    explanation:
-      "데메트리오스가 프톨레마이오스 1세에게 보편적 도서관을 제안했을 수 있다고 지문은 말합니다.",
-    difficulty: 2,
-  },
-  {
     passageId: "library-alexandria-1",
     prompt: "Under whose reign was the Library probably built?",
     options: [
@@ -653,64 +192,6 @@ const questionSpecs = [
     answer: 2,
     explanation:
       "도서관 자체는 아들인 프톨레마이오스 2세 필라델포스의 통치 때 지어졌을 가능성이 높다고 합니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "library-alexandria-1",
-    prompt:
-      "What does the passage say about the number of scrolls housed there?",
-    options: [
-      "It gives an exact total",
-      "It says only nine scrolls were kept there",
-      "It says the collection had no papyrus scrolls",
-      "It says the number is unknown",
-    ],
-    answer: 3,
-    explanation:
-      "도서관에 몇 개의 두루마리가 있었는지는 알 수 없다고 지문이 명시합니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "library-alexandria-2",
-    prompt:
-      "Why did Alexandria come to be regarded as a capital of knowledge and learning?",
-    options: [
-      "In part because of the Great Library",
-      "Because all scholars had left the city",
-      "Because the Mouseion was a military fortress",
-      "Because the Library contained only legal texts",
-    ],
-    answer: 0,
-    explanation:
-      "알렉산드리아가 지식과 학문의 중심으로 여겨진 이유 중 하나로 대도서관이 제시됩니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "library-alexandria-2",
-    prompt: "What work is associated with Zenodotus of Ephesus?",
-    options: [
-      "Composing the Argonautica",
-      "Working toward standardizing the works of Homer",
-      "Calculating the circumference of the Earth",
-      "Documenting the first recorded steam engine",
-    ],
-    answer: 1,
-    explanation:
-      "제노도토스는 호메로스 작품을 표준화하려고 작업한 학자로 열거됩니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "library-alexandria-2",
-    prompt: "What is distinctive about Callimachus’s Pinakes in the passage?",
-    options: [
-      "It was a collection of royal taxes",
-      "It was the first recorded steam engine",
-      "It is sometimes considered the world’s first library catalog",
-      "It was a system for writing Greek diacritics",
-    ],
-    answer: 2,
-    explanation:
-      "칼리마코스가 만든 피나케스는 세계 최초의 도서관 목록으로 여겨지기도 합니다.",
     difficulty: 2,
   },
   {
@@ -741,64 +222,6 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    passageId: "magna-carta-1",
-    prompt:
-      "What political problem was Cardinal Stephen Langton’s draft intended to address?",
-    options: [
-      "A dispute about the Charter of the Forest and the Lambeth treaty",
-      "Peace between the unpopular king and rebel barons",
-      "A conflict between the king and the church alone",
-      "A disagreement about feudal payments without rebel barons",
-    ],
-    answer: 1,
-    explanation:
-      "랭턴 추기경은 인기가 낮은 왕과 반란 바론들 사이의 평화를 만들기 위해 초안을 작성했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "magna-carta-1",
-    prompt: "Which combination of protections is promised in the charter?",
-    options: [
-      "Protection of trade routes, freedom from taxation, and military service",
-      "A council of scholars, a bilingual decree, and lower book prices",
-      "Church rights, protection from illegal imprisonment, and swift impartial justice",
-      "A royal monopoly, military service, and delayed justice",
-    ],
-    answer: 2,
-    explanation:
-      "헌장은 교회 권리, 불법 구금으로부터의 보호, 신속하고 공정한 사법 접근 등을 약속했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "magna-carta-1",
-    prompt: "What followed when neither side kept its commitments?",
-    options: [
-      "The charter became statute law immediately",
-      "The rebel barons withdrew their demands",
-      "Pope Innocent III confirmed it and peace followed",
-      "Pope Innocent III annulled it, leading to the First Barons’ War",
-    ],
-    answer: 3,
-    explanation:
-      "양측이 약속을 지키지 않자 교황 인노첸시오 3세가 헌장을 무효화했고 제1차 바론 전쟁으로 이어졌습니다.",
-    difficulty: 3,
-  },
-  {
-    passageId: "magna-carta-2",
-    prompt:
-      "How did Henry III’s regency government alter the charter when it reissued it in 1216?",
-    options: [
-      "It stripped out some of its more radical content",
-      "It added more radical content",
-      "It changed the charter into the Charter of the Forest",
-      "It left the content completely unchanged",
-    ],
-    answer: 0,
-    explanation:
-      "헨리 3세의 섭정 정부는 정치적 지지를 얻으려 급진적인 내용 일부를 덜어냈습니다.",
-    difficulty: 2,
-  },
-  {
     passageId: "magna-carta-2",
     prompt: "Why did the document acquire the name “Magna Carta” in 1217?",
     options: [
@@ -813,61 +236,6 @@ const questionSpecs = [
     difficulty: 3,
   },
   {
-    passageId: "magna-carta-2",
-    prompt: "What did Henry receive when he reissued the charter in 1225?",
-    options: [
-      "Protection from illegal imprisonment",
-      "A place in the Charter of the Forest",
-      "A grant of new taxes",
-      "A new council of 25 scholars",
-    ],
-    answer: 2,
-    explanation:
-      "자금이 부족했던 헨리는 새 세금의 승인을 받는 대가로 1225년에 재발행했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "magna-carta-2",
-    prompt: "What legal status did Edward I confirm for the charter in 1297?",
-    options: [
-      "A private royal letter",
-      "A peace treaty with the French",
-      "A religious text for the Mouseion",
-      "Part of England’s statute law",
-    ],
-    answer: 3,
-    explanation:
-      "에드워드 1세는 1297년 이를 잉글랜드 성문법의 일부로 확인했습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "enigma-machine-1",
-    prompt: "What alphabet did the Enigma’s rotor mechanism scramble?",
-    options: [
-      "The 26 letters of the Latin alphabet",
-      "The three scripts of the Egyptian decree",
-      "The symbols used for lunar months",
-      "A set of only ten military signals",
-    ],
-    answer: 0,
-    explanation: "에니그마의 회전자 장치는 라틴 알파벳 26자를 뒤섞었습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "enigma-machine-1",
-    prompt: "In typical use, what did the second person do?",
-    options: [
-      "Changed the rotor settings every year",
-      "Wrote down which light illuminated at each key press",
-      "Read the plaintext aloud before typing",
-      "Copied each illuminated letter onto a new rotor",
-    ],
-    answer: 1,
-    explanation:
-      "두 번째 사람은 키를 누를 때마다 26개 램프 중 켜진 글자를 적었습니다.",
-    difficulty: 1,
-  },
-  {
     passageId: "enigma-machine-1",
     prompt: "What happened when ciphertext was entered into the machine?",
     options: [
@@ -880,62 +248,6 @@ const questionSpecs = [
     explanation:
       "지문은 암호문을 입력하면 읽을 수 있는 평문으로 변환된다고 설명합니다.",
     difficulty: 2,
-  },
-  {
-    passageId: "enigma-machine-1",
-    prompt: "Why did rotor motion make conventional pattern attacks difficult?",
-    options: [
-      "It removed the need for a secret setting",
-      "It used only one fixed substitution for every message",
-      "It sent plaintext without any keyboard input",
-      "It changed the electrical connections with each keypress, so each letter had a different key",
-    ],
-    answer: 3,
-    explanation:
-      "각 키 입력마다 전기 연결이 바뀌어 글자마다 다른 암호 키가 생기므로 패턴 공격에 강했습니다.",
-    difficulty: 3,
-  },
-  {
-    passageId: "enigma-machine-2",
-    prompt: "What did a receiving station need in order to decrypt a message?",
-    options: [
-      "The exact settings used by the transmitting station",
-      "Only the number of letters in the message",
-      "A copy of an unrelated key list",
-      "The same settings used during the previous month",
-    ],
-    answer: 0,
-    explanation:
-      "수신국은 해독을 위해 송신국이 사용한 정확한 설정을 알고 사용해야 했습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "enigma-machine-2",
-    prompt: "How often were the initial settings generally changed?",
-    options: [
-      "Every few years",
-      "Daily",
-      "Only after an intercepted message",
-      "Only when the rotor was repaired",
-    ],
-    answer: 1,
-    explanation: "초기 설정은 보통 비밀 키 목록에 따라 매일 변경되었습니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "enigma-machine-2",
-    prompt:
-      "Why could the large number of messages create an attack opportunity?",
-    options: [
-      "It made the alphabet longer than 26 letters",
-      "It forced operators to abandon rotor settings",
-      "Enough intercepted messages could be available for analysis",
-      "It prevented the receiving station from using a key list",
-    ],
-    answer: 2,
-    explanation:
-      "매일 메시지가 많으면 충분한 암호문을 가로채 분석할 수 있어 공격 가능성이 생겼습니다.",
-    difficulty: 3,
   },
   {
     passageId: "enigma-machine-2",
@@ -966,64 +278,6 @@ const questionSpecs = [
     difficulty: 1,
   },
   {
-    passageId: "apollo-11-1",
-    prompt: "What goal did Kennedy set in May 1961?",
-    options: [
-      "To orbit the Moon without attempting a landing before the decade ended",
-      "To land a person on the Moon and return them safely before the decade ended",
-      "To send an uncrewed lunar probe before the decade ended",
-      "To establish a permanent lunar station before the decade ended",
-    ],
-    answer: 1,
-    explanation:
-      "케네디는 10년이 끝나기 전에 달에 사람을 보내 안전하게 돌아오게 하라는 목표를 제시했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "apollo-11-1",
-    prompt: "Which pair is presented as part of the program’s development?",
-    options: [
-      "The Apollo 1 launchpad fire and technologies from later Apollo missions",
-      "The Apollo 1 launchpad fire and technologies from Mercury only",
-      "The Apollo 1 setback and technologies from Mercury and Gemini",
-      "The Mercury program’s cancellation and technologies from Apollo 2",
-    ],
-    answer: 2,
-    explanation:
-      "아폴로 1호 발사대 화재라는 큰 좌절을 겪었고 머큐리·제미니 기술을 활용했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "apollo-11-1",
-    prompt:
-      "What happened to Luna 15 while Armstrong and Aldrin were on the lunar surface?",
-    options: [
-      "It matched the Saturn V rocket in flight",
-      "It returned the Apollo crew to Earth",
-      "It became a crewed Soviet mission",
-      "It crashed on the Moon",
-    ],
-    answer: 3,
-    explanation:
-      "소련의 무인 달 탐사선 루나 15호는 두 우주비행사가 달 표면에 있는 동안 달에 추락했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "apollo-11-2",
-    prompt:
-      "How large was the estimated live audience for Armstrong’s moonwalk?",
-    options: [
-      "About 600 million people, roughly one-fifth of the world’s population",
-      "About 600 people, all at Kennedy Space Center",
-      "About one-fifth of the Apollo crew",
-      "About three million people, mainly in Europe",
-    ],
-    answer: 0,
-    explanation:
-      "문워크 생중계는 약 6억 명, 당시 세계 인구의 약 5분의 1이 시청한 것으로 추정됩니다.",
-    difficulty: 1,
-  },
-  {
     passageId: "apollo-11-2",
     prompt:
       "Which words does the passage quote Armstrong declaring on the lunar surface?",
@@ -1035,63 +289,6 @@ const questionSpecs = [
     ],
     answer: 1,
     explanation: "지문은 달 표면에서 암스트롱이 한 문장을 그대로 인용합니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "apollo-11-2",
-    prompt:
-      "What scientific result is attributed to the returned lunar samples?",
-    options: [
-      "They identified the first lunar mineral",
-      "They proved the lunar samples were synthetic",
-      "They led to identification of three previously unrecognized minerals",
-      "They identified three previously known minerals",
-    ],
-    answer: 2,
-    explanation:
-      "귀환한 달 표본은 이전에 알려지지 않았던 광물 세 가지를 식별하게 했습니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "apollo-11-2",
-    prompt: "Which location pairing is supported by the passage?",
-    options: [
-      "Columbia’s command module remains on the lunar surface",
-      "Eagle’s descent stage is preserved at the National Air and Space Museum",
-      "Both Columbia and Eagle remain preserved in lunar orbit",
-      "Columbia’s command module is preserved at the National Air and Space Museum",
-    ],
-    answer: 3,
-    explanation:
-      "지문은 컬럼비아 사령선이 워싱턴 D.C. 국립항공우주박물관에 보존됐다고 말합니다.",
-    difficulty: 2,
-  },
-  {
-    passageId: "calendar-1",
-    prompt: "What is a calendar primarily a system for organizing?",
-    options: [
-      "Days by giving names to periods such as weeks, months, and years",
-      "Months by assigning each one a date but no year",
-      "Events by arranging them only by time of day",
-      "Years by synchronizing them necessarily with the moon",
-    ],
-    answer: 0,
-    explanation:
-      "달력은 날을 정리하고 일·주·월·년 같은 기간에 이름을 붙이는 체계입니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "calendar-1",
-    prompt: "How does the passage define a date?",
-    options: [
-      "A chronological list of documents",
-      "The designation of a single and specific day",
-      "A physical record made only on paper",
-      "A period made from an intercalary month",
-    ],
-    answer: 1,
-    explanation:
-      "날짜는 그런 체계 안에서 하나의 특정한 날을 지정하는 것입니다.",
     difficulty: 1,
   },
   {
@@ -1110,63 +307,6 @@ const questionSpecs = [
     difficulty: 2,
   },
   {
-    passageId: "calendar-1",
-    prompt: "Which example fits the passage’s use of “calendar” as a list?",
-    options: [
-      "A calendar of lunar cycles",
-      "A list of months and years",
-      "A chronological list of kings",
-      "A court calendar or a calendar of wills",
-    ],
-    answer: 3,
-    explanation:
-      "지문은 계획된 행사의 예로 법정 일정, 문서 목록의 예로 유언장 목록을 듭니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "calendar-2",
-    prompt: "Which natural cycles may calendars commonly be synchronized with?",
-    options: [
-      "The cycles of the sun or the moon",
-      "The cycles of printing and literacy",
-      "The cycles of wars and treaties",
-      "The cycles of population and output",
-    ],
-    answer: 0,
-    explanation:
-      "달력의 기간은 보통 태양이나 달의 주기와 동기화되지만 반드시 그런 것은 아닙니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "calendar-2",
-    prompt:
-      "What type of calendar does the passage call the most common pre-modern type?",
-    options: [
-      "A calendar based only on the sun",
-      "A lunisolar calendar",
-      "A calendar with no named periods",
-      "A calendar based only on court documents",
-    ],
-    answer: 1,
-    explanation:
-      "근대 이전에 가장 흔한 유형으로 태음태양력(lunisolar calendar)이 제시됩니다.",
-    difficulty: 1,
-  },
-  {
-    passageId: "calendar-2",
-    prompt: "Why might a lunisolar calendar add an intercalary month?",
-    options: [
-      "To replace the solar year with a shorter cycle",
-      "To make every calendar a list of wills",
-      "To remain synchronized with the solar year over the long term",
-      "To keep all calendars independent of the moon",
-    ],
-    answer: 2,
-    explanation:
-      "태음태양력은 장기간 태양년과 맞추기 위해 때때로 윤달을 추가합니다.",
-    difficulty: 2,
-  },
-  {
     passageId: "calendar-2",
     prompt:
       "What can be inferred from the claim that synchronization is “usually, though not necessarily” used?",
@@ -1179,6 +319,849 @@ const questionSpecs = [
     answer: 3,
     explanation:
       "“보통이지만 반드시 그렇지는 않다”는 표현은 태양·달 주기와의 동기화가 일반적이나 필수는 아님을 뜻합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "printing-press-3",
+    prompt: "What does the passage state about Johannes Gutenberg?",
+    options: [
+      "Johannes Gutenberg invented the movable-type printing press around 1440, utilizing four existing technologies: the screw press, movable type, the codex book format, and mechanized paper production.",
+      "Movable type is the typographical principle of writing a text from individual reusable characters.",
+      "The codex book format also dated to the Roman Empire, and was of utmost significance in the history of the book.",
+      "The overall design of the wooden handpress was largely consistent throughout its long history, but its construction and performance improved considerably over three centuries, with metal screws replacing wooden ones and the tympan and frisket becoming standard fittings.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “Johannes Gutenberg invented the movable-type printing press around 1440, utilizing four existing technologies: the screw press, movable type, the codex book format, and mechanized paper production.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "printing-press-4",
+    prompt: "What does the passage state about screw press?",
+    options: [
+      "The codex book format also dated to the Roman Empire, and was of utmost significance in the history of the book.",
+      "The first factor, the screw press, permitted direct pressure to be applied on a flat plane.",
+      "The overall design of the wooden handpress was largely consistent throughout its long history, but its construction and performance improved considerably over three centuries, with metal screws replacing wooden ones and the tympan and frisket becoming standard fittings.",
+      "Several more innovations and improvements followed before the start of the Industrial Revolution.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “The first factor, the screw press, permitted direct pressure to be applied on a flat plane.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "printing-press-5",
+    prompt: "What does the passage state about Movable type?",
+    options: [
+      "The overall design of the wooden handpress was largely consistent throughout its long history, but its construction and performance improved considerably over three centuries, with metal screws replacing wooden ones and the tympan and frisket becoming standard fittings.",
+      "Several more innovations and improvements followed before the start of the Industrial Revolution.",
+      "Movable type is the typographical principle of writing a text from individual reusable characters.",
+      "Johannes Gutenberg invented the movable-type printing press around 1440, utilizing four existing technologies: the screw press, movable type, the codex book format, and mechanized paper production.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “Movable type is the typographical principle of writing a text from individual reusable characters.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "printing-press-6",
+    prompt: "What does the passage state about codex book?",
+    options: [
+      "Several more innovations and improvements followed before the start of the Industrial Revolution.",
+      "Johannes Gutenberg invented the movable-type printing press around 1440, utilizing four existing technologies: the screw press, movable type, the codex book format, and mechanized paper production.",
+      "The first factor, the screw press, permitted direct pressure to be applied on a flat plane.",
+      "The codex book format also dated to the Roman Empire, and was of utmost significance in the history of the book.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The codex book format also dated to the Roman Empire, and was of utmost significance in the history of the book.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "printing-press-7",
+    prompt: "What does the passage state about overall design?",
+    options: [
+      "The overall design of the wooden handpress was largely consistent throughout its long history, but its construction and performance improved considerably over three centuries, with metal screws replacing wooden ones c. 1550 and the tympan and frisket becoming standard fittings.",
+      "Johannes Gutenberg invented the movable-type printing press around 1440, utilizing four existing technologies: the screw press, movable type, the codex book format, and mechanized paper production.",
+      "The first factor, the screw press, permitted direct pressure to be applied on a flat plane.",
+      "Movable type is the typographical principle of writing a text from individual reusable characters.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “The overall design of the wooden handpress was largely consistent throughout its long history, but its construction and performance improved considerably over three centuries, with metal screws replacing wooden ones c. 1550 and the tympan and frisket becoming standard fittings.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "printing-press-8",
+    prompt: "What does the passage state about improvements followed?",
+    options: [
+      "The first factor, the screw press, permitted direct pressure to be applied on a flat plane.",
+      "Several more innovations and improvements followed before the start of the Industrial Revolution.",
+      "Movable type is the typographical principle of writing a text from individual reusable characters.",
+      "The codex book format also dated to the Roman Empire, and was of utmost significance in the history of the book.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “Several more innovations and improvements followed before the start of the Industrial Revolution.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "rosetta-stone-3",
+    prompt: "What does the passage state about already underway?",
+    options: [
+      "Securing the favour of the priesthood was essential for the Ptolemaic kings to retain effective rule over the populace.",
+      "There can be no one definitive English translation of the decree, not only because modern understanding of the ancient languages continues to develop, but also because of the minor differences between the three original texts.",
+      "Study of the decree was already underway when the first complete translation of the Greek text was published in 1803.",
+      "The stele was almost certainly not originally placed at Rashid (Rosetta) where it was found, but more likely came from a temple site farther inland, possibly the royal town of Sais.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “Study of the decree was already underway when the first complete translation of the Greek text was published in 1803.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "rosetta-stone-4",
+    prompt: "What does the passage state about fragmentary copies?",
+    options: [
+      "There can be no one definitive English translation of the decree, not only because modern understanding of the ancient languages continues to develop, but also because of the minor differences between the three original texts.",
+      "The stele was almost certainly not originally placed at Rashid (Rosetta) where it was found, but more likely came from a temple site farther inland, possibly the royal town of Sais.",
+      "The Greek text on the Rosetta Stone provided the starting point.",
+      "Three other fragmentary copies of the same decree were discovered later, and several similar Egyptian bilingual or trilingual inscriptions are now known, including three slightly earlier Ptolemaic decrees: the Decree of Alexandria in 243 BC, the Decree of Canopus in 238 BC, and the Memphis decree of Ptolemy IV, c. 218 BC.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “Three other fragmentary copies of the same decree were discovered later, and several similar Egyptian bilingual or trilingual inscriptions are now known, including three slightly earlier Ptolemaic decrees: the Decree of Alexandria in 243 BC, the Decree of Canopus in 238 BC, and the Memphis decree of Ptolemy IV, c. 218 BC.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "rosetta-stone-5",
+    prompt: "What does the passage state about Ptolemaic kings?",
+    options: [
+      "Securing the favour of the priesthood was essential for the Ptolemaic kings to retain effective rule over the populace.",
+      "The stele was almost certainly not originally placed at Rashid (Rosetta) where it was found, but more likely came from a temple site farther inland, possibly the royal town of Sais.",
+      "The Greek text on the Rosetta Stone provided the starting point.",
+      "Study of the decree was already underway when the first complete translation of the Greek text was published in 1803.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “Securing the favour of the priesthood was essential for the Ptolemaic kings to retain effective rule over the populace.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "rosetta-stone-6",
+    prompt: "What does the passage state about definitive English?",
+    options: [
+      "The Greek text on the Rosetta Stone provided the starting point.",
+      "There can be no one definitive English translation of the decree, not only because modern understanding of the ancient languages continues to develop, but also because of the minor differences between the three original texts.",
+      "Study of the decree was already underway when the first complete translation of the Greek text was published in 1803.",
+      "Three other fragmentary copies of the same decree were discovered later, and several similar Egyptian bilingual or trilingual inscriptions are now known, including three slightly earlier Ptolemaic decrees: the Decree of Alexandria in 243 BC, the Decree of Canopus in 238 BC, and the Memphis decree of Ptolemy IV, .",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “There can be no one definitive English translation of the decree, not only because modern understanding of the ancient languages continues to develop, but also because of the minor differences between the three original texts.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "rosetta-stone-7",
+    prompt: "What does the passage state about almost certainly?",
+    options: [
+      "Study of the decree was already underway when the first complete translation of the Greek text was published in 1803.",
+      "Three other fragmentary copies of the same decree were discovered later, and several similar Egyptian bilingual or trilingual inscriptions are now known, including three slightly earlier Ptolemaic decrees: the Decree of Alexandria in 243 BC, the Decree of Canopus in 238 BC, and the Memphis decree of Ptolemy IV, .",
+      "The stele was almost certainly not originally placed at Rashid (Rosetta) where it was found, but more likely came from a temple site farther inland, possibly the royal town of Sais.",
+      "Securing the favour of the priesthood was essential for the Ptolemaic kings to retain effective rule over the populace.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The stele was almost certainly not originally placed at Rashid (Rosetta) where it was found, but more likely came from a temple site farther inland, possibly the royal town of Sais.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "rosetta-stone-8",
+    prompt: "What does the passage state about Greek text?",
+    options: [
+      "Three other fragmentary copies of the same decree were discovered later, and several similar Egyptian bilingual or trilingual inscriptions are now known, including three slightly earlier Ptolemaic decrees: the Decree of Alexandria in 243 BC, the Decree of Canopus in 238 BC, and the Memphis decree of Ptolemy IV, .",
+      "Securing the favour of the priesthood was essential for the Ptolemaic kings to retain effective rule over the populace.",
+      "There can be no one definitive English translation of the decree, not only because modern understanding of the ancient languages continues to develop, but also because of the minor differences between the three original texts.",
+      "The Greek text on the Rosetta Stone provided the starting point.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The Greek text on the Rosetta Stone provided the starting point.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "silk-road-3",
+    prompt: "What does the passage state about Ottoman Empire?",
+    options: [
+      "From 1453 onwards, the Ottoman Empire began competing with other gunpowder empires for greater control over the overland routes, which prompted European polities to seek alternatives while themselves gaining leverage over their trade partners.",
+      "The use of the term 'Silk Road' is not without its detractors.",
+      "The northern route travelled northwest through the Chinese province of Gansu from Shaanxi Province and split into three further routes, two of them following the mountain ranges to the north and south of the Taklamakan Desert to rejoin at Kashgar, and the other going north of the Tian Shan mountains through Turpan, Talgar, and Almaty (in what is now southeast Kazakhstan).",
+      "The southern route or Karakoram route was mainly a single route from China through the Karakoram mountains, where it persists in modern times as the Karakoram Highway, a paved road through Khunjerab Pass that connects Pakistan and China.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “From 1453 onwards, the Ottoman Empire began competing with other gunpowder empires for greater control over the overland routes, which prompted European polities to seek alternatives while themselves gaining leverage over their trade partners.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "silk-road-4",
+    prompt: "How does this passage explain the origin of the Silk Road's name?",
+    options: [
+      "The northern route travelled northwest through the Chinese province of Gansu from Shaanxi Province and split into three further routes, two of them following the mountain ranges to the north and south of the Taklamakan Desert to rejoin at Kashgar, and the other going north of the Tian Shan mountains through Turpan, Talgar, and Almaty (in what is now southeast Kazakhstan).",
+      "The Silk Road derives its name from the lucrative trade in silk, first developed in China, and a major reason for the connection of trade routes into an extensive transcontinental network.",
+      "The southern route or Karakoram route was mainly a single route from China through the Karakoram mountains, where it persists in modern times as the Karakoram Highway, a paved road through Khunjerab Pass that connects Pakistan and China.",
+      "The Maritime Silk Road or Maritime Silk Route is the maritime section of the historic Silk Road that connected Southeast Asia, East Asia, the Indian subcontinent, the Arabian Peninsula, eastern Africa, and Europe.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “The Silk Road derives its name from the lucrative trade in silk, first developed in China, and a major reason for the connection of trade routes into an extensive transcontinental network.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "silk-road-5",
+    prompt:
+      "What reservation about the term 'Silk Road' is introduced in this passage?",
+    options: [
+      "The southern route or Karakoram route was mainly a single route from China through the Karakoram mountains, where it persists in modern times as the Karakoram Highway, a paved road through Khunjerab Pass that connects Pakistan and China.",
+      "The Maritime Silk Road or Maritime Silk Route is the maritime section of the historic Silk Road that connected Southeast Asia, East Asia, the Indian subcontinent, the Arabian Peninsula, eastern Africa, and Europe.",
+      "The use of the term 'Silk Road' is not without its detractors.",
+      "From 1453 onwards, the Ottoman Empire began competing with other gunpowder empires for greater control over the overland routes, which prompted European polities to seek alternatives while themselves gaining leverage over their trade partners.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The use of the term 'Silk Road' is not without its detractors.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "silk-road-6",
+    prompt: "What does the passage state about northern route?",
+    options: [
+      "The Maritime Silk Road or Maritime Silk Route is the maritime section of the historic Silk Road that connected Southeast Asia, East Asia, the Indian subcontinent, the Arabian Peninsula, eastern Africa, and Europe.",
+      "From 1453 onwards, the Ottoman Empire began competing with other gunpowder empires for greater control over the overland routes, which prompted European polities to seek alternatives while themselves gaining leverage over their trade partners.",
+      "The Silk Road derives its name from the lucrative trade in silk, first developed in China, and a major reason for the connection of trade routes into an extensive transcontinental network.",
+      "The northern route travelled northwest through the Chinese province of Gansu from Shaanxi Province and split into three further routes, two of them following the mountain ranges to the north and south of the Taklamakan Desert to rejoin at Kashgar, and the other going north of the Tian Shan mountains through Turpan, Talgar, and Almaty (in what is now southeast Kazakhstan).",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The northern route travelled northwest through the Chinese province of Gansu from Shaanxi Province and split into three further routes, two of them following the mountain ranges to the north and south of the Taklamakan Desert to rejoin at Kashgar, and the other going north of the Tian Shan mountains through Turpan, Talgar, and Almaty (in what is now southeast Kazakhstan).”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "silk-road-7",
+    prompt: "What does the passage state about southern route?",
+    options: [
+      "The southern route or Karakoram route was mainly a single route from China through the Karakoram mountains, where it persists in modern times as the Karakoram Highway, a paved road through Khunjerab Pass that connects Pakistan and China.",
+      "From 1453 onwards, the Ottoman Empire began competing with other gunpowder empires for greater control over the overland routes, which prompted European polities to seek alternatives while themselves gaining leverage over their trade partners.",
+      "The Silk Road derives its name from the lucrative trade in silk, first developed in China, and a major reason for the connection of trade routes into an extensive transcontinental network.",
+      "The use of the term 'Silk Road' is not without its detractors.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “The southern route or Karakoram route was mainly a single route from China through the Karakoram mountains, where it persists in modern times as the Karakoram Highway, a paved road through Khunjerab Pass that connects Pakistan and China.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "silk-road-8",
+    prompt: "What does the passage state about Maritime Silk?",
+    options: [
+      "The Silk Road derives its name from the lucrative trade in silk, first developed in China, and a major reason for the connection of trade routes into an extensive transcontinental network.",
+      "The Maritime Silk Road or Maritime Silk Route is the maritime section of the historic Silk Road that connected Southeast Asia, East Asia, the Indian subcontinent, the Arabian Peninsula, eastern Africa, and Europe.",
+      "The use of the term 'Silk Road' is not without its detractors.",
+      "The northern route travelled northwest through the Chinese province of Gansu from Shaanxi Province and split into three further routes, two of them following the mountain ranges to the north and south of the Taklamakan Desert to rejoin at Kashgar, and the other going north of the Tian Shan mountains through Turpan, Talgar, and Almaty (in what is now southeast Kazakhstan).",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “The Maritime Silk Road or Maritime Silk Route is the maritime section of the historic Silk Road that connected Southeast Asia, East Asia, the Indian subcontinent, the Arabian Peninsula, eastern Africa, and Europe.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "industrial-revolution-3",
+    prompt: "What does the passage state about factors enabled?",
+    options: [
+      "Parts of India, China, Central America, South America, and the Middle East have a history of hand-manufacturing cotton textiles, which became a major industry after 1000 AD.",
+      "These advances were capitalised on by entrepreneurs, of whom the best known is Arkwright.",
+      "Several key factors enabled industrialisation.",
+      "In the UK in 1720, there were 20,500 tons of charcoal iron and 400 tons with coke.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “Several key factors enabled industrialisation.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "industrial-revolution-4",
+    prompt: "What does the passage state about value added?",
+    options: [
+      "These advances were capitalised on by entrepreneurs, of whom the best known is Arkwright.",
+      "In the UK in 1720, there were 20,500 tons of charcoal iron and 400 tons with coke.",
+      "Coke pig iron was hardly used to produce wrought iron until 1755, when Darby's son Abraham Darby II built furnaces at Horsehay and Ketley where low sulfur coal was available, and not far from Coalbrookdale.",
+      "The share of value added by the cotton industry in Britain was 2.6% in 1760, 17% in 1801, and 22% in 1831.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The share of value added by the cotton industry in Britain was 2.6% in 1760, 17% in 1801, and 22% in 1831.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "industrial-revolution-5",
+    prompt: "What does the passage state about Central America?",
+    options: [
+      "Parts of India, China, Central America, South America, and the Middle East have a history of hand-manufacturing cotton textiles, which became a major industry after 1000 AD.",
+      "In the UK in 1720, there were 20,500 tons of charcoal iron and 400 tons with coke.",
+      "Coke pig iron was hardly used to produce wrought iron until 1755, when Darby's son Abraham Darby II built furnaces at Horsehay and Ketley where low sulfur coal was available, and not far from Coalbrookdale.",
+      "Several key factors enabled industrialisation.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “Parts of India, China, Central America, South America, and the Middle East have a history of hand-manufacturing cotton textiles, which became a major industry after 1000 AD.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "industrial-revolution-6",
+    prompt: "What does the passage state about best known?",
+    options: [
+      "Coke pig iron was hardly used to produce wrought iron until 1755, when Darby's son Abraham Darby II built furnaces at Horsehay and Ketley where low sulfur coal was available, and not far from Coalbrookdale.",
+      "These advances were capitalised on by entrepreneurs, of whom the best known is Arkwright.",
+      "Several key factors enabled industrialisation.",
+      "The share of value added by the cotton industry in Britain was 2.6% in 1760, 17% in 1801, and 22% in 1831.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “These advances were capitalised on by entrepreneurs, of whom the best known is Arkwright.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "industrial-revolution-7",
+    prompt: "What does the passage state about charcoal iron?",
+    options: [
+      "Several key factors enabled industrialisation.",
+      "The share of value added by the cotton industry in Britain was 2.6% in 1760, 17% in 1801, and 22% in 1831.",
+      "In the UK in 1720, there were 20,500 tons of charcoal iron and 400 tons with coke.",
+      "Parts of India, China, Central America, South America, and the Middle East have a history of hand-manufacturing cotton textiles, which became a major industry after 1000 AD.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “In the UK in 1720, there were 20,500 tons of charcoal iron and 400 tons with coke.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "industrial-revolution-8",
+    prompt: "What does the passage state about hardly used?",
+    options: [
+      "The share of value added by the cotton industry in Britain was 2.6% in 1760, 17% in 1801, and 22% in 1831.",
+      "Parts of India, China, Central America, South America, and the Middle East have a history of hand-manufacturing cotton textiles, which became a major industry after 1000 AD.",
+      "These advances were capitalised on by entrepreneurs, of whom the best known is Arkwright.",
+      "Coke pig iron was hardly used to produce wrought iron until 1755, when Darby's son Abraham Darby II built furnaces at Horsehay and Ketley where low sulfur coal was available, and not far from Coalbrookdale.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “Coke pig iron was hardly used to produce wrought iron until 1755, when Darby's son Abraham Darby II built furnaces at Horsehay and Ketley where low sulfur coal was available, and not far from Coalbrookdale.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "great-fire-3",
+    prompt: "What does the passage state about largest city?",
+    options: [
+      "By the 1660s, London was by far the largest city in Britain and the third largest in the Western world, estimated at 300,000 to 400,000 inhabitants.",
+      "The city was essentially medieval in its street plan, an overcrowded warren of narrow, winding, cobbled alleys.",
+      "The riverfront was important in the development of the Great Fire.",
+      "The high Roman wall enclosing the city impeded escape from the inferno, restricting exit to eight narrow gates.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “By the 1660s, London was by far the largest city in Britain and the third largest in the Western world, estimated at 300,000 to 400,000 inhabitants.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "great-fire-4",
+    prompt: "What does the passage state about relationship between?",
+    options: [
+      "The riverfront was important in the development of the Great Fire.",
+      "The relationship between the City and the Crown was often tense.",
+      "The high Roman wall enclosing the city impeded escape from the inferno, restricting exit to eight narrow gates.",
+      "Fires were common in the crowded wood-built city with its open fireplaces, candles, ovens, and stores of combustibles.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “The relationship between the City and the Crown was often tense.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "great-fire-5",
+    prompt: "What does the passage state about essentially medieval?",
+    options: [
+      "The high Roman wall enclosing the city impeded escape from the inferno, restricting exit to eight narrow gates.",
+      "Fires were common in the crowded wood-built city with its open fireplaces, candles, ovens, and stores of combustibles.",
+      "The city was essentially medieval in its street plan, an overcrowded warren of narrow, winding, cobbled alleys.",
+      "By the 1660s, London was by far the largest city in Britain and the third largest in the Western world, estimated at 300,000 to 400,000 inhabitants.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The city was essentially medieval in its street plan, an overcrowded warren of narrow, winding, cobbled alleys.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "great-fire-6",
+    prompt: "What does the passage state about Great Fire?",
+    options: [
+      "Fires were common in the crowded wood-built city with its open fireplaces, candles, ovens, and stores of combustibles.",
+      "By the 1660s, London was by far the largest city in Britain and the third largest in the Western world, estimated at 300,000 to 400,000 inhabitants.",
+      "The relationship between the City and the Crown was often tense.",
+      "The riverfront was important in the development of the Great Fire.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The riverfront was important in the development of the Great Fire.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "great-fire-7",
+    prompt: "What does the passage state about high Roman?",
+    options: [
+      "The high Roman wall enclosing the city impeded escape from the inferno, restricting exit to eight narrow gates.",
+      "By the 1660s, London was by far the largest city in Britain and the third largest in the Western world, estimated at 300,000 to 400,000 inhabitants.",
+      "The relationship between the City and the Crown was often tense.",
+      "The city was essentially medieval in its street plan, an overcrowded warren of narrow, winding, cobbled alleys.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “The high Roman wall enclosing the city impeded escape from the inferno, restricting exit to eight narrow gates.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "great-fire-8",
+    prompt: "What does the passage state about crowded wood-built?",
+    options: [
+      "The relationship between the City and the Crown was often tense.",
+      "Fires were common in the crowded wood-built city with its open fireplaces, candles, ovens, and stores of combustibles.",
+      "The city was essentially medieval in its street plan, an overcrowded warren of narrow, winding, cobbled alleys.",
+      "The riverfront was important in the development of the Great Fire.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “Fires were common in the crowded wood-built city with its open fireplaces, candles, ovens, and stores of combustibles.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "library-alexandria-3",
+    prompt: "What does the passage state about Library declined?",
+    options: [
+      "The Library was one of the largest and most significant libraries of the ancient world, but details about it are a mixture of history and legend.",
+      "Modern scholars agree that while it is possible that Ptolemy I, a historian and author of an account of Alexander's campaign, laid the groundwork for the Library, it probably did not become a physical institution until the reign of Ptolemy II.",
+      "The influence of the Library declined gradually over the course of several centuries.",
+      "The Library was built in the Brucheion (Royal Quarter) as part of the Mouseion.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The influence of the Library declined gradually over the course of several centuries.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "library-alexandria-4",
+    prompt: "What does the passage state about Library dwindled?",
+    options: [
+      "Modern scholars agree that while it is possible that Ptolemy I, a historian and author of an account of Alexander's campaign, laid the groundwork for the Library, it probably did not become a physical institution until the reign of Ptolemy II.",
+      "The Library was built in the Brucheion (Royal Quarter) as part of the Mouseion.",
+      "The Library of Alexandria was not affiliated with any particular philosophical school; consequently, scholars who studied there had considerable academic freedom.",
+      "The Library dwindled during the Roman period, from a lack of funding and support.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The Library dwindled during the Roman period, from a lack of funding and support.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "library-alexandria-5",
+    prompt: "What does the passage state about significant libraries?",
+    options: [
+      "The Library was one of the largest and most significant libraries of the ancient world, but details about it are a mixture of history and legend.",
+      "The Library was built in the Brucheion (Royal Quarter) as part of the Mouseion.",
+      "The Library of Alexandria was not affiliated with any particular philosophical school; consequently, scholars who studied there had considerable academic freedom.",
+      "The influence of the Library declined gradually over the course of several centuries.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “The Library was one of the largest and most significant libraries of the ancient world, but details about it are a mixture of history and legend.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "library-alexandria-6",
+    prompt: "What does the passage state about Modern scholars?",
+    options: [
+      "The Library of Alexandria was not affiliated with any particular philosophical school; consequently, scholars who studied there had considerable academic freedom.",
+      "Modern scholars agree that while it is possible that Ptolemy I, a historian and author of an account of Alexander's campaign, laid the groundwork for the Library, it probably did not become a physical institution until the reign of Ptolemy II.",
+      "The influence of the Library declined gradually over the course of several centuries.",
+      "The Library dwindled during the Roman period, from a lack of funding and support.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “Modern scholars agree that while it is possible that Ptolemy I, a historian and author of an account of Alexander's campaign, laid the groundwork for the Library, it probably did not become a physical institution until the reign of Ptolemy II.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "library-alexandria-7",
+    prompt: "What does the passage state about Royal Quarter?",
+    options: [
+      "The influence of the Library declined gradually over the course of several centuries.",
+      "The Library dwindled during the Roman period, from a lack of funding and support.",
+      "The Library was built in the Brucheion (Royal Quarter) as part of the Mouseion.",
+      "The Library was one of the largest and most significant libraries of the ancient world, but details about it are a mixture of history and legend.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The Library was built in the Brucheion (Royal Quarter) as part of the Mouseion.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "library-alexandria-8",
+    prompt: "What does the passage state about particular philosophical?",
+    options: [
+      "The Library dwindled during the Roman period, from a lack of funding and support.",
+      "The Library was one of the largest and most significant libraries of the ancient world, but details about it are a mixture of history and legend.",
+      "Modern scholars agree that while it is possible that Ptolemy I, a historian and author of an account of Alexander's campaign, laid the groundwork for the Library, it probably did not become a physical institution until the reign of Ptolemy II.",
+      "The Library of Alexandria was not affiliated with any particular philosophical school; consequently, scholars who studied there had considerable academic freedom.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The Library of Alexandria was not affiliated with any particular philosophical school; consequently, scholars who studied there had considerable academic freedom.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "magna-carta-3",
+    prompt: "What does the passage state about rebels took?",
+    options: [
+      'The rebels took an oath that they would "stand fast for the liberty of the church and the realm", and demanded that the King confirm the Charter of Liberties that had been declared by King Henry I in the previous century, and which was perceived by the barons to protect their rights.',
+      "Letters backing John arrived from the Pope in April, but by then the rebel barons had organised into a military faction.",
+      'Although, as the historian David Carpenter has noted, the charter "wasted no time on political theory", it went beyond simply addressing individual baronial complaints, and formed a wider proposal for political reform.',
+      'Under what historians later labelled "clause 61", or the "security clause", a council of 25 barons would be created to monitor and ensure John\'s future adherence to the charter.',
+    ],
+    answer: 0,
+    explanation:
+      '지문은 “The rebels took an oath that they would "stand fast for the liberty of the church and the realm", and demanded that the King confirm the Charter of Liberties that had been declared by King Henry I in the previous century, and which was perceived by the barons to protect their rights.”라고 설명하므로 이 선택지가 지문에 근거합니다.',
+    difficulty: 1,
+  },
+  {
+    passageId: "magna-carta-4",
+    prompt: "What does the passage state about John's hope?",
+    options: [
+      'Although, as the historian David Carpenter has noted, the charter "wasted no time on political theory", it went beyond simply addressing individual baronial complaints, and formed a wider proposal for political reform.',
+      "It was John's hope that the Pope would give him valuable legal and moral support, and accordingly John played for time; the King had declared himself to be a papal vassal in 1213 and correctly believed he could count on the Pope for help.",
+      'Under what historians later labelled "clause 61", or the "security clause", a council of 25 barons would be created to monitor and ensure John\'s future adherence to the charter.',
+      "In one sense this was not unprecedented.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “It was John's hope that the Pope would give him valuable legal and moral support, and accordingly John played for time; the King had declared himself to be a papal vassal in 1213 and correctly believed he could count on the Pope for help.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "magna-carta-5",
+    prompt: "What does the passage state about Letters backing?",
+    options: [
+      'Under what historians later labelled "clause 61", or the "security clause", a council of 25 barons would be created to monitor and ensure John\'s future adherence to the charter.',
+      "In one sense this was not unprecedented.",
+      "Letters backing John arrived from the Pope in April, but by then the rebel barons had organised into a military faction.",
+      'The rebels took an oath that they would "stand fast for the liberty of the church and the realm", and demanded that the King confirm the Charter of Liberties that had been declared by King Henry I in the previous century, and which was perceived by the barons to protect their rights.',
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “Letters backing John arrived from the Pope in April, but by then the rebel barons had organised into a military faction.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "magna-carta-6",
+    prompt: "What does the passage state about historian David?",
+    options: [
+      "In one sense this was not unprecedented.",
+      'The rebels took an oath that they would "stand fast for the liberty of the church and the realm", and demanded that the King confirm the Charter of Liberties that had been declared by King Henry I in the previous century, and which was perceived by the barons to protect their rights.',
+      "It was John's hope that the Pope would give him valuable legal and moral support, and accordingly John played for time; the King had declared himself to be a papal vassal in 1213 and correctly believed he could count on the Pope for help.",
+      'Although, as the historian David Carpenter has noted, the charter "wasted no time on political theory", it went beyond simply addressing individual baronial complaints, and formed a wider proposal for political reform.',
+    ],
+    answer: 3,
+    explanation:
+      '지문은 “Although, as the historian David Carpenter has noted, the charter "wasted no time on political theory", it went beyond simply addressing individual baronial complaints, and formed a wider proposal for political reform.”라고 설명하므로 이 선택지가 지문에 근거합니다.',
+    difficulty: 1,
+  },
+  {
+    passageId: "magna-carta-7",
+    prompt: "What does the passage state about historians later?",
+    options: [
+      'Under what historians later labelled "clause 61", or the "security clause", a council of 25 barons would be created to monitor and ensure John\'s future adherence to the charter.',
+      'The rebels took an oath that they would "stand fast for the liberty of the church and the realm", and demanded that the King confirm the Charter of Liberties that had been declared by King Henry I in the previous century, and which was perceived by the barons to protect their rights.',
+      "It was John's hope that the Pope would give him valuable legal and moral support, and accordingly John played for time; the King had declared himself to be a papal vassal in 1213 and correctly believed he could count on the Pope for help.",
+      "Letters backing John arrived from the Pope in April, but by then the rebel barons had organised into a military faction.",
+    ],
+    answer: 0,
+    explanation:
+      '지문은 “Under what historians later labelled "clause 61", or the "security clause", a council of 25 barons would be created to monitor and ensure John\'s future adherence to the charter.”라고 설명하므로 이 선택지가 지문에 근거합니다.',
+    difficulty: 2,
+  },
+  {
+    passageId: "magna-carta-8",
+    prompt: "What does the passage state about previously conceded?",
+    options: [
+      "It was John's hope that the Pope would give him valuable legal and moral support, and accordingly John played for time; the King had declared himself to be a papal vassal in 1213 and correctly believed he could count on the Pope for help.",
+      "In one sense this was not unprecedented.",
+      "Letters backing John arrived from the Pope in April, but by then the rebel barons had organised into a military faction.",
+      'Although, as the historian David Carpenter has noted, the charter "wasted no time on political theory", it went beyond simply addressing individual baronial complaints, and formed a wider proposal for political reform.',
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “In one sense this was not unprecedented.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "enigma-machine-3",
+    prompt: "What does the passage state about Enigma machine?",
+    options: [
+      "Over time, the German cryptographic procedures improved, and the Cipher Bureau developed techniques and designed mechanical devices to continue reading Enigma traffic.",
+      "In September 1939, British Military Mission 4, which included Colin Gubbins and Vera Atkins, went to Poland, intending to evacuate cipher-breakers Marian Rejewski, Jerzy Różycki, and Henryk Zygalski from the country.",
+      "The Enigma machine was invented by German engineer Arthur Scherbius at the end of World War I.",
+      "The repeated changes of electrical path through an Enigma scrambler implement a polyalphabetic substitution cipher that provides Enigma's security.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The Enigma machine was invented by German engineer Arthur Scherbius at the end of World War I.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "enigma-machine-4",
+    prompt: "What does the passage state about Several Enigma?",
+    options: [
+      "In September 1939, British Military Mission 4, which included Colin Gubbins and Vera Atkins, went to Poland, intending to evacuate cipher-breakers Marian Rejewski, Jerzy Różycki, and Henryk Zygalski from the country.",
+      "The repeated changes of electrical path through an Enigma scrambler implement a polyalphabetic substitution cipher that provides Enigma's security.",
+      "Each rotor can be set to one of 26 starting positions when placed in an Enigma machine.",
+      "Several Enigma models were produced, but the German military models, having a plugboard, were the most complex.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “Several Enigma models were produced, but the German military models, having a plugboard, were the most complex.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "enigma-machine-5",
+    prompt: "What does the passage state about German cryptographic?",
+    options: [
+      "Over time, the German cryptographic procedures improved, and the Cipher Bureau developed techniques and designed mechanical devices to continue reading Enigma traffic.",
+      "The repeated changes of electrical path through an Enigma scrambler implement a polyalphabetic substitution cipher that provides Enigma's security.",
+      "Each rotor can be set to one of 26 starting positions when placed in an Enigma machine.",
+      "The Enigma machine was invented by German engineer Arthur Scherbius at the end of World War I.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “Over time, the German cryptographic procedures improved, and the Cipher Bureau developed techniques and designed mechanical devices to continue reading Enigma traffic.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "enigma-machine-6",
+    prompt: "What does the passage state about British Military?",
+    options: [
+      "Each rotor can be set to one of 26 starting positions when placed in an Enigma machine.",
+      "In September 1939, British Military Mission 4, which included Colin Gubbins and Vera Atkins, went to Poland, intending to evacuate cipher-breakers Marian Rejewski, Jerzy Różycki, and Henryk Zygalski from the country.",
+      "The Enigma machine was invented by German engineer Arthur Scherbius at the end of World War I.",
+      "Several Enigma models were produced, but the German military models, having a plugboard, were the most complex.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “In September 1939, British Military Mission 4, which included Colin Gubbins and Vera Atkins, went to Poland, intending to evacuate cipher-breakers Marian Rejewski, Jerzy Różycki, and Henryk Zygalski from the country.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "enigma-machine-7",
+    prompt: "What does the passage state about repeated changes?",
+    options: [
+      "The Enigma machine was invented by German engineer Arthur Scherbius at the end of World War I.",
+      "Several Enigma models were produced, but the German military models, having a plugboard, were the most complex.",
+      "The repeated changes of electrical path through an Enigma scrambler implement a polyalphabetic substitution cipher that provides Enigma's security.",
+      "Over time, the German cryptographic procedures improved, and the Cipher Bureau developed techniques and designed mechanical devices to continue reading Enigma traffic.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The repeated changes of electrical path through an Enigma scrambler implement a polyalphabetic substitution cipher that provides Enigma's security.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "enigma-machine-8",
+    prompt: "What does the passage state about Each rotor?",
+    options: [
+      "Several Enigma models were produced, but the German military models, having a plugboard, were the most complex.",
+      "Over time, the German cryptographic procedures improved, and the Cipher Bureau developed techniques and designed mechanical devices to continue reading Enigma traffic.",
+      "In September 1939, British Military Mission 4, which included Colin Gubbins and Vera Atkins, went to Poland, intending to evacuate cipher-breakers Marian Rejewski, Jerzy Różycki, and Henryk Zygalski from the country.",
+      "Each rotor can be set to one of 26 starting positions when placed in an Enigma machine.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “Each rotor can be set to one of 26 starting positions when placed in an Enigma machine.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "apollo-11-3",
+    prompt: "What does the passage state about United States?",
+    options: [
+      "In the late 1950s and early 1960s, the United States was engaged in the Cold War, a geopolitical rivalry with the Soviet Union.",
+      "An early and crucial decision was choosing lunar orbit rendezvous over both direct ascent and Earth orbit rendezvous.",
+      "Project Apollo was abruptly halted by the Apollo 1 fire on January 27, 1967, in which astronauts Gus Grissom, Ed White, and Roger B.",
+      "The Soviet Union appeared to be winning the Space Race, but its early lead was overtaken by the US Gemini program and Soviet failure to develop the N1 launcher, which would have been comparable to the Saturn V.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “In the late 1950s and early 1960s, the United States was engaged in the Cold War, a geopolitical rivalry with the Soviet Union.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "apollo-11-4",
+    prompt: "What does the passage state about incident sparked?",
+    options: [
+      "Project Apollo was abruptly halted by the Apollo 1 fire on January 27, 1967, in which astronauts Gus Grissom, Ed White, and Roger B.",
+      "This incident sparked the Sputnik crisis and ignited the Space Race, as both superpowers sought to demonstrate superiority in spaceflight.",
+      "The Soviet Union appeared to be winning the Space Race, but its early lead was overtaken by the US Gemini program and Soviet failure to develop the N1 launcher, which would have been comparable to the Saturn V.",
+      "The initial crew assignment of Commander Neil Armstrong, Command Module Pilot (CMP) Jim Lovell, and Lunar Module Pilot (LMP) Buzz Aldrin on the backup crew for Apollo 9 was officially announced on November 20, 1967.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “This incident sparked the Sputnik crisis and ignited the Space Race, as both superpowers sought to demonstrate superiority in spaceflight.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "apollo-11-5",
+    prompt: "What does the passage state about crucial decision?",
+    options: [
+      "The Soviet Union appeared to be winning the Space Race, but its early lead was overtaken by the US Gemini program and Soviet failure to develop the N1 launcher, which would have been comparable to the Saturn V.",
+      "The initial crew assignment of Commander Neil Armstrong, Command Module Pilot (CMP) Jim Lovell, and Lunar Module Pilot (LMP) Buzz Aldrin on the backup crew for Apollo 9 was officially announced on November 20, 1967.",
+      "An early and crucial decision was choosing lunar orbit rendezvous over both direct ascent and Earth orbit rendezvous.",
+      "In the late 1950s and early 1960s, the United States was engaged in the Cold War, a geopolitical rivalry with the Soviet Union.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “An early and crucial decision was choosing lunar orbit rendezvous over both direct ascent and Earth orbit rendezvous.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "apollo-11-6",
+    prompt: "What does the passage state about Project Apollo?",
+    options: [
+      "The initial crew assignment of Commander Neil Armstrong, Command Module Pilot (CMP) Jim Lovell, and Lunar Module Pilot (LMP) Buzz Aldrin on the backup crew for Apollo 9 was officially announced on November 20, 1967.",
+      "In the late 1950s and early 1960s, the United States was engaged in the Cold War, a geopolitical rivalry with the Soviet Union.",
+      "This incident sparked the Sputnik crisis and ignited the Space Race, as both superpowers sought to demonstrate superiority in spaceflight.",
+      "Project Apollo was abruptly halted by the Apollo 1 fire on January 27, 1967, in which astronauts Gus Grissom, Ed White, and Roger B.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “Project Apollo was abruptly halted by the Apollo 1 fire on January 27, 1967, in which astronauts Gus Grissom, Ed White, and Roger B.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "apollo-11-7",
+    prompt: "What does the passage state about Soviet Union?",
+    options: [
+      "The Soviet Union appeared to be winning the Space Race, but its early lead was overtaken by the US Gemini program and Soviet failure to develop the N1 launcher, which would have been comparable to the Saturn V.",
+      "In the late 1950s and early 1960s, the United States was engaged in the Cold War, a geopolitical rivalry with the Soviet Union.",
+      "This incident sparked the Sputnik crisis and ignited the Space Race, as both superpowers sought to demonstrate superiority in spaceflight.",
+      "An early and crucial decision was choosing lunar orbit rendezvous over both direct ascent and Earth orbit rendezvous.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “The Soviet Union appeared to be winning the Space Race, but its early lead was overtaken by the US Gemini program and Soviet failure to develop the N1 launcher, which would have been comparable to the Saturn V.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "apollo-11-8",
+    prompt: "What does the passage state about initial crew?",
+    options: [
+      "This incident sparked the Sputnik crisis and ignited the Space Race, as both superpowers sought to demonstrate superiority in spaceflight.",
+      "The initial crew assignment of Commander Neil Armstrong, Command Module Pilot (CMP) Jim Lovell, and Lunar Module Pilot (LMP) Buzz Aldrin on the backup crew for Apollo 9 was officially announced on November 20, 1967.",
+      "An early and crucial decision was choosing lunar orbit rendezvous over both direct ascent and Earth orbit rendezvous.",
+      "Project Apollo was abruptly halted by the Apollo 1 fire on January 27, 1967, in which astronauts Gus Grissom, Ed White, and Roger B.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “The initial crew assignment of Commander Neil Armstrong, Command Module Pilot (CMP) Jim Lovell, and Lunar Module Pilot (LMP) Buzz Aldrin on the backup crew for Apollo 9 was officially announced on November 20, 1967.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "calendar-3",
+    prompt: "What does the passage state about tropical year?",
+    options: [
+      "An astronomical calendar is based on ongoing observation; examples are the religious Islamic calendar and the old religious Jewish calendar in the time of the Second Temple.",
+      "An arithmetic calendar is one that is based on a strict set of rules; an example is the current Jewish calendar.",
+      "Because the number of days in the tropical year is not a whole number, a solar calendar must have a different number of days in different years.",
+      "The Gregorian calendar is the de facto international standard and is used almost everywhere in the world for civil purposes.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “Because the number of days in the tropical year is not a whole number, a solar calendar must have a different number of days in different years.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "calendar-4",
+    prompt: "What does the passage state about scheduling regular?",
+    options: [
+      "An arithmetic calendar is one that is based on a strict set of rules; an example is the current Jewish calendar.",
+      "The Gregorian calendar is the de facto international standard and is used almost everywhere in the world for civil purposes.",
+      "The Gregorian calendar was introduced in 1582 as a refinement to the Julian calendar, which had been in use throughout the European Middle Ages, amounting to a 0.002% correction in the length of the year.",
+      "Cultures may define other units of time, such as the week, for the purpose of scheduling regular activities that do not easily coincide with months or years.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “Cultures may define other units of time, such as the week, for the purpose of scheduling regular activities that do not easily coincide with months or years.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "calendar-5",
+    prompt: "What does the passage state about astronomical calendar?",
+    options: [
+      "An astronomical calendar is based on ongoing observation; examples are the religious Islamic calendar and the old religious Jewish calendar in the time of the Second Temple.",
+      "The Gregorian calendar is the de facto international standard and is used almost everywhere in the world for civil purposes.",
+      "The Gregorian calendar was introduced in 1582 as a refinement to the Julian calendar, which had been in use throughout the European Middle Ages, amounting to a 0.002% correction in the length of the year.",
+      "Because the number of days in the tropical year is not a whole number, a solar calendar must have a different number of days in different years.",
+    ],
+    answer: 0,
+    explanation:
+      "지문은 “An astronomical calendar is based on ongoing observation; examples are the religious Islamic calendar and the old religious Jewish calendar in the time of the Second Temple.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 3,
+  },
+  {
+    passageId: "calendar-6",
+    prompt: "What does the passage state about arithmetic calendar?",
+    options: [
+      "The Gregorian calendar was introduced in 1582 as a refinement to the Julian calendar, which had been in use throughout the European Middle Ages, amounting to a 0.002% correction in the length of the year.",
+      "An arithmetic calendar is one that is based on a strict set of rules; an example is the current Jewish calendar.",
+      "Because the number of days in the tropical year is not a whole number, a solar calendar must have a different number of days in different years.",
+      "Cultures may define other units of time, such as the week, for the purpose of scheduling regular activities that do not easily coincide with months or years.",
+    ],
+    answer: 1,
+    explanation:
+      "지문은 “An arithmetic calendar is one that is based on a strict set of rules; an example is the current Jewish calendar.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 1,
+  },
+  {
+    passageId: "calendar-7",
+    prompt:
+      "What international role does the Gregorian calendar have in this passage?",
+    options: [
+      "Because the number of days in the tropical year is not a whole number, a solar calendar must have a different number of days in different years.",
+      "Cultures may define other units of time, such as the week, for the purpose of scheduling regular activities that do not easily coincide with months or years.",
+      "The Gregorian calendar is the de facto international standard and is used almost everywhere in the world for civil purposes.",
+      "An astronomical calendar is based on ongoing observation; examples are the religious Islamic calendar and the old religious Jewish calendar in the time of the Second Temple.",
+    ],
+    answer: 2,
+    explanation:
+      "지문은 “The Gregorian calendar is the de facto international standard and is used almost everywhere in the world for civil purposes.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
+    difficulty: 2,
+  },
+  {
+    passageId: "calendar-8",
+    prompt:
+      "What change to the Julian calendar does this passage associate with 1582?",
+    options: [
+      "Cultures may define other units of time, such as the week, for the purpose of scheduling regular activities that do not easily coincide with months or years.",
+      "An astronomical calendar is based on ongoing observation; examples are the religious Islamic calendar and the old religious Jewish calendar in the time of the Second Temple.",
+      "An arithmetic calendar is one that is based on a strict set of rules; an example is the current Jewish calendar.",
+      "The Gregorian calendar was introduced in 1582 as a refinement to the Julian calendar, which had been in use throughout the European Middle Ages, amounting to a 0.002% correction in the length of the year.",
+    ],
+    answer: 3,
+    explanation:
+      "지문은 “The Gregorian calendar was introduced in 1582 as a refinement to the Julian calendar, which had been in use throughout the European Middle Ages, amounting to a 0.002% correction in the length of the year.”라고 설명하므로 이 선택지가 지문에 근거합니다.",
     difficulty: 3,
   },
 ];

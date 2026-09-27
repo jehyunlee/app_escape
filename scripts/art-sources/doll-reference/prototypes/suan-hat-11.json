@@ -1,0 +1,131 @@
+{
+  "schema": "hat-head-prototype-v1",
+  "key": "suan-hat-11",
+  "status": "flagged",
+  "character": "suan",
+  "hatId": "hat-11",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "endpoint": "/v1/images/edits",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "received",
+      "elapsedSeconds": 31.226,
+      "rawSha256": "1ca33c3709a3b5bd1f6a72a882706b4c8bebbb89f8d35862cb5ae52233e08312",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "preClampProtectedDrift": 0.993097018626148,
+      "editableChangeFraction": 0.4356114655687211,
+      "rawAlphaBbox": [
+        20,
+        35,
+        1004,
+        1337
+      ],
+      "rawTailAlphaFraction": 0.8003767683722153,
+      "usableHeuristic": false
+    },
+    {
+      "attempt": 2,
+      "status": "received",
+      "elapsedSeconds": 31.389,
+      "rawSha256": "b6ffc2f3c45fcee402c1efb2cd99c760edad0b2d8ab80cbade5d8529d7c7bfd3",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "preClampProtectedDrift": 0.9879594549025053,
+      "editableChangeFraction": 0.4536285633466386,
+      "rawAlphaBbox": [
+        24,
+        37,
+        1001,
+        1213
+      ],
+      "rawTailAlphaFraction": 0.7662266371391939,
+      "usableHeuristic": false
+    }
+  ],
+  "selectedAttempt": 2,
+  "rawPreClampProtectedDrift": 0.9879594549025053,
+  "rawSha256": "b6ffc2f3c45fcee402c1efb2cd99c760edad0b2d8ab80cbade5d8529d7c7bfd3",
+  "finalSha256": "c6a8ddb68725b2c7abe575931ef3f5e99b51fa81a0c09c1c5d33999a906592f6",
+  "rawPath": "suan-hat-11-raw.png",
+  "finalPath": "suan-hat-11-final.png",
+  "moodPatchPaths": {
+    "happy": "suan-hat-11-happy-face-patch.png",
+    "sad": "suan-hat-11-sad-face-patch.png"
+  },
+  "mask": {
+    "protectedFaceEllipse": [
+      347,
+      224,
+      680,
+      408
+    ],
+    "protectedNeckEllipse": [
+      426,
+      378,
+      602,
+      468
+    ]
+  },
+  "sources": {
+    "headBase": {
+      "path": "assets/doll/suan-neutral.webp",
+      "sha256": "97a6d544d2a7c747efc9bd3156aea1589ab68f876f0954dc84d9add762216e2e",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        245,
+        28,
+        783,
+        562
+      ]
+    },
+    "hatProduct": {
+      "path": "assets/shop-designs/hat-11.webp",
+      "sha256": "44cfcdfbe9d5a0f1d841bf1c34593ab55c5332a39fd75a1c3d1a06e6d45c0be6",
+      "size": [
+        504,
+        673
+      ]
+    },
+    "styleIdentity": {
+      "path": "assets/wizards/suan-neutral.webp",
+      "sha256": "841c080261c32eb13f4b07a6c67ec13e662e0e444284f7b016392446a56b8de3",
+      "size": [
+        512,
+        1024
+      ]
+    },
+    "maskPngSha256": "3f2bb69a70c487808cbf6149f80192a3dac3c9f2f39b8261b6fc32eeb2c1f68a"
+  },
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent head-only sprite for this Korean family member. Image 2 is the exact shop product hat design; preserve its silhouette, colors, materials, stitching and decorations. Image 3 is the original style/identity reference; use it only to anchor this known character's facial identity and the established polished 3D family art style, not its clothing or body. Replace the entire un-hatted hairstyle and head hair on image 1 with a newly drawn hairstyle that is designed to wear hat-11; do not overlay a tiny hat on the old hair. Render one complete transparent head + exact hat + restyled hair, aligned to the original face. The hat opening/brim must be wide enough for the FULL skull width, sit low and naturally just above the eyebrows, and fully cover the crown; never leave old hair tufts above the brim and never make a small cone perched on hair. This product has a tall purple starry crown and a scalloped broad brim; show the complete scalloped brim around the skull. Keep the protected eyes, nose, mouth, glasses, skin shading, face-feature positions, and neck unchanged. This is a Korean family reference: stay identity-faithful to the supplied references and art style; do not infer ethnicity from skin color and do not substitute a generic Western or generic Disney face.  Preserve the existing eyes, nose, mouth and face proportions exactly; this character has no glasses. Flatten the hair at the crown under the brim and let the long hair fall naturally from beneath the brim. Treat all pixels outside the head as transparent blank canvas. Output ONLY one head silhouette containing the face, hat, and hair. No torso, shirt, collar, cape, shawl, robe, shoulders, arms, hands, wand, body, or limbs. The lower hat brim must end around the head/neck and must never continue as a garment. Do not copy any full-body clothing from image 3. Keep the same canvas framing and lighting.",
+  "createdAt": "2026-09-26T18:05:44.977948+00:00",
+  "qaSheetPath": "/tmp/paper-doll-qa/hat-head-prototypes.png",
+  "qaSheetSha256": "b5a908bf3c32d2dbedf64b4ffc158c885a9cfb62e0c436a016fd36b47510d930",
+  "postprocess": "rebuild-final: restore protected face/neck and remove non-hair pixels below face",
+  "landmarksFaceBox": [
+    344,
+    199,
+    683,
+    396
+  ],
+  "verifiedHeadAlphaBbox": [
+    245,
+    28,
+    783,
+    562
+  ]
+}

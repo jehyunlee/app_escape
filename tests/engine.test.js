@@ -241,7 +241,9 @@ test("mathematical impossibility asks for rescue only when five GOLD remains", (
   assert.equal(s.phase, "gameover");
   assert.equal(s.gameOverReason, "gold");
   assert.equal(s.gold, 0);
-  assert.equal(s.rescueSlot, null);
+  assert.equal(s.rescueSlot, 5);
+  assert.ok(questionForObject(s, s.rescueSlot));
+  roundtrip(s);
 });
 
 test("exactly five GOLD buys one replacement question and charges once", () => {
@@ -281,6 +283,8 @@ test("rescue can repeat and decline records the terminal reason", () => {
   assert.equal(s.gold, 9);
   assert.equal(declineExtraQuestion(s).gameOverReason, "declined");
   assert.equal(declineExtraQuestion(s).phase, "gameover");
+  assert.equal(declineExtraQuestion(s).rescueSlot, s.rescueSlot);
+  roundtrip(declineExtraQuestion(s));
   assert.equal(answerQuestion(declineExtraQuestion(s), 0).accepted, false);
   const second = acceptExtraQuestion(s);
   assert.equal(second.gold, 4);

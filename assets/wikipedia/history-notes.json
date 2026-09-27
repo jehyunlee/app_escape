@@ -1,0 +1,2962 @@
+[
+  {
+    "passageId": "printing-press-1",
+    "importantWords": [
+      {
+        "term": "Johannes Gutenberg",
+        "meaning": "인쇄기를 발명한 독일 금세공인"
+      },
+      {
+        "term": "mass communication",
+        "meaning": "정보가 많은 사람에게 빠르게 전달되는 대중 통신"
+      },
+      {
+        "term": "vernacular languages",
+        "meaning": "라틴어가 아닌 각 지역 사람들이 쓰는 자국어"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "literary production",
+        "meaning": "문학 작품을 만들어 내고 출판하는 활동"
+      },
+      {
+        "term": "adult literacy rates",
+        "meaning": "성인 인구에서 글을 읽고 쓰는 사람의 비율"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자국어와 라틴어의 변화",
+        "explanation": "인쇄된 책은 라틴어보다 자국어로 점점 더 많이 나타났다. 이 흐름은 국가 언어의 표준화와 함께 진행되었다."
+      },
+      {
+        "title": "인쇄와 정보 확산",
+        "explanation": "인쇄의 확산은 유럽에서 정보가 빠르게 이동하는 대중 통신의 시대를 열었다. 가격 하락과 이용 가능성 증가는 성인 문해율 향상에도 연결되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-2",
+    "importantWords": [
+      {
+        "term": "wooden handpress",
+        "meaning": "손으로 작동시키는 목재 인쇄기"
+      },
+      {
+        "term": "steam power",
+        "meaning": "증기의 힘을 이용하는 동력"
+      },
+      {
+        "term": "rotary printing press",
+        "meaning": "회전 운동으로 인쇄량을 높이는 인쇄기"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "at one pull",
+        "meaning": "한 번 당기는 동작으로"
+      },
+      {
+        "term": "page impressions",
+        "meaning": "인쇄기가 종이에 남긴 페이지 인쇄 결과물"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "수동에서 회전식으로",
+        "explanation": "초기의 목재 수동 인쇄기에서 철제·증기·회전식 인쇄기로 기술이 이어졌다. 회전식 설계는 한 번에 처리하는 인쇄량을 크게 늘렸다."
+      },
+      {
+        "title": "기술 교체의 흐름",
+        "explanation": "20세기 상업 인쇄에서는 레터프레스가 오프셋 인쇄와 사진식자, 디지털 인쇄로 대체되었다. 한 기술의 발전이 다음 매체로 이어지는 연속적인 변화를 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-1",
+    "importantWords": [
+      {
+        "term": "three versions",
+        "meaning": "하나의 포고령을 기록한 세 가지 판본"
+      },
+      {
+        "term": "Demotic scripts",
+        "meaning": "고대 이집트의 민중 문자로 쓰인 기록 체계"
+      },
+      {
+        "term": "Ancient Greek",
+        "meaning": "포고령의 아래쪽에 사용된 고대 그리스어"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "stele of granodiorite",
+        "meaning": "화강섬록암으로 만든 비석 형태의 기념물"
+      },
+      {
+        "term": "deciphering the Egyptian scripts",
+        "meaning": "이집트 문자 체계의 뜻과 소리를 해독하는 일"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "병렬 기록의 비교",
+        "explanation": "같은 포고령이 세 판본으로 기록되어 서로 대조할 수 있었다. 세 판본의 차이가 작았기 때문에 문자 해독에 비교 자료가 되었다."
+      },
+      {
+        "title": "문자 해독의 단서",
+        "explanation": "서로 다른 문자로 같은 내용을 기록하면 이미 이해할 수 있는 부분을 단서로 삼을 수 있다. 이 돌은 그런 대응 관계가 이집트 문자 연구에 중요함을 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-2",
+    "importantWords": [
+      {
+        "term": "bilingual text",
+        "meaning": "두 언어로 작성된 글"
+      },
+      {
+        "term": "Pierre-François Bouchard",
+        "meaning": "1799년 이 돌을 발견한 프랑스 육군 장교"
+      },
+      {
+        "term": "Fort Julien",
+        "meaning": "돌이 건축 자재로 사용된 요새"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "late antiquity",
+        "meaning": "고대에서 중세로 넘어가는 후기 고대 시기"
+      },
+      {
+        "term": "Lithographic copies",
+        "meaning": "석판 인쇄 방식으로 만든 복제본"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "유물의 재사용",
+        "explanation": "돌은 처음에는 사원에 전시되었을 가능성이 있지만 나중에는 요새의 건축 자재가 되었다. 유물의 의미와 위치가 시대에 따라 달라질 수 있음을 보여 준다."
+      },
+      {
+        "title": "발견과 지식 유통",
+        "explanation": "현대에 발견된 최초의 고대 이집트 이중언어 자료라는 가능성이 대중의 관심을 끌었다. 복제본과 석고 모형이 박물관과 학자들에게 퍼지면서 연구 자료가 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-1",
+    "importantWords": [
+      {
+        "term": "network of Asian trade routes",
+        "meaning": "아시아에 흩어진 여러 교역로의 연결망"
+      },
+      {
+        "term": "economic, cultural, political, and religious interactions",
+        "meaning": "경제·문화·정치·종교 영역에서 이루어진 상호작용"
+      },
+      {
+        "term": "Silk Routes",
+        "meaning": "복잡한 육상·해상망을 강조하는 대체 명칭"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "intricate web",
+        "meaning": "서로 복잡하게 얽힌 망"
+      },
+      {
+        "term": "sedentary and literate empires",
+        "meaning": "정착 생활을 하고 문자 기록을 남긴 제국들"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "단일 길이 아닌 망",
+        "explanation": "실크로드는 동서양을 잇는 하나의 직선이 아니라 육상과 해상이 얽힌 연결망이었다. 그래서 일부 역사가들은 복수형인 Silk Routes가 더 정확하다고 본다."
+      },
+      {
+        "title": "역사 서술의 관점",
+        "explanation": "일부 학자들은 기존 설명이 유라시아 양끝의 정착·문자 제국을 우대했다고 비판한다. 그 관점에서는 스텝 유목민과 인도·이란 문명의 기여가 가려질 수 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-2",
+    "importantWords": [
+      {
+        "term": "silk textiles",
+        "meaning": "주로 중국에서 생산된 비단 직물"
+      },
+      {
+        "term": "Han dynasty",
+        "meaning": "중앙아시아로 확장하며 교역망의 시작에 관여한 한 왕조"
+      },
+      {
+        "term": "Great Wall of China",
+        "meaning": "교역품과 교역로를 보호하려고 연장된 중국의 장성"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "western terminus",
+        "meaning": "연결된 교역 체계에서 서쪽 끝에 해당하는 지점"
+      },
+      {
+        "term": "lucrative commodities",
+        "meaning": "큰 수익을 낳는 교역 상품"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "교역망의 연결 고리",
+        "explanation": "파르티아 제국은 네트워크를 지중해와 잇는 중요한 다리로 설명된다. 서쪽에서는 로마 제국의 부상이 교역 체계의 종점을 더 확립했다."
+      },
+      {
+        "title": "상품의 양방향 흐름",
+        "explanation": "동쪽에서는 차·염료·향수·도자기 등이 나왔고 서쪽에서는 말·낙타·꿀·포도주·금이 수출되었다. 교역망은 한 상품만 이동시키는 통로가 아니라 서로 다른 상품을 교환하는 체계였다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-1",
+    "importantWords": [
+      {
+        "term": "transitional period",
+        "meaning": "한 경제 상태에서 다른 상태로 넘어가는 과도기"
+      },
+      {
+        "term": "manufacturing processes",
+        "meaning": "상품을 만들어 내는 제조 과정"
+      },
+      {
+        "term": "Great Britain",
+        "meaning": "산업혁명이 1760년경 시작된 곳으로 제시된 지역"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "continental Europe",
+        "meaning": "영국을 제외한 유럽 대륙 지역"
+      },
+      {
+        "term": "material advancement",
+        "meaning": "물질적 생활과 생산 능력의 발전"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "경제 구조의 전환",
+        "explanation": "산업혁명은 더 널리, 효율적이고 안정적인 제조로 향한 세계 경제의 전환으로 묘사된다. 이는 제2차 농업혁명 뒤에 이어진 변화로 제시된다."
+      },
+      {
+        "title": "확산 범위와 역사적 평가",
+        "explanation": "변화는 영국에서 시작되어 대륙 유럽과 미국으로 퍼졌다. 경제사학자들은 그 시작의 물질적 중요성을 농업 채택에 견줄 만하다고 평가한다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-2",
+    "importantWords": [
+      {
+        "term": "hand production methods",
+        "meaning": "손작업에 의존하는 생산 방식"
+      },
+      {
+        "term": "steam power",
+        "meaning": "증기를 이용해 기계를 움직이는 동력"
+      },
+      {
+        "term": "mechanised factory system",
+        "meaning": "기계가 중심이 된 공장 생산 체계"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "GDP per capita",
+        "meaning": "사람 한 명당 국내총생산"
+      },
+      {
+        "term": "capital invested",
+        "meaning": "산업에 투입된 자본"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "생산 방식의 묶음 변화",
+        "explanation": "전환은 손생산에서 기계로, 수력·증기력 사용으로, 기계 도구와 공장 체계의 등장으로 이어졌다. 생산량 증가는 인구와 인구 증가의 전례 없는 상승과 함께 나타났다."
+      },
+      {
+        "title": "섬유업의 우위 기준",
+        "explanation": "섬유 산업은 현대적 생산 방식을 가장 먼저 사용한 산업으로 제시된다. 고용·생산액·투자 자본에서 모두 앞서며 지배적 산업이 되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-1",
+    "importantWords": [
+      {
+        "term": "Pudding Lane",
+        "meaning": "화재가 시작된 런던의 거리"
+      },
+      {
+        "term": "firebreaks",
+        "meaning": "불길의 경로에서 구조물을 없애 만든 방화선"
+      },
+      {
+        "term": "firestorm",
+        "meaning": "강한 바람으로 커져 통제하기 어려워진 거대한 불길"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "large-scale demolitions",
+        "meaning": "불길을 막기 위해 대규모로 건물을 철거하는 조치"
+      },
+      {
+        "term": "Second Anglo-Dutch War",
+        "meaning": "당시 영국이 프랑스·네덜란드와 적대하던 전쟁"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "대응 지연과 환경 요인",
+        "explanation": "시장이 철거 명령을 주저하는 동안 바람이 빵집의 불을 화재 폭풍으로 키웠다. 그래서 뒤늦은 대규모 철거가 이미 불길을 막지 못했다."
+      },
+      {
+        "title": "재난 속 희생양 만들기",
+        "explanation": "의심스러운 외국인이 불을 질렀다는 소문이 퍼지며 거리의 질서가 무너졌다. 집을 잃은 사람들이 프랑스인과 네덜란드인 이민자 집단을 공격했다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-2",
+    "importantWords": [
+      {
+        "term": "east wind",
+        "meaning": "불길의 확산에 영향을 준 동풍"
+      },
+      {
+        "term": "Tower of London garrison",
+        "meaning": "화약으로 방화선을 만든 런던탑 주둔군"
+      },
+      {
+        "term": "medieval street plan",
+        "meaning": "재건 뒤에도 대체로 유지된 중세 도시의 거리 배치"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "dispossessed refugees",
+        "meaning": "재난으로 재산과 거처를 잃은 난민들"
+      },
+      {
+        "term": "effective firebreaks",
+        "meaning": "불의 추가 확산을 실제로 멈춘 방화선"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "진압의 복합 요인",
+        "explanation": "강한 동풍이 약해진 자연 조건과 주둔군의 화약 사용이 함께 불길을 멈추게 했다. 한 가지 조치만이 아니라 환경 변화와 인위적 대응이 결합한 결과였다."
+      },
+      {
+        "title": "재건과 사회 불안",
+        "explanation": "재난은 사회·경제 문제를 만들었고 국왕은 난민 반란을 우려해 런던 밖 정착을 장려했다. 급진적인 재건안도 있었지만 실제 도시는 기존 중세 거리 계획을 대체로 유지했다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-1",
+    "importantWords": [
+      {
+        "term": "Mouseion",
+        "meaning": "알렉산드리아 도서관을 포함한 더 큰 연구 기관"
+      },
+      {
+        "term": "universal library",
+        "meaning": "모든 지식을 모으려는 보편적 도서관 구상"
+      },
+      {
+        "term": "papyrus scrolls",
+        "meaning": "파피루스에 기록된 두루마리 문서"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "exiled Athenian statesman",
+        "meaning": "추방되어 알렉산드리아에 살던 아테네 정치가"
+      },
+      {
+        "term": "procuring texts",
+        "meaning": "문헌을 구해 수집하는 일"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "도서관과 연구 기관",
+        "explanation": "알렉산드리아 도서관은 예술의 여신들을 기리는 Mouseion이라는 더 큰 연구 기관의 일부였다. 따라서 단순한 보관소가 아니라 연구 활동과 연결된 공간으로 읽을 수 있다."
+      },
+      {
+        "title": "설립과 규모의 불확실성",
+        "explanation": "보편적 도서관의 구상자와 실제 건립 시점은 may와 probably로 조심스럽게 제시된다. 두루마리 수 역시 정확히 알 수 없어 40,000에서 700,000이라는 추정 범위로 남아 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-2",
+    "importantWords": [
+      {
+        "term": "capital of knowledge and learning",
+        "meaning": "지식과 학문의 중심지"
+      },
+      {
+        "term": "Pinakes",
+        "meaning": "칼리마코스가 쓴 것으로 세계 최초의 도서관 목록으로 여겨지기도 하는 저술"
+      },
+      {
+        "term": "daughter library",
+        "meaning": "본 도서관과 별도로 세워진 분관"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Greek diacritics",
+        "meaning": "그리스어 글자에 발음이나 의미를 표시하는 부호"
+      },
+      {
+        "term": "extensive commentaries",
+        "meaning": "작품을 자세히 풀이한 방대한 주석"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "학문 분업의 장",
+        "explanation": "학자들은 작품 표준화, 목록 작성, 서사시 창작, 지구 측정, 증기 기관 기록 등 서로 다른 일을 했다. 도서관은 여러 전문 활동이 한 기관에 모이는 장소로 제시된다."
+      },
+      {
+        "title": "본관과 분관의 관계",
+        "explanation": "프톨레마이오스 3세 때 세라피움에 딸 도서관이 세워졌다. 자료와 학문 활동이 한 건물에만 한정되지 않았음을 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-1",
+    "importantWords": [
+      {
+        "term": "royal charter of rights",
+        "meaning": "왕이 승인한 권리 헌장"
+      },
+      {
+        "term": "rebel barons",
+        "meaning": "왕에게 요구를 제기한 반란 귀족들"
+      },
+      {
+        "term": "swift and impartial justice",
+        "meaning": "신속하고 공정한 사법 절차"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "illegal imprisonment",
+        "meaning": "법적 근거 없이 사람을 가두는 일"
+      },
+      {
+        "term": "feudal payments",
+        "meaning": "봉건 관계에서 왕실에 내는 금전적 부담"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "왕권 제한과 정치적 타협",
+        "explanation": "헌장은 교회 권리와 귀족 보호를 약속하고 왕실에 대한 봉건적 지불을 제한하려 했다. 이 약속을 25명 귀족으로 구성된 평의회가 시행하도록 설계했다."
+      },
+      {
+        "title": "합의 실패와 전쟁",
+        "explanation": "왕과 귀족 어느 쪽도 약속을 지키지 않아 헌장은 교황에 의해 무효화되었다. 그 결과 제1차 바론 전쟁으로 이어졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-2",
+    "importantWords": [
+      {
+        "term": "regency government",
+        "meaning": "어린 왕을 대신해 통치한 섭정 정부"
+      },
+      {
+        "term": "peace treaty",
+        "meaning": "전쟁을 끝내기 위해 맺은 평화 조약"
+      },
+      {
+        "term": "statute law",
+        "meaning": "법률로 제정되어 효력을 갖는 성문법"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "radical content",
+        "meaning": "기존 질서에 큰 변화를 요구하는 급진적 내용"
+      },
+      {
+        "term": "grant of new taxes",
+        "meaning": "새로운 세금을 부과할 수 있도록 허가하는 승인"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "재발행을 통한 정치 조정",
+        "explanation": "1216년 재발행본은 정치적 지지를 얻으려고 급진적 내용을 덜어냈다. 1225년에는 새 세금 승인을 받는 대가로 다시 발행되었다."
+      },
+      {
+        "title": "문서의 법적 지위 변화",
+        "explanation": "1217년 평화조약의 일부가 되면서 작은 삼림헌장과 구별하려고 Magna Carta라는 이름을 얻었다. 1297년에는 잉글랜드 성문법의 일부로 확인되었다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-1",
+    "importantWords": [
+      {
+        "term": "electromechanical rotor mechanism",
+        "meaning": "전기와 기계식 회전자를 결합한 장치"
+      },
+      {
+        "term": "Latin alphabet",
+        "meaning": "에니그마가 뒤섞는 26개 로마자 문자 체계"
+      },
+      {
+        "term": "plaintext",
+        "meaning": "암호화되기 전 읽을 수 있는 원문"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "ciphertext",
+        "meaning": "암호화되어 바로 읽기 어려운 문장"
+      },
+      {
+        "term": "cryptographic key",
+        "meaning": "암호화 방식을 결정하는 암호 키"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "양방향 문자 변환",
+        "explanation": "원문을 입력하면 불이 켜진 글자가 암호문이 되고 암호문을 입력하면 읽을 수 있는 원문으로 돌아온다. 송신과 수신에서 같은 장치가 반대 방향의 변환에 쓰였다."
+      },
+      {
+        "title": "동적으로 바뀌는 치환",
+        "explanation": "회전자는 키를 누를 때마다 전기 연결을 바꾼다. 그래서 글자마다 다른 암호 키가 적용되어 일정한 패턴을 이용한 공격이 어려워졌다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-2",
+    "importantWords": [
+      {
+        "term": "exact settings",
+        "meaning": "송신 장치와 수신 장치가 똑같이 알아야 하는 정확한 설정"
+      },
+      {
+        "term": "initial settings",
+        "meaning": "메시지 암호화 전에 정하는 시작 설정"
+      },
+      {
+        "term": "secret key lists",
+        "meaning": "미리 배포된 비밀 키 설정 목록"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "intercepted",
+        "meaning": "전달 도중 가로채진"
+      },
+      {
+        "term": "random settings",
+        "meaning": "예측하기 어렵게 임의로 고른 회전자 설정"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "공유 설정의 필요",
+        "explanation": "수신국은 해독을 위해 송신국이 사용한 정확한 설정을 알아야 했다. 설정을 공유하지 않으면 양방향 변환을 되돌릴 수 없다."
+      },
+      {
+        "title": "보안과 공격 표면",
+        "explanation": "설정을 매일 바꾸고 임의의 회전자 설정을 추가하면 해독을 더 어렵게 만들 수 있다. 그러나 매일 많은 메시지가 가로채이면 분석할 자료가 충분해져 공격 기회가 생긴다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-1",
+    "importantWords": [
+      {
+        "term": "Space Race",
+        "meaning": "미국과 소련이 벌인 우주 개발 경쟁"
+      },
+      {
+        "term": "Cold War rivalry",
+        "meaning": "냉전에서 비롯된 국가 간 경쟁"
+      },
+      {
+        "term": "Saturn V rocket",
+        "meaning": "소련이 따라잡지 못했다고 서술된 발사 로켓"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "national goal",
+        "meaning": "국가가 달성하도록 정한 목표"
+      },
+      {
+        "term": "uncrewed lunar probe",
+        "meaning": "사람이 타지 않은 달 탐사선"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "우주 개발과 지정학",
+        "explanation": "아폴로 11호는 냉전 경쟁에 뿌리를 둔 우주 경쟁의 정점으로 묘사된다. 달 착륙 목표는 과학 과제이면서 국가적 경쟁 목표이기도 했다."
+      },
+      {
+        "title": "연속적 개발과 위험",
+        "explanation": "프로그램은 아폴로 1호 발사대 화재라는 큰 좌절을 겪었지만 머큐리와 제미니의 기술을 이어받았다. 같은 시기 소련의 무인 달 탐사선은 달에 추락했다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-2",
+    "importantWords": [
+      {
+        "term": "moonwalk",
+        "meaning": "달 표면을 걸은 장면과 활동"
+      },
+      {
+        "term": "600 million viewers",
+        "meaning": "문워크 생중계를 본 것으로 추정된 약 6억 명의 시청자"
+      },
+      {
+        "term": "lunar samples",
+        "meaning": "달에서 가져온 연구용 표본"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "previously unrecognized minerals",
+        "meaning": "이전에 알려지지 않았던 광물"
+      },
+      {
+        "term": "ticker-tape parades",
+        "meaning": "환영객이 종이 띠를 뿌리는 공개 축하 행진"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "대중적 사건과 과학적 성과",
+        "explanation": "문워크는 세계 인구의 약 5분의 1이 본 대규모 생중계 사건이었다. 귀환한 표본은 새로운 광물 식별이라는 과학적 결과를 낳았다."
+      },
+      {
+        "title": "기억과 유산",
+        "explanation": "승무원들은 행진과 세계 친선 여행, 대통령 자유 훈장을 받았다. 사령선 컬럼비아는 박물관에 보존되고 이글의 하강 단계는 달에 남아 있다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-1",
+    "importantWords": [
+      {
+        "term": "system of organizing days",
+        "meaning": "날을 체계적으로 정리하는 방식"
+      },
+      {
+        "term": "specific day",
+        "meaning": "체계 안에서 하나로 지정된 특정한 날"
+      },
+      {
+        "term": "physical record",
+        "meaning": "종이처럼 실제 형태로 남긴 기록"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "court calendar",
+        "meaning": "법정에서 예정된 사건과 일정을 적은 목록"
+      },
+      {
+        "term": "calendar of wills",
+        "meaning": "유언장 문서를 시간 순서로 정리한 목록"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "달력의 다의성",
+        "explanation": "calendar는 날짜 체계뿐 아니라 종이 기록, 계획된 행사 목록, 문서 목록도 뜻할 수 있다. 같은 단어가 시간 조직과 기록물이라는 두 기능을 함께 가리킨다."
+      },
+      {
+        "title": "시간 단위와 날짜 지정",
+        "explanation": "달력은 일·주·월·년 같은 기간에 이름을 붙여 날을 배열한다. date는 그 배열 속에서 하나의 특정한 날을 가리키는 지정이다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-2",
+    "importantWords": [
+      {
+        "term": "sun or the moon",
+        "meaning": "달력의 주기와 맞출 수 있는 태양 또는 달"
+      },
+      {
+        "term": "lunisolar calendar",
+        "meaning": "달의 주기를 따르면서 태양년에도 맞추는 태음태양력"
+      },
+      {
+        "term": "intercalary month",
+        "meaning": "태양년과의 차이를 조정하려고 덧붙이는 윤달"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "synchronized",
+        "meaning": "서로 같은 주기나 기준에 맞춰진"
+      },
+      {
+        "term": "solar year",
+        "meaning": "태양의 주기를 기준으로 한 1년"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "자연 주기와 달력",
+        "explanation": "달력의 기간은 태양이나 달의 주기와 보통 맞지만 반드시 그래야 하는 것은 아니다. 자연 주기와의 동기화는 일반적인 선택이지 모든 달력의 필수 조건은 아니다."
+      },
+      {
+        "title": "윤달의 조정 기능",
+        "explanation": "태음태양력은 달의 주기를 사용하면서 장기적으로 태양년과도 맞추려 한다. 그래서 필요할 때 intercalary month를 추가해 두 기준의 차이를 조정한다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-3",
+    "importantWords": [
+      {
+        "term": "Johannes Gutenberg",
+        "meaning": "지문에서 다루는 핵심 표현: Johannes Gutenberg"
+      },
+      {
+        "term": "Gutenberg invented",
+        "meaning": "지문에서 다루는 핵심 표현: Gutenberg invented"
+      },
+      {
+        "term": "movable-type printing",
+        "meaning": "지문에서 다루는 핵심 표현: movable-type printing"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "printing press",
+        "meaning": "문맥을 이해하는 데 필요한 표현: printing press"
+      },
+      {
+        "term": "utilizing four",
+        "meaning": "문맥을 이해하는 데 필요한 표현: utilizing four"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Johannes Gutenberg의 핵심 관계",
+        "explanation": "지문은 Johannes Gutenberg을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Gutenberg invented의 문맥",
+        "explanation": "문단의 여러 문장은 Gutenberg invented이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-4",
+    "importantWords": [
+      {
+        "term": "screw press",
+        "meaning": "지문에서 다루는 핵심 표현: screw press"
+      },
+      {
+        "term": "permitted direct",
+        "meaning": "지문에서 다루는 핵심 표현: permitted direct"
+      },
+      {
+        "term": "direct pressure",
+        "meaning": "지문에서 다루는 핵심 표현: direct pressure"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "flat plane",
+        "meaning": "문맥을 이해하는 데 필요한 표현: flat plane"
+      },
+      {
+        "term": "often used",
+        "meaning": "문맥을 이해하는 데 필요한 표현: often used"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "screw press의 핵심 관계",
+        "explanation": "지문은 screw press을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "permitted direct의 문맥",
+        "explanation": "문단의 여러 문장은 permitted direct이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-5",
+    "importantWords": [
+      {
+        "term": "Movable type",
+        "meaning": "지문에서 다루는 핵심 표현: Movable type"
+      },
+      {
+        "term": "typographical principle",
+        "meaning": "지문에서 다루는 핵심 표현: typographical principle"
+      },
+      {
+        "term": "individual reusable",
+        "meaning": "지문에서 다루는 핵심 표현: individual reusable"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "reusable characters",
+        "meaning": "문맥을 이해하는 데 필요한 표현: reusable characters"
+      },
+      {
+        "term": "Chinese artisan",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Chinese artisan"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Movable type의 핵심 관계",
+        "explanation": "지문은 Movable type을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "typographical principle의 문맥",
+        "explanation": "문단의 여러 문장은 typographical principle이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-6",
+    "importantWords": [
+      {
+        "term": "codex book",
+        "meaning": "지문에서 다루는 핵심 표현: codex book"
+      },
+      {
+        "term": "book format",
+        "meaning": "지문에서 다루는 핵심 표현: book format"
+      },
+      {
+        "term": "Roman Empire",
+        "meaning": "지문에서 다루는 핵심 표현: Roman Empire"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "utmost significance",
+        "meaning": "문맥을 이해하는 데 필요한 표현: utmost significance"
+      },
+      {
+        "term": "Muslim scribes",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Muslim scribes"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "codex book의 핵심 관계",
+        "explanation": "지문은 codex book을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "book format의 문맥",
+        "explanation": "문단의 여러 문장은 book format이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-7",
+    "importantWords": [
+      {
+        "term": "overall design",
+        "meaning": "지문에서 다루는 핵심 표현: overall design"
+      },
+      {
+        "term": "wooden handpress",
+        "meaning": "지문에서 다루는 핵심 표현: wooden handpress"
+      },
+      {
+        "term": "largely consistent",
+        "meaning": "지문에서 다루는 핵심 표현: largely consistent"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "consistent throughout",
+        "meaning": "문맥을 이해하는 데 필요한 표현: consistent throughout"
+      },
+      {
+        "term": "long history",
+        "meaning": "문맥을 이해하는 데 필요한 표현: long history"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "overall design의 핵심 관계",
+        "explanation": "지문은 overall design을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "wooden handpress의 문맥",
+        "explanation": "문단의 여러 문장은 wooden handpress이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "printing-press-8",
+    "importantWords": [
+      {
+        "term": "improvements followed",
+        "meaning": "지문에서 다루는 핵심 표현: improvements followed"
+      },
+      {
+        "term": "Industrial Revolution",
+        "meaning": "지문에서 다루는 핵심 표현: Industrial Revolution"
+      },
+      {
+        "term": "Lord Stanhope",
+        "meaning": "지문에서 다루는 핵심 표현: Lord Stanhope"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "iron printing",
+        "meaning": "문맥을 이해하는 데 필요한 표현: iron printing"
+      },
+      {
+        "term": "printing press",
+        "meaning": "문맥을 이해하는 데 필요한 표현: printing press"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "improvements followed의 핵심 관계",
+        "explanation": "지문은 improvements followed을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Industrial Revolution의 문맥",
+        "explanation": "문단의 여러 문장은 Industrial Revolution이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-3",
+    "importantWords": [
+      {
+        "term": "already underway",
+        "meaning": "지문에서 다루는 핵심 표현: already underway"
+      },
+      {
+        "term": "complete translation",
+        "meaning": "지문에서 다루는 핵심 표현: complete translation"
+      },
+      {
+        "term": "Greek text",
+        "meaning": "지문에서 다루는 핵심 표현: Greek text"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Champollion announced",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Champollion announced"
+      },
+      {
+        "term": "Egyptian scripts",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Egyptian scripts"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "already underway의 핵심 관계",
+        "explanation": "지문은 already underway을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "complete translation의 문맥",
+        "explanation": "문단의 여러 문장은 complete translation이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-4",
+    "importantWords": [
+      {
+        "term": "fragmentary copies",
+        "meaning": "지문에서 다루는 핵심 표현: fragmentary copies"
+      },
+      {
+        "term": "same decree",
+        "meaning": "지문에서 다루는 핵심 표현: same decree"
+      },
+      {
+        "term": "discovered later",
+        "meaning": "지문에서 다루는 핵심 표현: discovered later"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "several similar",
+        "meaning": "문맥을 이해하는 데 필요한 표현: several similar"
+      },
+      {
+        "term": "similar Egyptian",
+        "meaning": "문맥을 이해하는 데 필요한 표현: similar Egyptian"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "fragmentary copies의 핵심 관계",
+        "explanation": "지문은 fragmentary copies을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "same decree의 문맥",
+        "explanation": "문단의 여러 문장은 same decree이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-5",
+    "importantWords": [
+      {
+        "term": "Ptolemaic kings",
+        "meaning": "지문에서 다루는 핵심 표현: Ptolemaic kings"
+      },
+      {
+        "term": "retain effective",
+        "meaning": "지문에서 다루는 핵심 표현: retain effective"
+      },
+      {
+        "term": "effective rule",
+        "meaning": "지문에서 다루는 핵심 표현: effective rule"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "High Priests",
+        "meaning": "문맥을 이해하는 데 필요한 표현: High Priests"
+      },
+      {
+        "term": "particularly important",
+        "meaning": "문맥을 이해하는 데 필요한 표현: particularly important"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Ptolemaic kings의 핵심 관계",
+        "explanation": "지문은 Ptolemaic kings을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "retain effective의 문맥",
+        "explanation": "문단의 여러 문장은 retain effective이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-6",
+    "importantWords": [
+      {
+        "term": "definitive English",
+        "meaning": "지문에서 다루는 핵심 표현: definitive English"
+      },
+      {
+        "term": "English translation",
+        "meaning": "지문에서 다루는 핵심 표현: English translation"
+      },
+      {
+        "term": "because modern",
+        "meaning": "지문에서 다루는 핵심 표현: because modern"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "modern understanding",
+        "meaning": "문맥을 이해하는 데 필요한 표현: modern understanding"
+      },
+      {
+        "term": "ancient languages",
+        "meaning": "문맥을 이해하는 데 필요한 표현: ancient languages"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "definitive English의 핵심 관계",
+        "explanation": "지문은 definitive English을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "English translation의 문맥",
+        "explanation": "문단의 여러 문장은 English translation이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-7",
+    "importantWords": [
+      {
+        "term": "almost certainly",
+        "meaning": "지문에서 다루는 핵심 표현: almost certainly"
+      },
+      {
+        "term": "originally placed",
+        "meaning": "지문에서 다루는 핵심 표현: originally placed"
+      },
+      {
+        "term": "likely came",
+        "meaning": "지문에서 다루는 핵심 표현: likely came"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "temple site",
+        "meaning": "문맥을 이해하는 데 필요한 표현: temple site"
+      },
+      {
+        "term": "site farther",
+        "meaning": "문맥을 이해하는 데 필요한 표현: site farther"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "almost certainly의 핵심 관계",
+        "explanation": "지문은 almost certainly을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "originally placed의 문맥",
+        "explanation": "문단의 여러 문장은 originally placed이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "rosetta-stone-8",
+    "importantWords": [
+      {
+        "term": "Greek text",
+        "meaning": "지문에서 다루는 핵심 표현: Greek text"
+      },
+      {
+        "term": "Rosetta Stone",
+        "meaning": "지문에서 다루는 핵심 표현: Rosetta Stone"
+      },
+      {
+        "term": "Stone provided",
+        "meaning": "지문에서 다루는 핵심 표현: Stone provided"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "starting point",
+        "meaning": "문맥을 이해하는 데 필요한 표현: starting point"
+      },
+      {
+        "term": "Ancient Greek",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Ancient Greek"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Greek text의 핵심 관계",
+        "explanation": "지문은 Greek text을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Rosetta Stone의 문맥",
+        "explanation": "문단의 여러 문장은 Rosetta Stone이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-3",
+    "importantWords": [
+      {
+        "term": "Ottoman Empire",
+        "meaning": "지문에서 다루는 핵심 표현: Ottoman Empire"
+      },
+      {
+        "term": "Empire began",
+        "meaning": "지문에서 다루는 핵심 표현: Empire began"
+      },
+      {
+        "term": "began competing",
+        "meaning": "지문에서 다루는 핵심 표현: began competing"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "gunpowder empires",
+        "meaning": "문맥을 이해하는 데 필요한 표현: gunpowder empires"
+      },
+      {
+        "term": "greater control",
+        "meaning": "문맥을 이해하는 데 필요한 표현: greater control"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Ottoman Empire의 핵심 관계",
+        "explanation": "지문은 Ottoman Empire을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Empire began의 문맥",
+        "explanation": "문단의 여러 문장은 Empire began이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-4",
+    "importantWords": [
+      {
+        "term": "Silk Road",
+        "meaning": "지문에서 다루는 핵심 표현: Silk Road"
+      },
+      {
+        "term": "Road derives",
+        "meaning": "지문에서 다루는 핵심 표현: Road derives"
+      },
+      {
+        "term": "lucrative trade",
+        "meaning": "지문에서 다루는 핵심 표현: lucrative trade"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "major reason",
+        "meaning": "문맥을 이해하는 데 필요한 표현: major reason"
+      },
+      {
+        "term": "trade routes",
+        "meaning": "문맥을 이해하는 데 필요한 표현: trade routes"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Silk Road의 핵심 관계",
+        "explanation": "지문은 Silk Road을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Road derives의 문맥",
+        "explanation": "문단의 여러 문장은 Road derives이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-5",
+    "importantWords": [
+      {
+        "term": "Silk Road'",
+        "meaning": "지문에서 다루는 핵심 표현: Silk Road'"
+      },
+      {
+        "term": "Warwick Ball",
+        "meaning": "지문에서 다루는 핵심 표현: Warwick Ball"
+      },
+      {
+        "term": "Ball contends",
+        "meaning": "지문에서 다루는 핵심 표현: Ball contends"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "maritime spice",
+        "meaning": "문맥을 이해하는 데 필요한 표현: maritime spice"
+      },
+      {
+        "term": "spice trade",
+        "meaning": "문맥을 이해하는 데 필요한 표현: spice trade"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Silk Road'의 핵심 관계",
+        "explanation": "지문은 Silk Road'을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Warwick Ball의 문맥",
+        "explanation": "문단의 여러 문장은 Warwick Ball이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-6",
+    "importantWords": [
+      {
+        "term": "northern route",
+        "meaning": "지문에서 다루는 핵심 표현: northern route"
+      },
+      {
+        "term": "route travelled",
+        "meaning": "지문에서 다루는 핵심 표현: route travelled"
+      },
+      {
+        "term": "travelled northwest",
+        "meaning": "지문에서 다루는 핵심 표현: travelled northwest"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Chinese province",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Chinese province"
+      },
+      {
+        "term": "Shaanxi Province",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Shaanxi Province"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "northern route의 핵심 관계",
+        "explanation": "지문은 northern route을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "route travelled의 문맥",
+        "explanation": "문단의 여러 문장은 route travelled이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-7",
+    "importantWords": [
+      {
+        "term": "southern route",
+        "meaning": "지문에서 다루는 핵심 표현: southern route"
+      },
+      {
+        "term": "Karakoram route",
+        "meaning": "지문에서 다루는 핵심 표현: Karakoram route"
+      },
+      {
+        "term": "single route",
+        "meaning": "지문에서 다루는 핵심 표현: single route"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Karakoram mountains",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Karakoram mountains"
+      },
+      {
+        "term": "modern times",
+        "meaning": "문맥을 이해하는 데 필요한 표현: modern times"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "southern route의 핵심 관계",
+        "explanation": "지문은 southern route을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Karakoram route의 문맥",
+        "explanation": "문단의 여러 문장은 Karakoram route이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "silk-road-8",
+    "importantWords": [
+      {
+        "term": "Maritime Silk",
+        "meaning": "지문에서 다루는 핵심 표현: Maritime Silk"
+      },
+      {
+        "term": "Silk Road",
+        "meaning": "지문에서 다루는 핵심 표현: Silk Road"
+      },
+      {
+        "term": "Silk Route",
+        "meaning": "지문에서 다루는 핵심 표현: Silk Route"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "maritime section",
+        "meaning": "문맥을 이해하는 데 필요한 표현: maritime section"
+      },
+      {
+        "term": "historic Silk",
+        "meaning": "문맥을 이해하는 데 필요한 표현: historic Silk"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Maritime Silk의 핵심 관계",
+        "explanation": "지문은 Maritime Silk을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Silk Road의 문맥",
+        "explanation": "문단의 여러 문장은 Silk Road이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-3",
+    "importantWords": [
+      {
+        "term": "factors enabled",
+        "meaning": "지문에서 다루는 핵심 표현: factors enabled"
+      },
+      {
+        "term": "enabled industrialisation",
+        "meaning": "지문에서 다루는 핵심 표현: enabled industrialisation"
+      },
+      {
+        "term": "High agricultural",
+        "meaning": "지문에서 다루는 핵심 표현: High agricultural"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "agricultural productivity",
+        "meaning": "문맥을 이해하는 데 필요한 표현: agricultural productivity"
+      },
+      {
+        "term": "British Agricultural",
+        "meaning": "문맥을 이해하는 데 필요한 표현: British Agricultural"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "factors enabled의 핵심 관계",
+        "explanation": "지문은 factors enabled을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "enabled industrialisation의 문맥",
+        "explanation": "문단의 여러 문장은 enabled industrialisation이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-4",
+    "importantWords": [
+      {
+        "term": "value added",
+        "meaning": "지문에서 다루는 핵심 표현: value added"
+      },
+      {
+        "term": "cotton industry",
+        "meaning": "지문에서 다루는 핵심 표현: cotton industry"
+      },
+      {
+        "term": "woollen industry",
+        "meaning": "지문에서 다루는 핵심 표현: woollen industry"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Cotton factories",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Cotton factories"
+      },
+      {
+        "term": "factories numbered",
+        "meaning": "문맥을 이해하는 데 필요한 표현: factories numbered"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "value added의 핵심 관계",
+        "explanation": "지문은 value added을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "cotton industry의 문맥",
+        "explanation": "문단의 여러 문장은 cotton industry이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-5",
+    "importantWords": [
+      {
+        "term": "Central America",
+        "meaning": "지문에서 다루는 핵심 표현: Central America"
+      },
+      {
+        "term": "South America",
+        "meaning": "지문에서 다루는 핵심 표현: South America"
+      },
+      {
+        "term": "Middle East",
+        "meaning": "지문에서 다루는 핵심 표현: Middle East"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "East have",
+        "meaning": "문맥을 이해하는 데 필요한 표현: East have"
+      },
+      {
+        "term": "hand-manufacturing cotton",
+        "meaning": "문맥을 이해하는 데 필요한 표현: hand-manufacturing cotton"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Central America의 핵심 관계",
+        "explanation": "지문은 Central America을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "South America의 문맥",
+        "explanation": "문단의 여러 문장은 South America이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-6",
+    "importantWords": [
+      {
+        "term": "best known",
+        "meaning": "지문에서 다루는 핵심 표현: best known"
+      },
+      {
+        "term": "Thomas Highs",
+        "meaning": "지문에서 다루는 핵심 표현: Thomas Highs"
+      },
+      {
+        "term": "Arkwright nurtured",
+        "meaning": "지문에서 다루는 핵심 표현: Arkwright nurtured"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "cotton mill",
+        "meaning": "문맥을 이해하는 데 필요한 표현: cotton mill"
+      },
+      {
+        "term": "production processes",
+        "meaning": "문맥을 이해하는 데 필요한 표현: production processes"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "best known의 핵심 관계",
+        "explanation": "지문은 best known을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Thomas Highs의 문맥",
+        "explanation": "문단의 여러 문장은 Thomas Highs이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-7",
+    "importantWords": [
+      {
+        "term": "charcoal iron",
+        "meaning": "지문에서 다루는 핵심 표현: charcoal iron"
+      },
+      {
+        "term": "iron production",
+        "meaning": "지문에서 다루는 핵심 표현: iron production"
+      },
+      {
+        "term": "coke cast",
+        "meaning": "지문에서 다루는 핵심 표현: coke cast"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "cast iron",
+        "meaning": "문맥을 이해하는 데 필요한 표현: cast iron"
+      },
+      {
+        "term": "either refined",
+        "meaning": "문맥을 이해하는 데 필요한 표현: either refined"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "charcoal iron의 핵심 관계",
+        "explanation": "지문은 charcoal iron을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "iron production의 문맥",
+        "explanation": "문단의 여러 문장은 iron production이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "industrial-revolution-8",
+    "importantWords": [
+      {
+        "term": "hardly used",
+        "meaning": "지문에서 다루는 핵심 표현: hardly used"
+      },
+      {
+        "term": "produce wrought",
+        "meaning": "지문에서 다루는 핵심 표현: produce wrought"
+      },
+      {
+        "term": "wrought iron",
+        "meaning": "지문에서 다루는 핵심 표현: wrought iron"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "iron until",
+        "meaning": "문맥을 이해하는 데 필요한 표현: iron until"
+      },
+      {
+        "term": "Abraham Darby",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Abraham Darby"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "hardly used의 핵심 관계",
+        "explanation": "지문은 hardly used을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "produce wrought의 문맥",
+        "explanation": "문단의 여러 문장은 produce wrought이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-3",
+    "importantWords": [
+      {
+        "term": "largest city",
+        "meaning": "지문에서 다루는 핵심 표현: largest city"
+      },
+      {
+        "term": "third largest",
+        "meaning": "지문에서 다루는 핵심 표현: third largest"
+      },
+      {
+        "term": "Western world",
+        "meaning": "지문에서 다루는 핵심 표현: Western world"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "John Evelyn",
+        "meaning": "문맥을 이해하는 데 필요한 표현: John Evelyn"
+      },
+      {
+        "term": "contrasting London",
+        "meaning": "문맥을 이해하는 데 필요한 표현: contrasting London"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "largest city의 핵심 관계",
+        "explanation": "지문은 largest city을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "third largest의 문맥",
+        "explanation": "문단의 여러 문장은 third largest이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-4",
+    "importantWords": [
+      {
+        "term": "relationship between",
+        "meaning": "지문에서 다루는 핵심 표현: relationship between"
+      },
+      {
+        "term": "often tense",
+        "meaning": "지문에서 다루는 핵심 표현: often tense"
+      },
+      {
+        "term": "English Civil",
+        "meaning": "지문에서 다루는 핵심 표현: English Civil"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Civil Wars",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Civil Wars"
+      },
+      {
+        "term": "economically dynamic",
+        "meaning": "문맥을 이해하는 데 필요한 표현: economically dynamic"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "relationship between의 핵심 관계",
+        "explanation": "지문은 relationship between을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "often tense의 문맥",
+        "explanation": "문단의 여러 문장은 often tense이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-5",
+    "importantWords": [
+      {
+        "term": "essentially medieval",
+        "meaning": "지문에서 다루는 핵심 표현: essentially medieval"
+      },
+      {
+        "term": "street plan",
+        "meaning": "지문에서 다루는 핵심 표현: street plan"
+      },
+      {
+        "term": "overcrowded warren",
+        "meaning": "지문에서 다루는 핵심 표현: overcrowded warren"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "cobbled alleys",
+        "meaning": "문맥을 이해하는 데 필요한 표현: cobbled alleys"
+      },
+      {
+        "term": "experienced several",
+        "meaning": "문맥을 이해하는 데 필요한 표현: experienced several"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "essentially medieval의 핵심 관계",
+        "explanation": "지문은 essentially medieval을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "street plan의 문맥",
+        "explanation": "문단의 여러 문장은 street plan이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-6",
+    "importantWords": [
+      {
+        "term": "Great Fire",
+        "meaning": "지문에서 다루는 핵심 표현: Great Fire"
+      },
+      {
+        "term": "Thames offered",
+        "meaning": "지문에서 다루는 핵심 표현: Thames offered"
+      },
+      {
+        "term": "offered water",
+        "meaning": "지문에서 다루는 핵심 표현: offered water"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "poorer districts",
+        "meaning": "문맥을 이해하는 데 필요한 표현: poorer districts"
+      },
+      {
+        "term": "districts along",
+        "meaning": "문맥을 이해하는 데 필요한 표현: districts along"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Great Fire의 핵심 관계",
+        "explanation": "지문은 Great Fire을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Thames offered의 문맥",
+        "explanation": "문단의 여러 문장은 Thames offered이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-7",
+    "importantWords": [
+      {
+        "term": "high Roman",
+        "meaning": "지문에서 다루는 핵심 표현: high Roman"
+      },
+      {
+        "term": "Roman wall",
+        "meaning": "지문에서 다루는 핵심 표현: Roman wall"
+      },
+      {
+        "term": "wall enclosing",
+        "meaning": "지문에서 다루는 핵심 표현: wall enclosing"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "city impeded",
+        "meaning": "문맥을 이해하는 데 필요한 표현: city impeded"
+      },
+      {
+        "term": "impeded escape",
+        "meaning": "문맥을 이해하는 데 필요한 표현: impeded escape"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "high Roman의 핵심 관계",
+        "explanation": "지문은 high Roman을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Roman wall의 문맥",
+        "explanation": "문단의 여러 문장은 Roman wall이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "great-fire-8",
+    "importantWords": [
+      {
+        "term": "crowded wood-built",
+        "meaning": "지문에서 다루는 핵심 표현: crowded wood-built"
+      },
+      {
+        "term": "wood-built city",
+        "meaning": "지문에서 다루는 핵심 표현: wood-built city"
+      },
+      {
+        "term": "open fireplaces",
+        "meaning": "지문에서 다루는 핵심 표현: open fireplaces"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "thousand watchmen",
+        "meaning": "문맥을 이해하는 데 필요한 표현: thousand watchmen"
+      },
+      {
+        "term": "night watched",
+        "meaning": "문맥을 이해하는 데 필요한 표현: night watched"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "crowded wood-built의 핵심 관계",
+        "explanation": "지문은 crowded wood-built을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "wood-built city의 문맥",
+        "explanation": "문단의 여러 문장은 wood-built city이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-3",
+    "importantWords": [
+      {
+        "term": "Library declined",
+        "meaning": "지문에서 다루는 핵심 표현: Library declined"
+      },
+      {
+        "term": "declined gradually",
+        "meaning": "지문에서 다루는 핵심 표현: declined gradually"
+      },
+      {
+        "term": "several centuries",
+        "meaning": "지문에서 다루는 핵심 표현: several centuries"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "decline began",
+        "meaning": "문맥을 이해하는 데 필요한 표현: decline began"
+      },
+      {
+        "term": "Ptolemy VIII",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Ptolemy VIII"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Library declined의 핵심 관계",
+        "explanation": "지문은 Library declined을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "declined gradually의 문맥",
+        "explanation": "문단의 여러 문장은 declined gradually이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-4",
+    "importantWords": [
+      {
+        "term": "Library dwindled",
+        "meaning": "지문에서 다루는 핵심 표현: Library dwindled"
+      },
+      {
+        "term": "Roman period",
+        "meaning": "지문에서 다루는 핵심 표현: Roman period"
+      },
+      {
+        "term": "membership appears",
+        "meaning": "지문에서 다루는 핵심 표현: membership appears"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "have ceased",
+        "meaning": "문맥을 이해하는 데 필요한 표현: have ceased"
+      },
+      {
+        "term": "Palmyrene invasion",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Palmyrene invasion"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Library dwindled의 핵심 관계",
+        "explanation": "지문은 Library dwindled을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Roman period의 문맥",
+        "explanation": "문단의 여러 문장은 Roman period이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-5",
+    "importantWords": [
+      {
+        "term": "significant libraries",
+        "meaning": "지문에서 다루는 핵심 표현: significant libraries"
+      },
+      {
+        "term": "ancient world",
+        "meaning": "지문에서 다루는 핵심 표현: ancient world"
+      },
+      {
+        "term": "earliest known",
+        "meaning": "지문에서 다루는 핵심 표현: earliest known"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "known surviving",
+        "meaning": "문맥을 이해하는 데 필요한 표현: known surviving"
+      },
+      {
+        "term": "surviving source",
+        "meaning": "문맥을 이해하는 데 필요한 표현: surviving source"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "significant libraries의 핵심 관계",
+        "explanation": "지문은 significant libraries을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "ancient world의 문맥",
+        "explanation": "문단의 여러 문장은 ancient world이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-6",
+    "importantWords": [
+      {
+        "term": "Modern scholars",
+        "meaning": "지문에서 다루는 핵심 표현: Modern scholars"
+      },
+      {
+        "term": "scholars agree",
+        "meaning": "지문에서 다루는 핵심 표현: scholars agree"
+      },
+      {
+        "term": "Alexander's campaign",
+        "meaning": "지문에서 다루는 핵심 표현: Alexander's campaign"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "physical institution",
+        "meaning": "문맥을 이해하는 데 필요한 표현: physical institution"
+      },
+      {
+        "term": "institution until",
+        "meaning": "문맥을 이해하는 데 필요한 표현: institution until"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Modern scholars의 핵심 관계",
+        "explanation": "지문은 Modern scholars을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "scholars agree의 문맥",
+        "explanation": "문단의 여러 문장은 scholars agree이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-7",
+    "importantWords": [
+      {
+        "term": "Royal Quarter",
+        "meaning": "지문에서 다루는 핵심 표현: Royal Quarter"
+      },
+      {
+        "term": "main purpose",
+        "meaning": "지문에서 다루는 핵심 표현: main purpose"
+      },
+      {
+        "term": "lesser goal",
+        "meaning": "지문에서 다루는 핵심 표현: lesser goal"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "exact layout",
+        "meaning": "문맥을 이해하는 데 필요한 표현: exact layout"
+      },
+      {
+        "term": "ancient sources",
+        "meaning": "문맥을 이해하는 데 필요한 표현: ancient sources"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Royal Quarter의 핵심 관계",
+        "explanation": "지문은 Royal Quarter을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "main purpose의 문맥",
+        "explanation": "문단의 여러 문장은 main purpose이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "library-alexandria-8",
+    "importantWords": [
+      {
+        "term": "particular philosophical",
+        "meaning": "지문에서 다루는 핵심 표현: particular philosophical"
+      },
+      {
+        "term": "philosophical school",
+        "meaning": "지문에서 다루는 핵심 표현: philosophical school"
+      },
+      {
+        "term": "studied there",
+        "meaning": "지문에서 다루는 핵심 표현: studied there"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "considerable academic",
+        "meaning": "문맥을 이해하는 데 필요한 표현: considerable academic"
+      },
+      {
+        "term": "academic freedom",
+        "meaning": "문맥을 이해하는 데 필요한 표현: academic freedom"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "particular philosophical의 핵심 관계",
+        "explanation": "지문은 particular philosophical을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "philosophical school의 문맥",
+        "explanation": "문단의 여러 문장은 philosophical school이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-3",
+    "importantWords": [
+      {
+        "term": "rebels took",
+        "meaning": "지문에서 다루는 핵심 표현: rebels took"
+      },
+      {
+        "term": "stand fast",
+        "meaning": "지문에서 다루는 핵심 표현: stand fast"
+      },
+      {
+        "term": "King confirm",
+        "meaning": "지문에서 다루는 핵심 표현: King confirm"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "King Henry",
+        "meaning": "문맥을 이해하는 데 필요한 표현: King Henry"
+      },
+      {
+        "term": "previous century",
+        "meaning": "문맥을 이해하는 데 필요한 표현: previous century"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "rebels took의 핵심 관계",
+        "explanation": "지문은 rebels took을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "stand fast의 문맥",
+        "explanation": "문단의 여러 문장은 stand fast이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-4",
+    "importantWords": [
+      {
+        "term": "John's hope",
+        "meaning": "지문에서 다루는 핵심 표현: John's hope"
+      },
+      {
+        "term": "Pope would",
+        "meaning": "지문에서 다루는 핵심 표현: Pope would"
+      },
+      {
+        "term": "would give",
+        "meaning": "지문에서 다루는 핵심 표현: would give"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "valuable legal",
+        "meaning": "문맥을 이해하는 데 필요한 표현: valuable legal"
+      },
+      {
+        "term": "moral support",
+        "meaning": "문맥을 이해하는 데 필요한 표현: moral support"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "John's hope의 핵심 관계",
+        "explanation": "지문은 John's hope을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Pope would의 문맥",
+        "explanation": "문단의 여러 문장은 Pope would이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-5",
+    "importantWords": [
+      {
+        "term": "Letters backing",
+        "meaning": "지문에서 다루는 핵심 표현: Letters backing"
+      },
+      {
+        "term": "backing John",
+        "meaning": "지문에서 다루는 핵심 표현: backing John"
+      },
+      {
+        "term": "John arrived",
+        "meaning": "지문에서 다루는 핵심 표현: John arrived"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "rebel barons",
+        "meaning": "문맥을 이해하는 데 필요한 표현: rebel barons"
+      },
+      {
+        "term": "military faction",
+        "meaning": "문맥을 이해하는 데 필요한 표현: military faction"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Letters backing의 핵심 관계",
+        "explanation": "지문은 Letters backing을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "backing John의 문맥",
+        "explanation": "문단의 여러 문장은 backing John이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-6",
+    "importantWords": [
+      {
+        "term": "historian David",
+        "meaning": "지문에서 다루는 핵심 표현: historian David"
+      },
+      {
+        "term": "David Carpenter",
+        "meaning": "지문에서 다루는 핵심 표현: David Carpenter"
+      },
+      {
+        "term": "political theory",
+        "meaning": "지문에서 다루는 핵심 표현: political theory"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "went beyond",
+        "meaning": "문맥을 이해하는 데 필요한 표현: went beyond"
+      },
+      {
+        "term": "beyond simply",
+        "meaning": "문맥을 이해하는 데 필요한 표현: beyond simply"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "historian David의 핵심 관계",
+        "explanation": "지문은 historian David을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "David Carpenter의 문맥",
+        "explanation": "문단의 여러 문장은 David Carpenter이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-7",
+    "importantWords": [
+      {
+        "term": "historians later",
+        "meaning": "지문에서 다루는 핵심 표현: historians later"
+      },
+      {
+        "term": "later labelled",
+        "meaning": "지문에서 다루는 핵심 표현: later labelled"
+      },
+      {
+        "term": "security clause",
+        "meaning": "지문에서 다루는 핵심 표현: security clause"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "barons would",
+        "meaning": "문맥을 이해하는 데 필요한 표현: barons would"
+      },
+      {
+        "term": "ensure John's",
+        "meaning": "문맥을 이해하는 데 필요한 표현: ensure John's"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "historians later의 핵심 관계",
+        "explanation": "지문은 historians later을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "later labelled의 문맥",
+        "explanation": "문단의 여러 문장은 later labelled이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "magna-carta-8",
+    "importantWords": [
+      {
+        "term": "previously conceded",
+        "meaning": "지문에서 다루는 핵심 표현: previously conceded"
+      },
+      {
+        "term": "individual resistance",
+        "meaning": "지문에서 다루는 핵심 표현: individual resistance"
+      },
+      {
+        "term": "Magna Carta",
+        "meaning": "지문에서 다루는 핵심 표현: Magna Carta"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "formally recognised",
+        "meaning": "문맥을 이해하는 데 필요한 표현: formally recognised"
+      },
+      {
+        "term": "recognised means",
+        "meaning": "문맥을 이해하는 데 필요한 표현: recognised means"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "previously conceded의 핵심 관계",
+        "explanation": "지문은 previously conceded을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "individual resistance의 문맥",
+        "explanation": "문단의 여러 문장은 individual resistance이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-3",
+    "importantWords": [
+      {
+        "term": "Enigma machine",
+        "meaning": "지문에서 다루는 핵심 표현: Enigma machine"
+      },
+      {
+        "term": "German engineer",
+        "meaning": "지문에서 다루는 핵심 표현: German engineer"
+      },
+      {
+        "term": "engineer Arthur",
+        "meaning": "지문에서 다루는 핵심 표현: engineer Arthur"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Arthur Scherbius",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Arthur Scherbius"
+      },
+      {
+        "term": "German firm",
+        "meaning": "문맥을 이해하는 데 필요한 표현: German firm"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Enigma machine의 핵심 관계",
+        "explanation": "지문은 Enigma machine을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "German engineer의 문맥",
+        "explanation": "문단의 여러 문장은 German engineer이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-4",
+    "importantWords": [
+      {
+        "term": "Several Enigma",
+        "meaning": "지문에서 다루는 핵심 표현: Several Enigma"
+      },
+      {
+        "term": "Enigma models",
+        "meaning": "지문에서 다루는 핵심 표현: Enigma models"
+      },
+      {
+        "term": "German military",
+        "meaning": "지문에서 다루는 핵심 표현: German military"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "military models",
+        "meaning": "문맥을 이해하는 데 필요한 표현: military models"
+      },
+      {
+        "term": "Italian models",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Italian models"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Several Enigma의 핵심 관계",
+        "explanation": "지문은 Several Enigma을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Enigma models의 문맥",
+        "explanation": "문단의 여러 문장은 Enigma models이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-5",
+    "importantWords": [
+      {
+        "term": "German cryptographic",
+        "meaning": "지문에서 다루는 핵심 표현: German cryptographic"
+      },
+      {
+        "term": "cryptographic procedures",
+        "meaning": "지문에서 다루는 핵심 표현: cryptographic procedures"
+      },
+      {
+        "term": "procedures improved",
+        "meaning": "지문에서 다루는 핵심 표현: procedures improved"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Cipher Bureau",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Cipher Bureau"
+      },
+      {
+        "term": "Bureau developed",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Bureau developed"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "German cryptographic의 핵심 관계",
+        "explanation": "지문은 German cryptographic을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "cryptographic procedures의 문맥",
+        "explanation": "문단의 여러 문장은 cryptographic procedures이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-6",
+    "importantWords": [
+      {
+        "term": "British Military",
+        "meaning": "지문에서 다루는 핵심 표현: British Military"
+      },
+      {
+        "term": "Military Mission",
+        "meaning": "지문에서 다루는 핵심 표현: Military Mission"
+      },
+      {
+        "term": "included Colin",
+        "meaning": "지문에서 다루는 핵심 표현: included Colin"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Colin Gubbins",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Colin Gubbins"
+      },
+      {
+        "term": "Vera Atkins",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Vera Atkins"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "British Military의 핵심 관계",
+        "explanation": "지문은 British Military을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Military Mission의 문맥",
+        "explanation": "문단의 여러 문장은 Military Mission이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-7",
+    "importantWords": [
+      {
+        "term": "repeated changes",
+        "meaning": "지문에서 다루는 핵심 표현: repeated changes"
+      },
+      {
+        "term": "electrical path",
+        "meaning": "지문에서 다루는 핵심 표현: electrical path"
+      },
+      {
+        "term": "Enigma scrambler",
+        "meaning": "지문에서 다루는 핵심 표현: Enigma scrambler"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "scrambler implement",
+        "meaning": "문맥을 이해하는 데 필요한 표현: scrambler implement"
+      },
+      {
+        "term": "polyalphabetic substitution",
+        "meaning": "문맥을 이해하는 데 필요한 표현: polyalphabetic substitution"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "repeated changes의 핵심 관계",
+        "explanation": "지문은 repeated changes을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "electrical path의 문맥",
+        "explanation": "문단의 여러 문장은 electrical path이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "enigma-machine-8",
+    "importantWords": [
+      {
+        "term": "Each rotor",
+        "meaning": "지문에서 다루는 핵심 표현: Each rotor"
+      },
+      {
+        "term": "starting positions",
+        "meaning": "지문에서 다루는 핵심 표현: starting positions"
+      },
+      {
+        "term": "Enigma machine",
+        "meaning": "지문에서 다루는 핵심 표현: Enigma machine"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "correct position",
+        "meaning": "문맥을 이해하는 데 필요한 표현: correct position"
+      },
+      {
+        "term": "grooved finger-wheel",
+        "meaning": "문맥을 이해하는 데 필요한 표현: grooved finger-wheel"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Each rotor의 핵심 관계",
+        "explanation": "지문은 Each rotor을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "starting positions의 문맥",
+        "explanation": "문단의 여러 문장은 starting positions이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-3",
+    "importantWords": [
+      {
+        "term": "United States",
+        "meaning": "지문에서 다루는 핵심 표현: United States"
+      },
+      {
+        "term": "geopolitical rivalry",
+        "meaning": "지문에서 다루는 핵심 표현: geopolitical rivalry"
+      },
+      {
+        "term": "Soviet Union",
+        "meaning": "지문에서 다루는 핵심 표현: Soviet Union"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Union launched",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Union launched"
+      },
+      {
+        "term": "launched Sputnik",
+        "meaning": "문맥을 이해하는 데 필요한 표현: launched Sputnik"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "United States의 핵심 관계",
+        "explanation": "지문은 United States을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "geopolitical rivalry의 문맥",
+        "explanation": "문단의 여러 문장은 geopolitical rivalry이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-4",
+    "importantWords": [
+      {
+        "term": "incident sparked",
+        "meaning": "지문에서 다루는 핵심 표현: incident sparked"
+      },
+      {
+        "term": "Sputnik crisis",
+        "meaning": "지문에서 다루는 핵심 표현: Sputnik crisis"
+      },
+      {
+        "term": "Space Race",
+        "meaning": "지문에서 다루는 핵심 표현: Space Race"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "both superpowers",
+        "meaning": "문맥을 이해하는 데 필요한 표현: both superpowers"
+      },
+      {
+        "term": "superpowers sought",
+        "meaning": "문맥을 이해하는 데 필요한 표현: superpowers sought"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "incident sparked의 핵심 관계",
+        "explanation": "지문은 incident sparked을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Sputnik crisis의 문맥",
+        "explanation": "문단의 여러 문장은 Sputnik crisis이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-5",
+    "importantWords": [
+      {
+        "term": "crucial decision",
+        "meaning": "지문에서 다루는 핵심 표현: crucial decision"
+      },
+      {
+        "term": "choosing lunar",
+        "meaning": "지문에서 다루는 핵심 표현: choosing lunar"
+      },
+      {
+        "term": "lunar orbit",
+        "meaning": "지문에서 다루는 핵심 표현: lunar orbit"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "orbit rendezvous",
+        "meaning": "문맥을 이해하는 데 필요한 표현: orbit rendezvous"
+      },
+      {
+        "term": "both direct",
+        "meaning": "문맥을 이해하는 데 필요한 표현: both direct"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "crucial decision의 핵심 관계",
+        "explanation": "지문은 crucial decision을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "choosing lunar의 문맥",
+        "explanation": "문단의 여러 문장은 choosing lunar이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-6",
+    "importantWords": [
+      {
+        "term": "Project Apollo",
+        "meaning": "지문에서 다루는 핵심 표현: Project Apollo"
+      },
+      {
+        "term": "abruptly halted",
+        "meaning": "지문에서 다루는 핵심 표현: abruptly halted"
+      },
+      {
+        "term": "Chaffee died",
+        "meaning": "지문에서 다루는 핵심 표현: Chaffee died"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "subsequent investigation",
+        "meaning": "문맥을 이해하는 데 필요한 표현: subsequent investigation"
+      },
+      {
+        "term": "command module",
+        "meaning": "문맥을 이해하는 데 필요한 표현: command module"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Project Apollo의 핵심 관계",
+        "explanation": "지문은 Project Apollo을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "abruptly halted의 문맥",
+        "explanation": "문단의 여러 문장은 abruptly halted이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-7",
+    "importantWords": [
+      {
+        "term": "Soviet Union",
+        "meaning": "지문에서 다루는 핵심 표현: Soviet Union"
+      },
+      {
+        "term": "Union appeared",
+        "meaning": "지문에서 다루는 핵심 표현: Union appeared"
+      },
+      {
+        "term": "Space Race",
+        "meaning": "지문에서 다루는 핵심 표현: Space Race"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "early lead",
+        "meaning": "문맥을 이해하는 데 필요한 표현: early lead"
+      },
+      {
+        "term": "Gemini program",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Gemini program"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Soviet Union의 핵심 관계",
+        "explanation": "지문은 Soviet Union을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Union appeared의 문맥",
+        "explanation": "문단의 여러 문장은 Union appeared이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "apollo-11-8",
+    "importantWords": [
+      {
+        "term": "initial crew",
+        "meaning": "지문에서 다루는 핵심 표현: initial crew"
+      },
+      {
+        "term": "crew assignment",
+        "meaning": "지문에서 다루는 핵심 표현: crew assignment"
+      },
+      {
+        "term": "Commander Neil",
+        "meaning": "지문에서 다루는 핵심 표현: Commander Neil"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Neil Armstrong",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Neil Armstrong"
+      },
+      {
+        "term": "Command Module",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Command Module"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "initial crew의 핵심 관계",
+        "explanation": "지문은 initial crew을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "crew assignment의 문맥",
+        "explanation": "문단의 여러 문장은 crew assignment이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-3",
+    "importantWords": [
+      {
+        "term": "tropical year",
+        "meaning": "지문에서 다루는 핵심 표현: tropical year"
+      },
+      {
+        "term": "whole number",
+        "meaning": "지문에서 다루는 핵심 표현: whole number"
+      },
+      {
+        "term": "solar calendar",
+        "meaning": "지문에서 다루는 핵심 표현: solar calendar"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "calendar must",
+        "meaning": "문맥을 이해하는 데 필요한 표현: calendar must"
+      },
+      {
+        "term": "must have",
+        "meaning": "문맥을 이해하는 데 필요한 표현: must have"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "tropical year의 핵심 관계",
+        "explanation": "지문은 tropical year을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "whole number의 문맥",
+        "explanation": "문단의 여러 문장은 whole number이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-4",
+    "importantWords": [
+      {
+        "term": "scheduling regular",
+        "meaning": "지문에서 다루는 핵심 표현: scheduling regular"
+      },
+      {
+        "term": "regular activities",
+        "meaning": "지문에서 다루는 핵심 표현: regular activities"
+      },
+      {
+        "term": "easily coincide",
+        "meaning": "지문에서 다루는 핵심 표현: easily coincide"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Many cultures",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Many cultures"
+      },
+      {
+        "term": "different baselines",
+        "meaning": "문맥을 이해하는 데 필요한 표현: different baselines"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "scheduling regular의 핵심 관계",
+        "explanation": "지문은 scheduling regular을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "regular activities의 문맥",
+        "explanation": "문단의 여러 문장은 regular activities이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-5",
+    "importantWords": [
+      {
+        "term": "astronomical calendar",
+        "meaning": "지문에서 다루는 핵심 표현: astronomical calendar"
+      },
+      {
+        "term": "ongoing observation",
+        "meaning": "지문에서 다루는 핵심 표현: ongoing observation"
+      },
+      {
+        "term": "religious Islamic",
+        "meaning": "지문에서 다루는 핵심 표현: religious Islamic"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Islamic calendar",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Islamic calendar"
+      },
+      {
+        "term": "religious Jewish",
+        "meaning": "문맥을 이해하는 데 필요한 표현: religious Jewish"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "astronomical calendar의 핵심 관계",
+        "explanation": "지문은 astronomical calendar을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "ongoing observation의 문맥",
+        "explanation": "문단의 여러 문장은 ongoing observation이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-6",
+    "importantWords": [
+      {
+        "term": "arithmetic calendar",
+        "meaning": "지문에서 다루는 핵심 표현: arithmetic calendar"
+      },
+      {
+        "term": "current Jewish",
+        "meaning": "지문에서 다루는 핵심 표현: current Jewish"
+      },
+      {
+        "term": "Jewish calendar",
+        "meaning": "지문에서 다루는 핵심 표현: Jewish calendar"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "rule-based calendar",
+        "meaning": "문맥을 이해하는 데 필요한 표현: rule-based calendar"
+      },
+      {
+        "term": "particular date",
+        "meaning": "문맥을 이해하는 데 필요한 표현: particular date"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "arithmetic calendar의 핵심 관계",
+        "explanation": "지문은 arithmetic calendar을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "current Jewish의 문맥",
+        "explanation": "문단의 여러 문장은 current Jewish이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-7",
+    "importantWords": [
+      {
+        "term": "Gregorian calendar",
+        "meaning": "지문에서 다루는 핵심 표현: Gregorian calendar"
+      },
+      {
+        "term": "facto international",
+        "meaning": "지문에서 다루는 핵심 표현: facto international"
+      },
+      {
+        "term": "international standard",
+        "meaning": "지문에서 다루는 핵심 표현: international standard"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "used almost",
+        "meaning": "문맥을 이해하는 데 필요한 표현: used almost"
+      },
+      {
+        "term": "almost everywhere",
+        "meaning": "문맥을 이해하는 데 필요한 표현: almost everywhere"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Gregorian calendar의 핵심 관계",
+        "explanation": "지문은 Gregorian calendar을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "facto international의 문맥",
+        "explanation": "문단의 여러 문장은 facto international이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  },
+  {
+    "passageId": "calendar-8",
+    "importantWords": [
+      {
+        "term": "Gregorian calendar",
+        "meaning": "지문에서 다루는 핵심 표현: Gregorian calendar"
+      },
+      {
+        "term": "Julian calendar",
+        "meaning": "지문에서 다루는 핵심 표현: Julian calendar"
+      },
+      {
+        "term": "European Middle",
+        "meaning": "지문에서 다루는 핵심 표현: European Middle"
+      }
+    ],
+    "difficultWords": [
+      {
+        "term": "Middle Ages",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Middle Ages"
+      },
+      {
+        "term": "Early Modern",
+        "meaning": "문맥을 이해하는 데 필요한 표현: Early Modern"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Gregorian calendar의 핵심 관계",
+        "explanation": "지문은 Gregorian calendar을 중심으로 이 문단의 주제와 배경을 설명한다."
+      },
+      {
+        "title": "Julian calendar의 문맥",
+        "explanation": "문단의 여러 문장은 Julian calendar이 다른 사건이나 과정과 어떻게 연결되는지 보여 준다."
+      }
+    ]
+  }
+]

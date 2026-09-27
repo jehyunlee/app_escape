@@ -1,0 +1,1523 @@
+{
+  "schemaVersion": 1,
+  "sourceCatalog": "assets/wardrobe-catalog.json",
+  "candidateCatalog": "scripts/art-sources/field-wardrobe/catalog.json",
+  "sourceCatalogSha256": "cad2cd377a898a8572304ca4e12765bbac2b7dab2974c2f6b6d73f59e34029a4",
+  "candidateCatalogSha256": "e8375fded0f1a44707b4acae6da3deaa13a5e7d66814c9e24b9de5d945ae6842",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "background": "transparent",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "panelSize": [
+    512,
+    1024
+  ],
+  "thumbnailSize": [
+    384,
+    384
+  ],
+  "padding": 0.12,
+  "sampleIndices": [
+    1,
+    6,
+    12
+  ],
+  "requestedApiCalls": 26,
+  "historicalApiCalls": 8,
+  "totalApiCalls": 34,
+  "apiCalls": 34,
+  "apiCallHistory": [
+    {
+      "phase": "initial-review",
+      "calls": 8,
+      "groups": [
+        "hat-samples-01-06-12",
+        "necklace-samples-01-06-12",
+        "cloak-samples-01-06-12",
+        "wand-samples-01-06-12",
+        "broom-samples-01-06-12",
+        "gloves-samples-01-06-12",
+        "pants-samples-01-06-12",
+        "vest-samples-01-06-12"
+      ],
+      "source": "scripts/art-sources/field-wardrobe/archive/hat-before-revision/provenance-before-hat-revision.json",
+      "note": "Historical accepted review calls; not rerun during the hat revision or remaining batch."
+    },
+    {
+      "phase": "hat-revision",
+      "calls": 1,
+      "groups": [
+        "hat-samples-01-06-12"
+      ],
+      "archive": "scripts/art-sources/field-wardrobe/archive/hat-before-revision",
+      "note": "Rejected hat sheet/crops and pre-revision provenance are archived; accepted non-hat samples were reused."
+    },
+    {
+      "phase": "remaining-72",
+      "calls": 24,
+      "groups": [
+        "hat-02-03-04",
+        "hat-05-07-08",
+        "hat-09-10-11",
+        "necklace-02-03-04",
+        "necklace-05-07-08",
+        "necklace-09-10-11",
+        "cloak-02-03-04",
+        "cloak-05-07-08",
+        "cloak-09-10-11",
+        "wand-02-03-04",
+        "wand-05-07-08",
+        "wand-09-10-11",
+        "broom-02-03-04",
+        "broom-05-07-08",
+        "broom-09-10-11",
+        "gloves-02-03-04",
+        "gloves-05-07-08",
+        "gloves-09-10-11",
+        "pants-02-03-04",
+        "pants-05-07-08",
+        "pants-09-10-11",
+        "vest-02-03-04",
+        "vest-05-07-08",
+        "vest-09-10-11"
+      ],
+      "note": "Three-item groups generated after the accepted 21 samples and revised hat trio."
+    },
+    {
+      "phase": "pants-01-revision",
+      "calls": 1,
+      "groups": [
+        "pants-01-single-item-edit"
+      ],
+      "overlay": "scripts/art-sources/field-wardrobe/revisions/pants-01.json",
+      "archive": "scripts/art-sources/field-wardrobe/archive/pants-01-before-revision",
+      "note": "One OpenAI edit overlays the pants-01 crop; future --all runs never extract pants-01 from its old sheet."
+    }
+  ],
+  "generatedApiCalls": 26,
+  "generatedAt": "2026-09-27T01:23:13.614572+00:00",
+  "sampleContactSheet": "/tmp/paper-doll-qa/field-wardrobe-samples.png",
+  "fullContactSheets": [
+    "scripts/art-sources/field-wardrobe/contacts/hat-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/necklace-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/cloak-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/wand-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/broom-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/gloves-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/pants-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contacts/vest-contact-sheet.png",
+    "scripts/art-sources/field-wardrobe/contact-sheet.png"
+  ],
+  "singleItemRevisions": [
+    {
+      "revisionId": "pants-01-single-item-edit",
+      "item": "pants-01",
+      "kind": "single-item-edit-overlay",
+      "status": "generated",
+      "apiCalls": 1,
+      "model": "gpt-image-2.5-flare",
+      "quality": "high",
+      "prompt": "Edit the supplied isolated product image of plain low-tier charcoal straight-leg wizard trousers. Preserve the exact front-facing product pose, two separate legs, full silhouette, framing, matte dark cloth, and true transparent background. Add only modest functional matte knee reinforcement panels over both knees and tidy double stitching running along each lower-leg seam from the knee toward the hem. Keep this an inexpensive basic item: subtle cloth reinforcement and visible utility stitching, not armor, jewelry, gems, shine, ornament, extra pockets, belt, logo, text, robe, skirt, person, body, or mannequin. Return one complete isolated pair of trousers with no other object.",
+      "source": "scripts/art-sources/field-wardrobe/archive/pants-01-before-revision/designs/pants-01.webp",
+      "sourceSha256": "dcce10e3940e276724ffc4e7de3101e6997088aacafc86066cdbdffd7fd0d3cb",
+      "rawResponse": "scripts/art-sources/field-wardrobe/revisions/pants-01-raw.png",
+      "rawResponseSha256": "73548543c8acfa93bb102543876770e89cf67432eeb7d3e4887e9b60fbef624e",
+      "output": "scripts/art-sources/field-wardrobe/designs/pants-01.webp",
+      "outputSha256": "d5baefca94bc326d452664cfe0ad5785e8bba581bebd96ee6deedd5255ab95f4",
+      "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-01.webp",
+      "comparison": "/tmp/paper-doll-qa/field-pants01-vs-starter.png",
+      "baseline": "assets/doll/rigged/starter-pants.webp",
+      "baselineSha256": "6346ef624b8d115b9bfc0081763615dec9e0f37d61d08c5f974e6d47267beecf",
+      "baselinePreserved": true,
+      "archive": "scripts/art-sources/field-wardrobe/archive/pants-01-before-revision",
+      "sourceSize": [
+        360,
+        842
+      ],
+      "outputSize": [
+        702,
+        1532
+      ],
+      "generatedAt": "2026-09-27T01:16:27.316711+00:00"
+    }
+  ],
+  "groups": [
+    {
+      "id": "hat-02-03-04",
+      "category": "hat",
+      "items": [
+        {
+          "id": "hat-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-02.webp",
+          "sourceSize": [
+            417,
+            338
+          ],
+          "sha256": "4fa10dc3e84fe2c4eb5fbccf30087227006f1a2577e222de4816cfb6eb55880a"
+        },
+        {
+          "id": "hat-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-03.webp",
+          "sourceSize": [
+            421,
+            387
+          ],
+          "sha256": "c3c6531749fcc520ed18a85a7a7a7940623b5f4f31c7598d69cfe643fc094cda"
+        },
+        {
+          "id": "hat-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-04.webp",
+          "sourceSize": [
+            492,
+            328
+          ],
+          "sha256": "5cac461d897f1b33efd49299b4f2211bf85b1e421784610ffae76545ff825875"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/hat-02-03-04.png",
+      "sheetSha256": "f704f692880cac62ad2590ab1631ae46a45c50cf87e6e85bef5fab62a7448095",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied hat design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every hat must have a recognizable practical wizard silhouette: a low or moderate tapered/asymmetric pointed crown and a strengthened brim; vary crown structures rather than making ordinary modern brimmed caps.\n\nLEFT panel — hat-02 — basic tier — #6c5038: A foldable earth-brown felt wizard hat with a low slanted pointed crown, two deliberate fold seams, a firm narrow brim, and a flat leather band; clearly magical travel wear. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — hat-03 — standard tier — #56616b: A short slate wool wizard hat with an asymmetric pointed crown leaning slightly to one side, a circular reinforced brim, and one visible structural seam; friendly and unmistakably wizardly. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — hat-04 — standard tier — #4b604f: A muted-green woven wizard hat with a broad low pointed crown, a wide flat reinforced brim, and a plain cloth band; practical field protection, never a modern brimmed cap. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "hat-05-07-08",
+      "category": "hat",
+      "items": [
+        {
+          "id": "hat-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-05.webp",
+          "sourceSize": [
+            424,
+            504
+          ],
+          "sha256": "d7afb247fac7fa27b597e48df8aad7b1f89f62e8d81d72e19562ce03e69e20a5"
+        },
+        {
+          "id": "hat-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-07.webp",
+          "sourceSize": [
+            464,
+            526
+          ],
+          "sha256": "d95f7fd035f49bc002d0a4881b123f534b744176c817726523d5ac3974e5cfdd"
+        },
+        {
+          "id": "hat-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-08.webp",
+          "sourceSize": [
+            452,
+            560
+          ],
+          "sha256": "b0f4b800eabbd52c9937307d2fcbfce72a2a7ef11b3f3dd5e8d2c1c06b3596c7"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/hat-05-07-08.png",
+      "sheetSha256": "9e2740e7c253a5868f40ae9f14e8e0ae913bd2cf6b8e44032b1b9a947877010c",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied hat design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every hat must have a recognizable practical wizard silhouette: a low or moderate tapered/asymmetric pointed crown and a strengthened brim; vary crown structures rather than making ordinary modern brimmed caps.\n\nLEFT panel — hat-05 — fine tier — #34495a: A moderate tapered navy felt wizard hat with a clear pointed crown, two structural seam lines, and a strengthened narrow brim; a practical traveling mage silhouette. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — hat-07 — fine tier — #34495a: A distinctive two-layer navy wizard hat with an asymmetric pointed crown, one shorter folded crown side, a clean circular brim, and functional leather tie joinery. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — hat-08 — masterwork tier — #343b42: A medium pointed charcoal felt wizard hat with a straight tapered crown, a narrow matte-iron seam strip, and a dense strengthened brim; restrained structural craft. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "hat-09-10-11",
+      "category": "hat",
+      "items": [
+        {
+          "id": "hat-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-09.webp",
+          "sourceSize": [
+            474,
+            704
+          ],
+          "sha256": "08c61dbf1b71b1b6c6156cddfde5c288fd305e522dae46bb509837d4f547a8c2"
+        },
+        {
+          "id": "hat-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-10.webp",
+          "sourceSize": [
+            403,
+            380
+          ],
+          "sha256": "f46af748b5cdce53d8b9451507b6adb049a1468083c6e68eff356c1e1eea08ea"
+        },
+        {
+          "id": "hat-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-11.webp",
+          "sourceSize": [
+            470,
+            491
+          ],
+          "sha256": "5dd664d3ab010b0c64d431b0a13f6d8508eb08afa642e7c122849bb0059c4a40"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/hat-09-10-11.png",
+      "sheetSha256": "7f2c37d11abd3aff9861fd8196ac0154bd1eb68d10b33b3d11efe85a490919ea",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied hat design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every hat must have a recognizable practical wizard silhouette: a low or moderate tapered/asymmetric pointed crown and a strengthened brim; vary crown structures rather than making ordinary modern brimmed caps.\n\nLEFT panel — hat-09 — masterwork tier — #4b604f: A weatherproof muted-green wizard hat with a diagonally angled pointed crown, a sloped reinforced brim, double edge stitching, and a plain woven chin cord. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — hat-10 — masterwork tier — #6c5038: A four-panel earth-brown leather wizard hat with a low slightly asymmetric pointed crown, visible square joining seams, and a short firm reinforced brim; strong clean construction. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — hat-11 — masterwork tier — #56616b: A reinforced double-layer slate wizard hat with a moderate pointed crown, two offset brim layers, a concealed matte-iron support at the edge, and a simple cloth band. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "hat-samples-01-06-12",
+      "category": "hat",
+      "items": [
+        {
+          "id": "hat-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-01.webp",
+          "sourceSize": [
+            456,
+            427
+          ],
+          "sha256": "d66244813b89578affbd4077d199d749b63fd2ddb2b7bf9d571be456f67f72b5"
+        },
+        {
+          "id": "hat-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-06.webp",
+          "sourceSize": [
+            452,
+            502
+          ],
+          "sha256": "c44991e375f03862b5cdf76a4f166d22542aa77518f1908b3e753b2c32b01844"
+        },
+        {
+          "id": "hat-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/hat-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/hat-12.webp",
+          "sourceSize": [
+            462,
+            506
+          ],
+          "sha256": "1845190999940af36780ae46d4fab9518affdcaaca790ede02c990168b178aa2"
+        }
+      ],
+      "status": "generated-hat-revision",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/hat-samples-01-06-12.png",
+      "sheetSha256": "2ec8d2720d1dbc97e786146bcf6c5ebeebb9b327226bc7907a1cec3568165679",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied hat design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every hat must have a recognizable practical wizard silhouette: a low or moderate tapered/asymmetric pointed crown and a strengthened brim; vary crown structures rather than making ordinary modern brimmed caps.\n\nLEFT panel — hat-01 — basic tier — #343b42: A simple practical wizard travel hat made from soft charcoal felt, with a low gently pointed crown, a rounded reinforced brim, one plain woven band, and no rigid modern cap shape. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — hat-06 — fine tier — #684a38: A structured tapered leather mage hat with a moderate pointed crown, four fitted leather panels, a firm round reinforced brim, and small matte-iron seam pins; no side-fold cap shape. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — hat-12 — masterwork tier — #343b42: A firm angular moderate wizard crown made from dense charcoal leather, with thick matte-iron structural ribs crossing the crown and a reinforced brim; face open, visor-free, smooth crown, no protrusions or stones, substantial protective craft without flash. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "necklace-02-03-04",
+      "category": "necklace",
+      "items": [
+        {
+          "id": "necklace-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-02.webp",
+          "sourceSize": [
+            420,
+            464
+          ],
+          "sha256": "75d299aaa7d1c67a9e489af5770974a463313cdfc0f2c1c1b4c67058fb950d20"
+        },
+        {
+          "id": "necklace-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-03.webp",
+          "sourceSize": [
+            474,
+            385
+          ],
+          "sha256": "b2f3eebbf25232daf1eb357fa328e2611106e25182567c2a05c62345e9cb6645"
+        },
+        {
+          "id": "necklace-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-04.webp",
+          "sourceSize": [
+            420,
+            569
+          ],
+          "sha256": "5d62cf5493ccadcbbf6601b4dbab70fe2184ed91de097a516ad17a2157e7699b"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/necklace-02-03-04.png",
+      "sheetSha256": "a53eb8d949a82175203ecef98dcd4b308ae35e4bf6309d7887cc5810a0a3937f",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied necklace design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap.\n\nLEFT panel — necklace-02 — basic tier — #343b42: A short necklace of three chunky matte-iron oval links joined by plain pins, ending in one tiny flat seal; compact and weighty, not a long chain. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — necklace-03 — standard tier — #684a38: A compact leather collar necklace with a small brushed-steel rectangular seal plate, two punched holes, and one restrained line mark; clean utilitarian silhouette. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — necklace-04 — standard tier — #77583f: A short leather-cord necklace carrying one small flat round wood token with a shallow single groove; matte, friendly, and deliberately understated. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "necklace-05-07-08",
+      "category": "necklace",
+      "items": [
+        {
+          "id": "necklace-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-05.webp",
+          "sourceSize": [
+            433,
+            299
+          ],
+          "sha256": "6071e367b98b27ff3e941ebf64b0371e4db1a40e91264ccf450bbaa72741476f"
+        },
+        {
+          "id": "necklace-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-07.webp",
+          "sourceSize": [
+            427,
+            644
+          ],
+          "sha256": "afce5c9ecf7aa106a8369922aead421ab7be2ee6e4129e8841e3fd819c61e041"
+        },
+        {
+          "id": "necklace-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-08.webp",
+          "sourceSize": [
+            439,
+            341
+          ],
+          "sha256": "56821b922e7749ed563c4afc2e7aa6fc190ccba1619f6ab89ab916b8a8cb815c"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/necklace-05-07-08.png",
+      "sheetSha256": "ba42039800a32cad3d0f0619a07cfebca9beb4c4ed41f3565d43b6bd03933aa0",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied necklace design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap.\n\nLEFT panel — necklace-05 — fine tier — #4b604f: A compact woven-cloth neck band with one small slate seal set flush into a leather tab; broad textile band silhouette with one quiet mark. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — necklace-07 — fine tier — #56616b: A small oval slate pendant held by one matte-iron loop on a woven cord, with a single restrained notch mark; visibly different from a chain necklace. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — necklace-08 — masterwork tier — #684a38: A compact layered-leather neck guard with two overlapping horizontal bands, one small side iron buckle, and no hanging ornament; structured protective silhouette. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "necklace-09-10-11",
+      "category": "necklace",
+      "items": [
+        {
+          "id": "necklace-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-09.webp",
+          "sourceSize": [
+            445,
+            438
+          ],
+          "sha256": "d949de32c3a053ca3235e43caf0bc664dae793a70f6f7f390bf343e632f3e71c"
+        },
+        {
+          "id": "necklace-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-10.webp",
+          "sourceSize": [
+            501,
+            531
+          ],
+          "sha256": "61de6f62d00c0d661865f3407731ac8b732b7d15b157fd0bedb2d38bee97202b"
+        },
+        {
+          "id": "necklace-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-11.webp",
+          "sourceSize": [
+            444,
+            629
+          ],
+          "sha256": "fcd2b31550f057e13828fd5d08d462033a20fb9b08e7f5bde9eece8f8dbf4e97"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/necklace-09-10-11.png",
+      "sheetSha256": "e5770a8cbffc5e648fb8587ef4eec4148aa21f04e4a59ee2036280732afc61f5",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied necklace design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap.\n\nLEFT panel — necklace-09 — masterwork tier — #34495a: A flat braided navy cloth necklace with a short sliding knot and one tiny wood seal tucked close to the collar; soft woven construction, no dangling mass. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — necklace-10 — masterwork tier — #343b42: A compact three-plate iron necklace mounted on a charcoal leather band, each plate overlapping slightly with one tiny alignment mark; dense functional joinery. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — necklace-11 — masterwork tier — #6c5038: A masterwork short necklace with two small stacked slate tiles inside a leather frame, held by precise matte-iron pins; restrained seal detail and substantial materials. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "necklace-samples-01-06-12",
+      "category": "necklace",
+      "items": [
+        {
+          "id": "necklace-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-01.webp",
+          "sourceSize": [
+            417,
+            631
+          ],
+          "sha256": "965b8492409400066b41d234dd9d98964757c040c927e2507adb8b0c1866d959"
+        },
+        {
+          "id": "necklace-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-06.webp",
+          "sourceSize": [
+            472,
+            596
+          ],
+          "sha256": "e192ed1f757c8b9402258991faf58395f6f7da80c5ed13d07b165bd760ae2556"
+        },
+        {
+          "id": "necklace-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/necklace-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/necklace-12.webp",
+          "sourceSize": [
+            465,
+            626
+          ],
+          "sha256": "3b9d7e834d09646134822e6dd7bdfb53d7397c89cb6b93577645815a05a72bfa"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/necklace-samples-01-06-12.png",
+      "sheetSha256": "0ef77d6336ce319ab8b8f46fbe35aca996a731772bc67b8b5811bfb65e5bc42b",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied necklace design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap.\n\nLEFT panel — necklace-01 — basic tier — #6c5038: A compact protective necklace of earth-brown leather cord and one small flat wooden seal, with a single restrained etched mark and no extra pieces. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — necklace-06 — fine tier — #70787d: A sturdy short necklace with a small brushed-steel clasp plate at the throat, paired with two flat leather straps and a plain rectangular profile. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — necklace-12 — masterwork tier — #70787d: A masterwork compact protective necklace built from precisely fitted brushed-steel links, a small dark stone seal set low at the collar, and a broad leather backing; clean and quiet. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "cloak-02-03-04",
+      "category": "cloak",
+      "items": [
+        {
+          "id": "cloak-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-02.webp",
+          "sourceSize": [
+            478,
+            660
+          ],
+          "sha256": "24021adadfaeee5b17b988b4272ccf03d2f22bcce28587c33a1238fcdf7dd250"
+        },
+        {
+          "id": "cloak-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-03.webp",
+          "sourceSize": [
+            500,
+            816
+          ],
+          "sha256": "0be681014b3bdf241cfc5a8d74ab192e52f605add4036baafacf311c6c6d0ea8"
+        },
+        {
+          "id": "cloak-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-04.webp",
+          "sourceSize": [
+            474,
+            820
+          ],
+          "sha256": "679bb800d6dbe58b8e54824374550c53ac8c8d405e8e78050416d54dfab58ae5"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/cloak-02-03-04.png",
+      "sheetSha256": "6f4b4072901507cf33a80a70f3ffeebb43f5eeb4867edc55c905f0688839016c",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied cloak design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every cloak has a hood fully DOWN behind the neck and fitted shoulders and sleeves; follow each item's open or closed construction exactly. An OPEN design has an actual transparent front opening; a closed wrap coat or poncho has a solid fabric front with no inner body or shirt.\n\nLEFT panel — cloak-02 — basic tier — #6c5038: A closed square-cut poncho cloak in earth-brown weatherproof cloth, fitted shoulder seams and short sleeves, hood fully down, reinforced hem, and no inner clothing visible. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — cloak-03 — standard tier — #56616b: A mid-length cloak with fitted shoulders and sleeves, hood fully down, a true center-front opening that shows transparent background, and double stitched edge binding. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — cloak-04 — standard tier — #4b604f: A practical green woven-cloth cloak with shaped shoulders, full sleeves, hood fully down, a visibly open front held by two leather ties, and a clean weatherproof edge. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "cloak-05-07-08",
+      "category": "cloak",
+      "items": [
+        {
+          "id": "cloak-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-05.webp",
+          "sourceSize": [
+            457,
+            926
+          ],
+          "sha256": "96751456d808fcedb6d21e3714edc85ede677e6761a51ced03c5659778913090"
+        },
+        {
+          "id": "cloak-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-07.webp",
+          "sourceSize": [
+            512,
+            906
+          ],
+          "sha256": "1bfaac31e84915db6bea79da7c8dcea6cc74d7d981a0b79431b5121bab07c8e2"
+        },
+        {
+          "id": "cloak-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-08.webp",
+          "sourceSize": [
+            476,
+            936
+          ],
+          "sha256": "b5414df3c09caa4f1547f422307eb290fe35b0524fe9ba63bea6ea78d26968dc"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/cloak-05-07-08.png",
+      "sheetSha256": "706a625b4b4cbdd5b13eeccd6f5b72eab52100659e4e51b6fe0d4542caa46250",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied cloak design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every cloak has a hood fully DOWN behind the neck and fitted shoulders and sleeves; follow each item's open or closed construction exactly. An OPEN design has an actual transparent front opening; a closed wrap coat or poncho has a solid fabric front with no inner body or shirt.\n\nLEFT panel — cloak-05 — fine tier — #34495a: A long navy weatherproof cloak with fitted shoulders, tapered sleeves, hood fully down, an actual transparent front opening from collar to hem, and a dense reinforced lower edge. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — cloak-07 — fine tier — #4b604f: A closed poncho-style cloak with fitted shoulder shaping, sturdy sleeves, hood fully down, a solid front panel with no inner clothing, and layered cloth reinforcement at shoulders and hem. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — cloak-08 — masterwork tier — #343b42: A storm-weather cloak with fitted shoulders and sleeves, hood fully down, a broad real open front showing transparent background, a high practical collar, and dense stitched edge tape. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "cloak-09-10-11",
+      "category": "cloak",
+      "items": [
+        {
+          "id": "cloak-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-09.webp",
+          "sourceSize": [
+            465,
+            861
+          ],
+          "sha256": "0845e386a7ef67d9e78f2c4fddced70b64596089d19c3e633037dd3b13d72366"
+        },
+        {
+          "id": "cloak-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-10.webp",
+          "sourceSize": [
+            457,
+            862
+          ],
+          "sha256": "9b428ebf70c9131560e634261e3c1739a371e3fe8f39e554104e02d09ca1d731"
+        },
+        {
+          "id": "cloak-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-11.webp",
+          "sourceSize": [
+            434,
+            867
+          ],
+          "sha256": "82fb0cf8b462ba09b5fae7dbd5ec660ec92d858e1cb3db0c0af2fbcf9d96a659"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/cloak-09-10-11.png",
+      "sheetSha256": "0a41245349b4c6af4c8e07da1c23ab794f7bdc5ef9d12936b16f34dbb96a220b",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied cloak design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every cloak has a hood fully DOWN behind the neck and fitted shoulders and sleeves; follow each item's open or closed construction exactly. An OPEN design has an actual transparent front opening; a closed wrap coat or poncho has a solid fabric front with no inner body or shirt.\n\nLEFT panel — cloak-09 — masterwork tier — #6c5038: A closed layered cloak in earth-brown woven cloth with fitted shoulders, short sleeves, hood fully down, a solid overlapping front, and two broad reinforced hem bands; no inner clothing. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — cloak-10 — masterwork tier — #34495a: A full-length navy cloak with fitted shoulders and sleeves, hood fully down, a true transparent-background opening down the front, leather-bound edges, and a straight weighted hem. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — cloak-11 — masterwork tier — #56616b: A closed slate weatherproof cloak with fitted shoulders, sleeves, hood fully down, a solid front without inner clothing, and three small matte-iron buckles aligned along the reinforced edge. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "cloak-samples-01-06-12",
+      "category": "cloak",
+      "items": [
+        {
+          "id": "cloak-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-01.webp",
+          "sourceSize": [
+            473,
+            587
+          ],
+          "sha256": "671b2255ae2d92f88e7069b512dadbea56884acbf74b52030b9597992d84d268"
+        },
+        {
+          "id": "cloak-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-06.webp",
+          "sourceSize": [
+            439,
+            832
+          ],
+          "sha256": "301451554a4a077bdc22ab0e3274b74de1d5ddaab4d95e7dfbba4ec9ea3f1cf1"
+        },
+        {
+          "id": "cloak-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/cloak-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/cloak-12.webp",
+          "sourceSize": [
+            465,
+            932
+          ],
+          "sha256": "6e44ae7e9f6c1ebdb4806da3bcea34cfa884055b1d524c519c6f5dc2e88643a3"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/cloak-samples-01-06-12.png",
+      "sheetSha256": "b847ebfa12a6ade200f6c9bfd184c1b308588b925680c05ed7b786da3f912876",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied cloak design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every cloak has a hood fully DOWN behind the neck and fitted shoulders and sleeves; follow each item's open or closed construction exactly. An OPEN design has an actual transparent front opening; a closed wrap coat or poncho has a solid fabric front with no inner body or shirt.\n\nLEFT panel — cloak-01 — basic tier — #343b42: A short weatherproof cloak with fitted shoulders, simple sleeves, hood fully down behind the neck, and a real open front showing transparent background; charcoal cloth with reinforced binding. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — cloak-06 — fine tier — #684a38: A closed asymmetric wrap-front travel coat with fitted shoulders and sleeves, hood fully down, a solid diagonal overlapping front from shoulder to hip, two matte-iron closures, and reinforced leather edges; no transparent opening and no inner clothing. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — cloak-12 — masterwork tier — #34495a: A masterwork closed long-travel coat-cloak with fitted shoulders and sleeves, hood fully down, a solid navy front panel with no transparent opening and no inner body or shirt, leather-bound edges, and precise functional closures. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "wand-02-03-04",
+      "category": "wand",
+      "items": [
+        {
+          "id": "wand-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-02.webp",
+          "sourceSize": [
+            51,
+            918
+          ],
+          "sha256": "05885d6141d15cc1f9363b0b7e259c987c25e723cb5e869fa5c99ba6dce6b265"
+        },
+        {
+          "id": "wand-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-03.webp",
+          "sourceSize": [
+            78,
+            908
+          ],
+          "sha256": "26f1993e51666273a062d9727a2acc41bfe4990578b365b00bc8fe598a6a9a2e"
+        },
+        {
+          "id": "wand-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-04.webp",
+          "sourceSize": [
+            52,
+            920
+          ],
+          "sha256": "10917abae293d0e1745127911359a48b9ad66a57a887a4c2b906fa58ab35c308"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/wand-02-03-04.png",
+      "sheetSha256": "d0a1f738e092e6a3ba65bc3a9468c62e2d0a796205df8f8213d12b34d9fc99e7",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied wand design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every wand must be vertical, with HANDLE at the bottom and TIP at the top.\n\nLEFT panel — wand-02 — basic tier — #6c5038: A vertical straight oak wand with HANDLE at the bottom and TIP at the top, a faceted lower grip, a clean tapered upper tip, and no oversized attachment. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — wand-03 — standard tier — #56616b: A vertical gently curved birch wand with HANDLE at the bottom, TIP at the top, one controlled bend above the lower grip, and a small leather wrap at the handle. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — wand-04 — standard tier — #684a38: A vertical wand with HANDLE at the bottom and TIP at the top, a reinforced wood shaft, a compact leather lower grip, and one narrow matte-iron collar at the join. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "wand-05-07-08",
+      "category": "wand",
+      "items": [
+        {
+          "id": "wand-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-05.webp",
+          "sourceSize": [
+            88,
+            910
+          ],
+          "sha256": "83afac0681f529a2c83d4b601f65c074eb193e6247d29e62dc4b26dedd37d29e"
+        },
+        {
+          "id": "wand-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-07.webp",
+          "sourceSize": [
+            73,
+            909
+          ],
+          "sha256": "e19a0dc6aabbf6fca581fb86de48461e5f4ae974a51c8b10b4edd103a276a75d"
+        },
+        {
+          "id": "wand-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-08.webp",
+          "sourceSize": [
+            101,
+            909
+          ],
+          "sha256": "c82ddaf570a4d139a26efa1cb29ae957f7931ac477a005aefa2b320744a05422"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/wand-05-07-08.png",
+      "sheetSha256": "d7dab3f872397703f153f3d32a421a4471772cc2655f68a796d8aed940d58854",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied wand design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every wand must be vertical, with HANDLE at the bottom and TIP at the top.\n\nLEFT panel — wand-05 — fine tier — #77583f: A vertical stout wood wand with HANDLE at the bottom and TIP at the top, a broad lower grip, a denser central shaft, and two small wood join bands; substantial but simple. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — wand-07 — fine tier — #34495a: A vertical square-faceted wand with HANDLE at the bottom and TIP at the top, a clear lower handle block, a straight navy wood shaft, and a small brushed-steel tip cap. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — wand-08 — masterwork tier — #6c5038: A vertical two-wood wand with HANDLE at the bottom and TIP at the top, a wide lower grip made from joined earth-brown wood pieces, and a narrow clean upper tip. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "wand-09-10-11",
+      "category": "wand",
+      "items": [
+        {
+          "id": "wand-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-09.webp",
+          "sourceSize": [
+            63,
+            933
+          ],
+          "sha256": "d4631847099828241e510c20c5a10ed50d6ff2ed255a8712d1227a68dcc4a078"
+        },
+        {
+          "id": "wand-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-10.webp",
+          "sourceSize": [
+            54,
+            936
+          ],
+          "sha256": "b17d74868528d8aa2ed694bf6a58f0d48eb4d4a1a20dca55b7fef4b7062a6e4f"
+        },
+        {
+          "id": "wand-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-11.webp",
+          "sourceSize": [
+            65,
+            936
+          ],
+          "sha256": "1c0446a2d5111ae3bf1f7d712dfee46e7d7157011e2f7301d05a8722af694fa8"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/wand-09-10-11.png",
+      "sheetSha256": "b3ccf8d8864bcd9d8c9581cebf80343ceea4edd79eee128e56965123ccdeb1f1",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied wand design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every wand must be vertical, with HANDLE at the bottom and TIP at the top.\n\nLEFT panel — wand-09 — masterwork tier — #70787d: A vertical wand with HANDLE at the bottom and TIP at the top, a compact brushed-steel lower grip sleeve around a dark wood shaft, and a plain pointed upper tip. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — wand-10 — masterwork tier — #4b604f: A vertical compact wand with HANDLE at the bottom and TIP at the top, muted green wood, a small matte cap at the lower grip, and a clearly separate narrow upper tip. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — wand-11 — masterwork tier — #343b42: A masterwork vertical wand with HANDLE at the bottom and TIP at the top, dense charcoal wood, a precisely fitted lower leather grip, two flush brushed-steel collars, and a restrained tapered tip. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "wand-samples-01-06-12",
+      "category": "wand",
+      "items": [
+        {
+          "id": "wand-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-01.webp",
+          "sourceSize": [
+            46,
+            926
+          ],
+          "sha256": "0bf896e2f41fcc67168f7a13f8514f50644309e1820794fb6677c6e90891a130"
+        },
+        {
+          "id": "wand-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-06.webp",
+          "sourceSize": [
+            65,
+            926
+          ],
+          "sha256": "5cd5d0fd167b3640cf6c85fdbe4ba0483af8b38e03d5c018dbb8636c3ac60add"
+        },
+        {
+          "id": "wand-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/wand-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/wand-12.webp",
+          "sourceSize": [
+            66,
+            928
+          ],
+          "sha256": "d544647cf2df6dfc879c9e27fab86c2899bd77ba930d017c1d24912dc67662b2"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/wand-samples-01-06-12.png",
+      "sheetSha256": "6eb6d0277933582f978bc3adbe5b2de8978824e3cda00552347d9ffbcbe4a684",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied wand design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every wand must be vertical, with HANDLE at the bottom and TIP at the top.\n\nLEFT panel — wand-01 — basic tier — #77583f: A vertical wizard wand, HANDLE at the bottom and narrow tip at the top, made from one matte wood shaft with a plain cord-wrapped lower grip and a modest rounded tip. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — wand-06 — fine tier — #343b42: A vertical reinforced wand with HANDLE at the bottom and TIP at the top, charcoal wood, two small matte-iron join rings around the lower grip, and a precise blunt taper. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — wand-12 — masterwork tier — #34495a: A masterwork vertical wand with HANDLE at the bottom and TIP at the top, dense navy wood, substantial leather lower grip, balanced matte-iron joinery, and a clean small upper tip; never an emitter-like handle. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "broom-02-03-04",
+      "category": "broom",
+      "items": [
+        {
+          "id": "broom-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-02.webp",
+          "sourceSize": [
+            117,
+            949
+          ],
+          "sha256": "9a4805958993349842ad55a78bb9f4e7ea076ce8a05c00a45a542b02101dfa15"
+        },
+        {
+          "id": "broom-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-03.webp",
+          "sourceSize": [
+            251,
+            953
+          ],
+          "sha256": "9d1445cdf98ec81d3e90cdb87cc4400eba0d873f0c391e5acce472ee4844e378"
+        },
+        {
+          "id": "broom-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-04.webp",
+          "sourceSize": [
+            320,
+            948
+          ],
+          "sha256": "6ec2681cdeebb8d373210d459917f4dd6c3d850df90947c050f20f58d05ecf32"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/broom-02-03-04.png",
+      "sheetSha256": "fe1d46940d0dd4daa35a4daf85dff25c5d2219224857ddad16c4139d547beae6",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied broom design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every broom must be vertical, with HANDLE at the top and BRISTLES at the bottom.\n\nLEFT panel — broom-02 — basic tier — #6c5038: A vertical long flying broom with HANDLE at the top and dense straw bristles at the bottom, earth-brown wood, two hemp bindings, and a straight reinforced shaft. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — broom-03 — standard tier — #4b604f: A vertical reinforced flying broom with HANDLE at the top and a wide bristle bundle at the bottom, muted green shaft, one matte-iron collar, and a straight practical profile. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — broom-04 — standard tier — #56616b: A vertical flying broom with HANDLE at the top and a broad flat bristle fan at the bottom, slate wood shaft, woven binding, and a substantial lower joint. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "broom-05-07-08",
+      "category": "broom",
+      "items": [
+        {
+          "id": "broom-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-05.webp",
+          "sourceSize": [
+            178,
+            956
+          ],
+          "sha256": "dcac69b13a05845d5754bf7f212a634213bf6ab20e3cac73aab798b606fee6c1"
+        },
+        {
+          "id": "broom-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-07.webp",
+          "sourceSize": [
+            170,
+            959
+          ],
+          "sha256": "b33baea00de5539ed3ca871b3ce253261785717acc9585f68ed1758bf289f1f7"
+        },
+        {
+          "id": "broom-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-08.webp",
+          "sourceSize": [
+            248,
+            966
+          ],
+          "sha256": "6e1286e8984b56b4a537d259cf34d30448e1174a4d349abaebd431f30a00a817"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/broom-05-07-08.png",
+      "sheetSha256": "85097ba635e6e0fc2d38ee791183b71a8baac4ef1911a70e5b6bdc85db5d059b",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied broom design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every broom must be vertical, with HANDLE at the top and BRISTLES at the bottom.\n\nLEFT panel — broom-05 — fine tier — #684a38: A vertical practical flying broom with HANDLE at the top and long dense bristles at the bottom, leather-wrapped handle, reinforced lower wood joint, and no thin brush profile. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — broom-07 — fine tier — #6c5038: A vertical sturdy broom with HANDLE at the top and dense bristles at the bottom, earth-brown shaft strengthened by two narrow wood side rails, with leather lower binding. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — broom-08 — masterwork tier — #343b42: A vertical flying broom with HANDLE at the top and a wide bristle bundle at the bottom held between two charcoal wood rails, matte-iron pins, and a clear reinforced construction. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "broom-09-10-11",
+      "category": "broom",
+      "items": [
+        {
+          "id": "broom-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-09.webp",
+          "sourceSize": [
+            220,
+            982
+          ],
+          "sha256": "dfe1dacf151bf324c532c96d90558135591986cdb8bd0fd4fc46f8e1b690ef9e"
+        },
+        {
+          "id": "broom-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-10.webp",
+          "sourceSize": [
+            246,
+            980
+          ],
+          "sha256": "8d572adbc7f93020cbd5f61f5849456e1bd230d9be9bf847c63f72e1812d4a95"
+        },
+        {
+          "id": "broom-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-11.webp",
+          "sourceSize": [
+            262,
+            982
+          ],
+          "sha256": "1f09cf5384b81cc65c85ac0d574e42b92adc92d82464e37e5384184b055cde2c"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/broom-09-10-11.png",
+      "sheetSha256": "b56d4457b5bca5508bf4342b4cd41b0937c7c8ac036fae8b077befc965590138",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied broom design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every broom must be vertical, with HANDLE at the top and BRISTLES at the bottom.\n\nLEFT panel — broom-09 — masterwork tier — #70787d: A vertical practical broom with HANDLE at the top and a broad uniform bristle bundle at the bottom, dark wood shaft, brushed-steel lower collar, and a compact leather grip. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — broom-10 — masterwork tier — #4b604f: A vertical dense-bristle flying broom with HANDLE at the top and a heavy even bristle bundle at the bottom, muted green shaft, layered woven binding, and a substantial lower block. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — broom-11 — masterwork tier — #34495a: A masterwork vertical flying broom with HANDLE at the top and a dense broad bristle bundle at the bottom, navy wood, precise matte-iron joinery, leather grip, and clean functional rails. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "broom-samples-01-06-12",
+      "category": "broom",
+      "items": [
+        {
+          "id": "broom-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-01.webp",
+          "sourceSize": [
+            206,
+            963
+          ],
+          "sha256": "08bc74eeef5a8ec16197a1decb1ae12ab4f2985841cf0866ee9cdce4f011ab2c"
+        },
+        {
+          "id": "broom-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-06.webp",
+          "sourceSize": [
+            223,
+            981
+          ],
+          "sha256": "1be8bf795e9588220978a809bfe9b1cdfa8e0ddfce947496a5f8205f91f0a5f9"
+        },
+        {
+          "id": "broom-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/broom-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/broom-12.webp",
+          "sourceSize": [
+            286,
+            985
+          ],
+          "sha256": "187eca26ed3442b221911c9287d07642f9ac19f5ee2c7bf2fc0e6b04b14e9bd3"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/broom-samples-01-06-12.png",
+      "sheetSha256": "b2b2187cb337ce9d6db3fa1841995b5ef0c13b05f513fd6cdff15c47b1c087b5",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied broom design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Every broom must be vertical, with HANDLE at the top and BRISTLES at the bottom.\n\nLEFT panel — broom-01 — basic tier — #77583f: A vertical practical flying broom with HANDLE at the top and a broad bristle bundle at the bottom, thick wood shaft, leather binding, and a friendly sturdy farm silhouette. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — broom-06 — fine tier — #34495a: A vertical long-distance flying broom with HANDLE at the top and thick bristles at the bottom, navy wood shaft, two matte-iron collars, and a clean double-ring lower joint. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — broom-12 — masterwork tier — #343b42: A masterwork vertical long flying broom with HANDLE at the top and substantial broad bristles at the bottom, dense charcoal wood, reinforced leather grip, brushed-steel collars, and precise lower joinery. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "gloves-02-03-04",
+      "category": "gloves",
+      "items": [
+        {
+          "id": "gloves-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-02.webp",
+          "sourceSize": [
+            438,
+            349
+          ],
+          "sha256": "0534f86ebde6b7b2c0208e6a9c15cd8abd111507d6a980dbdef36c194dced4da"
+        },
+        {
+          "id": "gloves-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-03.webp",
+          "sourceSize": [
+            450,
+            369
+          ],
+          "sha256": "c95fade777f9384ee74dd92fa4f708dbf461f0139ac068e8c08fcf5193be8c9c"
+        },
+        {
+          "id": "gloves-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-04.webp",
+          "sourceSize": [
+            433,
+            371
+          ],
+          "sha256": "53332504b58396ed2f254d0e45fbd28fd91c6eba12aa71dde2c6744d3d7df391"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/gloves-02-03-04.png",
+      "sheetSha256": "ee13c7bc5a745f1531543db9d417339e23e1b6cdf0a9792de45f2b55665bfe70",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied gloves design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show two empty product glove forms per design, fingers curled into closed fists; never open hands.\n\nLEFT panel — gloves-02 — basic tier — #56616b: A pair of empty slate canvas glove forms with fingers curled into closed fists, compact wrist bands, separate finger seam ridges, and a softly woven surface; no person or body. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — gloves-03 — standard tier — #6c5038: A pair of empty earth-brown leather glove forms with closed curled-fist fingers, short matte-iron cuff inserts, and clear reinforced wrist seams; product forms only. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — gloves-04 — standard tier — #4b604f: A pair of empty muted-green woven gloves with fingers curled into closed fists, quilted backs, ribbed wrist cuffs, and visible textile stitching; never open hands. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "gloves-05-07-08",
+      "category": "gloves",
+      "items": [
+        {
+          "id": "gloves-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-05.webp",
+          "sourceSize": [
+            466,
+            534
+          ],
+          "sha256": "0b32d2bcde0bb471a51b10f6e8cad71db7da955a7f0504e29058841e504d5829"
+        },
+        {
+          "id": "gloves-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-07.webp",
+          "sourceSize": [
+            470,
+            498
+          ],
+          "sha256": "d3974cc0f72c88edf46081a809e190f89960c2addc7fc14a255f3e3959756583"
+        },
+        {
+          "id": "gloves-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-08.webp",
+          "sourceSize": [
+            481,
+            494
+          ],
+          "sha256": "a543f1f07f408bc8b8b600b42c91d3bb0cccd25c460a50b069515174dd94a6f8"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/gloves-05-07-08.png",
+      "sheetSha256": "7264a84ae8a893dc053be669cecdc67053329cb45748011f097b5e0859954391",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied gloves design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show two empty product glove forms per design, fingers curled into closed fists; never open hands.\n\nLEFT panel — gloves-05 — fine tier — #684a38: A pair of empty double-layer leather glove forms with tightly curled closed fists, overlapping palm panels, and two secure wrist straps; clean rugged construction. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — gloves-07 — fine tier — #70787d: A pair of empty leather glove forms with fingers curled into closed fists, small overlapping brushed-steel plates across the backs, and broad secure wrist cuffs; restrained workwear. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — gloves-08 — masterwork tier — #343b42: A pair of empty charcoal cloth-and-leather glove forms with closed curled-fist fingers, sharply separated panel seams, and a squared reinforced cuff; product design detail only. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "gloves-09-10-11",
+      "category": "gloves",
+      "items": [
+        {
+          "id": "gloves-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-09.webp",
+          "sourceSize": [
+            436,
+            426
+          ],
+          "sha256": "f5ea3b599d191e468b5cff880480931832e0dcbd82907cb931fb69c35ce08763"
+        },
+        {
+          "id": "gloves-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-10.webp",
+          "sourceSize": [
+            453,
+            435
+          ],
+          "sha256": "8ea7c41dd0a84979699d65117006f11fe759f245e0ec4de8848706a6bcc1df4e"
+        },
+        {
+          "id": "gloves-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-11.webp",
+          "sourceSize": [
+            448,
+            430
+          ],
+          "sha256": "b94f7592519d849f6e026a184911991a3ad6893964bd95d6757dddaa811760a4"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/gloves-09-10-11.png",
+      "sheetSha256": "30ae0f22393287454034f2359924ee28071412eb519ee01b5c979165ce2554d3",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied gloves design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show two empty product glove forms per design, fingers curled into closed fists; never open hands.\n\nLEFT panel — gloves-09 — masterwork tier — #70787d: A pair of empty dark-leather glove forms with fingers curled into closed fists, compact brushed-steel wrist cuffs, clean finger ridges, and no decorative attachments. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — gloves-10 — masterwork tier — #4b604f: A pair of empty padded green leather glove forms with tightly curled closed fists, substantial padded backs, double wrist straps, and clear construction seams. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — gloves-11 — masterwork tier — #6c5038: A pair of empty earth-brown leather glove forms with fingers curled into closed fists, precise lace binding around the wrists, one matte-iron ring per cuff, and sturdy joined panels. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "gloves-samples-01-06-12",
+      "category": "gloves",
+      "items": [
+        {
+          "id": "gloves-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-01.webp",
+          "sourceSize": [
+            435,
+            339
+          ],
+          "sha256": "91a91e611857ef35ea3519bdd398a1c4220f14dd7d3da9918c805e08f9de64cb"
+        },
+        {
+          "id": "gloves-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-06.webp",
+          "sourceSize": [
+            459,
+            626
+          ],
+          "sha256": "08af4c530cb9ad0bb940895153900625d51bcdde364fa13264e735722696f159"
+        },
+        {
+          "id": "gloves-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/gloves-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/gloves-12.webp",
+          "sourceSize": [
+            446,
+            603
+          ],
+          "sha256": "ad6e410f6afbe2dd339c2bc5d5af0527e9c291925201f48a3082d188e7ca8018"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/gloves-samples-01-06-12.png",
+      "sheetSha256": "ebf31d25ebb9234b6ec08f5cb992570050460ffc681b204cf5ca09996460374a",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied gloves design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show two empty product glove forms per design, fingers curled into closed fists; never open hands.\n\nLEFT panel — gloves-01 — basic tier — #684a38: A matching pair of empty leather glove forms, each with fingers curled into a closed fist, short wrists, rough seam lines, and a plain leather cuff; no open hand shape. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — gloves-06 — fine tier — #34495a: A pair of empty long navy leather glove forms, fingers curled into closed fists, reaching to the forearm with articulated seam bands and adjustable cuffs; no open hand. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — gloves-12 — masterwork tier — #34495a: A masterwork pair of empty dense navy leather glove forms with fingers curled into closed fists, substantial reinforced backs, fitted brushed-steel wrist guards, and precise seam joinery; no people or open hands. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "pants-02-03-04",
+      "category": "pants",
+      "items": [
+        {
+          "id": "pants-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-02.webp",
+          "sourceSize": [
+            362,
+            851
+          ],
+          "sha256": "7bf9b91a77c73d39c20299c51d3cc39a692acd9318d6c6ab2c09a95e21d1f4ff"
+        },
+        {
+          "id": "pants-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-03.webp",
+          "sourceSize": [
+            345,
+            849
+          ],
+          "sha256": "a205e976bdd798bad2f1051560045e303507b346da766dbb88280e3b50488f4a"
+        },
+        {
+          "id": "pants-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-04.webp",
+          "sourceSize": [
+            377,
+            857
+          ],
+          "sha256": "515019566b27f531d14da717ea61f7eb01871c7b1f2b79df9657161690362474"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/pants-02-03-04.png",
+      "sheetSha256": "5f74b91906311864478e887d6f202507fdf29f4a17a82c7a83972b7310f9ba28",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied pants design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show a clear pair of separate straight legs; no extra garment panels.\n\nLEFT panel — pants-02 — basic tier — #6c5038: A pair of straight-leg earth-brown canvas trousers with two separate legs, two flat side pockets, a clean waistband, and practical stitched knees; no flowing panels. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — pants-03 — standard tier — #56616b: A pair of straight tapered slate wool trousers with two distinct legs, broad turned ankle cuffs, reinforced knee seams, and a flat functional waistband. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — pants-04 — standard tier — #4b604f: A pair of straight-leg muted-green work trousers with two separate legs, a reinforced waist yoke, clean front seams, and structured knees; practical wizard workwear. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "pants-05-07-08",
+      "category": "pants",
+      "items": [
+        {
+          "id": "pants-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-05.webp",
+          "sourceSize": [
+            390,
+            871
+          ],
+          "sha256": "648cc7a38118777af74f3caf2c12a4569744ce97a669c588b73d164944af30b6"
+        },
+        {
+          "id": "pants-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-07.webp",
+          "sourceSize": [
+            388,
+            872
+          ],
+          "sha256": "f092ec8f3843db796e9508bde4a4035b85c8e92fd6e4a7b286764de57efa83b4"
+        },
+        {
+          "id": "pants-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-08.webp",
+          "sourceSize": [
+            388,
+            871
+          ],
+          "sha256": "d0e5936e74d69c27389394ef66d09b717c9cb7b828b135cbc4d3939c82b095c1"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/pants-05-07-08.png",
+      "sheetSha256": "ca15b9be9e93bf4eef6cda325db6c78ccea5bb30803db104f47445e2f4a1b515",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied pants design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show a clear pair of separate straight legs; no extra garment panels.\n\nLEFT panel — pants-05 — fine tier — #34495a: A pair of straight-leg navy trousers with two clearly separate legs, dense double-layer knee patches, simple ankle hems, and a substantial clean waistband. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — pants-07 — fine tier — #684a38: A pair of straight-leg cloth trousers with two distinct legs, compact leather knee reinforcements, clean side seams, and a plain leather-tipped waistband. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — pants-08 — masterwork tier — #70787d: A pair of straight-leg slate trousers with two separate legs, small brushed-steel waist fasteners, structured knee folds, and clean ankle hems; never decorative. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "pants-09-10-11",
+      "category": "pants",
+      "items": [
+        {
+          "id": "pants-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-09.webp",
+          "sourceSize": [
+            386,
+            863
+          ],
+          "sha256": "dec32b5dc851c29fd494864ee9f25849e45e30a2a185f82a71692b93ce328e87"
+        },
+        {
+          "id": "pants-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-10.webp",
+          "sourceSize": [
+            386,
+            864
+          ],
+          "sha256": "76e9779bd9380df29a2f87ddb7fb1933b7ad1ff3e2b677f72f6512d912decc46"
+        },
+        {
+          "id": "pants-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-11.webp",
+          "sourceSize": [
+            389,
+            865
+          ],
+          "sha256": "b9acd23ea44fc67ebe1050e0b34cac3cd2964e7570ca9ffb0d8ae58e094eab27"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/pants-09-10-11.png",
+      "sheetSha256": "18afeeac873e449c176f3777a3df1e3fd485e7334bd8cf913814fb2b9a7e5e06",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied pants design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show a clear pair of separate straight legs; no extra garment panels.\n\nLEFT panel — pants-09 — masterwork tier — #343b42: A pair of straight-leg charcoal trousers with two clear legs, dense cloth outer panels, narrow leather reinforcement from hip to knee, and precise functional seams. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — pants-10 — masterwork tier — #34495a: A pair of dense navy straight trousers with two clearly separated legs, shaped waistband, reinforced articulated knees, and substantial clean hems. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — pants-11 — masterwork tier — #4b604f: A masterwork pair of muted-green straight-leg trousers with two distinct legs, two shallow functional front pleats, precise knee joinery, and a strong flat waistband. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "pants-samples-01-06-12",
+      "category": "pants",
+      "items": [
+        {
+          "id": "pants-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-01.webp",
+          "sourceSize": [
+            702,
+            1532
+          ],
+          "sha256": "d5baefca94bc326d452664cfe0ad5785e8bba581bebd96ee6deedd5255ab95f4",
+          "revision": "pants-01-single-item-edit"
+        },
+        {
+          "id": "pants-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-06.webp",
+          "sourceSize": [
+            367,
+            848
+          ],
+          "sha256": "7ada8422edd6f07b772442695eb8e27ba7cfe8f9aa30665dea6a49a9e0e24335"
+        },
+        {
+          "id": "pants-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/pants-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/pants-12.webp",
+          "sourceSize": [
+            379,
+            864
+          ],
+          "sha256": "94c530cb649c57ce82a9bd31c690776469f9c91c6579098e8bbd7c643e7336d3"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/pants-samples-01-06-12.png",
+      "sheetSha256": "d8fe8ce629fdd47c58f289eedb85c6cce215607d7246888ecf6a7efaed3ecc52",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied pants design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Show a clear pair of separate straight legs; no extra garment panels.\n\nLEFT panel — pants-01 — basic tier — #343b42: A pair of inexpensive straight-leg charcoal cloth trousers with two clearly separate legs, a broad waistband, modest matte knee reinforcement panels, and double-stitched lower-leg seams; plain functional construction with no flowing garment panels. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — pants-06 — fine tier — #6c5038: A pair of straight-leg earth-brown trousers with two separate legs, one diagonal reinforced seam across each knee, a leather waist tie, and no overlay panels. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — pants-12 — masterwork tier — #343b42: A masterwork pair of straight-leg charcoal trousers with two clearly separate legs, dense woven cloth, leather-reinforced waistband, layered knees, and precise durable seams; no flowing garment panels. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": [
+        "pants-01"
+      ]
+    },
+    {
+      "id": "vest-02-03-04",
+      "category": "vest",
+      "items": [
+        {
+          "id": "vest-02",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-02.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-02.webp",
+          "sourceSize": [
+            380,
+            647
+          ],
+          "sha256": "b3a05dcac98e718a0874597f8e80a7a025e0fded971599ae9e90ff78e696dcf0"
+        },
+        {
+          "id": "vest-03",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-03.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-03.webp",
+          "sourceSize": [
+            426,
+            662
+          ],
+          "sha256": "1f3f87ed009936becca9d6e31d6abeb7076c66431b668186768552e99a6eb255"
+        },
+        {
+          "id": "vest-04",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-04.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-04.webp",
+          "sourceSize": [
+            404,
+            667
+          ],
+          "sha256": "be0c3a41fb47d8105996103a6855387e99a8d629585baba4d401ed709f3410dc"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/vest-02-03-04.png",
+      "sheetSha256": "6cd6131814a0836c4a707924843c34f0c6ec629070bf577c2e92dcce859f3111",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied vest design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Treat every item as a functional waistcoat with fitted shoulders or padded reinforcement; no chest ornament.\n\nLEFT panel — vest-02 — basic tier — #684a38: A practical leather-and-cloth waistcoat with side lacing, one flat pocket, fitted shoulders, a squared hem, and no chest ornament. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — vest-03 — standard tier — #56616b: A short slate wool waistcoat with a rounded collar, two neat rows of small matte-iron buttons, shaped armholes, and clean reinforced seams. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.\nRIGHT panel — vest-04 — standard tier — #4b604f: A fitted muted-green leather waistcoat with overlapping diagonal front panels, one side pocket, a small shoulder buckle, and practical reinforced edges. Use durable woven cloth, wood, leather, or matte iron with one clear structural seam; the silhouette is practical and sturdier than an entry item.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "vest-05-07-08",
+      "category": "vest",
+      "items": [
+        {
+          "id": "vest-05",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-05.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-05.webp",
+          "sourceSize": [
+            423,
+            755
+          ],
+          "sha256": "54e9fe45f266418289148a13cee8eaee9515fd0ca008d13bf45917721361cca2"
+        },
+        {
+          "id": "vest-07",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-07.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-07.webp",
+          "sourceSize": [
+            444,
+            733
+          ],
+          "sha256": "dbfa70b13ef13e5d785f0a5fae88e54d9d036b8a82a5670ab91ba5afbd97050e"
+        },
+        {
+          "id": "vest-08",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-08.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-08.webp",
+          "sourceSize": [
+            436,
+            771
+          ],
+          "sha256": "b3bfe99db5e9bb6073f7cd929ac29fe9eb744b04a48e094a2c6b5a171d337b34"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/vest-05-07-08.png",
+      "sheetSha256": "b1af0c8345fa03ae645bd010eefaebfd0a2a18d4d16f134ec858ba75448461b3",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied vest design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Treat every item as a functional waistcoat with fitted shoulders or padded reinforcement; no chest ornament.\n\nLEFT panel — vest-05 — fine tier — #34495a: A structured navy cloth waistcoat with a high standing collar, four small matte buttons, fitted shoulders, and narrow woven reinforcement along the armholes. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nMIDDLE panel — vest-07 — fine tier — #343b42: A charcoal leather waistcoat with layered shoulder flaps, woven side panels, small matte-iron rivets, fitted armholes, and a squared practical hem. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — vest-08 — masterwork tier — #4b604f: A dense muted-green woven waistcoat with a broad central closure, fitted shoulders, two flat utility pockets, and substantial clean edge binding. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "vest-09-10-11",
+      "category": "vest",
+      "items": [
+        {
+          "id": "vest-09",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-09.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-09.webp",
+          "sourceSize": [
+            405,
+            721
+          ],
+          "sha256": "51d57bea2eac4e33ed10c443fb3de6620b9f0aff9ca8a30056957baba2d136b4"
+        },
+        {
+          "id": "vest-10",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-10.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-10.webp",
+          "sourceSize": [
+            430,
+            716
+          ],
+          "sha256": "b19764f212f7b162fdb05640a9d3f760696cb27adb4690e3fb6a5be121f81b5a"
+        },
+        {
+          "id": "vest-11",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-11.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-11.webp",
+          "sourceSize": [
+            424,
+            731
+          ],
+          "sha256": "bbead2f5998c5a2f583a57289629da7c04faa52ad8681cbfe1bdb42544cd8a7d"
+        }
+      ],
+      "status": "generated",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/vest-09-10-11.png",
+      "sheetSha256": "216cd312f293bd826677544f609b871b251b48c31c6c75290106a726c785e590",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied vest design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Treat every item as a functional waistcoat with fitted shoulders or padded reinforcement; no chest ornament.\n\nLEFT panel — vest-09 — masterwork tier — #56616b: A fitted slate cloth waistcoat with two small matte-iron buckles, a shaped waist seam, reinforced armholes, and a plain functional front. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nMIDDLE panel — vest-10 — masterwork tier — #34495a: A practical navy canvas waistcoat with two layered leather pocket flaps, fitted shoulders, a straight hem, and precise stitched panel joins. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.\nRIGHT panel — vest-11 — masterwork tier — #343b42: A masterwork charcoal waistcoat combining dense leather front panels and woven side panels, fitted shoulders, precise matte-iron fasteners, and reinforced waist seams. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    },
+    {
+      "id": "vest-samples-01-06-12",
+      "category": "vest",
+      "items": [
+        {
+          "id": "vest-01",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-01.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-01.webp",
+          "sourceSize": [
+            405,
+            679
+          ],
+          "sha256": "7cf3957a57ac878966b9c22ea8e9cff040ad4be6ce5078e274a5ce6416a7957e"
+        },
+        {
+          "id": "vest-06",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-06.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-06.webp",
+          "sourceSize": [
+            434,
+            703
+          ],
+          "sha256": "edd2579b961bf8daa54693d4b752ed9683a16c247fb1d24d2374149f499d02e1"
+        },
+        {
+          "id": "vest-12",
+          "source": "scripts/art-sources/field-wardrobe/designs/vest-12.webp",
+          "thumbnail": "scripts/art-sources/field-wardrobe/thumbs/vest-12.webp",
+          "sourceSize": [
+            441,
+            754
+          ],
+          "sha256": "21dc3793cab05ff9e2f92d2cad83da1bdb77479853ffcf90700dd34d3c3d4671"
+        }
+      ],
+      "status": "preserved-accepted",
+      "sheet": "scripts/art-sources/field-wardrobe/sheets/vest-samples-01-06-12.png",
+      "sheetSha256": "ab5801314a19461b5de02a806d7917d3a95ac9b6025ef9c421f4169f4ae0d815",
+      "prompt": "Create a restrained, sturdy product sheet for a friendly stylized 3D fantasy wizard game. MANDATORY CANVAS: exactly 1536x1024 pixels, true transparent background. Divide the canvas into three equal 512x1024 vertical panels. Render exactly one complete unoccupied vest design in each panel, with generous transparent cell margins. Each object must stay wholly inside its own panel and be fully visible; no neighboring bits may cross a boundary. Use matte charcoal, slate, earth brown, muted navy or muted green with matte iron or brushed steel, wood, leather, and woven cloth. Higher tiers look denser and more structurally reinforced, with substantial clean forms and precise functional joinery, never flashy. No people, faces, bodies, mannequins, hangers, hands, scenes, floors, cast shadows, text, logos, frames, borders, or painted backdrop. Keep the full object isolated as a product cutout. Do not add celestial icons, radiating wheel ornaments, large stones, precious-metal scrollwork, plumes, regal headwear, glittering effects, large luminous balls, oversized points, or extra charms. Do not make real weapons, tactical equipment, horror props, or skeletal shapes. For hats, do not make a modern fedora, cowboy hat, bowler, baseball cap, helmet, visor, or ordinary work cap. Treat every item as a functional waistcoat with fitted shoulders or padded reinforcement; no chest ornament.\n\nLEFT panel — vest-01 — basic tier — #6c5038: A plain functional earth-brown canvas waistcoat with two front panels, a shallow V opening, three matte wood buttons, straight hem, and no chest ornament. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.\nMIDDLE panel — vest-06 — fine tier — #6c5038: A sturdy earth-brown padded waistcoat with quilted front panels, fitted shoulders, a broad leather waist adjuster, and two low utility pockets. Use denser material, reinforced edges or joints, and substantial clean forms; show precise functional joining rather than decoration.\nRIGHT panel — vest-12 — masterwork tier — #34495a: A masterwork high-density navy travel waistcoat with fitted shoulders, padded reinforcement at chest and waist, broad flat utility pockets, leather edging, and precise functional joinery; no chest ornament. Use the densest believable materials, layered structural reinforcement, substantial clean forms, and precise functional joinery; impressive through craft, never through flash.",
+      "model": "gpt-image-2.5-flare",
+      "revisionOverlay": []
+    }
+  ],
+  "sampleIds": [
+    "hat-01",
+    "hat-06",
+    "hat-12",
+    "necklace-01",
+    "necklace-06",
+    "necklace-12",
+    "cloak-01",
+    "cloak-06",
+    "cloak-12",
+    "wand-01",
+    "wand-06",
+    "wand-12",
+    "broom-01",
+    "broom-06",
+    "broom-12",
+    "gloves-01",
+    "gloves-06",
+    "gloves-12",
+    "pants-01",
+    "pants-06",
+    "pants-12",
+    "vest-01",
+    "vest-06",
+    "vest-12"
+  ],
+  "itemCount": 96
+}

@@ -1,0 +1,129 @@
+{
+  "schema": "rigged-clothing-receipt-v1",
+  "key": "pants-06",
+  "category": "pants",
+  "stage": "paid",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent mannequin in the exact front-facing pose. Image 2 is the exact shop product trouser design. Image 3 is the canonical two-fist grip-base pose. Generate only the exact pants garment, preserving its textile RGB, seams and details. Keep both legs in the unchanged pose and fit the waist near y=774 through the full broad leg region. The editable region covers x=200..824 and y=774..1400 (with arms/hands protected); do not narrow this to a slim old pants bbox. Return transparent pants-only RGBA pixels: no torso, hands, arms, face, shirt, props or boots.",
+  "promptSha256": "310c32e4b3ad944bc530bddfccc855c08fd47f075029158e19217c8b7454f9fb",
+  "inputHash": "c5db6bee418cec06f5ddf8cadacece40fa4d2830e68f9f0b39eed5885bc8e526",
+  "sources": [
+    [
+      "scripts/art-sources/doll-reference/mannequin.png",
+      "73adc946e2299b62b32697daa595aea198c481fc027c06b8ab817d7183bbdec9"
+    ],
+    [
+      "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    ],
+    [
+      "scripts/art-sources/field-wardrobe/designs/pants-06.webp",
+      "7ada8422edd6f07b772442695eb8e27ba7cfe8f9aa30665dea6a49a9e0e24335"
+    ],
+    [
+      "scripts/art-sources/doll-reference/prototypes/grips/grip-base.png",
+      "4c8cffafa440d4251dd41a6ff0a78167d391b98be6694f3ce43e9075f8a1f29b"
+    ]
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted",
+      "elapsedSeconds": 27.114,
+      "rawFile": "pants-06-attempt-1.png",
+      "rawSha256": "67222fb0a872f3c23a357c3c13da07d3c5a4de18db856df83bdab34006f5bb07",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        147,
+        113,
+        895,
+        1450
+      ],
+      "rawBeforeClampDrift": {
+        "rawBbox": [
+          147,
+          113,
+          895,
+          1450
+        ],
+        "targetBbox": [
+          348,
+          774,
+          704,
+          1400
+        ],
+        "rawAlphaPixels": 662823,
+        "fittedTargetPixels": 147494,
+        "rawBeforeClampPixels": 662823,
+        "semanticAfterClampPixels": 147494,
+        "removedPixels": 515329,
+        "removedFraction": 0.777476038097652,
+        "translation": [
+          201,
+          661
+        ],
+        "scale": [
+          0.47593582887700536,
+          0.4682124158563949
+        ]
+      },
+      "extraction": {
+        "oldGarmentPixels": 0,
+        "apiSemanticPixels": 147494,
+        "bodyCopyPixelsRemoved": 60888,
+        "finalAlphaPixels": 86606,
+        "broadMaskPixels": 329922,
+        "targetGeometryPixels": 175150,
+        "rawDrift": {
+          "rawBbox": [
+            147,
+            113,
+            895,
+            1450
+          ],
+          "targetBbox": [
+            348,
+            774,
+            704,
+            1400
+          ],
+          "rawAlphaPixels": 662823,
+          "fittedTargetPixels": 147494,
+          "rawBeforeClampPixels": 662823,
+          "semanticAfterClampPixels": 147494,
+          "removedPixels": 515329,
+          "removedFraction": 0.777476038097652,
+          "translation": [
+            201,
+            661
+          ],
+          "scale": [
+            0.47593582887700536,
+            0.4682124158563949
+          ]
+        }
+      },
+      "validation": {
+        "alphaPixels": 86606,
+        "alphaBbox": [
+          348,
+          774,
+          703,
+          1400
+        ],
+        "bodyCopyOverlapPixels": 0,
+        "alignmentOk": true,
+        "openingFraction": null,
+        "openingOk": true,
+        "upperBodyTransparent": true,
+        "bodyMaskOk": true,
+        "ok": true
+      }
+    }
+  ],
+  "createdAt": "2026-09-27T01:09:34.514544+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference for this person's face only, not a body, outfit or product design to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. Image 2 is the exact new product reference: copy only its hat construction, materials, colours and stated trim. Do not import jewels, feathers, gold trim, stars, flowers or any other ornament from image 3 or from the character identity. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions, fixed head framing and recognizable identity. All characters use the same front-facing head pose and scale; do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: 부드러운 점끝 펠트모. A simple practical wizard travel hat made from soft charcoal felt, with a low gently pointed crown, a rounded reinforced brim, one plain woven band, and no rigid modern cap shape. Use a simple, honest construction with matte material and visible hand joining; keep the silhouette clean and lightly built.",
+  "createdAt": "2026-09-27T01:23:10.511852+00:00",
+  "rawSha256": "2dfca39a5e34a865bb3e8f7af82075082bf42ee853fc459c3012d31e38ac63de",
+  "sourceHashes": {
+    "catalog": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa",
+    "product": "d66244813b89578affbd4077d199d749b63fd2ddb2b7bf9d571be456f67f72b5",
+    "identity": "e6e0ecd889261dcbe4a308bf8e366715aa6e948f313d46e74faa0671302c809e",
+    "headReference": "933263a9ee42f8887dfc83ed3d3f3be9e564fe556c534a90a26e0d97908ee3c2"
+  },
+  "sources": {
+    "catalog": {
+      "path": "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "sha256": "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    },
+    "product": {
+      "path": "scripts/art-sources/field-wardrobe/designs/hat-01.webp",
+      "sha256": "d66244813b89578affbd4077d199d749b63fd2ddb2b7bf9d571be456f67f72b5"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "key": "cloak-07",
+  "model": "gpt-image-2.5-sunburst",
+  "apiCalls": 1,
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent canonical body and hands in the exact front-facing hanging-arm pose. Image 2 is the exact supplied product design for cloak-07, a closed muted-green reinforced poncho with layered shoulder guards, short forearm sleeves and a double reinforced hem. Image 3 is the current registered cloak on that body. Edit only the cloak garment; return one garment-only RGBA layer on the same 1024x1536 canvas. Preserve the exact green woven material, layered shoulder reinforcement, hood, sleeve binding, seams and double hem from images 2 and 3; do not redesign, recolor, add trim, or draw a different garment. Correct the sleeve anatomy: both sleeve tubes must angle down and outward with the unchanged body arms and align their lower openings to the real hanging forearm cross-sections, not horizontal wings or detached panels. Left arm centre path is approximately x355,y580 to x317,y700 and right is mirrored x669,y580 to x707,y700. Each cuff opening must surround the actual cream arm underneath and the arm must visibly continue through the opening; there must be exactly two arm passages and two hands in the body reference. Remove empty side holes, rectangular cutouts, floating black sleeves, extra arms, or detached forearms. Keep opaque rear sleeve-interior cloth around the arm passage and make only the true arm passage transparent. Do not fill openings with skin, body color, or a fake shadow. Everything that is not cloak must be transparent in the output: no head, hair, neck, hands, cream shirt, body pixels, boots, background, text, or props. This is a semantic edit of the supplied generated garment, not a new illustration.",
+  "rawSize": [
+    1024,
+    1536
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "character": "jeongan",
+  "item": "hat-base",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-26T18:51:13.557805+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference, not a body to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions and recognizable identity. Do not substitute a generic face. Preserve the same glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: purple moon hat with silver trim. Use only the hat design visible in image 2.",
+  "raw": "scripts/art-sources/headwear/jeongan-hat-base.png",
+  "rawSha256": "00393c3ea1d768d2cdb290e5285571ee3c36205e106e704380ffb0fcd87b1f47",
+  "registration": {
+    "sourceToGeneratedScale": 1.7761975136052022,
+    "rotationRadians": 0.002838649499002673,
+    "translation": [
+      -368.4745646755797,
+      401.59695290997513
+    ],
+    "initialCorrelation": 0.940864138647074,
+    "refinedCorrelation": 0.9644815883253471,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "needs-visual-review",
+  "files": {
+    "jeongan-neutral-hat-base.webp": {
+      "sha256": "ec8b34d4a9740af693e78b77a4a7ef8d6c86fecf166f6c3f8f1cbfff6b7c21e4",
+      "bbox": [
+        233,
+        -48,
+        780,
+        470
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 3
+    },
+    "jeongan-happy-hat-base.webp": {
+      "sha256": "a81fa61cf5646edfb52a1be651b38322b349a36227d5a0445971eaf3263cc160",
+      "bbox": [
+        233,
+        -48,
+        780,
+        470
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 3
+    },
+    "jeongan-sad-hat-base.webp": {
+      "sha256": "396ad6cce5b10e02eaac650af9fb680ea4921a3fbcfe8283196f7c2e68710b56",
+      "bbox": [
+        233,
+        -48,
+        780,
+        470
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 3
+    }
+  },
+  "visualReview": null
+}

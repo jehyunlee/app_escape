@@ -1,0 +1,68 @@
+{
+  "character": "suan",
+  "item": "hat-base",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "createdAt": "2026-09-26T18:51:26.971685+00:00",
+  "prompt": "Image 1 is this known Korean family character's transparent head-only sprite. Image 2 is the requested hat design. Image 3 is the original family-game style and identity reference, not a body to reproduce. Render ONLY one complete head wearing the hat, including face, fitted hat, and hair restyled under the hat. The hat opening must fit the FULL skull width and sit naturally just above the eyebrows. All crown hair is tucked inside; never place a miniature cone atop exposed crown hair. Preserve the recognizable design, material, colour, ornaments and trim of image 2. If the hat is tall or pointed, its wide base encloses the skull and the point rises above it; keep the whole tip and brim visible. Keep this person's face, expression, facial proportions and recognizable identity. Do not substitute a generic face. No glasses; this person does not wear glasses. Preserve the length and colour of the hair, but naturally tuck or flatten it under the hat; side and back hair falls from UNDER the brim.  Polished stylized 3D family illustration, same lighting and detailed materials as the references. No body, torso, shirt, cape, shoulders, limbs, hands, background, text or watermark. The head silhouette and all surrounding space are transparent. Product: coral red broad-brimmed witch hat with a golden feather. Use only the hat design visible in image 2.",
+  "raw": "scripts/art-sources/headwear/suan-hat-base.png",
+  "rawSha256": "5a1eaf90531839b76a215a350fa82ba3eeae8aa00d648d45c0a0ccde76843483",
+  "registration": {
+    "sourceToGeneratedScale": 1.5965513014488044,
+    "rotationRadians": 0.1094951645443934,
+    "translation": [
+      -252.10493868949106,
+      358.05562853466495
+    ],
+    "initialCorrelation": 0.8354196657684818,
+    "refinedCorrelation": 0.9427976472715761,
+    "offsetY": -768,
+    "canvas": [
+      1024,
+      2304
+    ]
+  },
+  "status": "needs-visual-review",
+  "files": {
+    "suan-neutral-hat-base.webp": {
+      "sha256": "066a96447cca7dcafc7c883072e0545084d71815adb0447bebf17347955725f9",
+      "bbox": [
+        192,
+        -40,
+        818,
+        599
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 62
+    },
+    "suan-happy-hat-base.webp": {
+      "sha256": "a55f4ecb50885b0de8d021dbef82846f6fa931b270158e06e28902cc76928477",
+      "bbox": [
+        192,
+        -40,
+        818,
+        599
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 62
+    },
+    "suan-sad-hat-base.webp": {
+      "sha256": "0f6b7fa594aa770ec59f7c3d032e6aeda8b498f216d54da32d803d21366c9e5c",
+      "bbox": [
+        192,
+        -40,
+        818,
+        599
+      ],
+      "offsetY": -768,
+      "width": 1024,
+      "height": 2304,
+      "neckOffset": 62
+    }
+  },
+  "visualReview": null
+}

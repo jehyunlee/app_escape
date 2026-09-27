@@ -16,7 +16,13 @@ import {
   currentQuestion,
   answerQuestion,
   continueQuiz,
+  acceptExtraQuestion,
+  chooseDestination,
+  beginTravel,
+  finishTravel,
+  startStage,
 } from "../engine.js";
+import { destinationRoom } from "../rooms.js";
 import { wikipediaReadingMarkup } from "../wikipedia-reading.js";
 
 const topics = ["science", "ai", "history"];
@@ -40,6 +46,7 @@ test("dad receives only English Wikipedia reading across every stage", () => {
 
 test("all 240 questions use exact stored Wikipedia excerpts with traceable revisions", () => {
   const allIds = new Set();
+  const allTexts = new Set();
   for (const [index, topic] of topics.entries()) {
     const data = JSON.parse(
       readFileSync(
@@ -48,7 +55,7 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       ),
     );
     assert.ok(data.articles.length >= 8, topic);
-    assert.equal(data.passages.length, 20, topic);
+    assert.equal(data.passages.length, 80, topic);
     const articles = new Map(
       data.articles.map((article) => [article.id, article]),
     );
@@ -56,8 +63,9 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       data.passages.map((passage) => [passage.id, passage]),
     );
     assert.equal(articles.size, data.articles.length);
-    assert.equal(passages.size, 20);
-    assert.equal(new Set(data.passages.map((p) => p.text)).size, 20);
+    assert.equal(passages.size, 80);
+    assert.equal(new Set(data.passages.map((p) => p.text)).size, 80);
+    const spansByArticle = new Map();
     for (const passage of passages.values()) {
       const article = articles.get(passage.articleId);
       assert.ok(article, passage.id);
@@ -66,6 +74,25 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
         article.extract.includes(passage.text),
         `${passage.id}: must be a verbatim, contiguous Wikipedia excerpt`,
       );
+      const normalized = passage.text
+        .normalize("NFKC")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase();
+      assert.ok(
+        !allTexts.has(normalized),
+        `${passage.id}: every question must use a different passage`,
+      );
+      allTexts.add(normalized);
+      const start = article.extract.indexOf(passage.text),
+        end = start + passage.text.length;
+      const spans = spansByArticle.get(passage.articleId) || [];
+      assert.ok(
+        spans.every((span) => end <= span.start || start >= span.end),
+        `${passage.id}: overlapping extracts are not distinct reading passages`,
+      );
+      spans.push({ start, end });
+      spansByArticle.set(passage.articleId, spans);
       assert.equal(new URL(article.url).hostname, "en.wikipedia.org");
       assert.ok(Number.isInteger(article.revisionId) && article.revisionId > 0);
       assert.equal(new URL(article.revisionUrl).hostname, "en.wikipedia.org");
@@ -115,12 +142,67 @@ test("all 240 questions use exact stored Wikipedia excerpts with traceable revis
       assert.strictEqual(questionById(index + 1, q.id, "dad"), q);
       usage.set(q.passageId, (usage.get(q.passageId) || 0) + 1);
     }
-    assert.equal(usage.size, 20);
-    assert.ok([...usage.values()].every((count) => count === 4));
+    assert.equal(usage.size, 80);
+    assert.ok([...usage.values()].every((count) => count === 1));
     for (let answer = 0; answer < 4; answer++)
       assert.equal(pool.filter((q) => q.answer === answer).length, 20);
   }
   assert.equal(allIds.size, 240);
+  assert.equal(allTexts.size, 240);
+});
+
+test("every stage shows fifteen different passages, including after paid replacements", () => {
+  for (let seed = 1; seed <= 400; seed++) {
+    const state = chooseCharacter(freshState(seed * 7919), "dad");
+    const passages = state.deckIds.map(
+      (id) => questionById(1, id, "dad").passageId,
+    );
+    assert.equal(new Set(passages).size, 15, `seed ${seed}`);
+  }
+  let state = chooseCharacter(freshState(4242), "dad");
+  for (let i = 0; i < 4; i++) {
+    state = openQuestion(state, i);
+    state = continueQuiz(
+      answerQuestion(state, currentQuestion(state).answer).state,
+    );
+  }
+  for (let slot = 4; slot < 10; slot++) {
+    state = openQuestion(state, slot);
+    state = answerQuestion(
+      state,
+      (currentQuestion(state).answer + 1) % 4,
+    ).state;
+    if (state.phase === "quiz") state = continueQuiz(state);
+  }
+  assert.equal(state.phase, "rescue");
+  state = { ...state, gold: state.gold + 100, earned: state.earned + 100 };
+  const read = new Set(
+    state.deckIds.map((id) => questionById(1, id, "dad").passageId),
+  );
+  for (let i = 0; i < 5; i++) {
+    state = acceptExtraQuestion(state);
+    const shown = state.deckIds.map(
+      (id) => questionById(1, id, "dad").passageId,
+    );
+    assert.equal(
+      new Set(shown).size,
+      15,
+      "replacement keeps passages distinct",
+    );
+    assert.ok(!read.has(shown[9]), "replacement prefers an unread passage");
+    read.add(shown[9]);
+    assert.deepEqual(restoreState(JSON.stringify(state)), state);
+    state = openQuestion(state, 9);
+    state = answerQuestion(
+      state,
+      (currentQuestion(state).answer + 1) % 4,
+    ).state;
+    assert.equal(state.phase, "rescue");
+  }
+  const duplicated = { ...chooseCharacter(freshState(1), "dad") };
+  duplicated.deckIds = [...duplicated.deckIds];
+  duplicated.deckIds[1] = duplicated.deckIds[0];
+  assert.equal(restoreState(JSON.stringify(duplicated)).phase, "character");
 });
 
 test("other characters retain their original curriculum and questions", () => {
@@ -139,27 +221,24 @@ test("other characters retain their original curriculum and questions", () => {
 
 test("corrected questions do not import facts from an unshown article paragraph", () => {
   const science = questionPool(1, "dad");
-  for (const id of [
-    "dad-science-013",
-    "dad-science-014",
-    "dad-science-015",
-    "dad-science-016",
-  ]) {
-    const q = science.find((question) => question.id === id);
+  for (const passageId of ["science-x-ray-p2"]) {
+    const q = science.find((question) => question.passageId === passageId);
     assert.match(q.passage, /ionizing radiation/);
     assert.doesNotMatch(
       q.prompt + " " + q.options[q.answer] + " " + q.explanation,
       /Röntgen|1895|뢴트겐/,
     );
   }
-  const germ = science.find((q) => q.id === "dad-science-077");
+  const germ = science.find(
+    (q) => q.passageId === "science-germ-theory-of-disease-p2",
+  );
   assert.match(germ.passage, /struggling to compete/);
   assert.doesNotMatch(
     germ.options[germ.answer] + " " + germ.explanation,
     /Galen|remained dominant/,
   );
   const printing = questionPool(3, "dad").find(
-    (q) => q.id === "dad-history-002",
+    (q) => q.passageId === "printing-press-1",
   );
   assert.match(printing.passage, /vernacular languages/);
   assert.doesNotMatch(
@@ -183,6 +262,35 @@ test("saved dad reading decks remain fixed and scores still clear at ten", () =>
   assert.equal(state.phase, "destination");
   assert.deepEqual(state.deckIds, deck);
   assert.equal(state.gold, 23);
+});
+
+test("a complete dad adventure does not repeat previously answered passages across stages", () => {
+  for (let seed = 1; seed <= 20; seed++) {
+    let state = chooseCharacter(freshState(seed * 12347), "dad");
+    const passages = new Set();
+    for (let stage = 0; stage < 10; stage++) {
+      for (let slot = 0; slot < 10; slot++) {
+        state = openQuestion(state, slot);
+        const question = currentQuestion(state);
+        assert.ok(
+          !passages.has(question.passageId),
+          `${seed}/${stage}: repeated passage`,
+        );
+        passages.add(question.passageId);
+        state = continueQuiz(answerQuestion(state, question.answer).state);
+      }
+      state = chooseDestination(state, destinationRoom(state).id).state;
+      state = finishTravel(beginTravel(state));
+      assert.deepEqual(
+        restoreState(JSON.stringify(state)),
+        state,
+        "cross-topic history survives saves",
+      );
+      if (stage < 9) state = startStage(state);
+    }
+    assert.equal(passages.size, 100);
+    assert.equal(state.phase, "complete");
+  }
 });
 
 test("passage presentation escapes text and exposes stable attribution links", () => {

@@ -1,0 +1,5 @@
+{
+  "status": "unpublished generation references and rejected/superseded doll outputs",
+  "runtime": "assets/doll/rigged/runtime.json",
+  "warning": "Old manifest fit flags are historical, not acceptance of the current rig."
+}

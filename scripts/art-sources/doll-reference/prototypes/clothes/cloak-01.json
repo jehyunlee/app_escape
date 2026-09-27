@@ -1,0 +1,249 @@
+{
+  "schema": "clean-garment-prototype-v1",
+  "key": "cloak-01",
+  "category": "cloak",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "size": [
+    1024,
+    1536
+  ],
+  "background": "transparent",
+  "endpoint": "/v1/images/edits",
+  "maxAttempts": 2,
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent mannequin in the exact front-facing body pose. Image 2 is the exact shop product cloak design. Image 3 is the current body-clothed composite showing the already-generated cloak; use it to preserve the real garment RGB, seams, clasp, trim, folds, sleeves and silhouette. Extract and fit only this exact cloak to image 1's existing neck, shoulder, waist, arms and lower-body coordinates. Preserve the product design; do not redesign it, recolor it, or invent a different garment. Where this cloak has an open front/central opening, that opening must remain genuinely transparent so the vest and trousers placed behind it stay visible. Do not fill an opening with dark cloth or a body shadow. Keep real cloak cloth in every closed panel, including the neck clasp, lapels and trim. Sleeves/panels must follow the unchanged hanging arms. Output one garment-only RGBA layer on the same 1024x1536 canvas. Everything that is not cloak must be transparent: no head, hair, face, neck skin, hands, boots, plain cream shirt, shirt sleeves, gray trousers, or body pixels. Do not paint a mannequin or a background. This is a semantic matte/extraction of the supplied generated art, not a new illustration.",
+  "sources": {
+    "mannequin": {
+      "path": "assets/doll/mannequin.png",
+      "sha256": "73adc946e2299b62b32697daa595aea198c481fc027c06b8ab817d7183bbdec9",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        240,
+        39,
+        787,
+        1496
+      ]
+    },
+    "product": {
+      "path": "assets/shop-designs/cloak-01.webp",
+      "sha256": "ab5e92a933feec553186140a5a931cc1a5083d2b179a1582ac53696159ad28e5",
+      "size": [
+        433,
+        771
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        433,
+        771
+      ]
+    },
+    "currentLayer": {
+      "path": "assets/doll/cloak-01.webp",
+      "sha256": "d803a2cf08dff0ef23777ffba78b10ffeb5b9150ad1c90a2a402948839bad7a6",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        225,
+        437,
+        806,
+        1286
+      ]
+    },
+    "currentBodyClothedComposite": {
+      "path": "assets/doll/cloak-01.webp composited over mannequin.png",
+      "sha256": "122d1223f1c08730765b47301f5b3c4b779705e4520d889c652ba8aabee8d276",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaBbox": [
+        225,
+        39,
+        806,
+        1496
+      ]
+    },
+    "mask": {
+      "sha256": "5be30d77a10761a3031795af6ce635994f01765c0b3d096c2a36450889779fdf",
+      "editableBox": [
+        145,
+        420,
+        880,
+        1310
+      ]
+    },
+    "ghostFit": {
+      "applied": true,
+      "productScaleX": 1.34,
+      "productScaleY": 1.0,
+      "offset": [
+        222,
+        437
+      ]
+    }
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted-after-ghost-fit",
+      "elapsedSeconds": 0.197,
+      "rawPath": "cloak-01-raw-attempt-1.png",
+      "rawSha256": "ce53ed71955e3b405bdce992f71625439c4bf0e90174bd2ff235ddf934bef174",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        89,
+        175,
+        935,
+        1377
+      ],
+      "rawDirectAlignmentOk": false,
+      "rawDirectAlignmentStatus": "failed",
+      "rawDirectAlignment": {
+        "bbox": [
+          89,
+          175,
+          935,
+          1377
+        ],
+        "expectedEnvelope": [
+          145,
+          420,
+          880,
+          1310
+        ],
+        "reason": "raw canvas is a centered product cutout; ghost fit required"
+      },
+      "extraction": {
+        "oldGarmentPixels": 227219,
+        "apiChangedPixels": 399022,
+        "apiSupportedGarmentPixels": 203637,
+        "rawFittedMainPixels": 0,
+        "rawFittedFillPixels": 21937,
+        "bodyCopyPixelsRemoved": 636132,
+        "finalAlphaPixels": 252221,
+        "fittedDesignAlphaPixels": 259896
+      },
+      "validation": {
+        "alphaPixels": 252221,
+        "alphaBbox": [
+          224,
+          435,
+          806,
+          1210
+        ],
+        "bodyCopyOverlapPixels": 0,
+        "bodyCopyOverlapFraction": 0.0,
+        "alignmentOk": true,
+        "openingOk": true,
+        "bodyMaskOk": true,
+        "ok": true,
+        "openingFraction": 0.35628396739130436
+      }
+    },
+    {
+      "attempt": 2,
+      "status": "accepted-after-ghost-fit",
+      "elapsedSeconds": 0.206,
+      "rawPath": "cloak-01-raw-attempt-2.png",
+      "rawSha256": "db1bf11b0d95e10559462a16f01382ea8f77df8e243341d88d2a0d33cce0ec63",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        82,
+        225,
+        944,
+        1407
+      ],
+      "rawDirectAlignmentOk": false,
+      "rawDirectAlignmentStatus": "failed",
+      "rawDirectAlignment": {
+        "bbox": [
+          82,
+          225,
+          944,
+          1407
+        ],
+        "expectedEnvelope": [
+          145,
+          420,
+          880,
+          1310
+        ],
+        "reason": "raw canvas is a centered product cutout; ghost fit required"
+      },
+      "extraction": {
+        "oldGarmentPixels": 227219,
+        "apiChangedPixels": 402783,
+        "apiSupportedGarmentPixels": 203152,
+        "rawFittedMainPixels": 0,
+        "rawFittedFillPixels": 16823,
+        "bodyCopyPixelsRemoved": 636132,
+        "finalAlphaPixels": 247183,
+        "fittedDesignAlphaPixels": 259896
+      },
+      "validation": {
+        "alphaPixels": 247183,
+        "alphaBbox": [
+          224,
+          435,
+          806,
+          1210
+        ],
+        "bodyCopyOverlapPixels": 0,
+        "bodyCopyOverlapFraction": 0.0,
+        "alignmentOk": true,
+        "openingOk": true,
+        "bodyMaskOk": true,
+        "ok": true,
+        "openingFraction": 0.35628396739130436
+      }
+    }
+  ],
+  "createdAt": "2026-09-26T18:35:46.383323+00:00",
+  "status": "visual-review-pending",
+  "selectedAttempt": 1,
+  "rawPath": "cloak-01-raw.png",
+  "finalPath": "cloak-01.png",
+  "rawSha256": "ce53ed71955e3b405bdce992f71625439c4bf0e90174bd2ff235ddf934bef174",
+  "finalSha256": "ce9ac61bef34b2c88c7919aa654bc40cdaa5e264ee6dbfcf2fd59f1932cfba9e",
+  "selectedRawDirectAlignmentOk": false,
+  "selectedExtraction": {
+    "oldGarmentPixels": 227219,
+    "apiChangedPixels": 399022,
+    "apiSupportedGarmentPixels": 203637,
+    "rawFittedMainPixels": 0,
+    "rawFittedFillPixels": 21937,
+    "bodyCopyPixelsRemoved": 636132,
+    "finalAlphaPixels": 252221,
+    "fittedDesignAlphaPixels": 259896
+  },
+  "selectedValidation": {
+    "alphaPixels": 252221,
+    "alphaBbox": [
+      224,
+      435,
+      806,
+      1210
+    ],
+    "bodyCopyOverlapPixels": 0,
+    "bodyCopyOverlapFraction": 0.0,
+    "alignmentOk": true,
+    "openingOk": true,
+    "bodyMaskOk": true,
+    "ok": true,
+    "openingFraction": 0.35628396739130436
+  },
+  "qaSheetPath": "/tmp/paper-doll-qa/clean-clothes.png",
+  "qaSheetSha256": "7c7793371a9ba041fac3c65ce46783cc8bed548cbfec98c9047238d099c5a0f7"
+}

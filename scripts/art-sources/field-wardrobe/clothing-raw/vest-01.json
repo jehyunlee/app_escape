@@ -1,0 +1,124 @@
+{
+  "schema": "rigged-clothing-receipt-v1",
+  "key": "vest-01",
+  "category": "vest",
+  "stage": "paid",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "prompt": "Image 1 is the authoritative 1024x1536 transparent mannequin in the exact front-facing pose. Image 2 is the exact shop product vest design. Extract only this front vest and fit its collar, shoulders, armholes and hem to the unchanged mannequin coordinates (neck around y=469, shoulders around y=507). Preserve exact textile RGB, stitching, buttons, pockets and construction; do not recolor or redesign. The neck opening must be transparent. Output one garment-only transparent RGBA layer: no neck skin, hands, sleeves, cream shirt, trousers, boots, face or body pixels. For vest-06 use only the FRONT panel on the left side of the supplied front/back product card; never use the back panel.",
+  "promptSha256": "5aa4742e07319c98e8ffe017fa9832e6a73c2af7eb7df7f6f6244ede7345d78f",
+  "inputHash": "85e2cdd573c328540981216b67d9681478e76ffc7a786fdc40a2f2f6a87c5c2c",
+  "sources": [
+    [
+      "scripts/art-sources/doll-reference/mannequin.png",
+      "73adc946e2299b62b32697daa595aea198c481fc027c06b8ab817d7183bbdec9"
+    ],
+    [
+      "scripts/art-sources/field-wardrobe/rig-catalog-snapshot.json",
+      "1ef9618f833594a76d524c366f752f20b5ec067253de49a4e0e34d06167ff8fa"
+    ],
+    [
+      "scripts/art-sources/field-wardrobe/designs/vest-01.webp",
+      "7cf3957a57ac878966b9c22ea8e9cff040ad4be6ce5078e274a5ce6416a7957e"
+    ]
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "accepted",
+      "elapsedSeconds": 26.652,
+      "rawFile": "vest-01-attempt-1.png",
+      "rawSha256": "5cd6704130f93a297f772faca0351a1d01f6db55e47208cc2bf3527f22417e74",
+      "rawSize": [
+        1024,
+        1536
+      ],
+      "rawAlphaBbox": [
+        175,
+        233,
+        850,
+        1306
+      ],
+      "rawBeforeClampDrift": {
+        "rawBbox": [
+          175,
+          233,
+          850,
+          1306
+        ],
+        "targetBbox": [
+          397,
+          467,
+          628,
+          823
+        ],
+        "rawAlphaPixels": 628987,
+        "fittedTargetPixels": 71161,
+        "rawBeforeClampPixels": 628987,
+        "semanticAfterClampPixels": 71161,
+        "removedPixels": 557826,
+        "removedFraction": 0.8868641164284794,
+        "translation": [
+          222,
+          234
+        ],
+        "scale": [
+          0.3422222222222222,
+          0.3317800559179869
+        ]
+      },
+      "extraction": {
+        "oldGarmentPixels": 0,
+        "apiSemanticPixels": 71161,
+        "bodyCopyPixelsRemoved": 0,
+        "finalAlphaPixels": 73184,
+        "targetGeometryPixels": 72010,
+        "rawDrift": {
+          "rawBbox": [
+            175,
+            233,
+            850,
+            1306
+          ],
+          "targetBbox": [
+            397,
+            467,
+            628,
+            823
+          ],
+          "rawAlphaPixels": 628987,
+          "fittedTargetPixels": 71161,
+          "rawBeforeClampPixels": 628987,
+          "semanticAfterClampPixels": 71161,
+          "removedPixels": 557826,
+          "removedFraction": 0.8868641164284794,
+          "translation": [
+            222,
+            234
+          ],
+          "scale": [
+            0.3422222222222222,
+            0.3317800559179869
+          ]
+        }
+      },
+      "validation": {
+        "alphaPixels": 73184,
+        "alphaBbox": [
+          396,
+          465,
+          629,
+          825
+        ],
+        "bodyCopyOverlapPixels": 0,
+        "alignmentOk": true,
+        "openingFraction": null,
+        "openingOk": true,
+        "upperBodyTransparent": true,
+        "bodyMaskOk": true,
+        "ok": true
+      }
+    }
+  ],
+  "createdAt": "2026-09-27T01:09:07.096513+00:00"
+}

@@ -1,0 +1,6714 @@
+{
+  "schema": "field-rigged-clothing-v1",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "sourceRoot": "scripts/art-sources/field-wardrobe",
+  "outputRoot": "scripts/art-sources/field-release/assets/doll/rigged/clothing",
+  "canonicalBody": {
+    "bodyUpper": "assets/doll/rigged/body-upper.webp",
+    "handsBase": "assets/doll/rigged/hands-base.webp",
+    "qaHead": "assets/doll/headwear/dad-neutral-bare.webp",
+    "qaHeadOffset": [
+      0,
+      -768
+    ]
+  },
+  "landmarks": {
+    "neckY": 415,
+    "shoulderY": 485,
+    "wristY": 830,
+    "hipY": 806,
+    "ankleY": 1354,
+    "ankleCentres": [
+      365,
+      662
+    ]
+  },
+  "apiCalls": 0,
+  "items": {
+    "cloak-01": {
+      "key": "cloak-01",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-01.webp",
+        "sha256": "671b2255ae2d92f88e7069b512dadbea56884acbf74b52030b9597992d84d268",
+        "size": [
+          473,
+          587
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          473,
+          587
+        ],
+        "alphaPixels": 175109,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-01.webp",
+        "sha256": "f2ab84940915ad346680182443468e19bd70be28370806b7c873d2400d68373e",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          473,
+          587
+        ],
+        "sourceControlRows": [
+          0,
+          105,
+          466,
+          584
+        ],
+        "sourceShoulderRowUsed": 105,
+        "sourceCuffRow": 470,
+        "sourceCuffSamplingRow": 466,
+        "sourceCuffBandRows": [
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470
+        ],
+        "sourceHemRowUsed": 584,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.8,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1080
+        ],
+        "structuralBottomRow": 584,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          260
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          237.0,
+          327.0
+        ],
+        "sourceCuffCentres": [
+          47.9,
+          424.1
+        ],
+        "sourceHem": [
+          235.5,
+          216.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            382.0,
+            1080
+          ],
+          [
+            642.0,
+            1080
+          ]
+        ],
+        "silhouette": "short open-front coat",
+        "designOpening": true,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 240,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          210,
+          415,
+          811,
+          1081
+        ],
+        "alphaPixels": 242925,
+        "topY": 415,
+        "bottomY": 1081,
+        "leftAtWristY": 227,
+        "rightAtWristY": 794,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": 0.997526395173454
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-01-be87f4836496.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-02": {
+      "key": "cloak-02",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/fit-correction-sources/cloak-02-openai-raw.png",
+        "sha256": "7b5ef812024902148f63bff951bc32ec6b30db9ad894833da8eb3ce457a1ee10",
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaBbox": [
+          59,
+          264,
+          965,
+          1322
+        ],
+        "alphaPixels": 670706,
+        "kind": "openai-pose-corrected-poncho"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/cloak-02.webp",
+        "sha256": "f4f1d9d7fcacfd75106be463e44d838b1c929198a414263ddd0de3c1f8665ef8",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "continuous-poncho-torso-and-cuff-registration",
+        "sourceBbox": [
+          59,
+          264,
+          965,
+          1322
+        ],
+        "sourceControlRows": [
+          264.0,
+          390.0,
+          520.0,
+          640.0,
+          700.0
+        ],
+        "targetControlRows": [
+          415.0,
+          485.0,
+          560.0,
+          620.0,
+          650.0
+        ],
+        "sourceXControls": [
+          0.0,
+          63.0,
+          141.5,
+          220.0,
+          512.0,
+          804.0,
+          882.5,
+          961.0,
+          1023.0
+        ],
+        "targetSleeveXControls": [
+          [
+            300.0,
+            305.0,
+            315.0,
+            330.0,
+            512.0,
+            680.0,
+            710.0,
+            740.0,
+            760.0
+          ],
+          [
+            290.0,
+            295.0,
+            310.0,
+            330.0,
+            512.0,
+            680.0,
+            710.0,
+            740.0,
+            750.0
+          ],
+          [
+            230.0,
+            240.0,
+            275.0,
+            330.0,
+            512.0,
+            670.0,
+            710.0,
+            750.0,
+            790.0
+          ],
+          [
+            200.0,
+            230.0,
+            285.0,
+            350.0,
+            512.0,
+            650.0,
+            700.0,
+            750.0,
+            800.0
+          ],
+          [
+            240.0,
+            294.0,
+            337.0,
+            381.0,
+            505.5,
+            630.0,
+            674.0,
+            718.0,
+            780.0
+          ]
+        ],
+        "cuffFrontHemY": 650,
+        "targetCuffCentres": [
+          [
+            337,
+            650
+          ],
+          [
+            674,
+            650
+          ]
+        ],
+        "targetHemY": 1055,
+        "sourcePreserved": true,
+        "bodyAlphaConsulted": false,
+        "bodyRgbCopied": false,
+        "alphaAdjustments": [],
+        "textureAdjustments": [],
+        "fitProbes": {
+          "fabric": [
+            [
+              337,
+              630
+            ],
+            [
+              674,
+              630
+            ],
+            [
+              512,
+              700
+            ]
+          ],
+          "underlayer": [
+            [
+              317,
+              700
+            ],
+            [
+              695,
+              700
+            ]
+          ]
+        }
+      },
+      "validation": {
+        "alphaBbox": [
+          248,
+          415,
+          735,
+          1056
+        ],
+        "alphaPixels": 184771,
+        "topY": 415,
+        "bottomY": 1056,
+        "leftAtWristY": 380,
+        "rightAtWristY": 637,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 650,
+        "cuffCentres": [
+          [
+            337,
+            650
+          ],
+          [
+            674,
+            650
+          ]
+        ],
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": null
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 78 inspected final real-body composites: actual arms emerge below aligned cuff fronts, no separate empty arm holes or body-shaped windows; continuous torso panels, two unchanged arms."
+    },
+    "cloak-03": {
+      "key": "cloak-03",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-03.webp",
+        "sha256": "0be681014b3bdf241cfc5a8d74ab192e52f605add4036baafacf311c6c6d0ea8",
+        "size": [
+          500,
+          816
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          500,
+          816
+        ],
+        "alphaPixels": 251961,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-03.webp",
+        "sha256": "87f825f311e834a31dcfc5da576b03ebf58e66f393acfe58f425e9ba31ce1767",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          500,
+          816
+        ],
+        "sourceControlRows": [
+          0,
+          147,
+          448,
+          802
+        ],
+        "sourceShoulderRowUsed": 147,
+        "sourceCuffRow": 453,
+        "sourceCuffSamplingRow": 448,
+        "sourceCuffBandRows": [
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453
+        ],
+        "sourceHemRowUsed": 802,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.56,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1150
+        ],
+        "structuralBottomRow": 802,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          304
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          250.0,
+          351.0
+        ],
+        "sourceCuffCentres": [
+          65.0,
+          434.2
+        ],
+        "sourceHem": [
+          246.0,
+          227.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            360.0,
+            1150
+          ],
+          [
+            664.0,
+            1150
+          ]
+        ],
+        "silhouette": "mid open-front cloak",
+        "designOpening": true,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 160,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          187,
+          415,
+          834,
+          1151
+        ],
+        "alphaPixels": 276101,
+        "topY": 415,
+        "bottomY": 1151,
+        "leftAtWristY": 233,
+        "rightAtWristY": 787,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": 0.9720424403183023
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-03-6ac8056dde3c.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-04": {
+      "key": "cloak-04",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-04.webp",
+        "sha256": "679bb800d6dbe58b8e54824374550c53ac8c8d405e8e78050416d54dfab58ae5",
+        "size": [
+          474,
+          820
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          474,
+          820
+        ],
+        "alphaPixels": 278374,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-04.webp",
+        "sha256": "e0d103d33caa7609fb6561c1f8eef210e17559a6682911df4814e2d0c661c4c8",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          474,
+          820
+        ],
+        "sourceControlRows": [
+          0,
+          147,
+          462,
+          806
+        ],
+        "sourceShoulderRowUsed": 147,
+        "sourceCuffRow": 467,
+        "sourceCuffSamplingRow": 462,
+        "sourceCuffBandRows": [
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467
+        ],
+        "sourceHemRowUsed": 806,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.56,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1190
+        ],
+        "structuralBottomRow": 806,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          348
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          239.0,
+          339.0
+        ],
+        "sourceCuffCentres": [
+          63.8,
+          409.25
+        ],
+        "sourceHem": [
+          235.0,
+          217.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            338.0,
+            1190
+          ],
+          [
+            686.0,
+            1190
+          ]
+        ],
+        "silhouette": "mid open-front cloak",
+        "designOpening": true,
+        "alphaAdjustments": [
+          "cloak-04:transparent-center-opening-below-closures"
+        ],
+        "segmentedSleeveWarpRows": 255,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          183,
+          415,
+          838,
+          1191
+        ],
+        "alphaPixels": 306011,
+        "topY": 415,
+        "bottomY": 1191,
+        "leftAtWristY": 226,
+        "rightAtWristY": 792,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": 0.782258064516129
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-04-cec7ea644510.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-05": {
+      "key": "cloak-05",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-05.webp",
+        "sha256": "96751456d808fcedb6d21e3714edc85ede677e6761a51ced03c5659778913090",
+        "size": [
+          457,
+          926
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          457,
+          926
+        ],
+        "alphaPixels": 250630,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-05.webp",
+        "sha256": "f09e19b788609eb8acd3732a392b079a6fe60c2008e10c6d7a8853f5cb48aad0",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          457,
+          926
+        ],
+        "sourceControlRows": [
+          0,
+          166,
+          470,
+          913
+        ],
+        "sourceShoulderRowUsed": 166,
+        "sourceCuffRow": 475,
+        "sourceCuffSamplingRow": 470,
+        "sourceCuffBandRows": [
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475
+        ],
+        "sourceHemRowUsed": 913,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.55,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1250
+        ],
+        "structuralBottomRow": 913,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          408
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          227.5,
+          342.0
+        ],
+        "sourceCuffCentres": [
+          44.35,
+          410.05
+        ],
+        "sourceHem": [
+          228.5,
+          208.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            308.0,
+            1250
+          ],
+          [
+            716.0,
+            1250
+          ]
+        ],
+        "silhouette": "long open-front cloak",
+        "designOpening": true,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 303,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          220,
+          415,
+          801,
+          1251
+        ],
+        "alphaPixels": 295215,
+        "topY": 415,
+        "bottomY": 1251,
+        "leftAtWristY": 237,
+        "rightAtWristY": 785,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": 1.0
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-05-ea00561a914f.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-06": {
+      "key": "cloak-06",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-06.webp",
+        "sha256": "301451554a4a077bdc22ab0e3274b74de1d5ddaab4d95e7dfbba4ec9ea3f1cf1",
+        "size": [
+          439,
+          832
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          439,
+          832
+        ],
+        "alphaPixels": 243451,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-06.webp",
+        "sha256": "cb3658695572e6a2c92c271001a6038349c0199b6568615209821607fa30f0f3",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          439,
+          832
+        ],
+        "sourceControlRows": [
+          0,
+          150,
+          476,
+          717
+        ],
+        "sourceShoulderRowUsed": 150,
+        "sourceCuffRow": 480,
+        "sourceCuffSamplingRow": 476,
+        "sourceCuffBandRows": [
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480
+        ],
+        "sourceHemRowUsed": 717,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.56,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1160
+        ],
+        "structuralBottomRow": 717,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          352
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          514.0
+        ],
+        "sourceShoulder": [
+          219.5,
+          350.0
+        ],
+        "sourceCuffCentres": [
+          37.4,
+          399.8
+        ],
+        "sourceHem": [
+          222.5,
+          258.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            338.0,
+            1160
+          ],
+          [
+            690.0,
+            1160
+          ]
+        ],
+        "silhouette": "closed diagonal wrap coat",
+        "designOpening": false,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 265,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          221,
+          415,
+          801,
+          1161
+        ],
+        "alphaPixels": 315032,
+        "topY": 415,
+        "bottomY": 1161,
+        "leftAtWristY": 225,
+        "rightAtWristY": 795,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": null
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-06-e6612291abd9.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-07": {
+      "key": "cloak-07",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/fit-correction-sources/cloak-07-openai-raw.png",
+        "sha256": "27eb94c484eb40a87514d8c3809c288c8f0d720c15418e9de27842aea4ed5196",
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaBbox": [
+          107,
+          208,
+          919,
+          1411
+        ],
+        "alphaPixels": 684883,
+        "kind": "openai-pose-corrected-poncho"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/cloak-07.webp",
+        "sha256": "74b9cf33208339787cbeea6b896a3c132eb3bbb0cf77322d60010954cbcd9595",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "continuous-poncho-torso-and-cuff-registration",
+        "sourceBbox": [
+          107,
+          208,
+          919,
+          1411
+        ],
+        "sourceControlRows": [
+          208.0,
+          350.0,
+          520.0,
+          640.0,
+          660.0
+        ],
+        "targetControlRows": [
+          415.0,
+          485.0,
+          560.0,
+          620.0,
+          650.0
+        ],
+        "sourceXControls": [
+          0.0,
+          63.0,
+          141.5,
+          220.0,
+          512.0,
+          804.0,
+          882.5,
+          961.0,
+          1023.0
+        ],
+        "targetSleeveXControls": [
+          [
+            300.0,
+            305.0,
+            315.0,
+            330.0,
+            512.0,
+            680.0,
+            710.0,
+            740.0,
+            760.0
+          ],
+          [
+            290.0,
+            295.0,
+            310.0,
+            330.0,
+            512.0,
+            680.0,
+            710.0,
+            740.0,
+            750.0
+          ],
+          [
+            230.0,
+            240.0,
+            275.0,
+            330.0,
+            512.0,
+            670.0,
+            710.0,
+            750.0,
+            790.0
+          ],
+          [
+            200.0,
+            230.0,
+            285.0,
+            350.0,
+            512.0,
+            650.0,
+            700.0,
+            750.0,
+            800.0
+          ],
+          [
+            240.0,
+            294.0,
+            337.0,
+            381.0,
+            505.5,
+            630.0,
+            674.0,
+            718.0,
+            780.0
+          ]
+        ],
+        "cuffFrontHemY": 650,
+        "targetCuffCentres": [
+          [
+            337,
+            650
+          ],
+          [
+            674,
+            650
+          ]
+        ],
+        "targetHemY": 1215,
+        "sourcePreserved": true,
+        "bodyAlphaConsulted": false,
+        "bodyRgbCopied": false,
+        "alphaAdjustments": [],
+        "textureAdjustments": [],
+        "fitProbes": {
+          "fabric": [
+            [
+              337,
+              630
+            ],
+            [
+              674,
+              630
+            ],
+            [
+              512,
+              700
+            ]
+          ],
+          "underlayer": [
+            [
+              317,
+              700
+            ],
+            [
+              695,
+              700
+            ]
+          ]
+        }
+      },
+      "validation": {
+        "alphaBbox": [
+          268,
+          415,
+          716,
+          1216
+        ],
+        "alphaPixels": 216334,
+        "topY": 415,
+        "bottomY": 1216,
+        "leftAtWristY": 381,
+        "rightAtWristY": 635,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 650,
+        "cuffCentres": [
+          [
+            337,
+            650
+          ],
+          [
+            674,
+            650
+          ]
+        ],
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": null
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 78 inspected final real-body composites: actual arms emerge below aligned cuff fronts, no separate empty arm holes or body-shaped windows; continuous torso panels, two unchanged arms."
+    },
+    "cloak-08": {
+      "key": "cloak-08",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-08.webp",
+        "sha256": "b5414df3c09caa4f1547f422307eb290fe35b0524fe9ba63bea6ea78d26968dc",
+        "size": [
+          476,
+          936
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          476,
+          936
+        ],
+        "alphaPixels": 281379,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-08.webp",
+        "sha256": "43d934e24758ee09693791b3f41f10f47584c797be2087593e89fbaa7114bfaf",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          476,
+          936
+        ],
+        "sourceControlRows": [
+          0,
+          168,
+          502,
+          932
+        ],
+        "sourceShoulderRowUsed": 168,
+        "sourceCuffRow": 507,
+        "sourceCuffSamplingRow": 502,
+        "sourceCuffBandRows": [
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507
+        ],
+        "sourceHemRowUsed": 932,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.55,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1270
+        ],
+        "structuralBottomRow": 932,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          416
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          239.5,
+          384.0
+        ],
+        "sourceCuffCentres": [
+          40.75,
+          436.25
+        ],
+        "sourceHem": [
+          243.0,
+          275.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            304.0,
+            1270
+          ],
+          [
+            720.0,
+            1270
+          ]
+        ],
+        "silhouette": "long open-front cloak",
+        "designOpening": true,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 271,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          222,
+          415,
+          797,
+          1271
+        ],
+        "alphaPixels": 303030,
+        "topY": 415,
+        "bottomY": 1271,
+        "leftAtWristY": 231,
+        "rightAtWristY": 788,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": 0.9849010989010989
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-08-037f06170b56.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-09": {
+      "key": "cloak-09",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-09.webp",
+        "sha256": "0845e386a7ef67d9e78f2c4fddced70b64596089d19c3e633037dd3b13d72366",
+        "size": [
+          465,
+          861
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          465,
+          861
+        ],
+        "alphaPixels": 279854,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/cloak-09.webp",
+        "sha256": "6f019eaa8d1617d48fd0bab5e2824b43d0709426aef0c188b0c0758cb754a68d",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          465,
+          861
+        ],
+        "sourceControlRows": [
+          0,
+          155,
+          220,
+          855
+        ],
+        "sourceShoulderRowUsed": 155,
+        "sourceCuffRow": 220,
+        "sourceCuffSamplingRow": 220,
+        "sourceCuffBandRows": [
+          220
+        ],
+        "sourceHemRowUsed": 855,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.26,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          690,
+          1230
+        ],
+        "structuralBottomRow": 855,
+        "targetWidths": [
+          360,
+          360,
+          448,
+          404
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          512.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          236.0,
+          347.0
+        ],
+        "sourceCuffCentres": [
+          83.0,
+          385.0
+        ],
+        "sourceHem": [
+          229.0,
+          209.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            288,
+            690
+          ],
+          [
+            736,
+            690
+          ]
+        ],
+        "hem": [
+          [
+            310.0,
+            1230
+          ],
+          [
+            714.0,
+            1230
+          ]
+        ],
+        "silhouette": "short-sleeve closed wrap coat",
+        "designOpening": false,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 0,
+        "sourcePreserved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              350,
+              600
+            ],
+            [
+              665,
+              600
+            ],
+            [
+              512,
+              700
+            ]
+          ],
+          "underlayer": [
+            [
+              319,
+              750
+            ],
+            [
+              710,
+              750
+            ]
+          ]
+        }
+      },
+      "validation": {
+        "alphaBbox": [
+          239,
+          415,
+          795,
+          1231
+        ],
+        "alphaPixels": 344589,
+        "topY": 415,
+        "bottomY": 1231,
+        "leftAtWristY": 305,
+        "rightAtWristY": 725,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 690,
+        "cuffCentres": [
+          [
+            288,
+            690
+          ],
+          [
+            736,
+            690
+          ]
+        ],
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": null
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 78 inspected final real-body composites: actual arms emerge below aligned cuff fronts, no separate empty arm holes or body-shaped windows; continuous torso panels, two unchanged arms."
+    },
+    "cloak-10": {
+      "key": "cloak-10",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-10.webp",
+        "sha256": "9b428ebf70c9131560e634261e3c1739a371e3fe8f39e554104e02d09ca1d731",
+        "size": [
+          457,
+          862
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          457,
+          862
+        ],
+        "alphaPixels": 239573,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-10.webp",
+        "sha256": "2effe9c321d2f027abed15eabc3bc7acd61324b149dc5094f808b99aca5c0be1",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          457,
+          862
+        ],
+        "sourceControlRows": [
+          0,
+          155,
+          408,
+          860
+        ],
+        "sourceShoulderRowUsed": 155,
+        "sourceCuffRow": 413,
+        "sourceCuffSamplingRow": 408,
+        "sourceCuffBandRows": [
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413
+        ],
+        "sourceHemRowUsed": 860,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.5,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1270
+        ],
+        "structuralBottomRow": 860,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          416
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          229.0,
+          335.0
+        ],
+        "sourceCuffCentres": [
+          57.0,
+          399.65
+        ],
+        "sourceHem": [
+          231.5,
+          222.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            304.0,
+            1270
+          ],
+          [
+            720.0,
+            1270
+          ]
+        ],
+        "silhouette": "long open-front cloak",
+        "designOpening": true,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 278,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          206,
+          415,
+          814,
+          1271
+        ],
+        "alphaPixels": 310114,
+        "topY": 415,
+        "bottomY": 1271,
+        "leftAtWristY": 226,
+        "rightAtWristY": 795,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": 1.0
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-10-4f21896015de.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-11": {
+      "key": "cloak-11",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-11.webp",
+        "sha256": "82fb0cf8b462ba09b5fae7dbd5ec660ec92d858e1cb3db0c0af2fbcf9d96a659",
+        "size": [
+          434,
+          867
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          434,
+          867
+        ],
+        "alphaPixels": 288143,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-11.webp",
+        "sha256": "578ec4e8edae68e8c83828792102c0c743c960f749915481db17a999be803351",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          434,
+          867
+        ],
+        "sourceControlRows": [
+          0,
+          156,
+          408,
+          855
+        ],
+        "sourceShoulderRowUsed": 156,
+        "sourceCuffRow": 412,
+        "sourceCuffSamplingRow": 408,
+        "sourceCuffBandRows": [
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412
+        ],
+        "sourceHemRowUsed": 855,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.5,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1260
+        ],
+        "structuralBottomRow": 855,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          364
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          216.0,
+          331.0
+        ],
+        "sourceCuffCentres": [
+          50.15,
+          382.25
+        ],
+        "sourceHem": [
+          217.0,
+          211.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            330.0,
+            1260
+          ],
+          [
+            694.0,
+            1260
+          ]
+        ],
+        "silhouette": "closed long coat",
+        "designOpening": false,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 259,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          213,
+          415,
+          809,
+          1261
+        ],
+        "alphaPixels": 373001,
+        "topY": 415,
+        "bottomY": 1261,
+        "leftAtWristY": 224,
+        "rightAtWristY": 795,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": null
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-11-bcef61b98275.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "cloak-12": {
+      "key": "cloak-12",
+      "category": "cloak",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/cloak-12.webp",
+        "sha256": "6e44ae7e9f6c1ebdb4806da3bcea34cfa884055b1d524c519c6f5dc2e88643a3",
+        "size": [
+          465,
+          932
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          465,
+          932
+        ],
+        "alphaPixels": 324715,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/cloak-12.webp",
+        "sha256": "dc754d31cd4af8d7ae8533c00fea20cbdd758fafe30a075f84ac796fdeecde92",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "piecewise-cloak-control-warp",
+        "sourceBbox": [
+          0,
+          0,
+          465,
+          932
+        ],
+        "sourceControlRows": [
+          0,
+          168,
+          466,
+          925
+        ],
+        "sourceShoulderRowUsed": 168,
+        "sourceCuffRow": 470,
+        "sourceCuffSamplingRow": 466,
+        "sourceCuffBandRows": [
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470
+        ],
+        "sourceHemRowUsed": 925,
+        "sourceControlFractions": [
+          0.0,
+          0.18,
+          0.54,
+          1.0
+        ],
+        "targetControlRows": [
+          415,
+          485,
+          830,
+          1285
+        ],
+        "structuralBottomRow": 925,
+        "targetWidths": [
+          360,
+          360,
+          480,
+          424
+        ],
+        "targetCentres": [
+          512.0,
+          512.0,
+          510.0,
+          512.0
+        ],
+        "sourceShoulder": [
+          226.0,
+          347.0
+        ],
+        "sourceCuffCentres": [
+          44.75,
+          407.9
+        ],
+        "sourceHem": [
+          223.5,
+          216.0
+        ],
+        "collar": [
+          512,
+          415
+        ],
+        "shoulders": [
+          [
+            332,
+            485
+          ],
+          [
+            692,
+            485
+          ]
+        ],
+        "cuffs": [
+          [
+            270,
+            830
+          ],
+          [
+            750,
+            830
+          ]
+        ],
+        "hem": [
+          [
+            300.0,
+            1285
+          ],
+          [
+            724.0,
+            1285
+          ]
+        ],
+        "silhouette": "long closed panel coat",
+        "designOpening": false,
+        "alphaAdjustments": [],
+        "segmentedSleeveWarpRows": 295,
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          211,
+          415,
+          814,
+          1286
+        ],
+        "alphaPixels": 388011,
+        "topY": 415,
+        "bottomY": 1286,
+        "leftAtWristY": 226,
+        "rightAtWristY": 797,
+        "collarY": 415,
+        "shoulderY": 485,
+        "cuffY": 830,
+        "cuffWindowsPresent": [
+          true,
+          true
+        ],
+        "openingCenterTransparent": true,
+        "openingCenterTransparentFraction": null
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/cloak-12-c6ab8cee3b46.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-01": {
+      "key": "pants-01",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-01.webp",
+        "sha256": "d5baefca94bc326d452664cfe0ad5785e8bba581bebd96ee6deedd5255ab95f4",
+        "size": [
+          702,
+          1532
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          702,
+          1532
+        ],
+        "alphaPixels": 814522,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-01.webp",
+        "sha256": "f7c1e108c07a12e93813314df6532ede75d83fa33706fba55f4130fd01a8ea39",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          702,
+          1532
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          349.5,
+          514.0
+        ],
+        "rawCuffCentres": [
+          142.73594775385982,
+          559.068433550608
+        ],
+        "horizontalScale": [
+          0.5544747081712063,
+          0.7133721487806123
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          265,
+          806,
+          763,
+          1354
+        ],
+        "alphaPixels": 187125,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 376,
+        "rightAtWristY": 643,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-01-f7c1e108c07a.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-02": {
+      "key": "pants-02",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-02.webp",
+        "sha256": "7bf9b91a77c73d39c20299c51d3cc39a692acd9318d6c6ab2c09a95e21d1f4ff",
+        "size": [
+          362,
+          851
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          362,
+          851
+        ],
+        "alphaPixels": 245152,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-02.webp",
+        "sha256": "3f22b4fe1215fa74461c90f9adf69bc223076a9660da93f70cfa4786f71d9f92",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          362,
+          851
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          181.0,
+          293.0
+        ],
+        "rawCuffCentres": [
+          70.88792667154023,
+          292.2146043000915
+        ],
+        "horizontalScale": [
+          0.9726962457337884,
+          1.3419078223297147
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          271,
+          806,
+          754,
+          1354
+        ],
+        "alphaPixels": 185458,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 375,
+        "rightAtWristY": 647,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-02-3f22b4fe1215.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-03": {
+      "key": "pants-03",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-03.webp",
+        "sha256": "a205e976bdd798bad2f1051560045e303507b346da766dbb88280e3b50488f4a",
+        "size": [
+          345,
+          849
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          345,
+          849
+        ],
+        "alphaPixels": 238804,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-03.webp",
+        "sha256": "b7f13bc95834907634bc4f3fae011fd4d3c87c2fded3fe6ab649d0401559c4c2",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          345,
+          849
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          172.0,
+          303.0
+        ],
+        "rawCuffCentres": [
+          68.62835603756118,
+          276.8071621710743
+        ],
+        "horizontalScale": [
+          0.9405940594059405,
+          1.4266581959814024
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          280,
+          806,
+          748,
+          1354
+        ],
+        "alphaPixels": 184567,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 374,
+        "rightAtWristY": 647,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-03-b7f13bc95834.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-04": {
+      "key": "pants-04",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-04.webp",
+        "sha256": "515019566b27f531d14da717ea61f7eb01871c7b1f2b79df9657161690362474",
+        "size": [
+          377,
+          857
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          377,
+          857
+        ],
+        "alphaPixels": 264639,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-04.webp",
+        "sha256": "4b50c4aacfccc3267753452f5889eb1bc0474653e134881ecc787f777e4268ed",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          377,
+          857
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          187.0,
+          301.0
+        ],
+        "rawCuffCentres": [
+          76.7921926489227,
+          298.66197325258645
+        ],
+        "horizontalScale": [
+          0.946843853820598,
+          1.338623039117458
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          264,
+          806,
+          764,
+          1354
+        ],
+        "alphaPixels": 196812,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 375,
+        "rightAtWristY": 644,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-04-4b50c4aacfcc.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-05": {
+      "key": "pants-05",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-05.webp",
+        "sha256": "648cc7a38118777af74f3caf2c12a4569744ce97a669c588b73d164944af30b6",
+        "size": [
+          390,
+          871
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          390,
+          871
+        ],
+        "alphaPixels": 261225,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-05.webp",
+        "sha256": "5b080ebc3fa39b62fee944e0e91cf9b9ec075bc431b0b5237b5946e7b8566d2c",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          390,
+          871
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          196.0,
+          297.0
+        ],
+        "rawCuffCentres": [
+          75.82795040563295,
+          313.022915924021
+        ],
+        "horizontalScale": [
+          0.9595959595959596,
+          1.2521345018892305
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          272,
+          806,
+          756,
+          1354
+        ],
+        "alphaPixels": 184496,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 377,
+        "rightAtWristY": 643,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-05-5b080ebc3fa3.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-06": {
+      "key": "pants-06",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/clothing-raw/pants-06-raw.png",
+        "sha256": "67222fb0a872f3c23a357c3c13da07d3c5a4de18db856df83bdab34006f5bb07",
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaBbox": [
+          147,
+          113,
+          895,
+          1450
+        ],
+        "alphaPixels": 662823,
+        "kind": "raw-api-candidate"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-06.webp",
+        "sha256": "26ca45b62d8495aa40278515caab649849f3cc1768c7916abbb700b14cfd2797",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          147,
+          113,
+          895,
+          1450
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          365.5,
+          482.0
+        ],
+        "rawCuffCentres": [
+          137.53734111720718,
+          608.9495651506134
+        ],
+        "horizontalScale": [
+          0.5912863070539419,
+          0.6300218468220149
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          279,
+          806,
+          749,
+          1353
+        ],
+        "alphaPixels": 166577,
+        "topY": 806,
+        "bottomY": 1353,
+        "leftAtWristY": 381,
+        "rightAtWristY": 638,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-06-26ca45b62d84.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-07": {
+      "key": "pants-07",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-07.webp",
+        "sha256": "f092ec8f3843db796e9508bde4a4035b85c8e92fd6e4a7b286764de57efa83b4",
+        "size": [
+          388,
+          872
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          388,
+          872
+        ],
+        "alphaPixels": 258188,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-07.webp",
+        "sha256": "0de0e2d44d840f93c117519f4c84028bcfa2bd1033667607d7f93da35d6e31cd",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          388,
+          872
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          195.5,
+          296.0
+        ],
+        "rawCuffCentres": [
+          75.58119266055046,
+          310.9509933103588
+        ],
+        "horizontalScale": [
+          0.9628378378378378,
+          1.2618441243525855
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          271,
+          806,
+          757,
+          1354
+        ],
+        "alphaPixels": 183274,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 376,
+        "rightAtWristY": 645,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-07-0de0e2d44d84.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-08": {
+      "key": "pants-08",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-08.webp",
+        "sha256": "d0e5936e74d69c27389394ef66d09b717c9cb7b828b135cbc4d3939c82b095c1",
+        "size": [
+          388,
+          871
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          388,
+          871
+        ],
+        "alphaPixels": 259964,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-08.webp",
+        "sha256": "c53888211fa79707c14b8a22029497b8cd2ca6056687031088606b1bb8bd3aef",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          388,
+          871
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          192.5,
+          294.0
+        ],
+        "rawCuffCentres": [
+          75.31722378157693,
+          310.4069896823791
+        ],
+        "horizontalScale": [
+          0.9693877551020408,
+          1.2633472106366437
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          271,
+          806,
+          758,
+          1354
+        ],
+        "alphaPixels": 185405,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 376,
+        "rightAtWristY": 643,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-08-c53888211fa7.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-09": {
+      "key": "pants-09",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-09.webp",
+        "sha256": "dec32b5dc851c29fd494864ee9f25849e45e30a2a185f82a71692b93ce328e87",
+        "size": [
+          386,
+          863
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          386,
+          863
+        ],
+        "alphaPixels": 249585,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-09.webp",
+        "sha256": "d46784edf579952fe78d4aea08700503a29bc699c063418a39950401051eb019",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          386,
+          863
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          195.0,
+          295.0
+        ],
+        "rawCuffCentres": [
+          76.57682122643959,
+          308.49844527363183
+        ],
+        "horizontalScale": [
+          0.9661016949152542,
+          1.280605037241225
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          268,
+          806,
+          759,
+          1354
+        ],
+        "alphaPixels": 180927,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 377,
+        "rightAtWristY": 644,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-09-d46784edf579.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-10": {
+      "key": "pants-10",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-10.webp",
+        "sha256": "76e9779bd9380df29a2f87ddb7fb1933b7ad1ff3e2b677f72f6512d912decc46",
+        "size": [
+          386,
+          864
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          386,
+          864
+        ],
+        "alphaPixels": 252301,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-10.webp",
+        "sha256": "f448c8522e9e14c841e28eee234b30b8c567f26ab7c62cef1aa29bbfcc434a51",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          386,
+          864
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          192.5,
+          298.0
+        ],
+        "rawCuffCentres": [
+          76.04833650434514,
+          308.2102034556794
+        ],
+        "horizontalScale": [
+          0.9563758389261745,
+          1.2792798571966046
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          269,
+          806,
+          759,
+          1354
+        ],
+        "alphaPixels": 181732,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 377,
+        "rightAtWristY": 645,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-10-f448c8522e9e.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-11": {
+      "key": "pants-11",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/pants-11.webp",
+        "sha256": "b9acd23ea44fc67ebe1050e0b34cac3cd2964e7570ca9ffb0d8ae58e094eab27",
+        "size": [
+          389,
+          865
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          389,
+          865
+        ],
+        "alphaPixels": 252248,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-11.webp",
+        "sha256": "af3388e4b20a2312b8efd9abde13fdef3bf2ebd6df2e7a92458e9cc7825fe7a8",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          0,
+          0,
+          389,
+          865
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          195.0,
+          293.0
+        ],
+        "rawCuffCentres": [
+          74.90714548609286,
+          312.4260252365931
+        ],
+        "horizontalScale": [
+          0.9726962457337884,
+          1.250426914744551
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          273,
+          806,
+          756,
+          1354
+        ],
+        "alphaPixels": 180255,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 378,
+        "rightAtWristY": 642,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-11-af3388e4b20a.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "pants-12": {
+      "key": "pants-12",
+      "category": "pants",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/clothing-raw/pants-12-raw.png",
+        "sha256": "16c44de3c70ccad81010e2c02a97ca3b961f50855345aee0e3a78e7d1edd0edf",
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaBbox": [
+          171,
+          81,
+          855,
+          1486
+        ],
+        "alphaPixels": 686977,
+        "kind": "raw-api-candidate"
+      },
+      "output": {
+        "path": "scripts/art-sources/field-release/assets/doll/rigged/clothing/pants-12.webp",
+        "sha256": "dd3ff4afd1757e6e29c8079a13db6db4a3610c4daca06c1746efad5e57dd6772",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "raw-garment-hip-ankle-registration",
+        "sourceBbox": [
+          171,
+          81,
+          855,
+          1486
+        ],
+        "waistY": 806,
+        "ankleY": 1354,
+        "waistWidth": 285,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "rawWaist": [
+          341.5,
+          468.0
+        ],
+        "rawCuffCentres": [
+          133.74027192611263,
+          548.4055949190499
+        ],
+        "horizontalScale": [
+          0.6089743589743589,
+          0.7162402630061704
+        ],
+        "sourcePreserved": true
+      },
+      "validation": {
+        "alphaBbox": [
+          270,
+          806,
+          758,
+          1354
+        ],
+        "alphaPixels": 179065,
+        "topY": 806,
+        "bottomY": 1354,
+        "leftAtWristY": 382,
+        "rightAtWristY": 638,
+        "hipY": 806,
+        "ankleY": 1354,
+        "ankleCentres": [
+          365,
+          662
+        ],
+        "basePantsUnderlay": false
+      },
+      "archiveOfPreviousOutput": "scripts/art-sources/field-release/assets/doll/rigged/clothing/candidate-archive/pants-12-dd3ff4afd175.webp",
+      "review": "visual-review-passed",
+      "reviewNote": "Parent inspected final twelve-item cloak, vest and pants contact sheets on the actual fixed body and six-character cheap/high-tier browser compositions. Two hands, attached sleeve cuffs, intended short sleeves, matte materials, separate trouser legs and boots-only paid-pants underlays accepted."
+    },
+    "vest-01": {
+      "key": "vest-01",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-01.webp",
+        "sha256": "7cf3957a57ac878966b9c22ea8e9cff040ad4be6ce5078e274a5ce6416a7957e",
+        "size": [
+          405,
+          679
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          405,
+          679
+        ],
+        "alphaPixels": 238934,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-01.webp",
+        "sha256": "a5a661d543bce2841f9d2341a3eec92c0eaeaba09d70232f926ab5ef4291cf81",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          405,
+          679
+        ],
+        "sourceCropSize": [
+          405,
+          679
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.7,
+            0.1
+          ],
+          [
+            0.64,
+            0.19
+          ],
+          [
+            0.55,
+            0.31
+          ],
+          [
+            0.5,
+            0.4
+          ],
+          [
+            0.45,
+            0.31
+          ],
+          [
+            0.36,
+            0.19
+          ],
+          [
+            0.3,
+            0.1
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          461,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          461,
+          653,
+          830
+        ],
+        "alphaPixels": 80198,
+        "topY": 461,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-02": {
+      "key": "vest-02",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-02.webp",
+        "sha256": "b3a05dcac98e718a0874597f8e80a7a025e0fded971599ae9e90ff78e696dcf0",
+        "size": [
+          380,
+          647
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          380,
+          647
+        ],
+        "alphaPixels": 195077,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-02.webp",
+        "sha256": "718e6192c4d3f2ed40ee4c3ed06d4005ea052b19cc2e4151cc354c2fa875057b",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          380,
+          647
+        ],
+        "sourceCropSize": [
+          380,
+          647
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.3,
+            0.0
+          ],
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.66,
+            0.14
+          ],
+          [
+            0.59,
+            0.28
+          ],
+          [
+            0.55,
+            0.46
+          ],
+          [
+            0.5,
+            0.68
+          ],
+          [
+            0.47,
+            0.88
+          ],
+          [
+            0.43,
+            0.88
+          ],
+          [
+            0.42,
+            0.68
+          ],
+          [
+            0.43,
+            0.46
+          ],
+          [
+            0.4,
+            0.28
+          ],
+          [
+            0.34,
+            0.14
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          461,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          461,
+          653,
+          830
+        ],
+        "alphaPixels": 63259,
+        "topY": 461,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-03": {
+      "key": "vest-03",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-03.webp",
+        "sha256": "1f3f87ed009936becca9d6e31d6abeb7076c66431b668186768552e99a6eb255",
+        "size": [
+          426,
+          662
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          426,
+          662
+        ],
+        "alphaPixels": 230500,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-03.webp",
+        "sha256": "409bdc7650e8edbb217f2942f7f5c44bf462d846233eece1916d3b274b7ce23a",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          426,
+          662
+        ],
+        "sourceCropSize": [
+          426,
+          662
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            456,
+            568
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            456.0,
+            568.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.3,
+            0.0
+          ],
+          [
+            0.7,
+            0.0
+          ],
+          [
+            0.7,
+            0.08
+          ],
+          [
+            0.62,
+            0.15
+          ],
+          [
+            0.54,
+            0.2
+          ],
+          [
+            0.5,
+            0.22
+          ],
+          [
+            0.46,
+            0.2
+          ],
+          [
+            0.38,
+            0.15
+          ],
+          [
+            0.3,
+            0.08
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            425,
+            448
+          ],
+          [
+            599,
+            448
+          ],
+          [
+            580,
+            470
+          ],
+          [
+            565,
+            490
+          ],
+          [
+            512,
+            558
+          ],
+          [
+            455,
+            490
+          ],
+          [
+            445,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          475,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          475,
+          653,
+          830
+        ],
+        "alphaPixels": 81014,
+        "topY": 475,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-04": {
+      "key": "vest-04",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-04.webp",
+        "sha256": "be0c3a41fb47d8105996103a6855387e99a8d629585baba4d401ed709f3410dc",
+        "size": [
+          404,
+          667
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          404,
+          667
+        ],
+        "alphaPixels": 221845,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-04.webp",
+        "sha256": "3a7a40c972bc594ee162e7f2097d4e9a6aa8062efec5b18a93b82988b594973b",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          404,
+          667
+        ],
+        "sourceCropSize": [
+          404,
+          667
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.72,
+            0.0
+          ],
+          [
+            0.7,
+            0.11
+          ],
+          [
+            0.64,
+            0.2
+          ],
+          [
+            0.53,
+            0.34
+          ],
+          [
+            0.49,
+            0.42
+          ],
+          [
+            0.45,
+            0.34
+          ],
+          [
+            0.36,
+            0.2
+          ],
+          [
+            0.3,
+            0.11
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          460,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          460,
+          653,
+          830
+        ],
+        "alphaPixels": 79319,
+        "topY": 460,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-05": {
+      "key": "vest-05",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-05.webp",
+        "sha256": "54e9fe45f266418289148a13cee8eaee9515fd0ca008d13bf45917721361cca2",
+        "size": [
+          423,
+          755
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          423,
+          755
+        ],
+        "alphaPixels": 251218,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-05.webp",
+        "sha256": "7ba1cf977b34789dd6086d56c868d1d643c2219c764c0d587f1e52ddb4aa6eea",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          423,
+          755
+        ],
+        "sourceCropSize": [
+          423,
+          755
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            456,
+            568
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            456.0,
+            568.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.68,
+            0.045
+          ],
+          [
+            0.59,
+            0.075
+          ],
+          [
+            0.54,
+            0.1
+          ],
+          [
+            0.52,
+            0.18
+          ],
+          [
+            0.43,
+            0.18
+          ],
+          [
+            0.41,
+            0.1
+          ],
+          [
+            0.34,
+            0.075
+          ],
+          [
+            0.3,
+            0.045
+          ]
+        ],
+        "openingSourceKind": "closed-collar-cavity",
+        "neckCleanupTargetPolygon": null,
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          464,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          464,
+          653,
+          830
+        ],
+        "alphaPixels": 83336,
+        "topY": 464,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-06": {
+      "key": "vest-06",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-06.webp",
+        "sha256": "edd2579b961bf8daa54693d4b752ed9683a16c247fb1d24d2374149f499d02e1",
+        "size": [
+          434,
+          703
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          434,
+          703
+        ],
+        "alphaPixels": 263945,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-06.webp",
+        "sha256": "75d55876f6c772d1606d3d16f2a6043aac683f45da0b09ed56c84eb48097a2e0",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          434,
+          703
+        ],
+        "sourceCropSize": [
+          434,
+          703
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.71,
+            0.11
+          ],
+          [
+            0.64,
+            0.18
+          ],
+          [
+            0.55,
+            0.26
+          ],
+          [
+            0.5,
+            0.38
+          ],
+          [
+            0.45,
+            0.26
+          ],
+          [
+            0.36,
+            0.18
+          ],
+          [
+            0.29,
+            0.11
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          463,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          463,
+          653,
+          830
+        ],
+        "alphaPixels": 81353,
+        "topY": 463,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-07": {
+      "key": "vest-07",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-07.webp",
+        "sha256": "dbfa70b13ef13e5d785f0a5fae88e54d9d036b8a82a5670ab91ba5afbd97050e",
+        "size": [
+          444,
+          733
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          444,
+          733
+        ],
+        "alphaPixels": 258547,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-07.webp",
+        "sha256": "03fceae160ee6e6ee7a0fa4d601c2d3da72172168ae76d19ee4f8bc827cead8b",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          444,
+          733
+        ],
+        "sourceCropSize": [
+          444,
+          733
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            456,
+            568
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            456.0,
+            568.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.68,
+            0.045
+          ],
+          [
+            0.59,
+            0.075
+          ],
+          [
+            0.54,
+            0.1
+          ],
+          [
+            0.52,
+            0.18
+          ],
+          [
+            0.43,
+            0.18
+          ],
+          [
+            0.41,
+            0.1
+          ],
+          [
+            0.34,
+            0.075
+          ],
+          [
+            0.3,
+            0.045
+          ]
+        ],
+        "openingSourceKind": "closed-collar-cavity",
+        "neckCleanupTargetPolygon": null,
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          467,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          467,
+          653,
+          830
+        ],
+        "alphaPixels": 85451,
+        "topY": 467,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-08": {
+      "key": "vest-08",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-08.webp",
+        "sha256": "b3bfe99db5e9bb6073f7cd929ac29fe9eb744b04a48e094a2c6b5a171d337b34",
+        "size": [
+          436,
+          771
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          436,
+          771
+        ],
+        "alphaPixels": 280422,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-08.webp",
+        "sha256": "1784e7b6d77d6cf5e5f25526151838c584100e22d5bf9728940d3c89d6e2c026",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          436,
+          771
+        ],
+        "sourceCropSize": [
+          436,
+          771
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            456,
+            568
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            456.0,
+            568.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.68,
+            0.045
+          ],
+          [
+            0.59,
+            0.075
+          ],
+          [
+            0.54,
+            0.1
+          ],
+          [
+            0.52,
+            0.18
+          ],
+          [
+            0.43,
+            0.18
+          ],
+          [
+            0.41,
+            0.1
+          ],
+          [
+            0.34,
+            0.075
+          ],
+          [
+            0.3,
+            0.045
+          ]
+        ],
+        "openingSourceKind": "closed-collar-cavity",
+        "neckCleanupTargetPolygon": null,
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          462,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          462,
+          653,
+          830
+        ],
+        "alphaPixels": 85017,
+        "topY": 462,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-09": {
+      "key": "vest-09",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-09.webp",
+        "sha256": "51d57bea2eac4e33ed10c443fb3de6620b9f0aff9ca8a30056957baba2d136b4",
+        "size": [
+          405,
+          721
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          405,
+          721
+        ],
+        "alphaPixels": 232453,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-09.webp",
+        "sha256": "9fac55f16152df56da4bc27efc73e704e0ed0f2d1411afabf965f3f25d15d1ae",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          405,
+          721
+        ],
+        "sourceCropSize": [
+          405,
+          721
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.34,
+            0.0
+          ],
+          [
+            0.67,
+            0.0
+          ],
+          [
+            0.67,
+            0.11
+          ],
+          [
+            0.61,
+            0.18
+          ],
+          [
+            0.56,
+            0.29
+          ],
+          [
+            0.51,
+            0.41
+          ],
+          [
+            0.47,
+            0.3
+          ],
+          [
+            0.4,
+            0.18
+          ],
+          [
+            0.34,
+            0.11
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          467,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          467,
+          653,
+          830
+        ],
+        "alphaPixels": 78822,
+        "topY": 467,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-10": {
+      "key": "vest-10",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-10.webp",
+        "sha256": "b19764f212f7b162fdb05640a9d3f760696cb27adb4690e3fb6a5be121f81b5a",
+        "size": [
+          430,
+          716
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          430,
+          716
+        ],
+        "alphaPixels": 265189,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-10.webp",
+        "sha256": "221e6450fc19b81a1957665eaefdee999291c758f39d23d51a643aa39dd968dd",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          430,
+          716
+        ],
+        "sourceCropSize": [
+          430,
+          716
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.34,
+            0.0
+          ],
+          [
+            0.67,
+            0.0
+          ],
+          [
+            0.67,
+            0.11
+          ],
+          [
+            0.61,
+            0.18
+          ],
+          [
+            0.56,
+            0.29
+          ],
+          [
+            0.51,
+            0.41
+          ],
+          [
+            0.47,
+            0.3
+          ],
+          [
+            0.4,
+            0.18
+          ],
+          [
+            0.34,
+            0.11
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          467,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          467,
+          653,
+          830
+        ],
+        "alphaPixels": 82016,
+        "topY": 467,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-11": {
+      "key": "vest-11",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-11.webp",
+        "sha256": "bbead2f5998c5a2f583a57289629da7c04faa52ad8681cbfe1bdb42544cd8a7d",
+        "size": [
+          424,
+          731
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          424,
+          731
+        ],
+        "alphaPixels": 245087,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-11.webp",
+        "sha256": "d46b950d2d52a51358b6bb41d208598b53e12afe6b8620f63c8443be76a193e2",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          424,
+          731
+        ],
+        "sourceCropSize": [
+          424,
+          731
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            456,
+            568
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            456.0,
+            568.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.71,
+            0.08
+          ],
+          [
+            0.63,
+            0.14
+          ],
+          [
+            0.56,
+            0.18
+          ],
+          [
+            0.5,
+            0.21
+          ],
+          [
+            0.44,
+            0.18
+          ],
+          [
+            0.37,
+            0.14
+          ],
+          [
+            0.29,
+            0.08
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            425,
+            448
+          ],
+          [
+            599,
+            448
+          ],
+          [
+            580,
+            470
+          ],
+          [
+            565,
+            490
+          ],
+          [
+            512,
+            585
+          ],
+          [
+            455,
+            490
+          ],
+          [
+            445,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          474,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          474,
+          653,
+          830
+        ],
+        "alphaPixels": 79047,
+        "topY": 474,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    },
+    "vest-12": {
+      "key": "vest-12",
+      "category": "vest",
+      "source": {
+        "path": "scripts/art-sources/field-wardrobe/designs/vest-12.webp",
+        "sha256": "21dc3793cab05ff9e2f92d2cad83da1bdb77479853ffcf90700dd34d3c3d4671",
+        "size": [
+          441,
+          754
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          441,
+          754
+        ],
+        "alphaPixels": 287321,
+        "kind": "isolated-field-master"
+      },
+      "output": {
+        "path": "scripts/art-sources/fit-correction/regeneration/vest-12.webp",
+        "sha256": "731911002bb71e6d8ddb7ad965bcf72824005de93e1b7a86ef0dc0ecf3ffeac6",
+        "size": [
+          1024,
+          1536
+        ]
+      },
+      "registration": {
+        "method": "torso-conforming-piecewise-source-warp",
+        "sourceBbox": [
+          0,
+          0,
+          441,
+          754
+        ],
+        "sourceCropSize": [
+          441,
+          754
+        ],
+        "targetTopY": 452,
+        "targetHemY": 830,
+        "targetProfile": [
+          [
+            0.0,
+            435,
+            590
+          ],
+          [
+            0.08,
+            393,
+            629
+          ],
+          [
+            0.15,
+            374,
+            644
+          ],
+          [
+            0.25,
+            380,
+            641
+          ],
+          [
+            0.4,
+            393,
+            627
+          ],
+          [
+            0.55,
+            393,
+            623
+          ],
+          [
+            0.7,
+            390,
+            628
+          ],
+          [
+            0.82,
+            380,
+            640
+          ],
+          [
+            0.94,
+            369,
+            652
+          ],
+          [
+            1.0,
+            377,
+            645
+          ]
+        ],
+        "targetWidthsByControl": [
+          [
+            435.0,
+            590.0
+          ],
+          [
+            393.0,
+            629.0
+          ],
+          [
+            374.0,
+            644.0
+          ],
+          [
+            380.0,
+            641.0
+          ],
+          [
+            393.0,
+            627.0
+          ],
+          [
+            393.0,
+            623.0
+          ],
+          [
+            390.0,
+            628.0
+          ],
+          [
+            380.0,
+            640.0
+          ],
+          [
+            369.0,
+            652.0
+          ],
+          [
+            377.0,
+            645.0
+          ]
+        ],
+        "neckAnchor": [
+          512,
+          466
+        ],
+        "shoulderRoots": [
+          [
+            390,
+            520
+          ],
+          [
+            638,
+            520
+          ]
+        ],
+        "armholeRoots": [
+          [
+            386,
+            620
+          ],
+          [
+            638,
+            620
+          ]
+        ],
+        "sideSeams": [
+          [
+            397,
+            650
+          ],
+          [
+            616,
+            650
+          ]
+        ],
+        "waistHem": [
+          [
+            380,
+            829
+          ],
+          [
+            644,
+            829
+          ]
+        ],
+        "openingSourcePolygonNormalized": [
+          [
+            0.29,
+            0.0
+          ],
+          [
+            0.71,
+            0.0
+          ],
+          [
+            0.71,
+            0.13
+          ],
+          [
+            0.65,
+            0.22
+          ],
+          [
+            0.56,
+            0.32
+          ],
+          [
+            0.51,
+            0.42
+          ],
+          [
+            0.47,
+            0.32
+          ],
+          [
+            0.35,
+            0.22
+          ],
+          [
+            0.29,
+            0.13
+          ]
+        ],
+        "openingSourceKind": "front-opening",
+        "neckCleanupTargetPolygon": [
+          [
+            445,
+            448
+          ],
+          [
+            579,
+            448
+          ],
+          [
+            560,
+            470
+          ],
+          [
+            545,
+            490
+          ],
+          [
+            512,
+            492
+          ],
+          [
+            479,
+            490
+          ],
+          [
+            464,
+            470
+          ]
+        ],
+        "armholeInteriorRemoved": true,
+        "fitProbes": {
+          "fabric": [
+            [
+              390,
+              520
+            ],
+            [
+              638,
+              520
+            ],
+            [
+              405,
+              650
+            ],
+            [
+              610,
+              650
+            ]
+          ],
+          "underlayer": [
+            [
+              375,
+              570
+            ],
+            [
+              650,
+              570
+            ],
+            [
+              512,
+              500
+            ]
+          ]
+        },
+        "sourcePixelsOnly": true,
+        "newBodyPixels": false,
+        "sourcePreserved": true,
+        "targetAlphaBbox": [
+          369,
+          465,
+          653,
+          830
+        ],
+        "registeredRows": 378
+      },
+      "validation": {
+        "alphaBbox": [
+          369,
+          465,
+          653,
+          830
+        ],
+        "alphaPixels": 78070,
+        "topY": 465,
+        "bottomY": 830,
+        "leftAtWristY": 376,
+        "rightAtWristY": 646,
+        "collarY": 466,
+        "torsoHemY": 830
+      },
+      "archiveOfPreviousOutput": null,
+      "review": "visual-review-passed",
+      "reviewNote": "Parent and independent review 77 inspected all twelve torso fits: attached shoulders, individually preserved front/collar designs, no floating collar/shoulder bars, real undershirt visible through intended openings. Source front-panel controls replace the former fixed rectangle."
+    }
+  },
+  "qa": {
+    "vest": "/tmp/paper-doll-qa/field-release-clothing/field-release-vest.png",
+    "cloak": "/tmp/paper-doll-qa/field-release-clothing/field-release-cloak.png",
+    "pants": "/tmp/paper-doll-qa/field-release-clothing/field-release-pants.png",
+    "prototype": "/tmp/paper-doll-qa/field-release-clothing/field-clothing-prototype.png"
+  }
+}
